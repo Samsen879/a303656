@@ -1,0 +1,8 @@
+{
+  "audit_artifact_count": 2,
+  "policy": "Raw bytes immutable; any repair is a new derivative with explicit map and new SHA256.",
+  "raw_artifact_count": 19,
+  "repaired_derivative_count": 0,
+  "schema": "a303656-raw-repaired-lineage-v1",
+  "silent_repairs": 0
+}

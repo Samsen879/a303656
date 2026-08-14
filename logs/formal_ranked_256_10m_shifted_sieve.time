@@ -1,0 +1,24 @@
+Command exited with non-zero status 1
+	Command being timed: "bin/search_shifted_sieve --low 240000000001 --high 240010000000 --C 23 --D 16 --primes output/primes_ranked_256.txt --window 10000000 --prefix-shifts 64 --json output/formal_ranked_256_10m_shifted_sieve.json --quiet"
+	User time (seconds): 0.16
+	System time (seconds): 0.02
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8704
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 0
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

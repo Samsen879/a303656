@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "schema": "a303656-master-v2-final-freeze-recursive-validation-v1",
+  "statistics": {
+    "logical_control_defect_count": 12,
+    "nested_manifest_mismatch_count": 20,
+    "outer_file_count": 273,
+    "phase0_physical_control_occurrence_count": 48,
+    "physical_control_occurrence_count_in_candidate": 20,
+    "repaired_derivative_count": 0
+  },
+  "validator_scope": "Artifact, ledger, custody, manifest, recursive archive, explicit N-004/N-009 scope guards, and governance consistency; not independent proof validation.",
+  "verdict": "PASS",
+  "warnings": []
+}

@@ -1,0 +1,1200 @@
+===== CLEAN SUBCHUNK 00_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.29738
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.33134
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.22722
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.4073
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.32338
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.25616
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=14
+candidate_count=0
+elapsed_seconds=1.307
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.39231
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.42586
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.23119
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.25687
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.33182
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.38272
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.4571
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=16
+candidate_count=0
+elapsed_seconds=1.27435
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.32869
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=15
+candidate_count=0
+elapsed_seconds=1.28378
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.44683
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.57508
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 00_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=36
+candidate_count=0
+elapsed_seconds=1.89761
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.45967
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=17
+candidate_count=0
+elapsed_seconds=1.57081
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.41081
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.70035
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.27785
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=33
+candidate_count=0
+elapsed_seconds=1.6433
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=34
+candidate_count=0
+elapsed_seconds=1.61985
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=19
+candidate_count=0
+elapsed_seconds=1.72168
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.75758
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.63679
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.68582
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=18
+candidate_count=0
+elapsed_seconds=1.86025
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=17
+candidate_count=0
+elapsed_seconds=1.77707
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.46681
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.20524
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.21363
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.26173
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.33534
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.48723
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 01_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.22689
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.3797
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.40646
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.26755
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.49147
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.45478
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.44554
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.35506
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.23908
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=34
+candidate_count=0
+elapsed_seconds=1.53942
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=18
+candidate_count=0
+elapsed_seconds=1.34608
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.24924
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.2863
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.26193
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.25677
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=36
+candidate_count=0
+elapsed_seconds=1.23551
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.23979
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.29638
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.3202
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.24192
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 02_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.22808
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.50111
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.40668
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=33
+candidate_count=0
+elapsed_seconds=1.27818
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.30005
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.23284
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.22506
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.18527
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.26628
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.38117
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.33279
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.36627
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=36
+candidate_count=0
+elapsed_seconds=1.29448
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.6275
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.33569
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.36704
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.27445
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.20723
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.25644
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.27667
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 03_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.23714
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=33
+candidate_count=0
+elapsed_seconds=2.56869
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.31454
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.28642
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.2809
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=41
+candidate_count=0
+elapsed_seconds=1.29654
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.2761
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=19
+candidate_count=0
+elapsed_seconds=1.22423
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.26906
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.27381
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.265
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.28802
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.28997
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.25346
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.25888
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.30297
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.25008
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=17
+candidate_count=0
+elapsed_seconds=1.22151
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.23282
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.23868
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 04_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.25709
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=16
+candidate_count=0
+elapsed_seconds=1.20448
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=35
+candidate_count=0
+elapsed_seconds=1.26284
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.29986
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.2545
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.45604
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.33941
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.29569
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.34296
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.28119
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.28004
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.25742
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.28729
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.27765
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.24137
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.57341
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.36546
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.32459
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.27456
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.24446
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 05_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.33033
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.39548
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=18
+candidate_count=0
+elapsed_seconds=1.40414
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.4085
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.37981
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=18
+candidate_count=0
+elapsed_seconds=1.34616
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.31512
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.3415
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=35
+candidate_count=0
+elapsed_seconds=1.26074
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=19
+candidate_count=0
+elapsed_seconds=1.20898
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.23631
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.23014
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=18
+candidate_count=0
+elapsed_seconds=1.22362
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.24352
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.20716
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.2169
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.1973
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.20447
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.21673
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.28981
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 06_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.26967
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=37
+candidate_count=0
+elapsed_seconds=1.36565
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.47281
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.35608
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.30573
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=15
+candidate_count=0
+elapsed_seconds=1.20926
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=35
+candidate_count=0
+elapsed_seconds=1.2863
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.26369
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=15
+candidate_count=0
+elapsed_seconds=1.29613
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.29695
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=33
+candidate_count=0
+elapsed_seconds=1.40587
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.27218
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=17
+candidate_count=0
+elapsed_seconds=1.33771
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=40
+candidate_count=0
+elapsed_seconds=1.28615
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.22319
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.25926
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=16
+candidate_count=0
+elapsed_seconds=1.24101
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.26606
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.24838
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.24528
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 07_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.25695
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=37
+candidate_count=0
+elapsed_seconds=1.22266
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.33333
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=35
+candidate_count=0
+elapsed_seconds=1.46541
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.35849
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.3889
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.31442
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.31223
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.24313
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=27
+candidate_count=0
+elapsed_seconds=1.2639
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.26539
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.25039
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.26029
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.24909
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=34
+candidate_count=0
+elapsed_seconds=1.27174
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.26805
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=22
+candidate_count=0
+elapsed_seconds=1.26024
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=30
+candidate_count=0
+elapsed_seconds=1.25987
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=17
+candidate_count=0
+elapsed_seconds=1.21085
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.19109
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 08_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.5606
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_00 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.50722
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_01 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.37127
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_02 =====
+integers_tested=5000000
+survivors_after_prefix_total=31
+candidate_count=0
+elapsed_seconds=1.5405
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_03 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.27801
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_04 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.2538
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_05 =====
+integers_tested=5000000
+survivors_after_prefix_total=24
+candidate_count=0
+elapsed_seconds=1.19847
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_06 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.41707
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_07 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.29565
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_08 =====
+integers_tested=5000000
+survivors_after_prefix_total=20
+candidate_count=0
+elapsed_seconds=1.27966
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_09 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.25058
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_10 =====
+integers_tested=5000000
+survivors_after_prefix_total=29
+candidate_count=0
+elapsed_seconds=1.26219
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_11 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.37321
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_12 =====
+integers_tested=5000000
+survivors_after_prefix_total=19
+candidate_count=0
+elapsed_seconds=1.26674
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_13 =====
+integers_tested=5000000
+survivors_after_prefix_total=21
+candidate_count=0
+elapsed_seconds=1.22393
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_14 =====
+integers_tested=5000000
+survivors_after_prefix_total=16
+candidate_count=0
+elapsed_seconds=1.21938
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_15 =====
+integers_tested=5000000
+survivors_after_prefix_total=26
+candidate_count=0
+elapsed_seconds=1.31387
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_16 =====
+integers_tested=5000000
+survivors_after_prefix_total=23
+candidate_count=0
+elapsed_seconds=1.20729
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_17 =====
+integers_tested=5000000
+survivors_after_prefix_total=25
+candidate_count=0
+elapsed_seconds=1.21073
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_18 =====
+integers_tested=5000000
+survivors_after_prefix_total=28
+candidate_count=0
+elapsed_seconds=1.30068
+EXACT_EMPTY
+===== CLEAN SUBCHUNK 09_19 =====
+integers_tested=5000000
+survivors_after_prefix_total=32
+candidate_count=0
+elapsed_seconds=1.28114
+EXACT_EMPTY

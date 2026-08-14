@@ -1,0 +1,385 @@
+logs/tn_pilot_20260713/001_start_head/command.txt:2: trailing whitespace.
++command=git rev-parse HEAD 
+logs/tn_pilot_20260713/002_assert_start_head/command.txt:2: trailing whitespace.
++command=python3 -c import\ subprocess\;\ expected=\'5fe0ee472cdefa7a23a05616a56a024fe571e58a\'\;\ actual=subprocess.check_output\(\[\'git\'\,\'rev-parse\'\,\'HEAD\'\]\,text=True\).strip\(\)\;\ print\(actual\)\;\ assert\ actual==expected 
+logs/tn_pilot_20260713/003_start_status/command.txt:2: trailing whitespace.
++command=git status --short 
+logs/tn_pilot_20260713/004_start_log/command.txt:2: trailing whitespace.
++command=git log -1 --oneline 
+logs/tn_pilot_20260713/005_baseline_hashes_before/command.txt:2: trailing whitespace.
++command=sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json 
+logs/tn_pilot_20260713/006_existing_binaries/command.txt:2: trailing whitespace.
++command=find bin -maxdepth 1 -type f -printf %f\ %s\ bytes\\n 
+logs/tn_pilot_20260713/007_existing_repro_dirs/command.txt:2: trailing whitespace.
++command=find . -maxdepth 1 -type d -printf %f\\n 
+logs/tn_pilot_20260713/008_read_agents/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p AGENTS.md 
+logs/tn_pilot_20260713/008_read_agents/stdout.log:1: trailing whitespace.
++# A303656 Research Rules
+logs/tn_pilot_20260713/008_read_agents/stdout.log:2: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:3: trailing whitespace.
++Before modifying anything, read:
+logs/tn_pilot_20260713/008_read_agents/stdout.log:4: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:5: trailing whitespace.
++1. README.md
+logs/tn_pilot_20260713/008_read_agents/stdout.log:6: trailing whitespace.
++2. REPORT_zh.md
+logs/tn_pilot_20260713/008_read_agents/stdout.log:7: trailing whitespace.
++3. output/formal_results_audit.json
+logs/tn_pilot_20260713/008_read_agents/stdout.log:8: trailing whitespace.
++4. output/final_packaging_audit.json
+logs/tn_pilot_20260713/008_read_agents/stdout.log:9: trailing whitespace.
++5. cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt
+logs/tn_pilot_20260713/008_read_agents/stdout.log:10: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:11: trailing whitespace.
++The mathematical problem is whether every integer n > 1 can be written as
+logs/tn_pilot_20260713/008_read_agents/stdout.log:12: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:13: trailing whitespace.
++n = a^2 + b^2 + 3^c + 5^d
+logs/tn_pilot_20260713/008_read_agents/stdout.log:14: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:15: trailing whitespace.
++with a,b,c,d nonnegative integers.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:16: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:17: trailing whitespace.
++Current status: UNRESOLVED.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:18: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:19: trailing whitespace.
++Hard rules:
+logs/tn_pilot_20260713/008_read_agents/stdout.log:20: trailing whitespace.
++
+logs/tn_pilot_20260713/008_read_agents/stdout.log:21: trailing whitespace.
++- Never claim a proof or counterexample without an independently checkable certificate.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:22: trailing whitespace.
++- Never treat timeout, UNKNOWN, heuristic failure, or solver UNSAT without a proof object as a theorem.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:23: trailing whitespace.
++- Use exact integer arithmetic.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:24: trailing whitespace.
++- Every formal finite computation must have explicit interval bounds.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:25: trailing whitespace.
++- Preserve raw logs, return codes, manifests, hashes, and environment information.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:26: trailing whitespace.
++- Do not overwrite certified baseline outputs.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:27: trailing whitespace.
++- Do not trust precompiled binaries; rebuild from source.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:28: trailing whitespace.
++- Separate PROVED, CERTIFIED, EXACT FINITE COMPUTATION, OBSERVATION, HEURISTIC, UNKNOWN, and UNRESOLVED.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:29: trailing whitespace.
++- Do not spend the main effort merely extending the verified interval linearly.
+logs/tn_pilot_20260713/008_read_agents/stdout.log:30: trailing whitespace.
++- Prefer near-counterexample mining and targeted structural search.
+logs/tn_pilot_20260713/009_read_next_task/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p NEXT_TASK.md 
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:1: trailing whitespace.
++# Next Research Task
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:2: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:3: trailing whitespace.
++Do not restart the project or rerun a huge blind interval campaign.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:4: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:5: trailing whitespace.
++First objective:
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:6: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:7: trailing whitespace.
++1. Reproduce the quick baseline from source.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:8: trailing whitespace.
++2. Audit the two direct two-square implementations.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:9: trailing whitespace.
++3. Build a near-counterexample miner.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:10: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:11: trailing whitespace.
++For each tested n, study
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:12: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:13: trailing whitespace.
++T(n) = number of exponent pairs (c,d)
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:14: trailing whitespace.
++such that n - 3^c - 5^d is a sum of two squares.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:15: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:16: trailing whitespace.
++Extract integers with the smallest T(n), especially:
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:17: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:18: trailing whitespace.
++- T(n) = 1
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:19: trailing whitespace.
++- T(n) = 2
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:20: trailing whitespace.
++- T(n) = 3
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:21: trailing whitespace.
++- the lowest observed T(n) in each interval
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:22: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:23: trailing whitespace.
++For each near-counterexample output:
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:24: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:25: trailing whitespace.
++- n
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:26: trailing whitespace.
++- T(n)
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:27: trailing whitespace.
++- every successful (c,d)
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:28: trailing whitespace.
++- the corresponding remainder
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:29: trailing whitespace.
++- one exact (a,b) representation
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:30: trailing whitespace.
++- relevant residue and factorization data
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:31: trailing whitespace.
++- machine-readable JSON/CSV
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:32: trailing whitespace.
++- independent verification
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:33: trailing whitespace.
++
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:34: trailing whitespace.
++Use this data to design a targeted CRT/residue search.
+logs/tn_pilot_20260713/009_read_next_task/stdout.log:35: trailing whitespace.
++Do not simply extend the continuous interval unless structural analysis
+logs/tn_pilot_20260713/010_read_readme/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p README.md 
+logs/tn_pilot_20260713/011_read_report/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p REPORT_zh.md 
+logs/tn_pilot_20260713/012_read_formal_audit/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p output/formal_results_audit.json 
+logs/tn_pilot_20260713/013_read_packaging_audit/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p output/final_packaging_audit.json 
+logs/tn_pilot_20260713/014_read_certificate/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt 
+logs/tn_pilot_20260713/015_read_current_state/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p docs/current_state.md 
+logs/tn_pilot_20260713/016_read_gap_register/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p docs/audit_gap_register.md 
+logs/tn_pilot_20260713/017_read_provenance_contract/command.txt:2: trailing whitespace.
++command=sed -n 1\,10000p docs/direct_scanner_provenance_contract.md 
+logs/tn_pilot_20260713/018_prebuild_mkdir/command.txt:2: trailing whitespace.
++command=mkdir /tmp/a303656_tn_prebuild 
+logs/tn_pilot_20260713/019_compile_tn_bitset_pre/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic src/tn_count_bitset.cpp -o /tmp/a303656_tn_prebuild/tn_count_bitset 
+logs/tn_pilot_20260713/020_compile_tn_clean_pre/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic src/tn_count_clean.cpp -o /tmp/a303656_tn_prebuild/tn_count_clean 
+logs/tn_pilot_20260713/021_compile_tn_oracle_pre/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic -I/tmp/a303656_gmp_boundary_20260713/usr/include -I/tmp/a303656_gmp_boundary_20260713/usr/include/x86_64-linux-gnu tests/tn_gmp_oracle.cpp /tmp/a303656_gmp_boundary_20260713/usr/lib/x86_64-linux-gnu/libgmpxx.a /tmp/a303656_gmp_boundary_20260713/usr/lib/x86_64-linux-gnu/libgmp.a -o /tmp/a303656_tn_prebuild/tn_gmp_oracle 
+logs/tn_pilot_20260713/022_python_syntax_pre/command.txt:2: trailing whitespace.
++command=python3 -m py_compile src/run_tn_pilot.py src/verify_tn_pilot.py tests/tn_counting_property_tests.py tests/tn_provenance_negative_tests.py 
+logs/tn_pilot_20260713/023_tn_property_pre/command.txt:2: trailing whitespace.
++command=python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_prebuild/tn_count_bitset --clean /tmp/a303656_tn_prebuild/tn_count_clean --oracle /tmp/a303656_tn_prebuild/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_pre 
+logs/tn_pilot_20260713/024_tn_property_pre_retry/command.txt:2: trailing whitespace.
++command=python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_prebuild/tn_count_bitset --clean /tmp/a303656_tn_prebuild/tn_count_clean --oracle /tmp/a303656_tn_prebuild/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_pre_retry 
+logs/tn_pilot_20260713/025_runner_bitset_fixture/command.txt:2: trailing whitespace.
++command=timeout 30 python3 src/run_tn_pilot.py --binary /tmp/a303656_tn_prebuild/tn_count_bitset --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --out-dir /tmp/a303656_tn_runner_fixture/bitset --compiler g++ --timeout-seconds 20 --allow-dirty --emit-all-records 
+logs/tn_pilot_20260713/026_runner_clean_fixture/command.txt:2: trailing whitespace.
++command=timeout 30 python3 src/run_tn_pilot.py --binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --out-dir /tmp/a303656_tn_runner_fixture/clean --compiler g++ --timeout-seconds 20 --allow-dirty --emit-all-records 
+logs/tn_pilot_20260713/027_runner_oracle_fixture/command.txt:2: trailing whitespace.
++command=timeout 30 python3 src/run_tn_pilot.py --binary /tmp/a303656_tn_prebuild/tn_gmp_oracle --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --out-dir /tmp/a303656_tn_runner_fixture/oracle --compiler g++ --timeout-seconds 20 --allow-dirty --emit-all-records 
+logs/tn_pilot_20260713/028_verify_runner_fixture/command.txt:2: trailing whitespace.
++command=timeout 30 python3 src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+logs/tn_pilot_20260713/029_verify_runner_fixture_retry/command.txt:2: trailing whitespace.
++command=timeout 30 python3 src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+logs/tn_pilot_20260713/030_provenance_negative_fixture/command.txt:2: trailing whitespace.
++command=timeout 30 python3 tests/tn_provenance_negative_tests.py --python python3 --runner src/run_tn_pilot.py --verifier src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --clean-binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --work-dir /tmp/a303656_tn_negative_fixture 
+logs/tn_pilot_20260713/031_far_fixture_bitset/command.txt:2: trailing whitespace.
++command=timeout 120 /tmp/a303656_tn_prebuild/tn_count_bitset --low 240000000001 --high 240000001001 --interval-id FIXTURE-FAR-1000 --out-dir /tmp/a303656_tn_far_fixture/bitset 
+logs/tn_pilot_20260713/031_far_fixture_bitset_mkdir/command.txt:2: trailing whitespace.
++command=mkdir -p /tmp/a303656_tn_far_fixture/bitset 
+logs/tn_pilot_20260713/032_far_fixture_clean/command.txt:2: trailing whitespace.
++command=timeout 120 /tmp/a303656_tn_prebuild/tn_count_clean --low 240000000001 --high 240000001001 --interval-id FIXTURE-FAR-1000 --out-dir /tmp/a303656_tn_far_fixture/clean 
+logs/tn_pilot_20260713/032_far_fixture_clean_mkdir/command.txt:2: trailing whitespace.
++command=mkdir -p /tmp/a303656_tn_far_fixture/clean 
+logs/tn_pilot_20260713/033_far_fixture_oracle/command.txt:2: trailing whitespace.
++command=timeout 120 /tmp/a303656_tn_prebuild/tn_gmp_oracle --low 240000000001 --high 240000001001 --interval-id FIXTURE-FAR-1000 --out-dir /tmp/a303656_tn_far_fixture/oracle 
+logs/tn_pilot_20260713/033_far_fixture_oracle_mkdir/command.txt:2: trailing whitespace.
++command=mkdir -p /tmp/a303656_tn_far_fixture/oracle 
+logs/tn_pilot_20260713/034_far_fixture_counts_bitset_clean/command.txt:2: trailing whitespace.
++command=cmp /tmp/a303656_tn_far_fixture/bitset/counts.csv /tmp/a303656_tn_far_fixture/clean/counts.csv 
+logs/tn_pilot_20260713/035_far_fixture_counts_bitset_oracle/command.txt:2: trailing whitespace.
++command=cmp /tmp/a303656_tn_far_fixture/bitset/counts.csv /tmp/a303656_tn_far_fixture/oracle/counts.csv 
+logs/tn_pilot_20260713/036_fixture_audit_after_hardening/command.txt:2: trailing whitespace.
++command=python3 src/verify_tn_pilot.py --audit-only --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+logs/tn_pilot_20260713/037_negative_after_hardening/command.txt:2: trailing whitespace.
++command=python3 tests/tn_provenance_negative_tests.py --python python3 --runner src/run_tn_pilot.py --verifier src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --clean-binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --work-dir /tmp/a303656_tn_negative_hardened 
+logs/tn_pilot_20260713/038_tn_san_mkdir/command.txt:2: trailing whitespace.
++command=mkdir /tmp/a303656_tn_sanitized 
+logs/tn_pilot_20260713/039_compile_tn_bitset_san/command.txt:2: trailing whitespace.
++command=g++ -O1 -g -std=c++17 -Wall -Wextra -Werror -pedantic -fsanitize=address\,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer src/tn_count_bitset.cpp -o /tmp/a303656_tn_sanitized/tn_count_bitset 
+logs/tn_pilot_20260713/040_compile_tn_clean_san/command.txt:2: trailing whitespace.
++command=g++ -O1 -g -std=c++17 -Wall -Wextra -Werror -pedantic -fsanitize=address\,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer src/tn_count_clean.cpp -o /tmp/a303656_tn_sanitized/tn_count_clean 
+logs/tn_pilot_20260713/041_compile_tn_oracle_san/command.txt:2: trailing whitespace.
++command=g++ -O1 -g -std=c++17 -Wall -Wextra -Werror -pedantic -fsanitize=address\,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer -I/tmp/a303656_gmp_boundary_20260713/usr/include -I/tmp/a303656_gmp_boundary_20260713/usr/include/x86_64-linux-gnu tests/tn_gmp_oracle.cpp /tmp/a303656_gmp_boundary_20260713/usr/lib/x86_64-linux-gnu/libgmpxx.a /tmp/a303656_gmp_boundary_20260713/usr/lib/x86_64-linux-gnu/libgmp.a -o /tmp/a303656_tn_sanitized/tn_gmp_oracle 
+logs/tn_pilot_20260713/042_tn_property_sanitized/command.txt:2: trailing whitespace.
++command=env ASAN_OPTIONS=detect_leaks=0:halt_on_error=1 UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1 python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_sanitized/tn_count_bitset --clean /tmp/a303656_tn_sanitized/tn_count_clean --oracle /tmp/a303656_tn_sanitized/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_sanitized 
+logs/tn_pilot_20260713/043_chmod_tn_scripts/command.txt:2: trailing whitespace.
++command=chmod +x src/run_tn_pilot.py src/verify_tn_pilot.py tests/tn_counting_property_tests.py tests/tn_provenance_negative_tests.py 
+logs/tn_pilot_20260713/044_verify_fixture_verifier_bound/command.txt:2: trailing whitespace.
++command=python3 src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+logs/tn_pilot_20260713/045_fixture_audit_verifier_bound/command.txt:2: trailing whitespace.
++command=python3 src/verify_tn_pilot.py --audit-only --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+logs/tn_pilot_20260713/046_pycompile_precommit/command.txt:2: trailing whitespace.
++command=env PYTHONPYCACHEPREFIX=/tmp/a303656_tn_pycache python3 -m py_compile src/run_tn_pilot.py src/verify_tn_pilot.py tests/tn_counting_property_tests.py tests/tn_provenance_negative_tests.py 
+logs/tn_pilot_20260713/047_diff_check_precommit/command.txt:2: trailing whitespace.
++command=git diff --check --no-index /dev/null src/verify_tn_pilot.py 
+logs/tn_pilot_20260713/048_negative_verifier_bound/command.txt:2: trailing whitespace.
++command=python3 tests/tn_provenance_negative_tests.py --python python3 --runner src/run_tn_pilot.py --verifier src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --clean-binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --work-dir /tmp/a303656_tn_negative_verifier_bound 
+logs/tn_pilot_20260713/049_staged_diff_check/command.txt:2: trailing whitespace.
++command=git diff --cached --check 
+logs/tn_pilot_20260713/050_staged_name_status/command.txt:2: trailing whitespace.
++command=git diff --cached --name-status 
+logs/tn_pilot_20260713/051_property_precommit_final/command.txt:2: trailing whitespace.
++command=python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_prebuild/tn_count_bitset --clean /tmp/a303656_tn_prebuild/tn_count_clean --oracle /tmp/a303656_tn_prebuild/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_precommit_final 
+logs/tn_pilot_20260713/052_source_commit_after_code/command.txt:2: trailing whitespace.
++command=git rev-parse HEAD 
+logs/tn_pilot_20260713/053_source_commit_parent/command.txt:2: trailing whitespace.
++command=git rev-parse HEAD\^ 
+logs/tn_pilot_20260713/054_gmp_package_hash/command.txt:2: trailing whitespace.
++command=sha256sum /tmp/libgmp-dev_2%3a6.3.0+dfsg-2ubuntu6_amd64.deb 
+logs/tn_pilot_20260713/055_acceptance_paths_absent/command.txt:2: trailing whitespace.
++command=test \! -e /tmp/a303656_tn_acceptance_src_2e38ac0 -a \! -e /tmp/a303656_tn_acceptance_build_2e38ac0 -a \! -e /tmp/a303656_gmp_tn_20260713 -a \! -e output/tn_pilot_20260713 
+logs/tn_pilot_20260713/056_fresh_source_clone/command.txt:2: trailing whitespace.
++command=git clone --no-hardlinks --local . /tmp/a303656_tn_acceptance_src_2e38ac0 
+logs/tn_pilot_20260713/057_fresh_source_detach/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 checkout --detach 2e38ac0d35888\? 
+logs/tn_pilot_20260713/058_fresh_source_detach_correct/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 checkout --detach 2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9 
+logs/tn_pilot_20260713/059_fresh_dependency_dirs/command.txt:2: trailing whitespace.
++command=mkdir -p /tmp/a303656_tn_acceptance_build_2e38ac0 /tmp/a303656_gmp_tn_20260713 
+logs/tn_pilot_20260713/060_acceptance_output_parents/command.txt:2: trailing whitespace.
++command=mkdir -p output/tn_pilot_20260713/pilot_a output/tn_pilot_20260713/pilot_b output/tn_pilot_20260713/negative_tests 
+logs/tn_pilot_20260713/061_extract_gmp_package/command.txt:2: trailing whitespace.
++command=dpkg-deb -x /tmp/libgmp-dev_2%3a6.3.0+dfsg-2ubuntu6_amd64.deb /tmp/a303656_gmp_tn_20260713 
+logs/tn_pilot_20260713/062_fresh_source_identity_clean/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 status --short --branch 
+logs/tn_pilot_20260713/063_gpp_version/command.txt:2: trailing whitespace.
++command=g++ --version 
+logs/tn_pilot_20260713/063_gpp_version/stdout.log:5: new blank line at EOF.
+logs/tn_pilot_20260713/064_gmp_extracted_files/command.txt:2: trailing whitespace.
++command=find /tmp/a303656_gmp_tn_20260713 -type f -o -type l 
+logs/tn_pilot_20260713/065_source_archive_hash/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 archive --format=tar 2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9 -o /tmp/a303656_tn_acceptance_source_2e38ac0.tar 
+logs/tn_pilot_20260713/066_build_bitset_acceptance/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -I /tmp/a303656_tn_acceptance_src_2e38ac0/src /tmp/a303656_tn_acceptance_src_2e38ac0/src/tn_count_bitset.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset 
+logs/tn_pilot_20260713/067_build_clean_acceptance/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -I /tmp/a303656_tn_acceptance_src_2e38ac0/src /tmp/a303656_tn_acceptance_src_2e38ac0/src/tn_count_clean.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean 
+logs/tn_pilot_20260713/068_build_oracle_acceptance/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror -I /tmp/a303656_tn_acceptance_src_2e38ac0/src -I /tmp/a303656_gmp_tn_20260713/usr/include -I /tmp/a303656_gmp_tn_20260713/usr/include/x86_64-linux-gnu /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_gmp_oracle.cpp -L /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu -Wl\,-Bstatic -lgmpxx -lgmp -Wl\,-Bdynamic -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle 
+logs/tn_pilot_20260713/069_acceptance_binary_hashes/command.txt:2: trailing whitespace.
++command=sha256sum /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle 
+logs/tn_pilot_20260713/070_acceptance_binary_identities/command.txt:2: trailing whitespace.
++command=/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --implementation-id 
+logs/tn_pilot_20260713/071_acceptance_clean_identity/command.txt:2: trailing whitespace.
++command=/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --implementation-id 
+logs/tn_pilot_20260713/072_acceptance_oracle_identity_version/command.txt:2: trailing whitespace.
++command=/tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --gmp-version 
+logs/tn_pilot_20260713/073_acceptance_oracle_identity/command.txt:2: trailing whitespace.
++command=/tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --implementation-id 
+logs/tn_pilot_20260713/074_acceptance_ldd/command.txt:2: trailing whitespace.
++command=ldd /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle 
+logs/tn_pilot_20260713/075_acceptance_readelf_dynamic/command.txt:2: trailing whitespace.
++command=readelf -d /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle 
+logs/tn_pilot_20260713/076_source_archive_sha256/command.txt:2: trailing whitespace.
++command=sha256sum /tmp/a303656_tn_acceptance_source_2e38ac0.tar 
+logs/tn_pilot_20260713/077_build_bitset_sanitized/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O1 -g -Wall -Wextra -Wpedantic -Werror -fsanitize=address\,undefined -fno-omit-frame-pointer -I /tmp/a303656_tn_acceptance_src_2e38ac0/src /tmp/a303656_tn_acceptance_src_2e38ac0/src/tn_count_bitset.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset_san 
+logs/tn_pilot_20260713/078_build_clean_sanitized/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O1 -g -Wall -Wextra -Wpedantic -Werror -fsanitize=address\,undefined -fno-omit-frame-pointer -I /tmp/a303656_tn_acceptance_src_2e38ac0/src /tmp/a303656_tn_acceptance_src_2e38ac0/src/tn_count_clean.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean_san 
+logs/tn_pilot_20260713/079_build_oracle_sanitized/command.txt:2: trailing whitespace.
++command=g++ -std=c++20 -O1 -g -Wall -Wextra -Wpedantic -Werror -fsanitize=address\,undefined -fno-omit-frame-pointer -I /tmp/a303656_tn_acceptance_src_2e38ac0/src -I /tmp/a303656_gmp_tn_20260713/usr/include -I /tmp/a303656_gmp_tn_20260713/usr/include/x86_64-linux-gnu /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_gmp_oracle.cpp -L /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu -Wl\,-Bstatic -lgmpxx -lgmp -Wl\,-Bdynamic -fsanitize=address\,undefined -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle_san 
+logs/tn_pilot_20260713/080_fresh_python_compile/command.txt:2: trailing whitespace.
++command=env PYTHONPYCACHEPREFIX=/tmp/a303656_tn_acceptance_pycache python3 -m py_compile /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_counting_property_tests.py /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_provenance_negative_tests.py 
+logs/tn_pilot_20260713/081_property_acceptance_optimized/command.txt:2: trailing whitespace.
++command=timeout 120s python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --oracle /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --work-dir /tmp/a303656_tn_acceptance_property_optimized 
+logs/tn_pilot_20260713/082_property_acceptance_sanitized/command.txt:2: trailing whitespace.
++command=timeout 120s env ASAN_OPTIONS=detect_leaks=0 UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset_san --clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean_san --oracle /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle_san --work-dir /tmp/a303656_tn_acceptance_property_sanitized 
+logs/tn_pilot_20260713/083_build_existing_bitset/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic /tmp/a303656_tn_acceptance_src_2e38ac0/src/search_twosquares_bitset.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/search_twosquares_bitset 
+logs/tn_pilot_20260713/084_build_existing_clean/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic /tmp/a303656_tn_acceptance_src_2e38ac0/src/search_twosquares_clean.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/search_twosquares_clean 
+logs/tn_pilot_20260713/085_build_existing_tiny_oracle/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic -I /tmp/a303656_gmp_tn_20260713/usr/include -I /tmp/a303656_gmp_tn_20260713/usr/include/x86_64-linux-gnu /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tiny_twosquares_oracle.cpp /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu/libgmpxx.a /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu/libgmp.a -o /tmp/a303656_tn_acceptance_build_2e38ac0/tiny_twosquares_oracle 
+logs/tn_pilot_20260713/086_build_existing_multiplicity/command.txt:2: trailing whitespace.
++command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic -I /tmp/a303656_tn_acceptance_src_2e38ac0 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/exponent_pair_multiplicity_test.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/exponent_pair_multiplicity_test 
+logs/tn_pilot_20260713/087_existing_boundary_properties/command.txt:2: trailing whitespace.
++command=timeout 180s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/direct_boundary_property_tests.py --bin-dir /tmp/a303656_tn_acceptance_build_2e38ac0 --oracle /tmp/a303656_tn_acceptance_build_2e38ac0/tiny_twosquares_oracle --multiplicity-test /tmp/a303656_tn_acceptance_build_2e38ac0/exponent_pair_multiplicity_test 
+logs/tn_pilot_20260713/088_fresh_source_clean_preformal/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 status --porcelain 
+logs/tn_pilot_20260713/089_pilot_a_bitset/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 300s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 2 --high 200002 --interval-id PILOT-A --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --compiler g++ --timeout-seconds 240 
+logs/tn_pilot_20260713/090_pilot_a_clean/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 300s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 2 --high 200002 --interval-id PILOT-A --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --compiler g++ --timeout-seconds 240 
+logs/tn_pilot_20260713/091_pilot_a_oracle/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 600s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 2 --high 200002 --interval-id PILOT-A --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --compiler g++ --timeout-seconds 540 
+logs/tn_pilot_20260713/092_verify_pilot_a/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 600s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --low 2 --high 200002 --interval-id PILOT-A 
+logs/tn_pilot_20260713/093_audit_pilot_a_provenance/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --audit-only --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --low 2 --high 200002 --interval-id PILOT-A 
+logs/tn_pilot_20260713/094_pilot_b_bitset/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 600s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 240000000001 --high 240000100001 --interval-id PILOT-B --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset --compiler g++ --timeout-seconds 540 
+logs/tn_pilot_20260713/095_pilot_b_clean/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 600s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 240000000001 --high 240000100001 --interval-id PILOT-B --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean --compiler g++ --timeout-seconds 540 
+logs/tn_pilot_20260713/096_pilot_b_oracle/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 900s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 240000000001 --high 240000100001 --interval-id PILOT-B --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle --compiler g++ --timeout-seconds 840 
+logs/tn_pilot_20260713/097_verify_pilot_b/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 900s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle --low 240000000001 --high 240000100001 --interval-id PILOT-B 
+logs/tn_pilot_20260713/098_audit_pilot_b_provenance/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --audit-only --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle --low 240000000001 --high 240000100001 --interval-id PILOT-B 
+logs/tn_pilot_20260713/099_provenance_negative_acceptance/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 300s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_provenance_negative_tests.py --python python3 --runner /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --verifier /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --clean-binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 2 --high 200002 --interval-id PILOT-A --work-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/negative_tests/provenance_expected_rejections 
+logs/tn_pilot_20260713/100_baseline_hashes_after/command.txt:2: trailing whitespace.
++command=sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json 
+logs/tn_pilot_20260713/101_fresh_source_clean_after/command.txt:2: trailing whitespace.
++command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 status --porcelain 
+logs/tn_pilot_20260713/102_formal_counts_crosscmp_a/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/oracle/counts.csv 
+logs/tn_pilot_20260713/103_formal_counts_crosscmp_b/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv 
+logs/tn_pilot_20260713/104_baseline_before_after_cmp/command.txt:2: trailing whitespace.
++command=cmp logs/tn_pilot_20260713/005_baseline_hashes_before/stdout.log logs/tn_pilot_20260713/100_baseline_hashes_after/stdout.log 
+logs/tn_pilot_20260713/105_counts_a_bitset_clean_cmp/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/clean/counts.csv 
+logs/tn_pilot_20260713/106_counts_a_bitset_oracle_cmp/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/oracle/counts.csv 
+logs/tn_pilot_20260713/107_counts_b_bitset_clean_cmp/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv 
+logs/tn_pilot_20260713/108_counts_b_bitset_oracle_cmp/command.txt:2: trailing whitespace.
++command=cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv 
+logs/tn_pilot_20260713/109_environment_uname/command.txt:2: trailing whitespace.
++command=uname -a 
+logs/tn_pilot_20260713/110_environment_os/command.txt:2: trailing whitespace.
++command=cat /etc/os-release 
+logs/tn_pilot_20260713/111_environment_python/command.txt:2: trailing whitespace.
++command=python3 --version 
+logs/tn_pilot_20260713/112_environment_lscpu/command.txt:2: trailing whitespace.
++command=lscpu 
+logs/tn_pilot_20260713/113_pilot_a_argmin/command.txt:2: trailing whitespace.
++command=awk -F\, NR\ \>\ 1\ \&\&\ \$2\ ==\ 1\ \{print\ \$1\} output/tn_pilot_20260713/pilot_a/bitset/counts.csv 
+logs/tn_pilot_20260713/114_pilot_b_argmin/command.txt:2: trailing whitespace.
++command=awk -F\, NR\ \>\ 1\ \&\&\ \$2\ ==\ 16\ \{print\ \$1\} output/tn_pilot_20260713/pilot_b/bitset/counts.csv 
+logs/tn_pilot_20260713/115_formal_core_artifact_hashes/command.txt:2: trailing whitespace.
++command=sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl 
+logs/tn_pilot_20260713/116_formal_report_provenance_hashes/command.txt:2: trailing whitespace.
++command=sha256sum output/tn_pilot_20260713/pilot_a/bitset/provenance.json output/tn_pilot_20260713/pilot_a/bitset/verifier_report.json output/tn_pilot_20260713/pilot_a/clean/provenance.json output/tn_pilot_20260713/pilot_a/clean/verifier_report.json output/tn_pilot_20260713/pilot_a/oracle/provenance.json output/tn_pilot_20260713/pilot_a/oracle/verifier_report.json output/tn_pilot_20260713/pilot_b/bitset/provenance.json output/tn_pilot_20260713/pilot_b/bitset/verifier_report.json output/tn_pilot_20260713/pilot_b/clean/provenance.json output/tn_pilot_20260713/pilot_b/clean/verifier_report.json output/tn_pilot_20260713/pilot_b/oracle/provenance.json output/tn_pilot_20260713/pilot_b/oracle/verifier_report.json 
+logs/tn_pilot_20260713/117_final_audit_pilot_a/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --audit-only --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --low 2 --high 200002 --interval-id PILOT-A 
+logs/tn_pilot_20260713/118_final_audit_pilot_b/command.txt:2: trailing whitespace.
++command=timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --audit-only --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle --low 240000000001 --high 240000100001 --interval-id PILOT-B 
+logs/tn_pilot_20260713/119_formal_json_syntax/command.txt:2: trailing whitespace.
++command=find output/tn_pilot_20260713/pilot_a output/tn_pilot_20260713/pilot_b -name \*.json -exec python3 -m json.tool \{\} /dev/null \; 
+logs/tn_pilot_20260713/120_document_diff_check/command.txt:2: trailing whitespace.
++command=git diff --check 
+logs/tn_pilot_20260713/121_log_record_completeness/command.txt:2: trailing whitespace.
++command=bash -c set\ -euo\ pipefail\;\ root=logs/tn_pilot_20260713\;\ count=0\;\ for\ directory\ in\ \"\$root\"/\*\;\ do\ \[\[\ -d\ \"\$directory\"\ \]\]\ \|\|\ continue\;\ \[\[\ \$\(basename\ \"\$directory\"\)\ ==\ 121_log_record_completeness\ \]\]\ \&\&\ continue\;\ for\ file\ in\ command.txt\ stdout.log\ stderr.log\ return_code.txt\ time.txt\;\ do\ \[\[\ -f\ \"\$directory/\$file\"\ \]\]\ \|\|\ \{\ echo\ \"missing\ \$directory/\$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ done\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ echo\ \"complete_command_records=\$count\" 
+logs/tn_pilot_20260713/122_formal_required_files/command.txt:2: trailing whitespace.
++command=bash -c set\ -euo\ pipefail\;\ count=0\;\ for\ interval\ in\ pilot_a\ pilot_b\;\ do\ for\ role\ in\ bitset\ clean\ oracle\;\ do\ directory=\"output/tn_pilot_20260713/\$interval/\$role\"\;\ for\ file\ in\ metadata.json\ counts.csv\ low_t.jsonl\ summary.json\ provenance.json\ verifier_report.json\;\ do\ \[\[\ -f\ \"\$directory/\$file\"\ \]\]\ \|\|\ \{\ echo\ \"missing\ \$directory/\$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ done\;\ done\;\ echo\ \"required_formal_artifacts=\$count\" 
+logs/tn_pilot_20260713/123_backend_return_codes/command.txt:2: trailing whitespace.
++command=bash -c set\ -euo\ pipefail\;\ count=0\;\ for\ file\ in\ output/tn_pilot_20260713/pilot_\{a\,b\}/\{bitset\,clean\,oracle\}/backend_return_code.txt\;\ do\ \[\[\ \$\(\<\"\$file\"\)\ ==\ 0\ \]\]\ \|\|\ \{\ echo\ \"nonzero\ \$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ echo\ \"zero_backend_return_codes=\$count\" 
+logs/tn_pilot_20260713/124_final_unstaged_diff_check/command.txt:2: trailing whitespace.
++command=git diff --check 

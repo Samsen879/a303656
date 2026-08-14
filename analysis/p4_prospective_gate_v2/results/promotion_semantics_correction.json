@@ -1,0 +1,45 @@
+{
+  "accepted_core_result_unchanged": {
+    "A8": 300,
+    "D8": 107,
+    "H8_max": 201,
+    "H8_min": 32,
+    "argmax_tuple_count": 468,
+    "distinct_maximizing_full_masks": 21,
+    "distinct_maximizing_live_projections": 5,
+    "lex_first_argmax": [
+      2,
+      13,
+      50,
+      5
+    ]
+  },
+  "audit_trail_policy": "RESULTS V is retained; this artifact supersedes only its promotion interpretation.",
+  "canonical_digest": "99a8992c18af678623850a1be275e4bd547a90e8a107ea95ec344edb8bacac08",
+  "corrections": {
+    "21_new_masks": "21 design-novel full masks relative to the frozen/design mask ledger",
+    "25345_fresh_integers": "integer count absent only from the registry version used by RESULTS V; not certified unseen under registry v2",
+    "468_fresh_classes": "468 design-novel classes relative to the frozen designed-class ledger",
+    "strict_historical_class_freshness": 0,
+    "strict_historically_new_live_projections": 0,
+    "strict_historically_new_maximizing_masks": 0
+  },
+  "deprecated_terms": {
+    "fresh_class": "forbidden unless explicit scope is supplied",
+    "fresh_integer": "forbidden unless registry version and exposure predicate are named",
+    "new_mask": "forbidden unless design ledger is named"
+  },
+  "old_promotion_gate": "FAIL",
+  "proof": {
+    "L4": 1129118760,
+    "covers_every_residue_class_mod_L4": true,
+    "inclusive_interval": [
+      240000000001,
+      241600000000
+    ],
+    "length": 1600000000
+  },
+  "results_commit_V": "6efcf58e18714b100fa86c0646e1b9657e03c908",
+  "schema": "a303656-p4-mod8-promotion-semantics-correction-v1",
+  "source_commit_U": "ee5bef63b02277786fe9c01ae9ff44233d889883"
+}

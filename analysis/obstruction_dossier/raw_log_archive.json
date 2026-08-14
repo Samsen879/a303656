@@ -1,0 +1,13 @@
+{
+  "archive_filename": "selected_obstruction_dossier_raw_logs_3a93ab744825780c14c58d177a5a8d97e887e1e2.tar.zst",
+  "archive_sha256": "27414cc35469b7153738ec1351b21b03a437ddc1b8646d523009927c5b3fec38",
+  "archive_size_bytes": 8335,
+  "command_manifest_sha256": "5b4ffc17798d9a538ccdb814f2e8f5eef66bbf2889a77fe1191f87ac89cb1ca9",
+  "creation_command": "tar --zstd -cf /home/samsen/code/a303656/archive/selected_obstruction_dossier_raw_logs_3a93ab744825780c14c58d177a5a8d97e887e1e2.tar.zst -C /tmp a303656_selected_obstruction_raw_20260713",
+  "creation_timestamp_utc": "2026-07-13T11:15:28Z",
+  "raw_file_count": 130,
+  "raw_log_directory": "/tmp/a303656_selected_obstruction_raw_20260713",
+  "raw_log_record_count": 26,
+  "uncompressed_file_bytes": 43784,
+  "uncompressed_tar_bytes": 163840
+}

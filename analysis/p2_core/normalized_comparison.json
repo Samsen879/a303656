@@ -1,0 +1,5273 @@
+{
+  "classification": "COMPUTATIONAL OBSERVATION ON SELECTED FIXTURES",
+  "comparisons": [
+    {
+      "corrected_control_n": 240000009194,
+      "low_tail_n": 240000005594,
+      "old_control_n": 240000002114
+    },
+    {
+      "corrected_control_n": 240000001202,
+      "low_tail_n": 240000004802,
+      "old_control_n": 240000003122
+    },
+    {
+      "corrected_control_n": 240000048838,
+      "low_tail_n": 240000044158,
+      "old_control_n": 240000048838
+    },
+    {
+      "corrected_control_n": 240000006368,
+      "low_tail_n": 240000000968,
+      "old_control_n": 240000000728
+    },
+    {
+      "corrected_control_n": 240000004064,
+      "low_tail_n": 240000001544,
+      "old_control_n": 240000003584
+    }
+  ],
+  "earlier_qualitative_statement_audit": [
+    {
+      "corrected_mod9_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": 328,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 348
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": 310,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 345
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 317,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 324
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": 323,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 343
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": 316,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 344
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "corrected_mod9_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": {
+              "absolute": 328,
+              "per_losing_pair": {
+                "decimal": "0.908587257617728532",
+                "denominator": 361,
+                "numerator": 328
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 348,
+              "per_losing_pair": {
+                "decimal": "0.890025575447570332",
+                "denominator": 391,
+                "numerator": 348
+              }
+            }
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": {
+              "absolute": 310,
+              "per_losing_pair": {
+                "decimal": "0.868347338935574230",
+                "denominator": 357,
+                "numerator": 310
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 345,
+              "per_losing_pair": {
+                "decimal": "0.886889460154241645",
+                "denominator": 389,
+                "numerator": 345
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 317,
+              "per_losing_pair": {
+                "decimal": "0.900568181818181818",
+                "denominator": 352,
+                "numerator": 317
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 324,
+              "per_losing_pair": {
+                "decimal": "0.835051546391752577",
+                "denominator": 388,
+                "numerator": 324
+              }
+            }
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": {
+              "absolute": 323,
+              "per_losing_pair": {
+                "decimal": "0.897222222222222222",
+                "denominator": 360,
+                "numerator": 323
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 343,
+              "per_losing_pair": {
+                "decimal": "0.886304909560723514",
+                "denominator": 387,
+                "numerator": 343
+              }
+            }
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": {
+              "absolute": 316,
+              "per_losing_pair": {
+                "decimal": "0.877777777777777778",
+                "denominator": 360,
+                "numerator": 316
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 344,
+              "per_losing_pair": {
+                "decimal": "0.891191709844559585",
+                "denominator": 386,
+                "numerator": 344
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "old_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": 312,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 348
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": 328,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 345
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 317,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 324
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": 325,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 343
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": 293,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 344
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "old_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": {
+              "absolute": 312,
+              "per_losing_pair": {
+                "decimal": "0.873949579831932773",
+                "denominator": 357,
+                "numerator": 312
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 348,
+              "per_losing_pair": {
+                "decimal": "0.890025575447570332",
+                "denominator": 391,
+                "numerator": 348
+              }
+            }
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": {
+              "absolute": 328,
+              "per_losing_pair": {
+                "decimal": "0.926553672316384181",
+                "denominator": 354,
+                "numerator": 328
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 345,
+              "per_losing_pair": {
+                "decimal": "0.886889460154241645",
+                "denominator": 389,
+                "numerator": 345
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 317,
+              "per_losing_pair": {
+                "decimal": "0.900568181818181818",
+                "denominator": 352,
+                "numerator": 317
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 324,
+              "per_losing_pair": {
+                "decimal": "0.835051546391752577",
+                "denominator": 388,
+                "numerator": 324
+              }
+            }
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": {
+              "absolute": 325,
+              "per_losing_pair": {
+                "decimal": "0.931232091690544413",
+                "denominator": 349,
+                "numerator": 325
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 343,
+              "per_losing_pair": {
+                "decimal": "0.886304909560723514",
+                "denominator": 387,
+                "numerator": 343
+              }
+            }
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": {
+              "absolute": 293,
+              "per_losing_pair": {
+                "decimal": "0.827683615819209040",
+                "denominator": 354,
+                "numerator": 293
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 344,
+              "per_losing_pair": {
+                "decimal": "0.891191709844559585",
+                "denominator": 386,
+                "numerator": 344
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "statement": "LOW_TAIL_HAS_MORE_DISTINCT_OBSTRUCTION_PRIMES"
+    },
+    {
+      "corrected_mod9_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": 301,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 319
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": 299,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 332
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 294,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 312
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": 306,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 320
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": 296,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 321
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "corrected_mod9_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": {
+              "absolute": 301,
+              "per_losing_pair": {
+                "decimal": "0.833795013850415512",
+                "denominator": 361,
+                "numerator": 301
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 319,
+              "per_losing_pair": {
+                "decimal": "0.815856777493606138",
+                "denominator": 391,
+                "numerator": 319
+              }
+            }
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": {
+              "absolute": 299,
+              "per_losing_pair": {
+                "decimal": "0.837535014005602241",
+                "denominator": 357,
+                "numerator": 299
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 332,
+              "per_losing_pair": {
+                "decimal": "0.853470437017994859",
+                "denominator": 389,
+                "numerator": 332
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 294,
+              "per_losing_pair": {
+                "decimal": "0.835227272727272727",
+                "denominator": 352,
+                "numerator": 294
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 312,
+              "per_losing_pair": {
+                "decimal": "0.804123711340206186",
+                "denominator": 388,
+                "numerator": 312
+              }
+            }
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": {
+              "absolute": 306,
+              "per_losing_pair": {
+                "decimal": "0.850000000000000000",
+                "denominator": 360,
+                "numerator": 306
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 320,
+              "per_losing_pair": {
+                "decimal": "0.826873385012919897",
+                "denominator": 387,
+                "numerator": 320
+              }
+            }
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": {
+              "absolute": 296,
+              "per_losing_pair": {
+                "decimal": "0.822222222222222222",
+                "denominator": 360,
+                "numerator": 296
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 321,
+              "per_losing_pair": {
+                "decimal": "0.831606217616580311",
+                "denominator": 386,
+                "numerator": 321
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "old_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": 312,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 319
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": 310,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 332
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 294,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 312
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": 296,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 320
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": 282,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 321
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "old_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": {
+              "absolute": 312,
+              "per_losing_pair": {
+                "decimal": "0.873949579831932773",
+                "denominator": 357,
+                "numerator": 312
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 319,
+              "per_losing_pair": {
+                "decimal": "0.815856777493606138",
+                "denominator": 391,
+                "numerator": 319
+              }
+            }
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": {
+              "absolute": 310,
+              "per_losing_pair": {
+                "decimal": "0.875706214689265537",
+                "denominator": 354,
+                "numerator": 310
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 332,
+              "per_losing_pair": {
+                "decimal": "0.853470437017994859",
+                "denominator": 389,
+                "numerator": 332
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 294,
+              "per_losing_pair": {
+                "decimal": "0.835227272727272727",
+                "denominator": 352,
+                "numerator": 294
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 312,
+              "per_losing_pair": {
+                "decimal": "0.804123711340206186",
+                "denominator": 388,
+                "numerator": 312
+              }
+            }
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": {
+              "absolute": 296,
+              "per_losing_pair": {
+                "decimal": "0.848137535816618911",
+                "denominator": 349,
+                "numerator": 296
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 320,
+              "per_losing_pair": {
+                "decimal": "0.826873385012919897",
+                "denominator": 387,
+                "numerator": 320
+              }
+            }
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": {
+              "absolute": 282,
+              "per_losing_pair": {
+                "decimal": "0.796610169491525424",
+                "denominator": 354,
+                "numerator": 282
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 321,
+              "per_losing_pair": {
+                "decimal": "0.831606217616580311",
+                "denominator": 386,
+                "numerator": 321
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "statement": "LOW_TAIL_HAS_MORE_OBSTRUCTION_SIGNATURES"
+    },
+    {
+      "corrected_mod9_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": 328,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 348
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": 310,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 345
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 317,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 324
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": 323,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 343
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": 316,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 344
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "corrected_mod9_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": {
+              "absolute": 328,
+              "per_losing_pair": {
+                "decimal": "0.908587257617728532",
+                "denominator": 361,
+                "numerator": 328
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 348,
+              "per_losing_pair": {
+                "decimal": "0.890025575447570332",
+                "denominator": 391,
+                "numerator": 348
+              }
+            }
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": {
+              "absolute": 310,
+              "per_losing_pair": {
+                "decimal": "0.868347338935574230",
+                "denominator": 357,
+                "numerator": 310
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 345,
+              "per_losing_pair": {
+                "decimal": "0.886889460154241645",
+                "denominator": 389,
+                "numerator": 345
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 317,
+              "per_losing_pair": {
+                "decimal": "0.900568181818181818",
+                "denominator": 352,
+                "numerator": 317
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 324,
+              "per_losing_pair": {
+                "decimal": "0.835051546391752577",
+                "denominator": 388,
+                "numerator": 324
+              }
+            }
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": {
+              "absolute": 323,
+              "per_losing_pair": {
+                "decimal": "0.897222222222222222",
+                "denominator": 360,
+                "numerator": 323
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 343,
+              "per_losing_pair": {
+                "decimal": "0.886304909560723514",
+                "denominator": 387,
+                "numerator": 343
+              }
+            }
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": {
+              "absolute": 316,
+              "per_losing_pair": {
+                "decimal": "0.877777777777777778",
+                "denominator": 360,
+                "numerator": 316
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 344,
+              "per_losing_pair": {
+                "decimal": "0.891191709844559585",
+                "denominator": 386,
+                "numerator": 344
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "old_control_absolute": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": 312,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": 348
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": 328,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": 345
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": 317,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": 324
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": 325,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": 343
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": 293,
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": 344
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "old_control_normalized": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": {
+              "absolute": 312,
+              "per_losing_pair": {
+                "decimal": "0.873949579831932773",
+                "denominator": 357,
+                "numerator": 312
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 348,
+              "per_losing_pair": {
+                "decimal": "0.890025575447570332",
+                "denominator": 391,
+                "numerator": 348
+              }
+            }
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": {
+              "absolute": 328,
+              "per_losing_pair": {
+                "decimal": "0.926553672316384181",
+                "denominator": 354,
+                "numerator": 328
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 345,
+              "per_losing_pair": {
+                "decimal": "0.886889460154241645",
+                "denominator": 389,
+                "numerator": 345
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 317,
+              "per_losing_pair": {
+                "decimal": "0.900568181818181818",
+                "denominator": 352,
+                "numerator": 317
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 324,
+              "per_losing_pair": {
+                "decimal": "0.835051546391752577",
+                "denominator": 388,
+                "numerator": 324
+              }
+            }
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": {
+              "absolute": 325,
+              "per_losing_pair": {
+                "decimal": "0.931232091690544413",
+                "denominator": 349,
+                "numerator": 325
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 343,
+              "per_losing_pair": {
+                "decimal": "0.886304909560723514",
+                "denominator": 387,
+                "numerator": 343
+              }
+            }
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": {
+              "absolute": 293,
+              "per_losing_pair": {
+                "decimal": "0.827683615819209040",
+                "denominator": 354,
+                "numerator": 293
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 344,
+              "per_losing_pair": {
+                "decimal": "0.891191709844559585",
+                "denominator": 386,
+                "numerator": 344
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "statement": "LOW_TAIL_HAS_MORE_P2_PERSISTENT_PRIMES"
+    },
+    {
+      "p2_corrected_mod9_controls": {
+        "exact_result": "EQUAL_FOR_EACH_MATCHED_PAIR_BY_MODULO_9_BINDING",
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.396121883656509695",
+                "denominator": 361,
+                "numerator": 143
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.365728900255754476",
+                "denominator": 391,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.400560224089635854",
+                "denominator": 357,
+                "numerator": 143
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.367609254498714653",
+                "denominator": 389,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 137,
+              "over_active_pairs": {
+                "decimal": "0.336609336609336609",
+                "denominator": 407,
+                "numerator": 137
+              },
+              "over_losing_pairs": {
+                "decimal": "0.389204545454545455",
+                "denominator": 352,
+                "numerator": 137
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 137,
+              "over_active_pairs": {
+                "decimal": "0.336609336609336609",
+                "denominator": 407,
+                "numerator": 137
+              },
+              "over_losing_pairs": {
+                "decimal": "0.353092783505154639",
+                "denominator": 388,
+                "numerator": 137
+              }
+            }
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.397222222222222222",
+                "denominator": 360,
+                "numerator": 143
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.369509043927648579",
+                "denominator": 387,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.397222222222222222",
+                "denominator": 360,
+                "numerator": 143
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.370466321243523316",
+                "denominator": 386,
+                "numerator": 143
+              }
+            }
+          }
+        ],
+        "verdict": "DOES_NOT_SURVIVE"
+      },
+      "p2_old_controls": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": {
+              "absolute": 122,
+              "over_active_pairs": {
+                "decimal": "0.299754299754299754",
+                "denominator": 407,
+                "numerator": 122
+              },
+              "over_losing_pairs": {
+                "decimal": "0.341736694677871148",
+                "denominator": 357,
+                "numerator": 122
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.365728900255754476",
+                "denominator": 391,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": {
+              "absolute": 122,
+              "over_active_pairs": {
+                "decimal": "0.299754299754299754",
+                "denominator": 407,
+                "numerator": 122
+              },
+              "over_losing_pairs": {
+                "decimal": "0.344632768361581921",
+                "denominator": 354,
+                "numerator": 122
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.367609254498714653",
+                "denominator": 389,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 137,
+              "over_active_pairs": {
+                "decimal": "0.336609336609336609",
+                "denominator": 407,
+                "numerator": 137
+              },
+              "over_losing_pairs": {
+                "decimal": "0.389204545454545455",
+                "denominator": 352,
+                "numerator": 137
+              }
+            },
+            "low_is_strictly_greater": false,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 137,
+              "over_active_pairs": {
+                "decimal": "0.336609336609336609",
+                "denominator": 407,
+                "numerator": 137
+              },
+              "over_losing_pairs": {
+                "decimal": "0.353092783505154639",
+                "denominator": 388,
+                "numerator": 137
+              }
+            }
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": {
+              "absolute": 122,
+              "over_active_pairs": {
+                "decimal": "0.299754299754299754",
+                "denominator": 407,
+                "numerator": 122
+              },
+              "over_losing_pairs": {
+                "decimal": "0.349570200573065903",
+                "denominator": 349,
+                "numerator": 122
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.369509043927648579",
+                "denominator": 387,
+                "numerator": 143
+              }
+            }
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": {
+              "absolute": 121,
+              "over_active_pairs": {
+                "decimal": "0.297297297297297297",
+                "denominator": 407,
+                "numerator": 121
+              },
+              "over_losing_pairs": {
+                "decimal": "0.341807909604519774",
+                "denominator": 354,
+                "numerator": 121
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 143,
+              "over_active_pairs": {
+                "decimal": "0.351351351351351351",
+                "denominator": 407,
+                "numerator": 143
+              },
+              "over_losing_pairs": {
+                "decimal": "0.370466321243523316",
+                "denominator": 386,
+                "numerator": 143
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_PARTIALLY"
+      },
+      "statement": "LOW_TAIL_HAS_HIGHER_PRIME_3_COVERAGE",
+      "static_corrected_mod9_controls": {
+        "pairs": [
+          {
+            "control_n": 240000009194,
+            "control_value": {
+              "absolute": 145,
+              "over_active_pairs": {
+                "decimal": "0.356265356265356265",
+                "denominator": 407,
+                "numerator": 145
+              },
+              "over_losing_pairs": {
+                "decimal": "0.401662049861495845",
+                "denominator": 361,
+                "numerator": 145
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 167,
+              "over_active_pairs": {
+                "decimal": "0.410319410319410319",
+                "denominator": 407,
+                "numerator": 167
+              },
+              "over_losing_pairs": {
+                "decimal": "0.427109974424552430",
+                "denominator": 391,
+                "numerator": 167
+              }
+            }
+          },
+          {
+            "control_n": 240000001202,
+            "control_value": {
+              "absolute": 145,
+              "over_active_pairs": {
+                "decimal": "0.356265356265356265",
+                "denominator": 407,
+                "numerator": 145
+              },
+              "over_losing_pairs": {
+                "decimal": "0.406162464985994398",
+                "denominator": 357,
+                "numerator": 145
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 166,
+              "over_active_pairs": {
+                "decimal": "0.407862407862407862",
+                "denominator": 407,
+                "numerator": 166
+              },
+              "over_losing_pairs": {
+                "decimal": "0.426735218508997429",
+                "denominator": 389,
+                "numerator": 166
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 139,
+              "over_active_pairs": {
+                "decimal": "0.341523341523341523",
+                "denominator": 407,
+                "numerator": 139
+              },
+              "over_losing_pairs": {
+                "decimal": "0.394886363636363636",
+                "denominator": 352,
+                "numerator": 139
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 158,
+              "over_active_pairs": {
+                "decimal": "0.388206388206388206",
+                "denominator": 407,
+                "numerator": 158
+              },
+              "over_losing_pairs": {
+                "decimal": "0.407216494845360825",
+                "denominator": 388,
+                "numerator": 158
+              }
+            }
+          },
+          {
+            "control_n": 240000006368,
+            "control_value": {
+              "absolute": 146,
+              "over_active_pairs": {
+                "decimal": "0.358722358722358722",
+                "denominator": 407,
+                "numerator": 146
+              },
+              "over_losing_pairs": {
+                "decimal": "0.405555555555555556",
+                "denominator": 360,
+                "numerator": 146
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 165,
+              "over_active_pairs": {
+                "decimal": "0.405405405405405405",
+                "denominator": 407,
+                "numerator": 165
+              },
+              "over_losing_pairs": {
+                "decimal": "0.426356589147286822",
+                "denominator": 387,
+                "numerator": 165
+              }
+            }
+          },
+          {
+            "control_n": 240000004064,
+            "control_value": {
+              "absolute": 146,
+              "over_active_pairs": {
+                "decimal": "0.358722358722358722",
+                "denominator": 407,
+                "numerator": 146
+              },
+              "over_losing_pairs": {
+                "decimal": "0.405555555555555556",
+                "denominator": 360,
+                "numerator": 146
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 166,
+              "over_active_pairs": {
+                "decimal": "0.407862407862407862",
+                "denominator": 407,
+                "numerator": 166
+              },
+              "over_losing_pairs": {
+                "decimal": "0.430051813471502591",
+                "denominator": 386,
+                "numerator": 166
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      },
+      "static_old_controls": {
+        "pairs": [
+          {
+            "control_n": 240000002114,
+            "control_value": {
+              "absolute": 125,
+              "over_active_pairs": {
+                "decimal": "0.307125307125307125",
+                "denominator": 407,
+                "numerator": 125
+              },
+              "over_losing_pairs": {
+                "decimal": "0.350140056022408964",
+                "denominator": 357,
+                "numerator": 125
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000005594,
+            "low_value": {
+              "absolute": 167,
+              "over_active_pairs": {
+                "decimal": "0.410319410319410319",
+                "denominator": 407,
+                "numerator": 167
+              },
+              "over_losing_pairs": {
+                "decimal": "0.427109974424552430",
+                "denominator": 391,
+                "numerator": 167
+              }
+            }
+          },
+          {
+            "control_n": 240000003122,
+            "control_value": {
+              "absolute": 125,
+              "over_active_pairs": {
+                "decimal": "0.307125307125307125",
+                "denominator": 407,
+                "numerator": 125
+              },
+              "over_losing_pairs": {
+                "decimal": "0.353107344632768362",
+                "denominator": 354,
+                "numerator": 125
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000004802,
+            "low_value": {
+              "absolute": 166,
+              "over_active_pairs": {
+                "decimal": "0.407862407862407862",
+                "denominator": 407,
+                "numerator": 166
+              },
+              "over_losing_pairs": {
+                "decimal": "0.426735218508997429",
+                "denominator": 389,
+                "numerator": 166
+              }
+            }
+          },
+          {
+            "control_n": 240000048838,
+            "control_value": {
+              "absolute": 139,
+              "over_active_pairs": {
+                "decimal": "0.341523341523341523",
+                "denominator": 407,
+                "numerator": 139
+              },
+              "over_losing_pairs": {
+                "decimal": "0.394886363636363636",
+                "denominator": 352,
+                "numerator": 139
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000044158,
+            "low_value": {
+              "absolute": 158,
+              "over_active_pairs": {
+                "decimal": "0.388206388206388206",
+                "denominator": 407,
+                "numerator": 158
+              },
+              "over_losing_pairs": {
+                "decimal": "0.407216494845360825",
+                "denominator": 388,
+                "numerator": 158
+              }
+            }
+          },
+          {
+            "control_n": 240000000728,
+            "control_value": {
+              "absolute": 127,
+              "over_active_pairs": {
+                "decimal": "0.312039312039312039",
+                "denominator": 407,
+                "numerator": 127
+              },
+              "over_losing_pairs": {
+                "decimal": "0.363896848137535817",
+                "denominator": 349,
+                "numerator": 127
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000000968,
+            "low_value": {
+              "absolute": 165,
+              "over_active_pairs": {
+                "decimal": "0.405405405405405405",
+                "denominator": 407,
+                "numerator": 165
+              },
+              "over_losing_pairs": {
+                "decimal": "0.426356589147286822",
+                "denominator": 387,
+                "numerator": 165
+              }
+            }
+          },
+          {
+            "control_n": 240000003584,
+            "control_value": {
+              "absolute": 145,
+              "over_active_pairs": {
+                "decimal": "0.356265356265356265",
+                "denominator": 407,
+                "numerator": 145
+              },
+              "over_losing_pairs": {
+                "decimal": "0.409604519774011299",
+                "denominator": 354,
+                "numerator": 145
+              }
+            },
+            "low_is_strictly_greater": true,
+            "low_tail_n": 240000001544,
+            "low_value": {
+              "absolute": 166,
+              "over_active_pairs": {
+                "decimal": "0.407862407862407862",
+                "denominator": 407,
+                "numerator": 166
+              },
+              "over_losing_pairs": {
+                "decimal": "0.430051813471502591",
+                "denominator": 386,
+                "numerator": 166
+              }
+            }
+          }
+        ],
+        "verdict": "SURVIVES_ALL_FIVE"
+      }
+    },
+    {
+      "fixtures": [
+        {
+          "largest_static_prime": 3,
+          "n": 240000000728,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000000968,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000001202,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000001544,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000002114,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000003122,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000003584,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000004064,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000004802,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000005594,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000006368,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000009194,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000044158,
+          "prime_3_is_largest": true
+        },
+        {
+          "largest_static_prime": 3,
+          "n": 240000048838,
+          "prime_3_is_largest": true
+        }
+      ],
+      "statement": "PRIME_3_IS_THE_LARGEST_STATIC_SINGLE_PRIME_COVER",
+      "verdict": "SURVIVES_ALL_SELECTED_FIXTURES"
+    },
+    {
+      "by_k": [
+        {
+          "corrected_mod9_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 143,
+                  "control_n": 240000009194,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 143,
+                  "control_n": 240000001202,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 137,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 137,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 143,
+                  "control_n": 240000006368,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 143,
+                  "control_n": 240000004064,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "DOES_NOT_SURVIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.396121883656509695",
+                    "denominator": 361,
+                    "numerator": 143
+                  },
+                  "control_n": 240000009194,
+                  "low_coverage": {
+                    "decimal": "0.365728900255754476",
+                    "denominator": 391,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.400560224089635854",
+                    "denominator": 357,
+                    "numerator": 143
+                  },
+                  "control_n": 240000001202,
+                  "low_coverage": {
+                    "decimal": "0.367609254498714653",
+                    "denominator": 389,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.389204545454545455",
+                    "denominator": 352,
+                    "numerator": 137
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.353092783505154639",
+                    "denominator": 388,
+                    "numerator": 137
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.397222222222222222",
+                    "denominator": 360,
+                    "numerator": 143
+                  },
+                  "control_n": 240000006368,
+                  "low_coverage": {
+                    "decimal": "0.369509043927648579",
+                    "denominator": 387,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.397222222222222222",
+                    "denominator": 360,
+                    "numerator": 143
+                  },
+                  "control_n": 240000004064,
+                  "low_coverage": {
+                    "decimal": "0.370466321243523316",
+                    "denominator": 386,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "DOES_NOT_SURVIVE"
+            }
+          },
+          "k": 1,
+          "old_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 122,
+                  "control_n": 240000002114,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 122,
+                  "control_n": 240000003122,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 137,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 137,
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 122,
+                  "control_n": 240000000728,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 121,
+                  "control_n": 240000003584,
+                  "low_covered_pairs": 143,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.341736694677871148",
+                    "denominator": 357,
+                    "numerator": 122
+                  },
+                  "control_n": 240000002114,
+                  "low_coverage": {
+                    "decimal": "0.365728900255754476",
+                    "denominator": 391,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.344632768361581921",
+                    "denominator": 354,
+                    "numerator": 122
+                  },
+                  "control_n": 240000003122,
+                  "low_coverage": {
+                    "decimal": "0.367609254498714653",
+                    "denominator": 389,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.389204545454545455",
+                    "denominator": 352,
+                    "numerator": 137
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.353092783505154639",
+                    "denominator": 388,
+                    "numerator": 137
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.349570200573065903",
+                    "denominator": 349,
+                    "numerator": 122
+                  },
+                  "control_n": 240000000728,
+                  "low_coverage": {
+                    "decimal": "0.369509043927648579",
+                    "denominator": 387,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.341807909604519774",
+                    "denominator": 354,
+                    "numerator": 121
+                  },
+                  "control_n": 240000003584,
+                  "low_coverage": {
+                    "decimal": "0.370466321243523316",
+                    "denominator": 386,
+                    "numerator": 143
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          }
+        },
+        {
+          "corrected_mod9_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 170,
+                  "control_n": 240000009194,
+                  "low_covered_pairs": 182,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 171,
+                  "control_n": 240000001202,
+                  "low_covered_pairs": 178,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 171,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 178,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 172,
+                  "control_n": 240000006368,
+                  "low_covered_pairs": 182,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 172,
+                  "control_n": 240000004064,
+                  "low_covered_pairs": 175,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.470914127423822715",
+                    "denominator": 361,
+                    "numerator": 170
+                  },
+                  "control_n": 240000009194,
+                  "low_coverage": {
+                    "decimal": "0.465473145780051151",
+                    "denominator": 391,
+                    "numerator": 182
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.478991596638655462",
+                    "denominator": 357,
+                    "numerator": 171
+                  },
+                  "control_n": 240000001202,
+                  "low_coverage": {
+                    "decimal": "0.457583547557840617",
+                    "denominator": 389,
+                    "numerator": 178
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.485795454545454545",
+                    "denominator": 352,
+                    "numerator": 171
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.458762886597938144",
+                    "denominator": 388,
+                    "numerator": 178
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.477777777777777778",
+                    "denominator": 360,
+                    "numerator": 172
+                  },
+                  "control_n": 240000006368,
+                  "low_coverage": {
+                    "decimal": "0.470284237726098191",
+                    "denominator": 387,
+                    "numerator": 182
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.477777777777777778",
+                    "denominator": 360,
+                    "numerator": 172
+                  },
+                  "control_n": 240000004064,
+                  "low_coverage": {
+                    "decimal": "0.453367875647668394",
+                    "denominator": 386,
+                    "numerator": 175
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "DOES_NOT_SURVIVE"
+            }
+          },
+          "k": 2,
+          "old_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 150,
+                  "control_n": 240000002114,
+                  "low_covered_pairs": 182,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 150,
+                  "control_n": 240000003122,
+                  "low_covered_pairs": 178,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 171,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 178,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 150,
+                  "control_n": 240000000728,
+                  "low_covered_pairs": 182,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 163,
+                  "control_n": 240000003584,
+                  "low_covered_pairs": 175,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.420168067226890756",
+                    "denominator": 357,
+                    "numerator": 150
+                  },
+                  "control_n": 240000002114,
+                  "low_coverage": {
+                    "decimal": "0.465473145780051151",
+                    "denominator": 391,
+                    "numerator": 182
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.423728813559322034",
+                    "denominator": 354,
+                    "numerator": 150
+                  },
+                  "control_n": 240000003122,
+                  "low_coverage": {
+                    "decimal": "0.457583547557840617",
+                    "denominator": 389,
+                    "numerator": 178
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.485795454545454545",
+                    "denominator": 352,
+                    "numerator": 171
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.458762886597938144",
+                    "denominator": 388,
+                    "numerator": 178
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.429799426934097421",
+                    "denominator": 349,
+                    "numerator": 150
+                  },
+                  "control_n": 240000000728,
+                  "low_coverage": {
+                    "decimal": "0.470284237726098191",
+                    "denominator": 387,
+                    "numerator": 182
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.460451977401129944",
+                    "denominator": 354,
+                    "numerator": 163
+                  },
+                  "control_n": 240000003584,
+                  "low_coverage": {
+                    "decimal": "0.453367875647668394",
+                    "denominator": 386,
+                    "numerator": 175
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          }
+        },
+        {
+          "corrected_mod9_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 189,
+                  "control_n": 240000009194,
+                  "low_covered_pairs": 216,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 191,
+                  "control_n": 240000001202,
+                  "low_covered_pairs": 218,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 192,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 220,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 204,
+                  "control_n": 240000006368,
+                  "low_covered_pairs": 211,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 199,
+                  "control_n": 240000004064,
+                  "low_covered_pairs": 214,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.523545706371191136",
+                    "denominator": 361,
+                    "numerator": 189
+                  },
+                  "control_n": 240000009194,
+                  "low_coverage": {
+                    "decimal": "0.552429667519181586",
+                    "denominator": 391,
+                    "numerator": 216
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.535014005602240896",
+                    "denominator": 357,
+                    "numerator": 191
+                  },
+                  "control_n": 240000001202,
+                  "low_coverage": {
+                    "decimal": "0.560411311053984576",
+                    "denominator": 389,
+                    "numerator": 218
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.545454545454545455",
+                    "denominator": 352,
+                    "numerator": 192
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.567010309278350515",
+                    "denominator": 388,
+                    "numerator": 220
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.566666666666666667",
+                    "denominator": 360,
+                    "numerator": 204
+                  },
+                  "control_n": 240000006368,
+                  "low_coverage": {
+                    "decimal": "0.545219638242894057",
+                    "denominator": 387,
+                    "numerator": 211
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.552777777777777778",
+                    "denominator": 360,
+                    "numerator": 199
+                  },
+                  "control_n": 240000004064,
+                  "low_coverage": {
+                    "decimal": "0.554404145077720207",
+                    "denominator": 386,
+                    "numerator": 214
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          },
+          "k": 4,
+          "old_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 185,
+                  "control_n": 240000002114,
+                  "low_covered_pairs": 216,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 179,
+                  "control_n": 240000003122,
+                  "low_covered_pairs": 218,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 192,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 220,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 185,
+                  "control_n": 240000000728,
+                  "low_covered_pairs": 211,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 184,
+                  "control_n": 240000003584,
+                  "low_covered_pairs": 214,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.518207282913165266",
+                    "denominator": 357,
+                    "numerator": 185
+                  },
+                  "control_n": 240000002114,
+                  "low_coverage": {
+                    "decimal": "0.552429667519181586",
+                    "denominator": 391,
+                    "numerator": 216
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.505649717514124294",
+                    "denominator": 354,
+                    "numerator": 179
+                  },
+                  "control_n": 240000003122,
+                  "low_coverage": {
+                    "decimal": "0.560411311053984576",
+                    "denominator": 389,
+                    "numerator": 218
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.545454545454545455",
+                    "denominator": 352,
+                    "numerator": 192
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.567010309278350515",
+                    "denominator": 388,
+                    "numerator": 220
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.530085959885386819",
+                    "denominator": 349,
+                    "numerator": 185
+                  },
+                  "control_n": 240000000728,
+                  "low_coverage": {
+                    "decimal": "0.545219638242894057",
+                    "denominator": 387,
+                    "numerator": 211
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.519774011299435028",
+                    "denominator": 354,
+                    "numerator": 184
+                  },
+                  "control_n": 240000003584,
+                  "low_coverage": {
+                    "decimal": "0.554404145077720207",
+                    "denominator": 386,
+                    "numerator": 214
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            }
+          }
+        },
+        {
+          "corrected_mod9_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 214,
+                  "control_n": 240000009194,
+                  "low_covered_pairs": 246,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 222,
+                  "control_n": 240000001202,
+                  "low_covered_pairs": 241,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 214,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 249,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 225,
+                  "control_n": 240000006368,
+                  "low_covered_pairs": 234,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 222,
+                  "control_n": 240000004064,
+                  "low_covered_pairs": 239,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.592797783933518006",
+                    "denominator": 361,
+                    "numerator": 214
+                  },
+                  "control_n": 240000009194,
+                  "low_coverage": {
+                    "decimal": "0.629156010230179028",
+                    "denominator": 391,
+                    "numerator": 246
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.621848739495798319",
+                    "denominator": 357,
+                    "numerator": 222
+                  },
+                  "control_n": 240000001202,
+                  "low_coverage": {
+                    "decimal": "0.619537275064267352",
+                    "denominator": 389,
+                    "numerator": 241
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.607954545454545455",
+                    "denominator": 352,
+                    "numerator": 214
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.641752577319587629",
+                    "denominator": 388,
+                    "numerator": 249
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.625000000000000000",
+                    "denominator": 360,
+                    "numerator": 225
+                  },
+                  "control_n": 240000006368,
+                  "low_coverage": {
+                    "decimal": "0.604651162790697674",
+                    "denominator": 387,
+                    "numerator": 234
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.616666666666666667",
+                    "denominator": 360,
+                    "numerator": 222
+                  },
+                  "control_n": 240000004064,
+                  "low_coverage": {
+                    "decimal": "0.619170984455958549",
+                    "denominator": 386,
+                    "numerator": 239
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          },
+          "k": 8,
+          "old_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 210,
+                  "control_n": 240000002114,
+                  "low_covered_pairs": 246,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 202,
+                  "control_n": 240000003122,
+                  "low_covered_pairs": 241,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 214,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 249,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 210,
+                  "control_n": 240000000728,
+                  "low_covered_pairs": 234,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 208,
+                  "control_n": 240000003584,
+                  "low_covered_pairs": 239,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.588235294117647059",
+                    "denominator": 357,
+                    "numerator": 210
+                  },
+                  "control_n": 240000002114,
+                  "low_coverage": {
+                    "decimal": "0.629156010230179028",
+                    "denominator": 391,
+                    "numerator": 246
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.570621468926553672",
+                    "denominator": 354,
+                    "numerator": 202
+                  },
+                  "control_n": 240000003122,
+                  "low_coverage": {
+                    "decimal": "0.619537275064267352",
+                    "denominator": 389,
+                    "numerator": 241
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.607954545454545455",
+                    "denominator": 352,
+                    "numerator": 214
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.641752577319587629",
+                    "denominator": 388,
+                    "numerator": 249
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.601719197707736390",
+                    "denominator": 349,
+                    "numerator": 210
+                  },
+                  "control_n": 240000000728,
+                  "low_coverage": {
+                    "decimal": "0.604651162790697674",
+                    "denominator": 387,
+                    "numerator": 234
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.587570621468926554",
+                    "denominator": 354,
+                    "numerator": 208
+                  },
+                  "control_n": 240000003584,
+                  "low_coverage": {
+                    "decimal": "0.619170984455958549",
+                    "denominator": 386,
+                    "numerator": 239
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            }
+          }
+        },
+        {
+          "corrected_mod9_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 229,
+                  "control_n": 240000009194,
+                  "low_covered_pairs": 262,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 237,
+                  "control_n": 240000001202,
+                  "low_covered_pairs": 258,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 230,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 264,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 247,
+                  "control_n": 240000006368,
+                  "low_covered_pairs": 254,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 231,
+                  "control_n": 240000004064,
+                  "low_covered_pairs": 256,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.634349030470914127",
+                    "denominator": 361,
+                    "numerator": 229
+                  },
+                  "control_n": 240000009194,
+                  "low_coverage": {
+                    "decimal": "0.670076726342710997",
+                    "denominator": 391,
+                    "numerator": 262
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.663865546218487395",
+                    "denominator": 357,
+                    "numerator": 237
+                  },
+                  "control_n": 240000001202,
+                  "low_coverage": {
+                    "decimal": "0.663239074550128535",
+                    "denominator": 389,
+                    "numerator": 258
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.653409090909090909",
+                    "denominator": 352,
+                    "numerator": 230
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.680412371134020619",
+                    "denominator": 388,
+                    "numerator": 264
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.686111111111111111",
+                    "denominator": 360,
+                    "numerator": 247
+                  },
+                  "control_n": 240000006368,
+                  "low_coverage": {
+                    "decimal": "0.656330749354005168",
+                    "denominator": 387,
+                    "numerator": 254
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.641666666666666667",
+                    "denominator": 360,
+                    "numerator": 231
+                  },
+                  "control_n": 240000004064,
+                  "low_coverage": {
+                    "decimal": "0.663212435233160622",
+                    "denominator": 386,
+                    "numerator": 256
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          },
+          "k": 16,
+          "old_controls": {
+            "over_active_pairs": {
+              "pairs": [
+                {
+                  "control_covered_pairs": 227,
+                  "control_n": 240000002114,
+                  "low_covered_pairs": 262,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_covered_pairs": 225,
+                  "control_n": 240000003122,
+                  "low_covered_pairs": 258,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_covered_pairs": 230,
+                  "control_n": 240000048838,
+                  "low_covered_pairs": 264,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_covered_pairs": 230,
+                  "control_n": 240000000728,
+                  "low_covered_pairs": 254,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_covered_pairs": 232,
+                  "control_n": 240000003584,
+                  "low_covered_pairs": 256,
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_ALL_FIVE"
+            },
+            "over_losing_pairs": {
+              "pairs": [
+                {
+                  "control_coverage": {
+                    "decimal": "0.635854341736694678",
+                    "denominator": 357,
+                    "numerator": 227
+                  },
+                  "control_n": 240000002114,
+                  "low_coverage": {
+                    "decimal": "0.670076726342710997",
+                    "denominator": 391,
+                    "numerator": 262
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000005594
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.635593220338983051",
+                    "denominator": 354,
+                    "numerator": 225
+                  },
+                  "control_n": 240000003122,
+                  "low_coverage": {
+                    "decimal": "0.663239074550128535",
+                    "denominator": 389,
+                    "numerator": 258
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000004802
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.653409090909090909",
+                    "denominator": 352,
+                    "numerator": 230
+                  },
+                  "control_n": 240000048838,
+                  "low_coverage": {
+                    "decimal": "0.680412371134020619",
+                    "denominator": 388,
+                    "numerator": 264
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000044158
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.659025787965616046",
+                    "denominator": 349,
+                    "numerator": 230
+                  },
+                  "control_n": 240000000728,
+                  "low_coverage": {
+                    "decimal": "0.656330749354005168",
+                    "denominator": 387,
+                    "numerator": 254
+                  },
+                  "low_is_strictly_greater": false,
+                  "low_tail_n": 240000000968
+                },
+                {
+                  "control_coverage": {
+                    "decimal": "0.655367231638418079",
+                    "denominator": 354,
+                    "numerator": 232
+                  },
+                  "control_n": 240000003584,
+                  "low_coverage": {
+                    "decimal": "0.663212435233160622",
+                    "denominator": 386,
+                    "numerator": 256
+                  },
+                  "low_is_strictly_greater": true,
+                  "low_tail_n": 240000001544
+                }
+              ],
+              "verdict": "SURVIVES_PARTIALLY"
+            }
+          }
+        }
+      ],
+      "definition": "frequency-rank primes by descending |C_p| with smaller-prime tie-break, then compare the union of the first k sets",
+      "statement": "LOW_TAIL_HAS_HIGHER_TOP_K_P2_UNION_COVERAGE"
+    }
+  ],
+  "fixtures": [
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 325,
+        "per_losing_pair": {
+          "decimal": "0.931232091690544413",
+          "denominator": 349,
+          "numerator": 325
+        }
+      },
+      "losing_pair_count": 349,
+      "n": 240000000728,
+      "obstruction_signatures": {
+        "absolute": 296,
+        "per_losing_pair": {
+          "decimal": "0.848137535816618911",
+          "denominator": 349,
+          "numerator": 296
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 325,
+        "per_losing_pair": {
+          "decimal": "0.931232091690544413",
+          "denominator": 349,
+          "numerator": 325
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 122,
+        "over_active_pairs": {
+          "decimal": "0.299754299754299754",
+          "denominator": 407,
+          "numerator": 122
+        },
+        "over_losing_pairs": {
+          "decimal": "0.349570200573065903",
+          "denominator": 349,
+          "numerator": 122
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 127,
+        "over_active_pairs": {
+          "decimal": "0.312039312039312039",
+          "denominator": 407,
+          "numerator": 127
+        },
+        "over_losing_pairs": {
+          "decimal": "0.363896848137535817",
+          "denominator": 349,
+          "numerator": 127
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.299754299754299754",
+            "denominator": 407,
+            "numerator": 122
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.349570200573065903",
+            "denominator": 349,
+            "numerator": 122
+          },
+          "covered_pairs": 122,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.368550368550368550",
+            "denominator": 407,
+            "numerator": 150
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.429799426934097421",
+            "denominator": 349,
+            "numerator": 150
+          },
+          "covered_pairs": 150,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.454545454545454545",
+            "denominator": 407,
+            "numerator": 185
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.530085959885386819",
+            "denominator": 349,
+            "numerator": 185
+          },
+          "covered_pairs": 185,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.515970515970515971",
+            "denominator": 407,
+            "numerator": 210
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.601719197707736390",
+            "denominator": 349,
+            "numerator": 210
+          },
+          "covered_pairs": 210,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            43,
+            31,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.565110565110565111",
+            "denominator": 407,
+            "numerator": 230
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.659025787965616046",
+            "denominator": 349,
+            "numerator": 230
+          },
+          "covered_pairs": 230,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            43,
+            31,
+            47,
+            59,
+            71,
+            79,
+            83,
+            107,
+            163,
+            179,
+            191
+          ]
+        }
+      ],
+      "validated_T": 58
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 343,
+        "per_losing_pair": {
+          "decimal": "0.886304909560723514",
+          "denominator": 387,
+          "numerator": 343
+        }
+      },
+      "losing_pair_count": 387,
+      "n": 240000000968,
+      "obstruction_signatures": {
+        "absolute": 320,
+        "per_losing_pair": {
+          "decimal": "0.826873385012919897",
+          "denominator": 387,
+          "numerator": 320
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 343,
+        "per_losing_pair": {
+          "decimal": "0.886304909560723514",
+          "denominator": 387,
+          "numerator": 343
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.369509043927648579",
+          "denominator": 387,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 165,
+        "over_active_pairs": {
+          "decimal": "0.405405405405405405",
+          "denominator": 407,
+          "numerator": 165
+        },
+        "over_losing_pairs": {
+          "decimal": "0.426356589147286822",
+          "denominator": 387,
+          "numerator": 165
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.369509043927648579",
+            "denominator": 387,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.447174447174447174",
+            "denominator": 407,
+            "numerator": 182
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.470284237726098191",
+            "denominator": 387,
+            "numerator": 182
+          },
+          "covered_pairs": 182,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.518427518427518428",
+            "denominator": 407,
+            "numerator": 211
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.545219638242894057",
+            "denominator": 387,
+            "numerator": 211
+          },
+          "covered_pairs": 211,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.574938574938574939",
+            "denominator": 407,
+            "numerator": 234
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.604651162790697674",
+            "denominator": 387,
+            "numerator": 234
+          },
+          "covered_pairs": 234,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.624078624078624079",
+            "denominator": 407,
+            "numerator": 254
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.656330749354005168",
+            "denominator": 387,
+            "numerator": 254
+          },
+          "covered_pairs": 254,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            47,
+            59,
+            43,
+            67,
+            79,
+            127,
+            131,
+            167,
+            83
+          ]
+        }
+      ],
+      "validated_T": 20
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 310,
+        "per_losing_pair": {
+          "decimal": "0.868347338935574230",
+          "denominator": 357,
+          "numerator": 310
+        }
+      },
+      "losing_pair_count": 357,
+      "n": 240000001202,
+      "obstruction_signatures": {
+        "absolute": 299,
+        "per_losing_pair": {
+          "decimal": "0.837535014005602241",
+          "denominator": 357,
+          "numerator": 299
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 310,
+        "per_losing_pair": {
+          "decimal": "0.868347338935574230",
+          "denominator": 357,
+          "numerator": 310
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.400560224089635854",
+          "denominator": 357,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 145,
+        "over_active_pairs": {
+          "decimal": "0.356265356265356265",
+          "denominator": 407,
+          "numerator": 145
+        },
+        "over_losing_pairs": {
+          "decimal": "0.406162464985994398",
+          "denominator": 357,
+          "numerator": 145
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.400560224089635854",
+            "denominator": 357,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.420147420147420147",
+            "denominator": 407,
+            "numerator": 171
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.478991596638655462",
+            "denominator": 357,
+            "numerator": 171
+          },
+          "covered_pairs": 171,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.469287469287469287",
+            "denominator": 407,
+            "numerator": 191
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.535014005602240896",
+            "denominator": 357,
+            "numerator": 191
+          },
+          "covered_pairs": 191,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            11
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.545454545454545455",
+            "denominator": 407,
+            "numerator": 222
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.621848739495798319",
+            "denominator": 357,
+            "numerator": 222
+          },
+          "covered_pairs": 222,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            11,
+            23,
+            31,
+            43,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.582309582309582310",
+            "denominator": 407,
+            "numerator": 237
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.663865546218487395",
+            "denominator": 357,
+            "numerator": 237
+          },
+          "covered_pairs": 237,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            11,
+            23,
+            31,
+            43,
+            47,
+            71,
+            59,
+            79,
+            107,
+            83,
+            67,
+            127,
+            139
+          ]
+        }
+      ],
+      "validated_T": 50
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 344,
+        "per_losing_pair": {
+          "decimal": "0.891191709844559585",
+          "denominator": 386,
+          "numerator": 344
+        }
+      },
+      "losing_pair_count": 386,
+      "n": 240000001544,
+      "obstruction_signatures": {
+        "absolute": 321,
+        "per_losing_pair": {
+          "decimal": "0.831606217616580311",
+          "denominator": 386,
+          "numerator": 321
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 344,
+        "per_losing_pair": {
+          "decimal": "0.891191709844559585",
+          "denominator": 386,
+          "numerator": 344
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.370466321243523316",
+          "denominator": 386,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 166,
+        "over_active_pairs": {
+          "decimal": "0.407862407862407862",
+          "denominator": 407,
+          "numerator": 166
+        },
+        "over_losing_pairs": {
+          "decimal": "0.430051813471502591",
+          "denominator": 386,
+          "numerator": 166
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.370466321243523316",
+            "denominator": 386,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.429975429975429975",
+            "denominator": 407,
+            "numerator": 175
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.453367875647668394",
+            "denominator": 386,
+            "numerator": 175
+          },
+          "covered_pairs": 175,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.525798525798525799",
+            "denominator": 407,
+            "numerator": 214
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.554404145077720207",
+            "denominator": 386,
+            "numerator": 214
+          },
+          "covered_pairs": 214,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.587223587223587224",
+            "denominator": 407,
+            "numerator": 239
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.619170984455958549",
+            "denominator": 386,
+            "numerator": 239
+          },
+          "covered_pairs": 239,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            43
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.628992628992628993",
+            "denominator": 407,
+            "numerator": 256
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.663212435233160622",
+            "denominator": 386,
+            "numerator": 256
+          },
+          "covered_pairs": 256,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            43,
+            47,
+            59,
+            67,
+            83,
+            179,
+            79,
+            103,
+            131
+          ]
+        }
+      ],
+      "validated_T": 21
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 312,
+        "per_losing_pair": {
+          "decimal": "0.873949579831932773",
+          "denominator": 357,
+          "numerator": 312
+        }
+      },
+      "losing_pair_count": 357,
+      "n": 240000002114,
+      "obstruction_signatures": {
+        "absolute": 312,
+        "per_losing_pair": {
+          "decimal": "0.873949579831932773",
+          "denominator": 357,
+          "numerator": 312
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 312,
+        "per_losing_pair": {
+          "decimal": "0.873949579831932773",
+          "denominator": 357,
+          "numerator": 312
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 122,
+        "over_active_pairs": {
+          "decimal": "0.299754299754299754",
+          "denominator": 407,
+          "numerator": 122
+        },
+        "over_losing_pairs": {
+          "decimal": "0.341736694677871148",
+          "denominator": 357,
+          "numerator": 122
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 125,
+        "over_active_pairs": {
+          "decimal": "0.307125307125307125",
+          "denominator": 407,
+          "numerator": 125
+        },
+        "over_losing_pairs": {
+          "decimal": "0.350140056022408964",
+          "denominator": 357,
+          "numerator": 125
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.299754299754299754",
+            "denominator": 407,
+            "numerator": 122
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.341736694677871148",
+            "denominator": 357,
+            "numerator": 122
+          },
+          "covered_pairs": 122,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.368550368550368550",
+            "denominator": 407,
+            "numerator": 150
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.420168067226890756",
+            "denominator": 357,
+            "numerator": 150
+          },
+          "covered_pairs": 150,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.454545454545454545",
+            "denominator": 407,
+            "numerator": 185
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.518207282913165266",
+            "denominator": 357,
+            "numerator": 185
+          },
+          "covered_pairs": 185,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.515970515970515971",
+            "denominator": 407,
+            "numerator": 210
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.588235294117647059",
+            "denominator": 357,
+            "numerator": 210
+          },
+          "covered_pairs": 210,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.557739557739557740",
+            "denominator": 407,
+            "numerator": 227
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.635854341736694678",
+            "denominator": 357,
+            "numerator": 227
+          },
+          "covered_pairs": 227,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47,
+            79,
+            139,
+            67,
+            107,
+            71,
+            131,
+            151,
+            179
+          ]
+        }
+      ],
+      "validated_T": 50
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 328,
+        "per_losing_pair": {
+          "decimal": "0.926553672316384181",
+          "denominator": 354,
+          "numerator": 328
+        }
+      },
+      "losing_pair_count": 354,
+      "n": 240000003122,
+      "obstruction_signatures": {
+        "absolute": 310,
+        "per_losing_pair": {
+          "decimal": "0.875706214689265537",
+          "denominator": 354,
+          "numerator": 310
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 328,
+        "per_losing_pair": {
+          "decimal": "0.926553672316384181",
+          "denominator": 354,
+          "numerator": 328
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 122,
+        "over_active_pairs": {
+          "decimal": "0.299754299754299754",
+          "denominator": 407,
+          "numerator": 122
+        },
+        "over_losing_pairs": {
+          "decimal": "0.344632768361581921",
+          "denominator": 354,
+          "numerator": 122
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 125,
+        "over_active_pairs": {
+          "decimal": "0.307125307125307125",
+          "denominator": 407,
+          "numerator": 125
+        },
+        "over_losing_pairs": {
+          "decimal": "0.353107344632768362",
+          "denominator": 354,
+          "numerator": 125
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.299754299754299754",
+            "denominator": 407,
+            "numerator": 122
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.344632768361581921",
+            "denominator": 354,
+            "numerator": 122
+          },
+          "covered_pairs": 122,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.368550368550368550",
+            "denominator": 407,
+            "numerator": 150
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.423728813559322034",
+            "denominator": 354,
+            "numerator": 150
+          },
+          "covered_pairs": 150,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.439803439803439803",
+            "denominator": 407,
+            "numerator": 179
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.505649717514124294",
+            "denominator": 354,
+            "numerator": 179
+          },
+          "covered_pairs": 179,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.496314496314496314",
+            "denominator": 407,
+            "numerator": 202
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.570621468926553672",
+            "denominator": 354,
+            "numerator": 202
+          },
+          "covered_pairs": 202,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            71,
+            59
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.552825552825552826",
+            "denominator": 407,
+            "numerator": 225
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.635593220338983051",
+            "denominator": 354,
+            "numerator": 225
+          },
+          "covered_pairs": 225,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            71,
+            59,
+            47,
+            83,
+            103,
+            127,
+            139,
+            79,
+            131,
+            251
+          ]
+        }
+      ],
+      "validated_T": 53
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 293,
+        "per_losing_pair": {
+          "decimal": "0.827683615819209040",
+          "denominator": 354,
+          "numerator": 293
+        }
+      },
+      "losing_pair_count": 354,
+      "n": 240000003584,
+      "obstruction_signatures": {
+        "absolute": 282,
+        "per_losing_pair": {
+          "decimal": "0.796610169491525424",
+          "denominator": 354,
+          "numerator": 282
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 293,
+        "per_losing_pair": {
+          "decimal": "0.827683615819209040",
+          "denominator": 354,
+          "numerator": 293
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 121,
+        "over_active_pairs": {
+          "decimal": "0.297297297297297297",
+          "denominator": 407,
+          "numerator": 121
+        },
+        "over_losing_pairs": {
+          "decimal": "0.341807909604519774",
+          "denominator": 354,
+          "numerator": 121
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 145,
+        "over_active_pairs": {
+          "decimal": "0.356265356265356265",
+          "denominator": 407,
+          "numerator": 145
+        },
+        "over_losing_pairs": {
+          "decimal": "0.409604519774011299",
+          "denominator": 354,
+          "numerator": 145
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.297297297297297297",
+            "denominator": 407,
+            "numerator": 121
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.341807909604519774",
+            "denominator": 354,
+            "numerator": 121
+          },
+          "covered_pairs": 121,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.400491400491400491",
+            "denominator": 407,
+            "numerator": 163
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.460451977401129944",
+            "denominator": 354,
+            "numerator": 163
+          },
+          "covered_pairs": 163,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.452088452088452088",
+            "denominator": 407,
+            "numerator": 184
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.519774011299435028",
+            "denominator": 354,
+            "numerator": 184
+          },
+          "covered_pairs": 184,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.511056511056511057",
+            "denominator": 407,
+            "numerator": 208
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.587570621468926554",
+            "denominator": 354,
+            "numerator": 208
+          },
+          "covered_pairs": 208,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            71,
+            59
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.570024570024570025",
+            "denominator": 407,
+            "numerator": 232
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.655367231638418079",
+            "denominator": 354,
+            "numerator": 232
+          },
+          "covered_pairs": 232,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            71,
+            59,
+            83,
+            47,
+            67,
+            139,
+            103,
+            131,
+            239,
+            127
+          ]
+        }
+      ],
+      "validated_T": 53
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 316,
+        "per_losing_pair": {
+          "decimal": "0.877777777777777778",
+          "denominator": 360,
+          "numerator": 316
+        }
+      },
+      "losing_pair_count": 360,
+      "n": 240000004064,
+      "obstruction_signatures": {
+        "absolute": 296,
+        "per_losing_pair": {
+          "decimal": "0.822222222222222222",
+          "denominator": 360,
+          "numerator": 296
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 316,
+        "per_losing_pair": {
+          "decimal": "0.877777777777777778",
+          "denominator": 360,
+          "numerator": 316
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.397222222222222222",
+          "denominator": 360,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 146,
+        "over_active_pairs": {
+          "decimal": "0.358722358722358722",
+          "denominator": 407,
+          "numerator": 146
+        },
+        "over_losing_pairs": {
+          "decimal": "0.405555555555555556",
+          "denominator": 360,
+          "numerator": 146
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.397222222222222222",
+            "denominator": 360,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.422604422604422604",
+            "denominator": 407,
+            "numerator": 172
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.477777777777777778",
+            "denominator": 360,
+            "numerator": 172
+          },
+          "covered_pairs": 172,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.488943488943488943",
+            "denominator": 407,
+            "numerator": 199
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.552777777777777778",
+            "denominator": 360,
+            "numerator": 199
+          },
+          "covered_pairs": 199,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.545454545454545455",
+            "denominator": 407,
+            "numerator": 222
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.616666666666666667",
+            "denominator": 360,
+            "numerator": 222
+          },
+          "covered_pairs": 222,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            31,
+            23,
+            43,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.567567567567567568",
+            "denominator": 407,
+            "numerator": 231
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.641666666666666667",
+            "denominator": 360,
+            "numerator": 231
+          },
+          "covered_pairs": 231,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            31,
+            23,
+            43,
+            47,
+            59,
+            79,
+            131,
+            67,
+            83,
+            103,
+            71,
+            107
+          ]
+        }
+      ],
+      "validated_T": 47
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 345,
+        "per_losing_pair": {
+          "decimal": "0.886889460154241645",
+          "denominator": 389,
+          "numerator": 345
+        }
+      },
+      "losing_pair_count": 389,
+      "n": 240000004802,
+      "obstruction_signatures": {
+        "absolute": 332,
+        "per_losing_pair": {
+          "decimal": "0.853470437017994859",
+          "denominator": 389,
+          "numerator": 332
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 345,
+        "per_losing_pair": {
+          "decimal": "0.886889460154241645",
+          "denominator": 389,
+          "numerator": 345
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.367609254498714653",
+          "denominator": 389,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 166,
+        "over_active_pairs": {
+          "decimal": "0.407862407862407862",
+          "denominator": 407,
+          "numerator": 166
+        },
+        "over_losing_pairs": {
+          "decimal": "0.426735218508997429",
+          "denominator": 389,
+          "numerator": 166
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.367609254498714653",
+            "denominator": 389,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.437346437346437346",
+            "denominator": 407,
+            "numerator": 178
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.457583547557840617",
+            "denominator": 389,
+            "numerator": 178
+          },
+          "covered_pairs": 178,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.535626535626535627",
+            "denominator": 407,
+            "numerator": 218
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.560411311053984576",
+            "denominator": 389,
+            "numerator": 218
+          },
+          "covered_pairs": 218,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.592137592137592138",
+            "denominator": 407,
+            "numerator": 241
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.619537275064267352",
+            "denominator": 389,
+            "numerator": 241
+          },
+          "covered_pairs": 241,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.633906633906633907",
+            "denominator": 407,
+            "numerator": 258
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.663239074550128535",
+            "denominator": 389,
+            "numerator": 258
+          },
+          "covered_pairs": 258,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47,
+            71,
+            67,
+            59,
+            79,
+            83,
+            163,
+            103,
+            127
+          ]
+        }
+      ],
+      "validated_T": 18
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 348,
+        "per_losing_pair": {
+          "decimal": "0.890025575447570332",
+          "denominator": 391,
+          "numerator": 348
+        }
+      },
+      "losing_pair_count": 391,
+      "n": 240000005594,
+      "obstruction_signatures": {
+        "absolute": 319,
+        "per_losing_pair": {
+          "decimal": "0.815856777493606138",
+          "denominator": 391,
+          "numerator": 319
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 348,
+        "per_losing_pair": {
+          "decimal": "0.890025575447570332",
+          "denominator": 391,
+          "numerator": 348
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.365728900255754476",
+          "denominator": 391,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 167,
+        "over_active_pairs": {
+          "decimal": "0.410319410319410319",
+          "denominator": 407,
+          "numerator": 167
+        },
+        "over_losing_pairs": {
+          "decimal": "0.427109974424552430",
+          "denominator": 391,
+          "numerator": 167
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.365728900255754476",
+            "denominator": 391,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.447174447174447174",
+            "denominator": 407,
+            "numerator": 182
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.465473145780051151",
+            "denominator": 391,
+            "numerator": 182
+          },
+          "covered_pairs": 182,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.530712530712530713",
+            "denominator": 407,
+            "numerator": 216
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.552429667519181586",
+            "denominator": 391,
+            "numerator": 216
+          },
+          "covered_pairs": 216,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            23
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.604422604422604423",
+            "denominator": 407,
+            "numerator": 246
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.629156010230179028",
+            "denominator": 391,
+            "numerator": 246
+          },
+          "covered_pairs": 246,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            23,
+            19,
+            31,
+            47,
+            83
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.643734643734643735",
+            "denominator": 407,
+            "numerator": 262
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.670076726342710997",
+            "denominator": 391,
+            "numerator": 262
+          },
+          "covered_pairs": 262,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            23,
+            19,
+            31,
+            47,
+            83,
+            43,
+            59,
+            71,
+            67,
+            79,
+            103,
+            107,
+            131
+          ]
+        }
+      ],
+      "validated_T": 16
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 323,
+        "per_losing_pair": {
+          "decimal": "0.897222222222222222",
+          "denominator": 360,
+          "numerator": 323
+        }
+      },
+      "losing_pair_count": 360,
+      "n": 240000006368,
+      "obstruction_signatures": {
+        "absolute": 306,
+        "per_losing_pair": {
+          "decimal": "0.850000000000000000",
+          "denominator": 360,
+          "numerator": 306
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 323,
+        "per_losing_pair": {
+          "decimal": "0.897222222222222222",
+          "denominator": 360,
+          "numerator": 323
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.397222222222222222",
+          "denominator": 360,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 146,
+        "over_active_pairs": {
+          "decimal": "0.358722358722358722",
+          "denominator": 407,
+          "numerator": 146
+        },
+        "over_losing_pairs": {
+          "decimal": "0.405555555555555556",
+          "denominator": 360,
+          "numerator": 146
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.397222222222222222",
+            "denominator": 360,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.422604422604422604",
+            "denominator": 407,
+            "numerator": 172
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.477777777777777778",
+            "denominator": 360,
+            "numerator": 172
+          },
+          "covered_pairs": 172,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.501228501228501229",
+            "denominator": 407,
+            "numerator": 204
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.566666666666666667",
+            "denominator": 360,
+            "numerator": 204
+          },
+          "covered_pairs": 204,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.552825552825552826",
+            "denominator": 407,
+            "numerator": 225
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.625000000000000000",
+            "denominator": 360,
+            "numerator": 225
+          },
+          "covered_pairs": 225,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.606879606879606880",
+            "denominator": 407,
+            "numerator": 247
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.686111111111111111",
+            "denominator": 360,
+            "numerator": 247
+          },
+          "covered_pairs": 247,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            71,
+            47,
+            43,
+            67,
+            223,
+            271,
+            59,
+            79,
+            103,
+            127
+          ]
+        }
+      ],
+      "validated_T": 47
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 328,
+        "per_losing_pair": {
+          "decimal": "0.908587257617728532",
+          "denominator": 361,
+          "numerator": 328
+        }
+      },
+      "losing_pair_count": 361,
+      "n": 240000009194,
+      "obstruction_signatures": {
+        "absolute": 301,
+        "per_losing_pair": {
+          "decimal": "0.833795013850415512",
+          "denominator": 361,
+          "numerator": 301
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 328,
+        "per_losing_pair": {
+          "decimal": "0.908587257617728532",
+          "denominator": 361,
+          "numerator": 328
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 143,
+        "over_active_pairs": {
+          "decimal": "0.351351351351351351",
+          "denominator": 407,
+          "numerator": 143
+        },
+        "over_losing_pairs": {
+          "decimal": "0.396121883656509695",
+          "denominator": 361,
+          "numerator": 143
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 145,
+        "over_active_pairs": {
+          "decimal": "0.356265356265356265",
+          "denominator": 407,
+          "numerator": 145
+        },
+        "over_losing_pairs": {
+          "decimal": "0.401662049861495845",
+          "denominator": 361,
+          "numerator": 145
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.351351351351351351",
+            "denominator": 407,
+            "numerator": 143
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.396121883656509695",
+            "denominator": 361,
+            "numerator": 143
+          },
+          "covered_pairs": 143,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.417690417690417690",
+            "denominator": 407,
+            "numerator": 170
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.470914127423822715",
+            "denominator": 361,
+            "numerator": 170
+          },
+          "covered_pairs": 170,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.464373464373464373",
+            "denominator": 407,
+            "numerator": 189
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.523545706371191136",
+            "denominator": 361,
+            "numerator": 189
+          },
+          "covered_pairs": 189,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.525798525798525799",
+            "denominator": 407,
+            "numerator": 214
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.592797783933518006",
+            "denominator": 361,
+            "numerator": 214
+          },
+          "covered_pairs": 214,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            79,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.562653562653562654",
+            "denominator": 407,
+            "numerator": 229
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.634349030470914127",
+            "denominator": 361,
+            "numerator": 229
+          },
+          "covered_pairs": 229,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            79,
+            47,
+            83,
+            167,
+            67,
+            103,
+            107,
+            127,
+            71,
+            139
+          ]
+        }
+      ],
+      "validated_T": 46
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 324,
+        "per_losing_pair": {
+          "decimal": "0.835051546391752577",
+          "denominator": 388,
+          "numerator": 324
+        }
+      },
+      "losing_pair_count": 388,
+      "n": 240000044158,
+      "obstruction_signatures": {
+        "absolute": 312,
+        "per_losing_pair": {
+          "decimal": "0.804123711340206186",
+          "denominator": 388,
+          "numerator": 312
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 324,
+        "per_losing_pair": {
+          "decimal": "0.835051546391752577",
+          "denominator": 388,
+          "numerator": 324
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 137,
+        "over_active_pairs": {
+          "decimal": "0.336609336609336609",
+          "denominator": 407,
+          "numerator": 137
+        },
+        "over_losing_pairs": {
+          "decimal": "0.353092783505154639",
+          "denominator": 388,
+          "numerator": 137
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 158,
+        "over_active_pairs": {
+          "decimal": "0.388206388206388206",
+          "denominator": 407,
+          "numerator": 158
+        },
+        "over_losing_pairs": {
+          "decimal": "0.407216494845360825",
+          "denominator": 388,
+          "numerator": 158
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.336609336609336609",
+            "denominator": 407,
+            "numerator": 137
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.353092783505154639",
+            "denominator": 388,
+            "numerator": 137
+          },
+          "covered_pairs": 137,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.437346437346437346",
+            "denominator": 407,
+            "numerator": 178
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.458762886597938144",
+            "denominator": 388,
+            "numerator": 178
+          },
+          "covered_pairs": 178,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.540540540540540541",
+            "denominator": 407,
+            "numerator": 220
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.567010309278350515",
+            "denominator": 388,
+            "numerator": 220
+          },
+          "covered_pairs": 220,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.611793611793611794",
+            "denominator": 407,
+            "numerator": 249
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.641752577319587629",
+            "denominator": 388,
+            "numerator": 249
+          },
+          "covered_pairs": 249,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.648648648648648649",
+            "denominator": 407,
+            "numerator": 264
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.680412371134020619",
+            "denominator": 388,
+            "numerator": 264
+          },
+          "covered_pairs": 264,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            11,
+            19,
+            23,
+            31,
+            43,
+            47,
+            71,
+            67,
+            79,
+            83,
+            223,
+            59,
+            103,
+            367
+          ]
+        }
+      ],
+      "validated_T": 19
+    },
+    {
+      "active_pair_count": 407,
+      "distinct_obstruction_primes": {
+        "absolute": 317,
+        "per_losing_pair": {
+          "decimal": "0.900568181818181818",
+          "denominator": 352,
+          "numerator": 317
+        }
+      },
+      "losing_pair_count": 352,
+      "n": 240000048838,
+      "obstruction_signatures": {
+        "absolute": 294,
+        "per_losing_pair": {
+          "decimal": "0.835227272727272727",
+          "denominator": 352,
+          "numerator": 294
+        }
+      },
+      "p2_persistent_prime_count": {
+        "absolute": 317,
+        "per_losing_pair": {
+          "decimal": "0.900568181818181818",
+          "denominator": 352,
+          "numerator": 317
+        }
+      },
+      "prime_3_p2_coverage": {
+        "absolute": 137,
+        "over_active_pairs": {
+          "decimal": "0.336609336609336609",
+          "denominator": 407,
+          "numerator": 137
+        },
+        "over_losing_pairs": {
+          "decimal": "0.389204545454545455",
+          "denominator": 352,
+          "numerator": 137
+        }
+      },
+      "prime_3_static_coverage": {
+        "absolute": 139,
+        "over_active_pairs": {
+          "decimal": "0.341523341523341523",
+          "denominator": 407,
+          "numerator": 139
+        },
+        "over_losing_pairs": {
+          "decimal": "0.394886363636363636",
+          "denominator": 352,
+          "numerator": 139
+        }
+      },
+      "top_k_p2_frequency_ranked_union": [
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.336609336609336609",
+            "denominator": 407,
+            "numerator": 137
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.389204545454545455",
+            "denominator": 352,
+            "numerator": 137
+          },
+          "covered_pairs": 137,
+          "k": 1,
+          "ranked_primes": [
+            3
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.420147420147420147",
+            "denominator": 407,
+            "numerator": 171
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.485795454545454545",
+            "denominator": 352,
+            "numerator": 171
+          },
+          "covered_pairs": 171,
+          "k": 2,
+          "ranked_primes": [
+            3,
+            7
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.471744471744471744",
+            "denominator": 407,
+            "numerator": 192
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.545454545454545455",
+            "denominator": 352,
+            "numerator": 192
+          },
+          "covered_pairs": 192,
+          "k": 4,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.525798525798525799",
+            "denominator": 407,
+            "numerator": 214
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.607954545454545455",
+            "denominator": 352,
+            "numerator": 214
+          },
+          "covered_pairs": 214,
+          "k": 8,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            47,
+            79
+          ]
+        },
+        {
+          "coverage_over_active_pairs": {
+            "decimal": "0.565110565110565111",
+            "denominator": 407,
+            "numerator": 230
+          },
+          "coverage_over_losing_pairs": {
+            "decimal": "0.653409090909090909",
+            "denominator": 352,
+            "numerator": 230
+          },
+          "covered_pairs": 230,
+          "k": 16,
+          "ranked_primes": [
+            3,
+            7,
+            19,
+            23,
+            31,
+            43,
+            47,
+            79,
+            59,
+            67,
+            83,
+            127,
+            131,
+            151,
+            199,
+            263
+          ]
+        }
+      ],
+      "validated_T": 55
+    }
+  ],
+  "global_statistical_significance_claimed": false,
+  "schema": "a303656-p2-normalized-comparison-v1",
+  "top_k_definition": "rank primes by descending |C_p|, tie by smaller prime, then take the union of the first k C_p sets; this is not the marginal greedy ordering"
+}

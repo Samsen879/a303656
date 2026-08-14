@@ -1,0 +1,399 @@
+{
+  "adaptive_P5_integer_search_performed": false,
+  "entries": [
+    {
+      "Delta": 13,
+      "G5": 244,
+      "argmax_multiplicity": 19,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 163,
+      "resulting_union_mask_digest": "884e0be0d23148ca3470a25d74c966ad2d43f988b1eda9ae18977a7b51843842",
+      "selection_reason": [
+        "G231_GLOBAL_RAW_MARGINAL_MAXIMIZER",
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 12
+    },
+    {
+      "Delta": 13,
+      "G5": 229,
+      "argmax_multiplicity": 12,
+      "base_id": "BASE-03",
+      "base_identity": [
+        "CAL-216"
+      ],
+      "base_mask_digest": "92cf2935795f45f8f3e5b68930bc5f4dd5fb87d7a279fb9285637337d0bf2fcb",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 178,
+      "resulting_union_mask_digest": "0abd520ea1ff5b949bf909c8dea1d45e0c3e3a4bceb14a7335730d7b456e2dd6",
+      "selection_reason": [
+        "CAL-216_GLOBAL_MAXIMUM"
+      ],
+      "t": 12
+    },
+    {
+      "Delta": 13,
+      "G5": 240,
+      "argmax_multiplicity": 20,
+      "base_id": "BASE-04",
+      "base_identity": [
+        "CAL-227"
+      ],
+      "base_mask_digest": "69f65ed672284ac9caa227af4c518051b71ddfb2c04cf1bfb80db040c12fb88a",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 167,
+      "resulting_union_mask_digest": "c4352dd998a5cfa0a73980edce17db4cc3a3b1ad7ca47d979572883bcee66a5f",
+      "selection_reason": [
+        "CAL-227_GLOBAL_MAXIMUM"
+      ],
+      "t": 12
+    },
+    {
+      "Delta": 12,
+      "G5": 242,
+      "argmax_multiplicity": 30,
+      "base_id": "BASE-01",
+      "base_identity": [
+        "CAL-230"
+      ],
+      "base_mask_digest": "0c5af57d6002d3814b95ab2dbc749bb800533051391fd7fa74f9f55886f135db",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 165,
+      "resulting_union_mask_digest": "123509dba8707e4eaab8fa90772c8b78dc6cdeb133eb2f3b025c93bde5cb4fb4",
+      "selection_reason": [
+        "CAL-230_GLOBAL_MAXIMUM"
+      ],
+      "t": 12
+    },
+    {
+      "Delta": 14,
+      "G5": 233,
+      "argmax_multiplicity": 9,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 174,
+      "resulting_union_mask_digest": "f790ae6df51031ae8ff9c5e2f18c0057daa3501765d1d171fe3a89f52f8366e4",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 35
+    },
+    {
+      "Delta": 14,
+      "G5": 236,
+      "argmax_multiplicity": 8,
+      "base_id": "BASE-13",
+      "base_identity": [
+        "T3EQ2-WEIGHTED-OPT",
+        "T3EQ2-CONSTRAINED-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "ad0eacb78fb8cc71899b6e9fa93d27d033040208d7d929158f32cb6d069aa0dc",
+      "q": 19,
+      "q2": 361,
+      "residual_size": 171,
+      "resulting_union_mask_digest": "059a8169f19d3e1111a258fa9b3569645c5ee7e3deb3b75737ab19ba88793801",
+      "selection_reason": [
+        "T3EQ2_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 38
+    },
+    {
+      "Delta": 11,
+      "G5": 242,
+      "argmax_multiplicity": 20,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 31,
+      "q2": 961,
+      "residual_size": 165,
+      "resulting_union_mask_digest": "a2dc476599dbf136681de8e645428d53e015007c2001449935a26c6c933eb831",
+      "selection_reason": [
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 35
+    },
+    {
+      "Delta": 13,
+      "G5": 232,
+      "argmax_multiplicity": 18,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 31,
+      "q2": 961,
+      "residual_size": 175,
+      "resulting_union_mask_digest": "7d56336a5cde8990812242d50ac48bf9428b1855d3a4d47be0f2aa124ae98d1c",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 37
+    },
+    {
+      "Delta": 10,
+      "G5": 232,
+      "argmax_multiplicity": 42,
+      "base_id": "BASE-13",
+      "base_identity": [
+        "T3EQ2-WEIGHTED-OPT",
+        "T3EQ2-CONSTRAINED-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "ad0eacb78fb8cc71899b6e9fa93d27d033040208d7d929158f32cb6d069aa0dc",
+      "q": 31,
+      "q2": 961,
+      "residual_size": 175,
+      "resulting_union_mask_digest": "728cde4a631030544d3fdbc7b22b4d9ab9ef01379b7bf0efc941f647b89e5258",
+      "selection_reason": [
+        "T3EQ2_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 44
+    },
+    {
+      "Delta": 8,
+      "G5": 239,
+      "argmax_multiplicity": 35,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 43,
+      "q2": 1849,
+      "residual_size": 168,
+      "resulting_union_mask_digest": "2388342cd536ce03c4b9236802829c8622c45f8e7842c3e4d3f94a8f3ef78276",
+      "selection_reason": [
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 38
+    },
+    {
+      "Delta": 8,
+      "G5": 227,
+      "argmax_multiplicity": 70,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 43,
+      "q2": 1849,
+      "residual_size": 180,
+      "resulting_union_mask_digest": "3135402240abd83285e17dbf2edf508f891a9587b8506c24d36d424359e4cde0",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 24
+    },
+    {
+      "Delta": 7,
+      "G5": 229,
+      "argmax_multiplicity": 144,
+      "base_id": "BASE-13",
+      "base_identity": [
+        "T3EQ2-WEIGHTED-OPT",
+        "T3EQ2-CONSTRAINED-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "ad0eacb78fb8cc71899b6e9fa93d27d033040208d7d929158f32cb6d069aa0dc",
+      "q": 43,
+      "q2": 1849,
+      "residual_size": 178,
+      "resulting_union_mask_digest": "3add1ec2f541269312f0ad9575cab2cc7363917034d72422353cd6036b3d3280",
+      "selection_reason": [
+        "T3EQ2_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 11
+    },
+    {
+      "Delta": 8,
+      "G5": 239,
+      "argmax_multiplicity": 39,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 47,
+      "q2": 2209,
+      "residual_size": 168,
+      "resulting_union_mask_digest": "5d38866b1076b2205a646b4bba6e17818848caede80df4b36aa99eec804126d9",
+      "selection_reason": [
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 35
+    },
+    {
+      "Delta": 9,
+      "G5": 228,
+      "argmax_multiplicity": 39,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 47,
+      "q2": 2209,
+      "residual_size": 179,
+      "resulting_union_mask_digest": "3ca344501b19e126956338d5b6c08cca07174aced9613f0452dc3728696707de",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 55
+    },
+    {
+      "Delta": 11,
+      "G5": 233,
+      "argmax_multiplicity": 56,
+      "base_id": "BASE-13",
+      "base_identity": [
+        "T3EQ2-WEIGHTED-OPT",
+        "T3EQ2-CONSTRAINED-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "ad0eacb78fb8cc71899b6e9fa93d27d033040208d7d929158f32cb6d069aa0dc",
+      "q": 67,
+      "q2": 4489,
+      "residual_size": 174,
+      "resulting_union_mask_digest": "6bb34248b290ea5b88d83a3a2e5366c074d1a6545cbe7525ccb5a507ef4efceb",
+      "selection_reason": [
+        "T3EQ2_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 0
+    },
+    {
+      "Delta": 6,
+      "G5": 237,
+      "argmax_multiplicity": 53,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 59,
+      "q2": 3481,
+      "residual_size": 170,
+      "resulting_union_mask_digest": "35dd36da437cfef50465ed3b07af5477a3a05e81b8b4f4ebe302cf05dc2a4d23",
+      "selection_reason": [
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 29
+    },
+    {
+      "Delta": 11,
+      "G5": 230,
+      "argmax_multiplicity": 58,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 67,
+      "q2": 4489,
+      "residual_size": 177,
+      "resulting_union_mask_digest": "5ad4eabb72bf44b98aa00872e0dc9b0b5ac541c262b2dbfe760a321093c5a73e",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 0
+    },
+    {
+      "Delta": 8,
+      "G5": 230,
+      "argmax_multiplicity": 126,
+      "base_id": "BASE-13",
+      "base_identity": [
+        "T3EQ2-WEIGHTED-OPT",
+        "T3EQ2-CONSTRAINED-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "ad0eacb78fb8cc71899b6e9fa93d27d033040208d7d929158f32cb6d069aa0dc",
+      "q": 71,
+      "q2": 5041,
+      "residual_size": 177,
+      "resulting_union_mask_digest": "0ac473f8450a907a7e249aeb9ef5d2062102f7de7112768dc3bcb1717a697e95",
+      "selection_reason": [
+        "T3EQ2_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 11
+    },
+    {
+      "Delta": 6,
+      "G5": 237,
+      "argmax_multiplicity": 122,
+      "base_id": "BASE-02",
+      "base_identity": [
+        "G231-COMMON"
+      ],
+      "base_mask_digest": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "q": 67,
+      "q2": 4489,
+      "residual_size": 170,
+      "resulting_union_mask_digest": "398931aaf804e2e795861ec5ed7bb78053c2702626b044e8a449dc3e80032c27",
+      "selection_reason": [
+        "G231_RAW_MARGINAL_PARETO_FRONTIER"
+      ],
+      "t": 0
+    },
+    {
+      "Delta": 8,
+      "G5": 227,
+      "argmax_multiplicity": 192,
+      "base_id": "BASE-11",
+      "base_identity": [
+        "top8_odd",
+        "top8_even",
+        "top8_pool",
+        "POOLED-GLOBAL-WEIGHTED-OPT"
+      ],
+      "base_mask_digest": "52f3ec19b7a98c069d821678f264243309edfa6010c232b592ee779f8e0b1472",
+      "q": 71,
+      "q2": 5041,
+      "residual_size": 180,
+      "resulting_union_mask_digest": "e21362d21ab72c0b525e3d0d0f76e9718a1ccf8b733bbfbb1f7422290043b537",
+      "selection_reason": [
+        "POOLED_GLOBAL_WEIGHTED_BASE_RAW_MARGINAL_FRONTIER"
+      ],
+      "t": 11
+    }
+  ],
+  "entry_count": 20,
+  "identity_tuple": [
+    "base_mask_digest",
+    "q",
+    "t",
+    "resulting_union_mask_digest"
+  ],
+  "integers_evaluated": 0,
+  "maximum_entry_count": 20,
+  "schema": "a303656-frozen-future-p5-design-shortlist-v1"
+}

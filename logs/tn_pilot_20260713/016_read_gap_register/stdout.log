@@ -1,0 +1,117 @@
+# Audit gap register
+
+Audit date: 2026-07-13
+
+Scope: the two direct scanners, their boundary/property tests, the independent
+tiny oracle, provenance generation/auditing, and clean-build dependency
+evidence. `CLOSED` means the focused repository guarantee is implemented and
+tested; it does not mean the global A303656 statement is proved.
+
+## Final gap status
+
+| Gap | Status | Confirmed guarantee | Remaining limit |
+|---|---|---|---|
+| Remainder zero | **CLOSED** | Both activation seams and the independent oracle require `0 = 0^2+0^2`; `n=s` is active and represented with witness `(0,0)`. | Finite tests, not a global proof. |
+| Duplicate-shift exponent-pair multiplicity | **CLOSED** | A synthetic collision is evaluated once by numerical shift but produces two ordered source records and `T=2`; no unique-container collapse or first-hit stop occurs. | The primitive is not yet a complete T(n) miner. |
+| Exponent activation thresholds | **CLOSED** | Multiple pairs including `c=0`, `d=0`, new powers, endpoints, singleton and narrow intervals are checked at `s-1`, `s`, and `s+1`. | The normal scanners still deduplicate shifts because they compute Boolean representability. |
+| Independent `a <= b` annulus completeness | **CLOSED** | Both production traversals match the independent GMP nested-loop pair set/count on axis, diagonal, off-diagonal, empty, unique, multiple, exact-inner, exact-outer, perfect-square, and width 1/2/3 annuli. | Only the declared tiny test domain is exhaustively compared. |
+| Integer square-root boundaries | **CLOSED** | Each distinct helper matches GMP on selected `q^2-1/q^2/q^2+1` values through `q=2^32-1`; widened invariants are checked independently. | Compiler/toolchain remains shared. |
+| 63/64/65-bit parsing and overflow contract | **CLOSED** | Decimal parse, `2^63-1`, `2^63`, `2^64-1`, rejection of `2^64/2^65`, exponent maxima, power/shift overflow, packed lengths 63/64/65, squared coordinates, square sums, and endpoint addition are tested fail closed. | Numerically valid huge allocations may still fail for resource exhaustion, as documented. |
+| Interval endpoints and candidate survival | **CLOSED** | Per-n marked sets and candidate complements match the oracle on singleton/narrow cases; represented lower/upper endpoints and persistent candidate `n=1` are checked. | `n=1` is only a harness sentinel, never a counterexample claim. |
+| x/y output identity substitution | **CLOSED** | The new auditor requires the expected implementation in each slot, validates all hashes/CLI/interval fields, and rejects an intentional manifest swap. | Legacy stored outputs predate this manifest schema and are preserved unchanged. |
+| Tampered output/hash | **CLOSED** | Appending to x output without updating its manifest produces nonzero rejection naming an output SHA256/provenance mismatch. | The auditor and hash implementation are one shared infrastructure component. |
+| Shared Python oracle risk | **CLOSED** | The independent representation reference is a standalone GMP C++ nested-loop oracle with no production header or scanner core. | Python still orchestrates comparisons and parses JSON; this shared harness risk remains explicit. |
+| Clean-build dependency provenance | **CLOSED** | A new isolated build records package hash/extraction, include/library paths, exact commands, compiler, GMP runtime, executable hashes, and `ldd`/`readelf`; existing build dirs are rejected. | The compiler, standard library, OS kernel, and CPU are common dependencies. |
+| LeakSanitizer | **PARTIALLY CLOSED** | AddressSanitizer and UndefinedBehaviorSanitizer tests run with leak detection disabled. A separate probe preserves the actual LeakSanitizer failure. | LeakSanitizer cannot operate under the current ptrace environment and is **not** counted as PASS. |
+| Legacy certified-output provenance | **PARTIALLY CLOSED** | Existing raw outputs have distinct method strings and stored runner summaries include scanner/source hashes. Baseline hashes are protected before/after. | The old artifacts lack the new implementation-id manifest and cannot be retrofitted without altering the certified baseline. |
+| Reconstructible clean-room development history | **OPEN** | Static inspection confirms different source and different core algorithms. | Both files first appear together in the imported Git history; authorship/process independence cannot be reconstructed. |
+| Full T(n) miner | **NOT APPLICABLE** | This round adds only the tested multiplicity primitive and tiny oracle count. | A formal miner was expressly out of scope. |
+
+## Exact independence audit
+
+No repository-local C++ helper is included or linked by both production
+scanner translation units. Their distinct cores are:
+
+| Layer | x/bitset scanner | y/clean scanner | Assessment |
+|---|---|---|---|
+| Floor square root | Restoring bitwise algorithm | Binary search on `[0,2^32)` | Distinct algorithm/code |
+| Annulus traversal | `a` outer, moving inclusive `b_low/b_high` | `b` outer, diagonal branch, moving `a` bounds | Distinct algorithm/code |
+| Pair ordering | Emits `0 <= a <= b` in a-outer order | Emits `0 <= a <= b` in b-outer order | Same mathematical reduction, distinct traversal |
+| Power helper | `checked_pow` | `power_exact` | Separate functions, same repeated-multiplication idea |
+| Checked addition | `checked_add_u64` | `safe_sum` | Separate functions, same widened contract |
+| Decimal parser | `parse_u64_decimal` | `decimal_u64` | Separate functions, same `from_chars` contract |
+
+The correlated/shared surfaces are exact and intentional:
+
+- the specification `s=3^c+5^d`, exponent-zero semantics, activation
+  `s <= n`, and inclusive remainder/interval endpoints;
+- finite-domain assumptions for `C,D`, shift admissibility `s <= high`,
+  ascending shift order, and numerical-shift deduplication;
+- the packed-bit representation, all-ones initialization, final-word mask,
+  bit clearing, popcount recount, candidate extraction, and survivor-zero early
+  termination;
+- the candidate JSON/return-code convention;
+- Python chunk runner, dual aggregator, stored-output verifier, formal audit,
+  and previous Python small-range references;
+- the compiler, standard library, host architecture, and build flags.
+
+Consequently the scanners must not be described as “fully independent.” The
+approved wording is: “Two separately implemented direct scanners with
+distinct square-root and annulus-enumeration cores, plus an independent
+small-range brute-force oracle; some build and infrastructure components
+remain shared.”
+
+## Shared-bug risks still relevant
+
+1. A wrong mathematical interpretation of exponent activation or of T(n)
+   could be repeated by every component. The explicit threshold and synthetic
+   collision tests reduce, but cannot eliminate, specification risk.
+2. The two scanners share packed-bit accounting. Lengths 63/64/65 and per-n
+   oracle comparison now test the critical tail boundary, but a defect outside
+   the tiny matrix could remain correlated.
+3. The Python comparison harness and provenance auditor are single shared
+   components. Machine-readable raw oracle/scanner outputs and explicit
+   negative tests make their behavior inspectable, not formally verified.
+4. A common compiler, standard library, CPU, or sanitizer defect is outside the
+   independence claim.
+5. The legacy formal baseline cannot acquire the new provenance schema without
+   prohibited regeneration. Its mathematical hashes remain unchanged, while
+   new pilot outputs must use the new contract.
+
+## Test evidence matrix
+
+| Property | Focused evidence |
+|---|---|
+| Per-n representability | 11 tiny intervals; each scanner candidate complement equals each oracle row/marked set. |
+| Endpoint inclusion | Singleton plus width-2/3 and shift-centered intervals; exact annulus inner/outer endpoints. |
+| Remainder zero | Every selected `(c,d)` at `n=s`; witness exactly `(0,0)`. |
+| Duplicate shifts | Synthetic shift 28 collision with two source records, one remainder evaluation, `T=2`. |
+| Activation | Seven exponent pairs at `s-1/s/s+1`, including zero exponents and new base powers. |
+| `a <= b` uniqueness/completeness | Independent exact pair-set equality; no duplicate pair; axis, diagonal, off-diagonal. |
+| Square root | GMP reference and widened invariant at square neighbors, batch-scale values, 63/64-bit inputs, and maximum root. |
+| Packed tail | Interval lengths 63, 64, and 65 with surviving bit 1 preventing early termination. |
+| Overflow | Exact max-coordinate square, near-max balanced square sum, sum overflow, coordinate rejection, shift-add endpoint/overflow, power and parse rejection. |
+| Provenance | Positive x/y audit, swapped-manifest rejection, tampered-output rejection, restored positive audit. |
+| Dynamic diagnostics | Warning-clean optimized build; ASan+UBSan property suite; separate non-PASS LeakSanitizer probe. |
+
+## Blockers and next task
+
+There is no remaining correctness-critical test/provenance blocker to designing
+a small bounded T(n) pilot under this contract. The following are mandatory
+pilot preconditions, not authorization for a campaign:
+
+1. Fix a tiny explicit interval and time/memory cap before execution.
+2. Define a versioned output schema containing every successful source
+   `(c,d)`, numerical shift, remainder, and canonical `(a,b)` witness.
+3. Use exponent-pair multiplicity; do not reuse the direct scanners' dedup or
+   survivor-zero early termination as T(n) accounting.
+4. Compare every pilot `T(n)` and witness against the independent GMP oracle.
+5. Emit the new provenance manifest and preserve raw logs/return codes.
+6. Keep pilot observations separate from certified baseline results and make no
+   proof/counterexample claim without an independently checkable certificate.
+
+Exact recommended next task: **Specify and implement a resource-capped,
+small-interval bounded T(n) pilot that uses the tested multiplicity primitive,
+emits complete source-pair witnesses, and is compared per n with the independent
+GMP oracle. Do not extend the certified interval or launch a broad mining
+campaign.**

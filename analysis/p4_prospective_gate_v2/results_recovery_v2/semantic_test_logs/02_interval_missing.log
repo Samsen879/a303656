@@ -1,0 +1,1 @@
+{"actual_category": "interval_semantics", "actual_code": "INTERVAL_COUNT_28_REQUIRED", "expected_error_code": "INTERVAL_COUNT_28_REQUIRED", "expected_semantic_category": "interval_semantics", "mutation": "delete interval", "return_code": 1, "status": "PASS", "stderr_excerpt": "INTERVAL_COUNT_28_REQUIRED:interval_semantics", "test": "interval_missing"}

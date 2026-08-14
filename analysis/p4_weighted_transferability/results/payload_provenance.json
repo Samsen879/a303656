@@ -1,0 +1,35 @@
+{
+  "backend_A": {
+    "backend_slot": 1,
+    "complete_file_sha256": "dbed9a87ff10bbe14dc8df8eb46d2c91b73e2a2708ad09bbf4bd40551d0dfcc4",
+    "decoded_ordered_407_bit_mask_stream_sha256": "c58c28586fcbf222e2c06a771b1b19123a208f023ebdac77e8d02763e9710dfd",
+    "decoded_stream_bytes": 1969066,
+    "decoded_stream_encoding": "one byte 0x00 or 0x01 per bit, point-major then pair-index-major",
+    "file_size_bytes": 246866,
+    "header_adapter_identity_sha256_hex": "1cd730fae25d440cf186982ba71b3863ed87f7ba5b087e5131d13d51cdcf1c76",
+    "header_pair_order_sha256_hex": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "header_panel_sha256_hex": "3d4b2675df302b518ec5c32f7d63573604efbfee4143e6db16d4da80819af679",
+    "header_size_bytes": 128,
+    "pure_ordered_mask_payload_sha256": "8a32a0d4b7842f10836c66287d0fb05124397357b2737ded64b7ff02f6be8d1b",
+    "pure_payload_bytes": 246738
+  },
+  "backend_B": {
+    "backend_slot": 2,
+    "complete_file_sha256": "b013d3857a3cb92d409851413cd6b8e23f85c0923bad9d9a2bdbc93a181ce6bf",
+    "decoded_ordered_407_bit_mask_stream_sha256": "c58c28586fcbf222e2c06a771b1b19123a208f023ebdac77e8d02763e9710dfd",
+    "decoded_stream_bytes": 1969066,
+    "decoded_stream_encoding": "one byte 0x00 or 0x01 per bit, point-major then pair-index-major",
+    "file_size_bytes": 246866,
+    "header_adapter_identity_sha256_hex": "88391568e2a34df56b0e4757e8ee77849be61422f4f4338bedad290c15eca128",
+    "header_pair_order_sha256_hex": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "header_panel_sha256_hex": "3d4b2675df302b518ec5c32f7d63573604efbfee4143e6db16d4da80819af679",
+    "header_size_bytes": 128,
+    "pure_ordered_mask_payload_sha256": "8a32a0d4b7842f10836c66287d0fb05124397357b2737ded64b7ff02f6be8d1b",
+    "pure_payload_bytes": 246738
+  },
+  "decoded_digests_match": true,
+  "normalization": "strip the complete 128-byte backend-specific header; retain all 4,838 ordered 51-byte masks without reordering",
+  "normalized_payload_digests_match": true,
+  "reason_complete_file_hashes_differ": "The 128-byte headers bind different backend slots and adapter identity digests; all bytes after the headers are the same ordered masks.",
+  "schema": "a303656-packed-mask-payload-provenance-v1"
+}

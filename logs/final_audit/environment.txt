@@ -1,0 +1,13 @@
+date_utc=2026-07-13T03:16:29Z
+uname=Linux cba4837dd5b0 4.4.0 #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64 GNU/Linux
+nproc=56
+meminfo:
+MemTotal:        4194304 kB
+MemAvailable:    3351420 kB
+python=Python 3.13.5
+gxx=g++ (Debian 14.2.0-19) 14.2.0
+gmp=2:6.3.0+dfsg-3
+z3=4.16.0
+numpy=2.5.1
+sympy=1.14.0
+platform=Linux-4.4.0-x86_64-with-glibc2.41

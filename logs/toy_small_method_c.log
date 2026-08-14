@@ -1,0 +1,14 @@
+WINDOW low=2 high=3 active_distinct_shifts=1 survivors=0
+WINDOW low=4 high=5 active_distinct_shifts=2 survivors=0
+WINDOW low=6 high=7 active_distinct_shifts=3 survivors=0
+WINDOW low=8 high=9 active_distinct_shifts=4 survivors=0
+WINDOW low=10 high=13 active_distinct_shifts=5 survivors=0
+WINDOW low=14 high=25 active_distinct_shifts=6 survivors=0
+WINDOW low=26 high=27 active_distinct_shifts=7 survivors=0
+WINDOW low=28 high=31 active_distinct_shifts=8 survivors=0
+WINDOW low=32 high=33 active_distinct_shifts=9 survivors=0
+WINDOW low=34 high=50 active_distinct_shifts=10 survivors=0
+integers_tested=49
+candidate_count=0
+elapsed_seconds=0.00041597
+EXACT_EMPTY

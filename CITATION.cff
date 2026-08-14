@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, cite the frozen authority artifact and its exact SHA256."
+title: "OEIS A303656: evidence, computations, and route audits"
+type: software
+authors:
+  - name: "Samsen"
+repository-code: "https://github.com/Samsen879/a303656"
+version: "master-authority-v2-frozen"
+date-released: 2026-08-14
+abstract: "Exact finite computations, theorem indexes, structural route audits, and frozen authority records for the unresolved OEIS A303656 representation problem."
+keywords:
+  - additive number theory
+  - sums of two squares
+  - exact finite computation
+  - reproducibility
+  - OEIS A303656

@@ -1,0 +1,1 @@
+{"actual_category": "gate_schema", "actual_code": "OVERALL_GATE_RULE_MISMATCH", "expected_error_code": "OVERALL_GATE_RULE_MISMATCH", "expected_semantic_category": "gate_schema", "mutation": "overall PASS", "return_code": 1, "status": "PASS", "stderr_excerpt": "OVERALL_GATE_RULE_MISMATCH:gate_schema", "test": "gate_overall_corrupt"}

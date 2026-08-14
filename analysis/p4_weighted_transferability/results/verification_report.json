@@ -1,0 +1,84 @@
+{
+  "all_28227969_tuples_enumerated_twice": true,
+  "candidate_count": 12,
+  "direct_oracle_manifest_validated": true,
+  "duplicate_shift_pair_identities_retained": true,
+  "enumerator_ordered_results_agree": true,
+  "exact_integer_numerator_ranking": true,
+  "mathematical_status": "UNRESOLVED",
+  "negative_mutations": {
+    "all_rejected": true,
+    "required_count": 12,
+    "schema": "a303656-weighted-audit-corruption-tests-v1",
+    "tests": [
+      {
+        "name": "enumerator_score_bitflip",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "enumerator_mask_bitflip",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "ordered_digest_mismatch",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "tuple_row_count_mismatch",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "target_rank_mismatch",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "weight_denominator_drift",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "weight_table_truncated",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "pair_identity_corruption",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "payload_agreement_false",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "decoded_agreement_false",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "direct_T15_omitted",
+        "rejected": true,
+        "return_code": 2
+      },
+      {
+        "name": "direct_count_corruption",
+        "rejected": true,
+        "return_code": 2
+      }
+    ]
+  },
+  "no_new_integer_evaluation": true,
+  "normalized_mask_payloads_agree": true,
+  "odd_even_class_split": "42/42",
+  "pair_count": 407,
+  "protected_baseline_hashes_unchanged": true,
+  "schema": "a303656-weighted-audit-verification-report-v1",
+  "status": "PASS",
+  "validation_conclusion": "VALIDATED WEIGHTED FIXED-P4 TRANSFERABILITY AUDIT"
+}

@@ -1,0 +1,112 @@
+{
+  "artifact_sha256_at_verification": {
+    "low_vs_control.json": "19c002a96c8d1fb1fc814b6744913f9c13c5c0f28a46eaca059d0ec33114cf1a",
+    "n0_surviving_pairs.json": "972faad48a4989dc9e804650fbc1dc7e2b729a29566a8a9b5165aebb0890749a",
+    "panel.json": "0229d9e1ca696660f3478b17f1bccbe6983cc49a74bbf63af0018f39f086ca8a",
+    "per_n_summary.json": "c408a37cfbf200c0f5d54ad9899689e5671a7b63b8d88cdf3047b7a04e64d882",
+    "prime_frequency.csv": "e21286d48d5080436ad2bcc08b868f4f73e44f11a47565a88d4e23252cfcd37a",
+    "records.jsonl": "88c61baea2960f2822a0ad87d147781f93037224da2c9a1592303021f1bddcd8",
+    "top_k_coverage.csv": "4f6d519f50eea8d671f3e21176c2a5e54dcfc74aa34291f8ba5f017f372eedec"
+  },
+  "baseline_sha256_at_verification": {
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/direct/formal_1p6b_final/summary.json": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "checked_loser_count": 3707,
+  "checked_record_count": 4070,
+  "checked_reported_prime_factor_count": 17171,
+  "checked_research_n_count": 10,
+  "checked_winner_count": 363,
+  "checks": {
+    "active_exponent_pair_completeness": true,
+    "baseline_byte_integrity": true,
+    "canonical_witness": true,
+    "complete_factor_product": true,
+    "concentration_summaries": true,
+    "control_duplicate_reporting": true,
+    "deterministic_factor_primality": true,
+    "duplicate_shift_multiplicity_and_consistency": true,
+    "each_active_pair_exactly_once": true,
+    "fixed_low_tail_panel": true,
+    "independent_fermat_classification": true,
+    "low_vs_control_comparisons": true,
+    "mechanical_control_selection": true,
+    "n0_residue_table": true,
+    "no_CRT_or_broad_search_claim": true,
+    "obstruction_prime_modulo_4": true,
+    "obstruction_valuation_parity": true,
+    "pilot_input_byte_integrity": true,
+    "shift_and_remainder": true,
+    "winner_count_equals_validated_T": true,
+    "winner_equation": true
+  },
+  "classification": "INDEPENDENTLY VERIFIED EXACT FINITE COMPUTATION ON FIXED SELECTED FIXTURES",
+  "final_conclusion": "VALIDATED SELECTED OBSTRUCTION DOSSIER",
+  "pilot_input_sha256_at_verification": {
+    "output/tn_pilot_20260713/pilot_a/bitset/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+    "output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl": "2ebc2093122f650ee3e2f8c8db1f08395b190cfe40137ba7dd2a6869b4f8eb2e",
+    "output/tn_pilot_20260713/pilot_a/clean/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+    "output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+    "output/tn_pilot_20260713/pilot_a/oracle/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+    "output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+    "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl": "059865af7709da2592b2e23fbfa83c419a04d62c894360d81760298d8707fc51",
+    "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl": "26852a6ded24d69b962ea3490f1bc293c7aeec3a858d4218747ca4dfb869a950",
+    "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl": "0854f0a06901fe89fe0f0cdbaf13d383bbbcc81b7d051f014b41e94fa2f74a2e"
+  },
+  "regression_fixtures": [
+    {
+      "active_pair_count": 1,
+      "n": 2,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "remainder_zero_record_count": 1,
+      "status": "PASS",
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 1,
+      "n": 3,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "remainder_zero_record_count": 0,
+      "status": "PASS",
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 2,
+      "n": 5,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "remainder_zero_record_count": 0,
+      "status": "PASS",
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 6,
+      "n": 25,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "remainder_zero_record_count": 0,
+      "status": "PASS",
+      "winner_count": 1
+    }
+  ],
+  "schema": "a303656-selected-obstruction-verification-report-v1",
+  "starting_commit": "3a93ab744825780c14c58d177a5a8d97e887e1e2",
+  "status": "PASS",
+  "unresolved_risks": [
+    "The observations concern only ten fixed PILOT-B fixtures and have no global statistical significance.",
+    "The global A303656 mathematical problem remains UNRESOLVED."
+  ],
+  "verified_utc": "2026-07-13T11:16:00Z",
+  "verifier": {
+    "factorization_method": "independent odd-index sieve plus complete trial division",
+    "implementation_id": "selected_obstruction_independent_verifier_v1",
+    "imports_generator": false,
+    "path": "src/verify_obstruction_dossier.py",
+    "primality_method": "deterministic Miller-Rabin bases 2,3,5,7,11,13,17 below 341550071728321",
+    "sha256": "a6b44031a52a2507e75bb01e822bc20bc7eea7c99069e8091651c91334f8ede8"
+  }
+}

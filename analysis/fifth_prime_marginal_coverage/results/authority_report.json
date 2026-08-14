@@ -1,0 +1,17 @@
+{
+  "B": 5000,
+  "authority_archive_sha256": "4dadb8ce07cd0ccf56575ef0882d6bb02284a02c61e05cd1424e070d83b22ff3",
+  "authority_member": "a303656_p2cover/output/primes_B5000_verified.csv",
+  "authority_path": "baseline/a303656_p2cover_bundle.zip",
+  "authority_sha256": "88dbfb4122964eab002f1e94433b4376ab93c1940b0535da8c0036e1ab40a68b",
+  "candidate_definition": "q prime; q == 3 mod 4; q does not divide 15; q not in {3,7,11,23}",
+  "eligible_count": 527,
+  "excluded_intersection": [
+    7,
+    11,
+    23
+  ],
+  "final_fifth_prime_candidate_count": 524,
+  "ordered_candidate_list_digest": "12a9986fdc0720a878f1e1826daf6a0d5895564747139dd4398320fdddaeee47",
+  "prime_3_in_authority": false
+}

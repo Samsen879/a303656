@@ -1,0 +1,10 @@
+count=16 max_prime=127 file=output/primes_numeric_16.txt
+count=32 max_prime=283 file=output/primes_numeric_32.txt
+count=64 max_prime=683 file=output/primes_numeric_64.txt
+count=128 max_prime=1567 file=output/primes_numeric_128.txt
+count=256 max_prime=3607 file=output/primes_numeric_256.txt
+count=512 max_prime=8111 file=output/primes_numeric_512.txt
+count=1024 max_prime=17579 file=output/primes_numeric_1024.txt
+count=2048 max_prime=38699 file=output/primes_numeric_2048.txt
+count=4096 max_prime=83639 file=output/primes_numeric_4096.txt
+count=8192 max_prime=180331 file=output/primes_numeric_8192.txt

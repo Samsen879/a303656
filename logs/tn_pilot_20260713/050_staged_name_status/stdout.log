@@ -1,0 +1,9 @@
+A	docs/tn_pilot_contract.md
+A	src/run_tn_pilot.py
+A	src/tn_count_bitset.cpp
+A	src/tn_count_clean.cpp
+A	src/tn_pilot_output.hpp
+A	src/verify_tn_pilot.py
+A	tests/tn_counting_property_tests.py
+A	tests/tn_gmp_oracle.cpp
+A	tests/tn_provenance_negative_tests.py

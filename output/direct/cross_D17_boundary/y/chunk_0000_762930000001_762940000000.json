@@ -1,0 +1,21 @@
+{
+  "method": "clean_room_direct_two_squares_y_outer",
+  "arithmetic": "exact uint64/__uint128; binary-search integer square root; no floating point",
+  "low": "762930000001",
+  "high": "762940000000",
+  "C": 24,
+  "D": 17,
+  "three_power_next_plus_one": "847288609444",
+  "five_power_next_plus_one": "3814697265626",
+  "strict_domain_inequalities_checked": true,
+  "admissible_rectangle_pair_count_at_high": 438,
+  "distinct_shift_count_at_high": 437,
+  "duplicate_pair_count": 1,
+  "integers_tested": 10000000,
+  "shifts_processed_before_termination": 152,
+  "unordered_square_pairs_enumerated": 596926558,
+  "candidate_count": 0,
+  "candidates": [],
+  "elapsed_seconds": 4.07671,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

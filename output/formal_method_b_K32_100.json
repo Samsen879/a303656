@@ -1,0 +1,89 @@
+{
+  "method": "B_CEGIS_Z3_Int",
+  "z3_version": "4.16.0",
+  "low": "240000000001",
+  "high": "240000000100",
+  "C": 23,
+  "D": 16,
+  "primes": [
+    3,
+    7,
+    11,
+    19,
+    23,
+    31,
+    43,
+    47,
+    59,
+    67,
+    71,
+    79,
+    83,
+    103,
+    107,
+    127,
+    131,
+    139,
+    151,
+    163,
+    167,
+    179,
+    191,
+    199,
+    211,
+    223,
+    227,
+    239,
+    251,
+    331,
+    547,
+    3851
+  ],
+  "max_iterations": 50,
+  "records": [
+    {
+      "iteration": 1,
+      "candidate_n": "240000000098",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 1,
+        "shift": "6"
+      },
+      "current_constraint_count": 1,
+      "prime_count": 32,
+      "solver_seconds": 2.7177829679999377,
+      "verifier_seconds": 0.0004770470000039495,
+      "termination": "continue"
+    },
+    {
+      "iteration": 2,
+      "candidate_n": "240000000075",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 3,
+        "shift": "126"
+      },
+      "current_constraint_count": 2,
+      "prime_count": 32,
+      "solver_seconds": 0.09088419900012923,
+      "verifier_seconds": 0.00050139100017077,
+      "termination": "continue"
+    },
+    {
+      "iteration": 3,
+      "solver_result": "unknown",
+      "solver_seconds": 3.000670447999937,
+      "reason_unknown": "canceled",
+      "current_constraint_count": 3,
+      "prime_count": 32,
+      "termination": "solver_unknown"
+    }
+  ],
+  "candidate": null,
+  "termination": "solver_unknown",
+  "independent_python_verifier_returncode": null,
+  "certificate_paths": {},
+  "classification": "UNKNOWN"
+}

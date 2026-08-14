@@ -1,0 +1,15 @@
+chunk=4 interval=[240540000001,240550000000] rc=0 candidates=0 elapsed=9.361919
+chunk=2 interval=[240520000001,240530000000] rc=0 candidates=0 elapsed=10.872462
+chunk=1 interval=[240510000001,240520000000] rc=0 candidates=0 elapsed=11.267465
+chunk=3 interval=[240530000001,240540000000] rc=0 candidates=0 elapsed=11.382293
+chunk=5 interval=[240550000001,240560000000] rc=0 candidates=0 elapsed=11.682540
+chunk=0 interval=[240500000001,240510000000] rc=0 candidates=0 elapsed=18.458775
+chunk=7 interval=[240570000001,240580000000] rc=0 candidates=0 elapsed=8.503253
+chunk=8 interval=[240580000001,240590000000] rc=0 candidates=0 elapsed=8.376980
+chunk=6 interval=[240560000001,240570000000] rc=0 candidates=0 elapsed=10.396392
+chunk=9 interval=[240590000001,240600000000] rc=0 candidates=0 elapsed=8.444534
+complete_gapless_coverage=true
+integers_tested=100000000
+candidate_count=0
+wall_seconds=19.848885
+summary=output/formal_allprime_exact1_primary_b05_summary.json

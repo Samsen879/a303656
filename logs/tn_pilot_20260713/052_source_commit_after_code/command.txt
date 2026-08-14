@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=git rev-parse HEAD 
+started_utc=2026-07-13T08:46:29Z
+finished_utc=2026-07-13T08:46:29Z

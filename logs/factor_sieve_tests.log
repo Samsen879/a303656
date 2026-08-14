@@ -1,0 +1,47 @@
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00323467
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00333658
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00306933
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00335717
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=35
+candidate_count=0
+elapsed_seconds=0.00548074
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=35
+candidate_count=0
+elapsed_seconds=0.00583404
+EXACT_EMPTY
+max_odd=1: candidates=0 exact cross-check PASS
+max_odd=3: candidates=0 exact cross-check PASS
+max_odd=-1: candidates=0 exact cross-check PASS
+remainder_zero_boundary: PASS
+ALL_FACTOR_SIEVE_TESTS_PASS

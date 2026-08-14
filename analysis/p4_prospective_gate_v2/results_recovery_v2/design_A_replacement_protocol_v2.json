@@ -1,0 +1,18 @@
+{
+  "authorization": false,
+  "canonical_digest": "cedcd096b88804e22909850292a96ed49f78d7a589de908b046bd8b6a999d167",
+  "failure_rule": "If a class cannot retain eight eligible integers: STOP; do not change class/mask/projection; return to independent web audit.",
+  "forbidden": "read any T or outcome field",
+  "outcome_blind": true,
+  "rules": [
+    "replace only a slot disqualified by new provenance",
+    "same H8 band",
+    "same live projection",
+    "same full mask",
+    "same CRT class",
+    "same ordered eligible list",
+    "next unused unexposed constraint-satisfying deterministic index",
+    "unaffected rows unchanged"
+  ],
+  "schema": "a303656-design-A-replacement-protocol-v2"
+}

@@ -1,0 +1,5 @@
+{
+  "evidence": "logs/INTERRUPTED_RUNS.txt#4",
+  "exact_touched_set": "NOT_ESTABLISHED",
+  "run_id": "INT-STAGE0-REDUNDANT"
+}

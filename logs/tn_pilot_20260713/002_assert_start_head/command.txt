@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=python3 -c import\ subprocess\;\ expected=\'5fe0ee472cdefa7a23a05616a56a024fe571e58a\'\;\ actual=subprocess.check_output\(\[\'git\'\,\'rev-parse\'\,\'HEAD\'\]\,text=True\).strip\(\)\;\ print\(actual\)\;\ assert\ actual==expected 
+started_utc=2026-07-13T08:19:47Z
+finished_utc=2026-07-13T08:19:47Z

@@ -1,0 +1,5 @@
+DIRECT_OUTPUT_AUDIT_PASS
+contiguous_integer_count=500000000
+far_window_integer_count=210000000
+logarithmic_window_integer_count=3000000
+total_distinct_integer_count=713000000

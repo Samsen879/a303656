@@ -1,0 +1,7 @@
+{
+  "check_id": "SEM-STATIC-OUTCOME-001",
+  "schema": "a303656-selection-blindness-audit-v2",
+  "source_sha256": "398b9b0cf73a4cabdbddbdf4bdf074dc0ad394a51ea92042eeb32143a3c256b3",
+  "status": "PASS",
+  "violations": []
+}

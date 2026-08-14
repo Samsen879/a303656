@@ -1,0 +1,4 @@
+mode=1 candidates=0 shifts_processed=18 PASS
+mode=3 candidates=0 shifts_processed=18 PASS
+mode=-1 candidates=0 shifts_processed=35 PASS
+FACTOR_SMALL_CROSSCHECK_PASS

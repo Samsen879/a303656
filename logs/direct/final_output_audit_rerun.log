@@ -1,0 +1,8 @@
+DIRECT_OUTPUT_AUDIT_PASS
+continuous_integer_count=1000000000
+far_window_integer_count=210000000
+logarithmic_window_integer_count=3000000
+C_boundary_integer_count=20000000
+D_boundary_integer_count=20000000
+total_distinct_integer_count=1253000000
+matched_unordered_square_pairs=73278922362

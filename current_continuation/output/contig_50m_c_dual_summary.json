@@ -1,0 +1,82 @@
+{
+  "schema": "a303656-direct-two-squares-dual-aggregate-v1",
+  "low": "241300000001",
+  "high": "241350000000",
+  "chunk_count_x": 5,
+  "chunk_count_y": 5,
+  "integers_tested_x": 50000000,
+  "integers_tested_y": 50000000,
+  "candidate_count_x": 0,
+  "candidate_count_y": 0,
+  "candidates_x": [],
+  "candidates_y": [],
+  "unordered_square_pairs_enumerated_x": 2796031794,
+  "unordered_square_pairs_enumerated_y": 2796031794,
+  "elapsed_seconds_sum_x": 21.71367,
+  "elapsed_seconds_sum_y": 23.18235,
+  "complete_gapless_independent_crosscheck": true,
+  "mismatches": [],
+  "chunks": [
+    {
+      "index": 0,
+      "low": "241300000001",
+      "high": "241310000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 557663087,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_x/chunk_0000_241300000001_241310000000.json",
+      "x_sha256": "f5f4060edde515980e32ef69eee2d9ba487d68034de0ec592e66d90a9902918b",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_y/chunk_0000_241300000001_241310000000.json",
+      "y_sha256": "f0157a71cc58bbab50f66e950a6e22996c35bc269fcb36aded587c42d8075922"
+    },
+    {
+      "index": 1,
+      "low": "241310000001",
+      "high": "241320000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 506572138,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_x/chunk_0001_241310000001_241320000000.json",
+      "x_sha256": "dff0f28db4c6951e239c28ad81c4ee1b0d9a03b972d2098b67c1d9201335f044",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_y/chunk_0001_241310000001_241320000000.json",
+      "y_sha256": "bd69cf2a525cd16692d20d38ff7e16828c312d725e955f8f67b3aef2e183606e"
+    },
+    {
+      "index": 2,
+      "low": "241320000001",
+      "high": "241330000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 600839657,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_x/chunk_0002_241320000001_241330000000.json",
+      "x_sha256": "80214935e6f2a7da84c8991b96006685a1b98ea447662cb20a5ea66806901c79",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_y/chunk_0002_241320000001_241330000000.json",
+      "y_sha256": "7878c83c848c054324f517086fa6b91b751be112a31ac06c89606418d493a48b"
+    },
+    {
+      "index": 3,
+      "low": "241330000001",
+      "high": "241340000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 592954051,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_x/chunk_0003_241330000001_241340000000.json",
+      "x_sha256": "0c7a0fc876d590937a307202c1295b32d044f2ce63d010e9ab185e990dac70eb",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_y/chunk_0003_241330000001_241340000000.json",
+      "y_sha256": "854e6f42cced726691468c5c23ede063ca333f4134e60cb157a34352cc01e049"
+    },
+    {
+      "index": 4,
+      "low": "241340000001",
+      "high": "241350000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 538002861,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_x/chunk_0004_241340000001_241350000000.json",
+      "x_sha256": "79042e6f8be0fba5ad192036f458ed27a8f3eea1a353edf41818acbfc272d0ea",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/current_continuation/output/contig_50m_c_y/chunk_0004_241340000001_241350000000.json",
+      "y_sha256": "72cd5285e02f5c7a74c11c2ebb5af9723c8d8fc860ea5c804a3bb492c87ec5cb"
+    }
+  ],
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

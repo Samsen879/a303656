@@ -1,0 +1,104 @@
+{
+  "artifact_sha256": {
+    "low_vs_control.json": "19c002a96c8d1fb1fc814b6744913f9c13c5c0f28a46eaca059d0ec33114cf1a",
+    "n0_surviving_pairs.json": "972faad48a4989dc9e804650fbc1dc7e2b729a29566a8a9b5165aebb0890749a",
+    "panel.json": "0229d9e1ca696660f3478b17f1bccbe6983cc49a74bbf63af0018f39f086ca8a",
+    "per_n_summary.json": "c408a37cfbf200c0f5d54ad9899689e5671a7b63b8d88cdf3047b7a04e64d882",
+    "prime_frequency.csv": "e21286d48d5080436ad2bcc08b868f4f73e44f11a47565a88d4e23252cfcd37a",
+    "records.jsonl": "88c61baea2960f2822a0ad87d147781f93037224da2c9a1592303021f1bddcd8",
+    "top_k_coverage.csv": "4f6d519f50eea8d671f3e21176c2a5e54dcfc74aa34291f8ba5f017f372eedec"
+  },
+  "baseline_integrity": {
+    "after_generation": {
+      "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+      "output/direct/formal_1p6b_final/summary.json": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+      "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+      "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+      "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+    },
+    "before_generation": {
+      "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+      "output/direct/formal_1p6b_final/summary.json": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+      "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+      "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+      "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+    },
+    "byte_identical": true
+  },
+  "classification": "EXACT FINITE COMPUTATION ON FIXED SELECTED FIXTURES",
+  "counts_source_sha256": {
+    "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773"
+  },
+  "environment": {
+    "machine": "x86_64",
+    "pid": 7,
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "final_conclusion_pending_independent_verifier": true,
+  "generated_utc": "2026-07-13T11:10:00Z",
+  "generator": {
+    "implementation_id": "selected_obstruction_generator_trial_division_v1",
+    "path": "src/generate_obstruction_dossier.py",
+    "sha256": "6f6553b7d0d28bbcddeebeeb16229c7818ccbd5876417c06ad6d6c483ec8363c"
+  },
+  "independent_verifier": {
+    "implementation_id": "selected_obstruction_independent_verifier_v1",
+    "path": "src/verify_obstruction_dossier.py",
+      "sha256": "a6b44031a52a2507e75bb01e822bc20bc7eea7c99069e8091651c91334f8ede8",
+    "shares_correctness_critical_factorization_or_two_square_helper": false
+  },
+  "mathematical_problem_status": "UNRESOLVED",
+  "panel_distinct_n_count": 10,
+  "pilot_input_integrity": {
+    "after_generation": {
+      "output/tn_pilot_20260713/pilot_a/bitset/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl": "2ebc2093122f650ee3e2f8c8db1f08395b190cfe40137ba7dd2a6869b4f8eb2e",
+      "output/tn_pilot_20260713/pilot_a/clean/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+      "output/tn_pilot_20260713/pilot_a/oracle/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+      "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl": "059865af7709da2592b2e23fbfa83c419a04d62c894360d81760298d8707fc51",
+      "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl": "26852a6ded24d69b962ea3490f1bc293c7aeec3a858d4218747ca4dfb869a950",
+      "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl": "0854f0a06901fe89fe0f0cdbaf13d383bbbcc81b7d051f014b41e94fa2f74a2e"
+    },
+    "before_generation": {
+      "output/tn_pilot_20260713/pilot_a/bitset/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl": "2ebc2093122f650ee3e2f8c8db1f08395b190cfe40137ba7dd2a6869b4f8eb2e",
+      "output/tn_pilot_20260713/pilot_a/clean/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+      "output/tn_pilot_20260713/pilot_a/oracle/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+      "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl": "059865af7709da2592b2e23fbfa83c419a04d62c894360d81760298d8707fc51",
+      "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl": "26852a6ded24d69b962ea3490f1bc293c7aeec3a858d4218747ca4dfb869a950",
+      "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl": "0854f0a06901fe89fe0f0cdbaf13d383bbbcc81b7d051f014b41e94fa2f74a2e"
+    },
+    "byte_identical": true
+  },
+  "primality_contract": {
+    "assurance": "DETERMINISTIC_FOR_UINT64_NOT_PROBABLE_PRIME_ONLY",
+    "factorization_method": "complete trial division by an exact Eratosthenes prime table through integer sqrt of the residual",
+    "input_bound": "all positive remainders are less than 2^64",
+    "reported_factor_check": "deterministic Miller-Rabin bases 2,325,9375,28178,450775,9780504,1795265022, valid for uint64"
+  },
+  "record_count": 4070,
+  "schema": "a303656-selected-obstruction-metadata-v1",
+  "scope_guards": {
+    "CRT_search_performed": false,
+    "broad_mining_performed": false,
+    "certified_baseline_modified": false,
+    "counting_executable_invoked": false,
+    "existing_pilot_outputs_modified": false,
+    "new_interval_scanned": false
+  },
+  "starting_commit": "3a93ab744825780c14c58d177a5a8d97e887e1e2",
+  "task": "SELECTED PILOT-B OBSTRUCTION DOSSIER"
+}

@@ -1,0 +1,22 @@
+{
+  "previous_round_new_integer_evaluations": 0,
+  "previous_round_results_commit_N_exists": false,
+  "previous_round_status": "INSUFFICIENT FRESH CLASS MULTIPLICITY",
+  "protected_baseline_hashes": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/k4_survivor_incidence/pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "analysis/p4_weighted_transferability/results/candidate_manifest_holdout_v2.json": "728fd5195d91c75b2b93ae02e4ad43aea07afb6fd6a511c54596d0658bc6e1ca",
+    "baseline/a303656_p2cover_bundle.zip": "4dadb8ce07cd0ccf56575ef0882d6bb02284a02c61e05cd1424e070d83b22ff3",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "protected_baseline_hashes_unchanged": true,
+  "required_starting_commit": "02028314ab92d7aa089475f9a6bc96688526f731",
+  "schema": "a303656-fifth-prime-initial-repository-gate-v1",
+  "source_commit": "ac161b0f6a60c6453c33b4b94435881a49dc62d0",
+  "source_parent": "02028314ab92d7aa089475f9a6bc96688526f731",
+  "starting_commit_verified_before_modification": true,
+  "tracked_worktree_clean_at_initial_gate": true
+}

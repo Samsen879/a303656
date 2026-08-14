@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "CRT_CLASS_MISMATCH", "expected_error_code": "CRT_CLASS_MISMATCH", "expected_semantic_category": "arithmetic", "mutation": "CRT +1", "return_code": 1, "status": "PASS", "stderr_excerpt": "CRT_CLASS_MISMATCH:arithmetic", "test": "CRT_corrupt"}

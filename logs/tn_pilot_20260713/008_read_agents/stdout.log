@@ -1,0 +1,31 @@
+# A303656 Research Rules
+
+Before modifying anything, read:
+
+1. README.md
+2. REPORT_zh.md
+3. output/formal_results_audit.json
+4. output/final_packaging_audit.json
+5. cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt
+
+The mathematical problem is whether every integer n > 1 can be written as
+
+n = a^2 + b^2 + 3^c + 5^d
+
+with a,b,c,d nonnegative integers.
+
+Current status: UNRESOLVED.
+
+Hard rules:
+
+- Never claim a proof or counterexample without an independently checkable certificate.
+- Never treat timeout, UNKNOWN, heuristic failure, or solver UNSAT without a proof object as a theorem.
+- Use exact integer arithmetic.
+- Every formal finite computation must have explicit interval bounds.
+- Preserve raw logs, return codes, manifests, hashes, and environment information.
+- Do not overwrite certified baseline outputs.
+- Do not trust precompiled binaries; rebuild from source.
+- Separate PROVED, CERTIFIED, EXACT FINITE COMPUTATION, OBSERVATION, HEURISTIC, UNKNOWN, and UNRESOLVED.
+- Do not spend the main effort merely extending the verified interval linearly.
+- Prefer near-counterexample mining and targeted structural search.
+- Commit small, reviewable changes.

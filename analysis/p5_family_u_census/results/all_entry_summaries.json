@@ -1,0 +1,968 @@
+[
+  {
+    "G5": 244,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-001",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 19,
+    "residual_size": 163,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 147,
+    "union_mask_digest": "884e0be0d23148ca3470a25d74c966ad2d43f988b1eda9ae18977a7b51843842"
+  },
+  {
+    "G5": 229,
+    "argmins": [
+      188502371714,
+      211905924194,
+      224370859754
+    ],
+    "complete_counts_digest": "239d518bb2bfba9312a51d18b1135d692e28da736b091a5340ee1829658a3cd2",
+    "distinct_integers": 132,
+    "entry_id": "ENTRY-002",
+    "exact_mean": {
+      "decimal": "30.272727272727273373",
+      "denominator": 11,
+      "numerator": 333
+    },
+    "fresh_descriptions": 132,
+    "histogram": {
+      "20": 3,
+      "21": 3,
+      "22": 4,
+      "23": 3,
+      "24": 8,
+      "25": 8,
+      "26": 7,
+      "27": 6,
+      "28": 7,
+      "29": 9,
+      "30": 9,
+      "31": 12,
+      "32": 11,
+      "33": 6,
+      "34": 7,
+      "35": 4,
+      "36": 7,
+      "37": 7,
+      "38": 2,
+      "39": 3,
+      "40": 2,
+      "41": 1,
+      "42": 1,
+      "43": 2
+    },
+    "integer_multiplicity_distribution": {
+      "1": 132
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 3,
+      "T_le_24": 21
+    },
+    "maximum": 43,
+    "median": {
+      "decimal": "30.000000000000000000",
+      "denominator": 1,
+      "numerator": 30
+    },
+    "minimum": 20,
+    "q": 19,
+    "residual_size": 178,
+    "sample_count": 132,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 3,
+      "T_le_24": 21
+    },
+    "total_Family_U_descriptions": 137,
+    "union_mask_digest": "0abd520ea1ff5b949bf909c8dea1d45e0c3e3a4bceb14a7335730d7b456e2dd6"
+  },
+  {
+    "G5": 240,
+    "argmins": [
+      187808590514
+    ],
+    "complete_counts_digest": "a1013df8684179901bdf98a09f3a3403837a306a770e09737ac99c8119bf7e3f",
+    "distinct_integers": 145,
+    "entry_id": "ENTRY-003",
+    "exact_mean": {
+      "decimal": "27.662068965517242702",
+      "denominator": 145,
+      "numerator": 4011
+    },
+    "fresh_descriptions": 145,
+    "histogram": {
+      "16": 1,
+      "18": 1,
+      "19": 1,
+      "20": 2,
+      "21": 3,
+      "22": 5,
+      "23": 8,
+      "24": 13,
+      "25": 12,
+      "26": 14,
+      "27": 14,
+      "28": 14,
+      "29": 10,
+      "30": 14,
+      "31": 7,
+      "32": 7,
+      "33": 6,
+      "34": 4,
+      "35": 3,
+      "36": 2,
+      "38": 3,
+      "39": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 145
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 1,
+      "T_le_18": 2,
+      "T_le_20": 5,
+      "T_le_24": 34
+    },
+    "maximum": 39,
+    "median": {
+      "decimal": "27.000000000000000000",
+      "denominator": 1,
+      "numerator": 27
+    },
+    "minimum": 16,
+    "q": 19,
+    "residual_size": 167,
+    "sample_count": 145,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 2,
+      "T_le_20": 5,
+      "T_le_24": 34
+    },
+    "total_Family_U_descriptions": 152,
+    "union_mask_digest": "c4352dd998a5cfa0a73980edce17db4cc3a3b1ad7ca47d979572883bcee66a5f"
+  },
+  {
+    "G5": 242,
+    "argmins": [
+      213073867874
+    ],
+    "complete_counts_digest": "a2c6127355a3d4be82231c0a6836f79239f1ee910ef12f6d7e20b13458534d31",
+    "distinct_integers": 83,
+    "entry_id": "ENTRY-004",
+    "exact_mean": {
+      "decimal": "33.108433734939758608",
+      "denominator": 83,
+      "numerator": 2748
+    },
+    "fresh_descriptions": 83,
+    "histogram": {
+      "22": 1,
+      "26": 2,
+      "27": 4,
+      "28": 8,
+      "29": 4,
+      "30": 5,
+      "31": 6,
+      "32": 7,
+      "33": 8,
+      "34": 8,
+      "35": 9,
+      "36": 4,
+      "37": 5,
+      "38": 4,
+      "39": 1,
+      "40": 3,
+      "42": 1,
+      "43": 2,
+      "47": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 83
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "maximum": 47,
+    "median": {
+      "decimal": "33.000000000000000000",
+      "denominator": 1,
+      "numerator": 33
+    },
+    "minimum": 22,
+    "q": 19,
+    "residual_size": 165,
+    "sample_count": 83,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "total_Family_U_descriptions": 88,
+    "union_mask_digest": "123509dba8707e4eaab8fa90772c8b78dc6cdeb133eb2f3b025c93bde5cb4fb4"
+  },
+  {
+    "G5": 233,
+    "argmins": [
+      212699822554
+    ],
+    "complete_counts_digest": "d54742d5266ad34e8f34752f27aead85c2ec2e215ec84c6e1a0c768c5b9b1f24",
+    "distinct_integers": 20,
+    "entry_id": "ENTRY-005",
+    "exact_mean": {
+      "decimal": "56.450000000000002842",
+      "denominator": 20,
+      "numerator": 1129
+    },
+    "fresh_descriptions": 20,
+    "histogram": {
+      "49": 1,
+      "51": 3,
+      "52": 1,
+      "53": 1,
+      "54": 2,
+      "55": 2,
+      "56": 2,
+      "57": 2,
+      "58": 1,
+      "60": 2,
+      "63": 1,
+      "68": 1,
+      "69": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 20
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 69,
+    "median": {
+      "decimal": "55.500000000000000000",
+      "denominator": 2,
+      "numerator": 111
+    },
+    "minimum": 49,
+    "q": 19,
+    "residual_size": 174,
+    "sample_count": 20,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 20,
+    "union_mask_digest": "f790ae6df51031ae8ff9c5e2f18c0057daa3501765d1d171fe3a89f52f8366e4"
+  },
+  {
+    "G5": 236,
+    "argmins": [
+      235268871914
+    ],
+    "complete_counts_digest": "9d9e358d6d2e7f36bdeb7ac24f3c82b2dff482a194de67921883573b606bf562",
+    "distinct_integers": 3,
+    "entry_id": "ENTRY-006",
+    "exact_mean": {
+      "decimal": "32.000000000000000000",
+      "denominator": 1,
+      "numerator": 32
+    },
+    "fresh_descriptions": 3,
+    "histogram": {
+      "26": 1,
+      "35": 2
+    },
+    "integer_multiplicity_distribution": {
+      "1": 3
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 35,
+    "median": {
+      "decimal": "35.000000000000000000",
+      "denominator": 1,
+      "numerator": 35
+    },
+    "minimum": 26,
+    "q": 19,
+    "residual_size": 171,
+    "sample_count": 3,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 3,
+    "union_mask_digest": "059a8169f19d3e1111a258fa9b3569645c5ee7e3deb3b75737ab19ba88793801"
+  },
+  {
+    "G5": 242,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-007",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 31,
+    "residual_size": 165,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 94,
+    "union_mask_digest": "a2dc476599dbf136681de8e645428d53e015007c2001449935a26c6c933eb831"
+  },
+  {
+    "G5": 232,
+    "argmins": [
+      215596257634
+    ],
+    "complete_counts_digest": "3553f14463b4467dcf4496990a412ad8696b63f087e896b099f5eb0a53b9e828",
+    "distinct_integers": 12,
+    "entry_id": "ENTRY-008",
+    "exact_mean": {
+      "decimal": "54.916666666666664298",
+      "denominator": 12,
+      "numerator": 659
+    },
+    "fresh_descriptions": 12,
+    "histogram": {
+      "49": 1,
+      "52": 1,
+      "53": 2,
+      "54": 2,
+      "55": 3,
+      "56": 1,
+      "58": 1,
+      "65": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 12
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 65,
+    "median": {
+      "decimal": "54.500000000000000000",
+      "denominator": 2,
+      "numerator": 109
+    },
+    "minimum": 49,
+    "q": 31,
+    "residual_size": 175,
+    "sample_count": 12,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 12,
+    "union_mask_digest": "7d56336a5cde8990812242d50ac48bf9428b1855d3a4d47be0f2aa124ae98d1c"
+  },
+  {
+    "G5": 232,
+    "argmins": [
+      190514710154
+    ],
+    "complete_counts_digest": "546055decefc942d3bf2c37b236c9a4b2a3f13b20d8fd03df67e507b4cdef226",
+    "distinct_integers": 6,
+    "entry_id": "ENTRY-009",
+    "exact_mean": {
+      "decimal": "30.833333333333332149",
+      "denominator": 6,
+      "numerator": 185
+    },
+    "fresh_descriptions": 6,
+    "histogram": {
+      "23": 1,
+      "28": 2,
+      "33": 1,
+      "35": 1,
+      "38": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 6
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "maximum": 38,
+    "median": {
+      "decimal": "30.500000000000000000",
+      "denominator": 2,
+      "numerator": 61
+    },
+    "minimum": 23,
+    "q": 31,
+    "residual_size": 175,
+    "sample_count": 6,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "total_Family_U_descriptions": 6,
+    "union_mask_digest": "728cde4a631030544d3fdbc7b22b4d9ab9ef01379b7bf0efc941f647b89e5258"
+  },
+  {
+    "G5": 239,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-010",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 43,
+    "residual_size": 168,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 90,
+    "union_mask_digest": "2388342cd536ce03c4b9236802829c8622c45f8e7842c3e4d3f94a8f3ef78276"
+  },
+  {
+    "G5": 227,
+    "argmins": [
+      185797340794
+    ],
+    "complete_counts_digest": "1cb40b7504375cd96e0ca546f651434fd4a70ad13f3ea470b241f16541a952ed",
+    "distinct_integers": 14,
+    "entry_id": "ENTRY-011",
+    "exact_mean": {
+      "decimal": "55.928571428571430602",
+      "denominator": 14,
+      "numerator": 783
+    },
+    "fresh_descriptions": 14,
+    "histogram": {
+      "41": 1,
+      "49": 1,
+      "53": 1,
+      "54": 3,
+      "55": 1,
+      "56": 2,
+      "58": 1,
+      "60": 1,
+      "63": 1,
+      "64": 1,
+      "66": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 14
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 66,
+    "median": {
+      "decimal": "55.500000000000000000",
+      "denominator": 2,
+      "numerator": 111
+    },
+    "minimum": 41,
+    "q": 43,
+    "residual_size": 180,
+    "sample_count": 14,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 15,
+    "union_mask_digest": "3135402240abd83285e17dbf2edf508f891a9587b8506c24d36d424359e4cde0"
+  },
+  {
+    "G5": 229,
+    "argmins": [
+      221616799634
+    ],
+    "complete_counts_digest": "d5c8357bab7e19fcb04e0bb1431ceef7f1eaa3c559f2933294a317bfeeb04cde",
+    "distinct_integers": 4,
+    "entry_id": "ENTRY-012",
+    "exact_mean": {
+      "decimal": "23.250000000000000000",
+      "denominator": 4,
+      "numerator": 93
+    },
+    "fresh_descriptions": 4,
+    "histogram": {
+      "20": 1,
+      "21": 1,
+      "25": 1,
+      "27": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 4
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 1,
+      "T_le_24": 2
+    },
+    "maximum": 27,
+    "median": {
+      "decimal": "23.000000000000000000",
+      "denominator": 1,
+      "numerator": 23
+    },
+    "minimum": 20,
+    "q": 43,
+    "residual_size": 178,
+    "sample_count": 4,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 1,
+      "T_le_24": 2
+    },
+    "total_Family_U_descriptions": 4,
+    "union_mask_digest": "3add1ec2f541269312f0ad9575cab2cc7363917034d72422353cd6036b3d3280"
+  },
+  {
+    "G5": 239,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-013",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 47,
+    "residual_size": 168,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 84,
+    "union_mask_digest": "5d38866b1076b2205a646b4bba6e17818848caede80df4b36aa99eec804126d9"
+  },
+  {
+    "G5": 228,
+    "argmins": [
+      220063640554
+    ],
+    "complete_counts_digest": "c2ca79a39268aabeba6c96c8854abec9571634c38a3424c0b03e021d22b88008",
+    "distinct_integers": 14,
+    "entry_id": "ENTRY-014",
+    "exact_mean": {
+      "decimal": "56.428571428571430602",
+      "denominator": 7,
+      "numerator": 395
+    },
+    "fresh_descriptions": 14,
+    "histogram": {
+      "48": 1,
+      "49": 1,
+      "50": 1,
+      "52": 2,
+      "54": 1,
+      "55": 1,
+      "56": 2,
+      "62": 2,
+      "63": 1,
+      "64": 1,
+      "67": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 14
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 67,
+    "median": {
+      "decimal": "55.500000000000000000",
+      "denominator": 2,
+      "numerator": 111
+    },
+    "minimum": 48,
+    "q": 47,
+    "residual_size": 179,
+    "sample_count": 14,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 15,
+    "union_mask_digest": "3ca344501b19e126956338d5b6c08cca07174aced9613f0452dc3728696707de"
+  },
+  {
+    "G5": 233,
+    "argmins": [
+      195749715314
+    ],
+    "complete_counts_digest": "7a25b864199b10cee2cd76f3e46a4d557531be92cd8cc83e19760ca5f49c77ec",
+    "distinct_integers": 3,
+    "entry_id": "ENTRY-015",
+    "exact_mean": {
+      "decimal": "25.666666666666667851",
+      "denominator": 3,
+      "numerator": 77
+    },
+    "fresh_descriptions": 3,
+    "histogram": {
+      "21": 1,
+      "25": 1,
+      "31": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 3
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "maximum": 31,
+    "median": {
+      "decimal": "25.000000000000000000",
+      "denominator": 1,
+      "numerator": 25
+    },
+    "minimum": 21,
+    "q": 67,
+    "residual_size": 174,
+    "sample_count": 3,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 1
+    },
+    "total_Family_U_descriptions": 3,
+    "union_mask_digest": "6bb34248b290ea5b88d83a3a2e5366c074d1a6545cbe7525ccb5a507ef4efceb"
+  },
+  {
+    "G5": 237,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-016",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 59,
+    "residual_size": 170,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 74,
+    "union_mask_digest": "35dd36da437cfef50465ed3b07af5477a3a05e81b8b4f4ebe302cf05dc2a4d23"
+  },
+  {
+    "G5": 230,
+    "argmins": [
+      208183347514,
+      234496723834
+    ],
+    "complete_counts_digest": "bed30381cad79268d502502fab924a512b63ddbfe487637c4946a8ec5250cfd1",
+    "distinct_integers": 9,
+    "entry_id": "ENTRY-017",
+    "exact_mean": {
+      "decimal": "55.777777777777778567",
+      "denominator": 9,
+      "numerator": 502
+    },
+    "fresh_descriptions": 9,
+    "histogram": {
+      "50": 2,
+      "52": 1,
+      "53": 1,
+      "56": 1,
+      "58": 1,
+      "59": 1,
+      "61": 1,
+      "63": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 9
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 63,
+    "median": {
+      "decimal": "56.000000000000000000",
+      "denominator": 1,
+      "numerator": 56
+    },
+    "minimum": 50,
+    "q": 67,
+    "residual_size": 177,
+    "sample_count": 9,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 10,
+    "union_mask_digest": "5ad4eabb72bf44b98aa00872e0dc9b0b5ac541c262b2dbfe760a321093c5a73e"
+  },
+  {
+    "G5": 230,
+    "argmins": [
+      225106803074
+    ],
+    "complete_counts_digest": "971aa2c8146dfc466741ab2f6280aeed738f79b203967e090a30cf693b065aaa",
+    "distinct_integers": 2,
+    "entry_id": "ENTRY-018",
+    "exact_mean": {
+      "decimal": "24.000000000000000000",
+      "denominator": 1,
+      "numerator": 24
+    },
+    "fresh_descriptions": 2,
+    "histogram": {
+      "20": 1,
+      "28": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 2
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 1,
+      "T_le_24": 1
+    },
+    "maximum": 28,
+    "median": {
+      "decimal": "24.000000000000000000",
+      "denominator": 1,
+      "numerator": 24
+    },
+    "minimum": 20,
+    "q": 71,
+    "residual_size": 177,
+    "sample_count": 2,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 1,
+      "T_le_24": 1
+    },
+    "total_Family_U_descriptions": 2,
+    "union_mask_digest": "0ac473f8450a907a7e249aeb9ef5d2062102f7de7112768dc3bcb1717a697e95"
+  },
+  {
+    "G5": 237,
+    "argmins": [],
+    "distinct_integers": 0,
+    "entry_id": "ENTRY-019",
+    "exact_mean": null,
+    "fresh_descriptions": 0,
+    "histogram": {},
+    "integer_multiplicity_distribution": {},
+    "median": null,
+    "minimum": null,
+    "q": 67,
+    "residual_size": 170,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "status": "NO FRESH OCCUPIED CLASS",
+    "total_Family_U_descriptions": 63,
+    "union_mask_digest": "398931aaf804e2e795861ec5ed7bb78053c2702626b044e8a449dc3e80032c27"
+  },
+  {
+    "G5": 227,
+    "argmins": [
+      224187378634
+    ],
+    "complete_counts_digest": "9e4f676c261da350b908098cfd6e2779c105d931cbf673e51345fbd5cf66daed",
+    "distinct_integers": 10,
+    "entry_id": "ENTRY-020",
+    "exact_mean": {
+      "decimal": "55.799999999999997158",
+      "denominator": 5,
+      "numerator": 279
+    },
+    "fresh_descriptions": 10,
+    "histogram": {
+      "51": 1,
+      "52": 1,
+      "55": 2,
+      "56": 3,
+      "57": 1,
+      "59": 1,
+      "61": 1
+    },
+    "integer_multiplicity_distribution": {
+      "1": 10
+    },
+    "low_tail_counts": {
+      "T_le_0": 0,
+      "T_le_10": 0,
+      "T_le_12": 0,
+      "T_le_14": 0,
+      "T_le_15": 0,
+      "T_le_16": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "maximum": 61,
+    "median": {
+      "decimal": "56.000000000000000000",
+      "denominator": 1,
+      "numerator": 56
+    },
+    "minimum": 51,
+    "q": 71,
+    "residual_size": 180,
+    "sample_count": 10,
+    "selected_low_tail_counts": {
+      "T_le_15": 0,
+      "T_le_18": 0,
+      "T_le_20": 0,
+      "T_le_24": 0
+    },
+    "total_Family_U_descriptions": 10,
+    "union_mask_digest": "e21362d21ab72c0b525e3d0d0f76e9718a1ccf8b733bbfbb1f7422290043b537"
+  }
+]

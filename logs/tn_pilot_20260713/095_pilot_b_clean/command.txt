@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout --signal=TERM --kill-after=10s 600s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py --binary /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --source-tree /tmp/a303656_tn_acceptance_src_2e38ac0 --low 240000000001 --high 240000100001 --interval-id PILOT-B --out-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean --compiler g++ --timeout-seconds 540 
+started_utc=2026-07-13T08:51:27Z
+finished_utc=2026-07-13T08:51:37Z

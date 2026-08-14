@@ -1,0 +1,13 @@
+The reproduction script was validated in components because this execution
+wrapper kills a single container command after roughly 35 seconds:
+
+- ONLY_STAGE0=1 completed with STAGE0_REPRODUCTION_PASS.
+- SKIP_STAGE0=1 FULL=0 completed with REPRODUCTION_PASS and all independent
+  100k cross-checks PASS.
+- The two FULL=1 10m commands were run separately from the same final sources:
+  search_bitset: 10,000,000 tested, 0 candidates;
+  search_exhaustive_clean: 10,000,000 tested, 0 candidates.
+
+Thus every command used by FULL=1 completed successfully in component runs.
+No claim is made that a single uninterrupted FULL=1 wrapper process completed
+inside this environment's short per-command limit.

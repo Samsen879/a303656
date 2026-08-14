@@ -1,0 +1,34 @@
+{
+  "core_artifact_sha256": {
+    "authorities.json": "fc0ab1b7a6ae0555d85a7cfcfdeae4fea805aa1e128026140f5a3772d91df967",
+    "baseline_audit.json": "8a6c9b6fb8cfb0e7a38a49411196b71548c4a09fd4fcdac1e035b1d53c622571",
+    "class_freshness_manifest.csv": "7158de107dbe83b737fa945bc27053afae95ecd698ee726c11de17a191403a87",
+    "corruption_tests.json": "793ff4a215537897b511440aa23ee631d551b702037451f4309bf1385b03ab37",
+    "landscape.json": "4f4ec921904242114c23b3e6146efb32687c788f9bcb8cf8ed046969e5e6984f",
+    "promotion_feasibility.json": "d70f1e529872565e8681696bf365073bd41e54caf6ae67b70f853d8e8eb99a4f",
+    "top_band_masks.json": "2f122eb40cfb2a27cc55b5afe9522fbeb54b5ca9867c291d9872c06e9020721f",
+    "verification_report.json": "267801c422f6499b621cf9dc2052fbe18d45ebde5a6596328e0f04c7efc74c53"
+  },
+  "protected_hashes_after": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/fifth_prime_marginal_coverage/results/frozen_base_masks.json": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "analysis/k4_survivor_incidence/pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "analysis/p4_maximizer_census/pair_frequencies.csv": "000fb139714a25fe6da2304ca8fdc67dfdc5782fb48d0c265d0cb22cf664dbb0",
+    "analysis/p4_residue_landscape/metadata.json": "00f6e27dc5ec2557ba7ac0223c872088c56e02167f9f703c7f4eb534d08ea217",
+    "analysis/p5_sparse_panel_feasibility/results/prior_evaluation_registry.json": "428f5abee8462d21777326c9fbdf9aa215d722f43d9ceaed75b980e30c4158af",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "raw_archive": {
+    "path": "/home/samsen/code/a303656/archive/p4_mod8_live_landscape_raw_ee5bef6.tar.zst",
+    "sha256": "3b3110a7bb74279405e352ed5b26a285ecbd8fa6deb21152095f6e32e497cca9",
+    "size_bytes": 35465,
+    "source_directory": "/tmp/a303656_p4_mod8_live_U_ee5bef6_raw"
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "schema": "a303656-p4-mod8-live-metadata-v1",
+  "source_commit": "ee5bef63b02277786fe9c01ae9ff44233d889883",
+  "source_parent_commit": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310"
+}

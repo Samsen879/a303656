@@ -1,0 +1,24 @@
+name: verify-public-repository
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify frozen authority and public repository surface
+        run: python3 scripts/verify_public_repository.py
+      - name: Reject personal Gmail addresses in files and nested archives
+        run: python3 scripts/privacy_scan.py --reject-domain gmail.com
+      - name: Verify sanitized commit identity
+        shell: bash
+        run: |
+          test "$(git rev-list --count HEAD)" -eq 1
+          test -z "$(git log --format='%ae%n%ce' | grep -Ev '@users\.noreply\.github\.com$' || true)"

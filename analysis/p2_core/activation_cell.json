@@ -1,0 +1,3176 @@
+{
+  "T_evaluated_at_candidates": false,
+  "cell": {
+    "A": 183968950234,
+    "B": 246731069451,
+    "active_pair_count": 407,
+    "distinct_active_shift_count": 406,
+    "duplicate_active_shifts": [
+      {
+        "multiplicity": 2,
+        "pairs": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "shift": 28
+      }
+    ],
+    "left_boundary_activation": {
+      "pairs": [
+        [
+          22,
+          16
+        ]
+      ],
+      "shift": 183968950234
+    },
+    "next_activation": {
+      "pairs": [
+        [
+          23,
+          16
+        ]
+      ],
+      "shift": 246731069452
+    }
+  },
+  "classification": "CANDIDATE_DENSITY ANALYSIS ONLY",
+  "n0": 240000005594,
+  "nested_moduli": [
+    {
+      "M": "9",
+      "M_bit_length": 4,
+      "M_decimal_digit_count": 1,
+      "activation_cell": {
+        "candidate_count_including_k0": 6973568802,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 747895984,
+        "k_min": -6225672817,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005585
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000005603
+        }
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 11111,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 10489,
+        "k_min": -621,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005585
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000005603
+        }
+      },
+      "selected_primes": [
+        3
+      ],
+      "step": 1
+    },
+    {
+      "M": "441",
+      "M_bit_length": 9,
+      "M_decimal_digit_count": 3,
+      "activation_cell": {
+        "candidate_count_including_k0": 142317731,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 15263183,
+        "k_min": -127054547,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005153
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000006035
+        }
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 227,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 214,
+        "k_min": -12,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005153
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000006035
+        }
+      },
+      "selected_primes": [
+        3,
+        7
+      ],
+      "step": 2
+    },
+    {
+      "M": "53361",
+      "M_bit_length": 16,
+      "M_decimal_digit_count": 5,
+      "activation_cell": {
+        "candidate_count_including_k0": 1176180,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 126142,
+        "k_min": -1050037,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 239999952233
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000058955
+        }
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 2,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 1,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000058955
+        }
+      },
+      "selected_primes": [
+        3,
+        7,
+        11
+      ],
+      "step": 3
+    },
+    {
+      "M": "28227969",
+      "M_bit_length": 25,
+      "M_decimal_digit_count": 8,
+      "activation_cell": {
+        "candidate_count_including_k0": 2223,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 238,
+        "k_min": -1984,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 239971777625
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240028233563
+        }
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23
+      ],
+      "step": 4
+    },
+    {
+      "M": "10190296809",
+      "M_bit_length": 34,
+      "M_decimal_digit_count": 11,
+      "activation_cell": {
+        "candidate_count_including_k0": 6,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": -5,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 229809708785
+        },
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19
+      ],
+      "step": 5
+    },
+    {
+      "M": "9792875233449",
+      "M_bit_length": 44,
+      "M_decimal_digit_count": 13,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31
+      ],
+      "step": 6
+    },
+    {
+      "M": "21632461390688841",
+      "M_bit_length": 55,
+      "M_decimal_digit_count": 17,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47
+      ],
+      "step": 7
+    },
+    {
+      "M": "135008191539289056681",
+      "M_bit_length": 67,
+      "M_decimal_digit_count": 21,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79
+      ],
+      "step": 8
+    },
+    {
+      "M": "930071431514162311475409",
+      "M_bit_length": 80,
+      "M_decimal_digit_count": 24,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83
+      ],
+      "step": 9
+    },
+    {
+      "M": "1719702076869686113918031241",
+      "M_bit_length": 91,
+      "M_decimal_digit_count": 28,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43
+      ],
+      "step": 10
+    },
+    {
+      "M": "560693384844669330267948823846881",
+      "M_bit_length": 109,
+      "M_decimal_digit_count": 33,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571
+      ],
+      "step": 11
+    },
+    {
+      "M": "1951773672644293938662729855810992761",
+      "M_bit_length": 121,
+      "M_decimal_digit_count": 37,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59
+      ],
+      "step": 12
+    },
+    {
+      "M": "8761512016500235490656994322735546504129",
+      "M_bit_length": 133,
+      "M_decimal_digit_count": 40,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67
+      ],
+      "step": 13
+    },
+    {
+      "M": "44166782075177687108401908380909889927314289",
+      "M_bit_length": 145,
+      "M_decimal_digit_count": 44,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71
+      ],
+      "step": 14
+    },
+    {
+      "M": "468565391035560082533035846013073022238877292001",
+      "M_bit_length": 159,
+      "M_decimal_digit_count": 48,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103
+      ],
+      "step": 15
+    },
+    {
+      "M": "29520088200631320759663791334669613474071508273355001",
+      "M_bit_length": 175,
+      "M_decimal_digit_count": 53,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251
+      ],
+      "step": 16
+    },
+    {
+      "M": "3234250383349368133749524642417737521832748517937047264561",
+      "M_bit_length": 192,
+      "M_decimal_digit_count": 58,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331
+      ],
+      "step": 17
+    },
+    {
+      "M": "884661273107169316256373725915881326609389869362802601228105769",
+      "M_bit_length": 210,
+      "M_decimal_digit_count": 63,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523
+      ],
+      "step": 18
+    },
+    {
+      "M": "304826850213264224133142438365109312828470857896471529502567176718561",
+      "M_bit_length": 228,
+      "M_decimal_digit_count": 69,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587
+      ],
+      "step": 19
+    },
+    {
+      "M": "171922648347131235675316468380360017544570392324467839110977390236445122561",
+      "M_bit_length": 247,
+      "M_decimal_digit_count": 75,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751
+      ],
+      "step": 20
+    },
+    {
+      "M": "1968342400926305517246698246486741840867786421722832289981580140817060208200889",
+      "M_bit_length": 261,
+      "M_decimal_digit_count": 79,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107
+      ],
+      "step": 21
+    },
+    {
+      "M": "31747394584540381687671996017584659151356527195967562005112906091238364098072138681",
+      "M_bit_length": 275,
+      "M_decimal_digit_count": 83,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127
+      ],
+      "step": 22
+    },
+    {
+      "M": "613391410767904714587510635055753199463359461953289265500786458588816432738851791455601",
+      "M_bit_length": 289,
+      "M_decimal_digit_count": 87,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139
+      ],
+      "step": 23
+    },
+    {
+      "M": "13985937556918995397309829989906228700964059091996948542683432042283603482878559696979158401",
+      "M_bit_length": 303,
+      "M_decimal_digit_count": 92,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151
+      ],
+      "step": 24
+    },
+    {
+      "M": "622667925971590594083630940980615207995620874834796146068809077954508310661236356269209111170921",
+      "M_bit_length": 319,
+      "M_decimal_digit_count": 96,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211
+      ],
+      "step": 25
+    },
+    {
+      "M": "30964653290641228653184883064025013678414230484659577547855806637599743780872622760911499889418730409",
+      "M_bit_length": 334,
+      "M_decimal_digit_count": 101,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223
+      ],
+      "step": 26
+    },
+    {
+      "M": "1768731960614717621898573705500172806324699259514239729111071530946334964507225084726025785183487299692489",
+      "M_bit_length": 350,
+      "M_decimal_digit_count": 106,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239
+      ],
+      "step": 27
+    },
+    {
+      "M": "122341420983759403189102444635741452840673123081340447822883706724027043160000251885414477535356633032429771641",
+      "M_bit_length": 366,
+      "M_decimal_digit_count": 111,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263
+      ],
+      "step": 28
+    },
+    {
+      "M": "11832984578970193235853177547613549060202745137550329453877134998054619641478384362609173681697228903529639942889161",
+      "M_bit_length": 383,
+      "M_decimal_digit_count": 116,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311
+      ],
+      "step": 29
+    },
+    {
+      "M": "1424797840169221997335845255330599828789952339267297619211891947980758696410770782717407993839481635045100415883340986849",
+      "M_bit_length": 400,
+      "M_decimal_digit_count": 121,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347
+      ],
+      "step": 30
+    },
+    {
+      "M": "183629370438849500238641072352263036534277847437108584461647846147708161552116549247402259654026232606247586699460869726085969",
+      "M_bit_length": 417,
+      "M_decimal_digit_count": 126,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347,
+        359
+      ],
+      "step": 31
+    },
+    {
+      "M": "26376706399206781063778642273751414830820204283713714180655558268502948033507573250446107978963982077794009601097258788324714673129",
+      "M_bit_length": 434,
+      "M_decimal_digit_count": 131,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "MARGINAL_COVERAGE_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        571,
+        59,
+        67,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347,
+        359,
+        379
+      ],
+      "step": 32
+    },
+    {
+      "M": "9",
+      "M_bit_length": 4,
+      "M_decimal_digit_count": 1,
+      "activation_cell": {
+        "candidate_count_including_k0": 6973568802,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 747895984,
+        "k_min": -6225672817,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005585
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000005603
+        }
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 11111,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 10489,
+        "k_min": -621,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005585
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000005603
+        }
+      },
+      "selected_primes": [
+        3
+      ],
+      "step": 1
+    },
+    {
+      "M": "441",
+      "M_bit_length": 9,
+      "M_decimal_digit_count": 3,
+      "activation_cell": {
+        "candidate_count_including_k0": 142317731,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 15263183,
+        "k_min": -127054547,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005153
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000006035
+        }
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 227,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 214,
+        "k_min": -12,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 240000005153
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000006035
+        }
+      },
+      "selected_primes": [
+        3,
+        7
+      ],
+      "step": 2
+    },
+    {
+      "M": "53361",
+      "M_bit_length": 16,
+      "M_decimal_digit_count": 5,
+      "activation_cell": {
+        "candidate_count_including_k0": 1176180,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 126142,
+        "k_min": -1050037,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 239999952233
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000058955
+        }
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 2,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 1,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240000058955
+        }
+      },
+      "selected_primes": [
+        3,
+        7,
+        11
+      ],
+      "step": 3
+    },
+    {
+      "M": "28227969",
+      "M_bit_length": 25,
+      "M_decimal_digit_count": 8,
+      "activation_cell": {
+        "candidate_count_including_k0": 2223,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 238,
+        "k_min": -1984,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 239971777625
+        },
+        "nearest_nonzero_right": {
+          "k": 1,
+          "n": 240028233563
+        }
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23
+      ],
+      "step": 4
+    },
+    {
+      "M": "10190296809",
+      "M_bit_length": 34,
+      "M_decimal_digit_count": 11,
+      "activation_cell": {
+        "candidate_count_including_k0": 6,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": -5,
+        "nearest_nonzero_left": {
+          "k": -1,
+          "n": 229809708785
+        },
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19
+      ],
+      "step": 5
+    },
+    {
+      "M": "9792875233449",
+      "M_bit_length": 44,
+      "M_decimal_digit_count": 13,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31
+      ],
+      "step": 6
+    },
+    {
+      "M": "21632461390688841",
+      "M_bit_length": 55,
+      "M_decimal_digit_count": 17,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47
+      ],
+      "step": 7
+    },
+    {
+      "M": "135008191539289056681",
+      "M_bit_length": 67,
+      "M_decimal_digit_count": 21,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79
+      ],
+      "step": 8
+    },
+    {
+      "M": "930071431514162311475409",
+      "M_bit_length": 80,
+      "M_decimal_digit_count": 24,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83
+      ],
+      "step": 9
+    },
+    {
+      "M": "1719702076869686113918031241",
+      "M_bit_length": 91,
+      "M_decimal_digit_count": 28,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43
+      ],
+      "step": 10
+    },
+    {
+      "M": "5986282929583377362548666749921",
+      "M_bit_length": 103,
+      "M_decimal_digit_count": 31,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59
+      ],
+      "step": 11
+    },
+    {
+      "M": "26872424070899780980480965040395369",
+      "M_bit_length": 115,
+      "M_decimal_digit_count": 35,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67
+      ],
+      "step": 12
+    },
+    {
+      "M": "8761512016500235490656994322735546504129",
+      "M_bit_length": 133,
+      "M_decimal_digit_count": 40,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571
+      ],
+      "step": 13
+    },
+    {
+      "M": "44166782075177687108401908380909889927314289",
+      "M_bit_length": 145,
+      "M_decimal_digit_count": 44,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71
+      ],
+      "step": 14
+    },
+    {
+      "M": "468565391035560082533035846013073022238877292001",
+      "M_bit_length": 159,
+      "M_decimal_digit_count": 48,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103
+      ],
+      "step": 15
+    },
+    {
+      "M": "29520088200631320759663791334669613474071508273355001",
+      "M_bit_length": 175,
+      "M_decimal_digit_count": 53,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251
+      ],
+      "step": 16
+    },
+    {
+      "M": "3234250383349368133749524642417737521832748517937047264561",
+      "M_bit_length": 192,
+      "M_decimal_digit_count": 58,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331
+      ],
+      "step": 17
+    },
+    {
+      "M": "884661273107169316256373725915881326609389869362802601228105769",
+      "M_bit_length": 210,
+      "M_decimal_digit_count": 63,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523
+      ],
+      "step": 18
+    },
+    {
+      "M": "304826850213264224133142438365109312828470857896471529502567176718561",
+      "M_bit_length": 228,
+      "M_decimal_digit_count": 69,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587
+      ],
+      "step": 19
+    },
+    {
+      "M": "171922648347131235675316468380360017544570392324467839110977390236445122561",
+      "M_bit_length": 247,
+      "M_decimal_digit_count": 75,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751
+      ],
+      "step": 20
+    },
+    {
+      "M": "1968342400926305517246698246486741840867786421722832289981580140817060208200889",
+      "M_bit_length": 261,
+      "M_decimal_digit_count": 79,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107
+      ],
+      "step": 21
+    },
+    {
+      "M": "31747394584540381687671996017584659151356527195967562005112906091238364098072138681",
+      "M_bit_length": 275,
+      "M_decimal_digit_count": 83,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127
+      ],
+      "step": 22
+    },
+    {
+      "M": "613391410767904714587510635055753199463359461953289265500786458588816432738851791455601",
+      "M_bit_length": 289,
+      "M_decimal_digit_count": 87,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139
+      ],
+      "step": 23
+    },
+    {
+      "M": "13985937556918995397309829989906228700964059091996948542683432042283603482878559696979158401",
+      "M_bit_length": 303,
+      "M_decimal_digit_count": 92,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151
+      ],
+      "step": 24
+    },
+    {
+      "M": "622667925971590594083630940980615207995620874834796146068809077954508310661236356269209111170921",
+      "M_bit_length": 319,
+      "M_decimal_digit_count": 96,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211
+      ],
+      "step": 25
+    },
+    {
+      "M": "30964653290641228653184883064025013678414230484659577547855806637599743780872622760911499889418730409",
+      "M_bit_length": 334,
+      "M_decimal_digit_count": 101,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223
+      ],
+      "step": 26
+    },
+    {
+      "M": "1768731960614717621898573705500172806324699259514239729111071530946334964507225084726025785183487299692489",
+      "M_bit_length": 350,
+      "M_decimal_digit_count": 106,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239
+      ],
+      "step": 27
+    },
+    {
+      "M": "122341420983759403189102444635741452840673123081340447822883706724027043160000251885414477535356633032429771641",
+      "M_bit_length": 366,
+      "M_decimal_digit_count": 111,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263
+      ],
+      "step": 28
+    },
+    {
+      "M": "11832984578970193235853177547613549060202745137550329453877134998054619641478384362609173681697228903529639942889161",
+      "M_bit_length": 383,
+      "M_decimal_digit_count": 116,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311
+      ],
+      "step": 29
+    },
+    {
+      "M": "1424797840169221997335845255330599828789952339267297619211891947980758696410770782717407993839481635045100415883340986849",
+      "M_bit_length": 400,
+      "M_decimal_digit_count": 121,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347
+      ],
+      "step": 30
+    },
+    {
+      "M": "183629370438849500238641072352263036534277847437108584461647846147708161552116549247402259654026232606247586699460869726085969",
+      "M_bit_length": 417,
+      "M_decimal_digit_count": 126,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347,
+        359
+      ],
+      "step": 31
+    },
+    {
+      "M": "26376706399206781063778642273751414830820204283713714180655558268502948033507573250446107978963982077794009601097258788324714673129",
+      "M_bit_length": 434,
+      "M_decimal_digit_count": 131,
+      "activation_cell": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          183968950234,
+          246731069451
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "ordering": "COVERAGE_PER_MODULUS_BIT_GREEDY",
+      "pilot_b": {
+        "candidate_count_including_k0": 1,
+        "interval": [
+          240000000001,
+          240000100000
+        ],
+        "k_max": 0,
+        "k_min": 0,
+        "nearest_nonzero_left": null,
+        "nearest_nonzero_right": null
+      },
+      "selected_primes": [
+        3,
+        7,
+        11,
+        23,
+        19,
+        31,
+        47,
+        79,
+        83,
+        43,
+        59,
+        67,
+        571,
+        71,
+        103,
+        251,
+        331,
+        523,
+        587,
+        751,
+        107,
+        127,
+        139,
+        151,
+        211,
+        223,
+        239,
+        263,
+        311,
+        347,
+        359,
+        379
+      ],
+      "step": 32
+    }
+  ],
+  "pilot_b_interval": [
+    240000000001,
+    240000100000
+  ],
+  "schema": "a303656-p2-activation-cell-v1"
+}

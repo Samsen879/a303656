@@ -1,0 +1,21 @@
+{
+  "method": "clean_room_direct_two_squares_y_outer",
+  "arithmetic": "exact uint64/__uint128; binary-search integer square root; no floating point",
+  "low": "1",
+  "high": "1000",
+  "C": 6,
+  "D": 4,
+  "three_power_next_plus_one": "2188",
+  "five_power_next_plus_one": "3126",
+  "strict_domain_inequalities_checked": true,
+  "admissible_rectangle_pair_count_at_high": 34,
+  "distinct_shift_count_at_high": 33,
+  "duplicate_pair_count": 1,
+  "integers_tested": 1000,
+  "shifts_processed_before_termination": 33,
+  "unordered_square_pairs_enumerated": 9972,
+  "candidate_count": 1,
+  "candidates": ["1"],
+  "elapsed_seconds": 0.00353236,
+  "classification": "EXACT CANDIDATES REQUIRE INDEPENDENT CERTIFICATE VERIFICATION"
+}

@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=mkdir /tmp/a303656_tn_sanitized 
+started_utc=2026-07-13T08:38:09Z
+finished_utc=2026-07-13T08:38:09Z

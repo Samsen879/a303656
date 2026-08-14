@@ -1,0 +1,21 @@
+{
+  "designed_class_ledger": {
+    "distinct_fixed_P4_tuple_count": 87,
+    "row_count": 4838,
+    "sha256": "3d4b2675df302b518ec5c32f7d63573604efbfee4143e6db16d4da80819af679",
+    "source_path": "analysis/p4_maximizer_census/class_panel.csv"
+  },
+  "frozen_full_mask_ledger": {
+    "mask_count": 13,
+    "sha256": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "source_path": "analysis/fifth_prime_marginal_coverage/results/frozen_base_masks.json"
+  },
+  "scope_note": "These are design ledgers, not historical-exposure ledgers. Their complement defines design novelty only.",
+  "schema": "a303656-historical-design-ledger-snapshot-v1",
+  "top_band_full_mask_authority": {
+    "H8_201_full_mask_count": 21,
+    "all_top_band_mask_count": 570,
+    "sha256": "2f122eb40cfb2a27cc55b5afe9522fbeb54b5ca9867c291d9872c06e9020721f",
+    "source_path": "analysis/p4_mod8_live_landscape/results/top_band_masks.json"
+  }
+}

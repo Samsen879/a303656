@@ -1,0 +1,53 @@
+{
+  "method": "A-explicit-bitset",
+  "primes": [
+    7,
+    11
+  ],
+  "orders_p2": {
+    "7": [
+      42,
+      42
+    ],
+    "11": [
+      5,
+      55
+    ]
+  },
+  "L3": 210,
+  "L5": 2310,
+  "universe": 485100,
+  "max_universe": 1000000,
+  "status": "EXACT_COMPLETE",
+  "build_stats": [
+    {
+      "p": 7,
+      "raw_t_count": 49,
+      "distinct_mask_count": 49,
+      "nonempty_distinct_mask_count": 49,
+      "best_single_coverage": 69300,
+      "build_seconds": 0.6530907070000467
+    },
+    {
+      "p": 11,
+      "raw_t_count": 121,
+      "distinct_mask_count": 111,
+      "nonempty_distinct_mask_count": 110,
+      "best_single_coverage": 52920,
+      "build_seconds": 1.9420566079998025
+    }
+  ],
+  "search": {
+    "cover_found": false,
+    "cover_t": null,
+    "best_t": [
+      0,
+      2
+    ],
+    "best_covered": 114660,
+    "uncovered_at_best": 370440,
+    "nodes": 5489
+  },
+  "search_seconds": 0.8217327379998096,
+  "total_seconds": 3.4539938909992998
+}

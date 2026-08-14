@@ -1,0 +1,22 @@
+{
+  "method": "exact_all_prime_segmented_factor_sieve",
+  "low": "250040000001",
+  "high": "250050000000",
+  "C": 23,
+  "D": 16,
+  "finite_bound_3_rhs": "282429536482",
+  "finite_bound_5_rhs": "762939453126",
+  "max_odd": 1,
+  "certificate_family": "all primes p=3 mod 4 with v_p=1",
+  "admissible_pair_count_at_high": 408,
+  "distinct_shift_count_at_high": 407,
+  "integers_tested": 10000000,
+  "shifts_processed_before_termination": 145,
+  "factor_groups_processed": 1,
+  "candidate_count": 0,
+  "candidates": [],
+  "first_failure_histogram": [{"shift":"2","count":1564092},{"shift":"4","count":1427581},{"shift":"6","count":1182887},{"shift":"8","count":1068317},{"shift":"10","count":825826},{"shift":"14","count":642878},{"shift":"26","count":432340},{"shift":"28","count":551434},{"shift":"32","count":438657},{"shift":"34","count":291709},{"shift":"52","count":275364},{"shift":"82","count":178462},{"shift":"86","count":164785},{"shift":"106","count":108770},{"shift":"126","count":124635},{"shift":"128","count":161697},{"shift":"134","count":63297},{"shift":"152","count":100152},{"shift":"206","count":37174},{"shift":"244","count":70465},{"shift":"248","count":51040},{"shift":"268","count":42666},{"shift":"368","count":26584},{"shift":"626","count":21787},{"shift":"628","count":20996},{"shift":"634","count":21389},{"shift":"652","count":18243},{"shift":"706","count":12661},{"shift":"730","count":10233},{"shift":"734","count":6848},{"shift":"754","count":6052},{"shift":"854","count":4337},{"shift":"868","count":7283},{"shift":"1354","count":4280},{"shift":"2188","count":5898},{"shift":"2192","count":4640},{"shift":"2212","count":2588},{"shift":"2312","count":2694},{"shift":"2812","count":2497},{"shift":"3126","count":3522},{"shift":"3128","count":1604},{"shift":"3134","count":1919},{"shift":"3152","count":1752},{"shift":"3206","count":1108},{"shift":"3368","count":928},{"shift":"3854","count":870},{"shift":"5312","count":613},{"shift":"6562","count":551},{"shift":"6566","count":334},{"shift":"6586","count":418},{"shift":"6686","count":343},{"shift":"7186","count":348},{"shift":"9686","count":250},{"shift":"15626","count":316},{"shift":"15628","count":255},{"shift":"15634","count":150},{"shift":"15652","count":173},{"shift":"15706","count":151},{"shift":"15868","count":142},{"shift":"16354","count":110},{"shift":"17812","count":71},{"shift":"19684","count":48},{"shift":"19688","count":81},{"shift":"19708","count":75},{"shift":"19808","count":68},{"shift":"20308","count":46},{"shift":"22186","count":50},{"shift":"22808","count":31},{"shift":"35308","count":22},{"shift":"59050","count":51},{"shift":"59054","count":51},{"shift":"59074","count":54},{"shift":"59174","count":34},{"shift":"59674","count":29},{"shift":"62174","count":21},{"shift":"74674","count":12},{"shift":"78126","count":28},{"shift":"78128","count":19},{"shift":"78134","count":13},{"shift":"78152","count":12},{"shift":"78206","count":7},{"shift":"78368","count":8},{"shift":"78854","count":3},{"shift":"80312","count":11},{"shift":"84686","count":2},{"shift":"97808","count":5},{"shift":"137174","count":2},{"shift":"177148","count":1},{"shift":"177152","count":1},{"shift":"177172","count":3},{"shift":"177272","count":3},{"shift":"177772","count":3},{"shift":"180272","count":4},{"shift":"192772","count":1},{"shift":"255272","count":2},{"shift":"390626","count":3},{"shift":"390628","count":2},{"shift":"390634","count":2},{"shift":"390652","count":2},{"shift":"390706","count":5},{"shift":"391354","count":4},{"shift":"397186","count":1},{"shift":"410308","count":2},{"shift":"449674","count":1},{"shift":"531442","count":4},{"shift":"531446","count":3},{"shift":"531566","count":1},{"shift":"567772","count":1},{"shift":"4783594","count":1},{"shift":"4786094","count":1}],
+  "factor_groups": [{"low":"250035138907","high":"250049999998","values":14861092,"prime_multiple_visits":42145049,"division_steps":53635034,"marked":12536645}],
+  "elapsed_seconds": 7.38951,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

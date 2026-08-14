@@ -1,0 +1,169 @@
+{
+  "activation_cell": {
+    "A": 183968950234,
+    "B": 246731069451,
+    "next_activation": 246731069452
+  },
+  "baseline_hashes": {
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/direct/formal_1p6b_final/summary.json": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "checks": {
+    "O_equals_disjoint_C_union_H_and_C_congruence": true,
+    "absolute_and_normalized_comparison_metrics": true,
+    "activation_cell_and_candidate_density": true,
+    "active_pair_completeness_and_reported_factorizations": true,
+    "both_greedy_histories_and_exact_modulus_sizes": true,
+    "corrected_control_factorizations_and_T_reproduction": true,
+    "corrected_control_selection_from_existing_counts": true,
+    "independent_direct_valuations_and_obstruction_lists": true,
+    "input_and_baseline_hashes": true,
+    "mandatory_prime_3_distribution_and_modular_explanation": true,
+    "modulo_9_prime_3_set_identity": true,
+    "pilot_b_counts_three_way_identity_and_domain": true,
+    "primary_metadata_bindings": true,
+    "selected_prime_residue_bindings": true,
+    "source_commit_ancestry_and_source_hashes": true,
+    "static_vs_p2_rankings_and_explicit_pair_sets": true
+  },
+  "corrected_controls": [
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 46,
+      "control_n": 240000009194,
+      "low_tail_T": 16,
+      "low_tail_n": 240000005594,
+      "residue_mod_360": 74,
+      "residue_mod_9": 2,
+      "selection_key": [
+        14,
+        3600,
+        240000009194
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 50,
+      "control_n": 240000001202,
+      "low_tail_T": 18,
+      "low_tail_n": 240000004802,
+      "residue_mod_360": 2,
+      "residue_mod_9": 2,
+      "selection_key": [
+        10,
+        3600,
+        240000001202
+      ]
+    },
+    {
+      "block_end_exclusive": 240000050001,
+      "block_index": 4,
+      "block_start": 240000040001,
+      "control_T": 55,
+      "control_n": 240000048838,
+      "low_tail_T": 19,
+      "low_tail_n": 240000044158,
+      "residue_mod_360": 118,
+      "residue_mod_9": 1,
+      "selection_key": [
+        5,
+        4680,
+        240000048838
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 47,
+      "control_n": 240000006368,
+      "low_tail_T": 20,
+      "low_tail_n": 240000000968,
+      "residue_mod_360": 128,
+      "residue_mod_9": 2,
+      "selection_key": [
+        13,
+        5400,
+        240000006368
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 47,
+      "control_n": 240000004064,
+      "low_tail_T": 21,
+      "low_tail_n": 240000001544,
+      "residue_mod_360": 344,
+      "residue_mod_9": 2,
+      "selection_key": [
+        13,
+        2520,
+        240000004064
+      ]
+    }
+  ],
+  "counts": {
+    "active_pairs_per_fixture": 407,
+    "coverage_csv_rows_checked": 4873,
+    "declared_input_hashes_checked": 95,
+    "distinct_analyzed_n": 14,
+    "greedy_rows_checked": 64,
+    "normalized_fixtures_checked": 14,
+    "reported_factorizations_checked": 4070,
+    "reported_obstruction_primes_checked": 6905,
+    "residue_bindings_checked": 32
+  },
+  "duplicate_controls": [],
+  "final_conclusion": "VALIDATED P2-PERSISTENT CORE AUDIT",
+  "independent_verifier": {
+    "imports_primary_analysis_module": false,
+    "path": "src/verify_p2_persistent_core.py",
+    "sha256": "eaa955b001d8404a0880bb2a739d05ff9ce98d7202bdf296765a9013af54d5df"
+  },
+  "output_sha256": {
+    "analysis/p2_core/activation_cell.json": "54bdb35c8d9206d9014c6e23bc24ca4292e217e48244530cec472ad02cc0e644",
+    "analysis/p2_core/corrected_controls.json": "1300b751a2e8da11db202b20788385f8e9607efcf0111c83f95d9e16c8bfb626",
+    "analysis/p2_core/greedy_core_steps.csv": "e7c3680680740db41fa87af8e5d6c14aa0d2c99a4b78b9ce6f027b46e531e04d",
+    "analysis/p2_core/metadata.json": "d1af86b53761364c955d0e4934beeb014fb1f5e8b4f2c4436c2acd61c8a4b4e4",
+    "analysis/p2_core/n0_p2_core.json": "02535370741275c0cb416b9de7156a9f29c3fb9a82b4c524ca61f2476f2824fe",
+    "analysis/p2_core/normalized_comparison.json": "c3eacf5f16be34d4b6463c8a5fe57890d83fd2ed32da184c7749696fed527ee6",
+    "analysis/p2_core/static_vs_p2_prime_coverage.csv": "7a2c2a1cef02697e6766190e14edfa93b2627243e684f8021824f3c74d85e7f6",
+    "docs/p2_persistent_core_audit.md": "78ecb7f3097711f94119e7004cabfeed0dbc557dbf67fa2abb61989ca2e3587b"
+  },
+  "prime_3_valuation_distribution": {
+    "0": 214,
+    "1": 143,
+    "2": 26,
+    "3": 23,
+    "5": 1
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "results_commit_resolved": false,
+  "schema": "a303656-p2-core-independent-verification-v1",
+  "scope_confirmation": {
+    "CRT_system_solved": false,
+    "T_evaluated_at_progression_candidates": false,
+    "arithmetic_progression_searched": false,
+    "counting_executable_invoked_by_verifier": false,
+    "new_integer_interval_scanned": false
+  },
+  "source_commit": "f141f9f3786480b06609fed099aa4c8ffbfee39e",
+  "source_commit_is_ancestor_of_results_commit": null,
+  "source_file_sha256_at_source_commit": {
+    "src/analyze_p2_persistent_core.py": "f36da971d57f447ed123bae786a9720b2291dd33326029c9c516f483c182b069",
+    "src/verify_p2_persistent_core.py": "eaa955b001d8404a0880bb2a739d05ff9ce98d7202bdf296765a9013af54d5df"
+  },
+  "source_parent_commit": "6e357619ee9309819aeb36caf0f1f3f974b4c0fb",
+  "status": "PASS",
+  "verification_checkout_commit": "f141f9f3786480b06609fed099aa4c8ffbfee39e",
+  "verified_utc": "2026-07-13T11:55:49Z"
+}

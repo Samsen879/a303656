@@ -1,0 +1,2 @@
+TN_RUN_PASS implementation_id=tn_bitset_annulus_v1 interval_id=FIXTURE-RUNNER source_commit=5fe0ee472cdefa7a23a05616a56a024fe571e58a dirty=true elapsed_seconds=0.002830
+output_directory=/tmp/a303656_tn_runner_fixture/bitset

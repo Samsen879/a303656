@@ -1,0 +1,47 @@
+{
+  "schema": "a303656-logarithmic-windows-v1",
+  "windows": [
+    {
+      "name": "w1e12",
+      "low": "1000000000001",
+      "high": "1000001000000",
+      "C": 25,
+      "D": 17,
+      "pair_count": 466,
+      "distinct_shift_count": 465,
+      "shifts_processed": 125,
+      "candidate_count": 0,
+      "x_seconds": 0.810478,
+      "y_seconds": 1.11192
+    },
+    {
+      "name": "w1e13",
+      "low": "10000000000001",
+      "high": "10000001000000",
+      "C": 27,
+      "D": 18,
+      "pair_count": 531,
+      "distinct_shift_count": 530,
+      "shifts_processed": 150,
+      "candidate_count": 0,
+      "x_seconds": 2.56343,
+      "y_seconds": 3.83827
+    },
+    {
+      "name": "w1e14",
+      "low": "100000000000001",
+      "high": "100000001000000",
+      "C": 29,
+      "D": 20,
+      "pair_count": 627,
+      "distinct_shift_count": 626,
+      "shifts_processed": 127,
+      "candidate_count": 0,
+      "x_seconds": 22.8055,
+      "y_seconds": 10.0681
+    }
+  ],
+  "total_integers_tested_per_implementation": 3000000,
+  "crosscheck": "PASS: two independent implementations agree exactly on domains, lattice-pair counts, and zero candidates",
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION ON THREE EXPLICIT LOGARITHMIC WINDOWS"
+}

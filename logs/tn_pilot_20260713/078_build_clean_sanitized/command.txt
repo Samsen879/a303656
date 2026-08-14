@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=g++ -std=c++20 -O1 -g -Wall -Wextra -Wpedantic -Werror -fsanitize=address\,undefined -fno-omit-frame-pointer -I /tmp/a303656_tn_acceptance_src_2e38ac0/src /tmp/a303656_tn_acceptance_src_2e38ac0/src/tn_count_clean.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean_san 
+started_utc=2026-07-13T08:49:07Z
+finished_utc=2026-07-13T08:49:12Z

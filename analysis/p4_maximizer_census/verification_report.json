@@ -1,0 +1,49 @@
+{
+  "backend_pointwise_T_equal": true,
+  "backend_pointwise_masks_equal": true,
+  "class_and_aggregate_summaries_reconstructed": true,
+  "common_uncovered_and_pair_frequencies_reconstructed": true,
+  "conclusion": "VALIDATED T3=2 FIXED-P4 MAXIMIZER-CLASS CENSUS",
+  "direct_oracle": {
+    "selected_point_count": 457,
+    "witness_count": 13971
+  },
+  "formal_class_count": 87,
+  "formal_point_count": 4838,
+  "git_provenance": {
+    "head": "6d197965cdcf27f3abe1aa370e5132b9804f053a",
+    "source_commit": "6d197965cdcf27f3abe1aa370e5132b9804f053a",
+    "starting_commit": "ae75d96358f9803cfac2c7d6ce46dfec0344e6b7"
+  },
+  "mathematical_status": "UNRESOLVED",
+  "negative_tests": {
+    "all_rejected": true,
+    "required_count": 18,
+    "return_codes": {
+      "altered_CRT_residue": 2,
+      "backend_identity_swap": 2,
+      "baseline_or_landscape_hash_mismatch": 2,
+      "changed_class_ordering": 2,
+      "changed_constrained_tuple": 2,
+      "duplicated_point": 2,
+      "extra_class": 2,
+      "extra_mask_bytes": 2,
+      "flipped_mask_bit": 2,
+      "incorrect_G": 2,
+      "missing_maximizing_class": 2,
+      "missing_point": 2,
+      "persistent_covered_winner": 2,
+      "point_not_congruent_to_class": 2,
+      "point_outside_activation_cell": 2,
+      "popcount_T_mismatch": 2,
+      "source_commit_mismatch": 2,
+      "truncated_mask_bytes": 2
+    }
+  },
+  "persistent_covered_winner_count": 0,
+  "popcount_equals_T_all_points": true,
+  "protected_baseline_and_landscape_hashes_match": true,
+  "schema": "a303656-p4-census-verification-report-v1",
+  "status": "PASS",
+  "verifier_implementation_id": "p4_census_independent_verifier_v1"
+}

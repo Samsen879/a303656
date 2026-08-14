@@ -1,0 +1,59 @@
+{
+  "commands": {
+    "builder": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/tools/builder.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--output",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/results",
+        "--source-commit",
+        "4605e09047bc8ca934392c3e26a3ec8f7e8c7370"
+      ],
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "506598db1766fdfc11b83e9e5d73c7f7dd76aa335cb87b384e1eb4cf7caab0eb"
+    },
+    "corruption_tests": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/tests/corruption_tests.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--results",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/results",
+        "--output",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/results/corruption_tests.json"
+      ],
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "88841adf7eda8f18a89b10e38c426d5c55a378df9a46f5df4df2885f45462d07"
+    },
+    "unit_tests": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/tests/test_exact.py"
+      ],
+      "return_code": 0,
+      "stderr_sha256": "d03ce458f2a6cd2b4f27522f3aacad03ce1872c028853507c3ad02ca621bdcad",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "verifier_pre_corruption": {
+      "command": [
+        "/usr/bin/python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/tools/verifier.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--results",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/results",
+        "--output",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p5_sparse_panel_feasibility/results/verification_report.json"
+      ],
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "30e6c2c7db521ac4f5e083bc94c5b91c689d868c82c15e3f11ee92a409fb59b8"
+    }
+  },
+  "schema": "a303656-p5-sparse-return-codes-v1"
+}

@@ -1,0 +1,16 @@
+{
+ "method":"independent_clean_room_cpp_exhaustive",
+ "low":"2",
+ "high":"1000000",
+ "C":12,
+ "D":8,
+ "prime_count":256,
+ "distinct_shift_count_relevant_to_high":116,
+ "integers_tested":999999,
+ "shift_checks":2519200,
+ "prime_checks":280663678,
+ "candidate_count":0,
+ "candidates":[],
+ "elapsed_seconds":3.26802,
+ "classification":"EXACT EXHAUSTIVE FINITE COMPUTATION FOR THIS PRIME POOL"
+}

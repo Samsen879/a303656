@@ -1,0 +1,807 @@
+{
+  "exact1_primary_1b": {
+    "interval_integer_count": 1000000000,
+    "chunk_count": 100,
+    "failure_count_sum": 1000000000,
+    "min_shifts_processed_per_chunk": 108,
+    "max_shifts_processed_per_chunk": 181,
+    "distinct_failure_shifts": 151,
+    "top_failures": [
+      {
+        "shift": "2",
+        "count": 156518453,
+        "fraction": 0.156518453
+      },
+      {
+        "shift": "4",
+        "count": 142884338,
+        "fraction": 0.142884338
+      },
+      {
+        "shift": "6",
+        "count": 118347634,
+        "fraction": 0.118347634
+      },
+      {
+        "shift": "8",
+        "count": 106874490,
+        "fraction": 0.10687449
+      },
+      {
+        "shift": "10",
+        "count": 82645567,
+        "fraction": 0.082645567
+      },
+      {
+        "shift": "14",
+        "count": 64252010,
+        "fraction": 0.06425201
+      },
+      {
+        "shift": "28",
+        "count": 55136077,
+        "fraction": 0.055136077
+      },
+      {
+        "shift": "32",
+        "count": 43847490,
+        "fraction": 0.04384749
+      },
+      {
+        "shift": "26",
+        "count": 43186159,
+        "fraction": 0.043186159
+      },
+      {
+        "shift": "34",
+        "count": 29164804,
+        "fraction": 0.029164804
+      },
+      {
+        "shift": "52",
+        "count": 27489876,
+        "fraction": 0.027489876
+      },
+      {
+        "shift": "82",
+        "count": 17887188,
+        "fraction": 0.017887188
+      },
+      {
+        "shift": "86",
+        "count": 16453442,
+        "fraction": 0.016453442
+      },
+      {
+        "shift": "128",
+        "count": 16179362,
+        "fraction": 0.016179362
+      },
+      {
+        "shift": "126",
+        "count": 12476660,
+        "fraction": 0.01247666
+      },
+      {
+        "shift": "106",
+        "count": 10786517,
+        "fraction": 0.010786517
+      },
+      {
+        "shift": "152",
+        "count": 10018778,
+        "fraction": 0.010018778
+      },
+      {
+        "shift": "244",
+        "count": 7021394,
+        "fraction": 0.007021394
+      },
+      {
+        "shift": "134",
+        "count": 6302001,
+        "fraction": 0.006302001
+      },
+      {
+        "shift": "248",
+        "count": 5069308,
+        "fraction": 0.005069308
+      },
+      {
+        "shift": "268",
+        "count": 4264942,
+        "fraction": 0.004264942
+      },
+      {
+        "shift": "206",
+        "count": 3717622,
+        "fraction": 0.003717622
+      },
+      {
+        "shift": "368",
+        "count": 2637405,
+        "fraction": 0.002637405
+      },
+      {
+        "shift": "626",
+        "count": 2146103,
+        "fraction": 0.002146103
+      },
+      {
+        "shift": "634",
+        "count": 2120381,
+        "fraction": 0.002120381
+      },
+      {
+        "shift": "628",
+        "count": 2096237,
+        "fraction": 0.002096237
+      },
+      {
+        "shift": "652",
+        "count": 1811619,
+        "fraction": 0.001811619
+      },
+      {
+        "shift": "706",
+        "count": 1281436,
+        "fraction": 0.001281436
+      },
+      {
+        "shift": "730",
+        "count": 1008525,
+        "fraction": 0.001008525
+      },
+      {
+        "shift": "868",
+        "count": 721758,
+        "fraction": 0.000721758
+      }
+    ],
+    "largest_shift_with_failure": "43049846"
+  },
+  "exact1_dual_first100m_primary": {
+    "interval_integer_count": 100000000,
+    "chunk_count": 10,
+    "failure_count_sum": 100000000,
+    "min_shifts_processed_per_chunk": 111,
+    "max_shifts_processed_per_chunk": 159,
+    "distinct_failure_shifts": 123,
+    "top_failures": [
+      {
+        "shift": "2",
+        "count": 15652199,
+        "fraction": 0.15652199
+      },
+      {
+        "shift": "4",
+        "count": 14289400,
+        "fraction": 0.142894
+      },
+      {
+        "shift": "6",
+        "count": 11835954,
+        "fraction": 0.11835954
+      },
+      {
+        "shift": "8",
+        "count": 10688476,
+        "fraction": 0.10688476
+      },
+      {
+        "shift": "10",
+        "count": 8264931,
+        "fraction": 0.08264931
+      },
+      {
+        "shift": "14",
+        "count": 6424364,
+        "fraction": 0.06424364
+      },
+      {
+        "shift": "28",
+        "count": 5512529,
+        "fraction": 0.05512529
+      },
+      {
+        "shift": "32",
+        "count": 4384989,
+        "fraction": 0.04384989
+      },
+      {
+        "shift": "26",
+        "count": 4316224,
+        "fraction": 0.04316224
+      },
+      {
+        "shift": "34",
+        "count": 2916102,
+        "fraction": 0.02916102
+      },
+      {
+        "shift": "52",
+        "count": 2749501,
+        "fraction": 0.02749501
+      },
+      {
+        "shift": "82",
+        "count": 1788740,
+        "fraction": 0.0178874
+      },
+      {
+        "shift": "86",
+        "count": 1644439,
+        "fraction": 0.01644439
+      },
+      {
+        "shift": "128",
+        "count": 1618936,
+        "fraction": 0.01618936
+      },
+      {
+        "shift": "126",
+        "count": 1246753,
+        "fraction": 0.01246753
+      },
+      {
+        "shift": "106",
+        "count": 1077866,
+        "fraction": 0.01077866
+      },
+      {
+        "shift": "152",
+        "count": 1001918,
+        "fraction": 0.01001918
+      },
+      {
+        "shift": "244",
+        "count": 702520,
+        "fraction": 0.0070252
+      },
+      {
+        "shift": "134",
+        "count": 629873,
+        "fraction": 0.00629873
+      },
+      {
+        "shift": "248",
+        "count": 506050,
+        "fraction": 0.0050605
+      },
+      {
+        "shift": "268",
+        "count": 427688,
+        "fraction": 0.00427688
+      },
+      {
+        "shift": "206",
+        "count": 371739,
+        "fraction": 0.00371739
+      },
+      {
+        "shift": "368",
+        "count": 263811,
+        "fraction": 0.00263811
+      },
+      {
+        "shift": "626",
+        "count": 214550,
+        "fraction": 0.0021455
+      },
+      {
+        "shift": "634",
+        "count": 212330,
+        "fraction": 0.0021233
+      },
+      {
+        "shift": "628",
+        "count": 209971,
+        "fraction": 0.00209971
+      },
+      {
+        "shift": "652",
+        "count": 181053,
+        "fraction": 0.00181053
+      },
+      {
+        "shift": "706",
+        "count": 128410,
+        "fraction": 0.0012841
+      },
+      {
+        "shift": "730",
+        "count": 101260,
+        "fraction": 0.0010126
+      },
+      {
+        "shift": "868",
+        "count": 72076,
+        "fraction": 0.00072076
+      }
+    ],
+    "largest_shift_with_failure": "9785308"
+  },
+  "odd13_dual_first100m_primary": {
+    "interval_integer_count": 100000000,
+    "chunk_count": 10,
+    "failure_count_sum": 100000000,
+    "min_shifts_processed_per_chunk": 131,
+    "max_shifts_processed_per_chunk": 176,
+    "distinct_failure_shifts": 147,
+    "top_failures": [
+      {
+        "shift": "2",
+        "count": 15057525,
+        "fraction": 0.15057525
+      },
+      {
+        "shift": "4",
+        "count": 14024168,
+        "fraction": 0.14024168
+      },
+      {
+        "shift": "6",
+        "count": 11668545,
+        "fraction": 0.11668545
+      },
+      {
+        "shift": "8",
+        "count": 10521160,
+        "fraction": 0.1052116
+      },
+      {
+        "shift": "10",
+        "count": 8133655,
+        "fraction": 0.08133655
+      },
+      {
+        "shift": "14",
+        "count": 6259968,
+        "fraction": 0.06259968
+      },
+      {
+        "shift": "28",
+        "count": 5864986,
+        "fraction": 0.05864986
+      },
+      {
+        "shift": "32",
+        "count": 4466843,
+        "fraction": 0.04466843
+      },
+      {
+        "shift": "26",
+        "count": 4255017,
+        "fraction": 0.04255017
+      },
+      {
+        "shift": "52",
+        "count": 2924444,
+        "fraction": 0.02924444
+      },
+      {
+        "shift": "34",
+        "count": 2882768,
+        "fraction": 0.02882768
+      },
+      {
+        "shift": "128",
+        "count": 1807336,
+        "fraction": 0.01807336
+      },
+      {
+        "shift": "82",
+        "count": 1764204,
+        "fraction": 0.01764204
+      },
+      {
+        "shift": "86",
+        "count": 1683063,
+        "fraction": 0.01683063
+      },
+      {
+        "shift": "126",
+        "count": 1357926,
+        "fraction": 0.01357926
+      },
+      {
+        "shift": "152",
+        "count": 1135070,
+        "fraction": 0.0113507
+      },
+      {
+        "shift": "106",
+        "count": 1045344,
+        "fraction": 0.01045344
+      },
+      {
+        "shift": "244",
+        "count": 817410,
+        "fraction": 0.0081741
+      },
+      {
+        "shift": "134",
+        "count": 645715,
+        "fraction": 0.00645715
+      },
+      {
+        "shift": "248",
+        "count": 560411,
+        "fraction": 0.00560411
+      },
+      {
+        "shift": "268",
+        "count": 504532,
+        "fraction": 0.00504532
+      },
+      {
+        "shift": "206",
+        "count": 379276,
+        "fraction": 0.00379276
+      },
+      {
+        "shift": "368",
+        "count": 299391,
+        "fraction": 0.00299391
+      },
+      {
+        "shift": "628",
+        "count": 253346,
+        "fraction": 0.00253346
+      },
+      {
+        "shift": "634",
+        "count": 231935,
+        "fraction": 0.00231935
+      },
+      {
+        "shift": "626",
+        "count": 218538,
+        "fraction": 0.00218538
+      },
+      {
+        "shift": "652",
+        "count": 211070,
+        "fraction": 0.0021107
+      },
+      {
+        "shift": "706",
+        "count": 131162,
+        "fraction": 0.00131162
+      },
+      {
+        "shift": "730",
+        "count": 102950,
+        "fraction": 0.0010295
+      },
+      {
+        "shift": "868",
+        "count": 86899,
+        "fraction": 0.00086899
+      }
+    ],
+    "largest_shift_with_failure": "43046722"
+  },
+  "allodd_dual_first100m_primary": {
+    "interval_integer_count": 100000000,
+    "chunk_count": 10,
+    "failure_count_sum": 100000000,
+    "min_shifts_processed_per_chunk": 133,
+    "max_shifts_processed_per_chunk": 176,
+    "distinct_failure_shifts": 148,
+    "top_failures": [
+      {
+        "shift": "2",
+        "count": 14986689,
+        "fraction": 0.14986689
+      },
+      {
+        "shift": "4",
+        "count": 13993343,
+        "fraction": 0.13993343
+      },
+      {
+        "shift": "6",
+        "count": 11649385,
+        "fraction": 0.11649385
+      },
+      {
+        "shift": "8",
+        "count": 10499039,
+        "fraction": 0.10499039
+      },
+      {
+        "shift": "10",
+        "count": 8116620,
+        "fraction": 0.0811662
+      },
+      {
+        "shift": "14",
+        "count": 6238252,
+        "fraction": 0.06238252
+      },
+      {
+        "shift": "28",
+        "count": 5910181,
+        "fraction": 0.05910181
+      },
+      {
+        "shift": "32",
+        "count": 4475530,
+        "fraction": 0.0447553
+      },
+      {
+        "shift": "26",
+        "count": 4247519,
+        "fraction": 0.04247519
+      },
+      {
+        "shift": "52",
+        "count": 2946559,
+        "fraction": 0.02946559
+      },
+      {
+        "shift": "34",
+        "count": 2878036,
+        "fraction": 0.02878036
+      },
+      {
+        "shift": "128",
+        "count": 1832868,
+        "fraction": 0.01832868
+      },
+      {
+        "shift": "82",
+        "count": 1755720,
+        "fraction": 0.0175572
+      },
+      {
+        "shift": "86",
+        "count": 1684727,
+        "fraction": 0.01684727
+      },
+      {
+        "shift": "126",
+        "count": 1373528,
+        "fraction": 0.01373528
+      },
+      {
+        "shift": "152",
+        "count": 1153836,
+        "fraction": 0.01153836
+      },
+      {
+        "shift": "106",
+        "count": 1037793,
+        "fraction": 0.01037793
+      },
+      {
+        "shift": "244",
+        "count": 835433,
+        "fraction": 0.00835433
+      },
+      {
+        "shift": "134",
+        "count": 645609,
+        "fraction": 0.00645609
+      },
+      {
+        "shift": "248",
+        "count": 569311,
+        "fraction": 0.00569311
+      },
+      {
+        "shift": "268",
+        "count": 515766,
+        "fraction": 0.00515766
+      },
+      {
+        "shift": "206",
+        "count": 379304,
+        "fraction": 0.00379304
+      },
+      {
+        "shift": "368",
+        "count": 304426,
+        "fraction": 0.00304426
+      },
+      {
+        "shift": "628",
+        "count": 258999,
+        "fraction": 0.00258999
+      },
+      {
+        "shift": "634",
+        "count": 234601,
+        "fraction": 0.00234601
+      },
+      {
+        "shift": "652",
+        "count": 215200,
+        "fraction": 0.002152
+      },
+      {
+        "shift": "626",
+        "count": 215179,
+        "fraction": 0.00215179
+      },
+      {
+        "shift": "706",
+        "count": 130773,
+        "fraction": 0.00130773
+      },
+      {
+        "shift": "730",
+        "count": 103045,
+        "fraction": 0.00103045
+      },
+      {
+        "shift": "868",
+        "count": 89980,
+        "fraction": 0.0008998
+      }
+    ],
+    "largest_shift_with_failure": "43046722"
+  },
+  "exact1_dual_band282_primary": {
+    "interval_integer_count": 100000000,
+    "chunk_count": 10,
+    "failure_count_sum": 100000000,
+    "min_shifts_processed_per_chunk": 118,
+    "max_shifts_processed_per_chunk": 166,
+    "distinct_failure_shifts": 132,
+    "top_failures": [
+      {
+        "shift": "2",
+        "count": 15604887,
+        "fraction": 0.15604887
+      },
+      {
+        "shift": "4",
+        "count": 14249890,
+        "fraction": 0.1424989
+      },
+      {
+        "shift": "6",
+        "count": 11809836,
+        "fraction": 0.11809836
+      },
+      {
+        "shift": "8",
+        "count": 10669331,
+        "fraction": 0.10669331
+      },
+      {
+        "shift": "10",
+        "count": 8257779,
+        "fraction": 0.08257779
+      },
+      {
+        "shift": "14",
+        "count": 6426007,
+        "fraction": 0.06426007
+      },
+      {
+        "shift": "28",
+        "count": 5516362,
+        "fraction": 0.05516362
+      },
+      {
+        "shift": "32",
+        "count": 4391599,
+        "fraction": 0.04391599
+      },
+      {
+        "shift": "26",
+        "count": 4327030,
+        "fraction": 0.0432703
+      },
+      {
+        "shift": "34",
+        "count": 2926204,
+        "fraction": 0.02926204
+      },
+      {
+        "shift": "52",
+        "count": 2757177,
+        "fraction": 0.02757177
+      },
+      {
+        "shift": "82",
+        "count": 1796430,
+        "fraction": 0.0179643
+      },
+      {
+        "shift": "86",
+        "count": 1652333,
+        "fraction": 0.01652333
+      },
+      {
+        "shift": "128",
+        "count": 1625415,
+        "fraction": 0.01625415
+      },
+      {
+        "shift": "126",
+        "count": 1256918,
+        "fraction": 0.01256918
+      },
+      {
+        "shift": "106",
+        "count": 1082879,
+        "fraction": 0.01082879
+      },
+      {
+        "shift": "152",
+        "count": 1008890,
+        "fraction": 0.0100889
+      },
+      {
+        "shift": "244",
+        "count": 708581,
+        "fraction": 0.00708581
+      },
+      {
+        "shift": "134",
+        "count": 636511,
+        "fraction": 0.00636511
+      },
+      {
+        "shift": "248",
+        "count": 512078,
+        "fraction": 0.00512078
+      },
+      {
+        "shift": "268",
+        "count": 431026,
+        "fraction": 0.00431026
+      },
+      {
+        "shift": "206",
+        "count": 377109,
+        "fraction": 0.00377109
+      },
+      {
+        "shift": "368",
+        "count": 267709,
+        "fraction": 0.00267709
+      },
+      {
+        "shift": "626",
+        "count": 217190,
+        "fraction": 0.0021719
+      },
+      {
+        "shift": "634",
+        "count": 214234,
+        "fraction": 0.00214234
+      },
+      {
+        "shift": "628",
+        "count": 212040,
+        "fraction": 0.0021204
+      },
+      {
+        "shift": "652",
+        "count": 183332,
+        "fraction": 0.00183332
+      },
+      {
+        "shift": "706",
+        "count": 129538,
+        "fraction": 0.00129538
+      },
+      {
+        "shift": "730",
+        "count": 102169,
+        "fraction": 0.00102169
+      },
+      {
+        "shift": "868",
+        "count": 73449,
+        "fraction": 0.00073449
+      }
+    ],
+    "largest_shift_with_failure": "14348932"
+  }
+}

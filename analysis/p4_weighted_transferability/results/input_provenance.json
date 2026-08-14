@@ -1,0 +1,34 @@
+{
+  "direct_manifest_point_count": 457,
+  "fold_point_counts": {
+    "even": 2337,
+    "odd": 2334,
+    "pool": 4671
+  },
+  "no_new_integer_evaluation": true,
+  "protected_baseline_hashes": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/p4_maximizer_census/backend_a_counts.csv": "eaebc0d7cfb76da23332ec9dcf89a79fbd3968b94a28b6cd2621710757373c16",
+    "analysis/p4_maximizer_census/backend_a_masks.bin": "dbed9a87ff10bbe14dc8df8eb46d2c91b73e2a2708ad09bbf4bd40551d0dfcc4",
+    "analysis/p4_maximizer_census/backend_b_counts.csv": "eaebc0d7cfb76da23332ec9dcf89a79fbd3968b94a28b6cd2621710757373c16",
+    "analysis/p4_maximizer_census/backend_b_masks.bin": "b013d3857a3cb92d409851413cd6b8e23f85c0923bad9d9a2bdbc93a181ce6bf",
+    "analysis/p4_maximizer_census/class_panel.csv": "3d4b2675df302b518ec5c32f7d63573604efbfee4143e6db16d4da80819af679",
+    "analysis/p4_maximizer_census/direct_verification.json": "246d4067b4f7f80d88377ef17fa5732d0c4a9bf998ccd79c0dda94b0938abbaf",
+    "analysis/p4_maximizer_census/metadata.json": "d60a0752ecdc28671b0e167defb739ed81bb4e791f1dbd9380e470e34f421dac",
+    "analysis/p4_maximizer_census/verification_report.json": "7441d183a33fa66dda87e74ef28e0de422053843e72992e6a2d3fd1a3af3de5f",
+    "analysis/p4_residue_landscape/local_landscape.json": "2da392aa8760c3e49855efe23b4fe4af4240abac99d80a929b355efe53817118",
+    "analysis/p4_residue_landscape/maximizers.json": "7daa2c7b3d726e0f05b5b484fe5e4dffc0c22d57550a10c828241fa6b62e5a5a",
+    "analysis/p4_residue_landscape/metadata.json": "00f6e27dc5ec2557ba7ac0223c872088c56e02167f9f703c7f4eb534d08ea217",
+    "analysis/p4_residue_landscape/verification_report.json": "96ac947a17445ca65e18690ee4e370f24b1b8d3b7bdf1e33a1ad1663f1b1b372",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "schema": "a303656-weighted-audit-input-provenance-v1",
+  "source_artifact_only": "analysis/p4_maximizer_census and validated fixed-P4 landscape artifacts",
+  "source_commit": "196413213fa832e55ce83a6d128e1b0a3b9fafda",
+  "source_parent_chain_digest_sha256": "2891ec2717e3582e73f0e2cea5da318d4121c5819a4a16a9dcaf4e3bc224fb1d",
+  "starting_commit": "d547130508c7d06b099eab4e93b0db7a0afa7c89"
+}

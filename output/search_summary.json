@@ -1,0 +1,335 @@
+{
+  "schema": "a303656-bounded-counterexample-final-manifest-v1",
+  "generated_utc": "2026-07-13T03:23:33Z",
+  "final_outcome": "B",
+  "certified_counterexample_found": false,
+  "final_statement": "No counterexample was found. Two independent direct exact implementations prove that every integer n in [240000000001,241600000000] has a representation a^2+b^2+3^c+5^d.",
+  "criterion_audit": {
+    "status": "PROVED",
+    "model": "for every admissible (c,d), some p == 3 mod 4 has v_p(n-3^c-5^d)=1",
+    "p_equals_3_allowed": true,
+    "zero_remainder_explicitly_rejected": true,
+    "complete_exact_exponent_enumeration": true
+  },
+  "baseline": {
+    "status": "REPRODUCED FROM SOURCE / CERTIFIED BY VERIFIER",
+    "archive": "baseline/a303656_p2cover_bundle.zip",
+    "archive_sha256": "4dadb8ce07cd0ccf56575ef0882d6bb02284a02c61e05cd1424e070d83b22ff3",
+    "eligible_prime_count": 527,
+    "global_cover_prime_lower_bound": 598,
+    "minimum_primes_above_order_bound": 135,
+    "clean_log": "logs/final_stage0/stage0_verify_pruning.log",
+    "old_bundle_reproduction_log": "logs/final_stage0/stage0_bundle_run_reproduce.log",
+    "regenerated_prime_csv": "output/stage0/primes_B5000_verified.csv"
+  },
+  "strongest_exact_result": {
+    "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION",
+    "interval": [
+      "240000000001",
+      "241600000000"
+    ],
+    "integer_count": 1600000000,
+    "C": 23,
+    "D": 16,
+    "strict_bounds": [
+      "241600000000 < 3^24+1 = 282429536482",
+      "241600000000 < 5^17+1 = 762939453126"
+    ],
+    "admissible_pair_count": 407,
+    "distinct_shift_count": 406,
+    "duplicate_shift": {
+      "shift": "28",
+      "pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "chunk_count_per_implementation": 160,
+    "candidate_count_x": 0,
+    "candidate_count_y": 0,
+    "unordered_square_pairs_x": 93835687931,
+    "unordered_square_pairs_y": 93835687931,
+    "complete_gapless_independent_crosscheck": true,
+    "mismatches": [],
+    "summary": "output/direct/formal_1p6b_final/summary.json",
+    "summary_sha256": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319"
+  },
+  "other_independent_direct_results": {
+    "far_windows": {
+      "window_count": 21,
+      "integer_count": 210000000,
+      "candidate_count": 0,
+      "manifest": "output/direct/far_windows/windows.tsv",
+      "summary": "output/direct/far_windows/summary.json",
+      "summary_sha256": "09c1248d0f736906e78dd001059782d7ce865514d1c5ae025ee0538839775cfa"
+    },
+    "logarithmic_windows": {
+      "intervals": [
+        [
+          "1000000000001",
+          "1000001000000"
+        ],
+        [
+          "10000000000001",
+          "10000001000000"
+        ],
+        [
+          "100000000000001",
+          "100000001000000"
+        ]
+      ],
+      "integer_count": 3000000,
+      "candidate_count": 0,
+      "summary": "output/direct/log_windows/summary.json",
+      "summary_sha256": "40c663199356537a9b84aca02aca544d113c1fffb998ae50149fe9696f4b19ae"
+    },
+    "C_activation_boundary": {
+      "interval": [
+        "282420000001",
+        "282440000000"
+      ],
+      "C": 24,
+      "D": 16,
+      "integer_count": 20000000,
+      "candidate_count": 0,
+      "summary": "output/direct/cross_C24_boundary/summary.json",
+      "summary_sha256": "4168065ed62a949c90fe0144c73958f6b12de0ed1768def452b89570e5f45eca"
+    },
+    "D_activation_boundary": {
+      "interval": [
+        "762930000001",
+        "762950000000"
+      ],
+      "C": 24,
+      "D": 17,
+      "integer_count": 20000000,
+      "candidate_count": 0,
+      "summary": "output/direct/cross_D17_boundary/summary.json",
+      "summary_sha256": "8f831b92f14f564ee053c75519bbe927661d0c8ef17843d8b17f5ab6c99d1601"
+    },
+    "total_distinct_integers": 1853000000,
+    "total_candidate_count": 0
+  },
+  "all_prime_factor_search": {
+    "dual_implementation_results": [
+      {
+        "label": "all_prime_exact_valuation_one_first_100m",
+        "low": "240000000001",
+        "high": "240100000000",
+        "integers": 100000000,
+        "max_odd": 1,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "full_mathematical_output_match": true,
+        "first_summary": "output/formal_allprime_exact1_primary_b00_summary.json",
+        "second_summary": "output/formal_allprime_exact1_clean_b00_summary.json",
+        "first_summary_sha256": "148136fca122f22ded3acfd40df31e98248cce32682f2f7f3a87acbe8b2c4718",
+        "second_summary_sha256": "a02ff4ed98ada71cefdbd2ecc4e0e372f75134dc8d48d52923ad07e770fddd54"
+      },
+      {
+        "label": "all_prime_valuation_1_or_3_first_100m",
+        "low": "240000000001",
+        "high": "240100000000",
+        "integers": 100000000,
+        "max_odd": 3,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "full_mathematical_output_match": true,
+        "first_summary": "output/formal_allprime_odd13_primary_b00_summary.json",
+        "second_summary": "output/formal_allprime_odd13_clean_b00_summary.json",
+        "first_summary_sha256": "471bb163580ca0c009290c5af87a2ef9babf099de9cf406fedd9db8c1069b5be",
+        "second_summary_sha256": "785f7d19e2771a501aec140f7e82579c02a5a525e1c9005897b8107e6ad03cd7"
+      },
+      {
+        "label": "all_prime_arbitrary_odd_first_100m",
+        "low": "240000000001",
+        "high": "240100000000",
+        "integers": 100000000,
+        "max_odd": -1,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "full_mathematical_output_match": true,
+        "first_summary": "output/formal_allprime_allodd_primary_100m_summary.json",
+        "second_summary": "output/formal_allprime_allodd_clean_100m_summary.json",
+        "first_summary_sha256": "0d9cefcd07b704940b86c2060b672fd6b4c70df090556759c845894d836c798b",
+        "second_summary_sha256": "89be49dd7d88a80eb46795fad51df89e99d1259b28b9fe3908370e844cd3e741"
+      },
+      {
+        "label": "all_prime_exact_valuation_one_band_282_3B",
+        "low": "282300000001",
+        "high": "282400000000",
+        "integers": 100000000,
+        "max_odd": 1,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "full_mathematical_output_match": true,
+        "first_summary": "output/formal_allprime_exact1_primary_band282_summary.json",
+        "second_summary": "output/formal_allprime_exact1_clean_band282_summary.json",
+        "first_summary_sha256": "80cf87a6af4b0fafbb71d8b15bacaf0f3c1ba2e56a988c1f1413ff2e47a853c0",
+        "second_summary_sha256": "e4401d55cbc5116f4a4f8d9ec5d17639579383a03fe7de9cd74c9e5fb1b08bd2"
+      }
+    ],
+    "single_implementation_results": [
+      {
+        "label": "primary_all_prime_exact_one_next_billion",
+        "low": "240000000001",
+        "high": "241000000000",
+        "integers": 1000000000,
+        "max_odd": 1,
+        "chunk_count": 100,
+        "candidate_count": 0,
+        "summary": "output/formal_allprime_exact1_primary_1b_summary.json",
+        "summary_sha256": "61c4a0644a589aebfe1d8d15cf8655f4fc8c598ce2b3c104690230b3e79d1d2a"
+      },
+      {
+        "label": "primary_all_prime_exact_one_band_250B",
+        "low": "250000000001",
+        "high": "250100000000",
+        "integers": 100000000,
+        "max_odd": 1,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "summary": "output/formal_allprime_exact1_primary_band250_summary.json",
+        "summary_sha256": "1c9c0a192a361f2fde5410f295c209e82c7802fa0cde8c8e0e7a6f2f305608f4"
+      },
+      {
+        "label": "primary_all_prime_exact_one_band_270B",
+        "low": "270000000001",
+        "high": "270100000000",
+        "integers": 100000000,
+        "max_odd": 1,
+        "chunk_count": 10,
+        "candidate_count": 0,
+        "summary": "output/formal_allprime_exact1_primary_band270_summary.json",
+        "summary_sha256": "992aec73ddf00e8f437841490388ca10fab3a06a40f4f5de8cc8b84414adeb58"
+      }
+    ]
+  },
+  "fixed_pool_method_C": {
+    "low": "240000000001",
+    "high": "240010000000",
+    "integers": 10000000,
+    "prime_count": 256,
+    "candidate_count": 0,
+    "common_mathematical_output_match": true,
+    "prime_pool": "output/primes_ranked_256.txt",
+    "prime_pool_sha256": "3bc0a2199cc900aba86adff28d7f2526ffd7a6b98e912e616e9333406a85b320",
+    "first": "output/formal_ranked_256_10m_bitset_finalsource.json",
+    "second": "output/formal_ranked_256_10m_clean_cpp.json",
+    "first_sha256": "bbb6432335f4c607be01567d3b571cf360e6c4303d7c2af6974d356c02f88af1",
+    "second_sha256": "9ffd7955f858f44af336b300435908fa45359c05c7f1892c57cc14907fc2ad8a",
+    "raw_command_logs": [
+      "logs/formal_ranked_256_10m_bitset_finalsource.time",
+      "logs/formal_ranked_256_10m_clean_cpp.time"
+    ]
+  },
+  "SMT_CEGIS_pilots": {
+    "A_K16": {
+      "classification": "UNKNOWN",
+      "candidate": null,
+      "sha256": "410b7f27c7b09d727c6774d8bbc5cc96898a4c266397652f757d5fd525d07825",
+      "path": "output/formal_method_a_K16_100.json"
+    },
+    "A_K32": {
+      "classification": "UNKNOWN",
+      "candidate": null,
+      "sha256": "3bde7f89916f506e55230804c33321b163ae82f89f1fc2adec5ad3d33d9d62ee",
+      "path": "output/formal_method_a_K32_100.json"
+    },
+    "B_K16": {
+      "classification": "SMT_UNSAT_WITHOUT_PROOF_OBJECT",
+      "candidate": null,
+      "sha256": "b0a275e81e86edcaafa868e99fa9962ad29149f2adbc1a94df5f5c733ec38481",
+      "path": "output/formal_method_b_K16_100.json"
+    },
+    "B_K32": {
+      "classification": "UNKNOWN",
+      "candidate": null,
+      "sha256": "3915765554e356eb0e748191df24b20b7136f485f24b6281d2bddc7b7b4b3592",
+      "path": "output/formal_method_b_K32_100.json"
+    }
+  },
+  "near_miss": {
+    "classification": "COMPUTATIONAL OBSERVATION; NOT A COUNTEREXAMPLE",
+    "n": "240004739306",
+    "exact_one_prefix_passed_distinct_shifts": 144,
+    "first_exact_one_failure": {
+      "shift": "4786094",
+      "remainder": "239999953212",
+      "factorization": "2^2 * 3^3 * 53 * 137 * 306049",
+      "reason": "v_3(remainder)=3, so valuation-one fails"
+    },
+    "valuation_1_or_3_prefix_passed_distinct_shifts": 147,
+    "next_failure": {
+      "shift": "5173594",
+      "remainder": "239999565712",
+      "factorization": "2^4 * 14999972857",
+      "reason": "remainder is a sum of two squares; no p == 3 mod 4 has odd valuation"
+    }
+  },
+  "independent_implementations": {
+    "theorem_verifiers": [
+      "src/verifier.py",
+      "src/verifier_gmp.cpp"
+    ],
+    "method_A": "src/search_z3_direct.py",
+    "method_B": "src/search_z3_cegis.py",
+    "fixed_pool_method_C": [
+      "src/search_bitset.cpp",
+      "src/search_exhaustive_clean.cpp"
+    ],
+    "all_prime_factor": [
+      "src/search_factor_sieve.cpp",
+      "src/search_factor_sieve_clean.cpp"
+    ],
+    "direct_original_representation": [
+      "src/search_twosquares_bitset.cpp",
+      "src/search_twosquares_clean.cpp"
+    ],
+    "stored_output_auditors": [
+      "src/audit_formal_results.py",
+      "src/verify_direct_outputs.py"
+    ]
+  },
+  "validation": {
+    "formal_results_audit": "output/formal_results_audit.json",
+    "formal_results_audit_sha256": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533",
+    "formal_results_audit_log": "logs/final_audit/audit_formal_results_final.log",
+    "direct_output_audit_log": "logs/final_audit/verify_direct_outputs_final.log",
+    "clean_quick_reproduction_log": "logs/final_audit/run_reproduce_final_quick.log",
+    "clean_quick_reproduction_status": "PASS",
+    "stage0_reproduction_status": "PASS"
+  },
+  "environment_log": "logs/environment_final.txt",
+  "source_sha256": {
+    "src/common.py": "b2e96e8857b11d82cef2f80a7289d27f522ec64e033c473bb14eb408bb96b4a6",
+    "src/verifier.py": "c294828f63944f1c51fe47865b27c660f3c6e06e2f7276cd7fd463d95cd88e20",
+    "src/verifier_gmp.cpp": "26bb697e6a60dfbde62590e34e02ef00ea9bd65126c825b659e277229ef2d024",
+    "src/search_z3_direct.py": "f7acc55e6852c8a8d234fd09cb34e1ceecaa432e7b9e6bbb14a9cccd64e5a5e6",
+    "src/search_z3_cegis.py": "7d8c4348456142546bd989f0878b0487d95e86a1f98f054f959033c9637af5c4",
+    "src/search_bitset.cpp": "2c324252eb142f492f95a4539f136d99ac141f41eb2f80a04f8457901aee0fa0",
+    "src/search_exhaustive_clean.cpp": "c053efa55e6f0bb76eb6bfab0acb87eeb0703965a9b2fa01e98a9decb5cb2ba5",
+    "src/search_factor_sieve.cpp": "cf4b537643628bf445ea98bc4f85db8c753d03ba9ab6ed3f11e2b3844afd30a1",
+    "src/search_factor_sieve_clean.cpp": "d2d10da69ca96003ec22fab2924f76abf9b282efdbceb4f386b7ba2bdd61af07",
+    "src/search_twosquares_bitset.cpp": "60c2291ae7785ad0bf2c8e6313d39704d8f8f048a8fc4bcac50337f7e0556f4d",
+    "src/search_twosquares_clean.cpp": "641ff6f3c02783173e73a5cab6fcd52ae298012591e75ae786957a191ebca6cd",
+    "src/audit_formal_results.py": "034fad533969591f8b0fcc275dc498e8a36ba1e860ba8b00e84ed689b2faebfc",
+    "src/verify_direct_outputs.py": "0b70726f4b28475ac286d4e9267864371fceda88b6c3cac3d209dc8f9e8fb731",
+    "tests/toy_tests.py": "3a167a85db0f3e67ffb4eb7ffb7e545dfa50521acc815c4e05d1730559d7f244",
+    "tests/direct_small_crosscheck.py": "fd28aecf428dcd99ada909d0cc1924afec1150553f146546099beac2122495a7",
+    "tests/factor_small_crosscheck.py": "2e78eb5b658f855d3ddd48431e0d908e06d7e5f59ca99b1592e0eeba1121f844"
+  },
+  "limitations": [
+    "No counterexample certificate was found.",
+    "No claim is made for unscanned integers.",
+    "Fixed-pool or valuation-one emptiness is not interpreted as proof of the conjecture.",
+    "SMT UNKNOWN and UNSAT without a proof object are not mathematical negative results.",
+    "No minimal-counterexample claim is made."
+  ]
+}

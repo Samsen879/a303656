@@ -1,0 +1,44 @@
+{
+  "method": "A_direct_Z3_Int",
+  "z3_version": "4.16.0",
+  "low": "240000000001",
+  "high": "240000000100",
+  "C": 23,
+  "D": 16,
+  "primes": [
+    3,
+    7,
+    11,
+    19,
+    23,
+    31,
+    43,
+    47,
+    59,
+    67,
+    71,
+    79,
+    83,
+    103,
+    107,
+    127
+  ],
+  "timeout_ms_per_split": 5000,
+  "split_size": 100,
+  "records": [
+    {
+      "low": "240000000001",
+      "high": "240000000100",
+      "result": "unknown",
+      "candidate": null,
+      "constraint_count": 407,
+      "solver_seconds": 5.034520901000178,
+      "statistics": "(:added-eqs           128\n :arith-eq-adapter    32\n :arith-lower         342634\n :arith-make-feasible 5222\n :arith-max-columns   165\n :arith-max-rows      64\n :arith-upper         266830\n :binary-propagations 6077375\n :conflicts           6779\n :decisions           10467\n :del-clause          4472\n :max-memory          49.44\n :memory              31.09\n :minimized-lits      32116\n :mk-bool-var         21557\n :mk-clause           17062\n :mk-clause-binary    54914\n :num-allocs          61928962\n :num-checks          1\n :propagations        6153043\n :restarts            8\n :rlimit-count        8414543\n :time                5.03)",
+      "reason_unknown": "timeout"
+    }
+  ],
+  "candidate": null,
+  "independent_python_verifier_returncode": null,
+  "certificate_paths": {},
+  "classification": "UNKNOWN"
+}

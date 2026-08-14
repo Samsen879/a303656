@@ -1,0 +1,125 @@
+{
+  "runs": [
+    {
+      "certainty": "CONSERVATIVE_SUPERSET",
+      "completed_count": "NOT_ESTABLISHED",
+      "crash_location": "external timeout",
+      "deterministic_order": "ascending n within declared interval",
+      "evidence": "logs/INTERRUPTED_RUNS.txt#1",
+      "exact_T_stage": "NOT_REACHABLE_BY_IDENTIFIED_RUNNER",
+      "flush_semantics": "final JSON and rc only; buffered partial progress can be lost",
+      "input_universe": {
+        "boundary": "closed",
+        "high": 240100000000,
+        "low": 240000000001
+      },
+      "last_written_row": "NONE",
+      "possible_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "resume_behavior": "fresh rerun, no checkpoint resume",
+      "run_id": "INT-DIRECT-100M-256",
+      "runner": "two implementation fixed-pool scan"
+    },
+    {
+      "certainty": "CONSERVATIVE_SUPERSET",
+      "completed_count": "NOT_ESTABLISHED",
+      "crash_location": "external timeout",
+      "deterministic_order": "ascending n",
+      "evidence": "logs/INTERRUPTED_RUNS.txt#2",
+      "exact_T_stage": "NOT_REACHABLE_BY_IDENTIFIED_RUNNER",
+      "flush_semantics": "final result only",
+      "input_universe": {
+        "boundary": "closed",
+        "high": 240010000000,
+        "low": 240000000001
+      },
+      "last_written_row": "NONE",
+      "possible_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "resume_behavior": "separate rerun",
+      "run_id": "INT-FIXEDPOOL-10M-512",
+      "runner": "two implementation fixed-pool scan"
+    },
+    {
+      "certainty": "CONSERVATIVE_SUPERSET",
+      "completed_count": "NOT_ESTABLISHED",
+      "crash_location": "after direct UNKNOWN",
+      "deterministic_order": "solver-dependent candidates; not an ordered exhaustive scan",
+      "evidence": "logs/INTERRUPTED_RUNS.txt#3",
+      "exact_T_stage": "NOT_REACHABLE_BY_IDENTIFIED_RUNNER",
+      "flush_semantics": "per-run JSON; enclosing orchestration interrupted",
+      "input_universe": {
+        "boundary": "closed",
+        "high": 240000000100,
+        "low": 240000000001
+      },
+      "last_written_row": "K32 direct UNKNOWN JSON",
+      "possible_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "resume_behavior": "CEGIS rerun separately",
+      "run_id": "INT-SMT-K16-K32",
+      "runner": "SMT/CEGIS orchestration"
+    },
+    {
+      "certainty": "CONFIRMED",
+      "completed_count": "not an integer evaluation run",
+      "crash_location": "bundle reproduction",
+      "deterministic_order": "script order",
+      "evidence": "logs/INTERRUPTED_RUNS.txt#4",
+      "exact_T_stage": "NOT_APPLICABLE",
+      "flush_semantics": "logged stages",
+      "input_universe": "uploaded stage0 baseline only",
+      "last_written_row": "527/598/135 reproduced",
+      "possible_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "resume_behavior": "not used",
+      "run_id": "INT-STAGE0-REDUNDANT",
+      "runner": "baseline reproduction"
+    },
+    {
+      "certainty": "UNKNOWN",
+      "completed_count": 0,
+      "crash_location": "external signal; chunk_0014 rc=143",
+      "deterministic_order": "ascending within each chunk; parallel interleaving nondeterministic",
+      "evidence": "logs/direct/interrupted_parallel_52way/README.txt",
+      "exact_T_stage": "NOT_REACHABLE_BY_IDENTIFIED_RUNNER",
+      "flush_semantics": "no incremental rows; complete JSON only",
+      "input_universe": "52 declared 100,000,000-integer chunks; start bounds absent from retained runner metadata",
+      "last_written_row": "NONE",
+      "possible_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "resume_behavior": "no checkpoint",
+      "run_id": "INT-DIRECT-52WAY",
+      "runner": "52-way direct representability pilot"
+    },
+    {
+      "certainty": "CONSERVATIVE_SUPERSET",
+      "completed_count": "PARTIAL_NOT_ESTABLISHED",
+      "crash_location": "direct CSV extra T field",
+      "deterministic_order": "fixed panel order",
+      "evidence": "docs/k4_ap_enrichment_pilot.md",
+      "exact_T_stage": "CONFIRMED_ENTERED; entire fixed 1285-point panel already registered",
+      "flush_semantics": "CSV may contain rows before schema defect rejection",
+      "input_universe": {
+        "path": "analysis/k4_ap_pilot/backend_a_counts.csv",
+        "row_count": 1285
+      },
+      "last_written_row": "NOT_ESTABLISHED",
+      "possible_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "resume_behavior": "discarded then clean replay",
+      "run_id": "ABANDONED-K4-PRE-C",
+      "runner": "k4_ap_run pre-C direct CSV attempt"
+    }
+  ],
+  "schema": "a303656-interrupted-run-catalog-v2",
+  "status": "PARTIAL"
+}

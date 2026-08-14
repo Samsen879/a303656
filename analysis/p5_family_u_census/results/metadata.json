@@ -1,0 +1,33 @@
+{
+  "T_zero_label": null,
+  "T_zero_points": [],
+  "adaptive_extension": false,
+  "distinct_integer_count": 454,
+  "duplicate_shift_28_pairs_separate": true,
+  "elapsed_seconds": "22.787295",
+  "every_distinct_integer_evaluated_once_per_backend_and_oracle": true,
+  "external_archive": "/tmp/p5_family_u_archive_authoritative",
+  "outside_panel_integer_count": 0,
+  "protected_hashes_after": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/fifth_prime_marginal_coverage/results/frozen_base_masks.json": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "analysis/fifth_prime_marginal_coverage/results/frozen_future_shortlist.json": "3b369ade30c2ee0925a19872bf317ea2bc5116812904bff5ad7d8d870eb9c561",
+    "analysis/fifth_prime_marginal_coverage/results/global_summaries.json": "15fb6f90c47e2929358eb4d7f90ea16030d7cd786edf594a46ed728bf52d593d",
+    "analysis/fifth_prime_marginal_coverage/results/per_prime_compressed_landscapes.jsonl": "e5bd40c1db3f85970629488e03bbf0aaf724607ab87c812226c9b138bae15df2",
+    "analysis/k4_survivor_incidence/pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "analysis/p4_weighted_transferability/results/candidate_manifest_holdout_v2.json": "728fd5195d91c75b2b93ae02e4ad43aea07afb6fd6a511c54596d0658bc6e1ca",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "raw_description_count": 457,
+  "schema": "a303656-p5-family-u-census-metadata-v1",
+  "source_commit": "cc8932e6bc62c325202c01a39d353c1aac115c93",
+  "source_gate": {
+    "direct_parent": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+    "head": "cc8932e6bc62c325202c01a39d353c1aac115c93",
+    "source_commit": "cc8932e6bc62c325202c01a39d353c1aac115c93",
+    "tracked_worktree_clean": true
+  }
+}

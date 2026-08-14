@@ -1,0 +1,102 @@
+{
+  "classification": "FINITE COMPUTATIONAL OBSERVATION FROM 300000 VALIDATED PILOT ROWS",
+  "intervals": {
+    "PILOT-A": {
+      "argmin_count": 4,
+      "argmin_n": [
+        "2",
+        "3",
+        "5",
+        "25"
+      ],
+      "distinct_T_count": 40,
+      "histogram_total": 200000,
+      "interval": {
+        "high_exclusive": "200002",
+        "low": "2"
+      },
+      "local_minimum_profile": {
+        "plateau_minimum_count": 4085,
+        "strict_local_minimum_count": 62693,
+        "weak_local_minimum_count": 72207
+      },
+      "maximum": 41,
+      "mean": {
+        "decimal": "18.631400000000000",
+        "denominator": "5000",
+        "numerator": "93157"
+      },
+      "median": 18,
+      "minimum": 1,
+      "population_standard_deviation": "5.766992633947090",
+      "population_variance": {
+        "decimal": "33.258204040000000",
+        "denominator": "25000000",
+        "numerator": "831455101"
+      },
+      "quantiles": {
+        "0.1%": 5,
+        "1%": 7,
+        "10%": 11,
+        "25%": 14,
+        "5%": 10,
+        "50%": 18,
+        "75%": 23,
+        "90%": 26,
+        "95%": 28,
+        "99%": 31,
+        "99.9%": 35
+      },
+      "row_count": 200000
+    },
+    "PILOT-B": {
+      "argmin_count": 1,
+      "argmin_n": [
+        "240000005594"
+      ],
+      "distinct_T_count": 98,
+      "histogram_total": 100000,
+      "interval": {
+        "high_exclusive": "240000100001",
+        "low": "240000000001"
+      },
+      "local_minimum_profile": {
+        "plateau_minimum_count": 524,
+        "strict_local_minimum_count": 32995,
+        "weak_local_minimum_count": 34102
+      },
+      "maximum": 118,
+      "mean": {
+        "decimal": "61.102430000000000",
+        "denominator": "100000",
+        "numerator": "6110243"
+      },
+      "median": 60,
+      "minimum": 16,
+      "population_standard_deviation": "17.063617380119023",
+      "population_variance": {
+        "decimal": "291.167038095100000",
+        "denominator": "10000000000",
+        "numerator": "2911670380951"
+      },
+      "quantiles": {
+        "0.1%": 24,
+        "1%": 29,
+        "10%": 39,
+        "25%": 47,
+        "5%": 35,
+        "50%": 60,
+        "75%": 76,
+        "90%": 84,
+        "95%": 88,
+        "99%": 95,
+        "99.9%": 103
+      },
+      "row_count": 100000
+    }
+  },
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "population_variance_definition": "N^{-1} sum_i (T_i - mean)^2",
+  "quantile_definition": "Empirical inverse-CDF nearest rank: for 0<p<=1 and N sorted values, Q(p)=x[ceil(p*N)-1]. Median is Q(0.5). No interpolation is used.",
+  "schema": "a303656-tn-low-tail-summary-statistics-v1"
+}

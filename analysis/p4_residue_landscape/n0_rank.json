@@ -1,0 +1,43 @@
+{
+  "coverage": 216,
+  "full": {
+    "above": 463150,
+    "below": 27630214,
+    "distance_from_maximum": 15,
+    "empirical_percentile": {
+      "definition": "100 * (count_below + count_equal/2) / total (exact midrank percentile)",
+      "denominator": 56455938,
+      "numerator": 5539503300
+    },
+    "equal": 134605,
+    "is_global_maximizer": false,
+    "rank_interval_descending": [
+      463151,
+      597755
+    ]
+  },
+  "n0": 240000005594,
+  "schema": "a303656-fixed-p4-n0-rank-v1",
+  "t3eq2": {
+    "above": 244123,
+    "below": 2837605,
+    "distance_from_maximum": 15,
+    "empirical_percentile": {
+      "definition": "100 * (count_below + count_equal/2) / total (exact midrank percentile)",
+      "denominator": 6272882,
+      "numerator": 572992300
+    },
+    "equal": 54713,
+    "is_constrained_maximizer": false,
+    "rank_interval_descending": [
+      244124,
+      298836
+    ]
+  },
+  "tuple": [
+    2,
+    41,
+    74,
+    504
+  ]
+}

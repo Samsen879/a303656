@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=g++ -O1 -g -std=c++17 -Wall -Wextra -Werror -pedantic -fsanitize=address\,undefined -fno-sanitize-recover=all -fno-omit-frame-pointer src/tn_count_bitset.cpp -o /tmp/a303656_tn_sanitized/tn_count_bitset 
+started_utc=2026-07-13T08:38:09Z
+finished_utc=2026-07-13T08:38:11Z

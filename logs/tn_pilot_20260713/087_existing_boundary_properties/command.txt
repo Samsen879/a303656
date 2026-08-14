@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout 180s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/direct_boundary_property_tests.py --bin-dir /tmp/a303656_tn_acceptance_build_2e38ac0 --oracle /tmp/a303656_tn_acceptance_build_2e38ac0/tiny_twosquares_oracle --multiplicity-test /tmp/a303656_tn_acceptance_build_2e38ac0/exponent_pair_multiplicity_test 
+started_utc=2026-07-13T08:50:07Z
+finished_utc=2026-07-13T08:50:08Z

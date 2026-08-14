@@ -1,0 +1,62 @@
+{
+  "schema": "a303656-bounded-exact-one-v1",
+  "status": "FAIL",
+  "candidate_n": "2",
+  "prime_set": [
+    3,
+    7,
+    11,
+    19,
+    23,
+    31,
+    43,
+    47,
+    59,
+    67,
+    71,
+    79,
+    83,
+    103,
+    107,
+    127
+  ],
+  "interval": {
+    "low": null,
+    "high": null
+  },
+  "declared_C": null,
+  "declared_D": null,
+  "enumerated_max_c": 0,
+  "enumerated_max_d": 0,
+  "admissible_pair_count": 1,
+  "distinct_shift_count": 1,
+  "zero_remainder_count": 1,
+  "uncovered_pairs": [
+    {
+      "c": 0,
+      "d": 0,
+      "shift": "2",
+      "remainder": "0"
+    }
+  ],
+  "obstructions": [
+    {
+      "c": 0,
+      "d": 0,
+      "shift": "2",
+      "remainder": "0",
+      "prime": "",
+      "valuation": ""
+    }
+  ],
+  "errors": [
+    "remainder=0 occurs for 1 admissible pair(s); 0 is divisible by p^2 and cannot pass exact-one"
+  ],
+  "verifier": {
+    "implementation": "Python independent exact verifier",
+    "python": "3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "source_sha256": "6ca9203ede2aecb1a18a6db2178c3e2fca1757deb3d18c94be5cc0c6fa0ee974",
+    "elapsed_seconds": 0.0003101340000171149
+  }
+}

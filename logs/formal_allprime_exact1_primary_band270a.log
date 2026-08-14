@@ -1,0 +1,10 @@
+chunk=0 interval=[270000000001,270010000000] rc=0 candidates=0 elapsed=9.985989
+chunk=4 interval=[270040000001,270050000000] rc=0 candidates=0 elapsed=10.008539
+chunk=3 interval=[270030000001,270040000000] rc=0 candidates=0 elapsed=10.327267
+chunk=2 interval=[270020000001,270030000000] rc=0 candidates=0 elapsed=10.475684
+chunk=1 interval=[270010000001,270020000000] rc=0 candidates=0 elapsed=10.488004
+complete_gapless_coverage=true
+integers_tested=50000000
+candidate_count=0
+wall_seconds=10.500945
+summary=output/formal_allprime_exact1_primary_band270a_summary.json

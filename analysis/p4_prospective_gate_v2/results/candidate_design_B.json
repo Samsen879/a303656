@@ -1,0 +1,3164 @@
+{
+  "canonical_digest": "2d33da29a39d6e02c9f39a798918c155cf11ca1b1e7be0212a6c35af8d510b46",
+  "class_rows": [
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 839491274,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "111a0cf61899d31d3a919ee3a0440cd74cea72e6b9b144abdbe30334678ec0b5",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "21ed4af5add703e675b5b6b34e0e4283ca5cf7cd4c5e023aafdb8a1deff774bd",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184885849154,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192789680474,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200693511794,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208597343114,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216501174434,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224405005754,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232308837074,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242470905914,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        14
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 643122794,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "111a0cf61899d31d3a919ee3a0440cd74cea72e6b9b144abdbe30334678ec0b5",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "21ed4af5add703e675b5b6b34e0e4283ca5cf7cd4c5e023aafdb8a1deff774bd",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184689480674,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192593311994,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200497143314,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208400974634,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216304805954,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224208637274,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232112468594,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242274537434,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        37
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 986767634,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "111a0cf61899d31d3a919ee3a0440cd74cea72e6b9b144abdbe30334678ec0b5",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "21ed4af5add703e675b5b6b34e0e4283ca5cf7cd4c5e023aafdb8a1deff774bd",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 185033125514,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192936956834,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200840788154,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208744619474,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216648450794,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224552282114,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232456113434,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242618182274,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        129
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 790399154,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "111a0cf61899d31d3a919ee3a0440cd74cea72e6b9b144abdbe30334678ec0b5",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "21ed4af5add703e675b5b6b34e0e4283ca5cf7cd4c5e023aafdb8a1deff774bd",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184836757034,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192740588354,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200644419674,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208548250994,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216452082314,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224355913634,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232259744954,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242421813794,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        152
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 1023358034,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "8050bf35b5cd84e432fe8e59457397185d0440ae7ebdf3693a72056ef668bb90",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "26fdde41459c3f8ecf847452ca1f2074b9fd4fff4d9b9a01d3ba453472f2f871",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 185069715914,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192973547234,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200877378554,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208781209874,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216685041194,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224588872514,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232492703834,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242654772674,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        50,
+        128
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 715416554,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "8050bf35b5cd84e432fe8e59457397185d0440ae7ebdf3693a72056ef668bb90",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "26fdde41459c3f8ecf847452ca1f2074b9fd4fff4d9b9a01d3ba453472f2f871",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184761774434,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192665605754,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200569437074,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208473268394,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216377099714,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224280931034,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232184762354,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242346831194,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        61,
+        128
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 407475074,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "8050bf35b5cd84e432fe8e59457397185d0440ae7ebdf3693a72056ef668bb90",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "26fdde41459c3f8ecf847452ca1f2074b9fd4fff4d9b9a01d3ba453472f2f871",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184453832954,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192357664274,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200261495594,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208165326914,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216069158234,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223972989554,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231876820874,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239780652194,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        72,
+        128
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 99533594,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "8050bf35b5cd84e432fe8e59457397185d0440ae7ebdf3693a72056ef668bb90",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "26fdde41459c3f8ecf847452ca1f2074b9fd4fff4d9b9a01d3ba453472f2f871",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184145891474,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192049722794,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 199953554114,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207857385434,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215761216754,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223665048074,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231568879394,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239472710714,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        83,
+        128
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 318992834,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "052808cbdf1d08927f6dd0f81d414c016b7f02b1f7ca04ae4355f3f42b323534",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "29b15f0f55ea27efa150e92d090f71ecb64839e52c3193d0453a34fa43414a70",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184365350714,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192269182034,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200173013354,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208076844674,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215980675994,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223884507314,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231788338634,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239692169954,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        50,
+        15
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 662637674,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "052808cbdf1d08927f6dd0f81d414c016b7f02b1f7ca04ae4355f3f42b323534",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "29b15f0f55ea27efa150e92d090f71ecb64839e52c3193d0453a34fa43414a70",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184708995554,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192612826874,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200516658194,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208420489514,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216324320834,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224228152154,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232131983474,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242294052314,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        50,
+        107
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 466269194,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "052808cbdf1d08927f6dd0f81d414c016b7f02b1f7ca04ae4355f3f42b323534",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "29b15f0f55ea27efa150e92d090f71ecb64839e52c3193d0453a34fa43414a70",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184512627074,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192416458394,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200320289714,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208224121034,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216127952354,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224031783674,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231935614994,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239839446314,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        50,
+        130
+      ]
+    },
+    {
+      "H8": 199,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 269900714,
+      "covered_dead": 28,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "052808cbdf1d08927f6dd0f81d414c016b7f02b1f7ca04ae4355f3f42b323534",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "29b15f0f55ea27efa150e92d090f71ecb64839e52c3193d0453a34fa43414a70",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184316258594,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192220089914,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200123921234,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208027752554,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215931583874,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223835415194,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231739246514,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239643077834,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        41,
+        50,
+        153
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 700752674,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "28d548070e5ba72be4d55ba8d045ae26e314d1ce4d50ced377cce9ed04b076fa",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "0336f95276216ba5bd031d4ec6304dc89cc8b841f7fecebb208cc13adc84b673",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184747110554,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192650941874,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200554773194,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208458604514,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216362435834,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224266267154,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232170098474,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242332167314,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        128
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 392811194,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "28d548070e5ba72be4d55ba8d045ae26e314d1ce4d50ced377cce9ed04b076fa",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "0336f95276216ba5bd031d4ec6304dc89cc8b841f7fecebb208cc13adc84b673",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184439169074,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192343000394,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200246831714,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208150663034,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216054494354,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223958325674,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231862156994,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239765988314,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        61,
+        128
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 84869714,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "28d548070e5ba72be4d55ba8d045ae26e314d1ce4d50ced377cce9ed04b076fa",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "0336f95276216ba5bd031d4ec6304dc89cc8b841f7fecebb208cc13adc84b673",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184131227594,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192035058914,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 199938890234,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207842721554,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215746552874,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223650384194,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231554215514,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239458046834,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        72,
+        128
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 906046994,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "28d548070e5ba72be4d55ba8d045ae26e314d1ce4d50ced377cce9ed04b076fa",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "0336f95276216ba5bd031d4ec6304dc89cc8b841f7fecebb208cc13adc84b673",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184952404874,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192856236194,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200760067514,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208663898834,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216567730154,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224471561474,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232375392794,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242537461634,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        83,
+        128
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 1082207594,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "fe0a2440cb3233cb3030cc55b5ed17bdd7a74e3035458ffea9530f7c1fe5f8e0",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "0f4aad2b68b0f3fcdeeac4597a4058b2e7e3246cf86232954b2f28f7a0aea6f1",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 183999446714,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 191903278034,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 199807109354,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207710940674,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215614771994,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223518603314,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231422434634,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239326265954,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        25
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 885839114,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "fe0a2440cb3233cb3030cc55b5ed17bdd7a74e3035458ffea9530f7c1fe5f8e0",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "0f4aad2b68b0f3fcdeeac4597a4058b2e7e3246cf86232954b2f28f7a0aea6f1",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184932196994,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192836028314,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200739859634,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208643690954,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216547522274,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224451353594,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232355184914,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242517253754,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        48
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 689470634,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "fe0a2440cb3233cb3030cc55b5ed17bdd7a74e3035458ffea9530f7c1fe5f8e0",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "0f4aad2b68b0f3fcdeeac4597a4058b2e7e3246cf86232954b2f28f7a0aea6f1",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184735828514,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192639659834,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200543491154,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208447322474,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216351153794,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224254985114,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232158816434,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242320885274,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        71
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 493102154,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "fe0a2440cb3233cb3030cc55b5ed17bdd7a74e3035458ffea9530f7c1fe5f8e0",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "0f4aad2b68b0f3fcdeeac4597a4058b2e7e3246cf86232954b2f28f7a0aea6f1",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184539460034,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192443291354,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200347122674,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208250953994,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216154785314,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224058616634,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231962447954,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239866279274,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        94
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 200988794,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "0f47ea2ad6e0c4519a27c01a8008a40c8b8c6b92172c0d4ac3f75f3284b03f78",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "15565cee9b1127c06002e1b7d15b56c39ec8611a33daa5b12b9d2ce02c57ee8c",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184247346674,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192151177994,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200055009314,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207958840634,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215862671954,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223766503274,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231670334594,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239574165914,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        6,
+        50,
+        5
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 1022166074,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "0f47ea2ad6e0c4519a27c01a8008a40c8b8c6b92172c0d4ac3f75f3284b03f78",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "15565cee9b1127c06002e1b7d15b56c39ec8611a33daa5b12b9d2ce02c57ee8c",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 185068523954,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192972355274,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200876186594,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208780017914,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216683849234,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224587680554,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232491511874,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242653580714,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        6,
+        61,
+        5
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 714224594,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "0f47ea2ad6e0c4519a27c01a8008a40c8b8c6b92172c0d4ac3f75f3284b03f78",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "15565cee9b1127c06002e1b7d15b56c39ec8611a33daa5b12b9d2ce02c57ee8c",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184760582474,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192664413794,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200568245114,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208472076434,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216375907754,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224279739074,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232183570394,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242345639234,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        6,
+        72,
+        5
+      ]
+    },
+    {
+      "H8": 200,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 406283114,
+      "covered_dead": 27,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": true,
+      "full_mask_digest": "0f47ea2ad6e0c4519a27c01a8008a40c8b8c6b92172c0d4ac3f75f3284b03f78",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "15565cee9b1127c06002e1b7d15b56c39ec8611a33daa5b12b9d2ce02c57ee8c",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184452640994,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192356472314,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200260303634,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208164134954,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216067966274,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223971797594,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231875628914,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239779460234,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        6,
+        83,
+        5
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 644647394,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "ee2cd71b9a29986cf0d054e1ade32b001065666488afa2e6d95ca7c6f4988185",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "4e02f4bd359bc9dcc53311abee4a68339d6c0ea5676546000f252d8f77a6138d",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184691005274,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192594836594,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200498667914,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208402499234,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216306330554,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224210161874,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232113993194,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242276062034,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        59
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 595555274,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "ee2cd71b9a29986cf0d054e1ade32b001065666488afa2e6d95ca7c6f4988185",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "4e02f4bd359bc9dcc53311abee4a68339d6c0ea5676546000f252d8f77a6138d",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184641913154,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192545744474,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200449575794,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208353407114,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216257238434,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224161069754,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232064901074,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239968732394,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        197
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 399186794,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "ee2cd71b9a29986cf0d054e1ade32b001065666488afa2e6d95ca7c6f4988185",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "4e02f4bd359bc9dcc53311abee4a68339d6c0ea5676546000f252d8f77a6138d",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184445544674,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192349375994,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200253207314,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208157038634,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216060869954,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223964701274,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231868532594,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239772363914,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        220
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 202818314,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "ee2cd71b9a29986cf0d054e1ade32b001065666488afa2e6d95ca7c6f4988185",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "4e02f4bd359bc9dcc53311abee4a68339d6c0ea5676546000f252d8f77a6138d",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184249176194,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192153007514,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200056838834,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207960670154,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215864501474,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223768332794,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231672164114,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239575995434,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        243
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 811133714,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "0a825fb1ef86322330f2520a6456f1f494795b7ebba2d66c95607ab4d7f6762f",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "768f55d945aaf7be8a76b0fc24cb5ed0ab8a3f8ce0aca914b34ea381e5524ae5",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184857491594,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192761322914,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200665154234,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208568985554,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216472816874,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224376648194,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232280479514,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242442548354,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        50,
+        28
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 503192234,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "0a825fb1ef86322330f2520a6456f1f494795b7ebba2d66c95607ab4d7f6762f",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "768f55d945aaf7be8a76b0fc24cb5ed0ab8a3f8ce0aca914b34ea381e5524ae5",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184549550114,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192453381434,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200357212754,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208261044074,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216164875394,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224068706714,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231972538034,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239876369354,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        61,
+        28
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 195250754,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "0a825fb1ef86322330f2520a6456f1f494795b7ebba2d66c95607ab4d7f6762f",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "768f55d945aaf7be8a76b0fc24cb5ed0ab8a3f8ce0aca914b34ea381e5524ae5",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184241608634,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192145439954,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200049271274,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207953102594,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215856933914,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223760765234,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231664596554,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239568427874,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        72,
+        28
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 1016428034,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "0a825fb1ef86322330f2520a6456f1f494795b7ebba2d66c95607ab4d7f6762f",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "768f55d945aaf7be8a76b0fc24cb5ed0ab8a3f8ce0aca914b34ea381e5524ae5",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 185062785914,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192966617234,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200870448554,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208774279874,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216678111194,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224581942514,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232485773834,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242647842674,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        13,
+        83,
+        28
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 553476314,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "5d14bac81c6cdfec93e58982bd0e1bea923e8c6cfad0b6bbc2af0befd2e2b90e",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "d73555ee307b766242564802e63d72e9e53ed86a6d38ef4f8168d99d41705f71",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184599834194,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192503665514,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200407496834,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208311328154,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216215159474,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224118990794,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232022822114,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239926653434,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        50,
+        13
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 245534834,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "5d14bac81c6cdfec93e58982bd0e1bea923e8c6cfad0b6bbc2af0befd2e2b90e",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 1,
+      "live_projection_digest": "d73555ee307b766242564802e63d72e9e53ed86a6d38ef4f8168d99d41705f71",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184291892714,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192195724034,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200099555354,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208003386674,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215907217994,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223811049314,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231714880634,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239618711954,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        61,
+        13
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 56,
+      "class_residue_mod_L4": 1066712114,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "5d14bac81c6cdfec93e58982bd0e1bea923e8c6cfad0b6bbc2af0befd2e2b90e",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "d73555ee307b766242564802e63d72e9e53ed86a6d38ef4f8168d99d41705f71",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 183983951234,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 191887782554,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 199791613874,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 207695445194,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 215599276514,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 223503107834,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 231406939154,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 239310770474,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        72,
+        13
+      ]
+    },
+    {
+      "H8": 201,
+      "activation_cell_member_count": 55,
+      "class_residue_mod_L4": 758770634,
+      "covered_dead": 26,
+      "design_novel_class": true,
+      "design_novel_full_mask": true,
+      "design_novel_live_projection": false,
+      "full_mask_digest": "5d14bac81c6cdfec93e58982bd0e1bea923e8c6cfad0b6bbc2af0befd2e2b90e",
+      "historically_exposed_class": true,
+      "known_exposure_exclusion_count": 2,
+      "live_projection_digest": "d73555ee307b766242564802e63d72e9e53ed86a6d38ef4f8168d99d41705f71",
+      "raw_G": 227,
+      "selected_integers": [
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 184805128514,
+          "selection_index": 0
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 192708959834,
+          "selection_index": 7
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 200612791154,
+          "selection_index": 14
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 208516622474,
+          "selection_index": 21
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 216420453794,
+          "selection_index": 28
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 224324285114,
+          "selection_index": 35
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 232228116434,
+          "selection_index": 42
+        },
+        {
+          "absent_from_reconstructed_registry": true,
+          "integer_unseen_any_recorded_evaluation": "NOT_ESTABLISHED",
+          "integer_unseen_exact_T": "NOT_ESTABLISHED",
+          "known_exposure_levels": [],
+          "n": 242390185274,
+          "selection_index": 49
+        }
+      ],
+      "tuple": [
+        2,
+        48,
+        83,
+        13
+      ]
+    }
+  ],
+  "collision_report": {
+    "duplicate_integer_count": 0,
+    "status": "PASS"
+  },
+  "design_id": "DESIGN_B",
+  "distinct_integer_count": 288,
+  "exposure_level_exclusions": "all reconstructed E1-E4 interval/sparse exposures excluded before indexed selection",
+  "hierarchy": {
+    "199": {
+      "CRT_class_count": 12,
+      "full_mask_count": 3,
+      "integer_count": 96,
+      "live_projection_count": 3,
+      "raw_G_values": [
+        227
+      ]
+    },
+    "200": {
+      "CRT_class_count": 12,
+      "full_mask_count": 3,
+      "integer_count": 96,
+      "live_projection_count": 3,
+      "raw_G_values": [
+        227
+      ]
+    },
+    "201": {
+      "CRT_class_count": 12,
+      "full_mask_count": 3,
+      "integer_count": 96,
+      "live_projection_count": 3,
+      "raw_G_values": [
+        227
+      ]
+    }
+  },
+  "integer_indices": [
+    0,
+    7,
+    14,
+    21,
+    28,
+    35,
+    42,
+    49
+  ],
+  "limitations": [
+    "integer_unseen_any_recorded_evaluation is NOT_ESTABLISHED while interrupted-run exposure remains unreconstructed",
+    "historically_exposed_class is true for every fixed-P4 class because of the continuous 1.6B E1 interval"
+  ],
+  "maximum_integer": 242654772674,
+  "minimum_integer": 183983951234,
+  "registry_digest": "f933613ee9bc5e72fa2e2cc87ad663913154b43505029594f7cf23620dae2c4c",
+  "schema": "a303656-p4-live-prospective-candidate-v2",
+  "selection_T_blind": true,
+  "selection_order": [
+    "H8",
+    "live_projection_digest",
+    "full_mask_digest",
+    "lexicographic_tuple",
+    "ascending_absent_integer"
+  ],
+  "status": "CANDIDATE_ONLY_NOT_AUTHORIZED_FOR_T_EVALUATION"
+}

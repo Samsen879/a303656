@@ -1,0 +1,131 @@
+{
+  "all_rejected": true,
+  "schema": "a303656-p4-mod8-live-corruption-tests-v1",
+  "tests": [
+    {
+      "name": "initial_HEAD_mismatch",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "n_mod40_mutation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "historical_panel_scope_expansion",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "flipped_c_parity",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "flipped_d_parity",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "omitted_excluded_boundary_pair",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "D8_count_corruption",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "A8_count_corruption",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "duplicate_shift_pair_merger",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "pair_bit_order_mutation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "baseline_mask_mutation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "baseline_H8_expected_corruption",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "tuple_omission",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "tuple_duplication",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "H8_stream_corruption",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "maximizing_mask_omission",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "freshness_registry_interval_deletion",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "prior_sparse_point_deletion",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "class_integer_freshness_conflation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "empirical_weight_injection",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "accidental_T_backend_invocation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "accidental_direct_oracle_invocation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "accidental_factorization_invocation",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "truncated_mask_bytes",
+      "rejected": true,
+      "return_code": 1
+    },
+    {
+      "name": "extra_mask_bytes",
+      "rejected": true,
+      "return_code": 1
+    }
+  ]
+}

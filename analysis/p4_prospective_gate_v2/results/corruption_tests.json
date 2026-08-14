@@ -1,0 +1,112 @@
+{
+  "all_passed": true,
+  "schema": "a303656-p4-gate-v2-corruption-tests-v1",
+  "test_count": 15,
+  "tests": [
+    {
+      "actual_error": "UNSCOPED_FRESH_CLASS_TERM",
+      "expected_error": "UNSCOPED_FRESH_CLASS_TERM",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "design_novel_class_mislabeled_fresh_class"
+    },
+    {
+      "actual_error": "REGISTRY_COMPONENT_SET_MISMATCH",
+      "expected_error": "REGISTRY_COMPONENT_SET_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "registry_component_missing"
+    },
+    {
+      "actual_error": "CONTINUOUS_INTERVAL_ENDPOINT_MISMATCH",
+      "expected_error": "CONTINUOUS_INTERVAL_ENDPOINT_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "interval_endpoint_off_by_one"
+    },
+    {
+      "actual_error": "DUPLICATE_INTEGER",
+      "expected_error": "DUPLICATE_INTEGER",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "duplicate_integer"
+    },
+    {
+      "actual_error": "SELECTED_INTEGER_ALREADY_E1",
+      "expected_error": "SELECTED_INTEGER_ALREADY_E1",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "selected_integer_already_E1"
+    },
+    {
+      "actual_error": "SELECTED_INTEGER_ALREADY_E2",
+      "expected_error": "SELECTED_INTEGER_ALREADY_E2",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "selected_integer_already_E2"
+    },
+    {
+      "actual_error": "PROJECTION_BALANCE_MISMATCH",
+      "expected_error": "PROJECTION_BALANCE_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "projection_imbalance"
+    },
+    {
+      "actual_error": "MASK_BALANCE_MISMATCH",
+      "expected_error": "MASK_BALANCE_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "mask_imbalance"
+    },
+    {
+      "actual_error": "CLASS_BALANCE_MISMATCH",
+      "expected_error": "CLASS_BALANCE_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "class_imbalance"
+    },
+    {
+      "actual_error": "FROZEN_MANIFEST_CHANGED",
+      "expected_error": "FROZEN_MANIFEST_CHANGED",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "manifest_changed_after_freeze"
+    },
+    {
+      "actual_error": "FORBIDDEN_T_FIELD_READ",
+      "expected_error": "FORBIDDEN_T_FIELD_READ",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "selection_reads_forbidden_T_field"
+    },
+    {
+      "actual_error": "SELECTION_CODE_HASH_CHANGED",
+      "expected_error": "SELECTION_CODE_HASH_CHANGED",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "selection_code_hash_changed"
+    },
+    {
+      "actual_error": "STALE_REGISTRY_HASH",
+      "expected_error": "STALE_REGISTRY_HASH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "stale_registry_hash"
+    },
+    {
+      "actual_error": "COLLISION_DEDUPLICATION_MISMATCH",
+      "expected_error": "COLLISION_DEDUPLICATION_MISMATCH",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "collision_deduplication_error"
+    },
+    {
+      "actual_error": "NONDETERMINISTIC_SELECTION",
+      "expected_error": "NONDETERMINISTIC_SELECTION",
+      "return_code": 1,
+      "status": "PASS",
+      "test": "non_deterministic_selection"
+    }
+  ]
+}

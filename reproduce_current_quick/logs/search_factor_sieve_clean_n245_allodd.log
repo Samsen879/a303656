@@ -1,0 +1,9 @@
+SHIFT 2 survivors=1
+SHIFT 4 survivors=0
+integers_tested=1
+admissible_pair_count_at_high=21
+distinct_shift_count_at_high=20
+shifts_processed_before_termination=2
+candidate_count=0
+elapsed_seconds=0.000398457
+EXACT_EMPTY

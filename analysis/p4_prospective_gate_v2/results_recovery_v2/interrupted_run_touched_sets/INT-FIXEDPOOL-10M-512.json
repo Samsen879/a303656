@@ -1,0 +1,5 @@
+{
+  "evidence": "logs/INTERRUPTED_RUNS.txt#2",
+  "exact_touched_set": "NOT_ESTABLISHED",
+  "run_id": "INT-FIXEDPOOL-10M-512"
+}

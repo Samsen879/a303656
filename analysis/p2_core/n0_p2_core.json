@@ -1,0 +1,2302 @@
+{
+  "active_pair_count": 407,
+  "bit_score_exact_comparison": "compare a/log2(p^2) and b/log2(q^2) by q^a versus p^b; on exact equality choose the smaller prime",
+  "combined_congruence": "n == n0 (mod M)",
+  "current_losing_pair_count": 391,
+  "different_CRT_residue_solved": false,
+  "greedy_orderings": {
+    "COVERAGE_PER_MODULUS_BIT_GREEDY": [
+      3,
+      7,
+      11,
+      23,
+      19,
+      31,
+      47,
+      79,
+      83,
+      43,
+      59,
+      67,
+      571,
+      71,
+      103,
+      251,
+      331,
+      523,
+      587,
+      751,
+      107,
+      127,
+      139,
+      151,
+      211,
+      223,
+      239,
+      263,
+      311,
+      347,
+      359,
+      379
+    ],
+    "MARGINAL_COVERAGE_GREEDY": [
+      3,
+      7,
+      11,
+      23,
+      19,
+      31,
+      47,
+      79,
+      83,
+      43,
+      571,
+      59,
+      67,
+      71,
+      103,
+      251,
+      331,
+      523,
+      587,
+      751,
+      107,
+      127,
+      139,
+      151,
+      211,
+      223,
+      239,
+      263,
+      311,
+      347,
+      359,
+      379
+    ]
+  },
+  "higher_odd_valuations": [
+    {
+      "included_in_p2_core_totals": false,
+      "label": "HIGHER_PRIME_POWER_OBSERVATION",
+      "modulus_preserving_exact_valuation": "81",
+      "pair_count": 23,
+      "pairs": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          15,
+          11
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          11
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          23,
+          11
+        ]
+      ],
+      "prime": 3,
+      "valuation": 3
+    },
+    {
+      "included_in_p2_core_totals": false,
+      "label": "HIGHER_PRIME_POWER_OBSERVATION",
+      "modulus_preserving_exact_valuation": "729",
+      "pair_count": 1,
+      "pairs": [
+        [
+          0,
+          0
+        ]
+      ],
+      "prime": 3,
+      "valuation": 5
+    },
+    {
+      "included_in_p2_core_totals": false,
+      "label": "HIGHER_PRIME_POWER_OBSERVATION",
+      "modulus_preserving_exact_valuation": "2401",
+      "pair_count": 2,
+      "pairs": [
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "prime": 7,
+      "valuation": 3
+    },
+    {
+      "included_in_p2_core_totals": false,
+      "label": "HIGHER_PRIME_POWER_OBSERVATION",
+      "modulus_preserving_exact_valuation": "117649",
+      "pair_count": 1,
+      "pairs": [
+        [
+          23,
+          0
+        ]
+      ],
+      "prime": 7,
+      "valuation": 5
+    }
+  ],
+  "label": "HEURISTIC_P2_PERSISTENT_CORE",
+  "n0": 240000005594,
+  "optimality_claimed": false,
+  "original_winner_pair_count": 16,
+  "original_winner_pairs": [
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      15
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      14
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      14,
+      10
+    ],
+    [
+      14,
+      16
+    ],
+    [
+      15,
+      5
+    ],
+    [
+      16,
+      2
+    ],
+    [
+      16,
+      12
+    ],
+    [
+      18,
+      4
+    ],
+    [
+      18,
+      6
+    ],
+    [
+      20,
+      6
+    ],
+    [
+      21,
+      5
+    ]
+  ],
+  "prime_3": {
+    "c_category_distributions": {
+      "c=0": {
+        "0": 8,
+        "1": 6,
+        "2": 2,
+        "5": 1
+      },
+      "c=1": {
+        "0": 9,
+        "1": 5,
+        "2": 2,
+        "3": 1
+      },
+      "c>=2": {
+        "0": 197,
+        "1": 132,
+        "2": 22,
+        "3": 22
+      }
+    },
+    "c_ge_2_v1_pair_count": 132,
+    "c_ge_2_v1_residue_classes_mod_6": [
+      1,
+      3
+    ],
+    "five_power_cycle_mod_9": [
+      1,
+      5,
+      7,
+      8,
+      4,
+      2
+    ],
+    "higher_odd_valuation_count": 24,
+    "n0_mod_9": 2,
+    "p2_persistent_obstruction_count": 143,
+    "static_odd_obstruction_count": 167,
+    "valuation_distribution": {
+      "0": 214,
+      "1": 143,
+      "2": 26,
+      "3": 23,
+      "5": 1
+    }
+  },
+  "schema": "a303656-n0-p2-persistent-core-v1",
+  "selected_prime_residue_bindings": [
+    {
+      "C_p_pair_count": 143,
+      "C_p_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          13
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          11,
+          7
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          12,
+          3
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          13,
+          15
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          14,
+          9
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          15,
+          3
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          16,
+          9
+        ],
+        [
+          16,
+          13
+        ],
+        [
+          16,
+          15
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          9
+        ],
+        [
+          17,
+          13
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          19,
+          3
+        ],
+        [
+          19,
+          7
+        ],
+        [
+          19,
+          9
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          19,
+          15
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          20,
+          3
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          20,
+          9
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          20,
+          15
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          3
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          21,
+          9
+        ],
+        [
+          21,
+          13
+        ],
+        [
+          21,
+          15
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          22,
+          3
+        ],
+        [
+          22,
+          7
+        ],
+        [
+          22,
+          9
+        ],
+        [
+          22,
+          13
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          23,
+          7
+        ],
+        [
+          23,
+          9
+        ],
+        [
+          23,
+          13
+        ],
+        [
+          23,
+          15
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 9,
+      "prime": 3,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 1,
+        "MARGINAL_COVERAGE_GREEDY": 1
+      },
+      "t_p": 2
+    },
+    {
+      "C_p_pair_count": 48,
+      "C_p_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          7
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          13,
+          5
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          14,
+          2
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          17,
+          12
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          13
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          19,
+          11
+        ],
+        [
+          20,
+          8
+        ],
+        [
+          20,
+          14
+        ],
+        [
+          22,
+          4
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          22,
+          16
+        ],
+        [
+          23,
+          6
+        ],
+        [
+          23,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 49,
+      "prime": 7,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 2,
+        "MARGINAL_COVERAGE_GREEDY": 2
+      },
+      "t_p": 41
+    },
+    {
+      "C_p_pair_count": 47,
+      "C_p_pairs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          6
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          13,
+          7
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          16,
+          11
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          18,
+          2
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          12
+        ],
+        [
+          19,
+          3
+        ],
+        [
+          19,
+          8
+        ],
+        [
+          19,
+          13
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          21,
+          11
+        ],
+        [
+          21,
+          16
+        ],
+        [
+          23,
+          2
+        ],
+        [
+          23,
+          7
+        ],
+        [
+          23,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 121,
+      "prime": 11,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 3,
+        "MARGINAL_COVERAGE_GREEDY": 3
+      },
+      "t_p": 74
+    },
+    {
+      "C_p_pair_count": 19,
+      "C_p_pairs": [
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          15
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          9
+        ],
+        [
+          14,
+          3
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          16,
+          4
+        ],
+        [
+          20,
+          2
+        ],
+        [
+          20,
+          11
+        ],
+        [
+          21,
+          6
+        ],
+        [
+          21,
+          15
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 361,
+      "prime": 19,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 5,
+        "MARGINAL_COVERAGE_GREEDY": 5
+      },
+      "t_p": 34
+    },
+    {
+      "C_p_pair_count": 20,
+      "C_p_pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          5
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          6
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          5
+        ],
+        [
+          23,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 529,
+      "prime": 23,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 4,
+        "MARGINAL_COVERAGE_GREEDY": 4
+      },
+      "t_p": 504
+    },
+    {
+      "C_p_pair_count": 16,
+      "C_p_pairs": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          20,
+          4
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          20,
+          16
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 961,
+      "prime": 31,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 6,
+        "MARGINAL_COVERAGE_GREEDY": 6
+      },
+      "t_p": 134
+    },
+    {
+      "C_p_pair_count": 7,
+      "C_p_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          21,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 1849,
+      "prime": 43,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 10,
+        "MARGINAL_COVERAGE_GREEDY": 10
+      },
+      "t_p": 1588
+    },
+    {
+      "C_p_pair_count": 11,
+      "C_p_pairs": [
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          12,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          19,
+          16
+        ],
+        [
+          21,
+          4
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 2209,
+      "prime": 47,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 7,
+        "MARGINAL_COVERAGE_GREEDY": 7
+      },
+      "t_p": 1962
+    },
+    {
+      "C_p_pair_count": 7,
+      "C_p_pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          7
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          19,
+          1
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 3481,
+      "prime": 59,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 11,
+        "MARGINAL_COVERAGE_GREEDY": 12
+      },
+      "t_p": 3008
+    },
+    {
+      "C_p_pair_count": 5,
+      "C_p_pairs": [
+        [
+          2,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          13,
+          3
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          16,
+          16
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 4489,
+      "prime": 67,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 12,
+        "MARGINAL_COVERAGE_GREEDY": 13
+      },
+      "t_p": 1858
+    },
+    {
+      "C_p_pair_count": 6,
+      "C_p_pairs": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          23,
+          3
+        ],
+        [
+          23,
+          8
+        ],
+        [
+          23,
+          13
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 5041,
+      "prime": 71,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 14,
+        "MARGINAL_COVERAGE_GREEDY": 14
+      },
+      "t_p": 1912
+    },
+    {
+      "C_p_pair_count": 5,
+      "C_p_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          18,
+          11
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 6241,
+      "prime": 79,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 8,
+        "MARGINAL_COVERAGE_GREEDY": 8
+      },
+      "t_p": 3978
+    },
+    {
+      "C_p_pair_count": 8,
+      "C_p_pairs": [
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          14,
+          8
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          7
+        ],
+        [
+          19,
+          6
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 6889,
+      "prime": 83,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 9,
+        "MARGINAL_COVERAGE_GREEDY": 9
+      },
+      "t_p": 4022
+    },
+    {
+      "C_p_pair_count": 5,
+      "C_p_pairs": [
+        [
+          5,
+          12
+        ],
+        [
+          12,
+          4
+        ],
+        [
+          17,
+          6
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          22,
+          1
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 10609,
+      "prime": 103,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 15,
+        "MARGINAL_COVERAGE_GREEDY": 15
+      },
+      "t_p": 3676
+    },
+    {
+      "C_p_pair_count": 4,
+      "C_p_pairs": [
+        [
+          3,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          14,
+          4
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 11449,
+      "prime": 107,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 21,
+        "MARGINAL_COVERAGE_GREEDY": 21
+      },
+      "t_p": 11073
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          4,
+          9
+        ],
+        [
+          23,
+          4
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 16129,
+      "prime": 127,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 22,
+        "MARGINAL_COVERAGE_GREEDY": 22
+      },
+      "t_p": 1724
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          1,
+          9
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 19321,
+      "prime": 139,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 23,
+        "MARGINAL_COVERAGE_GREEDY": 23
+      },
+      "t_p": 11437
+    },
+    {
+      "C_p_pair_count": 1,
+      "C_p_pairs": [
+        [
+          18,
+          16
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 22801,
+      "prime": 151,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 24,
+        "MARGINAL_COVERAGE_GREEDY": 24
+      },
+      "t_p": 8540
+    },
+    {
+      "C_p_pair_count": 1,
+      "C_p_pairs": [
+        [
+          17,
+          2
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 44521,
+      "prime": 211,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 25,
+        "MARGINAL_COVERAGE_GREEDY": 25
+      },
+      "t_p": 27600
+    },
+    {
+      "C_p_pair_count": 3,
+      "C_p_pairs": [
+        [
+          11,
+          3
+        ],
+        [
+          15,
+          6
+        ],
+        [
+          19,
+          2
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 49729,
+      "prime": 223,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 26,
+        "MARGINAL_COVERAGE_GREEDY": 26
+      },
+      "t_p": 44141
+    },
+    {
+      "C_p_pair_count": 3,
+      "C_p_pairs": [
+        [
+          14,
+          15
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          8
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 57121,
+      "prime": 239,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 27,
+        "MARGINAL_COVERAGE_GREEDY": 27
+      },
+      "t_p": 12147
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          17,
+          5
+        ],
+        [
+          19,
+          14
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 63001,
+      "prime": 251,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 16,
+        "MARGINAL_COVERAGE_GREEDY": 16
+      },
+      "t_p": 27131
+    },
+    {
+      "C_p_pair_count": 1,
+      "C_p_pairs": [
+        [
+          10,
+          8
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 69169,
+      "prime": 263,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 28,
+        "MARGINAL_COVERAGE_GREEDY": 28
+      },
+      "t_p": 37816
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          15,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 96721,
+      "prime": 311,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 29,
+        "MARGINAL_COVERAGE_GREEDY": 29
+      },
+      "t_p": 94871
+    },
+    {
+      "C_p_pair_count": 4,
+      "C_p_pairs": [
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          6
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 109561,
+      "prime": 331,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 17,
+        "MARGINAL_COVERAGE_GREEDY": 17
+      },
+      "t_p": 61434
+    },
+    {
+      "C_p_pair_count": 1,
+      "C_p_pairs": [
+        [
+          7,
+          16
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 120409,
+      "prime": 347,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 30,
+        "MARGINAL_COVERAGE_GREEDY": 30
+      },
+      "t_p": 64340
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          0,
+          9
+        ],
+        [
+          13,
+          12
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 128881,
+      "prime": 359,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 31,
+        "MARGINAL_COVERAGE_GREEDY": 31
+      },
+      "t_p": 127252
+    },
+    {
+      "C_p_pair_count": 1,
+      "C_p_pairs": [
+        [
+          21,
+          10
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 143641,
+      "prime": 379,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 32,
+        "MARGINAL_COVERAGE_GREEDY": 32
+      },
+      "t_p": 26282
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          0,
+          12
+        ],
+        [
+          5,
+          11
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 273529,
+      "prime": 523,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 18,
+        "MARGINAL_COVERAGE_GREEDY": 18
+      },
+      "t_p": 190414
+    },
+    {
+      "C_p_pair_count": 3,
+      "C_p_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          19,
+          2
+        ],
+        [
+          22,
+          11
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 326041,
+      "prime": 571,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 13,
+        "MARGINAL_COVERAGE_GREEDY": 11
+      },
+      "t_p": 247371
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          9,
+          4
+        ],
+        [
+          10,
+          0
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 344569,
+      "prime": 587,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 19,
+        "MARGINAL_COVERAGE_GREEDY": 19
+      },
+      "t_p": 116576
+    },
+    {
+      "C_p_pair_count": 2,
+      "C_p_pairs": [
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "direct_binding_verified": true,
+      "p_squared": 564001,
+      "prime": 751,
+      "selected_at_step": {
+        "COVERAGE_PER_MODULUS_BIT_GREEDY": 20,
+        "MARGINAL_COVERAGE_GREEDY": 20
+      },
+      "t_p": 96063
+    }
+  ]
+}

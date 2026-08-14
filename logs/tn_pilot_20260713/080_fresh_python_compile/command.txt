@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=env PYTHONPYCACHEPREFIX=/tmp/a303656_tn_acceptance_pycache python3 -m py_compile /tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_counting_property_tests.py /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_provenance_negative_tests.py 
+started_utc=2026-07-13T08:49:07Z
+finished_utc=2026-07-13T08:49:08Z

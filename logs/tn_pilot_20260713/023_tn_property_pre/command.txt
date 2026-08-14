@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_prebuild/tn_count_bitset --clean /tmp/a303656_tn_prebuild/tn_count_clean --oracle /tmp/a303656_tn_prebuild/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_pre 
+started_utc=2026-07-13T08:32:21Z
+finished_utc=2026-07-13T08:32:21Z

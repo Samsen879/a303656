@@ -1,0 +1,6 @@
+chunk=0 interval=[762930000001,762940000000] candidates=0 elapsed=5.075693
+chunk=1 interval=[762940000001,762950000000] candidates=0 elapsed=5.159767
+complete_gapless_coverage=true
+integers_tested=20000000
+candidate_count=0
+wall_seconds=5.169264

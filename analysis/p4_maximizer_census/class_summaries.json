@@ -1,0 +1,6109 @@
+{
+  "aggregate_G231": {
+    "T_histogram": {
+      "15": 1,
+      "18": 1,
+      "19": 1,
+      "20": 9,
+      "21": 12,
+      "22": 19,
+      "23": 51,
+      "24": 65,
+      "25": 74,
+      "26": 117,
+      "27": 192,
+      "28": 223,
+      "29": 298,
+      "30": 326,
+      "31": 331,
+      "32": 368,
+      "33": 353,
+      "34": 369,
+      "35": 320,
+      "36": 318,
+      "37": 282,
+      "38": 230,
+      "39": 203,
+      "40": 139,
+      "41": 111,
+      "42": 89,
+      "43": 64,
+      "44": 45,
+      "45": 25,
+      "46": 21,
+      "47": 9,
+      "48": 3,
+      "49": 1,
+      "50": 1
+    },
+    "best_residual_survival_rate": {
+      "class_id": "MAX-028",
+      "rate": {
+        "decimal": "0.183340097402597403",
+        "denominator": 9856,
+        "numerator": 1807
+      }
+    },
+    "class_means_distribution": [
+      {
+        "class_id": "MAX-028",
+        "mean_T": {
+          "decimal": "32.267857142857142857",
+          "denominator": 56,
+          "numerator": 1807
+        }
+      },
+      {
+        "class_id": "MAX-048",
+        "mean_T": {
+          "decimal": "32.272727272727272727",
+          "denominator": 11,
+          "numerator": 355
+        }
+      },
+      {
+        "class_id": "MAX-023",
+        "mean_T": {
+          "decimal": "32.381818181818181818",
+          "denominator": 55,
+          "numerator": 1781
+        }
+      },
+      {
+        "class_id": "MAX-009",
+        "mean_T": {
+          "decimal": "32.472727272727272727",
+          "denominator": 55,
+          "numerator": 1786
+        }
+      },
+      {
+        "class_id": "MAX-026",
+        "mean_T": {
+          "decimal": "32.490909090909090909",
+          "denominator": 55,
+          "numerator": 1787
+        }
+      },
+      {
+        "class_id": "MAX-035",
+        "mean_T": {
+          "decimal": "32.509090909090909091",
+          "denominator": 55,
+          "numerator": 1788
+        }
+      },
+      {
+        "class_id": "MAX-055",
+        "mean_T": {
+          "decimal": "32.535714285714285714",
+          "denominator": 28,
+          "numerator": 911
+        }
+      },
+      {
+        "class_id": "MAX-005",
+        "mean_T": {
+          "decimal": "32.618181818181818182",
+          "denominator": 55,
+          "numerator": 1794
+        }
+      },
+      {
+        "class_id": "MAX-074",
+        "mean_T": {
+          "decimal": "32.660714285714285714",
+          "denominator": 56,
+          "numerator": 1829
+        }
+      },
+      {
+        "class_id": "MAX-053",
+        "mean_T": {
+          "decimal": "32.672727272727272727",
+          "denominator": 55,
+          "numerator": 1797
+        }
+      },
+      {
+        "class_id": "MAX-011",
+        "mean_T": {
+          "decimal": "32.727272727272727273",
+          "denominator": 11,
+          "numerator": 360
+        }
+      },
+      {
+        "class_id": "MAX-022",
+        "mean_T": {
+          "decimal": "32.727272727272727273",
+          "denominator": 11,
+          "numerator": 360
+        }
+      },
+      {
+        "class_id": "MAX-040",
+        "mean_T": {
+          "decimal": "32.763636363636363636",
+          "denominator": 55,
+          "numerator": 1802
+        }
+      },
+      {
+        "class_id": "MAX-064",
+        "mean_T": {
+          "decimal": "32.767857142857142857",
+          "denominator": 56,
+          "numerator": 1835
+        }
+      },
+      {
+        "class_id": "MAX-073",
+        "mean_T": {
+          "decimal": "32.821428571428571429",
+          "denominator": 28,
+          "numerator": 919
+        }
+      },
+      {
+        "class_id": "MAX-027",
+        "mean_T": {
+          "decimal": "32.836363636363636364",
+          "denominator": 55,
+          "numerator": 1806
+        }
+      },
+      {
+        "class_id": "MAX-030",
+        "mean_T": {
+          "decimal": "32.836363636363636364",
+          "denominator": 55,
+          "numerator": 1806
+        }
+      },
+      {
+        "class_id": "MAX-062",
+        "mean_T": {
+          "decimal": "32.839285714285714286",
+          "denominator": 56,
+          "numerator": 1839
+        }
+      },
+      {
+        "class_id": "MAX-070",
+        "mean_T": {
+          "decimal": "32.910714285714285714",
+          "denominator": 56,
+          "numerator": 1843
+        }
+      },
+      {
+        "class_id": "MAX-039",
+        "mean_T": {
+          "decimal": "33.000000000000000000",
+          "denominator": 1,
+          "numerator": 33
+        }
+      },
+      {
+        "class_id": "MAX-084",
+        "mean_T": {
+          "decimal": "33.000000000000000000",
+          "denominator": 1,
+          "numerator": 33
+        }
+      },
+      {
+        "class_id": "MAX-003",
+        "mean_T": {
+          "decimal": "33.036363636363636364",
+          "denominator": 55,
+          "numerator": 1817
+        }
+      },
+      {
+        "class_id": "MAX-066",
+        "mean_T": {
+          "decimal": "33.036363636363636364",
+          "denominator": 55,
+          "numerator": 1817
+        }
+      },
+      {
+        "class_id": "MAX-015",
+        "mean_T": {
+          "decimal": "33.053571428571428571",
+          "denominator": 56,
+          "numerator": 1851
+        }
+      },
+      {
+        "class_id": "MAX-019",
+        "mean_T": {
+          "decimal": "33.053571428571428571",
+          "denominator": 56,
+          "numerator": 1851
+        }
+      },
+      {
+        "class_id": "MAX-043",
+        "mean_T": {
+          "decimal": "33.053571428571428571",
+          "denominator": 56,
+          "numerator": 1851
+        }
+      },
+      {
+        "class_id": "MAX-079",
+        "mean_T": {
+          "decimal": "33.089285714285714286",
+          "denominator": 56,
+          "numerator": 1853
+        }
+      },
+      {
+        "class_id": "MAX-007",
+        "mean_T": {
+          "decimal": "33.107142857142857143",
+          "denominator": 28,
+          "numerator": 927
+        }
+      },
+      {
+        "class_id": "MAX-067",
+        "mean_T": {
+          "decimal": "33.142857142857142857",
+          "denominator": 7,
+          "numerator": 232
+        }
+      },
+      {
+        "class_id": "MAX-082",
+        "mean_T": {
+          "decimal": "33.181818181818181818",
+          "denominator": 11,
+          "numerator": 365
+        }
+      },
+      {
+        "class_id": "MAX-016",
+        "mean_T": {
+          "decimal": "33.200000000000000000",
+          "denominator": 5,
+          "numerator": 166
+        }
+      },
+      {
+        "class_id": "MAX-012",
+        "mean_T": {
+          "decimal": "33.232142857142857143",
+          "denominator": 56,
+          "numerator": 1861
+        }
+      },
+      {
+        "class_id": "MAX-014",
+        "mean_T": {
+          "decimal": "33.232142857142857143",
+          "denominator": 56,
+          "numerator": 1861
+        }
+      },
+      {
+        "class_id": "MAX-032",
+        "mean_T": {
+          "decimal": "33.254545454545454545",
+          "denominator": 55,
+          "numerator": 1829
+        }
+      },
+      {
+        "class_id": "MAX-004",
+        "mean_T": {
+          "decimal": "33.267857142857142857",
+          "denominator": 56,
+          "numerator": 1863
+        }
+      },
+      {
+        "class_id": "MAX-037",
+        "mean_T": {
+          "decimal": "33.285714285714285714",
+          "denominator": 7,
+          "numerator": 233
+        }
+      },
+      {
+        "class_id": "MAX-060",
+        "mean_T": {
+          "decimal": "33.285714285714285714",
+          "denominator": 7,
+          "numerator": 233
+        }
+      },
+      {
+        "class_id": "MAX-071",
+        "mean_T": {
+          "decimal": "33.290909090909090909",
+          "denominator": 55,
+          "numerator": 1831
+        }
+      },
+      {
+        "class_id": "MAX-024",
+        "mean_T": {
+          "decimal": "33.303571428571428571",
+          "denominator": 56,
+          "numerator": 1865
+        }
+      },
+      {
+        "class_id": "MAX-020",
+        "mean_T": {
+          "decimal": "33.321428571428571429",
+          "denominator": 28,
+          "numerator": 933
+        }
+      },
+      {
+        "class_id": "MAX-078",
+        "mean_T": {
+          "decimal": "33.339285714285714286",
+          "denominator": 56,
+          "numerator": 1867
+        }
+      },
+      {
+        "class_id": "MAX-051",
+        "mean_T": {
+          "decimal": "33.357142857142857143",
+          "denominator": 14,
+          "numerator": 467
+        }
+      },
+      {
+        "class_id": "MAX-029",
+        "mean_T": {
+          "decimal": "33.363636363636363636",
+          "denominator": 11,
+          "numerator": 367
+        }
+      },
+      {
+        "class_id": "MAX-047",
+        "mean_T": {
+          "decimal": "33.392857142857142857",
+          "denominator": 28,
+          "numerator": 935
+        }
+      },
+      {
+        "class_id": "MAX-069",
+        "mean_T": {
+          "decimal": "33.400000000000000000",
+          "denominator": 5,
+          "numerator": 167
+        }
+      },
+      {
+        "class_id": "MAX-080",
+        "mean_T": {
+          "decimal": "33.410714285714285714",
+          "denominator": 56,
+          "numerator": 1871
+        }
+      },
+      {
+        "class_id": "MAX-002",
+        "mean_T": {
+          "decimal": "33.446428571428571429",
+          "denominator": 56,
+          "numerator": 1873
+        }
+      },
+      {
+        "class_id": "MAX-050",
+        "mean_T": {
+          "decimal": "33.446428571428571429",
+          "denominator": 56,
+          "numerator": 1873
+        }
+      },
+      {
+        "class_id": "MAX-046",
+        "mean_T": {
+          "decimal": "33.464285714285714286",
+          "denominator": 28,
+          "numerator": 937
+        }
+      },
+      {
+        "class_id": "MAX-045",
+        "mean_T": {
+          "decimal": "33.472727272727272727",
+          "denominator": 55,
+          "numerator": 1841
+        }
+      },
+      {
+        "class_id": "MAX-041",
+        "mean_T": {
+          "decimal": "33.482142857142857143",
+          "denominator": 56,
+          "numerator": 1875
+        }
+      },
+      {
+        "class_id": "MAX-057",
+        "mean_T": {
+          "decimal": "33.500000000000000000",
+          "denominator": 2,
+          "numerator": 67
+        }
+      },
+      {
+        "class_id": "MAX-076",
+        "mean_T": {
+          "decimal": "33.517857142857142857",
+          "denominator": 56,
+          "numerator": 1877
+        }
+      },
+      {
+        "class_id": "MAX-008",
+        "mean_T": {
+          "decimal": "33.535714285714285714",
+          "denominator": 28,
+          "numerator": 939
+        }
+      },
+      {
+        "class_id": "MAX-083",
+        "mean_T": {
+          "decimal": "33.535714285714285714",
+          "denominator": 28,
+          "numerator": 939
+        }
+      },
+      {
+        "class_id": "MAX-034",
+        "mean_T": {
+          "decimal": "33.553571428571428571",
+          "denominator": 56,
+          "numerator": 1879
+        }
+      },
+      {
+        "class_id": "MAX-038",
+        "mean_T": {
+          "decimal": "33.571428571428571429",
+          "denominator": 7,
+          "numerator": 235
+        }
+      },
+      {
+        "class_id": "MAX-059",
+        "mean_T": {
+          "decimal": "33.581818181818181818",
+          "denominator": 55,
+          "numerator": 1847
+        }
+      },
+      {
+        "class_id": "MAX-061",
+        "mean_T": {
+          "decimal": "33.600000000000000000",
+          "denominator": 5,
+          "numerator": 168
+        }
+      },
+      {
+        "class_id": "MAX-017",
+        "mean_T": {
+          "decimal": "33.625000000000000000",
+          "denominator": 8,
+          "numerator": 269
+        }
+      },
+      {
+        "class_id": "MAX-077",
+        "mean_T": {
+          "decimal": "33.636363636363636364",
+          "denominator": 11,
+          "numerator": 370
+        }
+      },
+      {
+        "class_id": "MAX-063",
+        "mean_T": {
+          "decimal": "33.642857142857142857",
+          "denominator": 14,
+          "numerator": 471
+        }
+      },
+      {
+        "class_id": "MAX-036",
+        "mean_T": {
+          "decimal": "33.678571428571428571",
+          "denominator": 28,
+          "numerator": 943
+        }
+      },
+      {
+        "class_id": "MAX-010",
+        "mean_T": {
+          "decimal": "33.690909090909090909",
+          "denominator": 55,
+          "numerator": 1853
+        }
+      },
+      {
+        "class_id": "MAX-054",
+        "mean_T": {
+          "decimal": "33.696428571428571429",
+          "denominator": 56,
+          "numerator": 1887
+        }
+      },
+      {
+        "class_id": "MAX-072",
+        "mean_T": {
+          "decimal": "33.714285714285714286",
+          "denominator": 7,
+          "numerator": 236
+        }
+      },
+      {
+        "class_id": "MAX-056",
+        "mean_T": {
+          "decimal": "33.745454545454545455",
+          "denominator": 55,
+          "numerator": 1856
+        }
+      },
+      {
+        "class_id": "MAX-001",
+        "mean_T": {
+          "decimal": "33.750000000000000000",
+          "denominator": 4,
+          "numerator": 135
+        }
+      },
+      {
+        "class_id": "MAX-042",
+        "mean_T": {
+          "decimal": "33.750000000000000000",
+          "denominator": 4,
+          "numerator": 135
+        }
+      },
+      {
+        "class_id": "MAX-044",
+        "mean_T": {
+          "decimal": "33.750000000000000000",
+          "denominator": 4,
+          "numerator": 135
+        }
+      },
+      {
+        "class_id": "MAX-065",
+        "mean_T": {
+          "decimal": "33.763636363636363636",
+          "denominator": 55,
+          "numerator": 1857
+        }
+      },
+      {
+        "class_id": "MAX-018",
+        "mean_T": {
+          "decimal": "33.800000000000000000",
+          "denominator": 5,
+          "numerator": 169
+        }
+      },
+      {
+        "class_id": "MAX-052",
+        "mean_T": {
+          "decimal": "33.800000000000000000",
+          "denominator": 5,
+          "numerator": 169
+        }
+      },
+      {
+        "class_id": "MAX-033",
+        "mean_T": {
+          "decimal": "33.839285714285714286",
+          "denominator": 56,
+          "numerator": 1895
+        }
+      },
+      {
+        "class_id": "MAX-049",
+        "mean_T": {
+          "decimal": "33.872727272727272727",
+          "denominator": 55,
+          "numerator": 1863
+        }
+      },
+      {
+        "class_id": "MAX-013",
+        "mean_T": {
+          "decimal": "33.946428571428571429",
+          "denominator": 56,
+          "numerator": 1901
+        }
+      },
+      {
+        "class_id": "MAX-025",
+        "mean_T": {
+          "decimal": "33.964285714285714286",
+          "denominator": 28,
+          "numerator": 951
+        }
+      },
+      {
+        "class_id": "MAX-031",
+        "mean_T": {
+          "decimal": "33.982142857142857143",
+          "denominator": 56,
+          "numerator": 1903
+        }
+      },
+      {
+        "class_id": "MAX-021",
+        "mean_T": {
+          "decimal": "34.071428571428571429",
+          "denominator": 14,
+          "numerator": 477
+        }
+      },
+      {
+        "class_id": "MAX-058",
+        "mean_T": {
+          "decimal": "34.160714285714285714",
+          "denominator": 56,
+          "numerator": 1913
+        }
+      },
+      {
+        "class_id": "MAX-081",
+        "mean_T": {
+          "decimal": "34.163636363636363636",
+          "denominator": 55,
+          "numerator": 1879
+        }
+      },
+      {
+        "class_id": "MAX-075",
+        "mean_T": {
+          "decimal": "34.321428571428571429",
+          "denominator": 28,
+          "numerator": 961
+        }
+      },
+      {
+        "class_id": "MAX-006",
+        "mean_T": {
+          "decimal": "34.345454545454545455",
+          "denominator": 55,
+          "numerator": 1889
+        }
+      },
+      {
+        "class_id": "MAX-068",
+        "mean_T": {
+          "decimal": "34.446428571428571429",
+          "denominator": 56,
+          "numerator": 1929
+        }
+      }
+    ],
+    "class_minima_distribution": {
+      "15": 1,
+      "18": 1,
+      "20": 9,
+      "21": 10,
+      "22": 13,
+      "23": 27,
+      "24": 14,
+      "25": 7,
+      "26": 1,
+      "27": 1
+    },
+    "class_minimum_threshold_counts": {
+      "minimum_T<=10": 0,
+      "minimum_T<=12": 0,
+      "minimum_T<=14": 0,
+      "minimum_T<=16": 1,
+      "minimum_T<=18": 2,
+      "minimum_T<=20": 11
+    },
+    "classes_per_persistent_covered_mask": [
+      {
+        "class_count": 84,
+        "class_ids": [
+          "MAX-001",
+          "MAX-002",
+          "MAX-003",
+          "MAX-004",
+          "MAX-005",
+          "MAX-006",
+          "MAX-007",
+          "MAX-008",
+          "MAX-009",
+          "MAX-010",
+          "MAX-011",
+          "MAX-012",
+          "MAX-013",
+          "MAX-014",
+          "MAX-015",
+          "MAX-016",
+          "MAX-017",
+          "MAX-018",
+          "MAX-019",
+          "MAX-020",
+          "MAX-021",
+          "MAX-022",
+          "MAX-023",
+          "MAX-024",
+          "MAX-025",
+          "MAX-026",
+          "MAX-027",
+          "MAX-028",
+          "MAX-029",
+          "MAX-030",
+          "MAX-031",
+          "MAX-032",
+          "MAX-033",
+          "MAX-034",
+          "MAX-035",
+          "MAX-036",
+          "MAX-037",
+          "MAX-038",
+          "MAX-039",
+          "MAX-040",
+          "MAX-041",
+          "MAX-042",
+          "MAX-043",
+          "MAX-044",
+          "MAX-045",
+          "MAX-046",
+          "MAX-047",
+          "MAX-048",
+          "MAX-049",
+          "MAX-050",
+          "MAX-051",
+          "MAX-052",
+          "MAX-053",
+          "MAX-054",
+          "MAX-055",
+          "MAX-056",
+          "MAX-057",
+          "MAX-058",
+          "MAX-059",
+          "MAX-060",
+          "MAX-061",
+          "MAX-062",
+          "MAX-063",
+          "MAX-064",
+          "MAX-065",
+          "MAX-066",
+          "MAX-067",
+          "MAX-068",
+          "MAX-069",
+          "MAX-070",
+          "MAX-071",
+          "MAX-072",
+          "MAX-073",
+          "MAX-074",
+          "MAX-075",
+          "MAX-076",
+          "MAX-077",
+          "MAX-078",
+          "MAX-079",
+          "MAX-080",
+          "MAX-081",
+          "MAX-082",
+          "MAX-083",
+          "MAX-084"
+        ],
+        "mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35"
+      }
+    ],
+    "classes_with_point_below_known_T16": 1,
+    "distinct_persistent_covered_masks": 1,
+    "global_argmins": [
+      {
+        "class_id": "MAX-038",
+        "n": 196653638594,
+        "point_index": 11,
+        "residue_tuple": [
+          2,
+          7,
+          72,
+          362
+        ]
+      }
+    ],
+    "global_minimum_T": 15,
+    "maximizing_class_count": 84,
+    "total_points": 4671,
+    "worst_residual_survival_rate": {
+      "class_id": "MAX-068",
+      "rate": {
+        "decimal": "0.195718344155844156",
+        "denominator": 9856,
+        "numerator": 1929
+      }
+    }
+  },
+  "classes": [
+    {
+      "G": 216,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        240000005594
+      ],
+      "class_id": "CAL-216",
+      "class_index": 0,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 1,
+        "T<=18": 1,
+        "T<=20": 1,
+        "T<=25": 8,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 626828474,
+      "inverse_empirical_cdf": {
+        "10": 23,
+        "25": 28,
+        "50": 30,
+        "75": 34,
+        "90": 37
+      },
+      "maximum_T": 40,
+      "mean_T": {
+        "decimal": "30.454545454545454545",
+        "denominator": 11,
+        "numerator": 335
+      },
+      "median_T": {
+        "decimal": "30.000000000000000000",
+        "denominator": 1,
+        "numerator": 30
+      },
+      "minimum_T": 16,
+      "persistent_covered_mask_sha256": "92cf2935795f45f8f3e5b68930bc5f4dd5fb87d7a279fb9285637337d0bf2fcb",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.857302587831240529",
+        "variance_denominator": 605,
+        "variance_numerator": 14274
+      },
+      "residual_survival_rate": {
+        "decimal": "0.159447881960970966",
+        "denominator": 2101,
+        "numerator": 335
+      },
+      "residue_tuple": [
+        2,
+        41,
+        74,
+        504
+      ],
+      "total_winner_incidences": 1675,
+      "uncovered_pair_count": 191
+    },
+    {
+      "G": 227,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        206798315114
+      ],
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 1,
+        "T<=20": 5,
+        "T<=25": 18,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 169582034,
+      "inverse_empirical_cdf": {
+        "10": 21,
+        "25": 24,
+        "50": 27,
+        "75": 30,
+        "90": 32
+      },
+      "maximum_T": 34,
+      "mean_T": {
+        "decimal": "27.160714285714285714",
+        "denominator": 56,
+        "numerator": 1521
+      },
+      "median_T": {
+        "decimal": "27.000000000000000000",
+        "denominator": 1,
+        "numerator": 27
+      },
+      "minimum_T": 18,
+      "persistent_covered_mask_sha256": "69f65ed672284ac9caa227af4c518051b71ddfb2c04cf1bfb80db040c12fb88a",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.186614664253061577",
+        "variance_denominator": 3136,
+        "variance_numerator": 54967
+      },
+      "residual_survival_rate": {
+        "decimal": "0.150892857142857143",
+        "denominator": 1120,
+        "numerator": 169
+      },
+      "residue_tuple": [
+        2,
+        41,
+        50,
+        504
+      ],
+      "total_winner_incidences": 1521,
+      "uncovered_pair_count": 180
+    },
+    {
+      "G": 230,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        187577205914,
+        228225481274
+      ],
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 0,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 143491754,
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.714285714285714286",
+        "denominator": 7,
+        "numerator": 236
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 26,
+      "persistent_covered_mask_sha256": "0c5af57d6002d3814b95ab2dbc749bb800533051391fd7fa74f9f55886f135db",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.025429372458677386",
+        "variance_denominator": 49,
+        "variance_numerator": 794
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190476190476190476",
+        "denominator": 21,
+        "numerator": 4
+      },
+      "residue_tuple": [
+        2,
+        7,
+        32,
+        504
+      ],
+      "total_winner_incidences": 1888,
+      "uncovered_pair_count": 177
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        202473286274
+      ],
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 361028234,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.811630255358958303",
+        "variance_denominator": 112,
+        "variance_numerator": 2593
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        17
+      ],
+      "total_winner_incidences": 1890,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        246312549434
+      ],
+      "class_id": "MAX-002",
+      "class_index": 4,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 164659754,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.446428571428571429",
+        "denominator": 56,
+        "numerator": 1873
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.791807155586139676",
+        "variance_denominator": 3136,
+        "variance_numerator": 72007
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190036525974025974",
+        "denominator": 9856,
+        "numerator": 1873
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        40
+      ],
+      "total_winner_incidences": 1873,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        198300456074
+      ],
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 704673074,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 35,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.036363636363636364",
+        "denominator": 55,
+        "numerator": 1817
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.824044460686249309",
+        "variance_denominator": 3025,
+        "variance_numerator": 70396
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187706611570247934",
+        "denominator": 9680,
+        "numerator": 1817
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        109
+      ],
+      "total_winner_incidences": 1817,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        245134338554
+      ],
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 115567634,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.267857142857142857",
+        "denominator": 56,
+        "numerator": 1863
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.348608445027359014",
+        "variance_denominator": 3136,
+        "variance_numerator": 59303
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189021915584415584",
+        "denominator": 9856,
+        "numerator": 1863
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        178
+      ],
+      "total_winner_incidences": 1863,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        215384513834
+      ],
+      "class_id": "MAX-005",
+      "class_index": 7,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 851949434,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.618181818181818182",
+        "denominator": 55,
+        "numerator": 1794
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.970790714823800787",
+        "variance_denominator": 3025,
+        "variance_numerator": 74744
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185330578512396694",
+        "denominator": 4840,
+        "numerator": 897
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        224
+      ],
+      "total_winner_incidences": 1794,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        186960176354
+      ],
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 655580954,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 32,
+        "50": 34,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "34.345454545454545455",
+        "denominator": 55,
+        "numerator": 1889
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.481145072079768474",
+        "variance_denominator": 3025,
+        "variance_numerator": 60744
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195144628099173554",
+        "denominator": 9680,
+        "numerator": 1889
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        247
+      ],
+      "total_winner_incidences": 1889,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        221766489434,
+        231928558274
+      ],
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 459212474,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.107142857142857143",
+        "denominator": 28,
+        "numerator": 927
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.514573905809983322",
+        "variance_denominator": 784,
+        "variance_numerator": 15979
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188108766233766234",
+        "denominator": 4928,
+        "numerator": 927
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        270
+      ],
+      "total_winner_incidences": 1854,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        196533139754,
+        215728158674
+      ],
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 66475514,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.535714285714285714",
+        "denominator": 28,
+        "numerator": 939
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.491914504792733356",
+        "variance_denominator": 784,
+        "variance_numerator": 15819
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190543831168831169",
+        "denominator": 4928,
+        "numerator": 939
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        316
+      ],
+      "total_winner_incidences": 1878,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        218919146474
+      ],
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 999225794,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 28,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.472727272727272727",
+        "denominator": 55,
+        "numerator": 1786
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.516436746683976005",
+        "variance_denominator": 3025,
+        "variance_numerator": 92054
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184504132231404959",
+        "denominator": 4840,
+        "numerator": 893
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        339
+      ],
+      "total_winner_incidences": 1786,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        204044234114
+      ],
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 802857314,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.690909090909090909",
+        "denominator": 55,
+        "numerator": 1853
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.678277566769156247",
+        "variance_denominator": 3025,
+        "variance_numerator": 66206
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191425619834710744",
+        "denominator": 9680,
+        "numerator": 1853
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        362
+      ],
+      "total_winner_incidences": 1853,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        195944034314
+      ],
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 606488834,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 33,
+        "75": 34,
+        "90": 38
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.727272727272727273",
+        "denominator": 11,
+        "numerator": 360
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.162405534629073573",
+        "variance_denominator": 605,
+        "variance_numerator": 10482
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185950413223140496",
+        "denominator": 242,
+        "numerator": 45
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        385
+      ],
+      "total_winner_incidences": 1800,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        193293059834
+      ],
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 213751874,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "33.232142857142857143",
+        "denominator": 56,
+        "numerator": 1861
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.632922062449863172",
+        "variance_denominator": 3136,
+        "variance_numerator": 67311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188818993506493506",
+        "denominator": 9856,
+        "numerator": 1861
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        431
+      ],
+      "total_winner_incidences": 1861,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        217937304074
+      ],
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 17383394,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.946428571428571429",
+        "denominator": 56,
+        "numerator": 1901
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.299661858678016696",
+        "variance_denominator": 3136,
+        "variance_numerator": 88079
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192877435064935065",
+        "denominator": 9856,
+        "numerator": 1901
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        454
+      ],
+      "total_winner_incidences": 1901,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        225252029954
+      ],
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 557396714,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.232142857142857143",
+        "denominator": 56,
+        "numerator": 1861
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.967721062118968064",
+        "variance_denominator": 3136,
+        "variance_numerator": 77391
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188818993506493506",
+        "denominator": 9856,
+        "numerator": 1861
+      },
+      "residue_tuple": [
+        2,
+        7,
+        50,
+        523
+      ],
+      "total_winner_incidences": 1861,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        203294463554,
+        222489482474
+      ],
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 53086754,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.951261177205052186",
+        "variance_denominator": 3136,
+        "variance_numerator": 76879
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        17
+      ],
+      "total_winner_incidences": 1851,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        241488132914
+      ],
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 985837034,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.200000000000000000",
+        "denominator": 5,
+        "numerator": 166
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.053891389990309420",
+        "variance_denominator": 275,
+        "variance_numerator": 7024
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188636363636363636",
+        "denominator": 440,
+        "numerator": 83
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        40
+      ],
+      "total_winner_incidences": 1826,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        207025464674
+      ],
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 396731594,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.625000000000000000",
+        "denominator": 8,
+        "numerator": 269
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.779280056362344743",
+        "variance_denominator": 448,
+        "variance_numerator": 10233
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191051136363636364",
+        "denominator": 1408,
+        "numerator": 269
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        109
+      ],
+      "total_winner_incidences": 1883,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        224502259394
+      ],
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 936744914,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.800000000000000000",
+        "denominator": 5,
+        "numerator": 169
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.327117590046405028",
+        "variance_denominator": 275,
+        "variance_numerator": 7804
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192045454545454545",
+        "denominator": 880,
+        "numerator": 169
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        178
+      ],
+      "total_winner_incidences": 1859,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        200398028474
+      ],
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 544007954,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.465540238809043507",
+        "variance_denominator": 3136,
+        "variance_numerator": 93679
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        224
+      ],
+      "total_winner_incidences": 1851,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        226171391474
+      ],
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 347639474,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.321428571428571429",
+        "denominator": 28,
+        "numerator": 933
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.039512245591768354",
+        "variance_denominator": 784,
+        "variance_numerator": 19911
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189326298701298701",
+        "denominator": 4928,
+        "numerator": 933
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        247
+      ],
+      "total_winner_incidences": 1866,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        245170041914
+      ],
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 151270994,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "34.071428571428571429",
+        "denominator": 14,
+        "numerator": 477
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.024430112876849785",
+        "variance_denominator": 49,
+        "variance_numerator": 1237
+      },
+      "residual_survival_rate": {
+        "decimal": "0.193587662337662338",
+        "denominator": 2464,
+        "numerator": 477
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        270
+      ],
+      "total_winner_incidences": 1908,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        225582286034
+      ],
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 887652794,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.727272727272727273",
+        "denominator": 11,
+        "numerator": 360
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.358709339636908678",
+        "variance_denominator": 605,
+        "variance_numerator": 11494
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185950413223140496",
+        "denominator": 242,
+        "numerator": 45
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        316
+      ],
+      "total_winner_incidences": 1800,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        194899711034
+      ],
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 691284314,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 28,
+        "50": 32,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.381818181818181818",
+        "denominator": 55,
+        "numerator": 1781
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.028973902536847945",
+        "variance_denominator": 3025,
+        "variance_numerator": 76504
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183987603305785124",
+        "denominator": 9680,
+        "numerator": 1781
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        339
+      ],
+      "total_winner_incidences": 1781,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        240997211714
+      ],
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 494915834,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.303571428571428571",
+        "denominator": 56,
+        "numerator": 1865
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.294605215476891629",
+        "variance_denominator": 3136,
+        "variance_numerator": 87911
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189224837662337662",
+        "denominator": 9856,
+        "numerator": 1865
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        362
+      ],
+      "total_winner_incidences": 1865,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        201281686634,
+        231767893154,
+        243059080754
+      ],
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 298547354,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.964285714285714286",
+        "denominator": 28,
+        "numerator": 951
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.408208990950323692",
+        "variance_denominator": 784,
+        "variance_numerator": 22931
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192978896103896104",
+        "denominator": 4928,
+        "numerator": 951
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        385
+      ],
+      "total_winner_incidences": 1902,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        235891631234
+      ],
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1034929154,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 40,
+      "mean_T": {
+        "decimal": "32.490909090909090909",
+        "denominator": 55,
+        "numerator": 1787
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.544218013626976153",
+        "variance_denominator": 3025,
+        "variance_numerator": 62466
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184607438016528926",
+        "denominator": 9680,
+        "numerator": 1787
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        431
+      ],
+      "total_winner_incidences": 1787,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        239082619034,
+        244728212834
+      ],
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 838560674,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 34,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "32.836363636363636364",
+        "denominator": 55,
+        "numerator": 1806
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.658379103053828856",
+        "variance_denominator": 3025,
+        "variance_numerator": 65644
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186570247933884298",
+        "denominator": 4840,
+        "numerator": 903
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        454
+      ],
+      "total_winner_incidences": 1806,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        233977038554,
+        235106157314
+      ],
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 249455234,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 38
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "32.267857142857142857",
+        "denominator": 56,
+        "numerator": 1807
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.393546693847740156",
+        "variance_denominator": 3136,
+        "variance_numerator": 60535
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183340097402597403",
+        "denominator": 9856,
+        "numerator": 1807
+      },
+      "residue_tuple": [
+        2,
+        7,
+        61,
+        523
+      ],
+      "total_winner_incidences": 1807,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        218794184714
+      ],
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 874264034,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.363636363636363636",
+        "denominator": 11,
+        "numerator": 367
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.223595544567280191",
+        "variance_denominator": 605,
+        "variance_numerator": 16508
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189566115702479339",
+        "denominator": 1936,
+        "numerator": 367
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        17
+      ],
+      "total_winner_incidences": 1835,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        208435747394
+      ],
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 677895554,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.836363636363636364",
+        "denominator": 55,
+        "numerator": 1806
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.526016603678659904",
+        "variance_denominator": 3025,
+        "variance_numerator": 92374
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186570247933884298",
+        "denominator": 4840,
+        "numerator": 903
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        40
+      ],
+      "total_winner_incidences": 1806,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        184135147994,
+        245107561034
+      ],
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 88790114,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.982142857142857143",
+        "denominator": 56,
+        "numerator": 1903
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.201274127655685114",
+        "variance_denominator": 3136,
+        "variance_numerator": 84839
+      },
+      "residual_survival_rate": {
+        "decimal": "0.193080357142857143",
+        "denominator": 896,
+        "numerator": 173
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        109
+      ],
+      "total_winner_incidences": 1903,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        207257536514
+      ],
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 628803434,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.254545454545454545",
+        "denominator": 55,
+        "numerator": 1829
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.914609692513950402",
+        "variance_denominator": 3025,
+        "variance_numerator": 73064
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188946280991735537",
+        "denominator": 9680,
+        "numerator": 1829
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        178
+      ],
+      "total_winner_incidences": 1829,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        207993918314
+      ],
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 236066474,
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 31,
+        "50": 34,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.839285714285714286",
+        "denominator": 56,
+        "numerator": 1895
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "3.926907114994689859",
+        "variance_denominator": 3136,
+        "variance_numerator": 48359
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192268668831168831",
+        "denominator": 9856,
+        "numerator": 1895
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        224
+      ],
+      "total_winner_incidences": 1895,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        185215174634,
+        196506362234,
+        215701381154,
+        242800231394
+      ],
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 39697994,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 35,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.553571428571428571",
+        "denominator": 56,
+        "numerator": 1879
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.035302668081003596",
+        "variance_denominator": 3136,
+        "variance_numerator": 79511
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190645292207792208",
+        "denominator": 9856,
+        "numerator": 1879
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        247
+      ],
+      "total_winner_incidences": 1879,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        231312675314
+      ],
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 972448274,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.509090909090909091",
+        "denominator": 55,
+        "numerator": 1788
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.343742530762351597",
+        "variance_denominator": 3025,
+        "variance_numerator": 57076
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184710743801652893",
+        "denominator": 2420,
+        "numerator": 447
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        270
+      ],
+      "total_winner_incidences": 1788,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        238823769674
+      ],
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 579711314,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.678571428571428571",
+        "denominator": 28,
+        "numerator": 943
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.814810272397415398",
+        "variance_denominator": 784,
+        "variance_numerator": 18175
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191355519480519481",
+        "denominator": 4928,
+        "numerator": 943
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        316
+      ],
+      "total_winner_incidences": 1886,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        201366482114
+      ],
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 383342834,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.285714285714285714",
+        "denominator": 7,
+        "numerator": 233
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.783581614358062753",
+        "variance_denominator": 196,
+        "variance_numerator": 4485
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189123376623376623",
+        "denominator": 1232,
+        "numerator": 233
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        339
+      ],
+      "total_winner_incidences": 1864,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        196653638594
+      ],
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 1,
+        "T<=18": 1,
+        "T<=20": 2,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 186974354,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.571428571428571429",
+        "denominator": 7,
+        "numerator": 235
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 15,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.725435550671927630",
+        "variance_denominator": 196,
+        "variance_numerator": 6425
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190746753246753247",
+        "denominator": 1232,
+        "numerator": 235
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        362
+      ],
+      "total_winner_incidences": 1880,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        208877576474
+      ],
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1119724634,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.154748157905347312",
+        "variance_denominator": 7,
+        "variance_numerator": 186
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187500000000000000",
+        "denominator": 16,
+        "numerator": 3
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        385
+      ],
+      "total_winner_incidences": 1848,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        245745758594
+      ],
+      "class_id": "MAX-040",
+      "class_index": 42,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 726987674,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 42
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "32.763636363636363636",
+        "denominator": 55,
+        "numerator": 1802
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.539818298180862189",
+        "variance_denominator": 3025,
+        "variance_numerator": 92836
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186157024793388430",
+        "denominator": 4840,
+        "numerator": 901
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        431
+      ],
+      "total_winner_incidences": 1802,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        244420271354
+      ],
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 530619194,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 49,
+      "mean_T": {
+        "decimal": "33.482142857142857143",
+        "denominator": 56,
+        "numerator": 1875
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.158180297313369089",
+        "variance_denominator": 3136,
+        "variance_numerator": 83439
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190239448051948052",
+        "denominator": 9856,
+        "numerator": 1875
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        454
+      ],
+      "total_winner_incidences": 1875,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        190762584194
+      ],
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1070632514,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.965056466374346712",
+        "variance_denominator": 112,
+        "variance_numerator": 2761
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "residue_tuple": [
+        2,
+        7,
+        72,
+        523
+      ],
+      "total_winner_incidences": 1890,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        204936818114
+      ],
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 566322554,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 32,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.319840367023454671",
+        "variance_denominator": 3136,
+        "variance_numerator": 88751
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        17
+      ],
+      "total_winner_incidences": 1851,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        204740449634
+      ],
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 369954074,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.837539220955806813",
+        "variance_denominator": 112,
+        "variance_numerator": 2621
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        40
+      ],
+      "total_winner_incidences": 1890,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        189472800314
+      ],
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 909967394,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.472727272727272727",
+        "denominator": 55,
+        "numerator": 1841
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.183380944569762723",
+        "variance_denominator": 3025,
+        "variance_numerator": 81274
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190185950413223140",
+        "denominator": 9680,
+        "numerator": 1841
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        109
+      ],
+      "total_winner_incidences": 1841,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        231790207754
+      ],
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 320861954,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 31,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.464285714285714286",
+        "denominator": 28,
+        "numerator": 937
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.832790844526460107",
+        "variance_denominator": 784,
+        "variance_numerator": 18311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190137987012987013",
+        "denominator": 4928,
+        "numerator": 937
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        178
+      ],
+      "total_winner_incidences": 1874,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        243817777154
+      ],
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1057243754,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 32,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.392857142857142857",
+        "denominator": 28,
+        "numerator": 935
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.886857635640760935",
+        "variance_denominator": 784,
+        "variance_numerator": 18723
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189732142857142857",
+        "denominator": 448,
+        "numerator": 85
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        224
+      ],
+      "total_winner_incidences": 1870,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        184907233154,
+        191681945714,
+        232330221074
+      ],
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 860875274,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 28,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "32.272727272727272727",
+        "denominator": 11,
+        "numerator": 355
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.526505959163989374",
+        "variance_denominator": 605,
+        "variance_numerator": 12396
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183367768595041322",
+        "denominator": 1936,
+        "numerator": 355
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        247
+      ],
+      "total_winner_incidences": 1775,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        198260289794
+      ],
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 664506794,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.872727272727272727",
+        "denominator": 55,
+        "numerator": 1863
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.698373201843554370",
+        "variance_denominator": 3025,
+        "variance_numerator": 66776
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192458677685950413",
+        "denominator": 9680,
+        "numerator": 1863
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        270
+      ],
+      "total_winner_incidences": 1863,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        215933452994
+      ],
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 271769834,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.446428571428571429",
+        "denominator": 56,
+        "numerator": 1873
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.667209486165700495",
+        "variance_denominator": 3136,
+        "variance_numerator": 68311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190036525974025974",
+        "denominator": 9856,
+        "numerator": 1873
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        316
+      ],
+      "total_winner_incidences": 1873,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        193154709314
+      ],
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 75401354,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.357142857142857143",
+        "denominator": 14,
+        "numerator": 467
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.170066908342163213",
+        "variance_denominator": 196,
+        "variance_numerator": 5239
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189529220779220779",
+        "denominator": 2464,
+        "numerator": 467
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        339
+      ],
+      "total_winner_incidences": 1868,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        205378647194
+      ],
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1008151634,
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.800000000000000000",
+        "denominator": 5,
+        "numerator": 169
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.881877433193839692",
+        "variance_denominator": 275,
+        "variance_numerator": 6554
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192045454545454545",
+        "denominator": 880,
+        "numerator": 169
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        362
+      ],
+      "total_winner_incidences": 1859,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        228893772674
+      ],
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 811783154,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.672727272727272727",
+        "denominator": 55,
+        "numerator": 1797
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.850696465286929025",
+        "variance_denominator": 3025,
+        "variance_numerator": 71176
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185640495867768595",
+        "denominator": 9680,
+        "numerator": 1797
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        385
+      ],
+      "total_winner_incidences": 1797,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        228501035714
+      ],
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 419046194,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.696428571428571429",
+        "denominator": 56,
+        "numerator": 1887
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.769395150544858799",
+        "variance_denominator": 3136,
+        "variance_numerator": 71335
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191456980519480519",
+        "denominator": 9856,
+        "numerator": 1887
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        431
+      ],
+      "total_winner_incidences": 1887,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        210238767074
+      ],
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 222677714,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.535714285714285714",
+        "denominator": 28,
+        "numerator": 911
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.913408351913472012",
+        "variance_denominator": 784,
+        "variance_numerator": 18927
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184862012987012987",
+        "denominator": 4928,
+        "numerator": 911
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        454
+      ],
+      "total_winner_incidences": 1822,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        234490274354
+      ],
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 762691034,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 35,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.745454545454545455",
+        "denominator": 55,
+        "numerator": 1856
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.350337905448527729",
+        "variance_denominator": 3025,
+        "variance_numerator": 86594
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191735537190082645",
+        "denominator": 605,
+        "numerator": 116
+      },
+      "residue_tuple": [
+        2,
+        7,
+        83,
+        523
+      ],
+      "total_winner_incidences": 1856,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        232856845634
+      ],
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 258381074,
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 50,
+      "mean_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.605896841472430794",
+        "variance_denominator": 14,
+        "variance_numerator": 297
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190340909090909091",
+        "denominator": 352,
+        "numerator": 67
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        17
+      ],
+      "total_winner_incidences": 1876,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        186366607994,
+        210078101954
+      ],
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 62012594,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "34.160714285714285714",
+        "denominator": 56,
+        "numerator": 1913
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.160899650650226764",
+        "variance_denominator": 3136,
+        "variance_numerator": 83527
+      },
+      "residual_survival_rate": {
+        "decimal": "0.194094967532467532",
+        "denominator": 9856,
+        "numerator": 1913
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        40
+      ],
+      "total_winner_incidences": 1913,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        230942252954
+      ],
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 602025914,
+      "inverse_empirical_cdf": {
+        "10": 30,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.581818181818181818",
+        "denominator": 55,
+        "numerator": 1847
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "3.934421103731475679",
+        "variance_denominator": 3025,
+        "variance_numerator": 46826
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190805785123966942",
+        "denominator": 9680,
+        "numerator": 1847
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        109
+      ],
+      "total_winner_incidences": 1847,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        212287247354,
+        222449316194,
+        233740503794
+      ],
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 12920474,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.285714285714285714",
+        "denominator": 7,
+        "numerator": 233
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.876013761678860628",
+        "variance_denominator": 49,
+        "variance_numerator": 1165
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189123376623376623",
+        "denominator": 1232,
+        "numerator": 233
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        178
+      ],
+      "total_winner_incidences": 1864,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        208507154114
+      ],
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 749302274,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.600000000000000000",
+        "denominator": 5,
+        "numerator": 168
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.210478951986171212",
+        "variance_denominator": 275,
+        "variance_numerator": 7466
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190909090909090909",
+        "denominator": 110,
+        "numerator": 21
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        224
+      ],
+      "total_winner_incidences": 1848,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        195890479274
+      ],
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 552933794,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.839285714285714286",
+        "denominator": 56,
+        "numerator": 1839
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.479225003575178877",
+        "variance_denominator": 3136,
+        "variance_numerator": 62919
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186586850649350649",
+        "denominator": 9856,
+        "numerator": 1839
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        247
+      ],
+      "total_winner_incidences": 1839,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        218276485994
+      ],
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 1,
+        "T<=20": 1,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 356565314,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.642857142857142857",
+        "denominator": 14,
+        "numerator": 471
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 18,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.022906711928332626",
+        "variance_denominator": 196,
+        "variance_numerator": 4945
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191152597402597403",
+        "denominator": 2464,
+        "numerator": 471
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        270
+      ],
+      "total_winner_incidences": 1884,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        195301373834
+      ],
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1092947114,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.767857142857142857",
+        "denominator": 56,
+        "numerator": 1835
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.305275299927202716",
+        "variance_denominator": 3136,
+        "variance_numerator": 58127
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186181006493506494",
+        "denominator": 9856,
+        "numerator": 1835
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        316
+      ],
+      "total_winner_incidences": 1835,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        221074736834
+      ],
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 896578634,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 35,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.763636363636363636",
+        "denominator": 55,
+        "numerator": 1857
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.540579203596412479",
+        "variance_denominator": 3025,
+        "variance_numerator": 62366
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191838842975206612",
+        "denominator": 9680,
+        "numerator": 1857
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        339
+      ],
+      "total_winner_incidences": 1857,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        233298674714
+      ],
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 9,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 700210154,
+      "inverse_empirical_cdf": {
+        "10": 24,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.036363636363636364",
+        "denominator": 55,
+        "numerator": 1817
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.999889806150644066",
+        "variance_denominator": 3025,
+        "variance_numerator": 108896
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187706611570247934",
+        "denominator": 9680,
+        "numerator": 1817
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        362
+      ],
+      "total_winner_incidences": 1817,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        245522612594
+      ],
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 6,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 503841674,
+      "inverse_empirical_cdf": {
+        "10": 25,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.142857142857142857",
+        "denominator": 7,
+        "numerator": 232
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.779979521183974095",
+        "variance_denominator": 49,
+        "variance_numerator": 1637
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188311688311688312",
+        "denominator": 154,
+        "numerator": 29
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        385
+      ],
+      "total_winner_incidences": 1856,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        208998075314,
+        214643669114,
+        218031025394,
+        229322212994
+      ],
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 0,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 111104714,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "34.446428571428571429",
+        "denominator": 56,
+        "numerator": 1929
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 27,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.739347615054895993",
+        "variance_denominator": 3136,
+        "variance_numerator": 70439
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195718344155844156",
+        "denominator": 9856,
+        "numerator": 1929
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        431
+      ],
+      "total_winner_incidences": 1929,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        237029675834
+      ],
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1043854994,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.400000000000000000",
+        "denominator": 5,
+        "numerator": 167
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.746673476331513043",
+        "variance_denominator": 275,
+        "variance_numerator": 6196
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189772727272727273",
+        "denominator": 880,
+        "numerator": 167
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        454
+      ],
+      "total_winner_incidences": 1837,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        224020264034,
+        244344401714
+      ],
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 454749554,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.910714285714285714",
+        "denominator": 56,
+        "numerator": 1843
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.907271520459226035",
+        "variance_denominator": 3136,
+        "variance_numerator": 75519
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186992694805194805",
+        "denominator": 9856,
+        "numerator": 1843
+      },
+      "residue_tuple": [
+        2,
+        7,
+        94,
+        523
+      ],
+      "total_winner_incidences": 1843,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        184817974754,
+        214175062514,
+        217562418794,
+        245790387794
+      ],
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 771616874,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.290909090909090909",
+        "denominator": 55,
+        "numerator": 1831
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.781299660791089941",
+        "variance_denominator": 3025,
+        "variance_numerator": 69154
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189152892561983471",
+        "denominator": 9680,
+        "numerator": 1831
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        17
+      ],
+      "total_winner_incidences": 1831,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        224140762874
+      ],
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 575248394,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.714285714285714286",
+        "denominator": 7,
+        "numerator": 236
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.700738109649398888",
+        "variance_denominator": 196,
+        "variance_numerator": 4331
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191558441558441558",
+        "denominator": 308,
+        "numerator": 59
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        40
+      ],
+      "total_winner_incidences": 1888,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        188548975874
+      ],
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1115261714,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.821428571428571429",
+        "denominator": 28,
+        "numerator": 919
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.740054033963954633",
+        "variance_denominator": 784,
+        "variance_numerator": 17615
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186485389610389610",
+        "denominator": 4928,
+        "numerator": 919
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        109
+      ],
+      "total_winner_incidences": 1838,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        244415808434
+      ],
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 526156274,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 37
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "32.660714285714285714",
+        "denominator": 56,
+        "numerator": 1829
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.449224594218178864",
+        "variance_denominator": 3136,
+        "variance_numerator": 62079
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185572240259740260",
+        "denominator": 9856,
+        "numerator": 1829
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        178
+      ],
+      "total_winner_incidences": 1829,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        212407746194
+      ],
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 133419314,
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "34.321428571428571429",
+        "denominator": 28,
+        "numerator": 961
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.724960857196683310",
+        "variance_denominator": 784,
+        "variance_numerator": 17503
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195008116883116883",
+        "denominator": 4928,
+        "numerator": 961
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        224
+      ],
+      "total_winner_incidences": 1922,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        242697584234
+      ],
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1066169594,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.517857142857142857",
+        "denominator": 56,
+        "numerator": 1877
+      },
+      "median_T": {
+        "decimal": "34.500000000000000000",
+        "denominator": 2,
+        "numerator": 69
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.175460888477785155",
+        "variance_denominator": 3136,
+        "variance_numerator": 83999
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190442370129870130",
+        "denominator": 9856,
+        "numerator": 1877
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        247
+      ],
+      "total_winner_incidences": 1877,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        190561752794
+      ],
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 869801114,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 42
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.636363636363636364",
+        "denominator": 11,
+        "numerator": 370
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.937292730245213180",
+        "variance_denominator": 605,
+        "variance_numerator": 14748
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191115702479338843",
+        "denominator": 968,
+        "numerator": 185
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        270
+      ],
+      "total_winner_incidences": 1850,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        198072847154,
+        238721122514
+      ],
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 477064154,
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.339285714285714286",
+        "denominator": 56,
+        "numerator": 1867
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.610844304905733059",
+        "variance_denominator": 3136,
+        "variance_numerator": 66671
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189427759740259740",
+        "denominator": 9856,
+        "numerator": 1867
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        316
+      ],
+      "total_winner_incidences": 1867,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        195618241154
+      ],
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 0,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 280695674,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.089285714285714286",
+        "denominator": 56,
+        "numerator": 1853
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 26,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.710462464838570521",
+        "variance_denominator": 3136,
+        "variance_numerator": 69583
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188007305194805195",
+        "denominator": 9856,
+        "numerator": 1853
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        339
+      ],
+      "total_winner_incidences": 1853,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        215746010354
+      ],
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 84327194,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.410714285714285714",
+        "denominator": 56,
+        "numerator": 1871
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 25,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.802442777655248775",
+        "variance_denominator": 3136,
+        "variance_numerator": 72327
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189833603896103896",
+        "denominator": 9856,
+        "numerator": 1871
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        362
+      ],
+      "total_winner_incidences": 1871,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        230228185754
+      ],
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 1017077474,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 39,
+        "90": 42
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "34.163636363636363636",
+        "denominator": 55,
+        "numerator": 1879
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.845786785411854873",
+        "variance_denominator": 3025,
+        "variance_numerator": 103374
+      },
+      "residual_survival_rate": {
+        "decimal": "0.194111570247933884",
+        "denominator": 9680,
+        "numerator": 1879
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        385
+      ],
+      "total_winner_incidences": 1879,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        211769548634
+      ],
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 624340514,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 38
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.181818181818181818",
+        "denominator": 11,
+        "numerator": 365
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.600754519506591821",
+        "variance_denominator": 605,
+        "variance_numerator": 12806
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188533057851239669",
+        "denominator": 1936,
+        "numerator": 365
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        431
+      ],
+      "total_winner_incidences": 1825,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 56,
+      "argmin_n": [
+        213831417674
+      ],
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 427972034,
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.535714285714285714",
+        "denominator": 28,
+        "numerator": 939
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.724420923375106063",
+        "variance_denominator": 784,
+        "variance_numerator": 17499
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190543831168831169",
+        "denominator": 4928,
+        "numerator": 939
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        454
+      ],
+      "total_winner_incidences": 1878,
+      "uncovered_pair_count": 176
+    },
+    {
+      "G": 231,
+      "activation_cell_member_count": 55,
+      "argmin_n": [
+        212113193474,
+        226791737354
+      ],
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "crt_residue_mod_L": 967985354,
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 22,
+      "persistent_covered_mask_sha256": "4f06ade9cb4e7612cdf690ea5c0b71173802073e9210979b474d00335f9d5c35",
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.891551157585160866",
+        "variance_denominator": 55,
+        "variance_numerator": 1316
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187500000000000000",
+        "denominator": 16,
+        "numerator": 3
+      },
+      "residue_tuple": [
+        2,
+        7,
+        116,
+        523
+      ],
+      "total_winner_incidences": 1815,
+      "uncovered_pair_count": 176
+    }
+  ],
+  "schema": "a303656-p4-census-class-summaries-v1"
+}

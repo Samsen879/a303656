@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout 120 /tmp/a303656_tn_prebuild/tn_count_clean --low 240000000001 --high 240000001001 --interval-id FIXTURE-FAR-1000 --out-dir /tmp/a303656_tn_far_fixture/clean 
+started_utc=2026-07-13T08:34:08Z
+finished_utc=2026-07-13T08:34:15Z

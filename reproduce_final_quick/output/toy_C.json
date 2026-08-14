@@ -1,0 +1,18 @@
+{
+  "method": "C_exact_segmented_candidate_filter",
+  "low": "2",
+  "high": "50",
+  "C": 3,
+  "D": 2,
+  "prime_count": 4,
+  "primes": [3,7,11,19],
+  "rectangle_pair_count_relevant_to_high": 11,
+  "distinct_shift_count_relevant_to_high": 10,
+  "integers_tested": 49,
+  "windows": 10,
+  "activation_boundaries_crossed": 9,
+  "candidate_count": 0,
+  "candidates": [],
+  "elapsed_seconds": 3.0611e-05,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THIS PRIME POOL"
+}

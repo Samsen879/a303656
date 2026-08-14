@@ -1,0 +1,1 @@
+{"actual_category": "interval_semantics", "actual_code": "INCLUSIVE_LENGTH_MISMATCH", "expected_error_code": "INCLUSIVE_LENGTH_MISMATCH", "expected_semantic_category": "interval_semantics", "mutation": "inclusive length +1", "return_code": 1, "status": "PASS", "stderr_excerpt": "INCLUSIVE_LENGTH_MISMATCH:interval_semantics", "test": "endpoint_off_by_one"}

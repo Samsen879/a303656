@@ -1,0 +1,8 @@
+component_count=5
+chunk_count_x=140
+chunk_count_y=140
+integers_tested_x=1400000000
+integers_tested_y=1400000000
+candidate_count_x=0
+candidate_count_y=0
+complete_gapless_independent_crosscheck=true

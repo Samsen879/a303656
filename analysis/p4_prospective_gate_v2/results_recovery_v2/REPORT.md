@@ -1,0 +1,3 @@
+# REPORT: forensic historical exposure recovery
+
+Registry V2 is **PARTIAL**. The 27/28 mismatch was a count/embedded-list metadata defect: all 28 closed normalized records are retained. The historical 253M metric is the four non-continuous direct datasets; 533.2M is the broader normalized registry union excluding 1.6B. Their exact difference is 280.2M and is decomposed in the registry. Three orphan IDs were recovered with Git commit/tree/blob/SHA and row counts. Interrupted exact touched sets remain unrecoverable; conservative supersets are recorded. Gate V2 remains **NOT_ESTABLISHED** and Design A remains Level 1. No new T(n) was run. Global status: **OEIS A303656: UNRESOLVED**.

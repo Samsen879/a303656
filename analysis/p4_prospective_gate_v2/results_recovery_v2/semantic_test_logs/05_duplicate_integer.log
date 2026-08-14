@@ -1,0 +1,1 @@
+{"actual_category": "selection", "actual_code": "SELECTION_INDEX_IDENTITY", "expected_error_code": "SELECTION_INDEX_IDENTITY", "expected_semantic_category": "selection", "mutation": "duplicate n", "return_code": 1, "status": "PASS", "stderr_excerpt": "SELECTION_INDEX_IDENTITY:selection", "test": "duplicate_integer"}

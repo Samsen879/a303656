@@ -1,0 +1,24 @@
+{
+  "authority": {
+    "design_C_manifest": "analysis/p5_sparse_panel_feasibility/results/design_C_full_sparse_census.json",
+    "design_C_manifest_sha256": "eda6eaf490dde061f63a82bf99da7833149c6b8b2f1fcc14755cb895775c13d6",
+    "description_count": 457,
+    "prior_evaluation_registry": "analysis/p5_sparse_panel_feasibility/results/prior_evaluation_registry.json",
+    "prior_evaluation_registry_sha256": "428f5abee8462d21777326c9fbdf9aa215d722f43d9ceaed75b980e30c4158af"
+  },
+  "expected_initial_head": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+  "forbidden_evaluator_scope": [
+    "Family R description",
+    "Family Q description",
+    "adaptive panel extension",
+    "outside-panel integer",
+    "duplicate integer evaluation",
+    "description-weighted primary summary"
+  ],
+  "pair_domain": {
+    "duplicate_shift_28_pairs": [[1, 2], [3, 0]],
+    "mask_bytes": 51,
+    "pair_count": 407
+  },
+  "schema": "a303656-p5-family-u-census-source-policy-v1"
+}

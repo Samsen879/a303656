@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl 
+started_utc=2026-07-13T08:55:08Z
+finished_utc=2026-07-13T08:55:08Z

@@ -1,0 +1,9 @@
+{
+  "archive_path": "/home/samsen/code/a303656/archive/p4_mod8_live_landscape_raw_ee5bef6.tar.zst",
+  "archive_sha256": "3b3110a7bb74279405e352ed5b26a285ecbd8fa6deb21152095f6e32e497cca9",
+  "archive_size_bytes": 35465,
+  "checked_in": false,
+  "purpose": "accepted exact fixed-P4 mod-8 landscape raw logs and streams",
+  "schema": "a303656-p4-gate-v2-raw-archive-manifest-v1",
+  "verification_status": "VERIFIED"
+}

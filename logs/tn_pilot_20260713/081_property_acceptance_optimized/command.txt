@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout 120s python3 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --clean /tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean --oracle /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle --work-dir /tmp/a303656_tn_acceptance_property_optimized 
+started_utc=2026-07-13T08:49:29Z
+finished_utc=2026-07-13T08:49:29Z

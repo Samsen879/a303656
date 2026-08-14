@@ -1,0 +1,54 @@
+python_dependencies=OK
+/mnt/data/a303656_bounded_counterexample/baseline/a303656_p2cover_bundle.zip: OK
+./README.md: OK
+./REPORT_zh.md: OK
+./cert/gcd_factor_B5000.txt: OK
+./logs/method_a_7_11.log: OK
+./logs/method_a_7_11.time: OK
+./logs/method_a_7_11_19_refused.log: OK
+./logs/method_b_7_11.log: OK
+./logs/method_b_7_11.time: OK
+./logs/method_b_exact_oracle_7_11_19.log: OK
+./logs/method_b_exact_oracle_7_11_19.time: OK
+./logs/method_b_top10.log: OK
+./logs/method_b_top10.time: OK
+./logs/method_b_top10_pruned.log: OK
+./logs/method_b_top66_loose_pass.log: OK
+./logs/method_b_top66_loose_pass.time: OK
+./logs/verify_pruning.log: OK
+./logs/verify_pruning.time: OK
+./output/method_a_7_11.json: OK
+./output/method_a_7_11_19_refused.json: OK
+./output/method_b_7_11.json: OK
+./output/method_b_exact_oracle_7_11_19.json: OK
+./output/method_b_top10.json: OK
+./output/method_b_top10_pruned.json: OK
+./output/method_b_top66_loose_pass.json: OK
+./output/primes_B5000_verified.csv: OK
+./output/primes_B5000_verified_by_order.csv: OK
+./requirements.txt: OK
+./run_reproduce.sh: OK
+./src/factor_gcd.py: OK
+./src/generate_gcd.cpp: OK
+./src/method_a_bitset.py: OK
+./src/method_b_lazy.py: OK
+./src/verify_pruning.cpp: OK
+./verify_pruning: OK
+VERIFIED
+B=5000
+gcd_bits=99827
+factor_count_all=1224
+eligible_prime_count=527
+eligible_prime_max=472027
+sum_loose_decimal=1.2665065873636761
+top65_loose_decimal=0.99943786675097401
+top66_loose_decimal=1.0016165159884467
+loose_bound_cardinality_lower_bound=66
+sum_exact_alpha_decimal=0.97307606772937005
+alpha_above_1_over_5001_count=388
+alpha_above_1_over_5001_sum_decimal=0.95810404892019441
+upper_capacity_597_primes_decimal=0.99989569059186001
+upper_capacity_598_primes_decimal=1.0000956505998584
+minimum_primes_with_max_order_above_B=135
+cardinality_lower_bound=598
+elapsed_seconds=18.579147494000001

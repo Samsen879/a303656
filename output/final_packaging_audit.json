@@ -1,0 +1,96 @@
+{
+  "schema": "a303656-final-packaging-audit-v1",
+  "generated_utc": "2026-07-13T03:31:12.036128Z",
+  "status": "PASS",
+  "mathematical_outcome": "No certified counterexample found; explicit finite results only.",
+  "stage0_complete_reproduction": {
+    "status": "PASS",
+    "log": "logs/final_audit/run_reproduce_stage0_current.log",
+    "return_code": 0,
+    "baseline_archive_sha256": "4dadb8ce07cd0ccf56575ef0882d6bb02284a02c61e05cd1424e070d83b22ff3",
+    "reproduced_values": {
+      "eligible_prime_count": 527,
+      "cardinality_lower_bound": 598,
+      "minimum_primes_above_B": 135
+    }
+  },
+  "final_clean_quick_reproduction": {
+    "status": "PASS",
+    "log": "logs/final_audit/run_reproduce_packaging_quick.log",
+    "time_log": "logs/final_audit/run_reproduce_packaging_quick.time",
+    "return_code": 0
+  },
+  "stored_result_audits": {
+    "direct": {
+      "status": "PASS",
+      "log": "logs/final_audit/verify_direct_outputs_packaging.log",
+      "total_distinct_integers": 1853000000,
+      "candidate_count": 0
+    },
+    "formal": {
+      "status": "PASS",
+      "log": "logs/final_audit/audit_formal_results_packaging.log",
+      "factor_dual_dataset_count": 4,
+      "factor_single_dataset_count": 3
+    }
+  },
+  "strongest_continuous_result": {
+    "interval": [
+      "240000000001",
+      "241600000000"
+    ],
+    "integer_count": 1600000000,
+    "candidate_count_x": 0,
+    "candidate_count_y": 0,
+    "summary": "output/direct/formal_1p6b_final/summary.json",
+    "summary_sha256": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319"
+  },
+  "key_machine_files": {
+    "final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533",
+    "search_summary.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360"
+  },
+  "source_sha256": {
+    "src/common.py": "b2e96e8857b11d82cef2f80a7289d27f522ec64e033c473bb14eb408bb96b4a6",
+    "src/verifier.py": "c294828f63944f1c51fe47865b27c660f3c6e06e2f7276cd7fd463d95cd88e20",
+    "src/verifier_gmp.cpp": "26bb697e6a60dfbde62590e34e02ef00ea9bd65126c825b659e277229ef2d024",
+    "src/search_z3_direct.py": "f7acc55e6852c8a8d234fd09cb34e1ceecaa432e7b9e6bbb14a9cccd64e5a5e6",
+    "src/search_z3_cegis.py": "7d8c4348456142546bd989f0878b0487d95e86a1f98f054f959033c9637af5c4",
+    "src/search_bitset.cpp": "2c324252eb142f492f95a4539f136d99ac141f41eb2f80a04f8457901aee0fa0",
+    "src/search_exhaustive_clean.cpp": "c053efa55e6f0bb76eb6bfab0acb87eeb0703965a9b2fa01e98a9decb5cb2ba5",
+    "src/search_factor_sieve.cpp": "cf4b537643628bf445ea98bc4f85db8c753d03ba9ab6ed3f11e2b3844afd30a1",
+    "src/search_factor_sieve_clean.cpp": "d2d10da69ca96003ec22fab2924f76abf9b282efdbceb4f386b7ba2bdd61af07",
+    "src/search_twosquares_bitset.cpp": "60c2291ae7785ad0bf2c8e6313d39704d8f8f048a8fc4bcac50337f7e0556f4d",
+    "src/search_twosquares_clean.cpp": "641ff6f3c02783173e73a5cab6fcd52ae298012591e75ae786957a191ebca6cd",
+    "src/audit_formal_results.py": "034fad533969591f8b0fcc275dc498e8a36ba1e860ba8b00e84ed689b2faebfc",
+    "src/verify_direct_outputs.py": "0b70726f4b28475ac286d4e9267864371fceda88b6c3cac3d209dc8f9e8fb731",
+    "tests/toy_tests.py": "3a167a85db0f3e67ffb4eb7ffb7e545dfa50521acc815c4e05d1730559d7f244",
+    "tests/twosquares_tests.py": "5033c859681f0a2d28da3d55da3eeec699d290398a19ff1a59f4abe4fa3b0afa",
+    "tests/direct_small_crosscheck.py": "fd28aecf428dcd99ada909d0cc1924afec1150553f146546099beac2122495a7",
+    "tests/factor_small_crosscheck.py": "2e78eb5b658f855d3ddd48431e0d908e06d7e5f59ca99b1592e0eeba1121f844",
+    "run_reproduce.sh": "fcfb452786059dc0e5ead6bfc0f356fe78c1373d2579263c5919b02cce53b95d",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "requirements.txt": "ae83bc95c565c2427dd4db5704851477514105b9e50825be55bb3db352215977"
+  },
+  "json_parse_audit": {
+    "status": "PASS",
+    "json_files_parsed": 3267,
+    "parse_failures": 0,
+    "log": "logs/final_audit/json_parse_packaging.log"
+  },
+  "python_compile_audit": {
+    "status": "PASS",
+    "log": "logs/final_audit/py_compile_packaging.log"
+  },
+  "redundant_interrupted_attempt": {
+    "counted_in_results": false,
+    "description": "A redundant final ONLY_STAGE0 attempt was externally interrupted after the clean verifier had reproduced 527/598/135, while the old bundle reproduction script was still running. The prior complete Stage0 exit-0 run is used.",
+    "record": "logs/INTERRUPTED_RUNS.txt"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+    "environment_log": "logs/final_audit/environment.txt"
+  }
+}

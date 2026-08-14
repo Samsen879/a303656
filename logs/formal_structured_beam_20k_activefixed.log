@@ -1,0 +1,10 @@
+BEAM prime=3 states=9 best=5 modulus=9
+BEAM prime=7 states=441 best=62 modulus=441
+BEAM prime=11 states=53361 best=62 modulus=53361
+BEAM prime=19 states=20000 best=233 modulus=19263321
+BEAM prime=23 states=20000 best=246 modulus=10190296809
+actual_integers_scored=83279
+best_pool_score=333
+best_exact_passed=92
+candidate=NONE
+elapsed_seconds=11.8162

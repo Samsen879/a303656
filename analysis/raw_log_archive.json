@@ -1,0 +1,13 @@
+{
+  "archive_filename": "tn_low_tail_raw_logs_73fbec48fb1343de9e6fa7cf2bcc84e86837955b.tar.zst",
+  "archive_sha256": "772ccc757fade39e68bf99e9f9cf3bed467f30bb43847ef44002a93667d94cff",
+  "archive_size_bytes": 34653,
+  "command_manifest_sha256": "d2aad8e7ce88624c63ac6e4cdf34954ae6d44d6285b32e2dc77f8a6358907a48",
+  "creation_command": "tar --zstd -cf /home/samsen/code/a303656/archive/tn_low_tail_raw_logs_73fbec48fb1343de9e6fa7cf2bcc84e86837955b.tar.zst -C /tmp a303656_tn_low_tail_raw_20260713",
+  "creation_timestamp_utc": "2026-07-13T10:30:34Z",
+  "raw_file_count": 275,
+  "raw_log_directory": "/tmp/a303656_tn_low_tail_raw_20260713",
+  "raw_log_record_count": 55,
+  "uncompressed_file_bytes": 176550,
+  "uncompressed_tar_bytes": 419840
+}

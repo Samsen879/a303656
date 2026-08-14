@@ -1,0 +1,42 @@
+{
+  "audit_authorization_commit_hash": "NOT_ESTABLISHED_PENDING_WEB_AUDIT",
+  "authorities": {
+    "H8_max": 201,
+    "H8_min": 32,
+    "argmax": 468,
+    "lex_first": [
+      2,
+      13,
+      50,
+      5
+    ],
+    "live_projections": 5,
+    "masks": 21,
+    "maximizing_mask_aggregate_sha256": "3d6fb47adb745d5501a53f2dcfddbc1106e8f67cfa85ea0d1ce61d487102bce3"
+  },
+  "authorization": false,
+  "canonical_digest": "b2239f1a5d3257c62e6e68bf6d25c8160627a7c827ad623a812c7d7ff1abc9ff",
+  "duplicate_collision_treatment": "reject duplicates; report description collisions separately",
+  "exact_manifests": {
+    "primary": "design_A_preregistration_candidate_v2.json",
+    "secondary_prior": "analysis/p4_prospective_gate_v2/results/candidate_design_C.json"
+  },
+  "execution_failure": "STOP and preserve logs; no replacement based on outcomes",
+  "exposure_exclusion_policy": "exclude confirmed E1-E4; fail closed on possible/unknown exposure",
+  "no_adaptive_extension": true,
+  "no_post_hoc_mask_class_replacement": true,
+  "outcome_schema": "FROZEN_BUT_NO_VALUES_PRESENT",
+  "planned_descriptive_statistics": [
+    "predeclared per-band summaries",
+    "controlled band comparisons"
+  ],
+  "primary_design": "DESIGN_A",
+  "registry_hash": "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81",
+  "replacement_protocol": "cedcd096b88804e22909850292a96ed49f78d7a589de908b046bd8b6a999d167",
+  "research_question": "Prospective fixed-P4 live-top-band descriptive comparison without adaptive extension",
+  "schema": "a303656-immutable-preregistration-v2",
+  "secondary_design": "DESIGN_C",
+  "selection_code_hash": "398b9b0cf73a4cabdbddbdf4bdf074dc0ad394a51ea92042eeb32143a3c256b3",
+  "status": "SCHEMA_COMPLETE_CONTENT_NOT_AUTHORIZED",
+  "stopping_rules": "single frozen manifest only"
+}

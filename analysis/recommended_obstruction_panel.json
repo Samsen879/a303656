@@ -1,0 +1,92 @@
+{
+  "classification": "DETERMINISTIC FUTURE FIXTURE PROPOSAL; NO FACTORIZATION RUN",
+  "covered_pilot_b_10k_block_indices": [
+    0,
+    4
+  ],
+  "maximum_panel_size": 12,
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "panel": [
+    {
+      "T": 1,
+      "interval_id": "PILOT-A",
+      "mechanical_selection_rules": [
+        "all PILOT-A global argmin rows (the four T=1 integers)"
+      ],
+      "n": "2"
+    },
+    {
+      "T": 1,
+      "interval_id": "PILOT-A",
+      "mechanical_selection_rules": [
+        "all PILOT-A global argmin rows (the four T=1 integers)"
+      ],
+      "n": "3"
+    },
+    {
+      "T": 1,
+      "interval_id": "PILOT-A",
+      "mechanical_selection_rules": [
+        "all PILOT-A global argmin rows (the four T=1 integers)"
+      ],
+      "n": "5"
+    },
+    {
+      "T": 1,
+      "interval_id": "PILOT-A",
+      "mechanical_selection_rules": [
+        "all PILOT-A global argmin rows (the four T=1 integers)"
+      ],
+      "n": "25"
+    },
+    {
+      "T": 20,
+      "interval_id": "PILOT-B",
+      "mechanical_selection_rules": [
+        "smallest n at PILOT-B distinct low-T level rank 4 (T=20)"
+      ],
+      "n": "240000000968"
+    },
+    {
+      "T": 21,
+      "interval_id": "PILOT-B",
+      "mechanical_selection_rules": [
+        "smallest n at PILOT-B distinct low-T level rank 5 (T=21)"
+      ],
+      "n": "240000001544"
+    },
+    {
+      "T": 18,
+      "interval_id": "PILOT-B",
+      "mechanical_selection_rules": [
+        "smallest n at PILOT-B distinct low-T level rank 2 (T=18)"
+      ],
+      "n": "240000004802"
+    },
+    {
+      "T": 16,
+      "interval_id": "PILOT-B",
+      "mechanical_selection_rules": [
+        "smallest n at PILOT-B distinct low-T level rank 1 (T=16)",
+        "argmin of 10,000-wide PILOT-B block 0"
+      ],
+      "n": "240000005594"
+    },
+    {
+      "T": 19,
+      "interval_id": "PILOT-B",
+      "mechanical_selection_rules": [
+        "smallest n at PILOT-B distinct low-T level rank 3 (T=19)",
+        "argmin of 10,000-wide PILOT-B block 4"
+      ],
+      "n": "240000044158"
+    }
+  ],
+  "panel_size": 9,
+  "schema": "a303656-recommended-obstruction-panel-v1",
+  "selection_order": [
+    "all PILOT-A global argmin rows",
+    "smallest n at each of the five lowest distinct PILOT-B T levels",
+    "earliest 10,000-wide PILOT-B block minima until at least two blocks are covered"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "authorization": "NO_T_EVALUATION_AUTHORIZED",
+  "candidate_manifest_digests": {
+    "A": "ef52792fb68815c5bbaf1a4f33fab60592689199348cc625f5e24a8b245a03d9",
+    "B": "2d33da29a39d6e02c9f39a798918c155cf11ca1b1e7be0212a6c35af8d510b46",
+    "C": "1bf4650ec99734900deb834cc090bc8fa5390ebe7260bcf9320c153f7660f428"
+  },
+  "canonical_digest": "92690d16613121a1fed8a567759bcaf69cb56e2f0048772df1842b3d387d43fe",
+  "gate_name": "P4_LIVE_TOP_BAND_PROSPECTIVE_GATE_V2",
+  "gates": {
+    "V2.1_CORE_EXACT_RESULT": {
+      "evidence": "H8_max=201 and accepted independent reproduction",
+      "status": "PASS"
+    },
+    "V2.2_REGISTRY_INTEGRITY": {
+      "evidence": [
+        "INTERRUPTED_PARTIAL_ABANDONED"
+      ],
+      "status": "NOT_ESTABLISHED"
+    },
+    "V2.3_EXACT_INTEGER_NON_REUSE": {
+      "evidence": "candidate integers are absent from reconstructed registry, but any-recorded-evaluation completeness is NOT_ESTABLISHED",
+      "status": "NOT_ESTABLISHED"
+    },
+    "V2.4_T_BLIND_SELECTION": {
+      "evidence": "selection source static forbidden-field audit and deterministic construction",
+      "status": "PASS"
+    },
+    "V2.5_HIERARCHICAL_BALANCE": {
+      "evidence": "all candidates encode H8\u2192projection\u2192mask\u2192class\u2192integer assignments",
+      "status": "PASS"
+    },
+    "V2.6_CONTROLLED_COMPARISON": {
+      "evidence": "A/B/C cover H8 in {199,200,201}; A/B raw G=227 and t3=2",
+      "status": "PASS"
+    },
+    "V2.7_IMMUTABLE_PREREGISTRATION": {
+      "evidence": "candidate designs only; no final design selected or frozen for execution",
+      "status": "NOT_ESTABLISHED"
+    },
+    "V2.8_INDEPENDENT_AUDIT": {
+      "evidence": "pending web GPT-5.6 Pro audit",
+      "status": "NOT_ESTABLISHED"
+    }
+  },
+  "global_problem_status": "UNRESOLVED",
+  "old_promotion_gate": "FAIL",
+  "overall_status": "NOT_ESTABLISHED",
+  "registry_digest": "f933613ee9bc5e72fa2e2cc87ad663913154b43505029594f7cf23620dae2c4c",
+  "schema": "a303656-p4-live-top-band-prospective-gate-v2"
+}

@@ -1,0 +1,26 @@
+{
+  "all_raw_return_codes_zero": true,
+  "files": {
+    "REPORT.md": "5e3935b6f0f7d1092853ae7757596e225691c2bfd1756b218ac6baeb84c2efb4",
+    "candidate_design_A.json": "3af58aaa707ab5dbdab22aa5e47ae4b1e24ee838311c94b734fdd550817b8772",
+    "candidate_design_B.json": "16e4c56e0d41ad1ead52771343125601227dfe5dae415fb1898c24f78f4a5df7",
+    "candidate_design_C.json": "3687dd63b6d94eb3f5a83ea13cb48878ac3196bd8144e6e3aa33838f2c3e0ccd",
+    "candidate_design_comparison.json": "6077badbb07c74b61d7c49fcfe43b691c637cbbc18c1a494d20f8fee325203c2",
+    "candidate_design_comparison.md": "0e103febf9becf87febac08de02041493a54897b64f1822f847fc78ea765cc1d",
+    "corruption_tests.json": "52f630147581f34f1d2501aabc78ddf94565c785d3933530d801a76e4df629d3",
+    "historical_exposure_components.json": "42179d8a6f80dbb55a197285a1ca4653b230c62110f5a9bd2a085d34414523bd",
+    "historical_exposure_limitations.md": "e26b54e84e771ca6d265039c97f28ec330530b08b208b52efcb45bd5bbc9a417",
+    "historical_exposure_manifest.json": "39a940a76a761f090bced4e036f5d626823a43a124c7747f44f8e9dd109855f4",
+    "historical_exposure_registry.csv": "57e12fca7b1f0b78174bb4c776e983049ee88d91498e087b8c1de2e545940b04",
+    "historical_exposure_registry.json": "a822c539c446a7cfcfbbe6472e702c431902e42142ef4db05293a672d839e181",
+    "logs/candidates.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/corruptions.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/registry.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/results.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/verify.log": "700270e47e2d72dbe1b73804fa55a3183fd98efa34e1184f82a7b13163325639",
+    "promotion_semantics_correction.json": "9e8ee9fa6e4ba90adc89508cda272072224b4bebec5d51580afd4301312077ec",
+    "prospective_gate_v2.json": "facee547bbf956c2c63c451d6d66a90bca857dd5804a96e2f6c3193215ada398",
+    "return_codes.json": "5ce8c78badd04a836e64ddf946f7df23e98cde467cf892a9de2f5d2035b622c4"
+  },
+  "schema": "a303656-p4-gate-v2-result-manifest-v1"
+}

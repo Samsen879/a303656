@@ -1,0 +1,224 @@
+{
+  "entries": [
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_EXCEPTIONAL_SET_INVERSE_PHASE_A.zip!/FOURIER_AND_SPECTRAL_ANALYSIS.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_EXCEPTIONAL_SET_INVERSE_PHASE_A.zip!/FOURIER_AND_SPECTRAL_ANALYSIS.md"
+      ],
+      "byte_offset": 6147,
+      "byte_value": "0x08",
+      "defect_id": "CTRL-001",
+      "escaped_context": "ment \\u53d6\\u51b3\\u4e8e\\n\\n\\\\[\\nL_\\\\Gamma=\\x08eta^{-1}\\n\\\\sum_{\\\\gamma\\\\in\\\\Gam",
+      "line": 212,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "A303656_EXCEPTIONAL_SET_INVERSE_PHASE_A.zip",
+      "origin_member": "FOURIER_AND_SPECTRAL_ANALYSIS.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_DIRECT_TWO_SQUARE_POSITIVE_DENSITY_FROZEN.zip!/ORIGINAL_PHASE_A_DRAFT/A303656_DIRECT_TWO_SQUARE_PHASE_A_DRAFT(2).zip!/A303656_phaseA_package/candidate_theorems.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_DIRECT_TWO_SQUARE_POSITIVE_DENSITY_FROZEN.zip!/ORIGINAL_PHASE_A_DRAFT/A303656_DIRECT_TWO_SQUARE_PHASE_A_DRAFT(2).zip!/A303656_phaseA_package/candidate_theorems.md"
+      ],
+      "byte_offset": 245,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-002",
+      "escaped_context": "[\\n\\\\sum_{X\\\\le n\\\\le2X}R_X(n)\\n=\\x0crac{K}{\\\\log3\\\\log5}X L^{3/2}\\n",
+      "line": 11,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "A303656_DIRECT_TWO_SQUARE_POSITIVE_DENSITY_FROZEN.zip",
+      "origin_member": "ORIGINAL_PHASE_A_DRAFT/A303656_DIRECT_TWO_SQUARE_PHASE_A_DRAFT(2).zip!/A303656_phaseA_package/candidate_theorems.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_SIMULTANEOUS_SELECTION_PHASE_A.zip!/A303656_SIMULTANEOUS_SELECTION_PHASE_A/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/A303656_SIMULTANEOUS_SELECTION_PHASE_A.zip!/A303656_SIMULTANEOUS_SELECTION_PHASE_A/REPORT.md"
+      ],
+      "byte_offset": 1950,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-003",
+      "escaped_context": "tion\\uff1a\\n\\n\\\\[\\n\\\\delta_{p,e}(n)=\\x0crac{\\\\#\\\\{x\\\\in\\\\langle3\\\\rangle,",
+      "line": 47,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "A303656_SIMULTANEOUS_SELECTION_PHASE_A.zip",
+      "origin_member": "A303656_SIMULTANEOUS_SELECTION_PHASE_A/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 2194,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-004",
+      "escaped_context": "2},\\n\\\\qquad\\n\\\\lambda_p:=1-q_p=\\x0crac{p^2-p+1}{p^2}.\\n\\\\]\\n\\nFor t",
+      "line": 105,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/baseline/a303656_p2cover_bundle.zip!/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/current_final_repro_quick/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/repro_stage0_final/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_end_to_end/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_end_to_end_fixed/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_final_stage0/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_stage0_current/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_stage0_final/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_p2cover_bundle.zip!/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/baseline/a303656_p2cover_bundle.zip!/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/current_final_repro_quick/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/repro_stage0_final/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_end_to_end/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_end_to_end_fixed/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_final_stage0/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_stage0_current/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_bounded_counterexample_bundle_refreshed.zip!/a303656_bounded_counterexample/reproduce_stage0_final/stage0/a303656_p2cover/REPORT_zh.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/a303656_p2cover_bundle.zip!/a303656_p2cover/REPORT_zh.md",
+        "baseline/a303656_p2cover_bundle.zip!/a303656_p2cover/REPORT_zh.md",
+        "current_final_repro_quick/stage0/a303656_p2cover/REPORT_zh.md",
+        "repro_stage0_final/stage0/a303656_p2cover/REPORT_zh.md",
+        "reproduce_end_to_end/stage0/a303656_p2cover/REPORT_zh.md",
+        "reproduce_end_to_end_fixed/stage0/a303656_p2cover/REPORT_zh.md",
+        "reproduce_final_stage0/stage0/a303656_p2cover/REPORT_zh.md",
+        "reproduce_stage0_current/stage0/a303656_p2cover/REPORT_zh.md",
+        "reproduce_stage0_final/stage0/a303656_p2cover/REPORT_zh.md"
+      ],
+      "byte_offset": 3288,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-005",
+      "escaped_context": "\\\\xa8\\u5bb9\\u91cf\\n\\n\\u8ba1\\u7b97\\n\\n\\\\[\\n\\\\beta_p=\\x0crac1{r_ps_p}\\\\max_{t\\\\bmod p}|",
+      "line": 118,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 26,
+      "origin_artifact": "a303656_p2cover_bundle.zip",
+      "origin_member": "a303656_p2cover/REPORT_zh.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 14230,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-006",
+      "escaped_context": "1}{p^2}\\n-\\n\\\\sigma_*\\n\\\\left\\\\|f-\\x0crac{|\\\\mathcal D|}{Q}\\\\mathbf1",
+      "line": 728,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 15473,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-007",
+      "escaped_context": "od_{p\\\\in\\\\mathcal P}\\n\\\\left(1-\\x0crac{p-1}{p^2}\\\\right)<1\\n\\\\]\\n\\ni",
+      "line": 760,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 15607,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-008",
+      "escaped_context": "ptotic product\\n\\nSince\\n\\n\\\\[\\n1-\\x0crac{p-1}{p^2}\\n=\\n\\\\left(1-\\x0crac",
+      "line": 770,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 15632,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-009",
+      "escaped_context": "\\n1-\\x0crac{p-1}{p^2}\\n=\\n\\\\left(1-\\x0crac1p\\\\right)\\n\\\\left(1+\\x0crac1{p",
+      "line": 772,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 15654,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-010",
+      "escaped_context": "eft(1-\\x0crac1p\\\\right)\\n\\\\left(1+\\x0crac1{p(p-1)}\\\\right),\\n\\\\]\\n\\nand",
+      "line": 773,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 16741,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-011",
+      "escaped_context": "od_{p\\\\in\\\\mathcal P}\\n\\\\left(1-\\x0crac{p-1}{p^2}\\\\right)\\n\\\\ge\\n\\\\pr",
+      "line": 819,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    },
+    {
+      "all_copied_locations": [
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW.zip!/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md",
+        "authority/A303656_POST_TRIGGER_MASTER_AUTHORITY_AND_RESTART_GATE_REVIEW/source_archives/analytic_bad_prime_phaseA.zip!/analytic_bad_prime_phaseA/REPORT.md"
+      ],
+      "byte_offset": 16790,
+      "byte_value": "0x0C",
+      "defect_id": "CTRL-012",
+      "escaped_context": "\\n\\\\ge\\n\\\\prod_{p\\\\le x}\\n\\\\left(1-\\x0crac1p\\\\right)\\n\\\\gg\\\\frac1{\\\\log ",
+      "line": 822,
+      "mathematical_semantics_affected": "TYPOGRAPHICAL ESCAPE CORRUPTION; intended formula is recoverable and accepted mathematical scope is unchanged",
+      "number_of_physical_copies": 2,
+      "origin_artifact": "analytic_bad_prime_phaseA.zip",
+      "origin_member": "analytic_bad_prime_phaseA/REPORT.md",
+      "repair_status": "RAW_PRESERVED_NOT_REPAIRED"
+    }
+  ],
+  "logical_defect_count": 12,
+  "physical_copy_occurrence_count": 48,
+  "raw_bytes_modified": false,
+  "schema": "a303656-logical-control-defect-ledger-v1"
+}

@@ -1,0 +1,97 @@
++ set -euo pipefail
++++ dirname /mnt/data/a303656_bounded_counterexample/run_reproduce.sh
+++ cd /mnt/data/a303656_bounded_counterexample
+++ pwd
++ ROOT=/mnt/data/a303656_bounded_counterexample
++ PYTHON=/mnt/data/a303656_venv/bin/python
++ CXX=g++
++ FULL=0
++ REPRO=/mnt/data/a303656_bounded_counterexample/reproduce_validation_quick
++ rm -rf /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick
++ mkdir -p /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/stage0
++ /mnt/data/a303656_venv/bin/python -
++ echo '4dadb8ce07cd0ccf56575ef0882d6bb02284a02c61e05cd1424e070d83b22ff3  /mnt/data/a303656_bounded_counterexample/baseline/a303656_p2cover_bundle.zip'
++ sha256sum -c -
++ unzip -q /mnt/data/a303656_bounded_counterexample/baseline/a303656_p2cover_bundle.zip -d /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/stage0
++ BASE=/mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/stage0/a303656_p2cover
++ cd /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/stage0/a303656_p2cover
++ sha256sum -c SHA256SUMS
++ tee /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/stage0_internal_sha256.log
++ g++ -O3 -std=c++17 src/verify_pruning.cpp -lgmpxx -lgmp -o /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/verify_pruning
++ /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/verify_pruning cert/gcd_factor_B5000.txt /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/primes_B5000_verified.csv
++ tee /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/stage0_verify_pruning.log
++ cmp /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/primes_B5000_verified.csv output/primes_B5000_verified.csv
++ grep -qx eligible_prime_count=527 /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/stage0_verify_pruning.log
++ grep -qx cardinality_lower_bound=598 /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/stage0_verify_pruning.log
++ grep -qx minimum_primes_with_max_order_above_B=135 /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/stage0_verify_pruning.log
++ g++ -O3 -std=c++17 -Wall -Wextra -pedantic /mnt/data/a303656_bounded_counterexample/src/verifier_gmp.cpp -lgmpxx -lgmp -o /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/verifier_gmp
++ g++ -O3 -std=c++17 -Wall -Wextra -pedantic /mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp -o /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_bitset
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp: In function 'std::vector<long unsigned int> parse_primes(std::string)':
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:21:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   21 |     if(v.empty())throw std::runtime_error("empty prime pool");std::set<uint64_t> z;
+      |     ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:21:63: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   21 |     if(v.empty())throw std::runtime_error("empty prime pool");std::set<uint64_t> z;
+      |                                                               ^~~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp: In function 'int main(int, char**)':
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:44:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   44 |    if(window-1<U-cur)end=std::min(end,cur+window-1);if(next!=UINT64_MAX&&next>cur)end=std::min(end,next-1);
+      |    ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:44:53: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   44 |    if(window-1<U-cur)end=std::min(end,cur+window-1);if(next!=UINT64_MAX&&next>cur)end=std::min(end,next-1);
+      |                                                     ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:59:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   59 |    if(end==UINT64_MAX)break;cur=end+1;
+      |    ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:59:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   59 |    if(end==UINT64_MAX)break;cur=end+1;
+      |                             ^~~
++ g++ -O3 -std=c++17 -Wall -Wextra -pedantic /mnt/data/a303656_bounded_counterexample/src/search_exhaustive_clean.cpp -o /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_exhaustive_clean
++ /mnt/data/a303656_venv/bin/python -m py_compile /mnt/data/a303656_bounded_counterexample/src/common.py /mnt/data/a303656_bounded_counterexample/src/verifier.py /mnt/data/a303656_bounded_counterexample/src/search_z3_direct.py /mnt/data/a303656_bounded_counterexample/src/search_z3_cegis.py /mnt/data/a303656_bounded_counterexample/src/search_exhaustive_python.py /mnt/data/a303656_bounded_counterexample/src/prime_analysis.py
++ set +e
++ /mnt/data/a303656_venv/bin/python /mnt/data/a303656_bounded_counterexample/src/verifier.py --n 2 --primes 3 --quiet-pairs
++ rc_py_zero=1
++ /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/verifier_gmp --n 2 --primes 3 --quiet-pairs
++ rc_cpp_zero=1
++ set -e
++ [[ 1 -eq 1 ]]
++ [[ 1 -eq 1 ]]
++ toy_primes=3,7,11,19
++ set +e
++ /mnt/data/a303656_venv/bin/python /mnt/data/a303656_bounded_counterexample/src/search_z3_direct.py --low 2 --high 50 --C 3 --D 2 --primes 3,7,11,19 --timeout-ms 5000 --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/toy_A.json
++ rc_A=1
++ /mnt/data/a303656_venv/bin/python /mnt/data/a303656_bounded_counterexample/src/search_z3_cegis.py --low 2 --high 50 --C 3 --D 2 --primes 3,7,11,19 --timeout-ms 2000 --max-iterations 50 --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/toy_B.json --jsonl /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/toy_B.jsonl
++ rc_B=1
++ /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_bitset --low 2 --high 50 --C 3 --D 2 --primes 3,7,11,19 --window 31 --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/toy_C.json --quiet
++ rc_C=1
++ set -e
++ [[ 1 -eq 1 ]]
++ [[ 1 -eq 1 ]]
++ [[ 1 -eq 1 ]]
++ LOW=240000000001
++ H100K=240000100000
++ P256=/mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt
++ P512=/mnt/data/a303656_bounded_counterexample/output/primes_ranked_512.txt
++ run_empty /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_bitset.log /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_bitset --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --window 100000 --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_bitset.json --quiet
++ local logfile=/mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_bitset.log
++ shift
++ set +e
++ /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_bitset --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --window 100000 --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_bitset.json --quiet
++ local rc=1
++ set -e
++ [[ 1 -ne 1 ]]
++ grep -q '^candidate_count=0$' /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_bitset.log
++ run_empty /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_clean.log /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_exhaustive_clean --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_clean.json
++ local logfile=/mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_clean.log
++ shift
++ set +e
++ /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/bin/search_exhaustive_clean --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_clean.json
++ local rc=1
++ set -e
++ [[ 1 -ne 1 ]]
++ grep -q '^candidate_count=0$' /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_clean.log
++ run_empty /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_python.log /mnt/data/a303656_venv/bin/python /mnt/data/a303656_bounded_counterexample/src/search_exhaustive_python.py --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_python.json
++ local logfile=/mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/logs/formal_256_100k_python.log
++ shift
++ set +e
++ /mnt/data/a303656_venv/bin/python /mnt/data/a303656_bounded_counterexample/src/search_exhaustive_python.py --low 240000000001 --high 240000100000 --C 23 --D 16 --primes /mnt/data/a303656_bounded_counterexample/output/primes_ranked_256.txt --json /mnt/data/a303656_bounded_counterexample/reproduce_validation_quick/output/formal_256_100k_python.json

@@ -1,0 +1,54 @@
+{
+  "backends": {
+    "backend_a": {
+      "core_algorithm": "generated prime table, deterministic uint64 trial division, Fermat two-square classification",
+      "core_binary_sha256": "e7f7ddd9c43df63250997847ffba63355bf9f00a915175f26ebb097650f33123",
+      "core_implementation_id": "k4_ap_backend_a_trial_division_v1",
+      "core_source": "src/k4_ap_backend_a.cpp",
+      "mask_sha256": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+      "wrapper_implementation_id": "k4_survivor_backend_a_mask_wrapper_v1",
+      "wrapper_source": "src/k4_survivor_backend_a.py"
+    },
+    "backend_b": {
+      "core_algorithm": "deterministic uint64 Miller-Rabin and deterministic-seeded Brent Pollard-Rho, independent Fermat classification",
+      "core_binary_sha256": "f7532c2a05734451daf9113b2f7a59257ee6803e66e29a68766ec3e6c340c685",
+      "core_implementation_id": "k4_ap_backend_b_cpp17_mr7_brent_rho_v1",
+      "core_source": "src/k4_ap_backend_b.cpp",
+      "mask_sha256": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+      "wrapper_implementation_id": "k4_survivor_backend_b_mask_wrapper_v1",
+      "wrapper_source": "src/k4_survivor_backend_b.py"
+    },
+    "direct_oracle": {
+      "algorithm": "factorization-free monotone two-square boundary enumeration with canonical least-a witnesses",
+      "binary_sha256": "f9def5bb344cc51516970930ecb2fca010d147a6e55f1948989c6deab59cd7bf",
+      "implementation_id": "k4_ap_direct_oracle_v1",
+      "source": "src/k4_ap_direct_oracle.cpp"
+    }
+  },
+  "baseline_commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+  "binary_format": {
+    "bit_rule": "bit i is byte[i//8] bit (i%8), least-significant-bit first",
+    "endianness": "little",
+    "exact_file_size_bytes": 106719,
+    "failure_policy": "reject truncation, extra bytes, wrong sizes/counts/order/hash, nonzero unused bit, or popcount/T mismatch",
+    "header_bytes": 64,
+    "header_layout": "8-byte magic; uint32 version,header_bytes,row_count,pair_count,mask_bytes,row_bytes; raw 32-byte pair-order SHA256",
+    "magic_ascii": "K4SMASK1",
+    "mask_bytes": 51,
+    "row_bytes": 83,
+    "row_layout": "uint64 n; int64 h; int64 k; uint32 active_pair_count; uint32 T; 51 mask bytes",
+    "unused_bits_rule": "bit 7 of the final mask byte must be zero",
+    "version": 1
+  },
+  "full_pointwise_mask_equality": true,
+  "mask_files": {
+    "backend_a_masks.bin": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+    "backend_b_masks.bin": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33"
+  },
+  "pair_count": 407,
+  "pair_order_sha256": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+  "popcount_equals_T_all_rows": true,
+  "row_count": 1285,
+  "schema": "a303656-k4-survivor-mask-manifest-v1",
+  "source_commit": "7123d08d4060e30a0e89f7d9b04f799414f00335"
+}

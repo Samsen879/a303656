@@ -1,0 +1,119 @@
+{
+  "Family_Q_future_integer_census_requires_new_web_review_and_freeze": true,
+  "all_shortlist_entries_processed": true,
+  "anchor_entries": {
+    "CAL-216": "ENTRY-002",
+    "CAL-227": "ENTRY-003",
+    "CAL-230": "ENTRY-004",
+    "G231-COMMON": "ENTRY-001",
+    "POOLED-GLOBAL-WEIGHTED-OPT": "ENTRY-005",
+    "T3EQ2-CONSTRAINED-WEIGHTED-OPT": "ENTRY-006"
+  },
+  "deduplication": {
+    "class_description_count": 60840,
+    "distinct_family_entry_class_count": 60840,
+    "distinct_integer_count": 1475,
+    "distinct_resulting_union_mask_count": 33,
+    "distinct_shortlist_provenance_count": 20,
+    "duplicate_class_description_count": 0,
+    "duplicate_integer_description_count": 1140,
+    "integer_manifest_digest": "5d92e66b94b5889921285ea39f76e131501633258a8dbcadbf8d018dd5612adf",
+    "occupied_family_entry_class_count": 2615
+  },
+  "family_definitions": {
+    "Q": "all t modulo q^2 attaining that base/q maximum marginal coverage; union masks retained separately",
+    "R": "only the frozen representative t",
+    "U": "all t modulo q^2 with B union C(q,t) equal to the frozen union mask"
+  },
+  "feasibility": {
+    "families": {
+      "Q": {
+        "anchors_meeting_threshold": {
+          "1": 5,
+          "16": 4,
+          "32": 3,
+          "4": 4,
+          "64": 3,
+          "8": 4
+        },
+        "entries_meeting_threshold": {
+          "1": 14,
+          "16": 6,
+          "32": 3,
+          "4": 12,
+          "64": 3,
+          "8": 11
+        },
+        "s_all": 0,
+        "s_anchor": 0
+      },
+      "R": {
+        "anchors_meeting_threshold": {
+          "1": 5,
+          "16": 0,
+          "32": 0,
+          "4": 3,
+          "64": 0,
+          "8": 2
+        },
+        "entries_meeting_threshold": {
+          "1": 8,
+          "16": 0,
+          "32": 0,
+          "4": 3,
+          "64": 0,
+          "8": 2
+        },
+        "s_all": 0,
+        "s_anchor": 0
+      },
+      "U": {
+        "anchors_meeting_threshold": {
+          "1": 5,
+          "16": 4,
+          "32": 3,
+          "4": 4,
+          "64": 3,
+          "8": 4
+        },
+        "entries_meeting_threshold": {
+          "1": 14,
+          "16": 4,
+          "32": 3,
+          "4": 11,
+          "64": 3,
+          "8": 9
+        },
+        "s_all": 0,
+        "s_anchor": 0
+      }
+    },
+    "interpretation_label": "ONLY AN UNBALANCED FULL SPARSE CENSUS IS FEASIBLE",
+    "thresholds": [
+      1,
+      4,
+      8,
+      16,
+      32,
+      64
+    ]
+  },
+  "forbidden_activity": {
+    "T_evaluator_called": false,
+    "direct_oracle_called": false,
+    "factorization_called": false,
+    "two_square_test_called": false,
+    "winner_mask_evaluated": false
+  },
+  "mathematical_status": "UNRESOLVED",
+  "prior_registry_complete": true,
+  "schema": "a303656-exact-p5-sparse-feasibility-report-v1",
+  "shortlist_entry_count": 20,
+  "shortlist_sha256": "3b369ade30c2ee0925a19872bf317ea2bc5116812904bff5ad7d8d870eb9c561",
+  "source_provenance": {
+    "head_at_generation": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370",
+    "source_commit": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370",
+    "source_is_ancestor": true,
+    "starting_commit": "c710dcc9b472a8500b038a33db1315043cffca6e"
+  }
+}

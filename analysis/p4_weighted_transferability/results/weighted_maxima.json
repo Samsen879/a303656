@@ -1,0 +1,224 @@
+{
+  "cross_fold_exact_regret": {
+    "even_training_to_odd_test": {
+      "denominator": 2334,
+      "numerator": 0
+    },
+    "odd_training_to_even_test": {
+      "denominator": 2337,
+      "numerator": 0
+    }
+  },
+  "cross_fold_scores_and_ranks": {
+    "even_opt": {
+      "ranks": {
+        "even": 1,
+        "odd": 1,
+        "pool": 1
+      },
+      "scores": {
+        "even": 58181,
+        "odd": 57979,
+        "pool": 116160
+      }
+    },
+    "odd_opt": {
+      "ranks": {
+        "even": 1,
+        "odd": 1,
+        "pool": 1
+      },
+      "scores": {
+        "even": 58181,
+        "odd": 57979,
+        "pool": 116160
+      }
+    },
+    "pool_opt": {
+      "ranks": {
+        "even": 1,
+        "odd": 1,
+        "pool": 1
+      },
+      "scores": {
+        "even": 58181,
+        "odd": 57979,
+        "pool": 116160
+      }
+    }
+  },
+  "enumerators": {
+    "A": "A-residue-centric-ctz-accumulation",
+    "B": "B-pair-centric-fullscan-accumulation"
+  },
+  "exact_denominators": {
+    "even": 2337,
+    "odd": 2334,
+    "pool": 4671
+  },
+  "maxima": {
+    "full": {
+      "even": {
+        "G": 219,
+        "argmax_count": 140,
+        "argmax_digest": "eb70e4e355fef7c47592dd35c7521148633211fa4858b19eac834badc18b61ca",
+        "coverage_mask_hex": "6152b22cd714b76f6a5996eae855d59ae3564d699a529ea5295a57ddeb3965519aa3d6456f8a5f75e7384e7194a6e96d79ab2e",
+        "cross_scores": {
+          "even": 58181,
+          "odd": 57979,
+          "pool": 116160
+        },
+        "denominator": 2337,
+        "lexicographically_first_argmax": [
+          1,
+          9,
+          21,
+          21
+        ],
+        "maximum_numerator": 58181,
+        "maximum_score": {
+          "denominator": 2337,
+          "numerator": 58181
+        },
+        "scope": "full",
+        "weights": "even"
+      },
+      "odd": {
+        "G": 219,
+        "argmax_count": 140,
+        "argmax_digest": "eb70e4e355fef7c47592dd35c7521148633211fa4858b19eac834badc18b61ca",
+        "coverage_mask_hex": "6152b22cd714b76f6a5996eae855d59ae3564d699a529ea5295a57ddeb3965519aa3d6456f8a5f75e7384e7194a6e96d79ab2e",
+        "cross_scores": {
+          "even": 58181,
+          "odd": 57979,
+          "pool": 116160
+        },
+        "denominator": 2334,
+        "lexicographically_first_argmax": [
+          1,
+          9,
+          21,
+          21
+        ],
+        "maximum_numerator": 57979,
+        "maximum_score": {
+          "denominator": 2334,
+          "numerator": 57979
+        },
+        "scope": "full",
+        "weights": "odd"
+      },
+      "pool": {
+        "G": 219,
+        "argmax_count": 140,
+        "argmax_digest": "eb70e4e355fef7c47592dd35c7521148633211fa4858b19eac834badc18b61ca",
+        "coverage_mask_hex": "6152b22cd714b76f6a5996eae855d59ae3564d699a529ea5295a57ddeb3965519aa3d6456f8a5f75e7384e7194a6e96d79ab2e",
+        "cross_scores": {
+          "even": 58181,
+          "odd": 57979,
+          "pool": 116160
+        },
+        "denominator": 4671,
+        "lexicographically_first_argmax": [
+          1,
+          9,
+          21,
+          21
+        ],
+        "maximum_numerator": 116160,
+        "maximum_score": {
+          "denominator": 1557,
+          "numerator": 38720
+        },
+        "scope": "full",
+        "weights": "pool"
+      }
+    },
+    "t3eq2": {
+      "even": {
+        "G": 222,
+        "argmax_count": 68,
+        "argmax_digest": "e87bcdc15c95c6b6b93176b1855804ad89f1144b2b53784c6220d7a1267e5e31",
+        "coverage_mask_hex": "96675551fc9e5376bd697a5b9eaaa85557ceab1565699a5396b56a4a5db5e3b94d718aa6d74d29ab5655e5294f51d4aee9655d",
+        "cross_scores": {
+          "even": 33272,
+          "odd": 33238,
+          "pool": 66510
+        },
+        "denominator": 2337,
+        "lexicographically_first_argmax": [
+          2,
+          13,
+          32,
+          13
+        ],
+        "maximum_numerator": 33272,
+        "maximum_score": {
+          "denominator": 2337,
+          "numerator": 33272
+        },
+        "scope": "t3eq2",
+        "weights": "even"
+      },
+      "odd": {
+        "G": 222,
+        "argmax_count": 68,
+        "argmax_digest": "e87bcdc15c95c6b6b93176b1855804ad89f1144b2b53784c6220d7a1267e5e31",
+        "coverage_mask_hex": "96675551fc9e5376bd697a5b9eaaa85557ceab1565699a5396b56a4a5db5e3b94d718aa6d74d29ab5655e5294f51d4aee9655d",
+        "cross_scores": {
+          "even": 33272,
+          "odd": 33238,
+          "pool": 66510
+        },
+        "denominator": 2334,
+        "lexicographically_first_argmax": [
+          2,
+          13,
+          32,
+          13
+        ],
+        "maximum_numerator": 33238,
+        "maximum_score": {
+          "denominator": 1167,
+          "numerator": 16619
+        },
+        "scope": "t3eq2",
+        "weights": "odd"
+      },
+      "pool": {
+        "G": 222,
+        "argmax_count": 68,
+        "argmax_digest": "e87bcdc15c95c6b6b93176b1855804ad89f1144b2b53784c6220d7a1267e5e31",
+        "coverage_mask_hex": "96675551fc9e5376bd697a5b9eaaa85557ceab1565699a5396b56a4a5db5e3b94d718aa6d74d29ab5655e5294f51d4aee9655d",
+        "cross_scores": {
+          "even": 33272,
+          "odd": 33238,
+          "pool": 66510
+        },
+        "denominator": 4671,
+        "lexicographically_first_argmax": [
+          2,
+          13,
+          32,
+          13
+        ],
+        "maximum_numerator": 66510,
+        "maximum_score": {
+          "denominator": 519,
+          "numerator": 7390
+        },
+        "scope": "t3eq2",
+        "weights": "pool"
+      }
+    }
+  },
+  "optimum_G_values": {
+    "even": 219,
+    "odd": 219,
+    "pool": 219
+  },
+  "ordered_result_digest": "fa6fbb4176383292bcc35a11e844725f00cacfa5be96677c6538bbe461f2550a",
+  "schema": "a303656-weighted-maxima-v1",
+  "three_optima_share_coverage_mask": true,
+  "tuple_count": 28227969
+}

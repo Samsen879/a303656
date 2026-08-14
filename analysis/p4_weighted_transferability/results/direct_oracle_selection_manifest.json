@@ -1,0 +1,5080 @@
+{
+  "all_class_minima_and_tied_argmins_included": true,
+  "all_predeclared_class_representatives_included": true,
+  "all_predeclared_low_T_points_included": true,
+  "class_count": 87,
+  "contains_n_196653638594_T15": true,
+  "frozen_from": "analysis/p4_maximizer_census/direct_verification.json",
+  "minimum_or_tied_argmin_point_count": 113,
+  "points": [
+    {
+      "T": 31,
+      "class_id": "CAL-216",
+      "class_index": 0,
+      "n": 184673186354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1848eb34e5d2f9c230b3bc4e4af5e205b7aacefc07550133043c076e69dc110e"
+    },
+    {
+      "T": 26,
+      "class_id": "CAL-216",
+      "class_index": 0,
+      "n": 215159392874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "51d7736768ccda730007d0f3227834cb89955f7e56d120ae1e665611bc36a340"
+    },
+    {
+      "T": 16,
+      "class_id": "CAL-216",
+      "class_index": 0,
+      "n": 240000005594,
+      "point_index": 49,
+      "selection_reasons": [
+        "T<=20",
+        "T<=previous_known_16",
+        "calibration_nearest_n0",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "19e8cdc45fcb45593a6cfc9bb4494e51a6d056466b3ccd4dd3b38f4e5d936912"
+    },
+    {
+      "T": 30,
+      "class_id": "CAL-216",
+      "class_index": 0,
+      "n": 245645599394,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "bbfb7649bf7f1d9a59ed34a0d37cf49a07574401cef1d2f4c3d11092852a7f48"
+    },
+    {
+      "T": 26,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 184215939914,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "4594d4e50d47968e9b111de5bf61c290fa4631eb86d1f54b8fd037e56fd405e3"
+    },
+    {
+      "T": 19,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 185345058674,
+      "point_index": 1,
+      "selection_reasons": [
+        "T<=20"
+      ],
+      "winner_mask_sha256": "e2ebf488576bcb503dfb29460c43006b11857fdf381c2641ac551af5a596908a"
+    },
+    {
+      "T": 18,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 206798315114,
+      "point_index": 20,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "21e4c67c58abadc6b18cac490038982d7bc318b62de99c8e10d66b67bcc3b2f9"
+    },
+    {
+      "T": 19,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 210185671394,
+      "point_index": 23,
+      "selection_reasons": [
+        "T<=20"
+      ],
+      "winner_mask_sha256": "9f1dfbc6ff79b35cd2635957786c832c955c9172aa1408dd9d15f87abbae9428"
+    },
+    {
+      "T": 32,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 214702146434,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "28fc57a8d478876c28f44f5c652c7a6fb86e85ae62a17915bfc46a5db360764a"
+    },
+    {
+      "T": 20,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 223735096514,
+      "point_index": 35,
+      "selection_reasons": [
+        "T<=20"
+      ],
+      "winner_mask_sha256": "57cf1221bacc1ce02fa61a3fc2bc8f8d35f0239faaf1b6174c6e35208ed98c98"
+    },
+    {
+      "T": 20,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 230509809074,
+      "point_index": 41,
+      "selection_reasons": [
+        "T<=20"
+      ],
+      "winner_mask_sha256": "2f59a7f77729c6194f212b6ef0fe123f424e1b39ae330474db80a98e98dc0db9"
+    },
+    {
+      "T": 26,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 239542759154,
+      "point_index": 49,
+      "selection_reasons": [
+        "calibration_nearest_n0"
+      ],
+      "winner_mask_sha256": "db645ca21f34073ced67762bfde4837d8ae0bf4a21a050d0aaace90f0bbeadfc"
+    },
+    {
+      "T": 28,
+      "class_id": "CAL-227",
+      "class_index": 1,
+      "n": 246317471714,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "38f8c4f9d432b6990d68d24a63661bd27a101601298a8d765a10b1ad3d83f813"
+    },
+    {
+      "T": 27,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 184189849634,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "637ec37baf3aa98a3fd04eb1e3f14d69dda7dadb9293629f956b84de9b88beb3"
+    },
+    {
+      "T": 26,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 187577205914,
+      "point_index": 3,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "6abbac3347f473c07b60f8a37db0299d120f48cc199c4113cdf611fb9c5ed791"
+    },
+    {
+      "T": 31,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 214676056154,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "fd47ea2f9f2d999a38dd39b32619010220cce8617c4b3a02204c0769c7b3a797"
+    },
+    {
+      "T": 26,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 228225481274,
+      "point_index": 39,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a2ed2b03b295350bb3ce10b00bdc866743927c49e498bf25d224a3d1c8c3b5fb"
+    },
+    {
+      "T": 31,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 239516668874,
+      "point_index": 49,
+      "selection_reasons": [
+        "calibration_nearest_n0"
+      ],
+      "winner_mask_sha256": "11c4bfb31735650f9834589bfce4f331b23cafca5809c55ea877fabc518e2a4e"
+    },
+    {
+      "T": 30,
+      "class_id": "CAL-230",
+      "class_index": 2,
+      "n": 246291381434,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "43d6eed1c0bc07d1d236f62fa833b978012e43bd9ddf83b24fca5804fcaa3fa1"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "n": 184407386114,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "93b6d2dda311d2c8dc101aeac7bfbbfce2a9c50fd43bf1f9d2c2e2589cb21504"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "n": 202473286274,
+      "point_index": 16,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "9285cd49484fc139554dfee5342f374a0c55d957dfb9556c690a31fda795f43b"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "n": 214893592634,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "ffb15247a660aef1334f5fa2871a1e5aabe07b500e7aaf40678cf63f1710d80c"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "n": 239734205354,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "10e70e83fb69df7f915f258cd284c135f2a55cdef260a75106cfc50743c29c2d"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-001",
+      "class_index": 3,
+      "n": 246508917914,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "5575fcccb513325ef2c0cae8fd69cf319b4da6b7e142ed6ea8284003a71adfe7"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-002",
+      "class_index": 4,
+      "n": 184211017634,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "b2d0ae15555c614d4c02d9b6e4da56e9c77e6a7a6e948dc57f5f34e85ec2e470"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-002",
+      "class_index": 4,
+      "n": 214697224154,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "91761b6315ca49b73933d257f36427b65b65728b89a42c0c93ef80791c38641a"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-002",
+      "class_index": 4,
+      "n": 239537836874,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "51b0daf3575a214bc0cd5a2ddc374ad86e06114d691a1b123ecd04e32ea09e5a"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-002",
+      "class_index": 4,
+      "n": 246312549434,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "d3b29e9f1685df4e18fa19ef2f80c9b92c3556c86369fb313ada6fa2d1093ff0"
+    },
+    {
+      "T": 43,
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "n": 184751030954,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "3e0e66f19fad4aeb894a60ddd727c6efa5aa8c246fd67e2af822031eeafecd18"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "n": 198300456074,
+      "point_index": 12,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "706e3ca9e7231d386a1ab9deae085e045fd66a8c0b5c5bc85a129b4a3d09c0b3"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "n": 215237237474,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "5e545e9652629f126b558c4c5cf6c6a98710265f46cc681ede9463a70933fdd4"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "n": 240077850194,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "ee811433382e643d5c900e03a0dca6a04a1f115c7296cbc5beadf4488bd27e51"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-003",
+      "class_index": 5,
+      "n": 245723443994,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "4674ed9f5aca32d9f6d3bfe7b1a58531a0025316487bd2b4608b4750cce299d2"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "n": 184161925514,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "234ed0b14caaf5bebc8017899a95cb7ab479cf5500adc1bba7f7136e4b33bfbd"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "n": 214648132034,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "c733fe9a63325e86a559665614ed6d49c3719529c300c970f15bdf525b647071"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "n": 239488744754,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "6f1dbf53c0cbaef0845c1a061de74ccbb2e41c8adfd713b140223d1414e72d92"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "n": 245134338554,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "8f8e2437b1c44f66da3d697711ae75d2727342f9655e42c30e0759ef597d3796"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-004",
+      "class_index": 6,
+      "n": 246263457314,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "664843cfb0565dd37be1015c7fb59d592c02f7cc4941a81828a7b5d82f3a9189"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-005",
+      "class_index": 7,
+      "n": 184898307314,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e163a377da5e38cb773f512bee834f2536e7e1c187900721c66c9eb5931f6f45"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-005",
+      "class_index": 7,
+      "n": 215384513834,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7bf1aed9311053789c732856e53c8f516868e9a52a9d0dac9e5b4140193efb67"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-005",
+      "class_index": 7,
+      "n": 240225126554,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4a5098775951639db0b7377ee3a200bca706229d2166aca4a460cacd733417bf"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-005",
+      "class_index": 7,
+      "n": 245870720354,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "62b48d25088ed4c40581b1d07524720deaf74a44dc49163f16796a0e2ef31090"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "n": 184701938834,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e45509e40da48d0b2f8ff7c676e8a5744255ca4d3ac3262aa8fc231de7747500"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "n": 186960176354,
+      "point_index": 2,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "d393a65f6dc501669e21f853bbb511853cc6990ac0a61c4f685fc5ca7042168c"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "n": 215188145354,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "009952e7e87d0182c445041a2ff5197ed877020c8212722e9f6f06c363924b39"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "n": 240028758074,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "1253f9fa9d31232016fd8d676e420ca169f27a71d1fe392f1bb45188ab8bc8c5"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-006",
+      "class_index": 8,
+      "n": 245674351874,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "adc69473c6098428e1f9effce0b37bed35159c8726823779b82f1344d4588a04"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 184505570354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "373de9521c97b88b3ac5c67f3b63421adbe99c032833084c1d61f7ad4b2d28bb"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 214991776874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "eeb6711bc522720fe9f2206a606879021df93b320b205629759f552c90c57735"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 221766489434,
+      "point_index": 33,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4b7056901878b72dc337b59c23557e70b4ec2fd5b81e730ffd21b3803ed6c925"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 231928558274,
+      "point_index": 42,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "294cc44fb29c9121a76120374c768bc6b39ba5d2a6bf9205c54643a3ac222449"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 239832389594,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "7f9f84107c2fe55305cba4686d2d03834e3d319cd311973d8cc354721afd6ba5"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-007",
+      "class_index": 9,
+      "n": 246607102154,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "cf797c0dd756d8af039d1535f288e00906368bae0cd3616ae39b841135f3383e"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 184112833394,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1520b6921cba5dbfbf94874c82554743e45aa80b5cd100538bf2c76a83beb108"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 196533139754,
+      "point_index": 11,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "ef35b012c476bedd06d5323a2ba365d676519631590d8f31545ec95a668e59b8"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 214599039914,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "308cefc666b21491971a51ad255de8f925760408a5990045f883deaa8edb48d1"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 215728158674,
+      "point_index": 28,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "9ecde86e7fda104fdf4ca9b94c983a5e247b1f20442d5626d575ad1fb5570402"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 239439652634,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "258ce80f2551d5d3ea1a35a77db9a5092c48f923e4d5ed698d09640a6d77db11"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-008",
+      "class_index": 10,
+      "n": 246214365194,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "fd30f7309bc957ce32aaa607149121d089512fe85c635ffbbc7c3df21ebc85b9"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "n": 185045583674,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "82faa9393ecd05905a2a8dce59a5914eb2912edd5bdc252e16887e02fcecd268"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "n": 215531790194,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "a0f53c476c5623c23286dd067972c6c27e87c4569d101b3c2dbfde81841a6e01"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "n": 218919146474,
+      "point_index": 30,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1d5346a8f32f08257e3c6a55d54e0f12d86ec411e04883f7c96d1480e56b9dcf"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "n": 240372402914,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "a29705a98b9bf83e7095dbe6129fded51442196fae572172048aa4baed876dee"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-009",
+      "class_index": 11,
+      "n": 246017996714,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "530b7d4c76dbfe9af924415c1bbca3458bf6443d22ef01667ad4fc71a4581c18"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "n": 184849215194,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "c50b216e864fefc17e1a84039cbc5cfd3c28a69cb73969ac8985b10a49102212"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "n": 204044234114,
+      "point_index": 17,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "68795185986bff1665c1621e83610c552618a30edd6bf09ce565fd1ccb9c4cb8"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "n": 215335421714,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b27a0ca16b72a7e0c0544e86d7471fd4381cc2f44e8135bbaa805feb2ce594ce"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "n": 240176034434,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "d5e898adcf86ac4da0a51dd7653312433c9d5319647b77fdbe92aec1520a5674"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-010",
+      "class_index": 12,
+      "n": 245821628234,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2f3ff489f52eff6488800541e36cdb9a8939b1635a673a3213506108f92d47c7"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "n": 184652846714,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "cd5395c5810d75011ab2a22ce46859dbb7dcd8e24b518c68530fbd1fc0b6c079"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "n": 195944034314,
+      "point_index": 10,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "6deb5c14f92e4ded73046c1315c71cd700dc46f98b00428512ef587033194615"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "n": 215139053234,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "51b0eb18687a989223f01bd53ff4d4acb34e89cbd4d038961b9015bdb5309c62"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "n": 239979665954,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4e57584fa0993a573e2ee6420ec96fc97c0f73a6de64e5cd0110338dcc3bd602"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-011",
+      "class_index": 13,
+      "n": 245625259754,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2552884a4d247951bf31555d801127fb2fc6fc3d9e9961cfaec384bc2cf3e96d"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "n": 184260109754,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "04fd7521b52e45dd50c75be2550b8883e0e9910bf9ed75cbed42baa43191f61a"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "n": 193293059834,
+      "point_index": 8,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "b0087800d77439b6a1dea8ff87773833c72edd64931e6bc1d766af5bc180f355"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "n": 214746316274,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "42dcac8dafa5fd5fd04e86af1ac8a8ad8b196700dadcbb6bac2ed69870badfd9"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "n": 239586928994,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "6198bf4faf0c15bfe41ef2b8fd02823dda85634b515c0e9ff49cc073da8d58e3"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-012",
+      "class_index": 14,
+      "n": 246361641554,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "414ff96cf929498ac9631b57abd39557efc3d3e2299fcf86b9400235bf218951"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "n": 184063741274,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e78d30fcc40489b2ee616f2512603ff0f5ce905719eb0d0b5c979a2e91797733"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "n": 214549947794,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "0fabea1dba053df2b1d8f6ba3102b59a6adaa2072222c08f34f272190f17af16"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "n": 217937304074,
+      "point_index": 30,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "3f52151810598e562edf10d706ec8fac1fe87e96d172d1701c8352293d03b57c"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "n": 240519679274,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "2cf9f5a86844ee97f99878e3778e4f555312d5e235cd5776f8dcf81a41f1e1bc"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-013",
+      "class_index": 15,
+      "n": 246165273074,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "6878ca319d772a3db26f0a9435df8bf17933431df25ab945c09aa95d383c5298"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "n": 184603754594,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "b8c52916bc218e755dfabce42cb00ccce9e8fed1a5f3da07dcff9fd87c81951a"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "n": 215089961114,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "d647248ba0ea942c66979592c89ea26317e817d7302a6bcef71998f8b9faf313"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "n": 225252029954,
+      "point_index": 36,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "33b2043daf4c289b29de34867ce6f3319d9fbdfa447f1858f98d2977b8b2e59a"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "n": 239930573834,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "854b1af1052b1c63257bd471438c22e09a4e06f58e36afa9e2e3c7c7764e84fb"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-014",
+      "class_index": 16,
+      "n": 246705286394,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "df946c96dfbace20b15282992ad49656b22449e15be641ee480aa63319eb362c"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 184099444634,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "80c60b5442d44a4008b672086a747b7fe77c6aaa71fb42473c55863b08f0010f"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 203294463554,
+      "point_index": 17,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1bce3805e79e561f2899cc0472e57acd636e51b767b3ea44d5d99b81b9872fd3"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 214585651154,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "2a75c69aa74377ab9e08507d76e40a12e5557fb2b443119520cafe9c57503e30"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 222489482474,
+      "point_index": 34,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "d816ac89ddd93edc212554dae4aa68d7f2969f0581b85e0da685d9e7a2aa799d"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 240555382634,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "5fa271c501cd7d114388e8a1260090fc286d76656350c372877c16a58845943b"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-015",
+      "class_index": 17,
+      "n": 246200976434,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "d4851961fa8e04f8827abd9c9857ffcaa5b1e551740b168bcf3632e0a7aeb164"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "n": 185032194914,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "bf9a3e161a6452265673e57f760693498e7adcde079ce6caefe2dd0d190a144c"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "n": 215518401434,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "338ef48e2e4571d50273ba53d7e8001d1f20981af5056d29046b1f3fed8a2a65"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "n": 240359014154,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "76a8d962d03d138f80fa6af05000599ea0a7ff5f240a95e74c2d138513710b72"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "n": 241488132914,
+      "point_index": 50,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1d8d9fd497c3f8052d877db0bf34723d68f0f91a9dd907f861bdfe0cee449d5f"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-016",
+      "class_index": 18,
+      "n": 246004607954,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "294905c9be46ebe9d376e48aa89d8db52627669a26eb181c2271c3aed8470073"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "n": 184443089474,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "6e2af5be2ef3a7004db44b5f95fb170e011f352e67447818c7b8b332778805c8"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "n": 207025464674,
+      "point_index": 20,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "93a8ad858a6f3668abcbd528630778c45e1feb5acc3ccbf57721f0fdbf246503"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "n": 214929295994,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "ce8229aabc7159d768c92d96dc8ab648c3d6b4bb465072373c156a7c0f07f1c9"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "n": 239769908714,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "21a7139ba1fd8c696f24d4ff31e3bbcb80e79c06c68ef0eabb4252c2a0d00ddc"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-017",
+      "class_index": 19,
+      "n": 246544621274,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "3de5a24b21c46ee8189566277ca60d9a81f59bf6dceb5b19d2b04beebb4ecc27"
+    },
+    {
+      "T": 46,
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "n": 184983102794,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "c22d30fdebfffd8f3df1323536a9a6fa792f6e11f625d0c95ab94b2e9a42dda0"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "n": 215469309314,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "c2df84ba079bf21031dca27684790965214270bdc2f6c09438ae89b38188b68f"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "n": 224502259394,
+      "point_index": 35,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "3e7ab6dd0c6c9af66c50b6bd70a523d9ef6320601ffc9eca30ecf5fe5c550513"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "n": 240309922034,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "199405350a3c3296e123c9dfb8cd3bf97feee6b268e5b8b2d8e1057d9e2741a3"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-018",
+      "class_index": 20,
+      "n": 245955515834,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "c45452cc04a5d3ea24537b4f34c7d72a628b0f40d451509a08b56671fb01fa98"
+    },
+    {
+      "T": 46,
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "n": 184590365834,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "7a2cd6d5deff2b20a428029b565d9e006c6473903d564f750319680e74986a87"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "n": 200398028474,
+      "point_index": 14,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0b202587aff7888902536d22042a4af1ae1b8a016d743aa56c035b4c69bbea72"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "n": 215076572354,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "2fa9ea6b5b6c4d8a7cd28b8c48615fb6966a40873cc952bdec0ac9d986cb7906"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "n": 239917185074,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "0bf353fbc0df5caf612ded2f63cd17102816024c0c89b04fe5fae2bca77cd370"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-019",
+      "class_index": 21,
+      "n": 246691897634,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "6def91ffd6d8ae330ae1847ea0f781bcf0b9ac5f853f5985813a61c9350f9ff9"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "n": 184393997354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "62896fe3a41800a0412c9b4027c75bcd3c2b8338f2f0da4aa191c51bc2fd2074"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "n": 214880203874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1be72fd457176359d266ed2ddd5d1510e16402345bc2dda9f1943e320c3526ad"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "n": 226171391474,
+      "point_index": 37,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4396339ef1875d145d71d0fdf5500ceb02a9c68fcb909c099fbd9d188cd97151"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "n": 239720816594,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "fb2c58e3fcb99e44a1cfafb4fd7815b17194b779e84510742ae812666b6c8c61"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-020",
+      "class_index": 22,
+      "n": 246495529154,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "70cf34bf8cbfaaa6de792be40046c6d628587b333a5dfef0440c40a4840a196e"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "n": 184197628874,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "5e56ebb6f031913067db239e309fdb3d3eed3c10a994331dd80f3a1430cb8248"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "n": 214683835394,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b13f3fff33fb675cc9d9173c3c5a1d9b1d82dac60f6c8cdd70c08f6cadeb112f"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "n": 239524448114,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "5adae6b92e9213af7af1224fcf0e30fd1f1ee9f2cb7a0ebe9d994ad02bb35b4c"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "n": 245170041914,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a0f8954fd458617200a10a5a1a3a07872b1fbf1cbadd9e39af7b4afff9422742"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-021",
+      "class_index": 23,
+      "n": 246299160674,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "e8364811ce6d4c63927533e5f9088b0f4857d56c15b84a38282471fb7460da0f"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "n": 184934010674,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "89f3d7476d7eccb049f8aad5454b4cc53a34d669790ab03ca5dae9b1e1b4c88c"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "n": 215420217194,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1e1f34972dce8e971ae664712fccb8135149cf6f4e19c34ba8b7737f9ab3d254"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "n": 225582286034,
+      "point_index": 36,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7815f414da2228ed576b8ccb8458d36f7d4c445e6451c497f4c2a5cf0bbdb4f1"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "n": 240260829914,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "fc0d3c9496d74f3d537f50251e7311b37b0112181d35d6b543d2088ad625e890"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-022",
+      "class_index": 24,
+      "n": 245906423714,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "84f036b662694747d575bc473889c9bbb85eb849ce79d79abcbaf5be726a5492"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "n": 184737642194,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "dd9c3a9b5b2471f97d2354d14fdbd8a9bffd32372138f1235410320282fbcced"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "n": 194899711034,
+      "point_index": 9,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a4230834c6bb72f90e5c2814ef020e50ecd4b8973b58e69ab76da376a9e9dfbb"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "n": 215223848714,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "9286b72b95e567c9614bcb64427f08752cbd26ff4d92e0fbe9517de7be2d567a"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "n": 240064461434,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "ad1e242cb0036fa4261ca1581d467f3ef4acf9be780f14aca2893da43c0ee11a"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-023",
+      "class_index": 25,
+      "n": 245710055234,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "4ea42f3b9db44a9ec3bbe2f472ae4803c75fbb6c2cd7f0d23e8db781b43c0cb3"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "n": 184541273714,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1b853ed088432f7ce97a752c6ae4d693aee33ca1c5c9422b15f599698032b062"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "n": 215027480234,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "dbd9a02e5bd7cf39f34e36315af231528cf2621e16229b2658e59f1d9868def8"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "n": 239868092954,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "3430c48378415e69e3322a2f364616227e3189de6aab8849d98af8abe80e3c88"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "n": 240997211714,
+      "point_index": 50,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "89fcb46ebaf62a89fec4efc4a0ffe1b63011015656c1b477b16bff45598425bf"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-024",
+      "class_index": 26,
+      "n": 246642805514,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "f59010d1f402313cb5b2bc87c3c2f83859e959bc0a74c173036cae80c04639bd"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 184344905234,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "8bec4445f2fa9ec5e7429962edba49f255a68cdc88a636103da1c90572c96c7e"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 201281686634,
+      "point_index": 15,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "b1fb42ba60ccaf3d6873d2ad74429c257891df60c755d2330472b5d0962553fb"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 214831111754,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "62be8ce449bc5d7d3d0db8bc5518df850b649147db8ecb92dfa71fea9c9653a0"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 231767893154,
+      "point_index": 42,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1e8904464abc511267a2b1d4cb384b2448e5b619d71008dc3279d47c0c30bf33"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 239671724474,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "31f05cdd6455650640e07542705d6729482a9b80e99adfcc63335198256fb8ef"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 243059080754,
+      "point_index": 52,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "8a7a28f89101d547b1ceaacd715f6e68d334eae73df587d773ff888341cf1cbc"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-025",
+      "class_index": 27,
+      "n": 246446437034,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "fb0c0172df44effb1a2acb867b85e5c7f329d3bfd7a0250387fb48b00807b5c4"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "n": 185081287034,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "47d697b91173e95190739bcb4bbc58fd0f7860e618c22379681f41ec8eb0ac7b"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "n": 215567493554,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "6bf76a56c4db40f430d47aec35b36fe5ac0bbc7643c8894b8f220d47a27569a6"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "n": 235891631234,
+      "point_index": 45,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7821cc6c03d29f2c5717b2737d7f0469336353a99c71cafa094c3194c8f1e9e2"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "n": 240408106274,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "7a0bc7a99b292b61e618c936f2ca26898c622d37046d0f0230c2b7ef9a50306c"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-026",
+      "class_index": 28,
+      "n": 246053700074,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "6e1de63c1e3f1a7711a03b4665e5b3d1b38ee90b7f40e8024a479e93d8dd9cde"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 184884918554,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e59e1736ea95167fb91c6b81d49e9692d1bab242385a68e8f24f8e3d124924d4"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 215371125074,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1ef9514943b2f78c382683a02f19253d6168644493c45a55c7f5d9aa45b80cd2"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 239082619034,
+      "point_index": 48,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "20badcae2a7356348600453d106ee5abcac96fca553fa7f0a10ca6aafb51e0cb"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 240211737794,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4d398046cf00997b367a2ac3e671713652ae074310c6aa6deed46f420b6b6861"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 244728212834,
+      "point_index": 53,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "12b18b9e727ea1c7cb56ff912877f37b04abdbe3d38775ce5f13317b047ae16a"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-027",
+      "class_index": 29,
+      "n": 245857331594,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "0f422b2cfb8bf42447c3c56fdc6ff42d6926c827331e52727559677000c52c2c"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 184295813114,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "27e78130249cd3935960522509518681dbdfa8ea3ab01bd022c6d7d1afec9331"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 214782019634,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "e0f68ec1221f6eb94cf12125cae7bc1858f48faacab2753e22881f9f4762eedd"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 233977038554,
+      "point_index": 44,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "30a1f8c69e0a858de82fab354dbb4f6e7f5c78bd8abfd6be472735c58c91ed9a"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 235106157314,
+      "point_index": 45,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "2c6a229d51289d7325dc3f741b00a700346527ac9f5d055bb4ddc609124a9a9a"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 239622632354,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "3ba037b2e6a5e9417e46b6892a7faba76b8d4887c4d64722a2c4e92502b3fbe2"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-028",
+      "class_index": 30,
+      "n": 246397344914,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "a0b43272d7bd3846132715861b1e148dcfc6f32cdb5b34e3536d326094b1c3a7"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "n": 184920621914,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "90092a5a5e9e2fc9fd6dfdd50cafcfb9c8e0e5a7f8750c16b4dad8ac32293c11"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "n": 215406828434,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "5e03f7ac21ea6ed8bf0459ee1bd58b162c26419b023d48d17c4734d5de1fb7e7"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "n": 218794184714,
+      "point_index": 30,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "9b88a2d091f20540300a3d3e10c3ef88cfbef843dc57d4ae82f67a1c102436b9"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "n": 240247441154,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "145577a627c77fed2312638c97134e922b40c0859eb0f7e19b3746f4b12ee329"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-029",
+      "class_index": 31,
+      "n": 245893034954,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "23c9df578657f4e650acd848a6856f04412664e5bddbef3acd801b6d9c43c7f5"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "n": 184724253434,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "02d215098297dd4da17c8ba6d02686f116ffae5e7d6c54ae3630921d94c22592"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "n": 208435747394,
+      "point_index": 21,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "13e2b93d816d98f3e54a4ff483a49d596d43ce1e93c088b38795b65e19897806"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "n": 215210459954,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1528ab5831b12e04974b05b1123dc8b7ca3847e95f98ae4992a0a2cae6aba76b"
+    },
+    {
+      "T": 44,
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "n": 240051072674,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "2d816b4ed2baf1131ce41ad1d3712f87bac1a65725918c5c17dedae6c65ea727"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-030",
+      "class_index": 32,
+      "n": 245696666474,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "16d070fd5e10933a737ab7b66f52f3997ddc73af68e4c5fe5398cb0c83616214"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "n": 184135147994,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "c7e24cdab92a112aee5715660565ca2f68c76100cf2390340a83bb9b112faa07"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "n": 214621354514,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "94f49f37b4cf9af0ad734e6a5109b29605e7cf25b7617ee4c953be3b2266164d"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "n": 239461967234,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "b29e044eb1e4440630f9391974791aa9cb2ea60096ac2c9028720afd2b956baa"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "n": 245107561034,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "2afdd1d9a97276340a70b72c33f8b25d8f01dcf5318b81050398aae6ecfc75aa"
+    },
+    {
+      "T": 44,
+      "class_id": "MAX-031",
+      "class_index": 33,
+      "n": 246236679794,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "8c593fba88fee0ed1db9ba32467c813297d2f08176b41da1935b55e0c92fe52c"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "n": 184675161314,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "f127f85a877455ab913947cfbac5d1972e49281e0a33a21c97707151e4974d7b"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "n": 207257536514,
+      "point_index": 20,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1d620c2fd3f01b0d84bab750e0bd4723cbc65924abc126da5788cd278656845a"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "n": 215161367834,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "7719f8c7c9cb44bcf609bc2a0e31b45580836f08e98334721c24b7199598e3db"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "n": 240001980554,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "ad11d0a83f756b4fdb8d4c78fd1fc8b298466b38bcf977a95e4ec5f38a03b906"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-032",
+      "class_index": 34,
+      "n": 245647574354,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "906224283718baabdc56c353d3614945e38e779564955c54958437098966ae44"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "n": 184282424354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "54bfb7ead62a1b5e56cec2ae2cdab6c1a935043dec3aef7577b6440e932a84bf"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "n": 207993918314,
+      "point_index": 21,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4d4d18cbe25923607b3fdeca3a78c282298f2420a962396a6766cc127520ce5a"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "n": 214768630874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "3724f24d6699f83c341c7ff6876aba7d84ad5520c46d1249abd9336ea329c0b7"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "n": 239609243594,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "e9e55e0514e3f22aeb19cee79e528f77d02d01e55417656c05257dd380af832f"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-033",
+      "class_index": 35,
+      "n": 246383956154,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "5a630762f88fb8d0efb5f28ceb294ddf9f42617c4917b35c7177fc90cfa2504e"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 184086055874,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "f71dcc46bd5ee3f4e3992cec23237c5435d523f6ffd4612c0f1ba217f5b01022"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 185215174634,
+      "point_index": 1,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "5c345bb31e183bc60ba54bdb371830e10c43d274612f6830540208ac2d2949b9"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 196506362234,
+      "point_index": 11,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "99a50957c431c2b8b90531b3d430202e8335e8808093e506e913d73717462b09"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 214572262394,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "31656636a09ade30101d92a08481b267ccc95ac43cf0bb30137af88742d324aa"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 215701381154,
+      "point_index": 28,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "50db323020924731fe5160c1b0bebe18adfe04382329bb2d58cbfb7d35de6802"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 240541993874,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "9e21a4738c7f67f2abf3750ec639eeb4a8cd0e6719d0b5d7cfd5932810ef1276"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 242800231394,
+      "point_index": 52,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4b4793e129d1f7a4a0cca25e697e4f598d0693773a63a2f8a4d5240e9ec3512b"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-034",
+      "class_index": 36,
+      "n": 246187587674,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2e981829e78b7fa0bc82c8c92c3eaf43e17036f5a99238dfc3fb2f6e637b8e00"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "n": 185018806154,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "6568386ced54dd298b46697ad208d5fee00bb3411a99f4cd76fcbd8ab4d4debd"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "n": 215505012674,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "9eeba4f993722777e3573a760718dae8283b606588d651cbaacec22945838b1f"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "n": 231312675314,
+      "point_index": 41,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0de002c2dbc92993f30d83ffef38de7b7e805efc413cc14c25704494896f68a0"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "n": 240345625394,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "3b587fd69d7cd7803a76ddc414bdd70958ab25d10169cd8299a69e36050363f0"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-035",
+      "class_index": 37,
+      "n": 245991219194,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "a85b8b216454190d73dbf588c7e1fa978fd751d0b06476dc0252bbea193420f7"
+    },
+    {
+      "T": 42,
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "n": 184626069194,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "a159edfd81f6fab6c2c971f2084a2f1f95e39dc62fee5f03f40175352e8c9e32"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "n": 215112275714,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "eca2dd244a77a876b7918e58dde10ca58ea01d5ff038fd09b7d91fabfc193874"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "n": 238823769674,
+      "point_index": 48,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "74361d5e20b3a81eade677c30e063ec943cbb5cf140d6f73e85a6511fc767d53"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "n": 239952888434,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "05a960f40ee6b6a0662f894db8fcef295b5d2f0f8ffa0cc5a5601782ac72593f"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-036",
+      "class_index": 38,
+      "n": 246727600994,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "c7efc3b2318bf4fdf5fdaae25aa232c332696c0e72abe46341b338dea3699fc6"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "n": 184429700714,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e156dad8dd759f6543c7c40beaf9f748f1717bf046934b29d8d40b6bbe3fd762"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "n": 201366482114,
+      "point_index": 15,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7de2147fe941343f1ba0f55f12437b37e06142116920a925eb80c008e34f1f12"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "n": 214915907234,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "683dc97d39f3bdec1033afa3e7b74336d266f734d08b676d21a0ae7d463485b9"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "n": 239756519954,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "aec0bcaf44eafb8b0e201952075f4739ccb29b0bdc0ad1845eb84c137880b233"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-037",
+      "class_index": 39,
+      "n": 246531232514,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "9b154e5123e2aa9c0f1af29ce38f61942a463ca54d81507162c74790e6c9c186"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 184233332234,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "796278110ab5a3efaf07f6232225eb93802a3c7544b472f4b2ac54ea1f6223c1"
+    },
+    {
+      "T": 15,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 196653638594,
+      "point_index": 11,
+      "selection_reasons": [
+        "T<=20",
+        "T<=previous_known_16",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0b990e3a4a537300d8dde29ebae88728adcc511a2672c8ce62a0cdb02ae06a8d"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 214719538754,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "683f656b055b6c95a99ccdab3a5e329a6dcdba2c25c273bd381d5a2cdbf36fb6"
+    },
+    {
+      "T": 19,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 224881607594,
+      "point_index": 36,
+      "selection_reasons": [
+        "T<=20"
+      ],
+      "winner_mask_sha256": "3597513bbce5dca7b53ffd2c9afe135635ff2d180f4377440b4f4aaf0eb01f55"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 239560151474,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "0d3750a7570a1af15775ad65236aa6ce70f9a3ec822c89440feef3a17799073a"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-038",
+      "class_index": 40,
+      "n": 246334864034,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "1ba0c14519cb298b121edee2dd93fe6d1022081a35cf09295c55e67c3ace0fa5"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "n": 184036963754,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "80e11ecbcaaacbba8d6c7398b2e0e81d565a432d7350d28627595fe7a92db47b"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "n": 208877576474,
+      "point_index": 22,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "f5d8aeb74f385a5b373f2fdc994c34fe0ed1f71159e1424bcc5b4f49f47752cb"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "n": 214523170274,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "e76346e1f108b890ef9591f2b1cb77c7d57015ff46c940feff532ea1a70a61ea"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "n": 240492901754,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f7b006480a1e826871efb32d223246d0ad30782b50c7ff8f7858ae24c7496fe1"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-039",
+      "class_index": 41,
+      "n": 246138495554,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "8e0886d15315a3cde2b12b9a1734be88ef5a2001428ffd6955fed95b8f8252c9"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-040",
+      "class_index": 42,
+      "n": 184773345554,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "5a3733555c05289d490b970fff873b70f0c88eb7414c24943556e9481c57b481"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-040",
+      "class_index": 42,
+      "n": 215259552074,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "23d31184d7bdb76bbfb12227b15f699a6bf4a278dce67fdb33b359659949f2d2"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-040",
+      "class_index": 42,
+      "n": 240100164794,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "b507122146c6911c14b478040c431b39d278b34b6433e842805ac2ae5d13aa64"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-040",
+      "class_index": 42,
+      "n": 245745758594,
+      "point_index": 54,
+      "selection_reasons": [
+        "T<=20",
+        "class_last",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "6d15ed69dca3affceb4a649b8393c50284f4cbad5c13330ddeee96ff6e3e6f69"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "n": 184576977074,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "a8c0f4bb3864fd80d91cd3a0ef9c1d260e36584e41dfbdf24f682001f45af007"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "n": 215063183594,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "6f3e2122ba6a7723b9dc5e327f35747089b07cd213f019f5d1d52b7ff4818562"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "n": 239903796314,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "91aaef441f92b7504242b71c8a5658fbb5ea5edb8ba20db27ecadcad027c8def"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "n": 244420271354,
+      "point_index": 53,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "e89e2e382206a0053dc9c5991b273a3c24c6e688ce022a672f5dc403ec574d2b"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-041",
+      "class_index": 43,
+      "n": 246678508874,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "e3b1981b87893b32038644b86bed8b6a5c523490dce96624818b7c9e334af904"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "n": 183987871634,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "db4e673a8a0d98568e7f0a06e29c362b84bbaf29596fc91a0d93d90bd2723ba5"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "n": 190762584194,
+      "point_index": 6,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "be6be6ffbdcec427357b2ddfbe7f0425f7f2cd743e369085fdcb97c95a5eb11d"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "n": 214474078154,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "9182b02a54753ec05ab24b6739d09ec992d8c7d2ea122ae52011be8631c8b4e9"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "n": 240443809634,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "5e7692293ee1b8ea3fb6a7bad8032b1c0a732eaa30c75554ed231f1e48488e6a"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-042",
+      "class_index": 44,
+      "n": 246089403434,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "ea3370cf33118def30b024cd7489665901ff62ea87cf83c7795b30cb0da40698"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "n": 184612680434,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "407cda321005f55a362e2ca1041796cf4b2588be24bc28a76394d925ada35d62"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "n": 204936818114,
+      "point_index": 18,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0d9e4e04c63e99442a459482d567a381d46cad0e00c50ee72aa2db01770ec821"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "n": 215098886954,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "5b8b80752c20b153ae56c3b861859ba0e1387a7089543ff20654ecd50f121f48"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "n": 239939499674,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "1d132a1006fd38d2229cb9a1fab6d2585b1de8d348083a6b04b5bbaee7204590"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-043",
+      "class_index": 45,
+      "n": 246714212234,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2248e1f32ae283f19b3b73228505c78670e64fb838477a594453c335894ea88d"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "n": 184416311954,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "354bc1fc3e55d21d467d6057fa4c32539b8e37f2c04dd40dfbb7e0fcbafbd392"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "n": 204740449634,
+      "point_index": 18,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "40233229c3876717ad4a8054822652ef876ba460a8685946034371247f6d1b4a"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "n": 214902518474,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "4bdb9bb6c03de0b33151b332fb6441892313f37b2c00cb1184e67ae62c924064"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "n": 239743131194,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4512405b86c52d5ee8cb718e98aba4720e4d63e0e0ac538e7ef1b4cdf68b00c4"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-044",
+      "class_index": 46,
+      "n": 246517843754,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "0f6a664b6c0eb9d037c1717d8407ecb7189999da70f27f187248e08d71816be0"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "n": 184956325274,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "0b9d84b6a18bca074fc9764b35557dca20a3c1512060feb01d1648c803e3f187"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "n": 189472800314,
+      "point_index": 4,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "25eee9185ca558b0bc073d1038c85b08f8fa1c83794fed7bd02837062b91bbd1"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "n": 215442531794,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b2b95c4788eb72e4e0897e1e517cf4f0ac1a8266c0c5a5d0d083aedd92ffe110"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "n": 240283144514,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "b79474f4a970b6530694498f025e98eb850af6b6a3a90f9af9271cb1a678e957"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-045",
+      "class_index": 47,
+      "n": 245928738314,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "685f40a106eb6be7af52a5529e07ab3e4250c707d7cf2989741b3c32250110e5"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "n": 184367219834,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1906a5ed68cd58ade773c9e22f8dfd923cbab1262c315abc8d15bbbcbd4abbae"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "n": 214853426354,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "4b507bcc3cd27346be6441991893e03ec94444d6a1bd6891c59c577889f8257f"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "n": 231790207754,
+      "point_index": 42,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "aaa6dd34b4cb6d805c8a569fe07a27a5296baebdcac542fe33d3c2d58f1da785"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "n": 239694039074,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "7065434d72ac44fbc60e0111cd32e749edfd7a817663c74e31b0760cdb8062e1"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-046",
+      "class_index": 48,
+      "n": 246468751634,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "90cef3eb1a88990b5339270475364fa4cb624909104ae874871d9ac8918d889d"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "n": 183974482874,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "cf614a7c7237cfb3b9bf6ff6506a050b1f6d47f5e5a75ce8a57eebf1cdc028b2"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "n": 214460689394,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "7b0391dcf17de8e85f1321781492d9669c7750f678863b4a5f554aeb04a781fd"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "n": 240430420874,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "61969398295b600f1d0dbea3896a31fbf1221f5c90b16555315898e2db9390e4"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "n": 243817777154,
+      "point_index": 53,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "652e30480da5304e817a4a963e37fca4dbe26922ef4440fca6b6b83e4c91dc0c"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-047",
+      "class_index": 49,
+      "n": 246076014674,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "a50f60a5addfcf60562b906eaa3d2d603e8cbabdb02e45d540629e9b5a3dd209"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 184907233154,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "2dc653aae2cb589012b6a37ca9b521f2f82756ed7647b6dabfd985c91b78c77d"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 191681945714,
+      "point_index": 6,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "858b8940d524cf5ec78d049bedae56b099190b4a11741460f8008c24fb7e733d"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 215393439674,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "e27c0c6866de893b78c5f5ab5d69c917ce7c5e549afee4ac111dcf4ce7c66dc5"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 232330221074,
+      "point_index": 42,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "233b8bdeb0cf9dd22a8eeb430cd41a83601dc1987085bf8b380b7bcd2cd6b148"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 240234052394,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "237d9ca21cd401707abdff829d2543747d7f4e3b8d245700512a9377fae8626b"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-048",
+      "class_index": 50,
+      "n": 245879646194,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "a2b3fb4ee5399f5ab80521eb64ca7f012ee862df963bd26938b0152d4ca860bb"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "n": 184710864674,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "a57860efef0303e4a3ddaa0115d7e85ca1e09f26408d475c47442937cc3494de"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "n": 198260289794,
+      "point_index": 12,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "8a2dcddd13cf104631fe8021c327cadda1f75f171040f5974c28491ebb218108"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "n": 215197071194,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "390743a43b6cd90e5bf0d153689915beff540194b41a6c169a21f97e010920e9"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "n": 240037683914,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "7a3ebac45fdd895917f795b4aabce69de6b31d5ca8db91c2a2c9c7e56f136460"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-049",
+      "class_index": 51,
+      "n": 245683277714,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "b27285ecc1037b6b8be4980a20429c1d8f7ea74c01aa10b3d9b7b4fea58a8071"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "n": 184318127714,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "447cd6d3625c0d951bd559be569ffe1d73ab5d3aa59be66876c21c5150c758f3"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "n": 214804334234,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "d25e8f86b62b051e7c1e38cef58395ce3c70dd84ff7f153fdac93f128d3e79b3"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "n": 215933452994,
+      "point_index": 28,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "fdbcd012df7749c24de13dd0c3045e6d8c6745f9db42993124d0bec0957cb211"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "n": 239644946954,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "1ebf70a7420aa313435c4d54e17a50f5f4ce346fff4ba638ae6dd7f8bb688348"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-050",
+      "class_index": 52,
+      "n": 246419659514,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "67c5f9d8716c4b91da8ee1fa416e8b0ccc05403d7bc7b9ea53419f2d432cc3a2"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "n": 184121759234,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "5b656fa35bb116c3ea08141d5844e3a5a55bd84441016e54a574679570748b34"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "n": 193154709314,
+      "point_index": 8,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "95aff750fcf39afb64ca3d0cdbceb3eb960fbbf896d565fcaf3cb7c2da49086a"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "n": 214607965754,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "627da50f80c2764a877dcf7b0a5b10194c2928f01db8815366a12d88784f85bb"
+    },
+    {
+      "T": 42,
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "n": 239448578474,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "b75b65739c1edcd1d505a88d73cb3a08f26892be69439f43055650544340bbdd"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-051",
+      "class_index": 53,
+      "n": 246223291034,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "ed0e496d365a10f03839788c873007d24802bb5f8a14c0a3fcb0a25a66ca3e10"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "n": 185054509514,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "5a4f2c603ea3e12a5956d7d58d119f539fa46a509073e15acc42ab361a087ea8"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "n": 205378647194,
+      "point_index": 18,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "62da56cca6d12006bcaa7a2e514a7fcfca9e41025ef61542ac2434cfd6d48fb3"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "n": 215540716034,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "d67e2fe7250e7a3c78ce7181063f3fd86828e99bc9ddf53f8aadf17b4e9d84e5"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "n": 240381328754,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "bb024826f7250f79712e380fce236f1d8ca08b6ebf2de205e31f53c5192e2da4"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-052",
+      "class_index": 54,
+      "n": 246026922554,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "66efb2145dbda13fbfa1afb868d50172b42b8b73fa0de994e689914daa8a5612"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "n": 184858141034,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "c287defca542433a0dbb0402e120b7c78e01e44333bda2d1ebfbd9dd96b83d1d"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "n": 215344347554,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "ca1017fda90b5d46c792a1958cd9112d4cef9e523a25b33fe5f6750935e906fe"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "n": 228893772674,
+      "point_index": 39,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "bba387bea2a8909f008f6f1a76bbb90322e28d266110f16f00d74d2e59257c07"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "n": 240184960274,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "6dc6af78ac20fc9479aebd1356392137e9509f88d57a4729526e5312d68a3f3c"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-053",
+      "class_index": 55,
+      "n": 245830554074,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "cedb5d2174cf40b22cb92c6fb0c8a2314a872dde63b9deb70f719d5b35f857f4"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "n": 184465404074,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1b338f3ac398e692637eae3921132778bd31b3efed908f4c3c8dec0a4b2eb0c8"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "n": 214951610594,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "f9afeaccb475ef500e6821aa9f3ed189cf815c9835d704ba4637cc55747aad7f"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "n": 228501035714,
+      "point_index": 39,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0fd90343b663968e0028051195d03d3fa74a2f9240d0a816843684d96a4d046e"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "n": 239792223314,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "957c0d59e1b7f0b819db019ce8738bb15a68954ce50777ddb5ba96bfd5b4381b"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-054",
+      "class_index": 56,
+      "n": 246566935874,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "c3a75cbc1c99723ae7d5e534a516a6b55000e7718fdf6cfcf1001253dd54c2bb"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "n": 184269035594,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "410873a8a66eb23aa8295746dd30a8796ea45cd23ab891d9e12c49baafaa52e4"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "n": 210238767074,
+      "point_index": 23,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "8ab1cc548b96f60fc0c8fc9193f55f019ae1dff7490bb3feaf0b63fa23fb1873"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "n": 214755242114,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b85ea70362b2fa946f3e03fa4ce4e22c3e738419a5ca7db64bf0dd987d4327fe"
+    },
+    {
+      "T": 42,
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "n": 239595854834,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f2260d5a95f42f67051149f0ed7c68506538cad6cca96d7c3161326b87fc7301"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-055",
+      "class_index": 57,
+      "n": 246370567394,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "80e51b336287d7c1540d6227927cc0aaca02b0498dcd7d8691c28571c9066f1e"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "n": 184809048914,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "5e3c3e96f1c6445a0ed49f4e287db8c8c085b0a125db77f5840b68a6f418edb9"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "n": 215295255434,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "f86a200510934eef0b052b44512c2939f7cbfc5295d1ac6346ecd033db9da7cf"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "n": 234490274354,
+      "point_index": 44,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "c7bcc9400288633bfe630dbd11d5022178190033e92d5391ae145d65cf2480ed"
+    },
+    {
+      "T": 45,
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "n": 240135868154,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "09150b0c6a7e30f481d4698b70c0907651e3099d0b0fc01e75db7afafad487ad"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-056",
+      "class_index": 58,
+      "n": 245781461954,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "3f0fc37a2cb625afccbf2397a7352b4ebc6d0e31c138589a1460608aaa2acc4b"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "n": 184304738954,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "445d90b86f8bd6f43da6c1f656e5ffb5651d9f5b0845b4be0972bef1ba54f56a"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "n": 214790945474,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "3ad885c74a749de8d6671100e40eab600b96b222898e5bc7e92a1695e2a8a936"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "n": 232856845634,
+      "point_index": 43,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "8043d2607885c46450e4b4272292cd45c08613d7498617f21197d416720eba53"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "n": 239631558194,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "1f489f2ce7f2ee9d0a655af73fe58a6e6a5f2a43f6ef845cf6c80eda34b66575"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-057",
+      "class_index": 59,
+      "n": 246406270754,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "899ec5c2265b2e62974f06f8b2ddbba2fa9575bb23a49e450ce96735441ba35a"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 184108370474,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "2340623fb73e88bae0c435c1ef4aecd2e6cb343b4d1728bbf1543660bd6a386f"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 186366607994,
+      "point_index": 2,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4c6cf18cceba2dd4cabbcafcf5a5573667a2d0cf1dbe8d44d9f9a0a40d28494b"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 210078101954,
+      "point_index": 23,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "fcf159783ca57a2cd5113ce759d37a0cf41b3942b2ca2c3699de3b6b46998bfb"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 214594576994,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "5dcd1f2228ab477263e30586bb887ab2c1ed9b2a17362a25ff4b8a6a318847c6"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 240564308474,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f281a43d2a3986d114d8214c24b1bfda81199bf0ab0ce0986c61f28ad5fe5cee"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-058",
+      "class_index": 60,
+      "n": 246209902274,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "45f05b85438b56f1a63da8c875cd052bbc1d7523d420ae81938312b61eca5b4c"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "n": 184648383794,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1f621cd235695ce0d68ac440217b1eca543f7a7712fd1123c9ec3c2505c592b3"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "n": 215134590314,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "40d437ce969221741d7b73ee0278cbb75320bea2ba61fe23387b31cf031c8c22"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "n": 230942252954,
+      "point_index": 41,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "9096046b85af8498ee0ec84200741eb4bbad31db389082280003da7365030d41"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "n": 239975203034,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "ccf906e05304c69432058f7fa2e9cf0370b3842b6bd11ee37862e68855662e21"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-059",
+      "class_index": 61,
+      "n": 245620796834,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "1786d7f65f3f325096ad4aa141f789375e52bcdf20833714cb1a70fc3e014b53"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 184059278354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "8f77687ed83c4bf12622872f5af5fee1ca0c7140b8809f4b94f96b4ea67e94b3"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 212287247354,
+      "point_index": 25,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "07cfca405e45b9d2f809c5547f2838c73845f6103f1ea79d98134d0802193429"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 214545484874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "ab3e4c5192ae7a296bee0f1094db09a7c6c84827763078b2c126a408cfd15ce0"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 222449316194,
+      "point_index": 34,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1d893cb1f137bda090b00db3912a0cebdcfac635dd4e40a3ad69f863276de963"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 233740503794,
+      "point_index": 44,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "f799bb54d21be27873c2b1adf1e9cc50f6fc8c0a2677b8404772ef491a032881"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 240515216354,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "c9701babfc11c282e0a6206dffc3016cc601c16be9e7eeee13e54d22a00cad06"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-060",
+      "class_index": 62,
+      "n": 246160810154,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "c48d71aa1a1e7994c6b566d4296681421d6027abec2b6cf83b7633c144fed522"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "n": 184795660154,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "0afcdffca35fe8dfcd135aac978d33a045be9782f97a4fa71e1798cc31e20bc5"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "n": 208507154114,
+      "point_index": 21,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "b0b43117deb1ae6d0526698056d19bf6766c6b078b7f0e9797af563da8a79faa"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "n": 215281866674,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "06bd01213082496391139279b285d79fca00e3ac6175f54fc9b053951ac295d8"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "n": 240122479394,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "d79c10533404f27a9012b14ee27d53896b00173f2d2fa08041cfe059c9ab15af"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-061",
+      "class_index": 63,
+      "n": 245768073194,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "7e6979bc617d7709bc555a2724058c9d567116aaf338b3284e4ab419ef10ab78"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "n": 184599291674,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "67a2808e6c2224208f591890a1aed216690f33dcb0b7535c92a0e8ff54775178"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "n": 195890479274,
+      "point_index": 10,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "31e03fd53e20869e9e3f54c676f3add6a2f4739d01f36b21211739793387eb0d"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "n": 215085498194,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "112620f15e9c334be7834e62dc4fe157904aef26cf3d2c30be704020cbf0086b"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "n": 239926110914,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "fa422539e0d30bd49c08db39b7e771ad8ed2924abd5663b1893461a2e20dd800"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-062",
+      "class_index": 64,
+      "n": 246700823474,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "b1f1729e5aaea1d3a1e681f1f98fad78927e11b1ddc09fd4956bd78ec70b15f2"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "n": 184402923194,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "a8b9b498e7217e123f57047ae5a0a292cb9cd782f448bfb59c4c7c8c6e49a3cf"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "n": 214889129714,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "0c4ab1678713056dfcb62b5750ba74dfdcab1ba373c74c1b55ec78681b927975"
+    },
+    {
+      "T": 18,
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "n": 218276485994,
+      "point_index": 30,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "04dd9db6c9ec4e9aff5020a7d67491163d0d64d07423b8df2458cb8a798605b6"
+    },
+    {
+      "T": 42,
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "n": 239729742434,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "6f7428bfda915bb8f696809d31c6b904f88bc3c5400c91a905af38e9319ec4f9"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-063",
+      "class_index": 65,
+      "n": 246504454994,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "50a24baa5235a701d900666efd0a8f95811434a9e11083d9fd83b2215ce58ff1"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "n": 184010186234,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "36a81ba9fd59136f712d1af7837621ad9b36f0b9682106c01b53ee5311fe2a7e"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "n": 195301373834,
+      "point_index": 10,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "9c8e5acb47cf40e15c76da16593198aa7a904b493fc5087c5cb835ea5e6414d2"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "n": 214496392754,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "5f7b8a0268ebb6ca74e4611e1ffd3e046330daa0fb37ea3bc3e1ce729484cb28"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "n": 240466124234,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4dcb524ff35b03e7fd556c863e21bcf36131bf8026fb70e2875bcef70055d41e"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-064",
+      "class_index": 66,
+      "n": 246111718034,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "67fac8e728b6d088148c60e5f6ce78c76e445a608d6337f569633cb61f203f2f"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "n": 184942936514,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "c58f70591d9efc1258fa92023b50dc7b56f91dd63a8006fd2db4cb10d00a14c0"
+    },
+    {
+      "T": 44,
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "n": 215429143034,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1a46165b0dbad796fb72d59b78e1f3702fea43eb901bc43616be8e6589db49bb"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "n": 221074736834,
+      "point_index": 32,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "6a5b549e6e7d204ba2d852cb25bfab524b910d1cb6193f85f17c3778f2716cd8"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "n": 240269755754,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "94c9e6bd56f0053bda15f1523e35fe3e16502a4576c0f233f2f295eb8701ccb3"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-065",
+      "class_index": 67,
+      "n": 245915349554,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "65a3428969896c926d7954b1f25309ac7e6303e8cc6904dd536b24c6b67f95e1"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "n": 184746568034,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "f9041504578d84e3a9456f0212bd9b983ac9f45544031aa050add75427b1a202"
+    },
+    {
+      "T": 46,
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "n": 215232774554,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "958fe1aaee3faeaf14fd578a98dc4915eb93c4b1795e89ee0dc619bcbe997d7f"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "n": 233298674714,
+      "point_index": 43,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a96588b8bf809b73fed437f02d67b6a94510b5a5e425e2b85fc907cf117222e6"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "n": 240073387274,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "85922c85a5e12ec6e8adb4160ca34a0a162ce1585933767cf7189dd26bb9e7e2"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-066",
+      "class_index": 68,
+      "n": 245718981074,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2601808898a04feba6af671f9d2941523fb880eedb5440646a926900731c9f62"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "n": 184550199554,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "538e6697724b097a3b2b6c0ff2b018f3d5d4c6b6a86691d65c7209caf2740b19"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "n": 215036406074,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "93934e800f232afba83a3f77c3448940357f31532a3e2f5540437c7bb5abea28"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "n": 239877018794,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "8763ff2211f3e9fea20159bd4b0d24525b5d4054a752569da783ee32958023b4"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "n": 245522612594,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7ea1fda8727d0be00c9f78bdac483d2651dbc73dc30d037c3595f7fd9e53c1f8"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-067",
+      "class_index": 69,
+      "n": 246651731354,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "e4bd316484368ff428e7fd5503f611010a7a8d6641c969b362bfc03f3da2a262"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 184157462594,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "f2eae38c85079a678d6b827aba334e0d6363ab66313cc8a12060f43740066725"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 208998075314,
+      "point_index": 22,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "e6cdb913dae568a84c1939b0e37cab75a528deed80ce4e3652adab4df13af664"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 214643669114,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "bba749e9e1e7263e394bdad3eff7d27434b181035c24e40721f1171fc6a53a19"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 218031025394,
+      "point_index": 30,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "05bd1b849a7961c565a6ba1c6d4dc76468dd8310d97a905405711053f0be9af7"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 229322212994,
+      "point_index": 40,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "6d5ad1b7dadefdcaf9329d7606d127bbacf5ef580107002ab47ce64078869d2d"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 239484281834,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "788d96db912dd92b0532d157120f296a5377e0c41576a9781aec26ad9445df26"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-068",
+      "class_index": 70,
+      "n": 246258994394,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "de226d353eccd8d90c145c75a3dba89890d50ea40fa2d4ac3e71926f891da404"
+    },
+    {
+      "T": 40,
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "n": 185090212874,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "3a252cbbbf1026665f3e9f3e19b736c7b7545bbf7a04b6ac6bf9db58e61b8ba3"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "n": 215576419394,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "9147d239b6a5121f818983eb125a4c93aa1708aefca0606e15427ae23f2dcd58"
+    },
+    {
+      "T": 21,
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "n": 237029675834,
+      "point_index": 46,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "40c96b7fca0dfac8f4366d8ebefafe57ba443c3ba7599052cb9c1f86c2951fdc"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "n": 240417032114,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f3543f1d1b575d02f727d37f165fd99be2d2bb9ceed79c046dbca7bfc1af1e90"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-069",
+      "class_index": 71,
+      "n": 246062625914,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "42a51b5742c9fcec3ff861f46d45b9493bcec411acddd04f0e879f848b5919d9"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 184501107434,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "0e654a2e627988675abad370a48c1390afd5414dabdb5408a2624b180f8c34e9"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 214987313954,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "bd97bab7baf442c6d8417ab9dc30c4dc691a8d1ef0549fbd08ebb4982fde6514"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 224020264034,
+      "point_index": 35,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "1b37225933ae3b84a09870b87f1467594655decd0d271dbb7aba8746bd776525"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 239827926674,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "4de2165628278a2042db26d5d569d2bc9750675e7f57fad6f3f6d50653c8498d"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 244344401714,
+      "point_index": 53,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "21adbc3611656409355fae4e8676ed86a38f4622414345cf4056cbb4509ad0cb"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-070",
+      "class_index": 72,
+      "n": 246602639234,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "16c2e68633692677f1b31d9e2bcb6253b86502fb5d6f2f94c7e7a37f85f8f4e8"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 184817974754,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "3767fa063251451baa7a4a0e3325ee47ffee304e3ef028bb9161d5581644ea40"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 214175062514,
+      "point_index": 26,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "85ca2f65130db09b1d7d78c1bcdb2e643dc48e2753032cf77c0f3c7639389286"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 215304181274,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1b8d81c008786b942a0e071da38ece061bf0c42b32a28774b3b88f6dc93ce421"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 217562418794,
+      "point_index": 29,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "826d7ee0ddce87cb33f8112655568c005ff7baabcee8eeaec40a0ae8f18980d3"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 240144793994,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "b617d036467563a19e757e4642abd4d02dd0f1055940dcc5e6dcd308d85e6a20"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-071",
+      "class_index": 73,
+      "n": 245790387794,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "487800c1f901dc619e2ceb3d6ca42e163287d5ff3c4bbe8c05711471fa356ad0"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "n": 184621606274,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "fbbbfb6192dd47288d1c63cb9243a9f1829b43fd3e5674eb02e0387f101c8752"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "n": 215107812794,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "56a9ce5333fe90be8ca351b7d62b4dd9ce445f5cb17de27bbcdc57df80e470cc"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "n": 224140762874,
+      "point_index": 35,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "862363965ac7edd45ea13aa4458fd0c2d18114ec4d96327bcec62135d0f915a0"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "n": 239948425514,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "8ec2bb95d494c0b1fafcef6185b5b9cf1489a4a9f2a226565fc214f823c5a131"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-072",
+      "class_index": 74,
+      "n": 246723138074,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "96a64de86e471acbd72793d878f7f435455242158833a77d43b3f1cf775f7b84"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "n": 184032500834,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "89c6e804f02862db33ae4b17a9ab700aebb3d6f81779005a7cf37adda060dd53"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "n": 188548975874,
+      "point_index": 4,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0b749366c9a5b33eac480c83069f9e913ba573daf97ada58dd3be2b3f370cfe3"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "n": 214518707354,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "0a745855fda83c7deb5f1c71bfbe1ac8eda0b371362ddb7979b54f3bb2605ec2"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "n": 240488438834,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "a88f29611d1821ec0c0526ad1fa04aa4f1e2c2bcba4b826ce5de75fae5bd283a"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-073",
+      "class_index": 75,
+      "n": 246134032634,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "4f4c988ff755a937994fe077d804194f6d30353d1d098871d4c4a296c78092ca"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "n": 184572514154,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "3e35fd87da8f4aa885b5b973b7264afaf183af40a55222c6f671b9f8d783c654"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "n": 215058720674,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "999a0b8a3aa913385ba7c5d6e0bc0c307ab125ef701a8d39b5198fa722eca6b6"
+    },
+    {
+      "T": 31,
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "n": 239899333394,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "c55d6530141dfe0051d283dac3a82c60a9118e8d910aff8c8f13f9edf364ecaa"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "n": 244415808434,
+      "point_index": 53,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "0a9bc73b0a373d65796700091280a846ae5b5eabcd54df1cdcb025baa1dc5896"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-074",
+      "class_index": 76,
+      "n": 246674045954,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "9c95417980af485dc33d4dbde041b5f46a9d30db113b4b3f89bb82bcb68b62e9"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "n": 184179777194,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "380d49be79d38c17c4fbaa5d2b8fa6f4325ba61231de95343992ec2af45c379d"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "n": 212407746194,
+      "point_index": 25,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "63bc2387270d05be4d20fc3de82bf7e566d7d09f332cb956ec4a83166e3ccd61"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "n": 214665983714,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "1e6159f505bcabcca55e6a7c68968104bf9693f564cacbc10521dfb2f9d3cabc"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "n": 239506596434,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "968791db4c6535698125cc5797cfee213699d54a88c893ab59edc04b21449939"
+    },
+    {
+      "T": 37,
+      "class_id": "MAX-075",
+      "class_index": 77,
+      "n": 246281308994,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "6864e094c2581f10b80b83f9f02ceb54f8000303a0f24aaaa07d4c97cd19e52d"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "n": 183983408714,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "36d024fc9788bff6a6ce805de035cf6933fda7d64d99466f23d456f6019c3f10"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "n": 214469615234,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "848f228903e1915b40f1881fa40700caa8888c3ffb1894a1929bc4a73422acb4"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "n": 240439346714,
+      "point_index": 50,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f4938a84996ecd486f13415e3bf4e7e0195ca53929627bc787e88223bfac7075"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "n": 242697584234,
+      "point_index": 52,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "4ca9a91e2462873d0983541b9bf810fa984c174ddd0e0ed785ba52cb3a80fca6"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-076",
+      "class_index": 78,
+      "n": 246084940514,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "0b6364d6b21d8c419862e06af87277b4c5432a960346953016dcef16daaa9738"
+    },
+    {
+      "T": 38,
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "n": 184916158994,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "229da6294c3b2aa67fe9575f75742836ea612f1aae264a54cbc8b1ee9785e2f8"
+    },
+    {
+      "T": 23,
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "n": 190561752794,
+      "point_index": 5,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "7017f3a987b556d0fb4e8df8f7236155ab477244a5ddcfafa7358b11be430f07"
+    },
+    {
+      "T": 42,
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "n": 215402365514,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b70ecde25de04dbe0438cd131e8d89d9534310c003f7e95a7aacc574cf4440d1"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "n": 240242978234,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "323b1ebccdc314d1474b38717909c70f541a6941febec96de2b998ed28f49d0f"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-077",
+      "class_index": 79,
+      "n": 245888572034,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "e15ff8729abc77d14b124ea78cafc5c71b8bbb7902662fb51e6b99a02505b4ec"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 184523422034,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "bfbd3ac4e5e8bd71c2609c6bf9cfb13079ff388b843bcd8f26b3fd6d2dffe076"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 198072847154,
+      "point_index": 12,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "b989777fe39e1c32aeab8b3de79b3e2a4339da7f3ee6d2e57254d1cbdbf105c0"
+    },
+    {
+      "T": 30,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 215009628554,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "3a528ffbb11ce400581c3f236135cfb258c5546066497cb288fdfb157c6d51cf"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 238721122514,
+      "point_index": 48,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "e20084f32950518fadfdd31be09cc190874e9bb1aac60c1b408b56ab55f18d07"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 239850241274,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "f5ee26826d089c8f34be7550e7bb174f908cfb66561308c6ee831690b31f9dd2"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-078",
+      "class_index": 80,
+      "n": 246624953834,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "0bd6d9cba3fce9f00e3d42f4441a1cfc82d9df15475c2de14011c7264b7d5f2b"
+    },
+    {
+      "T": 43,
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "n": 184327053554,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "ae8202d74881187d70135eec1dd77048f77692cfb127820f8d667c42a00fc897"
+    },
+    {
+      "T": 26,
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "n": 195618241154,
+      "point_index": 10,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "de790ffd98287c19ed51aa4ca5579318a81f09dc78f997a2d3927da64b5842f4"
+    },
+    {
+      "T": 47,
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "n": 214813260074,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "f98be20be82aa249944560a8127373adc4d650c999bc97314873d5fcd2ff47f8"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "n": 239653872794,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "5ada5475367b807edfbe794fbb4172c45133dfdd34dcdfe4b55337ac0c5cd939"
+    },
+    {
+      "T": 34,
+      "class_id": "MAX-079",
+      "class_index": 81,
+      "n": 246428585354,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "fe876a8f98a31764fdf5659f6fad4feef72e9427f42e3beb460fb430e061c9f0"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "n": 184130685074,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "1f1118739b2bb0ab6e51300cec08e0097e2a08a5b73a2211c80ae3693872d0b5"
+    },
+    {
+      "T": 27,
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "n": 214616891594,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "b6a4013d9063854f0ea86801dbc05ca33f5525842d63be7afca3effdd5bed0ad"
+    },
+    {
+      "T": 25,
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "n": 215746010354,
+      "point_index": 28,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "bd955ec1885bf0365be4481881dbacaf1871d35e20b728042e4eaa0282900626"
+    },
+    {
+      "T": 39,
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "n": 239457504314,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "950021a03229adc0957e3e53c514df3fa845af3fe5cff1ee50a5b4fa54d73b3d"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-080",
+      "class_index": 82,
+      "n": 246232216874,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2289da77b3c8e58b8069464709b42dbf69abee4e345c29197b06e4b6c1db3eb9"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "n": 185063435354,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "ae9884f88651a08bf75c374ab0bcb27ceb32c86492dcb25d4ccaa8d4cdee4cdc"
+    },
+    {
+      "T": 35,
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "n": 215549641874,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "8350c16572a1bca2584b76afce1e76b606b8784ec8e76ce9694ee73ac5885d7e"
+    },
+    {
+      "T": 20,
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "n": 230228185754,
+      "point_index": 40,
+      "selection_reasons": [
+        "T<=20",
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "05bb4ccedb89d31b3a4a21693e33fe07e313f039f43ce80b3c75f5071cbbee7e"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "n": 240390254594,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "586c1177e73f4f357c08154dc095179adf94cd522b3149200c76b89020188ab8"
+    },
+    {
+      "T": 41,
+      "class_id": "MAX-081",
+      "class_index": 83,
+      "n": 246035848394,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "b2d788838e5793bc5f5af0a5b6029b28a7e17bab23ce49e883c83c2b762b5707"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "n": 184670698394,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "b3e33edf5f7613cb5d92ad3a9d33c5d2cc686f7546677c38ac00e26c6cac4e16"
+    },
+    {
+      "T": 24,
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "n": 211769548634,
+      "point_index": 24,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a3d43a1f7500f829c20ae252330c79480198717ef44c15aaba83e53975f2884b"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "n": 215156904914,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "a2c7db666589cb4abb1a1235e8f5e6a66d352be201e6af2f56e2ac2b954cac8e"
+    },
+    {
+      "T": 43,
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "n": 239997517634,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "d4daf6c5f5d4c0a0094e97eb686911b89673d4f76fbb8f5d516a49cfc349eb73"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-082",
+      "class_index": 84,
+      "n": 245643111434,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "aab7510ea5f62a9675d4705e882df4b21c2559308a4bf1d2adf1be57ebe0c026"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "n": 184474329914,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "80e6ab63f300bf64a220a719b6531be4611c2791a1702f21dad9c4caee77cdf9"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "n": 213831417674,
+      "point_index": 26,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "a848c2795ebaf4f91d789bfbbdc6d691c7a1813bc8622ad02e372168ff480024"
+    },
+    {
+      "T": 36,
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "n": 214960536434,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "162f7a23bd25f4e3d0e0fe3a4551c86a3b9c0334000320006829e4ecf4622dd4"
+    },
+    {
+      "T": 28,
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "n": 239801149154,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "a912ea982878474243030db23fc58fd9271431c0558e2d0baf7d8d60a13a263e"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-083",
+      "class_index": 85,
+      "n": 246575861714,
+      "point_index": 55,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "f012a156f41682067f32e5bc374e3c29ee9c52852f2bf08475257ba5c2ff3588"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 185014343234,
+      "point_index": 0,
+      "selection_reasons": [
+        "class_first"
+      ],
+      "winner_mask_sha256": "e57da7c32eb18522e10e00646093c5e96d66f6a0dcc1b4804b8754812e588a38"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 212113193474,
+      "point_index": 24,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "ffa63f36575ea48f5b0cd650ef17e0da7401c03adb34d3c648d2bcdc76634930"
+    },
+    {
+      "T": 33,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 215500549754,
+      "point_index": 27,
+      "selection_reasons": [
+        "class_median_lower"
+      ],
+      "winner_mask_sha256": "39c6baf3cda77591f41acaa53d82bb396bd5f3684ecebd7e888ac2937741a8c2"
+    },
+    {
+      "T": 22,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 226791737354,
+      "point_index": 37,
+      "selection_reasons": [
+        "class_minimum"
+      ],
+      "winner_mask_sha256": "f78467d763d7082f5f4be9306606ab5bedaf2231737c318005060a4db676cc0f"
+    },
+    {
+      "T": 32,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 240341162474,
+      "point_index": 49,
+      "selection_reasons": [
+        "maximizer_class_nearest_n0"
+      ],
+      "winner_mask_sha256": "d552912fe57dcaf9b9d2b54aa84fab1f9d9e6531618ce1cfc8d342c6a1554182"
+    },
+    {
+      "T": 29,
+      "class_id": "MAX-084",
+      "class_index": 86,
+      "n": 245986756274,
+      "point_index": 54,
+      "selection_reasons": [
+        "class_last"
+      ],
+      "winner_mask_sha256": "2bebbd53a9fb56df8f9ef51f14d19e22cf52450f69ed98de4e72aae9a1dc81c4"
+    }
+  ],
+  "policy": {
+    "class_minimum": "all points attaining each class minimum",
+    "deduplicated": true,
+    "nearest_n0": "one nearest member per class, ties resolved by smaller n",
+    "positional": [
+      "first",
+      "lower median by ordered point index",
+      "last"
+    ],
+    "thresholds": [
+      "T<=20",
+      "T<=previous_known_16"
+    ]
+  },
+  "predeclared_low_T_rule": "T<=20 plus separately named prior threshold T<=16",
+  "schema": "a303656-direct-oracle-selection-manifest-v1",
+  "selected_point_count": 457,
+  "weighted_analysis_used_for_selection": false
+}

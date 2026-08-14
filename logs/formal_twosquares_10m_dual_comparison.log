@@ -1,0 +1,6 @@
+mismatch_keys= []
+integers_tested 10000000 10000000
+shifts_processed_before_termination 148 148
+unordered_square_pairs_enumerated 581189915 581189915
+candidate_count 0 0
+DIRECT_TWO_SQUARES_10M_FULL_OUTPUT_MATCH

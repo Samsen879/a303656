@@ -1,0 +1,15 @@
+WINDOW low=2 high=3 active_distinct_shifts=1 prefix_shifts=1 prefix_survivors=0 verified_candidates=0
+WINDOW low=4 high=5 active_distinct_shifts=2 prefix_shifts=2 prefix_survivors=0 verified_candidates=0
+WINDOW low=6 high=7 active_distinct_shifts=3 prefix_shifts=3 prefix_survivors=0 verified_candidates=0
+WINDOW low=8 high=9 active_distinct_shifts=4 prefix_shifts=4 prefix_survivors=0 verified_candidates=0
+WINDOW low=10 high=13 active_distinct_shifts=5 prefix_shifts=5 prefix_survivors=0 verified_candidates=0
+WINDOW low=14 high=25 active_distinct_shifts=6 prefix_shifts=6 prefix_survivors=0 verified_candidates=0
+WINDOW low=26 high=27 active_distinct_shifts=7 prefix_shifts=7 prefix_survivors=0 verified_candidates=0
+WINDOW low=28 high=31 active_distinct_shifts=8 prefix_shifts=8 prefix_survivors=0 verified_candidates=0
+WINDOW low=32 high=33 active_distinct_shifts=9 prefix_shifts=9 prefix_survivors=0 verified_candidates=0
+WINDOW low=34 high=50 active_distinct_shifts=10 prefix_shifts=10 prefix_survivors=0 verified_candidates=0
+integers_tested=49
+survivors_after_prefix_total=0
+candidate_count=0
+elapsed_seconds=0.000546159
+EXACT_EMPTY

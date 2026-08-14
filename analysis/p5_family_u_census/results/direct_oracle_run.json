@@ -1,0 +1,19 @@
+{
+  "artifact_sha256": "f36d7dd6227655d7dcb9bf8a56295a1b0d9d8a3422d657dd41220f1ebca18616",
+  "canonical_witness_count": 15524,
+  "command": [
+    "/tmp/p5_family_u_archive_authoritative/bin/direct_oracle",
+    "--input",
+    "/tmp/p5_family_u_archive_authoritative/direct_oracle/all_point_panel.csv",
+    "--output",
+    "/tmp/p5_family_u_archive_authoritative/direct_oracle/direct_raw.json",
+    "--jobs",
+    "16"
+  ],
+  "elapsed_seconds": "13.656824",
+  "point_count": 454,
+  "return_code": 0,
+  "schema": "a303656-holdout-direct-run-v1",
+  "stderr": "/tmp/p5_family_u_archive_authoritative/direct_oracle/oracle.stderr.log",
+  "stdout": "/tmp/p5_family_u_archive_authoritative/direct_oracle/oracle.stdout.log"
+}

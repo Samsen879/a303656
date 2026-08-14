@@ -1,0 +1,5 @@
+usage: run_tn_pilot.py [-h] --binary BINARY --source-tree SOURCE_TREE --low
+                       LOW --high HIGH --interval-id INTERVAL_ID --out-dir
+                       OUT_DIR [--compiler COMPILER] --timeout-seconds
+                       TIMEOUT_SECONDS [--allow-dirty] [--emit-all-records]
+run_tn_pilot.py: error: unrecognized arguments: --source-commit deadbeef

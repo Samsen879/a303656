@@ -1,0 +1,22 @@
+{
+  "method": "exact_all_prime_segmented_factor_sieve",
+  "low": "240000000001",
+  "high": "240000100000",
+  "C": 23,
+  "D": 16,
+  "finite_bound_3_rhs": "282429536482",
+  "finite_bound_5_rhs": "762939453126",
+  "max_odd": 1,
+  "certificate_family": "all primes p=3 mod 4 with v_p=1",
+  "admissible_pair_count_at_high": 407,
+  "distinct_shift_count_at_high": 406,
+  "integers_tested": 100000,
+  "shifts_processed_before_termination": 77,
+  "factor_groups_processed": 1,
+  "candidate_count": 0,
+  "candidates": [],
+  "first_failure_histogram": [{"shift":"2","count":15674},{"shift":"4","count":14288},{"shift":"6","count":11842},{"shift":"8","count":10728},{"shift":"10","count":8285},{"shift":"14","count":6466},{"shift":"26","count":4300},{"shift":"28","count":5497},{"shift":"32","count":4385},{"shift":"34","count":2932},{"shift":"52","count":2724},{"shift":"82","count":1826},{"shift":"86","count":1663},{"shift":"106","count":1086},{"shift":"126","count":1269},{"shift":"128","count":1593},{"shift":"134","count":639},{"shift":"152","count":981},{"shift":"206","count":369},{"shift":"244","count":660},{"shift":"248","count":505},{"shift":"268","count":423},{"shift":"368","count":237},{"shift":"626","count":215},{"shift":"628","count":195},{"shift":"634","count":185},{"shift":"652","count":171},{"shift":"706","count":139},{"shift":"730","count":100},{"shift":"734","count":61},{"shift":"754","count":65},{"shift":"854","count":46},{"shift":"868","count":68},{"shift":"1354","count":48},{"shift":"2188","count":59},{"shift":"2192","count":59},{"shift":"2212","count":26},{"shift":"2312","count":18},{"shift":"2812","count":27},{"shift":"3126","count":31},{"shift":"3128","count":15},{"shift":"3134","count":14},{"shift":"3152","count":12},{"shift":"3206","count":12},{"shift":"3368","count":12},{"shift":"3854","count":7},{"shift":"5312","count":4},{"shift":"6562","count":7},{"shift":"6566","count":4},{"shift":"6586","count":3},{"shift":"6686","count":6},{"shift":"7186","count":4},{"shift":"9686","count":2},{"shift":"15626","count":1},{"shift":"15634","count":1},{"shift":"15652","count":2},{"shift":"15868","count":2},{"shift":"19688","count":4},{"shift":"19808","count":1},{"shift":"59074","count":1},{"shift":"78126","count":1}],
+  "factor_groups": [{"low":"239999077935","high":"240000099998","values":1022064,"prime_multiple_visits":2896830,"division_steps":3687055,"marked":862031}],
+  "elapsed_seconds": 0.198124,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

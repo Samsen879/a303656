@@ -1,0 +1,13 @@
+{
+  "changes": [
+    "27/28 metadata repaired without deleting a row",
+    "endpoint conventions explicit",
+    "orphan source provenance restored",
+    "interrupted stages and conservative supersets recorded",
+    "253M and 533.2M metrics retained with separate definitions"
+  ],
+  "new_digest": "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81",
+  "old_digest": "f933613ee9bc5e72fa2e2cc87ad663913154b43505029594f7cf23620dae2c4c",
+  "schema": "a303656-registry-v1-v2-diff",
+  "scientific_authorities_changed": false
+}

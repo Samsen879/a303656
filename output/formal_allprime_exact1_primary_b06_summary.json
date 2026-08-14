@@ -1,0 +1,128 @@
+{
+  "schema": "a303656-factor-chunk-aggregate-v1",
+  "implementation": "primary",
+  "input_dir": "output/chunks_exact1_primary_b06",
+  "low": "240600000001",
+  "high": "240700000000",
+  "max_odd": 1,
+  "chunk_count": 10,
+  "complete_gapless_coverage": true,
+  "integers_tested": 100000000,
+  "candidate_count": 0,
+  "candidates": [],
+  "chunks": [
+    {
+      "low": "240600000001",
+      "high": "240610000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 125,
+      "json": "output/chunks_exact1_primary_b06/chunk_0000_240600000001_240610000000.json",
+      "json_sha256": "7868c006ccb39e944c08b469ef65d529bbfb9cd9ab50caf8b6cdd6bcd6479f36"
+    },
+    {
+      "low": "240610000001",
+      "high": "240620000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 138,
+      "json": "output/chunks_exact1_primary_b06/chunk_0001_240610000001_240620000000.json",
+      "json_sha256": "db5a1fc604d9d5350e08c435c18b4d0f12c0b45256e8782de1298557e74478b5"
+    },
+    {
+      "low": "240620000001",
+      "high": "240630000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 123,
+      "json": "output/chunks_exact1_primary_b06/chunk_0002_240620000001_240630000000.json",
+      "json_sha256": "1f8056462321a048277186a80f59d4006cfc13d2ba50398d122f9eef95c1f005"
+    },
+    {
+      "low": "240630000001",
+      "high": "240640000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 136,
+      "json": "output/chunks_exact1_primary_b06/chunk_0003_240630000001_240640000000.json",
+      "json_sha256": "b4ee4b074b64260f770b726fab0b8808ae25b273363956176f4a3932734d76e1"
+    },
+    {
+      "low": "240640000001",
+      "high": "240650000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 128,
+      "json": "output/chunks_exact1_primary_b06/chunk_0004_240640000001_240650000000.json",
+      "json_sha256": "c0be85d930633b06985b348bf168e9aee2b2a435971a3403f23abe74a4a7bb35"
+    },
+    {
+      "low": "240650000001",
+      "high": "240660000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 108,
+      "json": "output/chunks_exact1_primary_b06/chunk_0005_240650000001_240660000000.json",
+      "json_sha256": "74b045bfb5e517cad280890fd6d6fdb14d53ee375fcddbaf0d44f4abe02a8aed"
+    },
+    {
+      "low": "240660000001",
+      "high": "240670000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 127,
+      "json": "output/chunks_exact1_primary_b06/chunk_0006_240660000001_240670000000.json",
+      "json_sha256": "4e5eb1113a4fb926e03a3699dc8bb67daab4c30982dadba9bd08d1057abbc1a7"
+    },
+    {
+      "low": "240670000001",
+      "high": "240680000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 181,
+      "json": "output/chunks_exact1_primary_b06/chunk_0007_240670000001_240680000000.json",
+      "json_sha256": "8d92ff4d24bd6c8f7f460242efd766b871655848549dec6f558d7e3ef44ecfd6"
+    },
+    {
+      "low": "240680000001",
+      "high": "240690000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 144,
+      "json": "output/chunks_exact1_primary_b06/chunk_0008_240680000001_240690000000.json",
+      "json_sha256": "ce9374110e18f1474d040ab0d034563ad116fdb1db6cc0cee0bd24d1b287c2f4"
+    },
+    {
+      "low": "240690000001",
+      "high": "240700000000",
+      "candidate_count": 0,
+      "candidates": [],
+      "admissible_pair_count_at_high": 407,
+      "distinct_shift_count_at_high": 406,
+      "shifts_processed_before_termination": 127,
+      "json": "output/chunks_exact1_primary_b06/chunk_0009_240690000001_240700000000.json",
+      "json_sha256": "fce7306746506207a78cdf3a64780d0fe48bec1db5d333da58e8aede3ec9e1a0"
+    }
+  ],
+  "python": "3.13.5 (main, May  5 2026, 21:05:52) [GCC 14.2.0]",
+  "platform": "Linux-4.4.0-x86_64-with-glibc2.41",
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

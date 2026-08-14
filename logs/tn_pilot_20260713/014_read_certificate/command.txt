@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=sed -n 1\,10000p cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt 
+started_utc=2026-07-13T08:19:58Z
+finished_utc=2026-07-13T08:19:58Z

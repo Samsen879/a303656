@@ -1,0 +1,44 @@
+DATE_UTC
+2026-07-13T02:35:51+00:00
+UNAME
+Linux cba4837dd5b0 4.4.0 #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64 GNU/Linux
+LSCPU
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Address sizes:       46 bits physical, 48 bits virtual
+Byte Order:          Little Endian
+CPU(s):              56
+On-line CPU(s) list: 0-55
+Vendor ID:           GenuineIntel
+Model name:          unknown
+CPU family:          6
+Model:               79
+Thread(s) per core:  1
+Core(s) per socket:  56
+Socket(s):           1
+Stepping:            unknown
+BogoMIPS:            2294.69
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch fsgsbase bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt md_clear
+Virtualization:      VT-x
+Hypervisor vendor:   Microsoft
+Virtualization type: full
+MEMINFO_SELECTED
+MemTotal:        4194304 kB
+MemAvailable:    3334284 kB
+SwapTotal:             0 kB
+PYTHON
+Python 3.13.5
+GPP
+g++ (Debian 14.2.0-19) 14.2.0
+GMP
+libgmp-dev 2:6.3.0+dfsg-3
+libgmp10 2:6.3.0+dfsg-3
+Z3
+python 3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+z3 4.16.0
+numpy 2.5.1
+sympy 1.14.0
+CGROUP_CPU
+-1
+100000
+CGROUP_MEMORY

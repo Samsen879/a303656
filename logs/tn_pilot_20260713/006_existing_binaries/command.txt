@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=find bin -maxdepth 1 -type f -printf %f\ %s\ bytes\\n 
+started_utc=2026-07-13T08:19:48Z
+finished_utc=2026-07-13T08:19:48Z

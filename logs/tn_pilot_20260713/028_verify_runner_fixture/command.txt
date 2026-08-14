@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout 30 python3 src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --low 2 --high 100 --interval-id FIXTURE-RUNNER 
+started_utc=2026-07-13T08:33:10Z
+finished_utc=2026-07-13T08:33:10Z

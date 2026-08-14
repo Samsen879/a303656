@@ -1,0 +1,21 @@
+{
+  "all_rejected": true,
+  "return_codes": {
+    "argmax_count_corruption": 2,
+    "base_mask_mutation": 2,
+    "compressed_digest_corruption": 2,
+    "duplicate_candidate_prime": 2,
+    "duplicate_shift_pair_merger": 2,
+    "histogram_count_not_summing_to_q2": 2,
+    "inclusion_of_P4_prime": 2,
+    "missing_candidate_prime": 2,
+    "pair_domain_mutation": 2,
+    "prime_authority_mutation": 2,
+    "q_divisibility_condition_corruption": 2,
+    "shortlist_cherry_pick_mutation": 2,
+    "unauthorized_B_expansion": 2,
+    "union_mask_corruption": 2,
+    "v_q_odd_instead_of_v_q_eq_1": 2
+  },
+  "schema": "a303656-fifth-prime-corruption-tests-v1"
+}

@@ -1,0 +1,3678 @@
+{
+  "canonical_incidence_digest": "99640caa1888f2ed82030808328b951e5254bb00c9d497a4bb682efdbcd7cb80",
+  "collision_groups": [
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-200574068914",
+        "U-ENTRY-011-2087740587240-200574068914"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 129,
+      "n": 200574068914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-201605003434",
+        "U-ENTRY-017-5068614113640-201605003434"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 136,
+      "n": 201605003434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-006-407611872360-225517391714",
+        "U-ENTRY-009-1085083128360-225517391714"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 312,
+      "n": 225517391714
+    }
+  ],
+  "distinct_CRT_class_count": 457,
+  "distinct_integer_count": 454,
+  "integers": [
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-183992793914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 0,
+      "n": 183992793914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-184162384874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 1,
+      "n": 184162384874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-184686575114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 2,
+      "n": 184686575114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-184840748714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 3,
+      "n": 184840748714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-184940961554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 4,
+      "n": 184940961554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-185025757034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 5,
+      "n": 185025757034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-185091359474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 6,
+      "n": 185091359474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-185264726114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 7,
+      "n": 185264726114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-185453695954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 8,
+      "n": 185453695954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-185619325394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 9,
+      "n": 185619325394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-185773498994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 10,
+      "n": 185773498994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-185797340794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 11,
+      "n": 185797340794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-185846432914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 12,
+      "n": 185846432914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-185854518794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 13,
+      "n": 185854518794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-185858294474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 14,
+      "n": 185858294474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-186024109754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 15,
+      "n": 186024109754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-186128098274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 16,
+      "n": 186128098274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-186197476394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 17,
+      "n": 186197476394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-186552075674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 18,
+      "n": 186552075674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-186582814714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 19,
+      "n": 186582814714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-186636871154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 20,
+      "n": 186636871154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-186891257594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 21,
+      "n": 186891257594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-186956860034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 22,
+      "n": 186956860034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-187126450994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 23,
+      "n": 187126450994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-187569621434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 24,
+      "n": 187569621434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-187723795034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 25,
+      "n": 187723795034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-187739212394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 26,
+      "n": 187739212394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-187761025594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 27,
+      "n": 187761025594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-187808590514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 28,
+      "n": 187808590514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-188062976954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 29,
+      "n": 188062976954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-188313587714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 30,
+      "n": 188313587714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-188448315274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 31,
+      "n": 188448315274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-188486954354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 32,
+      "n": 188486954354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-188502371714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 33,
+      "n": 188502371714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-188587167194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 34,
+      "n": 188587167194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-188741340794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 35,
+      "n": 188741340794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-188822360594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 36,
+      "n": 188822360594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-015-5068614113640-188872355594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 37,
+      "n": 188872355594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-188926349114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 38,
+      "n": 188926349114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-188995727234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 39,
+      "n": 188995727234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-189331973434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 40,
+      "n": 189331973434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-189350326514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 41,
+      "n": 189350326514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-189519917474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 42,
+      "n": 189519917474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-189585519914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 43,
+      "n": 189585519914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-189674091074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 44,
+      "n": 189674091074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-189689508434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 45,
+      "n": 189689508434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-189758886554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 46,
+      "n": 189758886554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-189924701834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 47,
+      "n": 189924701834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-190019263114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 48,
+      "n": 190019263114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-190313815834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 49,
+      "n": 190313815834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-190437250394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 50,
+      "n": 190437250394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-190452667754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 51,
+      "n": 190452667754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-009-1085083128360-190514710154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 52,
+      "n": 190514710154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-190522045874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 53,
+      "n": 190522045874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-190537463234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 54,
+      "n": 190537463234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-190687861154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 55,
+      "n": 190687861154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-190691636834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 56,
+      "n": 190691636834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-190791849674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 57,
+      "n": 190791849674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-190857452114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 58,
+      "n": 190857452114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-190861227794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 59,
+      "n": 190861227794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-191111838554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 60,
+      "n": 191111838554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-191246566114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 61,
+      "n": 191246566114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-191285205194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 62,
+      "n": 191285205194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-191300622554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 63,
+      "n": 191300622554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-191470213514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 64,
+      "n": 191470213514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-191737487314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 65,
+      "n": 191737487314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-192130224274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 66,
+      "n": 192130224274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-192217955474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 67,
+      "n": 192217955474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-192375684874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 68,
+      "n": 192375684874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-192402963794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 69,
+      "n": 192402963794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-192472341914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 70,
+      "n": 192472341914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-192487759274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 71,
+      "n": 192487759274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-192722952674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 72,
+      "n": 192722952674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-193420509554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 73,
+      "n": 193420509554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-193486111994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 74,
+      "n": 193486111994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-193655702954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 75,
+      "n": 193655702954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-193659478634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 76,
+      "n": 193659478634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-194014077914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 77,
+      "n": 194014077914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-194083456034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 78,
+      "n": 194083456034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-194168251514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 79,
+      "n": 194168251514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-194268464354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 80,
+      "n": 194268464354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-194353259834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 81,
+      "n": 194353259834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-194522850794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 82,
+      "n": 194522850794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-194592228914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 83,
+      "n": 194592228914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-194977567234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 84,
+      "n": 194977567234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-195185797274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 85,
+      "n": 195185797274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-195351612554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 86,
+      "n": 195351612554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-195521203514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 87,
+      "n": 195521203514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-195524979194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 88,
+      "n": 195524979194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-015-5068614113640-195749715314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 89,
+      "n": 195749715314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-195879578474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 90,
+      "n": 195879578474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-196118547554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 91,
+      "n": 196118547554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-196218760394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 92,
+      "n": 196218760394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-196352146594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 93,
+      "n": 196352146594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-196708340234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 94,
+      "n": 196708340234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-009-1085083128360-196878834074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 95,
+      "n": 196878834074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-196966502354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 96,
+      "n": 196966502354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-196990344154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 97,
+      "n": 196990344154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-197051297834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 98,
+      "n": 197051297834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-197136093314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 99,
+      "n": 197136093314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-197321101634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 100,
+      "n": 197321101634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-197775818074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 101,
+      "n": 197775818074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-197814457154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 102,
+      "n": 197814457154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-197829874514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 103,
+      "n": 197829874514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-197914669994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 104,
+      "n": 197914669994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-198253851914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 105,
+      "n": 198253851914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-198315831394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 106,
+      "n": 198315831394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-198573840794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 107,
+      "n": 198573840794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-198747207434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 108,
+      "n": 198747207434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-198913022714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 109,
+      "n": 198913022714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-198916798394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 110,
+      "n": 198916798394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-199001593874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 111,
+      "n": 199001593874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-199017011234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 112,
+      "n": 199017011234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-199086389354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 113,
+      "n": 199086389354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-199252204634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 114,
+      "n": 199252204634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-199297673794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 115,
+      "n": 199297673794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-012-2087740587240-199547660234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 116,
+      "n": 199547660234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-199764753194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 117,
+      "n": 199764753194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-199780170554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 118,
+      "n": 199780170554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-199788594994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 119,
+      "n": 199788594994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-199864966034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 120,
+      "n": 199864966034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-200015363954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 121,
+      "n": 200015363954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-200019139634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 122,
+      "n": 200019139634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-009-1085083128360-200060896034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 123,
+      "n": 200060896034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-200119352474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 124,
+      "n": 200119352474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-200188730594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 125,
+      "n": 200188730594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-200377700434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 126,
+      "n": 200377700434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-200439341354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 127,
+      "n": 200439341354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-200543329874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 128,
+      "n": 200543329874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-200574068914",
+        "U-ENTRY-011-2087740587240-200574068914"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 129,
+      "n": 200574068914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-200612707994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 130,
+      "n": 200612707994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-200628125354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 131,
+      "n": 200628125354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-200697503474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 132,
+      "n": 200697503474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-200778523274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 133,
+      "n": 200778523274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-200951889914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 134,
+      "n": 200951889914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-201052102754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 135,
+      "n": 201052102754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-201605003434",
+        "U-ENTRY-017-5068614113640-201605003434"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 136,
+      "n": 201605003434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-201715049234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 137,
+      "n": 201715049234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-201730466594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 138,
+      "n": 201730466594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-201799844714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 139,
+      "n": 201799844714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-201815262074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 140,
+      "n": 201815262074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-201884640194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 141,
+      "n": 201884640194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-202050455474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 142,
+      "n": 202050455474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-202563004034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 143,
+      "n": 202563004034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-202578421394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 144,
+      "n": 202578421394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-202647799514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 145,
+      "n": 202647799514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-202813614794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 146,
+      "n": 202813614794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-202986981434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 147,
+      "n": 202986981434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-203237592194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 148,
+      "n": 203237592194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-203341580714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 149,
+      "n": 203341580714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-203421411874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 150,
+      "n": 203421411874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-203495754314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 151,
+      "n": 203495754314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-203576774114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 152,
+      "n": 203576774114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-203680762634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 153,
+      "n": 203680762634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-203750140754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 154,
+      "n": 203750140754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-203912333074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 155,
+      "n": 203912333074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-203919731714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 156,
+      "n": 203919731714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-204274330994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 157,
+      "n": 204274330994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-204305070034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 158,
+      "n": 204305070034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-204598095554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 159,
+      "n": 204598095554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-204679115354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 160,
+      "n": 204679115354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-204795991234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 161,
+      "n": 204795991234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-204852481994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 162,
+      "n": 204852481994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-204894175474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 163,
+      "n": 204894175474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-205291876754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 164,
+      "n": 205291876754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-205361254874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 165,
+      "n": 205361254874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-205446050354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 166,
+      "n": 205446050354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-205785232274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 167,
+      "n": 205785232274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-206219662714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 168,
+      "n": 206219662714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-206224627034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 169,
+      "n": 206224627034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-206375024954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 170,
+      "n": 206375024954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-206463596114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 171,
+      "n": 206463596114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-206544615914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 172,
+      "n": 206544615914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-206548391594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 173,
+      "n": 206548391594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-206717982554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 174,
+      "n": 206717982554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-206906952394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 175,
+      "n": 206906952394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-207072581834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 176,
+      "n": 207072581834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-207242172794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 177,
+      "n": 207242172794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-207307775234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 178,
+      "n": 207307775234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-207396346394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 179,
+      "n": 207396346394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-207581354714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 180,
+      "n": 207581354714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-006-407611872360-207964727354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 181,
+      "n": 207964727354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-208036071154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 182,
+      "n": 208036071154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-208074710234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 183,
+      "n": 208074710234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-208174923074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 184,
+      "n": 208174923074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-208183347514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 185,
+      "n": 208183347514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-208240525514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 186,
+      "n": 208240525514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-208244301194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 187,
+      "n": 208244301194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-208410116474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 188,
+      "n": 208410116474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-208413892154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 189,
+      "n": 208413892154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-208526992354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 190,
+      "n": 208526992354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-208579707434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 191,
+      "n": 208579707434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-209022877874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 192,
+      "n": 209022877874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-209192468834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 193,
+      "n": 209192468834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-209766844154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 194,
+      "n": 209766844154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-209870832674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 195,
+      "n": 209870832674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-209901571714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 196,
+      "n": 209901571714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-209940210794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 197,
+      "n": 209940210794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-210025006274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 198,
+      "n": 210025006274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-210125219114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 199,
+      "n": 210125219114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-210194597234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 200,
+      "n": 210194597234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-210379605554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 201,
+      "n": 210379605554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-210445207994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 202,
+      "n": 210445207994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-210803582954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 203,
+      "n": 210803582954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-211142764874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 204,
+      "n": 211142764874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-211208367314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 205,
+      "n": 211208367314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-211377958274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 206,
+      "n": 211377958274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-211472519554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 207,
+      "n": 211472519554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-211821128714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 208,
+      "n": 211821128714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-211890506834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 209,
+      "n": 211890506834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-211905924194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 210,
+      "n": 211905924194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-211975302314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 211,
+      "n": 211975302314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-211990719674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 212,
+      "n": 211990719674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-212075515154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 213,
+      "n": 212075515154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-212141117594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 214,
+      "n": 212141117594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-212245106114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 215,
+      "n": 212245106114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-212314484234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 216,
+      "n": 212314484234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-212669083514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 217,
+      "n": 212669083514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-212699822554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 218,
+      "n": 212699822554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-212753878994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 219,
+      "n": 212753878994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-212904276914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 220,
+      "n": 212904276914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-213073867874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 221,
+      "n": 213073867874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-213077643554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 222,
+      "n": 213077643554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-213247234514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 223,
+      "n": 213247234514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-213730757074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 224,
+      "n": 213730757074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-213840802874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 225,
+      "n": 213840802874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-213856220234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 226,
+      "n": 213856220234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-213925598354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 227,
+      "n": 213925598354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-213941015714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 228,
+      "n": 213941015714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-214074401914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 229,
+      "n": 214074401914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-214430595554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 230,
+      "n": 214430595554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-214603962194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 231,
+      "n": 214603962194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-214619379554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 232,
+      "n": 214619379554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-214688757674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 233,
+      "n": 214688757674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-214704175034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 234,
+      "n": 214704175034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-214939368434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 235,
+      "n": 214939368434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-215043356954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 236,
+      "n": 215043356954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-215112735074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 237,
+      "n": 215112735074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-215467334354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 238,
+      "n": 215467334354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-215536712474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 239,
+      "n": 215536712474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-215596257634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 240,
+      "n": 215596257634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-215702527754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 241,
+      "n": 215702527754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-215875894394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 242,
+      "n": 215875894394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-009-1085083128360-215971205834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 243,
+      "n": 215971205834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-215976107234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 244,
+      "n": 215976107234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-216041709674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 245,
+      "n": 216041709674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-216296096114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 246,
+      "n": 216296096114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-216430823674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 247,
+      "n": 216430823674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-216469462754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 248,
+      "n": 216469462754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-216569675594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 249,
+      "n": 216569675594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-216639053714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 250,
+      "n": 216639053714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-216654471074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 251,
+      "n": 216654471074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-216974459954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 252,
+      "n": 216974459954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-217118113354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 253,
+      "n": 217118113354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-012-2087740587240-217202971754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 254,
+      "n": 217202971754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-217216297594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 255,
+      "n": 217216297594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-217461758194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 256,
+      "n": 217461758194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-217487008514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 257,
+      "n": 217487008514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-217568028314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 258,
+      "n": 217568028314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-217741394954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 259,
+      "n": 217741394954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-217841607794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 260,
+      "n": 217841607794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-218161596674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 261,
+      "n": 218161596674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-218419758794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 262,
+      "n": 218419758794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-218519971634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 263,
+      "n": 218519971634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-218639969074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 264,
+      "n": 218639969074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-218774358074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 265,
+      "n": 218774358074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-219352509074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 266,
+      "n": 219352509074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-219437304554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 267,
+      "n": 219437304554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-219522100034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 268,
+      "n": 219522100034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-219572719354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 269,
+      "n": 219572719354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-220063640554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 270,
+      "n": 220063640554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-220131085754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 271,
+      "n": 220131085754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-220370054834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 272,
+      "n": 220370054834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-220470267674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 273,
+      "n": 220470267674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-220701838114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 274,
+      "n": 220701838114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-220959847514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 275,
+      "n": 220959847514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-221094575074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 276,
+      "n": 221094575074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-221218009634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 277,
+      "n": 221218009634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-221302805114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 278,
+      "n": 221302805114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-221468620394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 279,
+      "n": 221468620394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-221472396074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 280,
+      "n": 221472396074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-221572608914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 281,
+      "n": 221572608914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-012-2087740587240-221616799634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 282,
+      "n": 221616799634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-221641987034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 283,
+      "n": 221641987034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-221996586314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 284,
+      "n": 221996586314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-222027325354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 285,
+      "n": 222027325354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-222081381794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 286,
+      "n": 222081381794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-222320350874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 287,
+      "n": 222320350874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-222370970194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 288,
+      "n": 222370970194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-223168305674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 289,
+      "n": 223168305674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-223183723034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 290,
+      "n": 223183723034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-223205536234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 291,
+      "n": 223205536234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-223253101154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 292,
+      "n": 223253101154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-015-5068614113640-223259154194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 293,
+      "n": 223259154194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-223268518514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 294,
+      "n": 223268518514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-223946882354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 295,
+      "n": 223946882354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-224031677834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 296,
+      "n": 224031677834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-224097280274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 297,
+      "n": 224097280274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-224187378634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 298,
+      "n": 224187378634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-224266871234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 299,
+      "n": 224266871234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-224270646914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 300,
+      "n": 224270646914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-224370859754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 301,
+      "n": 224370859754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-224440237874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 302,
+      "n": 224440237874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-224629207714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 303,
+      "n": 224629207714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-224690848634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 304,
+      "n": 224690848634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-224794837154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 305,
+      "n": 224794837154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-225030030554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 306,
+      "n": 225030030554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-018-5691887669160-225106803074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 307,
+      "n": 225106803074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-225118601714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 308,
+      "n": 225118601714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-225134019074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 309,
+      "n": 225134019074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-225203397194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 310,
+      "n": 225203397194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-225369212474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 311,
+      "n": 225369212474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-006-407611872360-225517391714",
+        "U-ENTRY-009-1085083128360-225517391714"
+      ],
+      "description_multiplicity": 2,
+      "integer_ordinal": 312,
+      "n": 225517391714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-225758326474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 313,
+      "n": 225758326474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-225796965554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 314,
+      "n": 225796965554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-225897178394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 315,
+      "n": 225897178394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-225962780834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 316,
+      "n": 225962780834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-225966556514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 317,
+      "n": 225966556514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-225981973874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 318,
+      "n": 225981973874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-012-2087740587240-226030627514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 319,
+      "n": 226030627514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-226051351994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 320,
+      "n": 226051351994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-226132371794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 321,
+      "n": 226132371794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-226249247674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 322,
+      "n": 226249247674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-226305738434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 323,
+      "n": 226305738434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-226556349194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 324,
+      "n": 226556349194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-226729715834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 325,
+      "n": 226729715834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-226745133194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 326,
+      "n": 226745133194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-226814511314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 327,
+      "n": 226814511314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-227169110594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 328,
+      "n": 227169110594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-227593087994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 329,
+      "n": 227593087994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-227623827034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 330,
+      "n": 227623827034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-227672919154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 331,
+      "n": 227672919154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-227747261594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 332,
+      "n": 227747261594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-227828281394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 333,
+      "n": 227828281394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-227847474434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 334,
+      "n": 227847474434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-227916852554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 335,
+      "n": 227916852554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-227932269914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 336,
+      "n": 227932269914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-228001648034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 337,
+      "n": 228001648034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-228016563994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 338,
+      "n": 228016563994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-228167463314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 339,
+      "n": 228167463314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-228525838274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 340,
+      "n": 228525838274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-228764807354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 341,
+      "n": 228764807354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-228930622634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 342,
+      "n": 228930622634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-229103989274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 343,
+      "n": 229103989274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-229458588554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 344,
+      "n": 229458588554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-229527966674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 345,
+      "n": 229527966674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-229543384034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 346,
+      "n": 229543384034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-229628179514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 347,
+      "n": 229628179514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-229697557634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 348,
+      "n": 229697557634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-229797770474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 349,
+      "n": 229797770474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-229863372914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 350,
+      "n": 229863372914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-230127525154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 351,
+      "n": 230127525154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-230476134314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 352,
+      "n": 230476134314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-230626532234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 353,
+      "n": 230626532234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-230630307914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 354,
+      "n": 230630307914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-230715103394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 355,
+      "n": 230715103394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-230799898874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 356,
+      "n": 230799898874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-230969489834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 357,
+      "n": 230969489834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-231158459674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 358,
+      "n": 231158459674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-231324089114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 359,
+      "n": 231324089114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-231408884594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 360,
+      "n": 231408884594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-231578475554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 361,
+      "n": 231578475554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-231647853674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 362,
+      "n": 231647853674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-232238486314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 363,
+      "n": 232238486314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-232287578434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 364,
+      "n": 232287578434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-232426430354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 365,
+      "n": 232426430354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-232580603954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 366,
+      "n": 232580603954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-232661623754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 367,
+      "n": 232661623754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-233220328714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 368,
+      "n": 233220328714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-233274385154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 369,
+      "n": 233274385154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-233359180634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 370,
+      "n": 233359180634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-233598149714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 371,
+      "n": 233598149714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-233698362554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 372,
+      "n": 233698362554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-233763964994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 373,
+      "n": 233763964994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-233907618394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 374,
+      "n": 233907618394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-234018351434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 375,
+      "n": 234018351434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-234153078994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 376,
+      "n": 234153078994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-234191718074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 377,
+      "n": 234191718074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-234357533354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 378,
+      "n": 234357533354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-234376726394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 379,
+      "n": 234376726394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-017-5068614113640-234496723834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 380,
+      "n": 234496723834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-234530899994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 381,
+      "n": 234530899994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-020-5691887669160-234644000194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 382,
+      "n": 234644000194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-009-1085083128360-235063577594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 383,
+      "n": 235063577594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-235224681194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 384,
+      "n": 235224681194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-006-407611872360-235268871914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 385,
+      "n": 235268871914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-235309476674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 386,
+      "n": 235309476674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-235629465554"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 387,
+      "n": 235629465554
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-235883851994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 388,
+      "n": 235883851994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-236057218634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 389,
+      "n": 236057218634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-236072635994"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 390,
+      "n": 236072635994
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-236142014114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 391,
+      "n": 236142014114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-236157431474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 392,
+      "n": 236157431474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-236496613394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 393,
+      "n": 236496613394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-236902237714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 394,
+      "n": 236902237714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-236920590794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 395,
+      "n": 236920590794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-237074764394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 396,
+      "n": 237074764394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-237155784194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 397,
+      "n": 237155784194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-237174977234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 398,
+      "n": 237174977234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-237244355354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 399,
+      "n": 237244355354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-237259772714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 400,
+      "n": 237259772714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-237329150834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 401,
+      "n": 237329150834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-237494966114"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 402,
+      "n": 237494966114
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-238007514674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 403,
+      "n": 238007514674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-238022932034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 404,
+      "n": 238022932034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-238092310154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 405,
+      "n": 238092310154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-238107727514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 406,
+      "n": 238107727514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-238258125434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 407,
+      "n": 238258125434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-238424093434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 408,
+      "n": 238424093434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-238431492074"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 409,
+      "n": 238431492074
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-238522277674"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 410,
+      "n": 238522277674
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-238571369794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 411,
+      "n": 238571369794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-238682102834"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 412,
+      "n": 238682102834
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-238786091354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 413,
+      "n": 238786091354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-238816830394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 414,
+      "n": 238816830394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-238855469474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 415,
+      "n": 238855469474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-238940264954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 416,
+      "n": 238940264954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-239021284754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 417,
+      "n": 239021284754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-239025060434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 418,
+      "n": 239025060434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-239125273274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 419,
+      "n": 239125273274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-239194651394"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 420,
+      "n": 239194651394
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-239294864234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 421,
+      "n": 239294864234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-018-5691887669160-239682699794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 422,
+      "n": 239682699794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-241653720314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 423,
+      "n": 241653720314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-241819535594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 424,
+      "n": 241819535594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-241908106754"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 425,
+      "n": 241908106754
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-241992902234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 426,
+      "n": 241992902234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-242413103954"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 427,
+      "n": 242413103954
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-242686683434"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 428,
+      "n": 242686683434
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-242840857034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 429,
+      "n": 242840857034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-242925652514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 430,
+      "n": 242925652514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-243025865354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 431,
+      "n": 243025865354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-243345854234"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 432,
+      "n": 243345854234
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-243480581794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 433,
+      "n": 243480581794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-243519220874"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 434,
+      "n": 243519220874
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-243604016354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 435,
+      "n": 243604016354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-243685036154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 436,
+      "n": 243685036154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-243773607314"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 437,
+      "n": 243773607314
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-243858402794"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 438,
+      "n": 243858402794
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-243958615634"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 439,
+      "n": 243958615634
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-244278604514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 440,
+      "n": 244278604514
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-244451971154"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 441,
+      "n": 244451971154
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-244636979474"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 442,
+      "n": 244636979474
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-011-2087740587240-244904253274"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 443,
+      "n": 244904253274
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-244956968354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 444,
+      "n": 244956968354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-005-407611872360-245346082354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 445,
+      "n": 245346082354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-014-2494223340840-245444266594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 446,
+      "n": 245444266594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-245469516914"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 447,
+      "n": 245469516914
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-004-407611872360-245550536714"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 448,
+      "n": 245550536714
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-003-407611872360-245723903354"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 449,
+      "n": 245723903354
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-245824116194"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 450,
+      "n": 245824116194
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-008-1085083128360-246033372034"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 451,
+      "n": 246033372034
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-246248093594"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 452,
+      "n": 246248093594
+    },
+    {
+      "description_ids": [
+        "U-ENTRY-002-407611872360-246587275514"
+      ],
+      "description_multiplicity": 1,
+      "integer_ordinal": 453,
+      "n": 246587275514
+    }
+  ],
+  "integers_generated_by_at_least_4_descriptions": 0,
+  "integers_generated_by_exactly_1_description": 451,
+  "integers_generated_by_exactly_2_descriptions": 3,
+  "integers_generated_by_exactly_3_descriptions": 0,
+  "maximum_description_multiplicity": 2,
+  "raw_description_count": 457,
+  "schema": "a303656-p5-family-u-incidence-v1"
+}

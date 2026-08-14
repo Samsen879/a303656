@@ -1,0 +1,28 @@
+{
+  "accepted_results_commit_V": "6efcf58e18714b100fa86c0646e1b9657e03c908",
+  "accepted_source_commit_U": "ee5bef63b02277786fe9c01ae9ff44233d889883",
+  "archive": {
+    "path": "/home/samsen/code/a303656/archive/p4_mod8_live_landscape_raw_ee5bef6.tar.zst",
+    "sha256": "3b3110a7bb74279405e352ed5b26a285ecbd8fa6deb21152095f6e32e497cca9",
+    "verified": true
+  },
+  "frozen_base_mask_authority": {
+    "count": 13,
+    "each_mask_byte_length": 51,
+    "file_sha256": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "recorded_digests_match_bytes": true
+  },
+  "initial_HEAD": "6efcf58e18714b100fa86c0646e1b9657e03c908",
+  "parent_chain_verified": true,
+  "protected_hashes": {
+    "analysis/p4_mod8_live_landscape/results/landscape.json": "4f4ec921904242114c23b3e6146efb32687c788f9bcb8cf8ed046969e5e6984f",
+    "analysis/p4_mod8_live_landscape/results/metadata.json": "08596ad7e0c9d83c4e353e6c77cd4ff50b8e6a5bda7e3c77371bfb2de50f1bf0",
+    "analysis/p4_mod8_live_landscape/results/top_band_masks.json": "2f122eb40cfb2a27cc55b5afe9522fbeb54b5ca9867c291d9872c06e9020721f"
+  },
+  "stale_metadata_found": {
+    "field": "results_commit",
+    "path": "analysis/p4_mod8_live_landscape/results/metadata.json",
+    "value": "RESULT_COMMIT_CONTAINING_THIS_FILE"
+  },
+  "tracked_worktree_clean": true
+}

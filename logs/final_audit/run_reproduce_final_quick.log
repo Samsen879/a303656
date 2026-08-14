@@ -1,0 +1,9 @@
+python_dependencies=OK
+valuation_branch_toys=PASS
+factor_pair_comparison=PASS
+factor_pair_comparison=PASS
+factor_pair_comparison=PASS
+direct_pair_comparison=PASS
+REPRODUCTION_PASS
+level=quick
+output_directory=/mnt/data/a303656_bounded_counterexample/reproduce_final_quick

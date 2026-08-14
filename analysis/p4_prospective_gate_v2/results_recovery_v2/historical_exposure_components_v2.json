@@ -1,0 +1,285 @@
+{
+  "canonical_digest": "1a4a3c6f468c09df79f96138b76cc16324e2b1adb6b11a9e412b7f2a0aee2385",
+  "components": [
+    {
+      "boundary_convention": "closed",
+      "commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "extent": {
+        "high": 241600000000,
+        "inclusive_length": 1600000000,
+        "low": 240000000001
+      },
+      "note": "160 closed chunks; protected report source",
+      "path": "output/direct/formal_1p6b_final/summary.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+      "source_id": "FORMAL_CONTINUOUS_1P6B",
+      "status": "COMPLETE",
+      "tree": "01f7810590cd35d1adcde997197d3665e336ce12"
+    },
+    {
+      "boundary_convention": "closed",
+      "commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "extent": {
+        "historical_direct_other": 253000000,
+        "registry_other_union": 533200000
+      },
+      "note": "253M is the four non-continuous direct datasets; registry union additionally imports other historical intervals",
+      "path": "output/formal_results_audit.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533",
+      "source_id": "FORMAL_OTHER_DUAL_INTERVALS",
+      "status": "COMPLETE",
+      "tree": "01f7810590cd35d1adcde997197d3665e336ce12"
+    },
+    {
+      "boundary_convention": "closed",
+      "commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK",
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {
+        "interval_count": 28,
+        "sparse_integer_count": 6129
+      },
+      "note": "28 normalized interval records and 6129 sparse integers",
+      "path": "analysis/p5_sparse_panel_feasibility/results/prior_evaluation_registry.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "428f5abee8462d21777326c9fbdf9aa215d722f43d9ceaed75b980e30c4158af",
+      "source_id": "LEGACY_COMPLETE_PRIOR_REGISTRY_V1",
+      "status": "COMPLETE",
+      "tree": "8865e4b617e85be2fdd171c9858c804b1415ea83"
+    },
+    {
+      "blob": "f6f299a41b011dc09d2070165c4b6d277dc8f253",
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+      "exposure_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK"
+      ],
+      "path": "analysis/k4_ap_pilot/backend_a_counts.csv",
+      "provenance_completeness": "COMPLETE",
+      "row_count": 1285,
+      "schema": "CSV:h,k,n,T,active_pairs",
+      "sha256": "dad853ae1b385ef44ef67b442d5b3b82c78614a4fc99c77530ba6903ede49e23",
+      "source_id": "K4_PROGRESSION_PANEL",
+      "status": "COMPLETE",
+      "tree": "7cfa00ac4a8464080203184a224988d97a6b8bfa"
+    },
+    {
+      "blob": "91d50b7412b53ffc7252c97a75a98c2de771a9d9",
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+      "exposure_levels": [
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "path": "analysis/k4_ap_pilot/direct_verification.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "a303656-k4-ap-direct-verification-v1",
+      "selected_point_count": 73,
+      "sha256": "3ec8be67747e64d5046dc9c3591c8885865b897f3d02c18be8fd5b01ee201794",
+      "source_id": "K4_DIRECT_VERIFICATION",
+      "status": "COMPLETE",
+      "tree": "7cfa00ac4a8464080203184a224988d97a6b8bfa"
+    },
+    {
+      "blob": "e4ccb2ff86dc5245a70c77f1cb3b14a638ba2f67",
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "d547130508c7d06b099eab4e93b0db7a0afa7c89",
+      "exposure_levels": [
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "path": "analysis/p4_maximizer_census/direct_verification.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "a303656-p4-direct-verification-v1",
+      "selected_point_count": 457,
+      "sha256": "246d4067b4f7f80d88377ef17fa5732d0c4a9bf998ccd79c0dda94b0938abbaf",
+      "source_id": "P4_DIRECT_VERIFICATION",
+      "status": "COMPLETE",
+      "tree": "07e187c74277651fd474aaf9ceab308d06b765dd"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "d547130508c7d06b099eab4e93b0db7a0afa7c89",
+      "exposure_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {},
+      "note": "87 classes, 4838 points; source panel recovered",
+      "path": "analysis/p4_maximizer_census/verification_report.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "7441d183a33fa66dda87e74ef28e0de422053843e72992e6a2d3fd1a3af3de5f",
+      "source_id": "P4_CALIBRATION_AND_G231",
+      "status": "COMPLETE",
+      "tree": "07e187c74277651fd474aaf9ceab308d06b765dd"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "7b4515f463af373bf341407878171b627c7aadc1",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {},
+      "note": "reuses 457-point direct selection manifest; zero new integer evaluation",
+      "path": "analysis/p4_weighted_transferability/results/metadata.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "91955d84509ac8eb69e3932b4b04a9873c305c9b93d3f845992a95cd9ec1288c",
+      "source_id": "P4_WEIGHTED_FIXED_RUNS",
+      "status": "COMPLETE",
+      "tree": "9d070016c2114ec7bdb37597b7bf4d3214707769"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "c710dcc9b472a8500b038a33db1315043cffca6e",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {},
+      "note": "modular design work; no integer evaluation",
+      "path": "analysis/fifth_prime_marginal_coverage/results/metadata.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "890b11be3daa3d33751b86aa768fd47797e4d9600c28480d0876d1e14690ec1c",
+      "source_id": "FIFTH_PRIME_MARGINAL",
+      "status": "COMPLETE",
+      "tree": "4985186ad21ee1df43069cbffd5ed05b26ebb937"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310",
+      "exposure_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {},
+      "note": "457 descriptions, 454 distinct integers",
+      "path": "analysis/p5_family_u_census/results/panel_reconstruction_manifest.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "7aed818f628bcfda7573c3d9ee51cdbe9eebf7b273ee11263023017f86c68ea4",
+      "source_id": "P5_FAMILY_U_CENSUS",
+      "status": "COMPLETE",
+      "tree": "2c443fb80c302f3e92ecd4f713cb4967d2e4f0d8"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {},
+      "note": "design-only authority",
+      "path": "analysis/p5_sparse_panel_feasibility/results/design_A_all_entry_balanced.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "c1624056d28756ef08a551f87f5e63483301a29901f2ba1a776e37c11aea1153",
+      "source_id": "P5_FAMILY_R",
+      "status": "COMPLETE",
+      "tree": "8865e4b617e85be2fdd171c9858c804b1415ea83"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {},
+      "note": "design-only authority",
+      "path": "analysis/p5_sparse_panel_feasibility/results/design_B_anchor_balanced.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "9fd0d5e0295de4178a51c37d0c9264184df4d3506c49bb9890eafd5d1de5e37b",
+      "source_id": "P5_FAMILY_Q",
+      "status": "COMPLETE",
+      "tree": "8865e4b617e85be2fdd171c9858c804b1415ea83"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {},
+      "note": "verifier records evaluator calls false",
+      "path": "analysis/p5_sparse_panel_feasibility/results/verification_report.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "b08640370e95ac7367cdebaffe48a370b364d68464507b6bd56904ff958aba85",
+      "source_id": "SPARSE_FEASIBILITY_RUNS",
+      "status": "COMPLETE",
+      "tree": "8865e4b617e85be2fdd171c9858c804b1415ea83"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "73fbec48fb1343de9e6fa7cf2bcc84e86837955b",
+      "exposure_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK"
+      ],
+      "extent": {},
+      "note": "pilot A/B imported through legacy registry",
+      "path": "output/tn_pilot_20260713/pilot_a/bitset/counts.csv",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "source_id": "LOW_T_RECORDS",
+      "status": "COMPLETE",
+      "tree": "6b44cbaf5049938247a41fd1285c1ac903e4f480"
+    },
+    {
+      "boundary_convention": "NOT_APPLICABLE_SPARSE",
+      "commit": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310",
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {},
+      "note": "three description collisions, no new integer",
+      "path": "analysis/p5_family_u_census/results/description_integer_incidence.json",
+      "provenance_completeness": "COMPLETE",
+      "schema": "repository-native-authority",
+      "sha256": "b9bfc5f72b1f87f60cdaca4ea4aaba9e18c3d4ab835aa4f9165735f712656dde",
+      "source_id": "REPLAY_AND_COLLISION_RECORDS",
+      "status": "COMPLETE",
+      "tree": "2c443fb80c302f3e92ecd4f713cb4967d2e4f0d8"
+    },
+    {
+      "boundary_convention": "UNKNOWN",
+      "commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK",
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {},
+      "note": "not all historical execution buffers/touched integers are reconstructable",
+      "path": "logs/INTERRUPTED_RUNS.txt",
+      "provenance_completeness": "PARTIAL",
+      "schema": "repository-native-authority",
+      "sha256": "6a33445a3baba3f4d95b93cf26e210b50cfb57f3b0f49cf054077fb9e59eee53",
+      "source_id": "INTERRUPTED_PARTIAL_ABANDONED",
+      "status": "PARTIAL",
+      "tree": "01f7810590cd35d1adcde997197d3665e336ce12"
+    }
+  ],
+  "schema": "a303656-historical-exposure-components-v2"
+}

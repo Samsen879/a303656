@@ -1,0 +1,7363 @@
+{
+  "I_84_size": 176,
+  "T_common_class_summaries": [
+    {
+      "argmin_n": [
+        202473286274
+      ],
+      "class_id": "MAX-001",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.811630255358958303",
+        "variance_denominator": 112,
+        "variance_numerator": 2593
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "total_winner_incidences": 1890
+    },
+    {
+      "argmin_n": [
+        246312549434
+      ],
+      "class_id": "MAX-002",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.446428571428571429",
+        "denominator": 56,
+        "numerator": 1873
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.791807155586139676",
+        "variance_denominator": 3136,
+        "variance_numerator": 72007
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190036525974025974",
+        "denominator": 9856,
+        "numerator": 1873
+      },
+      "total_winner_incidences": 1873
+    },
+    {
+      "argmin_n": [
+        198300456074
+      ],
+      "class_id": "MAX-003",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 35,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.036363636363636364",
+        "denominator": 55,
+        "numerator": 1817
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.824044460686249309",
+        "variance_denominator": 3025,
+        "variance_numerator": 70396
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187706611570247934",
+        "denominator": 9680,
+        "numerator": 1817
+      },
+      "total_winner_incidences": 1817
+    },
+    {
+      "argmin_n": [
+        245134338554
+      ],
+      "class_id": "MAX-004",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.267857142857142857",
+        "denominator": 56,
+        "numerator": 1863
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.348608445027359014",
+        "variance_denominator": 3136,
+        "variance_numerator": 59303
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189021915584415584",
+        "denominator": 9856,
+        "numerator": 1863
+      },
+      "total_winner_incidences": 1863
+    },
+    {
+      "argmin_n": [
+        215384513834
+      ],
+      "class_id": "MAX-005",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.618181818181818182",
+        "denominator": 55,
+        "numerator": 1794
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.970790714823800787",
+        "variance_denominator": 3025,
+        "variance_numerator": 74744
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185330578512396694",
+        "denominator": 4840,
+        "numerator": 897
+      },
+      "total_winner_incidences": 1794
+    },
+    {
+      "argmin_n": [
+        186960176354
+      ],
+      "class_id": "MAX-006",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 32,
+        "50": 34,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "34.345454545454545455",
+        "denominator": 55,
+        "numerator": 1889
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.481145072079768474",
+        "variance_denominator": 3025,
+        "variance_numerator": 60744
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195144628099173554",
+        "denominator": 9680,
+        "numerator": 1889
+      },
+      "total_winner_incidences": 1889
+    },
+    {
+      "argmin_n": [
+        221766489434,
+        231928558274
+      ],
+      "class_id": "MAX-007",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.107142857142857143",
+        "denominator": 28,
+        "numerator": 927
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.514573905809983322",
+        "variance_denominator": 784,
+        "variance_numerator": 15979
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188108766233766234",
+        "denominator": 4928,
+        "numerator": 927
+      },
+      "total_winner_incidences": 1854
+    },
+    {
+      "argmin_n": [
+        196533139754,
+        215728158674
+      ],
+      "class_id": "MAX-008",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.535714285714285714",
+        "denominator": 28,
+        "numerator": 939
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.491914504792733356",
+        "variance_denominator": 784,
+        "variance_numerator": 15819
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190543831168831169",
+        "denominator": 4928,
+        "numerator": 939
+      },
+      "total_winner_incidences": 1878
+    },
+    {
+      "argmin_n": [
+        218919146474
+      ],
+      "class_id": "MAX-009",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 28,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.472727272727272727",
+        "denominator": 55,
+        "numerator": 1786
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.516436746683976005",
+        "variance_denominator": 3025,
+        "variance_numerator": 92054
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184504132231404959",
+        "denominator": 4840,
+        "numerator": 893
+      },
+      "total_winner_incidences": 1786
+    },
+    {
+      "argmin_n": [
+        204044234114
+      ],
+      "class_id": "MAX-010",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.690909090909090909",
+        "denominator": 55,
+        "numerator": 1853
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.678277566769156247",
+        "variance_denominator": 3025,
+        "variance_numerator": 66206
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191425619834710744",
+        "denominator": 9680,
+        "numerator": 1853
+      },
+      "total_winner_incidences": 1853
+    },
+    {
+      "argmin_n": [
+        195944034314
+      ],
+      "class_id": "MAX-011",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 33,
+        "75": 34,
+        "90": 38
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.727272727272727273",
+        "denominator": 11,
+        "numerator": 360
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.162405534629073573",
+        "variance_denominator": 605,
+        "variance_numerator": 10482
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185950413223140496",
+        "denominator": 242,
+        "numerator": 45
+      },
+      "total_winner_incidences": 1800
+    },
+    {
+      "argmin_n": [
+        193293059834
+      ],
+      "class_id": "MAX-012",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "33.232142857142857143",
+        "denominator": 56,
+        "numerator": 1861
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.632922062449863172",
+        "variance_denominator": 3136,
+        "variance_numerator": 67311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188818993506493506",
+        "denominator": 9856,
+        "numerator": 1861
+      },
+      "total_winner_incidences": 1861
+    },
+    {
+      "argmin_n": [
+        217937304074
+      ],
+      "class_id": "MAX-013",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.946428571428571429",
+        "denominator": 56,
+        "numerator": 1901
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.299661858678016696",
+        "variance_denominator": 3136,
+        "variance_numerator": 88079
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192877435064935065",
+        "denominator": 9856,
+        "numerator": 1901
+      },
+      "total_winner_incidences": 1901
+    },
+    {
+      "argmin_n": [
+        225252029954
+      ],
+      "class_id": "MAX-014",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.232142857142857143",
+        "denominator": 56,
+        "numerator": 1861
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.967721062118968064",
+        "variance_denominator": 3136,
+        "variance_numerator": 77391
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188818993506493506",
+        "denominator": 9856,
+        "numerator": 1861
+      },
+      "total_winner_incidences": 1861
+    },
+    {
+      "argmin_n": [
+        203294463554,
+        222489482474
+      ],
+      "class_id": "MAX-015",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.951261177205052186",
+        "variance_denominator": 3136,
+        "variance_numerator": 76879
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "total_winner_incidences": 1851
+    },
+    {
+      "argmin_n": [
+        241488132914
+      ],
+      "class_id": "MAX-016",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.200000000000000000",
+        "denominator": 5,
+        "numerator": 166
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.053891389990309420",
+        "variance_denominator": 275,
+        "variance_numerator": 7024
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188636363636363636",
+        "denominator": 440,
+        "numerator": 83
+      },
+      "total_winner_incidences": 1826
+    },
+    {
+      "argmin_n": [
+        207025464674
+      ],
+      "class_id": "MAX-017",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.625000000000000000",
+        "denominator": 8,
+        "numerator": 269
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.779280056362344743",
+        "variance_denominator": 448,
+        "variance_numerator": 10233
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191051136363636364",
+        "denominator": 1408,
+        "numerator": 269
+      },
+      "total_winner_incidences": 1883
+    },
+    {
+      "argmin_n": [
+        224502259394
+      ],
+      "class_id": "MAX-018",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.800000000000000000",
+        "denominator": 5,
+        "numerator": 169
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.327117590046405028",
+        "variance_denominator": 275,
+        "variance_numerator": 7804
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192045454545454545",
+        "denominator": 880,
+        "numerator": 169
+      },
+      "total_winner_incidences": 1859
+    },
+    {
+      "argmin_n": [
+        200398028474
+      ],
+      "class_id": "MAX-019",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 20,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.465540238809043507",
+        "variance_denominator": 3136,
+        "variance_numerator": 93679
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "total_winner_incidences": 1851
+    },
+    {
+      "argmin_n": [
+        226171391474
+      ],
+      "class_id": "MAX-020",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.321428571428571429",
+        "denominator": 28,
+        "numerator": 933
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.039512245591768354",
+        "variance_denominator": 784,
+        "variance_numerator": 19911
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189326298701298701",
+        "denominator": 4928,
+        "numerator": 933
+      },
+      "total_winner_incidences": 1866
+    },
+    {
+      "argmin_n": [
+        245170041914
+      ],
+      "class_id": "MAX-021",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "34.071428571428571429",
+        "denominator": 14,
+        "numerator": 477
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.024430112876849785",
+        "variance_denominator": 49,
+        "variance_numerator": 1237
+      },
+      "residual_survival_rate": {
+        "decimal": "0.193587662337662338",
+        "denominator": 2464,
+        "numerator": 477
+      },
+      "total_winner_incidences": 1908
+    },
+    {
+      "argmin_n": [
+        225582286034
+      ],
+      "class_id": "MAX-022",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.727272727272727273",
+        "denominator": 11,
+        "numerator": 360
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.358709339636908678",
+        "variance_denominator": 605,
+        "variance_numerator": 11494
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185950413223140496",
+        "denominator": 242,
+        "numerator": 45
+      },
+      "total_winner_incidences": 1800
+    },
+    {
+      "argmin_n": [
+        194899711034
+      ],
+      "class_id": "MAX-023",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 28,
+        "50": 32,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.381818181818181818",
+        "denominator": 55,
+        "numerator": 1781
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 20,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.028973902536847945",
+        "variance_denominator": 3025,
+        "variance_numerator": 76504
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183987603305785124",
+        "denominator": 9680,
+        "numerator": 1781
+      },
+      "total_winner_incidences": 1781
+    },
+    {
+      "argmin_n": [
+        240997211714
+      ],
+      "class_id": "MAX-024",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.303571428571428571",
+        "denominator": 56,
+        "numerator": 1865
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.294605215476891629",
+        "variance_denominator": 3136,
+        "variance_numerator": 87911
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189224837662337662",
+        "denominator": 9856,
+        "numerator": 1865
+      },
+      "total_winner_incidences": 1865
+    },
+    {
+      "argmin_n": [
+        201281686634,
+        231767893154,
+        243059080754
+      ],
+      "class_id": "MAX-025",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.964285714285714286",
+        "denominator": 28,
+        "numerator": 951
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.408208990950323692",
+        "variance_denominator": 784,
+        "variance_numerator": 22931
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192978896103896104",
+        "denominator": 4928,
+        "numerator": 951
+      },
+      "total_winner_incidences": 1902
+    },
+    {
+      "argmin_n": [
+        235891631234
+      ],
+      "class_id": "MAX-026",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 40,
+      "mean_T": {
+        "decimal": "32.490909090909090909",
+        "denominator": 55,
+        "numerator": 1787
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.544218013626976153",
+        "variance_denominator": 3025,
+        "variance_numerator": 62466
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184607438016528926",
+        "denominator": 9680,
+        "numerator": 1787
+      },
+      "total_winner_incidences": 1787
+    },
+    {
+      "argmin_n": [
+        239082619034,
+        244728212834
+      ],
+      "class_id": "MAX-027",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 34,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "32.836363636363636364",
+        "denominator": 55,
+        "numerator": 1806
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.658379103053828856",
+        "variance_denominator": 3025,
+        "variance_numerator": 65644
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186570247933884298",
+        "denominator": 4840,
+        "numerator": 903
+      },
+      "total_winner_incidences": 1806
+    },
+    {
+      "argmin_n": [
+        233977038554,
+        235106157314
+      ],
+      "class_id": "MAX-028",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 38
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "32.267857142857142857",
+        "denominator": 56,
+        "numerator": 1807
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.393546693847740156",
+        "variance_denominator": 3136,
+        "variance_numerator": 60535
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183340097402597403",
+        "denominator": 9856,
+        "numerator": 1807
+      },
+      "total_winner_incidences": 1807
+    },
+    {
+      "argmin_n": [
+        218794184714
+      ],
+      "class_id": "MAX-029",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.363636363636363636",
+        "denominator": 11,
+        "numerator": 367
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.223595544567280191",
+        "variance_denominator": 605,
+        "variance_numerator": 16508
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189566115702479339",
+        "denominator": 1936,
+        "numerator": 367
+      },
+      "total_winner_incidences": 1835
+    },
+    {
+      "argmin_n": [
+        208435747394
+      ],
+      "class_id": "MAX-030",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "32.836363636363636364",
+        "denominator": 55,
+        "numerator": 1806
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 21,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.526016603678659904",
+        "variance_denominator": 3025,
+        "variance_numerator": 92374
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186570247933884298",
+        "denominator": 4840,
+        "numerator": 903
+      },
+      "total_winner_incidences": 1806
+    },
+    {
+      "argmin_n": [
+        184135147994,
+        245107561034
+      ],
+      "class_id": "MAX-031",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.982142857142857143",
+        "denominator": 56,
+        "numerator": 1903
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.201274127655685114",
+        "variance_denominator": 3136,
+        "variance_numerator": 84839
+      },
+      "residual_survival_rate": {
+        "decimal": "0.193080357142857143",
+        "denominator": 896,
+        "numerator": 173
+      },
+      "total_winner_incidences": 1903
+    },
+    {
+      "argmin_n": [
+        207257536514
+      ],
+      "class_id": "MAX-032",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.254545454545454545",
+        "denominator": 55,
+        "numerator": 1829
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.914609692513950402",
+        "variance_denominator": 3025,
+        "variance_numerator": 73064
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188946280991735537",
+        "denominator": 9680,
+        "numerator": 1829
+      },
+      "total_winner_incidences": 1829
+    },
+    {
+      "argmin_n": [
+        207993918314
+      ],
+      "class_id": "MAX-033",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 31,
+        "50": 34,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.839285714285714286",
+        "denominator": 56,
+        "numerator": 1895
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "3.926907114994689859",
+        "variance_denominator": 3136,
+        "variance_numerator": 48359
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192268668831168831",
+        "denominator": 9856,
+        "numerator": 1895
+      },
+      "total_winner_incidences": 1895
+    },
+    {
+      "argmin_n": [
+        185215174634,
+        196506362234,
+        215701381154,
+        242800231394
+      ],
+      "class_id": "MAX-034",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 35,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.553571428571428571",
+        "denominator": 56,
+        "numerator": 1879
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.035302668081003596",
+        "variance_denominator": 3136,
+        "variance_numerator": 79511
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190645292207792208",
+        "denominator": 9856,
+        "numerator": 1879
+      },
+      "total_winner_incidences": 1879
+    },
+    {
+      "argmin_n": [
+        231312675314
+      ],
+      "class_id": "MAX-035",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.509090909090909091",
+        "denominator": 55,
+        "numerator": 1788
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.343742530762351597",
+        "variance_denominator": 3025,
+        "variance_numerator": 57076
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184710743801652893",
+        "denominator": 2420,
+        "numerator": 447
+      },
+      "total_winner_incidences": 1788
+    },
+    {
+      "argmin_n": [
+        238823769674
+      ],
+      "class_id": "MAX-036",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.678571428571428571",
+        "denominator": 28,
+        "numerator": 943
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 25,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.814810272397415398",
+        "variance_denominator": 784,
+        "variance_numerator": 18175
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191355519480519481",
+        "denominator": 4928,
+        "numerator": 943
+      },
+      "total_winner_incidences": 1886
+    },
+    {
+      "argmin_n": [
+        201366482114
+      ],
+      "class_id": "MAX-037",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.285714285714285714",
+        "denominator": 7,
+        "numerator": 233
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.783581614358062753",
+        "variance_denominator": 196,
+        "variance_numerator": 4485
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189123376623376623",
+        "denominator": 1232,
+        "numerator": 233
+      },
+      "total_winner_incidences": 1864
+    },
+    {
+      "argmin_n": [
+        196653638594
+      ],
+      "class_id": "MAX-038",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 1,
+        "T<=18": 1,
+        "T<=20": 2,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.571428571428571429",
+        "denominator": 7,
+        "numerator": 235
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 15,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.725435550671927630",
+        "variance_denominator": 196,
+        "variance_numerator": 6425
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190746753246753247",
+        "denominator": 1232,
+        "numerator": 235
+      },
+      "total_winner_incidences": 1880
+    },
+    {
+      "argmin_n": [
+        208877576474
+      ],
+      "class_id": "MAX-039",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.154748157905347312",
+        "variance_denominator": 7,
+        "variance_numerator": 186
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187500000000000000",
+        "denominator": 16,
+        "numerator": 3
+      },
+      "total_winner_incidences": 1848
+    },
+    {
+      "argmin_n": [
+        245745758594
+      ],
+      "class_id": "MAX-040",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 42
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "32.763636363636363636",
+        "denominator": 55,
+        "numerator": 1802
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.539818298180862189",
+        "variance_denominator": 3025,
+        "variance_numerator": 92836
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186157024793388430",
+        "denominator": 4840,
+        "numerator": 901
+      },
+      "total_winner_incidences": 1802
+    },
+    {
+      "argmin_n": [
+        244420271354
+      ],
+      "class_id": "MAX-041",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 49,
+      "mean_T": {
+        "decimal": "33.482142857142857143",
+        "denominator": 56,
+        "numerator": 1875
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.158180297313369089",
+        "variance_denominator": 3136,
+        "variance_numerator": 83439
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190239448051948052",
+        "denominator": 9856,
+        "numerator": 1875
+      },
+      "total_winner_incidences": 1875
+    },
+    {
+      "argmin_n": [
+        190762584194
+      ],
+      "class_id": "MAX-042",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.965056466374346712",
+        "variance_denominator": 112,
+        "variance_numerator": 2761
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "total_winner_incidences": 1890
+    },
+    {
+      "argmin_n": [
+        204936818114
+      ],
+      "class_id": "MAX-043",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 32,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.053571428571428571",
+        "denominator": 56,
+        "numerator": 1851
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.319840367023454671",
+        "variance_denominator": 3136,
+        "variance_numerator": 88751
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187804383116883117",
+        "denominator": 9856,
+        "numerator": 1851
+      },
+      "total_winner_incidences": 1851
+    },
+    {
+      "argmin_n": [
+        204740449634
+      ],
+      "class_id": "MAX-044",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.750000000000000000",
+        "denominator": 4,
+        "numerator": 135
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.837539220955806813",
+        "variance_denominator": 112,
+        "variance_numerator": 2621
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191761363636363636",
+        "denominator": 704,
+        "numerator": 135
+      },
+      "total_winner_incidences": 1890
+    },
+    {
+      "argmin_n": [
+        189472800314
+      ],
+      "class_id": "MAX-045",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.472727272727272727",
+        "denominator": 55,
+        "numerator": 1841
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 20,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.183380944569762723",
+        "variance_denominator": 3025,
+        "variance_numerator": 81274
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190185950413223140",
+        "denominator": 9680,
+        "numerator": 1841
+      },
+      "total_winner_incidences": 1841
+    },
+    {
+      "argmin_n": [
+        231790207754
+      ],
+      "class_id": "MAX-046",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 31,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.464285714285714286",
+        "denominator": 28,
+        "numerator": 937
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.832790844526460107",
+        "variance_denominator": 784,
+        "variance_numerator": 18311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190137987012987013",
+        "denominator": 4928,
+        "numerator": 937
+      },
+      "total_winner_incidences": 1874
+    },
+    {
+      "argmin_n": [
+        243817777154
+      ],
+      "class_id": "MAX-047",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 32,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.392857142857142857",
+        "denominator": 28,
+        "numerator": 935
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.886857635640760935",
+        "variance_denominator": 784,
+        "variance_numerator": 18723
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189732142857142857",
+        "denominator": 448,
+        "numerator": 85
+      },
+      "total_winner_incidences": 1870
+    },
+    {
+      "argmin_n": [
+        184907233154,
+        191681945714,
+        232330221074
+      ],
+      "class_id": "MAX-048",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 28,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 41,
+      "mean_T": {
+        "decimal": "32.272727272727272727",
+        "denominator": 11,
+        "numerator": 355
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 25,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.526505959163989374",
+        "variance_denominator": 605,
+        "variance_numerator": 12396
+      },
+      "residual_survival_rate": {
+        "decimal": "0.183367768595041322",
+        "denominator": 1936,
+        "numerator": 355
+      },
+      "total_winner_incidences": 1775
+    },
+    {
+      "argmin_n": [
+        198260289794
+      ],
+      "class_id": "MAX-049",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.872727272727272727",
+        "denominator": 55,
+        "numerator": 1863
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.698373201843554370",
+        "variance_denominator": 3025,
+        "variance_numerator": 66776
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192458677685950413",
+        "denominator": 9680,
+        "numerator": 1863
+      },
+      "total_winner_incidences": 1863
+    },
+    {
+      "argmin_n": [
+        215933452994
+      ],
+      "class_id": "MAX-050",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.446428571428571429",
+        "denominator": 56,
+        "numerator": 1873
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.667209486165700495",
+        "variance_denominator": 3136,
+        "variance_numerator": 68311
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190036525974025974",
+        "denominator": 9856,
+        "numerator": 1873
+      },
+      "total_winner_incidences": 1873
+    },
+    {
+      "argmin_n": [
+        193154709314
+      ],
+      "class_id": "MAX-051",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.357142857142857143",
+        "denominator": 14,
+        "numerator": 467
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.170066908342163213",
+        "variance_denominator": 196,
+        "variance_numerator": 5239
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189529220779220779",
+        "denominator": 2464,
+        "numerator": 467
+      },
+      "total_winner_incidences": 1868
+    },
+    {
+      "argmin_n": [
+        205378647194
+      ],
+      "class_id": "MAX-052",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.800000000000000000",
+        "denominator": 5,
+        "numerator": 169
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.881877433193839692",
+        "variance_denominator": 275,
+        "variance_numerator": 6554
+      },
+      "residual_survival_rate": {
+        "decimal": "0.192045454545454545",
+        "denominator": 880,
+        "numerator": 169
+      },
+      "total_winner_incidences": 1859
+    },
+    {
+      "argmin_n": [
+        228893772674
+      ],
+      "class_id": "MAX-053",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.672727272727272727",
+        "denominator": 55,
+        "numerator": 1797
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 21,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.850696465286929025",
+        "variance_denominator": 3025,
+        "variance_numerator": 71176
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185640495867768595",
+        "denominator": 9680,
+        "numerator": 1797
+      },
+      "total_winner_incidences": 1797
+    },
+    {
+      "argmin_n": [
+        228501035714
+      ],
+      "class_id": "MAX-054",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.696428571428571429",
+        "denominator": 56,
+        "numerator": 1887
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.769395150544858799",
+        "variance_denominator": 3136,
+        "variance_numerator": 71335
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191456980519480519",
+        "denominator": 9856,
+        "numerator": 1887
+      },
+      "total_winner_incidences": 1887
+    },
+    {
+      "argmin_n": [
+        210238767074
+      ],
+      "class_id": "MAX-055",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.535714285714285714",
+        "denominator": 28,
+        "numerator": 911
+      },
+      "median_T": {
+        "decimal": "32.500000000000000000",
+        "denominator": 2,
+        "numerator": 65
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.913408351913472012",
+        "variance_denominator": 784,
+        "variance_numerator": 18927
+      },
+      "residual_survival_rate": {
+        "decimal": "0.184862012987012987",
+        "denominator": 4928,
+        "numerator": 911
+      },
+      "total_winner_incidences": 1822
+    },
+    {
+      "argmin_n": [
+        234490274354
+      ],
+      "class_id": "MAX-056",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 35,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.745454545454545455",
+        "denominator": 55,
+        "numerator": 1856
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 20,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.350337905448527729",
+        "variance_denominator": 3025,
+        "variance_numerator": 86594
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191735537190082645",
+        "denominator": 605,
+        "numerator": 116
+      },
+      "total_winner_incidences": 1856
+    },
+    {
+      "argmin_n": [
+        232856845634
+      ],
+      "class_id": "MAX-057",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 50,
+      "mean_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.605896841472430794",
+        "variance_denominator": 14,
+        "variance_numerator": 297
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190340909090909091",
+        "denominator": 352,
+        "numerator": 67
+      },
+      "total_winner_incidences": 1876
+    },
+    {
+      "argmin_n": [
+        186366607994,
+        210078101954
+      ],
+      "class_id": "MAX-058",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "34.160714285714285714",
+        "denominator": 56,
+        "numerator": 1913
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.160899650650226764",
+        "variance_denominator": 3136,
+        "variance_numerator": 83527
+      },
+      "residual_survival_rate": {
+        "decimal": "0.194094967532467532",
+        "denominator": 9856,
+        "numerator": 1913
+      },
+      "total_winner_incidences": 1913
+    },
+    {
+      "argmin_n": [
+        230942252954
+      ],
+      "class_id": "MAX-059",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 30,
+        "25": 31,
+        "50": 33,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.581818181818181818",
+        "denominator": 55,
+        "numerator": 1847
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "3.934421103731475679",
+        "variance_denominator": 3025,
+        "variance_numerator": 46826
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190805785123966942",
+        "denominator": 9680,
+        "numerator": 1847
+      },
+      "total_winner_incidences": 1847
+    },
+    {
+      "argmin_n": [
+        212287247354,
+        222449316194,
+        233740503794
+      ],
+      "class_id": "MAX-060",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 31,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.285714285714285714",
+        "denominator": 7,
+        "numerator": 233
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.876013761678860628",
+        "variance_denominator": 49,
+        "variance_numerator": 1165
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189123376623376623",
+        "denominator": 1232,
+        "numerator": 233
+      },
+      "total_winner_incidences": 1864
+    },
+    {
+      "argmin_n": [
+        208507154114
+      ],
+      "class_id": "MAX-061",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 38,
+        "90": 40
+      },
+      "maximum_T": 48,
+      "mean_T": {
+        "decimal": "33.600000000000000000",
+        "denominator": 5,
+        "numerator": 168
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.210478951986171212",
+        "variance_denominator": 275,
+        "variance_numerator": 7466
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190909090909090909",
+        "denominator": 110,
+        "numerator": 21
+      },
+      "total_winner_incidences": 1848
+    },
+    {
+      "argmin_n": [
+        195890479274
+      ],
+      "class_id": "MAX-062",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 38
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "32.839285714285714286",
+        "denominator": 56,
+        "numerator": 1839
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.479225003575178877",
+        "variance_denominator": 3136,
+        "variance_numerator": 62919
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186586850649350649",
+        "denominator": 9856,
+        "numerator": 1839
+      },
+      "total_winner_incidences": 1839
+    },
+    {
+      "argmin_n": [
+        218276485994
+      ],
+      "class_id": "MAX-063",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 1,
+        "T<=20": 1,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.642857142857142857",
+        "denominator": 14,
+        "numerator": 471
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 18,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.022906711928332626",
+        "variance_denominator": 196,
+        "variance_numerator": 4945
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191152597402597403",
+        "denominator": 2464,
+        "numerator": 471
+      },
+      "total_winner_incidences": 1884
+    },
+    {
+      "argmin_n": [
+        195301373834
+      ],
+      "class_id": "MAX-064",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.767857142857142857",
+        "denominator": 56,
+        "numerator": 1835
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 25,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.305275299927202716",
+        "variance_denominator": 3136,
+        "variance_numerator": 58127
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186181006493506494",
+        "denominator": 9856,
+        "numerator": 1835
+      },
+      "total_winner_incidences": 1835
+    },
+    {
+      "argmin_n": [
+        221074736834
+      ],
+      "class_id": "MAX-065",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 35,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.763636363636363636",
+        "denominator": 55,
+        "numerator": 1857
+      },
+      "median_T": {
+        "decimal": "35.000000000000000000",
+        "denominator": 1,
+        "numerator": 35
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.540579203596412479",
+        "variance_denominator": 3025,
+        "variance_numerator": 62366
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191838842975206612",
+        "denominator": 9680,
+        "numerator": 1857
+      },
+      "total_winner_incidences": 1857
+    },
+    {
+      "argmin_n": [
+        233298674714
+      ],
+      "class_id": "MAX-066",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 9,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 24,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.036363636363636364",
+        "denominator": 55,
+        "numerator": 1817
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.999889806150644066",
+        "variance_denominator": 3025,
+        "variance_numerator": 108896
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187706611570247934",
+        "denominator": 9680,
+        "numerator": 1817
+      },
+      "total_winner_incidences": 1817
+    },
+    {
+      "argmin_n": [
+        245522612594
+      ],
+      "class_id": "MAX-067",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 6,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 25,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 42
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "33.142857142857142857",
+        "denominator": 7,
+        "numerator": 232
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.779979521183974095",
+        "variance_denominator": 49,
+        "variance_numerator": 1637
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188311688311688312",
+        "denominator": 154,
+        "numerator": 29
+      },
+      "total_winner_incidences": 1856
+    },
+    {
+      "argmin_n": [
+        208998075314,
+        214643669114,
+        218031025394,
+        229322212994
+      ],
+      "class_id": "MAX-068",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 0,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 34,
+        "75": 38,
+        "90": 41
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "34.446428571428571429",
+        "denominator": 56,
+        "numerator": 1929
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 27,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.739347615054895993",
+        "variance_denominator": 3136,
+        "variance_numerator": 70439
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195718344155844156",
+        "denominator": 9856,
+        "numerator": 1929
+      },
+      "total_winner_incidences": 1929
+    },
+    {
+      "argmin_n": [
+        237029675834
+      ],
+      "class_id": "MAX-069",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.400000000000000000",
+        "denominator": 5,
+        "numerator": 167
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 21,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.746673476331513043",
+        "variance_denominator": 275,
+        "variance_numerator": 6196
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189772727272727273",
+        "denominator": 880,
+        "numerator": 167
+      },
+      "total_winner_incidences": 1837
+    },
+    {
+      "argmin_n": [
+        224020264034,
+        244344401714
+      ],
+      "class_id": "MAX-070",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "32.910714285714285714",
+        "denominator": 56,
+        "numerator": 1843
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.907271520459226035",
+        "variance_denominator": 3136,
+        "variance_numerator": 75519
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186992694805194805",
+        "denominator": 9856,
+        "numerator": 1843
+      },
+      "total_winner_incidences": 1843
+    },
+    {
+      "argmin_n": [
+        184817974754,
+        214175062514,
+        217562418794,
+        245790387794
+      ],
+      "class_id": "MAX-071",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 5,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.290909090909090909",
+        "denominator": 55,
+        "numerator": 1831
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.781299660791089941",
+        "variance_denominator": 3025,
+        "variance_numerator": 69154
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189152892561983471",
+        "denominator": 9680,
+        "numerator": 1831
+      },
+      "total_winner_incidences": 1831
+    },
+    {
+      "argmin_n": [
+        224140762874
+      ],
+      "class_id": "MAX-072",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.714285714285714286",
+        "denominator": 7,
+        "numerator": 236
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.700738109649398888",
+        "variance_denominator": 196,
+        "variance_numerator": 4331
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191558441558441558",
+        "denominator": 308,
+        "numerator": 59
+      },
+      "total_winner_incidences": 1888
+    },
+    {
+      "argmin_n": [
+        188548975874
+      ],
+      "class_id": "MAX-073",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 33,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "32.821428571428571429",
+        "denominator": 28,
+        "numerator": 919
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.740054033963954633",
+        "variance_denominator": 784,
+        "variance_numerator": 17615
+      },
+      "residual_survival_rate": {
+        "decimal": "0.186485389610389610",
+        "denominator": 4928,
+        "numerator": 919
+      },
+      "total_winner_incidences": 1838
+    },
+    {
+      "argmin_n": [
+        244415808434
+      ],
+      "class_id": "MAX-074",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 37
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "32.660714285714285714",
+        "denominator": 56,
+        "numerator": 1829
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 23,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.449224594218178864",
+        "variance_denominator": 3136,
+        "variance_numerator": 62079
+      },
+      "residual_survival_rate": {
+        "decimal": "0.185572240259740260",
+        "denominator": 9856,
+        "numerator": 1829
+      },
+      "total_winner_incidences": 1829
+    },
+    {
+      "argmin_n": [
+        212407746194
+      ],
+      "class_id": "MAX-075",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 29,
+        "25": 30,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 46,
+      "mean_T": {
+        "decimal": "34.321428571428571429",
+        "denominator": 28,
+        "numerator": 961
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 25,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.724960857196683310",
+        "variance_denominator": 784,
+        "variance_numerator": 17503
+      },
+      "residual_survival_rate": {
+        "decimal": "0.195008116883116883",
+        "denominator": 4928,
+        "numerator": 961
+      },
+      "total_winner_incidences": 1922
+    },
+    {
+      "argmin_n": [
+        242697584234
+      ],
+      "class_id": "MAX-076",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 29,
+        "50": 34,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.517857142857142857",
+        "denominator": 56,
+        "numerator": 1877
+      },
+      "median_T": {
+        "decimal": "34.500000000000000000",
+        "denominator": 2,
+        "numerator": 69
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "5.175460888477785155",
+        "variance_denominator": 3136,
+        "variance_numerator": 83999
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190442370129870130",
+        "denominator": 9856,
+        "numerator": 1877
+      },
+      "total_winner_incidences": 1877
+    },
+    {
+      "argmin_n": [
+        190561752794
+      ],
+      "class_id": "MAX-077",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 36,
+        "90": 42
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.636363636363636364",
+        "denominator": 11,
+        "numerator": 370
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 23,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.937292730245213180",
+        "variance_denominator": 605,
+        "variance_numerator": 14748
+      },
+      "residual_survival_rate": {
+        "decimal": "0.191115702479338843",
+        "denominator": 968,
+        "numerator": 185
+      },
+      "total_winner_incidences": 1850
+    },
+    {
+      "argmin_n": [
+        198072847154,
+        238721122514
+      ],
+      "class_id": "MAX-078",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 3,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 26,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 42,
+      "mean_T": {
+        "decimal": "33.339285714285714286",
+        "denominator": 56,
+        "numerator": 1867
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 24,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.610844304905733059",
+        "variance_denominator": 3136,
+        "variance_numerator": 66671
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189427759740259740",
+        "denominator": 9856,
+        "numerator": 1867
+      },
+      "total_winner_incidences": 1867
+    },
+    {
+      "argmin_n": [
+        195618241154
+      ],
+      "class_id": "MAX-079",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 0,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 32,
+        "75": 35,
+        "90": 39
+      },
+      "maximum_T": 47,
+      "mean_T": {
+        "decimal": "33.089285714285714286",
+        "denominator": 56,
+        "numerator": 1853
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 26,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.710462464838570521",
+        "variance_denominator": 3136,
+        "variance_numerator": 69583
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188007305194805195",
+        "denominator": 9856,
+        "numerator": 1853
+      },
+      "total_winner_incidences": 1853
+    },
+    {
+      "argmin_n": [
+        215746010354
+      ],
+      "class_id": "MAX-080",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 41
+      },
+      "maximum_T": 43,
+      "mean_T": {
+        "decimal": "33.410714285714285714",
+        "denominator": 56,
+        "numerator": 1871
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 25,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.802442777655248775",
+        "variance_denominator": 3136,
+        "variance_numerator": 72327
+      },
+      "residual_survival_rate": {
+        "decimal": "0.189833603896103896",
+        "denominator": 9856,
+        "numerator": 1871
+      },
+      "total_winner_incidences": 1871
+    },
+    {
+      "argmin_n": [
+        230228185754
+      ],
+      "class_id": "MAX-081",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 1,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 29,
+        "50": 34,
+        "75": 39,
+        "90": 42
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "34.163636363636363636",
+        "denominator": 55,
+        "numerator": 1879
+      },
+      "median_T": {
+        "decimal": "34.000000000000000000",
+        "denominator": 1,
+        "numerator": 34
+      },
+      "minimum_T": 20,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "5.845786785411854873",
+        "variance_denominator": 3025,
+        "variance_numerator": 103374
+      },
+      "residual_survival_rate": {
+        "decimal": "0.194111570247933884",
+        "denominator": 9680,
+        "numerator": 1879
+      },
+      "total_winner_incidences": 1879
+    },
+    {
+      "argmin_n": [
+        211769548634
+      ],
+      "class_id": "MAX-082",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 1,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 29,
+        "50": 33,
+        "75": 37,
+        "90": 38
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.181818181818181818",
+        "denominator": 11,
+        "numerator": 365
+      },
+      "median_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "minimum_T": 24,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.600754519506591821",
+        "variance_denominator": 605,
+        "variance_numerator": 12806
+      },
+      "residual_survival_rate": {
+        "decimal": "0.188533057851239669",
+        "denominator": 1936,
+        "numerator": 365
+      },
+      "total_winner_incidences": 1825
+    },
+    {
+      "argmin_n": [
+        213831417674
+      ],
+      "class_id": "MAX-083",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 2,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 28,
+        "25": 30,
+        "50": 33,
+        "75": 37,
+        "90": 40
+      },
+      "maximum_T": 44,
+      "mean_T": {
+        "decimal": "33.535714285714285714",
+        "denominator": 28,
+        "numerator": 939
+      },
+      "median_T": {
+        "decimal": "33.500000000000000000",
+        "denominator": 2,
+        "numerator": 67
+      },
+      "minimum_T": 22,
+      "point_count": 56,
+      "population_standard_deviation_T": {
+        "decimal": "4.724420923375106063",
+        "variance_denominator": 784,
+        "variance_numerator": 17499
+      },
+      "residual_survival_rate": {
+        "decimal": "0.190543831168831169",
+        "denominator": 4928,
+        "numerator": 939
+      },
+      "total_winner_incidences": 1878
+    },
+    {
+      "argmin_n": [
+        212113193474,
+        226791737354
+      ],
+      "class_id": "MAX-084",
+      "counts": {
+        "T<=10": 0,
+        "T<=12": 0,
+        "T<=14": 0,
+        "T<=16": 0,
+        "T<=18": 0,
+        "T<=20": 0,
+        "T<=25": 4,
+        "T<=5": 0,
+        "T=0": 0
+      },
+      "inverse_empirical_cdf": {
+        "10": 27,
+        "25": 30,
+        "50": 32,
+        "75": 36,
+        "90": 39
+      },
+      "maximum_T": 45,
+      "mean_T": {
+        "decimal": "33.000000000000000000",
+        "denominator": 1,
+        "numerator": 33
+      },
+      "median_T": {
+        "decimal": "32.000000000000000000",
+        "denominator": 1,
+        "numerator": 32
+      },
+      "minimum_T": 22,
+      "point_count": 55,
+      "population_standard_deviation_T": {
+        "decimal": "4.891551157585160866",
+        "variance_denominator": 55,
+        "variance_numerator": 1316
+      },
+      "residual_survival_rate": {
+        "decimal": "0.187500000000000000",
+        "denominator": 16,
+        "numerator": 3
+      },
+      "total_winner_incidences": 1815
+    }
+  ],
+  "T_common_histogram": {
+    "15": 1,
+    "18": 1,
+    "19": 1,
+    "20": 9,
+    "21": 12,
+    "22": 19,
+    "23": 51,
+    "24": 65,
+    "25": 74,
+    "26": 117,
+    "27": 192,
+    "28": 223,
+    "29": 298,
+    "30": 326,
+    "31": 331,
+    "32": 368,
+    "33": 353,
+    "34": 369,
+    "35": 320,
+    "36": 318,
+    "37": 282,
+    "38": 230,
+    "39": 203,
+    "40": 139,
+    "41": 111,
+    "42": 89,
+    "43": 64,
+    "44": 45,
+    "45": 25,
+    "46": 21,
+    "47": 9,
+    "48": 3,
+    "49": 1,
+    "50": 1
+  },
+  "covered_by_all_84_count": 231,
+  "covered_by_at_least_one_maximizer_count": 231,
+  "pairs": [
+    {
+      "c": 0,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 0,
+      "shift": 2
+    },
+    {
+      "c": 0,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 1,
+      "shift": 6
+    },
+    {
+      "c": 0,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 2,
+      "shift": 26
+    },
+    {
+      "c": 0,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 3,
+      "shift": 126
+    },
+    {
+      "c": 0,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 4,
+      "shift": 626
+    },
+    {
+      "c": 0,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 5,
+      "shift": 3126
+    },
+    {
+      "c": 0,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 6,
+      "shift": 15626
+    },
+    {
+      "c": 0,
+      "d": 7,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 7,
+      "shift": 78126
+    },
+    {
+      "c": 0,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 8,
+      "shift": 390626
+    },
+    {
+      "c": 0,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 9,
+      "shift": 1953126
+    },
+    {
+      "c": 0,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 10,
+      "shift": 9765626
+    },
+    {
+      "c": 0,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 11,
+      "shift": 48828126
+    },
+    {
+      "c": 0,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 12,
+      "shift": 244140626
+    },
+    {
+      "c": 0,
+      "d": 13,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 13,
+      "shift": 1220703126
+    },
+    {
+      "c": 0,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 14,
+      "shift": 6103515626
+    },
+    {
+      "c": 0,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 15,
+      "shift": 30517578126
+    },
+    {
+      "c": 0,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 16,
+      "shift": 152587890626
+    },
+    {
+      "c": 1,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 17,
+      "shift": 4
+    },
+    {
+      "c": 1,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 18,
+      "shift": 8
+    },
+    {
+      "c": 1,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 19,
+      "shift": 28
+    },
+    {
+      "c": 1,
+      "d": 3,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 20,
+      "shift": 128
+    },
+    {
+      "c": 1,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 21,
+      "shift": 628
+    },
+    {
+      "c": 1,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 22,
+      "shift": 3128
+    },
+    {
+      "c": 1,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 23,
+      "shift": 15628
+    },
+    {
+      "c": 1,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 24,
+      "shift": 78128
+    },
+    {
+      "c": 1,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 25,
+      "shift": 390628
+    },
+    {
+      "c": 1,
+      "d": 9,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 26,
+      "shift": 1953128
+    },
+    {
+      "c": 1,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 27,
+      "shift": 9765628
+    },
+    {
+      "c": 1,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 28,
+      "shift": 48828128
+    },
+    {
+      "c": 1,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 29,
+      "shift": 244140628
+    },
+    {
+      "c": 1,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 30,
+      "shift": 1220703128
+    },
+    {
+      "c": 1,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 31,
+      "shift": 6103515628
+    },
+    {
+      "c": 1,
+      "d": 15,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 32,
+      "shift": 30517578128
+    },
+    {
+      "c": 1,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 33,
+      "shift": 152587890628
+    },
+    {
+      "c": 2,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 34,
+      "shift": 10
+    },
+    {
+      "c": 2,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 35,
+      "shift": 14
+    },
+    {
+      "c": 2,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 36,
+      "shift": 34
+    },
+    {
+      "c": 2,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 37,
+      "shift": 134
+    },
+    {
+      "c": 2,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 38,
+      "shift": 634
+    },
+    {
+      "c": 2,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 39,
+      "shift": 3134
+    },
+    {
+      "c": 2,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 40,
+      "shift": 15634
+    },
+    {
+      "c": 2,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 41,
+      "shift": 78134
+    },
+    {
+      "c": 2,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 42,
+      "shift": 390634
+    },
+    {
+      "c": 2,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 43,
+      "shift": 1953134
+    },
+    {
+      "c": 2,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 44,
+      "shift": 9765634
+    },
+    {
+      "c": 2,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 45,
+      "shift": 48828134
+    },
+    {
+      "c": 2,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 46,
+      "shift": 244140634
+    },
+    {
+      "c": 2,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 47,
+      "shift": 1220703134
+    },
+    {
+      "c": 2,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 48,
+      "shift": 6103515634
+    },
+    {
+      "c": 2,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 49,
+      "shift": 30517578134
+    },
+    {
+      "c": 2,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 50,
+      "shift": 152587890634
+    },
+    {
+      "c": 3,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 51,
+      "shift": 28
+    },
+    {
+      "c": 3,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 52,
+      "shift": 32
+    },
+    {
+      "c": 3,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 53,
+      "shift": 52
+    },
+    {
+      "c": 3,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 54,
+      "shift": 152
+    },
+    {
+      "c": 3,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 55,
+      "shift": 652
+    },
+    {
+      "c": 3,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 56,
+      "shift": 3152
+    },
+    {
+      "c": 3,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 57,
+      "shift": 15652
+    },
+    {
+      "c": 3,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 58,
+      "shift": 78152
+    },
+    {
+      "c": 3,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 59,
+      "shift": 390652
+    },
+    {
+      "c": 3,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 60,
+      "shift": 1953152
+    },
+    {
+      "c": 3,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 61,
+      "shift": 9765652
+    },
+    {
+      "c": 3,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 62,
+      "shift": 48828152
+    },
+    {
+      "c": 3,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 63,
+      "shift": 244140652
+    },
+    {
+      "c": 3,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 64,
+      "shift": 1220703152
+    },
+    {
+      "c": 3,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 65,
+      "shift": 6103515652
+    },
+    {
+      "c": 3,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 66,
+      "shift": 30517578152
+    },
+    {
+      "c": 3,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 67,
+      "shift": 152587890652
+    },
+    {
+      "c": 4,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 68,
+      "shift": 82
+    },
+    {
+      "c": 4,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 69,
+      "shift": 86
+    },
+    {
+      "c": 4,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 70,
+      "shift": 106
+    },
+    {
+      "c": 4,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 71,
+      "shift": 206
+    },
+    {
+      "c": 4,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 72,
+      "shift": 706
+    },
+    {
+      "c": 4,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 73,
+      "shift": 3206
+    },
+    {
+      "c": 4,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 74,
+      "shift": 15706
+    },
+    {
+      "c": 4,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 75,
+      "shift": 78206
+    },
+    {
+      "c": 4,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 76,
+      "shift": 390706
+    },
+    {
+      "c": 4,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 77,
+      "shift": 1953206
+    },
+    {
+      "c": 4,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 78,
+      "shift": 9765706
+    },
+    {
+      "c": 4,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 79,
+      "shift": 48828206
+    },
+    {
+      "c": 4,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 80,
+      "shift": 244140706
+    },
+    {
+      "c": 4,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 81,
+      "shift": 1220703206
+    },
+    {
+      "c": 4,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 82,
+      "shift": 6103515706
+    },
+    {
+      "c": 4,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 83,
+      "shift": 30517578206
+    },
+    {
+      "c": 4,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 84,
+      "shift": 152587890706
+    },
+    {
+      "c": 5,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 85,
+      "shift": 244
+    },
+    {
+      "c": 5,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 86,
+      "shift": 248
+    },
+    {
+      "c": 5,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 87,
+      "shift": 268
+    },
+    {
+      "c": 5,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 88,
+      "shift": 368
+    },
+    {
+      "c": 5,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 89,
+      "shift": 868
+    },
+    {
+      "c": 5,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 90,
+      "shift": 3368
+    },
+    {
+      "c": 5,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 91,
+      "shift": 15868
+    },
+    {
+      "c": 5,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 92,
+      "shift": 78368
+    },
+    {
+      "c": 5,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 93,
+      "shift": 390868
+    },
+    {
+      "c": 5,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 94,
+      "shift": 1953368
+    },
+    {
+      "c": 5,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 95,
+      "shift": 9765868
+    },
+    {
+      "c": 5,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 96,
+      "shift": 48828368
+    },
+    {
+      "c": 5,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 97,
+      "shift": 244140868
+    },
+    {
+      "c": 5,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 98,
+      "shift": 1220703368
+    },
+    {
+      "c": 5,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 99,
+      "shift": 6103515868
+    },
+    {
+      "c": 5,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 100,
+      "shift": 30517578368
+    },
+    {
+      "c": 5,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 101,
+      "shift": 152587890868
+    },
+    {
+      "c": 6,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 102,
+      "shift": 730
+    },
+    {
+      "c": 6,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 103,
+      "shift": 734
+    },
+    {
+      "c": 6,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 104,
+      "shift": 754
+    },
+    {
+      "c": 6,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 105,
+      "shift": 854
+    },
+    {
+      "c": 6,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 106,
+      "shift": 1354
+    },
+    {
+      "c": 6,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 107,
+      "shift": 3854
+    },
+    {
+      "c": 6,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 108,
+      "shift": 16354
+    },
+    {
+      "c": 6,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 109,
+      "shift": 78854
+    },
+    {
+      "c": 6,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 110,
+      "shift": 391354
+    },
+    {
+      "c": 6,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 111,
+      "shift": 1953854
+    },
+    {
+      "c": 6,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 112,
+      "shift": 9766354
+    },
+    {
+      "c": 6,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 113,
+      "shift": 48828854
+    },
+    {
+      "c": 6,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 114,
+      "shift": 244141354
+    },
+    {
+      "c": 6,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 115,
+      "shift": 1220703854
+    },
+    {
+      "c": 6,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 116,
+      "shift": 6103516354
+    },
+    {
+      "c": 6,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 117,
+      "shift": 30517578854
+    },
+    {
+      "c": 6,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 118,
+      "shift": 152587891354
+    },
+    {
+      "c": 7,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 119,
+      "shift": 2188
+    },
+    {
+      "c": 7,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 120,
+      "shift": 2192
+    },
+    {
+      "c": 7,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 121,
+      "shift": 2212
+    },
+    {
+      "c": 7,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 122,
+      "shift": 2312
+    },
+    {
+      "c": 7,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 123,
+      "shift": 2812
+    },
+    {
+      "c": 7,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 124,
+      "shift": 5312
+    },
+    {
+      "c": 7,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 125,
+      "shift": 17812
+    },
+    {
+      "c": 7,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 126,
+      "shift": 80312
+    },
+    {
+      "c": 7,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 127,
+      "shift": 392812
+    },
+    {
+      "c": 7,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 128,
+      "shift": 1955312
+    },
+    {
+      "c": 7,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 129,
+      "shift": 9767812
+    },
+    {
+      "c": 7,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 130,
+      "shift": 48830312
+    },
+    {
+      "c": 7,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 131,
+      "shift": 244142812
+    },
+    {
+      "c": 7,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 132,
+      "shift": 1220705312
+    },
+    {
+      "c": 7,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 133,
+      "shift": 6103517812
+    },
+    {
+      "c": 7,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 134,
+      "shift": 30517580312
+    },
+    {
+      "c": 7,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 135,
+      "shift": 152587892812
+    },
+    {
+      "c": 8,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 136,
+      "shift": 6562
+    },
+    {
+      "c": 8,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 137,
+      "shift": 6566
+    },
+    {
+      "c": 8,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 138,
+      "shift": 6586
+    },
+    {
+      "c": 8,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 139,
+      "shift": 6686
+    },
+    {
+      "c": 8,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 140,
+      "shift": 7186
+    },
+    {
+      "c": 8,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 141,
+      "shift": 9686
+    },
+    {
+      "c": 8,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 142,
+      "shift": 22186
+    },
+    {
+      "c": 8,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 143,
+      "shift": 84686
+    },
+    {
+      "c": 8,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 144,
+      "shift": 397186
+    },
+    {
+      "c": 8,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 145,
+      "shift": 1959686
+    },
+    {
+      "c": 8,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 146,
+      "shift": 9772186
+    },
+    {
+      "c": 8,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 147,
+      "shift": 48834686
+    },
+    {
+      "c": 8,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 148,
+      "shift": 244147186
+    },
+    {
+      "c": 8,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 149,
+      "shift": 1220709686
+    },
+    {
+      "c": 8,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 150,
+      "shift": 6103522186
+    },
+    {
+      "c": 8,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 151,
+      "shift": 30517584686
+    },
+    {
+      "c": 8,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 152,
+      "shift": 152587897186
+    },
+    {
+      "c": 9,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 153,
+      "shift": 19684
+    },
+    {
+      "c": 9,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 154,
+      "shift": 19688
+    },
+    {
+      "c": 9,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 155,
+      "shift": 19708
+    },
+    {
+      "c": 9,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 156,
+      "shift": 19808
+    },
+    {
+      "c": 9,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 157,
+      "shift": 20308
+    },
+    {
+      "c": 9,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 158,
+      "shift": 22808
+    },
+    {
+      "c": 9,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 159,
+      "shift": 35308
+    },
+    {
+      "c": 9,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 160,
+      "shift": 97808
+    },
+    {
+      "c": 9,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 161,
+      "shift": 410308
+    },
+    {
+      "c": 9,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 162,
+      "shift": 1972808
+    },
+    {
+      "c": 9,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 163,
+      "shift": 9785308
+    },
+    {
+      "c": 9,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 164,
+      "shift": 48847808
+    },
+    {
+      "c": 9,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 165,
+      "shift": 244160308
+    },
+    {
+      "c": 9,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 166,
+      "shift": 1220722808
+    },
+    {
+      "c": 9,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 167,
+      "shift": 6103535308
+    },
+    {
+      "c": 9,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 168,
+      "shift": 30517597808
+    },
+    {
+      "c": 9,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 169,
+      "shift": 152587910308
+    },
+    {
+      "c": 10,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 170,
+      "shift": 59050
+    },
+    {
+      "c": 10,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 171,
+      "shift": 59054
+    },
+    {
+      "c": 10,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 172,
+      "shift": 59074
+    },
+    {
+      "c": 10,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 173,
+      "shift": 59174
+    },
+    {
+      "c": 10,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 174,
+      "shift": 59674
+    },
+    {
+      "c": 10,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 175,
+      "shift": 62174
+    },
+    {
+      "c": 10,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 176,
+      "shift": 74674
+    },
+    {
+      "c": 10,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 177,
+      "shift": 137174
+    },
+    {
+      "c": 10,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 178,
+      "shift": 449674
+    },
+    {
+      "c": 10,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 179,
+      "shift": 2012174
+    },
+    {
+      "c": 10,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 180,
+      "shift": 9824674
+    },
+    {
+      "c": 10,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 181,
+      "shift": 48887174
+    },
+    {
+      "c": 10,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 182,
+      "shift": 244199674
+    },
+    {
+      "c": 10,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 183,
+      "shift": 1220762174
+    },
+    {
+      "c": 10,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 184,
+      "shift": 6103574674
+    },
+    {
+      "c": 10,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 185,
+      "shift": 30517637174
+    },
+    {
+      "c": 10,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 186,
+      "shift": 152587949674
+    },
+    {
+      "c": 11,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 187,
+      "shift": 177148
+    },
+    {
+      "c": 11,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 188,
+      "shift": 177152
+    },
+    {
+      "c": 11,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 189,
+      "shift": 177172
+    },
+    {
+      "c": 11,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 190,
+      "shift": 177272
+    },
+    {
+      "c": 11,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 191,
+      "shift": 177772
+    },
+    {
+      "c": 11,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 192,
+      "shift": 180272
+    },
+    {
+      "c": 11,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 193,
+      "shift": 192772
+    },
+    {
+      "c": 11,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 194,
+      "shift": 255272
+    },
+    {
+      "c": 11,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 195,
+      "shift": 567772
+    },
+    {
+      "c": 11,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 196,
+      "shift": 2130272
+    },
+    {
+      "c": 11,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 197,
+      "shift": 9942772
+    },
+    {
+      "c": 11,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 198,
+      "shift": 49005272
+    },
+    {
+      "c": 11,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 199,
+      "shift": 244317772
+    },
+    {
+      "c": 11,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 200,
+      "shift": 1220880272
+    },
+    {
+      "c": 11,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 201,
+      "shift": 6103692772
+    },
+    {
+      "c": 11,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 202,
+      "shift": 30517755272
+    },
+    {
+      "c": 11,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 203,
+      "shift": 152588067772
+    },
+    {
+      "c": 12,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 204,
+      "shift": 531442
+    },
+    {
+      "c": 12,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 205,
+      "shift": 531446
+    },
+    {
+      "c": 12,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 206,
+      "shift": 531466
+    },
+    {
+      "c": 12,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 207,
+      "shift": 531566
+    },
+    {
+      "c": 12,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 208,
+      "shift": 532066
+    },
+    {
+      "c": 12,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 209,
+      "shift": 534566
+    },
+    {
+      "c": 12,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 210,
+      "shift": 547066
+    },
+    {
+      "c": 12,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 211,
+      "shift": 609566
+    },
+    {
+      "c": 12,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 212,
+      "shift": 922066
+    },
+    {
+      "c": 12,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 213,
+      "shift": 2484566
+    },
+    {
+      "c": 12,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 214,
+      "shift": 10297066
+    },
+    {
+      "c": 12,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 215,
+      "shift": 49359566
+    },
+    {
+      "c": 12,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 216,
+      "shift": 244672066
+    },
+    {
+      "c": 12,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 217,
+      "shift": 1221234566
+    },
+    {
+      "c": 12,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 218,
+      "shift": 6104047066
+    },
+    {
+      "c": 12,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 219,
+      "shift": 30518109566
+    },
+    {
+      "c": 12,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 220,
+      "shift": 152588422066
+    },
+    {
+      "c": 13,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 221,
+      "shift": 1594324
+    },
+    {
+      "c": 13,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 222,
+      "shift": 1594328
+    },
+    {
+      "c": 13,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 223,
+      "shift": 1594348
+    },
+    {
+      "c": 13,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 224,
+      "shift": 1594448
+    },
+    {
+      "c": 13,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 225,
+      "shift": 1594948
+    },
+    {
+      "c": 13,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 226,
+      "shift": 1597448
+    },
+    {
+      "c": 13,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 227,
+      "shift": 1609948
+    },
+    {
+      "c": 13,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 228,
+      "shift": 1672448
+    },
+    {
+      "c": 13,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 229,
+      "shift": 1984948
+    },
+    {
+      "c": 13,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 230,
+      "shift": 3547448
+    },
+    {
+      "c": 13,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 231,
+      "shift": 11359948
+    },
+    {
+      "c": 13,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 232,
+      "shift": 50422448
+    },
+    {
+      "c": 13,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 233,
+      "shift": 245734948
+    },
+    {
+      "c": 13,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 234,
+      "shift": 1222297448
+    },
+    {
+      "c": 13,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 235,
+      "shift": 6105109948
+    },
+    {
+      "c": 13,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 236,
+      "shift": 30519172448
+    },
+    {
+      "c": 13,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 237,
+      "shift": 152589484948
+    },
+    {
+      "c": 14,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 238,
+      "shift": 4782970
+    },
+    {
+      "c": 14,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 239,
+      "shift": 4782974
+    },
+    {
+      "c": 14,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 240,
+      "shift": 4782994
+    },
+    {
+      "c": 14,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 241,
+      "shift": 4783094
+    },
+    {
+      "c": 14,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 242,
+      "shift": 4783594
+    },
+    {
+      "c": 14,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 243,
+      "shift": 4786094
+    },
+    {
+      "c": 14,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 244,
+      "shift": 4798594
+    },
+    {
+      "c": 14,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 245,
+      "shift": 4861094
+    },
+    {
+      "c": 14,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 246,
+      "shift": 5173594
+    },
+    {
+      "c": 14,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 247,
+      "shift": 6736094
+    },
+    {
+      "c": 14,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 248,
+      "shift": 14548594
+    },
+    {
+      "c": 14,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 249,
+      "shift": 53611094
+    },
+    {
+      "c": 14,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 250,
+      "shift": 248923594
+    },
+    {
+      "c": 14,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 251,
+      "shift": 1225486094
+    },
+    {
+      "c": 14,
+      "d": 14,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 252,
+      "shift": 6108298594
+    },
+    {
+      "c": 14,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 253,
+      "shift": 30522361094
+    },
+    {
+      "c": 14,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 254,
+      "shift": 152592673594
+    },
+    {
+      "c": 15,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 255,
+      "shift": 14348908
+    },
+    {
+      "c": 15,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 256,
+      "shift": 14348912
+    },
+    {
+      "c": 15,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 257,
+      "shift": 14348932
+    },
+    {
+      "c": 15,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 258,
+      "shift": 14349032
+    },
+    {
+      "c": 15,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 259,
+      "shift": 14349532
+    },
+    {
+      "c": 15,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 260,
+      "shift": 14352032
+    },
+    {
+      "c": 15,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 261,
+      "shift": 14364532
+    },
+    {
+      "c": 15,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 262,
+      "shift": 14427032
+    },
+    {
+      "c": 15,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 263,
+      "shift": 14739532
+    },
+    {
+      "c": 15,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 264,
+      "shift": 16302032
+    },
+    {
+      "c": 15,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 265,
+      "shift": 24114532
+    },
+    {
+      "c": 15,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 266,
+      "shift": 63177032
+    },
+    {
+      "c": 15,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 267,
+      "shift": 258489532
+    },
+    {
+      "c": 15,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 268,
+      "shift": 1235052032
+    },
+    {
+      "c": 15,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 269,
+      "shift": 6117864532
+    },
+    {
+      "c": 15,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 270,
+      "shift": 30531927032
+    },
+    {
+      "c": 15,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 271,
+      "shift": 152602239532
+    },
+    {
+      "c": 16,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 272,
+      "shift": 43046722
+    },
+    {
+      "c": 16,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 273,
+      "shift": 43046726
+    },
+    {
+      "c": 16,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 274,
+      "shift": 43046746
+    },
+    {
+      "c": 16,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 275,
+      "shift": 43046846
+    },
+    {
+      "c": 16,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 276,
+      "shift": 43047346
+    },
+    {
+      "c": 16,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 277,
+      "shift": 43049846
+    },
+    {
+      "c": 16,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 278,
+      "shift": 43062346
+    },
+    {
+      "c": 16,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 279,
+      "shift": 43124846
+    },
+    {
+      "c": 16,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 280,
+      "shift": 43437346
+    },
+    {
+      "c": 16,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 281,
+      "shift": 44999846
+    },
+    {
+      "c": 16,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 282,
+      "shift": 52812346
+    },
+    {
+      "c": 16,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 283,
+      "shift": 91874846
+    },
+    {
+      "c": 16,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 284,
+      "shift": 287187346
+    },
+    {
+      "c": 16,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 285,
+      "shift": 1263749846
+    },
+    {
+      "c": 16,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 286,
+      "shift": 6146562346
+    },
+    {
+      "c": 16,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 287,
+      "shift": 30560624846
+    },
+    {
+      "c": 16,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 288,
+      "shift": 152630937346
+    },
+    {
+      "c": 17,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 289,
+      "shift": 129140164
+    },
+    {
+      "c": 17,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 290,
+      "shift": 129140168
+    },
+    {
+      "c": 17,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 291,
+      "shift": 129140188
+    },
+    {
+      "c": 17,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 292,
+      "shift": 129140288
+    },
+    {
+      "c": 17,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 293,
+      "shift": 129140788
+    },
+    {
+      "c": 17,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 294,
+      "shift": 129143288
+    },
+    {
+      "c": 17,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 295,
+      "shift": 129155788
+    },
+    {
+      "c": 17,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 296,
+      "shift": 129218288
+    },
+    {
+      "c": 17,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 297,
+      "shift": 129530788
+    },
+    {
+      "c": 17,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 298,
+      "shift": 131093288
+    },
+    {
+      "c": 17,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 299,
+      "shift": 138905788
+    },
+    {
+      "c": 17,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 300,
+      "shift": 177968288
+    },
+    {
+      "c": 17,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 301,
+      "shift": 373280788
+    },
+    {
+      "c": 17,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 302,
+      "shift": 1349843288
+    },
+    {
+      "c": 17,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 303,
+      "shift": 6232655788
+    },
+    {
+      "c": 17,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 304,
+      "shift": 30646718288
+    },
+    {
+      "c": 17,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 305,
+      "shift": 152717030788
+    },
+    {
+      "c": 18,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 306,
+      "shift": 387420490
+    },
+    {
+      "c": 18,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 307,
+      "shift": 387420494
+    },
+    {
+      "c": 18,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 308,
+      "shift": 387420514
+    },
+    {
+      "c": 18,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 309,
+      "shift": 387420614
+    },
+    {
+      "c": 18,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 310,
+      "shift": 387421114
+    },
+    {
+      "c": 18,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 311,
+      "shift": 387423614
+    },
+    {
+      "c": 18,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 312,
+      "shift": 387436114
+    },
+    {
+      "c": 18,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 313,
+      "shift": 387498614
+    },
+    {
+      "c": 18,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 314,
+      "shift": 387811114
+    },
+    {
+      "c": 18,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 315,
+      "shift": 389373614
+    },
+    {
+      "c": 18,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 316,
+      "shift": 397186114
+    },
+    {
+      "c": 18,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 317,
+      "shift": 436248614
+    },
+    {
+      "c": 18,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 318,
+      "shift": 631561114
+    },
+    {
+      "c": 18,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 319,
+      "shift": 1608123614
+    },
+    {
+      "c": 18,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 320,
+      "shift": 6490936114
+    },
+    {
+      "c": 18,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 321,
+      "shift": 30904998614
+    },
+    {
+      "c": 18,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 322,
+      "shift": 152975311114
+    },
+    {
+      "c": 19,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 323,
+      "shift": 1162261468
+    },
+    {
+      "c": 19,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 324,
+      "shift": 1162261472
+    },
+    {
+      "c": 19,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 325,
+      "shift": 1162261492
+    },
+    {
+      "c": 19,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 326,
+      "shift": 1162261592
+    },
+    {
+      "c": 19,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 327,
+      "shift": 1162262092
+    },
+    {
+      "c": 19,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 328,
+      "shift": 1162264592
+    },
+    {
+      "c": 19,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 329,
+      "shift": 1162277092
+    },
+    {
+      "c": 19,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 330,
+      "shift": 1162339592
+    },
+    {
+      "c": 19,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 331,
+      "shift": 1162652092
+    },
+    {
+      "c": 19,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 332,
+      "shift": 1164214592
+    },
+    {
+      "c": 19,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 333,
+      "shift": 1172027092
+    },
+    {
+      "c": 19,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 334,
+      "shift": 1211089592
+    },
+    {
+      "c": 19,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 335,
+      "shift": 1406402092
+    },
+    {
+      "c": 19,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 336,
+      "shift": 2382964592
+    },
+    {
+      "c": 19,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 337,
+      "shift": 7265777092
+    },
+    {
+      "c": 19,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 338,
+      "shift": 31679839592
+    },
+    {
+      "c": 19,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 339,
+      "shift": 153750152092
+    },
+    {
+      "c": 20,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 340,
+      "shift": 3486784402
+    },
+    {
+      "c": 20,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 341,
+      "shift": 3486784406
+    },
+    {
+      "c": 20,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 342,
+      "shift": 3486784426
+    },
+    {
+      "c": 20,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 343,
+      "shift": 3486784526
+    },
+    {
+      "c": 20,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 344,
+      "shift": 3486785026
+    },
+    {
+      "c": 20,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 345,
+      "shift": 3486787526
+    },
+    {
+      "c": 20,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 346,
+      "shift": 3486800026
+    },
+    {
+      "c": 20,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 347,
+      "shift": 3486862526
+    },
+    {
+      "c": 20,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 348,
+      "shift": 3487175026
+    },
+    {
+      "c": 20,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 349,
+      "shift": 3488737526
+    },
+    {
+      "c": 20,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 350,
+      "shift": 3496550026
+    },
+    {
+      "c": 20,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 351,
+      "shift": 3535612526
+    },
+    {
+      "c": 20,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 352,
+      "shift": 3730925026
+    },
+    {
+      "c": 20,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 353,
+      "shift": 4707487526
+    },
+    {
+      "c": 20,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 354,
+      "shift": 9590300026
+    },
+    {
+      "c": 20,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 355,
+      "shift": 34004362526
+    },
+    {
+      "c": 20,
+      "d": 16,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 356,
+      "shift": 156074675026
+    },
+    {
+      "c": 21,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 357,
+      "shift": 10460353204
+    },
+    {
+      "c": 21,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 358,
+      "shift": 10460353208
+    },
+    {
+      "c": 21,
+      "d": 2,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 359,
+      "shift": 10460353228
+    },
+    {
+      "c": 21,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 360,
+      "shift": 10460353328
+    },
+    {
+      "c": 21,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 361,
+      "shift": 10460353828
+    },
+    {
+      "c": 21,
+      "d": 5,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 362,
+      "shift": 10460356328
+    },
+    {
+      "c": 21,
+      "d": 6,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 363,
+      "shift": 10460368828
+    },
+    {
+      "c": 21,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 364,
+      "shift": 10460431328
+    },
+    {
+      "c": 21,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 365,
+      "shift": 10460743828
+    },
+    {
+      "c": 21,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 366,
+      "shift": 10462306328
+    },
+    {
+      "c": 21,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 367,
+      "shift": 10470118828
+    },
+    {
+      "c": 21,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 368,
+      "shift": 10509181328
+    },
+    {
+      "c": 21,
+      "d": 12,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 369,
+      "shift": 10704493828
+    },
+    {
+      "c": 21,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 370,
+      "shift": 11681056328
+    },
+    {
+      "c": 21,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 371,
+      "shift": 16563868828
+    },
+    {
+      "c": 21,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 372,
+      "shift": 40977931328
+    },
+    {
+      "c": 21,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 373,
+      "shift": 163048243828
+    },
+    {
+      "c": 22,
+      "d": 0,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 374,
+      "shift": 31381059610
+    },
+    {
+      "c": 22,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 375,
+      "shift": 31381059614
+    },
+    {
+      "c": 22,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 376,
+      "shift": 31381059634
+    },
+    {
+      "c": 22,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 377,
+      "shift": 31381059734
+    },
+    {
+      "c": 22,
+      "d": 4,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 378,
+      "shift": 31381060234
+    },
+    {
+      "c": 22,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 379,
+      "shift": 31381062734
+    },
+    {
+      "c": 22,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 380,
+      "shift": 31381075234
+    },
+    {
+      "c": 22,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 381,
+      "shift": 31381137734
+    },
+    {
+      "c": 22,
+      "d": 8,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 382,
+      "shift": 31381450234
+    },
+    {
+      "c": 22,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 383,
+      "shift": 31383012734
+    },
+    {
+      "c": 22,
+      "d": 10,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 384,
+      "shift": 31390825234
+    },
+    {
+      "c": 22,
+      "d": 11,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 385,
+      "shift": 31429887734
+    },
+    {
+      "c": 22,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 386,
+      "shift": 31625200234
+    },
+    {
+      "c": 22,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 387,
+      "shift": 32601762734
+    },
+    {
+      "c": 22,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 388,
+      "shift": 37484575234
+    },
+    {
+      "c": 22,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 389,
+      "shift": 61898637734
+    },
+    {
+      "c": 22,
+      "d": 16,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 390,
+      "shift": 183968950234
+    },
+    {
+      "c": 23,
+      "d": 0,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 391,
+      "shift": 94143178828
+    },
+    {
+      "c": 23,
+      "d": 1,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 392,
+      "shift": 94143178832
+    },
+    {
+      "c": 23,
+      "d": 2,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 393,
+      "shift": 94143178852
+    },
+    {
+      "c": 23,
+      "d": 3,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 394,
+      "shift": 94143178952
+    },
+    {
+      "c": 23,
+      "d": 4,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 395,
+      "shift": 94143179452
+    },
+    {
+      "c": 23,
+      "d": 5,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 396,
+      "shift": 94143181952
+    },
+    {
+      "c": 23,
+      "d": 6,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 397,
+      "shift": 94143194452
+    },
+    {
+      "c": 23,
+      "d": 7,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 398,
+      "shift": 94143256952
+    },
+    {
+      "c": 23,
+      "d": 8,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 399,
+      "shift": 94143569452
+    },
+    {
+      "c": 23,
+      "d": 9,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 400,
+      "shift": 94145131952
+    },
+    {
+      "c": 23,
+      "d": 10,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 401,
+      "shift": 94152944452
+    },
+    {
+      "c": 23,
+      "d": 11,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 402,
+      "shift": 94192006952
+    },
+    {
+      "c": 23,
+      "d": 12,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 403,
+      "shift": 94387319452
+    },
+    {
+      "c": 23,
+      "d": 13,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 404,
+      "shift": 95363881952
+    },
+    {
+      "c": 23,
+      "d": 14,
+      "maximizing_classes_covering_pair": 0,
+      "pair_index": 405,
+      "shift": 100246694452
+    },
+    {
+      "c": 23,
+      "d": 15,
+      "maximizing_classes_covering_pair": 84,
+      "pair_index": 406,
+      "shift": 124660756952
+    }
+  ],
+  "pairs_covered_by_all_84": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15,
+    16,
+    18,
+    19,
+    22,
+    24,
+    25,
+    28,
+    29,
+    30,
+    31,
+    35,
+    37,
+    40,
+    41,
+    43,
+    47,
+    49,
+    51,
+    52,
+    54,
+    56,
+    57,
+    58,
+    60,
+    61,
+    63,
+    64,
+    65,
+    66,
+    69,
+    71,
+    73,
+    75,
+    77,
+    79,
+    81,
+    83,
+    86,
+    88,
+    89,
+    91,
+    92,
+    94,
+    95,
+    96,
+    98,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    109,
+    111,
+    114,
+    115,
+    117,
+    120,
+    122,
+    126,
+    127,
+    128,
+    132,
+    133,
+    134,
+    136,
+    137,
+    139,
+    141,
+    143,
+    145,
+    146,
+    149,
+    151,
+    153,
+    154,
+    156,
+    159,
+    160,
+    162,
+    164,
+    165,
+    166,
+    168,
+    171,
+    173,
+    175,
+    176,
+    177,
+    179,
+    180,
+    181,
+    183,
+    185,
+    186,
+    188,
+    189,
+    190,
+    191,
+    194,
+    195,
+    196,
+    197,
+    199,
+    200,
+    202,
+    203,
+    205,
+    207,
+    211,
+    213,
+    217,
+    219,
+    221,
+    222,
+    223,
+    224,
+    226,
+    227,
+    228,
+    230,
+    231,
+    234,
+    235,
+    236,
+    239,
+    241,
+    245,
+    247,
+    251,
+    252,
+    253,
+    255,
+    256,
+    258,
+    261,
+    262,
+    264,
+    266,
+    267,
+    268,
+    270,
+    271,
+    273,
+    274,
+    275,
+    276,
+    277,
+    279,
+    281,
+    283,
+    284,
+    285,
+    287,
+    289,
+    290,
+    292,
+    293,
+    296,
+    298,
+    299,
+    302,
+    304,
+    305,
+    306,
+    307,
+    309,
+    311,
+    313,
+    315,
+    316,
+    319,
+    321,
+    324,
+    325,
+    326,
+    330,
+    331,
+    332,
+    336,
+    338,
+    341,
+    343,
+    346,
+    347,
+    349,
+    351,
+    353,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    363,
+    364,
+    366,
+    367,
+    369,
+    370,
+    372,
+    375,
+    377,
+    379,
+    381,
+    382,
+    383,
+    385,
+    387,
+    389,
+    391,
+    392,
+    394,
+    395,
+    396,
+    398,
+    400,
+    401,
+    404,
+    406
+  ],
+  "pairs_uncovered_by_all_84": [
+    0,
+    5,
+    7,
+    12,
+    13,
+    17,
+    20,
+    21,
+    23,
+    26,
+    27,
+    32,
+    33,
+    34,
+    36,
+    38,
+    39,
+    42,
+    44,
+    45,
+    46,
+    48,
+    50,
+    53,
+    55,
+    59,
+    62,
+    67,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    85,
+    87,
+    90,
+    93,
+    97,
+    99,
+    106,
+    107,
+    108,
+    110,
+    112,
+    113,
+    116,
+    118,
+    119,
+    121,
+    123,
+    124,
+    125,
+    129,
+    130,
+    131,
+    135,
+    138,
+    140,
+    142,
+    144,
+    147,
+    148,
+    150,
+    152,
+    155,
+    157,
+    158,
+    161,
+    163,
+    167,
+    169,
+    170,
+    172,
+    174,
+    178,
+    182,
+    184,
+    187,
+    192,
+    193,
+    198,
+    201,
+    204,
+    206,
+    208,
+    209,
+    210,
+    212,
+    214,
+    215,
+    216,
+    218,
+    220,
+    225,
+    229,
+    232,
+    233,
+    237,
+    238,
+    240,
+    242,
+    243,
+    244,
+    246,
+    248,
+    249,
+    250,
+    254,
+    257,
+    259,
+    260,
+    263,
+    265,
+    269,
+    272,
+    278,
+    280,
+    282,
+    286,
+    288,
+    291,
+    294,
+    295,
+    297,
+    300,
+    301,
+    303,
+    308,
+    310,
+    312,
+    314,
+    317,
+    318,
+    320,
+    322,
+    323,
+    327,
+    328,
+    329,
+    333,
+    334,
+    335,
+    337,
+    339,
+    340,
+    342,
+    344,
+    345,
+    348,
+    350,
+    352,
+    354,
+    361,
+    362,
+    365,
+    368,
+    371,
+    373,
+    374,
+    376,
+    378,
+    380,
+    384,
+    386,
+    388,
+    390,
+    393,
+    397,
+    399,
+    402,
+    403,
+    405
+  ],
+  "schema": "a303656-p4-census-common-uncovered-v1"
+}

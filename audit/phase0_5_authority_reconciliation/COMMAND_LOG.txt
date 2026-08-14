@@ -1,0 +1,12 @@
+Phase-0 bundle hash and validator: PASS
+Frozen original HEAD/status admission: PASS
+Three downloaded custody ZIP hashes and CRC: PASS
+Root blob history reconciliation: PASS (stale historical manifest after 5fe0ee4)
+Nested mismatch semantic comparison: 20/20 MATCH
+Control defect reduction: 12 logical / 48 Phase-0 physical copies
+Master V2 build 1: f387abf7ccf8aba381977e9e34b0a80d6811a18dd6fd3aadbbaeddb85ab17b8e
+Master V2 recursive validation: PASS
+Master V2 build 2: f387abf7ccf8aba381977e9e34b0a80d6811a18dd6fd3aadbbaeddb85ab17b8e
+Byte comparison: PASS
+Large-scale computation: NOT RUN
+GitHub operations: NOT RUN

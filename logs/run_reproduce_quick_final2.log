@@ -1,0 +1,8 @@
+python_dependencies=OK
+valuation_branch_toys=PASS
+factor_pair_comparison=PASS
+factor_pair_comparison=PASS
+factor_pair_comparison=PASS
+REPRODUCTION_PASS
+level=quick
+output_directory=/tmp/a303656_repro_quick_final2

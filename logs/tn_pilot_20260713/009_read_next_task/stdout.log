@@ -1,0 +1,36 @@
+# Next Research Task
+
+Do not restart the project or rerun a huge blind interval campaign.
+
+First objective:
+
+1. Reproduce the quick baseline from source.
+2. Audit the two direct two-square implementations.
+3. Build a near-counterexample miner.
+
+For each tested n, study
+
+T(n) = number of exponent pairs (c,d)
+such that n - 3^c - 5^d is a sum of two squares.
+
+Extract integers with the smallest T(n), especially:
+
+- T(n) = 1
+- T(n) = 2
+- T(n) = 3
+- the lowest observed T(n) in each interval
+
+For each near-counterexample output:
+
+- n
+- T(n)
+- every successful (c,d)
+- the corresponding remainder
+- one exact (a,b) representation
+- relevant residue and factorization data
+- machine-readable JSON/CSV
+- independent verification
+
+Use this data to design a targeted CRT/residue search.
+Do not simply extend the continuous interval unless structural analysis
+shows that this is useful.

@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=awk -F\, NR\ \>\ 1\ \&\&\ \$2\ ==\ 1\ \{print\ \$1\} output/tn_pilot_20260713/pilot_a/bitset/counts.csv 
+started_utc=2026-07-13T08:55:08Z
+finished_utc=2026-07-13T08:55:08Z

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A303656 prospective Gate V2 nine-item schema",
+  "type": "object",
+  "required": ["gate_name", "items", "overall_status"],
+  "properties": {
+    "overall_status": {"enum": ["PASS", "FAIL", "NOT_ESTABLISHED"]},
+    "items": {"type": "object", "minProperties": 9, "maxProperties": 9}
+  },
+  "additionalProperties": true
+}

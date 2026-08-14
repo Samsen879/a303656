@@ -1,0 +1,120 @@
+{
+  "all_rejected": true,
+  "schema": "a303656-p5-family-u-corruption-tests-v1",
+  "tests": [
+    {
+      "mutation": "design_C_manifest_mutation",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: Design C digest mismatch"
+    },
+    {
+      "mutation": "missing_description",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: missing_description"
+    },
+    {
+      "mutation": "extra_description",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: extra_description"
+    },
+    {
+      "mutation": "Family_R_Q_description_injection",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: Family_R_Q_description_injection"
+    },
+    {
+      "mutation": "previously_evaluated_integer_injection",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: previously_evaluated_integer_injection"
+    },
+    {
+      "mutation": "wrong_CRT_reconstruction",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: wrong_CRT_reconstruction"
+    },
+    {
+      "mutation": "activation_cell_boundary_error",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: activation_cell_boundary_error"
+    },
+    {
+      "mutation": "duplicate_integer_evaluated_twice",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: duplicate_integer_evaluated_twice"
+    },
+    {
+      "mutation": "collision_incidence_deletion",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted collision incidence deletion"
+    },
+    {
+      "mutation": "duplicate_shift_pair_merger",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: duplicate shift pair identities collapsed"
+    },
+    {
+      "mutation": "backend_mask_bit_corruption",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: backend_mask_bit_corruption"
+    },
+    {
+      "mutation": "direct_oracle_witness_corruption",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: direct-oracle witness corruption"
+    },
+    {
+      "mutation": "persistent_covered_winner_injection",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: persistent_covered_winner_injection"
+    },
+    {
+      "mutation": "zero_fresh_entry_removed",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: zero-sample entry removed"
+    },
+    {
+      "mutation": "description_weighted_summary_mislabeled_primary",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: description-weighted summary mislabeled as primary"
+    },
+    {
+      "mutation": "adaptive_panel_extension",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: adaptive_panel_extension"
+    },
+    {
+      "mutation": "outside_panel_integer_evaluation",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: outside_panel_integer_evaluation"
+    },
+    {
+      "mutation": "truncated_mask_bytes",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: truncated_mask_bytes"
+    },
+    {
+      "mutation": "extra_mask_bytes",
+      "rejected": true,
+      "return_code": 2,
+      "stderr": "verifier: ERROR: accepted mutation: extra_mask_bytes"
+    }
+  ]
+}

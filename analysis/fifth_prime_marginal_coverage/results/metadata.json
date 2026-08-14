@@ -1,0 +1,30 @@
+{
+  "P5_CRT_integer_search_performed": false,
+  "T_backends_called": false,
+  "artifact_sha256_before_verification_report": {
+    "authority_report.json": "8e7d16862f19e87e9febeac09812c49da142a9bd4775d34c9a175a5926e59bb0",
+    "brute_force_oracle_report.json": "64ae3ea99da052eca9df8474097f5ef39105284c7087638d1792f9295aedeb4a",
+    "crt_density_geometry.json": "4f1cb861a3b5e5e53b0fa47c4e738ac0bf6eb034d88873d818bc744cf22a8e07",
+    "frozen_base_masks.json": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "frozen_future_shortlist.json": "3b369ade30c2ee0925a19872bf317ea2bc5116812904bff5ad7d8d870eb9c561",
+    "g231_residual_analysis.json": "f66ce158b732e4c4ce2df3c8d5a01da9a54708f467be373968569c43edf12a9d",
+    "global_summaries.json": "15fb6f90c47e2929358eb4d7f90ea16030d7cd786edf594a46ed728bf52d593d",
+    "initial_repository_gate.json": "d47c100e04a6e90c0556b0e3337835aa0b25367aeeded7a25c057ef3a3e2c9c6",
+    "pair_domain.json": "4d2873210a32d7c7c291640dd6ab3e9a736d57dc4298e4d616908ef4087d63fb",
+    "per_prime_compressed_landscapes.jsonl": "e5bd40c1db3f85970629488e03bbf0aaf724607ab87c812226c9b138bae15df2"
+  },
+  "authority_B": 5000,
+  "base_count": 13,
+  "candidate_count": 524,
+  "classification": "EXACT MODULAR COMBINATORIAL ANALYSIS",
+  "complete_q2_landscape_equivalence": "For each active r mod q, every pair in its bucket is covered on all q lifts except its unique shift mod q^2 exclusion lift; inactive r contributes q empty lifts.",
+  "direct_two_square_oracle_called": false,
+  "interpretation_label": "MARGINAL COVERAGE AND CRT DENSITY PRESENT A STRONG TRADEOFF",
+  "mathematical_status": "UNRESOLVED",
+  "new_integers_evaluated": 0,
+  "pair_count": 407,
+  "schema": "a303656-fifth-prime-landscape-metadata-v1",
+  "source_commit": "ac161b0f6a60c6453c33b4b94435881a49dc62d0",
+  "starting_commit": "02028314ab92d7aa089475f9a6bc96688526f731",
+  "validation_conclusion": "VALIDATED EXACT FIFTH-PRIME MARGINAL-COVERAGE LANDSCAPE"
+}

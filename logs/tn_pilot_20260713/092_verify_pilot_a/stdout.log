@@ -1,0 +1,4 @@
+TN_THREE_WAY_VERIFICATION_PASS
+interval_id=PILOT-A rows=200000 minimum_T=1
+counts_csv_sha256=cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d
+bounded_candidate_status=NO T(n)=0 IN THIS BOUNDED PILOT INTERVAL

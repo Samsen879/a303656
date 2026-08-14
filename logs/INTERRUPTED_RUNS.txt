@@ -1,0 +1,22 @@
+1) Attempted two-implementation parallel expansion to [240000000001,240100000000]
+   with the ranked 256-prime pool. The enclosing command was killed at its
+   external 300-second limit before any chunk produced a complete JSON/exit-code
+   pair. No part of that attempted 100,000,000 scan is counted in the report.
+
+2) Attempted two-implementation parallel scan of [240000000001,240010000000]
+   with the ranked 512-prime pool. The enclosing command was killed at its
+   external 300-second limit before either implementation produced a complete
+   result. This is UNKNOWN and is not counted.
+
+3) A combined K=16/K=32 SMT orchestration exceeded its enclosing limit after
+   the K=32 direct run had already written a complete Z3 UNKNOWN(timeout) JSON.
+   The K=32 CEGIS run was subsequently rerun separately and completed as
+   UNKNOWN(canceled). Those complete individual records are retained.
+
+4) During final packaging, an additional redundant ONLY_STAGE0 rerun was
+   externally interrupted after the clean verify_pruning rebuild had already
+   reproduced 527 / 598 / 135, while the uploaded bundle's own reproduction
+   script was still running.  This interrupted extra attempt is not used.
+   The earlier complete current-source Stage 0 run with exit status 0 remains
+   in logs/final_audit/run_reproduce_stage0_current.log and
+   reproduce_stage0_current/.

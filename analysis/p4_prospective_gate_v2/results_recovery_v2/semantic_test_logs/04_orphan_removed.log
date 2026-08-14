@@ -1,0 +1,1 @@
+{"actual_category": "source_provenance", "actual_code": "ORPHAN_SOURCE_UNRESOLVED", "expected_error_code": "ORPHAN_SOURCE_UNRESOLVED", "expected_semantic_category": "source_provenance", "mutation": "delete orphan source", "return_code": 1, "status": "PASS", "stderr_excerpt": "ORPHAN_SOURCE_UNRESOLVED:source_provenance", "test": "orphan_removed"}

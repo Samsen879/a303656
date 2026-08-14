@@ -1,0 +1,145 @@
+{
+  "authorization": "NO_NEW_T_EVALUATION_AUTHORIZED",
+  "canonical_digest": "f34b64109c2d0860466a1de993842df3c5f12c65adc8a41330ff39fdb75d78bf",
+  "gate_name": "P4_LIVE_TOP_BAND_PROSPECTIVE_GATE_V2",
+  "global_problem_status": "UNRESOLVED",
+  "items": {
+    "V2.1_CORE_EXACT_RESULT": {
+      "blocking_artifacts": [],
+      "evidence_references": [
+        "protected_authorities.json"
+      ],
+      "exact_reason": "accepted exact fixed-P4 result unchanged",
+      "required_hashes": [
+        "3d6fb47a...bce3"
+      ],
+      "status": "PASS",
+      "verifier_check_ids": [
+        "SEM-ARITH-CORE-001"
+      ]
+    },
+    "V2.2_REGISTRY_INTEGRITY": {
+      "blocking_artifacts": [
+        "INT-DIRECT-52WAY bounds"
+      ],
+      "evidence_references": [
+        "historical_exposure_registry_v2.json"
+      ],
+      "exact_reason": "interrupted exposure inventory remains PARTIAL",
+      "required_hashes": [
+        "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81"
+      ],
+      "status": "NOT_ESTABLISHED",
+      "verifier_check_ids": [
+        "SEM-REG-001"
+      ]
+    },
+    "V2.3_ANY_RECORDED_EVALUATION_NON_REUSE": {
+      "blocking_artifacts": [
+        "complete historical execution ledger"
+      ],
+      "evidence_references": [
+        "design_A_exposure_crosswalk_v2.csv"
+      ],
+      "exact_reason": "possible any-evaluation intersection is UNKNOWN",
+      "required_hashes": [
+        "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81"
+      ],
+      "status": "NOT_ESTABLISHED",
+      "verifier_check_ids": [
+        "SEM-EXP-ANY-001"
+      ]
+    },
+    "V2.4_EXACT_T_NON_REUSE": {
+      "blocking_artifacts": [
+        "complete exact-T execution ledger"
+      ],
+      "evidence_references": [
+        "interrupted_run_catalog.json"
+      ],
+      "exact_reason": "exact-T global non-reuse cannot be established from incomplete historical ledger",
+      "required_hashes": [
+        "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81"
+      ],
+      "status": "NOT_ESTABLISHED",
+      "verifier_check_ids": [
+        "SEM-EXP-T-001"
+      ]
+    },
+    "V2.5_SELECTION_T_BLIND": {
+      "blocking_artifacts": [],
+      "evidence_references": [
+        "selection_blindness_audit.json"
+      ],
+      "exact_reason": "AST and outcome-dataflow audit passes",
+      "required_hashes": [
+        "398b9b0cf73a4cabdbddbdf4bdf074dc0ad394a51ea92042eeb32143a3c256b3"
+      ],
+      "status": "PASS",
+      "verifier_check_ids": [
+        "SEM-STATIC-OUTCOME-001"
+      ]
+    },
+    "V2.6_HIERARCHICAL_BALANCE": {
+      "blocking_artifacts": [],
+      "evidence_references": [
+        "design_A_preregistration_candidate_v2.json"
+      ],
+      "exact_reason": "row-level hierarchy reconstructed",
+      "required_hashes": [
+        "3fd660751ce5215aae538d27abef006c21cc557dfa24e4090f5f3a62a30bd930"
+      ],
+      "status": "PASS",
+      "verifier_check_ids": [
+        "SEM-HIER-001"
+      ]
+    },
+    "V2.7_CONTROLLED_COMPARISON": {
+      "blocking_artifacts": [],
+      "evidence_references": [
+        "immutable_preregistration_schema.json"
+      ],
+      "exact_reason": "primary and controlled comparison schema frozen",
+      "required_hashes": [
+        "b2239f1a5d3257c62e6e68bf6d25c8160627a7c827ad623a812c7d7ff1abc9ff"
+      ],
+      "status": "PASS",
+      "verifier_check_ids": [
+        "SEM-COMP-001"
+      ]
+    },
+    "V2.8_IMMUTABLE_PREREGISTRATION": {
+      "blocking_artifacts": [
+        "audit authorization commit/hash"
+      ],
+      "evidence_references": [
+        "immutable_preregistration_schema.json"
+      ],
+      "exact_reason": "authorization commit/hash remains pending",
+      "required_hashes": [
+        "b2239f1a5d3257c62e6e68bf6d25c8160627a7c827ad623a812c7d7ff1abc9ff"
+      ],
+      "status": "NOT_ESTABLISHED",
+      "verifier_check_ids": [
+        "SEM-PREREG-001"
+      ]
+    },
+    "V2.9_INDEPENDENT_AUTHORIZATION": {
+      "blocking_artifacts": [
+        "independent authorization"
+      ],
+      "evidence_references": [
+        "AUDIT_READY_SUMMARY.md"
+      ],
+      "exact_reason": "independent web audit has not reviewed repaired bundle",
+      "required_hashes": [],
+      "status": "NOT_ESTABLISHED",
+      "verifier_check_ids": [
+        "SEM-AUTH-001"
+      ]
+    }
+  },
+  "old_promotion_gate": "FAIL",
+  "overall_status": "NOT_ESTABLISHED",
+  "schema": "a303656-p4-live-top-band-prospective-gate-v2-nine-item"
+}

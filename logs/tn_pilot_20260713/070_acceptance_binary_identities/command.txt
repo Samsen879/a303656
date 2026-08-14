@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_bitset --implementation-id 
+started_utc=2026-07-13T08:48:37Z
+finished_utc=2026-07-13T08:48:37Z

@@ -1,0 +1,10 @@
+{
+  "certainty": "CONSERVATIVE_SUPERSET",
+  "proof_derivation": "The retained runner declaration fixes this universe; execution can touch no integer outside it. Where bounds are absent, UNKNOWN is retained rather than guessed.",
+  "run_id": "INT-SMT-K16-K32",
+  "superset": {
+    "boundary": "closed",
+    "high": 240000000100,
+    "low": 240000000001
+  }
+}

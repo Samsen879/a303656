@@ -1,0 +1,21 @@
+{
+  "method": "direct_two_squares_bitset_x_outer",
+  "arithmetic": "exact uint64/__uint128; bitwise integer square root; no floating point",
+  "low": "2",
+  "high": "500",
+  "C": 5,
+  "D": 3,
+  "three_power_next_plus_one": "730",
+  "five_power_next_plus_one": "626",
+  "strict_domain_inequalities_checked": true,
+  "admissible_rectangle_pair_count_at_high": 24,
+  "distinct_shift_count_at_high": 23,
+  "duplicate_pair_count": 1,
+  "integers_tested": 499,
+  "shifts_processed_before_termination": 9,
+  "unordered_square_pairs_enumerated": 1894,
+  "candidate_count": 0,
+  "candidates": [],
+  "elapsed_seconds": 0.000547214,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

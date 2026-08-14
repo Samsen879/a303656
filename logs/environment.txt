@@ -1,0 +1,15 @@
+UTC_date=2026-07-13T01:44:39Z
+timezone_assumed_for_report=America/New_York
+Python 3.13.5
+venv_python=3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+platform=Linux-4.4.0-x86_64-with-glibc2.41
+numpy=2.5.1
+sympy=1.14.0
+z3=4.16.0
+g++ (Debian 14.2.0-19) 14.2.0
+libgmp-dev=2:6.3.0+dfsg-3
+Linux cba4837dd5b0 4.4.0 #1 SMP Sun Jan 10 15:06:54 PST 2016 x86_64 GNU/Linux
+nproc=56
+               total        used        free      shared  buff/cache   available
+Mem:           4.0Gi       754Mi       3.3Gi          0B       255Mi       3.3Gi
+Swap:             0B          0B          0B

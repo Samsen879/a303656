@@ -1,0 +1,17 @@
+{
+  "canonical_digest": "4771fe4bb489d92717e230a86efebc40fe5aae60ab15f90e058e5d5b94045639",
+  "components_digest": "1a4a3c6f468c09df79f96138b76cc16324e2b1adb6b11a9e412b7f2a0aee2385",
+  "expected_hashes": {
+    "analysis_plan": "b2239f1a5d3257c62e6e68bf6d25c8160627a7c827ad623a812c7d7ff1abc9ff",
+    "authorities": "fc0ab1b7a6ae0555d85a7cfcfdeae4fea805aa1e128026140f5a3772d91df967",
+    "builder_source": "398b9b0cf73a4cabdbddbdf4bdf074dc0ad394a51ea92042eeb32143a3c256b3",
+    "candidate_universe": "2f122eb40cfb2a27cc55b5afe9522fbeb54b5ca9867c291d9872c06e9020721f",
+    "final_manifest": "3fd660751ce5215aae538d27abef006c21cc557dfa24e4090f5f3a62a30bd930",
+    "registry": "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81"
+  },
+  "prior_design_A_file_sha256": "3af58aaa707ab5dbdab22aa5e47ae4b1e24ee838311c94b734fdd550817b8772",
+  "registry_digest": "18a1fc39dd3f4aff1017bf7768ebb716c8d50745530e66b8f724b51f705ded81",
+  "schema": "a303656-historical-exposure-manifest-v2",
+  "selection_source_path": "analysis/p4_prospective_gate_v2/tools/build_candidates.py",
+  "status": "PARTIAL"
+}

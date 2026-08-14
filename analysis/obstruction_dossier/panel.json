@@ -1,0 +1,472 @@
+{
+  "classification": "EXACT FINITE COMPUTATION ON FIXED SELECTED FIXTURES",
+  "control_selection_rule": {
+    "block_anchor": 240000000001,
+    "block_width": 10000,
+    "exclude_all_low_tail_members": true,
+    "lexicographic_key": [
+      "abs(T(m)-60)",
+      "abs(m-n)",
+      "m"
+    ],
+    "same_residue_modulus": 120,
+    "source": "existing validated PILOT-B counts.csv only"
+  },
+  "distinct_research_panel_size": 10,
+  "duplicate_control_selection": false,
+  "duplicate_controls": [],
+  "low_tail_panel": [
+    {
+      "n": 240000005594,
+      "validated_T": 16
+    },
+    {
+      "n": 240000004802,
+      "validated_T": 18
+    },
+    {
+      "n": 240000044158,
+      "validated_T": 19
+    },
+    {
+      "n": 240000000968,
+      "validated_T": 20
+    },
+    {
+      "n": 240000001544,
+      "validated_T": 21
+    }
+  ],
+  "matched_control_selections": [
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 50,
+      "control_n": 240000002114,
+      "low_tail_T": 16,
+      "low_tail_n": 240000005594,
+      "residue_mod_120": 74,
+      "selection_key": [
+        10,
+        3480,
+        240000002114
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 53,
+      "control_n": 240000003122,
+      "low_tail_T": 18,
+      "low_tail_n": 240000004802,
+      "residue_mod_120": 2,
+      "selection_key": [
+        7,
+        1680,
+        240000003122
+      ]
+    },
+    {
+      "block_end_exclusive": 240000050001,
+      "block_index": 4,
+      "block_start": 240000040001,
+      "control_T": 55,
+      "control_n": 240000048838,
+      "low_tail_T": 19,
+      "low_tail_n": 240000044158,
+      "residue_mod_120": 118,
+      "selection_key": [
+        5,
+        4680,
+        240000048838
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 58,
+      "control_n": 240000000728,
+      "low_tail_T": 20,
+      "low_tail_n": 240000000968,
+      "residue_mod_120": 8,
+      "selection_key": [
+        2,
+        240,
+        240000000728
+      ]
+    },
+    {
+      "block_end_exclusive": 240000010001,
+      "block_index": 0,
+      "block_start": 240000000001,
+      "control_T": 53,
+      "control_n": 240000003584,
+      "low_tail_T": 21,
+      "low_tail_n": 240000001544,
+      "residue_mod_120": 104,
+      "selection_key": [
+        7,
+        2040,
+        240000003584
+      ]
+    }
+  ],
+  "pilot_b_interval": {
+    "high_exclusive": 240000100001,
+    "low": 240000000001
+  },
+  "regression_fixtures": [
+    {
+      "active_pair_count": 1,
+      "contains_remainder_zero": true,
+      "n": 2,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "records": [
+        {
+          "all_3mod4_odd_valuation_primes": [],
+          "c": 0,
+          "canonical_a": 0,
+          "canonical_b": 0,
+          "complete_factorization": [],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "ZERO_REMAINDER_NOT_APPLICABLE",
+          "n": 2,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 0,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 2,
+          "status": "WINNER",
+          "two_square_theorem_status": "ZERO_REMAINDER_WINNER_VERIFIED",
+          "witness_verified": true
+        }
+      ],
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 1,
+      "contains_remainder_zero": false,
+      "n": 3,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "records": [
+        {
+          "all_3mod4_odd_valuation_primes": [],
+          "c": 0,
+          "canonical_a": 0,
+          "canonical_b": 1,
+          "complete_factorization": [],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 3,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 1,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 2,
+          "status": "WINNER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_WINNER_VERIFIED",
+          "witness_verified": true
+        }
+      ],
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 2,
+      "contains_remainder_zero": false,
+      "n": 5,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "records": [
+        {
+          "all_3mod4_odd_valuation_primes": [
+            3
+          ],
+          "c": 0,
+          "canonical_obstruction_prime": 3,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 3
+            }
+          ],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 5,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 3,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 2,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [],
+          "c": 1,
+          "canonical_a": 0,
+          "canonical_b": 1,
+          "complete_factorization": [],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 5,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 1,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 4,
+          "status": "WINNER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_WINNER_VERIFIED",
+          "witness_verified": true
+        }
+      ],
+      "winner_count": 1
+    },
+    {
+      "active_pair_count": 6,
+      "contains_remainder_zero": false,
+      "n": 25,
+      "purpose": "SCHEMA_REGRESSION_ONLY",
+      "records": [
+        {
+          "all_3mod4_odd_valuation_primes": [
+            23
+          ],
+          "c": 0,
+          "canonical_obstruction_prime": 23,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 23
+            }
+          ],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 23,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 2,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [
+            19
+          ],
+          "c": 0,
+          "canonical_obstruction_prime": 19,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 19
+            }
+          ],
+          "d": 1,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 19,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 6,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [
+            3,
+            7
+          ],
+          "c": 1,
+          "canonical_obstruction_prime": 3,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 3
+            },
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 7
+            }
+          ],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 21,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 4,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [],
+          "c": 1,
+          "canonical_a": 1,
+          "canonical_b": 4,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 17
+            }
+          ],
+          "d": 1,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 17,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 8,
+          "status": "WINNER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_WINNER_VERIFIED",
+          "witness_verified": true
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [
+            3
+          ],
+          "c": 2,
+          "canonical_obstruction_prime": 3,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 3
+            },
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 5
+            }
+          ],
+          "d": 0,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 15,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 10,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        },
+        {
+          "all_3mod4_odd_valuation_primes": [
+            11
+          ],
+          "c": 2,
+          "canonical_obstruction_prime": 11,
+          "complete_factorization": [
+            {
+              "exponent": 1,
+              "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+              "prime": 11
+            }
+          ],
+          "d": 1,
+          "duplicate_shift_multiplicity": 1,
+          "factorization_verification_status": "COMPLETE_FACTORIZATION_VERIFIED",
+          "n": 25,
+          "obstruction_verified": true,
+          "purpose": "SCHEMA_REGRESSION_ONLY",
+          "remainder": 11,
+          "schema": "a303656-obstruction-pair-record-v1",
+          "shift": 14,
+          "status": "LOSER",
+          "two_square_theorem_status": "FERMAT_TWO_SQUARE_OBSTRUCTION_VERIFIED"
+        }
+      ],
+      "winner_count": 1
+    }
+  ],
+  "research_panel": [
+    {
+      "matched_for_low_tail_n": [],
+      "n": 240000005594,
+      "panel_role": "LOW_TAIL",
+      "validated_T": 16
+    },
+    {
+      "matched_for_low_tail_n": [],
+      "n": 240000004802,
+      "panel_role": "LOW_TAIL",
+      "validated_T": 18
+    },
+    {
+      "matched_for_low_tail_n": [],
+      "n": 240000044158,
+      "panel_role": "LOW_TAIL",
+      "validated_T": 19
+    },
+    {
+      "matched_for_low_tail_n": [],
+      "n": 240000000968,
+      "panel_role": "LOW_TAIL",
+      "validated_T": 20
+    },
+    {
+      "matched_for_low_tail_n": [],
+      "n": 240000001544,
+      "panel_role": "LOW_TAIL",
+      "validated_T": 21
+    },
+    {
+      "matched_for_low_tail_n": [
+        240000005594
+      ],
+      "n": 240000002114,
+      "panel_role": "MATCHED_CONTROL",
+      "validated_T": 50
+    },
+    {
+      "matched_for_low_tail_n": [
+        240000004802
+      ],
+      "n": 240000003122,
+      "panel_role": "MATCHED_CONTROL",
+      "validated_T": 53
+    },
+    {
+      "matched_for_low_tail_n": [
+        240000044158
+      ],
+      "n": 240000048838,
+      "panel_role": "MATCHED_CONTROL",
+      "validated_T": 55
+    },
+    {
+      "matched_for_low_tail_n": [
+        240000000968
+      ],
+      "n": 240000000728,
+      "panel_role": "MATCHED_CONTROL",
+      "validated_T": 58
+    },
+    {
+      "matched_for_low_tail_n": [
+        240000001544
+      ],
+      "n": 240000003584,
+      "panel_role": "MATCHED_CONTROL",
+      "validated_T": 53
+    }
+  ],
+  "schema": "a303656-selected-obstruction-panel-v1",
+  "task": "SELECTED PILOT-B OBSTRUCTION DOSSIER"
+}

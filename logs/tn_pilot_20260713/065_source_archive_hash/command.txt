@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=git -C /tmp/a303656_tn_acceptance_src_2e38ac0 archive --format=tar 2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9 -o /tmp/a303656_tn_acceptance_source_2e38ac0.tar 
+started_utc=2026-07-13T08:47:29Z
+finished_utc=2026-07-13T08:47:30Z

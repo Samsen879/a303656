@@ -1,0 +1,10 @@
+{
+  "execution_head": "ee5bef63b02277786fe9c01ae9ff44233d889883",
+  "existing_fixed_P4_authority": "analysis/p4_residue_landscape/metadata.json",
+  "prior_registry_authority": "analysis/p5_sparse_panel_feasibility/results/prior_evaluation_registry.json",
+  "required_head_is_execution_ancestor": true,
+  "required_initial_head": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310",
+  "schema": "a303656-p4-mod8-live-initial-gate-v1",
+  "tracked_status": [],
+  "tracked_worktree_clean": true
+}

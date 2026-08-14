@@ -1,0 +1,1 @@
+{"actual_category": "selection_blindness", "actual_code": "FORBIDDEN_OUTCOME_DATAFLOW", "expected_error_code": "FORBIDDEN_OUTCOME_DATAFLOW", "expected_semantic_category": "selection_blindness", "mutation": "row.get aliased T", "return_code": 1, "status": "PASS", "stderr_excerpt": "FORBIDDEN_OUTCOME_DATAFLOW:selection_blindness", "test": "bypass6_row_get_alias"}

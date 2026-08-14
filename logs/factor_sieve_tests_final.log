@@ -1,0 +1,70 @@
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00272311
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00358628
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00342554
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=26
+candidate_count=0
+elapsed_seconds=0.00308876
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=35
+candidate_count=0
+elapsed_seconds=0.00490621
+EXACT_EMPTY
+integers_tested=9999
+admissible_pair_count_at_high=54
+distinct_shift_count_at_high=53
+shifts_processed_before_termination=35
+candidate_count=0
+elapsed_seconds=0.00515224
+EXACT_EMPTY
+max_odd=1: candidates=0 exact cross-check PASS
+max_odd=3: candidates=0 exact cross-check PASS
+max_odd=-1: candidates=0 exact cross-check PASS
+remainder_zero_boundary: PASS
+ALL_FACTOR_SIEVE_TESTS_PASS
+	Command being timed: "python3 /mnt/data/a303656_bounded_counterexample/tests/factor_sieve_tests.py --v1 /mnt/data/a303656_final_build/search_factor_sieve --v2 /mnt/data/a303656_final_build/search_factor_sieve_clean --work /tmp/a303656_factor_tests_final"
+	User time (seconds): 9.35
+	System time (seconds): 0.84
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 296624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 0
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

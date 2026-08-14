@@ -1,0 +1,15 @@
+{
+  "H8_max": 201,
+  "H8_min": 32,
+  "argmax": 468,
+  "changed": false,
+  "lex_first_argmax": [
+    2,
+    13,
+    50,
+    5
+  ],
+  "live_projections": 5,
+  "maximizing_full_masks": 21,
+  "maximizing_mask_aggregate_sha256": "3d6fb47adb745d5501a53f2dcfddbc1106e8f67cfa85ea0d1ce61d487102bce3"
+}

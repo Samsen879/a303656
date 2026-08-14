@@ -1,0 +1,10 @@
+chunk=2 interval=[282320000001,282330000000] rc=0 candidates=0 elapsed=12.918338
+chunk=1 interval=[282310000001,282320000000] rc=0 candidates=0 elapsed=13.053858
+chunk=0 interval=[282300000001,282310000000] rc=0 candidates=0 elapsed=13.147126
+chunk=3 interval=[282330000001,282340000000] rc=0 candidates=0 elapsed=18.506858
+chunk=4 interval=[282340000001,282350000000] rc=0 candidates=0 elapsed=24.096411
+complete_gapless_coverage=true
+integers_tested=50000000
+candidate_count=0
+wall_seconds=24.118009
+summary=output/formal_allprime_exact1_clean_band282a_summary.json

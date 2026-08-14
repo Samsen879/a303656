@@ -1,0 +1,46 @@
+{
+  "schema": "a303656-direct-two-squares-band-v1",
+  "interval": {
+    "low": "240000000001",
+    "high": "240500000000"
+  },
+  "chunk_size": 10000000,
+  "chunk_count": 50,
+  "C": 23,
+  "D": 16,
+  "implementations": {
+    "x": {
+      "method": "direct_two_squares_bitset_x_outer",
+      "integers_tested": 500000000,
+      "candidate_count": 0,
+      "elapsed_seconds_sum": 181.90116,
+      "elapsed_seconds_min": 2.25377,
+      "elapsed_seconds_max": 16.9091,
+      "shifts_processed_min": 125,
+      "shifts_processed_max": 176,
+      "unordered_square_pairs_enumerated_sum": 28832026447
+    },
+    "y": {
+      "method": "clean_room_direct_two_squares_y_outer",
+      "integers_tested": 500000000,
+      "candidate_count": 0,
+      "elapsed_seconds_sum": 158.12817,
+      "elapsed_seconds_min": 2.38187,
+      "elapsed_seconds_max": 6.16935,
+      "shifts_processed_min": 125,
+      "shifts_processed_max": 176,
+      "unordered_square_pairs_enumerated_sum": 28832026447
+    }
+  },
+  "crosscheck": {
+    "status": "PASS",
+    "interval_coverage": "contiguous, gap-free, non-overlapping",
+    "both_candidate_counts_zero": true,
+    "chunkwise_domain_counts_agree": true,
+    "chunkwise_unordered_square_pair_counts_agree": true,
+    "candidate_files_all_empty": true,
+    "expected_empty_return_codes_all_equal_one": true
+  },
+  "result": "Every integer n in [240000000001,240500000000] has at least one representation n=a^2+b^2+3^c+5^d with nonnegative a,b,c,d.",
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION"
+}

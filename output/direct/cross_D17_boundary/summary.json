@@ -1,0 +1,46 @@
+{
+  "schema": "a303656-direct-two-squares-dual-aggregate-v1",
+  "low": "762930000001",
+  "high": "762950000000",
+  "chunk_count_x": 2,
+  "chunk_count_y": 2,
+  "integers_tested_x": 20000000,
+  "integers_tested_y": 20000000,
+  "candidate_count_x": 0,
+  "candidate_count_y": 0,
+  "candidates_x": [],
+  "candidates_y": [],
+  "unordered_square_pairs_enumerated_x": 1193823093,
+  "unordered_square_pairs_enumerated_y": 1193823093,
+  "elapsed_seconds_sum_x": 10.18438,
+  "elapsed_seconds_sum_y": 8.11491,
+  "complete_gapless_independent_crosscheck": true,
+  "mismatches": [],
+  "chunks": [
+    {
+      "index": 0,
+      "low": "762930000001",
+      "high": "762940000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 596926558,
+      "x_json": "output/direct/cross_D17_boundary/x/chunk_0000_762930000001_762940000000.json",
+      "x_sha256": "6409f97b76da6ff2cc20882a6271e4229ba45a6ddd209f816d7dad410326c081",
+      "y_json": "output/direct/cross_D17_boundary/y/chunk_0000_762930000001_762940000000.json",
+      "y_sha256": "3727919e87c9cc4e0c6ff81845754a13cab25d79988e14947e830d981176d3ed"
+    },
+    {
+      "index": 1,
+      "low": "762940000001",
+      "high": "762950000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 596896535,
+      "x_json": "output/direct/cross_D17_boundary/x/chunk_0001_762940000001_762950000000.json",
+      "x_sha256": "45244f1410f90b875595d5f3d0301b0f1e36055f955d52ca9a9710768eea9614",
+      "y_json": "output/direct/cross_D17_boundary/y/chunk_0001_762940000001_762950000000.json",
+      "y_sha256": "7500228942657ebff437b7422388a5581e65ffba6d63f24a5554d8cf51ef3ad1"
+    }
+  ],
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

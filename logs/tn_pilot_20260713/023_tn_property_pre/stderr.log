@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/tests/tn_counting_property_tests.py", line 156, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/tests/tn_counting_property_tests.py", line 126, in main
+    assert key not in winners_by_key(reference[shift - 1])
+                                     ~~~~~~~~~^^^^^^^^^^^
+KeyError: 1

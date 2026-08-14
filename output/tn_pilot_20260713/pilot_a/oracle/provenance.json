@@ -1,0 +1,94 @@
+{
+  "backend_return_code": 0,
+  "compiler": {
+    "command": "g++",
+    "version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  },
+  "elapsed_seconds": 0.3386603400031163,
+  "exact_backend_cli": [
+    "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle",
+    "--low",
+    "2",
+    "--high",
+    "200002",
+    "--interval-id",
+    "PILOT-A",
+    "--out-dir",
+    "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle"
+  ],
+  "exact_runner_cli": [
+    "/tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py",
+    "--binary",
+    "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle",
+    "--source-tree",
+    "/tmp/a303656_tn_acceptance_src_2e38ac0",
+    "--low",
+    "2",
+    "--high",
+    "200002",
+    "--interval-id",
+    "PILOT-A",
+    "--out-dir",
+    "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle",
+    "--compiler",
+    "g++",
+    "--timeout-seconds",
+    "540"
+  ],
+  "executable": {
+    "filename": "tn_gmp_oracle",
+    "path": "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle",
+    "sha256": "9063c35d07215030cba7182c52fae30ad6ab94fdc0005e1a6a0114ca76f1665c"
+  },
+  "formal_acceptance_eligible": true,
+  "generation_timestamp_utc": "2026-07-13T08:50:42.472543Z",
+  "gmp_version": "6.3.0",
+  "implementation_id": "tn_gmp_uv_oracle_v1",
+  "interval": {
+    "high_exclusive": "200002",
+    "id": "PILOT-A",
+    "low": "2",
+    "number_of_n": 200000
+  },
+  "outputs_sha256": {
+    "backend_elapsed_seconds.txt": "30a79ad1c80d987d3973f21d3187142eb5e6bb05bfb8fe7101c17fabffab2e87",
+    "backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_stdout.log": "ef9e8c25370fab1249edcec22ce6c3933aa2e16801aa69e7afbd5ec08363e7aa",
+    "counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+    "low_t.jsonl": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+    "metadata.json": "a69c120040c3347ec50045fc65da1d49c35ee6febdd477da74a3666a3f023676",
+    "summary.json": "f349fbfe87fd1347a822066bf8b521ae05961c5c57a2f67765626696a33225ef",
+    "verifier_report.json": "b06fa312dbffe846947790ab1980293b59ac0d89da7e073369753226db0a1ed7"
+  },
+  "schema": "a303656-tn-pilot-provenance-v1",
+  "source_commit": "2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9",
+  "source_files": {
+    "src/run_tn_pilot.py": "2770b26a4e1e937f561ec2d3be9be593657469810052960aaa51d4b10a4b64cf",
+    "src/tn_pilot_output.hpp": "860c94bb53ca34b2e192e5f730741ea18f1b13b7c957e33bd7efd376d93ec6d9",
+    "tests/tn_gmp_oracle.cpp": "ee41e1c31a0266d860347c4612ac43a2e3250141d73a87855d8cdaca1bcd67dc"
+  },
+  "source_tree": "/tmp/a303656_tn_acceptance_src_2e38ac0",
+  "source_tree_dirty": false,
+  "timeout_seconds": 540,
+  "verifier": {
+    "exact_cli": [
+      "/tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py",
+      "--bitset-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset",
+      "--clean-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean",
+      "--oracle-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle",
+      "--low",
+      "2",
+      "--high",
+      "200002",
+      "--interval-id",
+      "PILOT-A"
+    ],
+    "path": "/tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py",
+    "sha256": "a1437aff38a552f2a0ce3825397cafd3385d799c1c4c0ffc6a0ce657b2e8c1d3"
+  },
+  "verifier_report_status": "PASS"
+}

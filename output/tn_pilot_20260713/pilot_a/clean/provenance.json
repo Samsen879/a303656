@@ -1,0 +1,94 @@
+{
+  "backend_return_code": 0,
+  "compiler": {
+    "command": "g++",
+    "version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+  },
+  "elapsed_seconds": 0.03443647099993541,
+  "exact_backend_cli": [
+    "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean",
+    "--low",
+    "2",
+    "--high",
+    "200002",
+    "--interval-id",
+    "PILOT-A",
+    "--out-dir",
+    "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean"
+  ],
+  "exact_runner_cli": [
+    "/tmp/a303656_tn_acceptance_src_2e38ac0/src/run_tn_pilot.py",
+    "--binary",
+    "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean",
+    "--source-tree",
+    "/tmp/a303656_tn_acceptance_src_2e38ac0",
+    "--low",
+    "2",
+    "--high",
+    "200002",
+    "--interval-id",
+    "PILOT-A",
+    "--out-dir",
+    "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean",
+    "--compiler",
+    "g++",
+    "--timeout-seconds",
+    "240"
+  ],
+  "executable": {
+    "filename": "tn_count_clean",
+    "path": "/tmp/a303656_tn_acceptance_build_2e38ac0/tn_count_clean",
+    "sha256": "a6d18bfa3094a0406d9ca9d999e96c2b598496a9232e23a656ab2c9110f0bddf"
+  },
+  "formal_acceptance_eligible": true,
+  "generation_timestamp_utc": "2026-07-13T08:50:35.228559Z",
+  "gmp_version": "NOT_LINKED_BY_THIS_BACKEND",
+  "implementation_id": "tn_clean_annulus_v1",
+  "interval": {
+    "high_exclusive": "200002",
+    "id": "PILOT-A",
+    "low": "2",
+    "number_of_n": 200000
+  },
+  "outputs_sha256": {
+    "backend_elapsed_seconds.txt": "d65a8a1a8b11a650967d1936677374efb44d799b2ec528c11f96594f7dd6558d",
+    "backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+    "backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend_stdout.log": "93644acdb50890f2dede94340a45468cd6a8e9198ec709ca72681484c5eeebc5",
+    "counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+    "low_t.jsonl": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+    "metadata.json": "8c81a0bf5af8a163ac5941a85f7234992713d41d7744ccad9f8a345c25ce0f7d",
+    "summary.json": "412e883550ccb3cd59a2ef83d9b839ab36544a77592a597aa82e609e7d909737",
+    "verifier_report.json": "01ed62ce312c9b36dc502297f3c9f8243dc457739eb5afcae97279fc02d20227"
+  },
+  "schema": "a303656-tn-pilot-provenance-v1",
+  "source_commit": "2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9",
+  "source_files": {
+    "src/run_tn_pilot.py": "2770b26a4e1e937f561ec2d3be9be593657469810052960aaa51d4b10a4b64cf",
+    "src/tn_count_clean.cpp": "767499a57b8efc5089f350344df37989ec3d3c8d526b0cc385948a2a6c69152c",
+    "src/tn_pilot_output.hpp": "860c94bb53ca34b2e192e5f730741ea18f1b13b7c957e33bd7efd376d93ec6d9"
+  },
+  "source_tree": "/tmp/a303656_tn_acceptance_src_2e38ac0",
+  "source_tree_dirty": false,
+  "timeout_seconds": 240,
+  "verifier": {
+    "exact_cli": [
+      "/tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py",
+      "--bitset-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset",
+      "--clean-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean",
+      "--oracle-dir",
+      "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle",
+      "--low",
+      "2",
+      "--high",
+      "200002",
+      "--interval-id",
+      "PILOT-A"
+    ],
+    "path": "/tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py",
+    "sha256": "a1437aff38a552f2a0ce3825397cafd3385d799c1c4c0ffc6a0ce657b2e8c1d3"
+  },
+  "verifier_report_status": "PASS"
+}

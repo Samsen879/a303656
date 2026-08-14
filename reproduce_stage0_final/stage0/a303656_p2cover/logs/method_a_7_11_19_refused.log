@@ -1,0 +1,27 @@
+{
+  "method": "A-explicit-bitset",
+  "primes": [
+    7,
+    11,
+    19
+  ],
+  "orders_p2": {
+    "7": [
+      42,
+      42
+    ],
+    "11": [
+      5,
+      55
+    ],
+    "19": [
+      342,
+      171
+    ]
+  },
+  "L3": 11970,
+  "L5": 131670,
+  "universe": 1576089900,
+  "max_universe": 1000000,
+  "status": "REFUSED_UNIVERSE_TOO_LARGE"
+}

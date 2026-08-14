@@ -1,0 +1,22 @@
+{
+  "method": "exact_all_prime_segmented_factor_sieve",
+  "low": "240480000001",
+  "high": "240490000000",
+  "C": 23,
+  "D": 16,
+  "finite_bound_3_rhs": "282429536482",
+  "finite_bound_5_rhs": "762939453126",
+  "max_odd": 1,
+  "certificate_family": "all primes p=3 mod 4 with v_p=1",
+  "admissible_pair_count_at_high": 407,
+  "distinct_shift_count_at_high": 406,
+  "integers_tested": 10000000,
+  "shifts_processed_before_termination": 145,
+  "factor_groups_processed": 1,
+  "candidate_count": 0,
+  "candidates": [],
+  "first_failure_histogram": [{"shift":"2","count":1565189},{"shift":"4","count":1428958},{"shift":"6","count":1183557},{"shift":"8","count":1069047},{"shift":"10","count":826866},{"shift":"14","count":642798},{"shift":"26","count":431264},{"shift":"28","count":550691},{"shift":"32","count":438363},{"shift":"34","count":291847},{"shift":"52","count":274274},{"shift":"82","count":178888},{"shift":"86","count":164307},{"shift":"106","count":108245},{"shift":"126","count":124895},{"shift":"128","count":162227},{"shift":"134","count":63335},{"shift":"152","count":100320},{"shift":"206","count":36871},{"shift":"244","count":70090},{"shift":"248","count":50712},{"shift":"268","count":42592},{"shift":"368","count":26289},{"shift":"626","count":21397},{"shift":"628","count":20872},{"shift":"634","count":21364},{"shift":"652","count":18182},{"shift":"706","count":12822},{"shift":"730","count":10122},{"shift":"734","count":6767},{"shift":"754","count":5976},{"shift":"854","count":4213},{"shift":"868","count":7248},{"shift":"1354","count":4212},{"shift":"2188","count":6008},{"shift":"2192","count":4787},{"shift":"2212","count":2477},{"shift":"2312","count":2649},{"shift":"2812","count":2496},{"shift":"3126","count":3512},{"shift":"3128","count":1613},{"shift":"3134","count":1901},{"shift":"3152","count":1771},{"shift":"3206","count":1132},{"shift":"3368","count":967},{"shift":"3854","count":876},{"shift":"5312","count":562},{"shift":"6562","count":591},{"shift":"6566","count":413},{"shift":"6586","count":379},{"shift":"6686","count":351},{"shift":"7186","count":354},{"shift":"9686","count":256},{"shift":"15626","count":280},{"shift":"15628","count":257},{"shift":"15634","count":172},{"shift":"15652","count":163},{"shift":"15706","count":136},{"shift":"15868","count":128},{"shift":"16354","count":98},{"shift":"17812","count":83},{"shift":"19684","count":52},{"shift":"19688","count":90},{"shift":"19708","count":80},{"shift":"19808","count":83},{"shift":"20308","count":32},{"shift":"22186","count":56},{"shift":"22808","count":27},{"shift":"35308","count":12},{"shift":"59050","count":32},{"shift":"59054","count":56},{"shift":"59074","count":42},{"shift":"59174","count":27},{"shift":"59674","count":31},{"shift":"62174","count":15},{"shift":"74674","count":14},{"shift":"78126","count":28},{"shift":"78128","count":15},{"shift":"78134","count":9},{"shift":"78152","count":12},{"shift":"78206","count":13},{"shift":"78368","count":3},{"shift":"78854","count":3},{"shift":"80312","count":1},{"shift":"84686","count":5},{"shift":"97808","count":4},{"shift":"137174","count":3},{"shift":"177148","count":2},{"shift":"177152","count":2},{"shift":"177172","count":5},{"shift":"177272","count":4},{"shift":"177772","count":2},{"shift":"180272","count":3},{"shift":"390626","count":6},{"shift":"390634","count":4},{"shift":"390652","count":1},{"shift":"390706","count":5},{"shift":"391354","count":2},{"shift":"397186","count":1},{"shift":"532066","count":1},{"shift":"547066","count":1},{"shift":"1594948","count":1},{"shift":"1953134","count":1},{"shift":"1953368","count":1},{"shift":"4786094","count":1}],
+  "factor_groups": [{"low":"240475138907","high":"240489999998","values":14861092,"prime_multiple_visits":42122854,"division_steps":53612788,"marked":12535104}],
+  "elapsed_seconds": 7.42,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

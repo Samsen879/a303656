@@ -1,0 +1,99 @@
+{
+  "schema": "a303656-p4-gate-v2-deprecated-artifacts-v1",
+  "policy": "SUPERSEDE_WITHOUT_DELETION",
+  "superseding_status": "analysis/p4_prospective_gate_v2/GATE_V2_FINAL_STATUS.json",
+  "audit_trail_retained": true,
+  "protected_exact_H8_landscape_deprecated": false,
+  "groups": [
+    {
+      "group": "REGISTRY_V2_OUTPUTS",
+      "authority_status": "REJECTED",
+      "paths": [
+        "analysis/p4_prospective_gate_v2/results/historical_exposure_registry.json",
+        "analysis/p4_prospective_gate_v2/results/historical_exposure_registry.csv",
+        "analysis/p4_prospective_gate_v2/results/historical_exposure_components.json",
+        "analysis/p4_prospective_gate_v2/results/historical_exposure_manifest.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/historical_exposure_registry_v2.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/historical_exposure_registry_v2.csv",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/historical_exposure_intervals_v2.csv",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/historical_exposure_components_v2.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/historical_exposure_manifest_v2.json"
+      ],
+      "superseded_claims": [
+        "registry completeness",
+        "authoritative historical exposure membership",
+        "Design A non-reuse determination"
+      ],
+      "retained_use": "historical evidence only"
+    },
+    {
+      "group": "GATE_V2_PASS_OR_NOT_ESTABLISHED_CLAIMS",
+      "authority_status": "SUPERSEDED_BY_FINAL_FAIL",
+      "paths": [
+        "analysis/p4_prospective_gate_v2/results/prospective_gate_v2.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/prospective_gate_v2_nine_item.json",
+        "analysis/p4_prospective_gate_v2/results/REPORT.md",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/REPORT.md",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/AUDIT_READY_SUMMARY.md"
+      ],
+      "superseded_claims": [
+        "Gate V2 PASS",
+        "Gate V2 NOT_ESTABLISHED as the final disposition",
+        "prospective execution eligibility"
+      ],
+      "retained_use": "historical audit trail only"
+    },
+    {
+      "group": "SEMANTIC_VERIFIER_SOUNDNESS_CLAIMS",
+      "authority_status": "REJECTED",
+      "paths": [
+        "analysis/p4_prospective_gate_v2/tools/verifier.py",
+        "analysis/p4_prospective_gate_v2/recovery/semantic_verifier_v2.py",
+        "analysis/p4_prospective_gate_v2/results/corruption_tests.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/semantic_test_matrix.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/selection_blindness_audit.json"
+      ],
+      "superseded_claims": [
+        "semantic verifier soundness",
+        "32 passing tests imply material bypass resistance",
+        "verifier approval is sufficient for authorization"
+      ],
+      "retained_use": "rejected implementation and test history"
+    },
+    {
+      "group": "STANDALONE_FULL_RECOVERY_CLAIMS",
+      "authority_status": "REJECTED_AS_AUTHORIZATION_EVIDENCE",
+      "paths": [
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/standalone_replay_report.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/detached_replay/transcript.log",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/SHA256SUMS.txt"
+      ],
+      "superseded_claims": [
+        "byte-identical replay establishes historical completeness",
+        "standalone recovery establishes Gate V2 eligibility"
+      ],
+      "retained_use": "reproducibility record for rejected artifacts"
+    },
+    {
+      "group": "RESULTS_Z_PROMOTION_CLAIMS",
+      "authority_status": "SUPERSEDED",
+      "commit": "072c1a9fa2f2cceffa67deef256361710eff311c",
+      "paths": [
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/design_A_preregistration_candidate_v2.json",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/design_A_exposure_crosswalk_v2.csv",
+        "analysis/p4_prospective_gate_v2/results_recovery_v2/immutable_preregistration_schema.json"
+      ],
+      "superseded_claims": [
+        "promotion readiness",
+        "execution authorization",
+        "historical non-exposure"
+      ],
+      "retained_use": "Level 1 archived conditional candidate history"
+    }
+  ],
+  "final_disposition": {
+    "gate_v2": "CLOSED_FAIL",
+    "new_T": "NOT_AUTHORIZED",
+    "global_problem_status": "UNRESOLVED"
+  }
+}

@@ -1,0 +1,1 @@
+{"actual_category": "hierarchy", "actual_code": "HIERARCHY_RECONSTRUCTION_MISMATCH", "expected_error_code": "HIERARCHY_RECONSTRUCTION_MISMATCH", "expected_semantic_category": "hierarchy", "mutation": "summary +1", "return_code": 1, "status": "PASS", "stderr_excerpt": "HIERARCHY_RECONSTRUCTION_MISMATCH:hierarchy", "test": "hierarchy_corrupt"}

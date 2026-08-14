@@ -1,0 +1,161 @@
+# Current mathematical and computational state
+
+Audit date: 2026-07-13 (Asia/Shanghai)
+
+Hardening base commit: `8159bd4a27dea2e1b2ac96c12b5e63ff72755079`
+
+Task: **BOUNDARY / PROPERTY / PROVENANCE HARDENING BEFORE T(n) MINING**
+
+## Mathematical status
+
+The problem asks whether every integer `n > 1` can be written as
+
+```text
+n = a^2 + b^2 + 3^c + 5^d
+```
+
+with `a,b,c,d` nonnegative integers. The global status is **UNRESOLVED**. This
+hardening task found no counterexample, proves no infinite statement, and does
+not certify any interval beyond the stored baseline. In particular,
+`cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt` is a notice that no counterexample
+certificate exists; it is not a proof certificate.
+
+## Certified/stored baseline
+
+The stored formal audits report exact finite computations only:
+
+- the continuous interval `[240000000001, 241600000000]` was scanned by both
+  direct implementations, with zero candidates among 1,600,000,000 integers;
+- all stored direct datasets together cover 1,853,000,000 distinct integers,
+  with zero candidates and 108,943,945,529 matched unordered-pair visits;
+- the factor and fixed-prime-pool results have the narrower classifications and
+  explicit domains recorded in `output/formal_results_audit.json`;
+- SMT/CEGIS `UNKNOWN` and solver `UNSAT` without a proof object carry no
+  theorem-level conclusion.
+
+This task does not modify, regenerate, or extend those artifacts. Their
+baseline SHA256 values are:
+
+```text
+fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533  output/formal_results_audit.json
+de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca  output/final_packaging_audit.json
+510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42  cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt
+99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360  output/final_results_manifest.json
+33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319  output/direct/formal_1p6b_final/summary.json
+```
+
+## Direct scanners: accurate independence claim
+
+The appropriate description is:
+
+> Two separately implemented direct scanners with distinct square-root and
+> annulus-enumeration cores, plus an independent small-range brute-force
+> oracle; some build and infrastructure components remain shared.
+
+`search_twosquares_bitset` uses a restoring/bitwise floor square root and an
+`a`-outer annulus walk. `search_twosquares_clean` uses binary-search floor
+square root and a `b`-outer walk with the diagonal handled separately. The two
+translation units share no repository C++ header and call no common production
+annulus or square-root helper.
+
+They are not fully independent. They share the mathematical exponent-domain
+semantics, shift activation rule, shift deduplication for Boolean
+representability, packed `uint64_t` survivor accounting, early termination,
+output conventions, compiler/toolchain, Python orchestration, aggregation, and
+legacy formal-audit logic. Both also implement similar repeated-multiplication
+power generation and checked `uint64_t` parsing. A specification bug in these
+surfaces could affect both. Details are in `docs/audit_gap_register.md`.
+
+## New independent small-range path
+
+`tests/tiny_twosquares_oracle.cpp` is a deliberately simple GMP oracle. It
+includes no production header. For tiny bounds it uses explicit nested loops
+over every `0 <= a <= b` and exact GMP products. It independently emits:
+
+- exact annulus pair sets and pair counts;
+- per-`n` representability bits and the marked set;
+- exponent-pair success counts;
+- a canonical `(c,d,shift,remainder,a,b)` witness;
+- scanner-equivalent distinct-shift pair-visit totals.
+
+`tests/direct_boundary_property_tests.py` compares both production scanners to
+this oracle, per integer rather than only by aggregate candidate count. The
+focused matrix covers remainder zero, activation at `s-1/s/s+1`, interval
+endpoints, singleton/narrow intervals, lengths 63/64/65, axis/diagonal/off-
+diagonal annulus pairs, exact inner/outer boundaries, perfect squares, survivor
+retention, and no-pair/one-pair/multiple-pair annuli.
+
+Each scanner's own square-root helper is tested at `q^2-1`, `q^2`, and
+`q^2+1` for `q` ranging from 0 through `2^32-1`, subject to a `uint64_t` input.
+GMP supplies the independent reference; the invariant is rechecked with
+unbounded Python arithmetic. Separate arithmetic seams exercise `a*a`, `b*b`,
+`a*a+b*b`, and addition of the numerical shift at the `uint64_t` endpoint.
+
+## T(n) multiplicity scope
+
+The direct scanners answer only the Boolean question “does at least one
+representation exist?” They intentionally deduplicate equal numerical shifts
+and may stop after every interval bit is cleared. Those behaviors are valid for
+their current finite emptiness result but are not valid T(n) accounting.
+
+`src/exponent_pair_multiplicity.hpp` is a narrow reusable primitive, not a
+miner. Its synthetic regression test injects two distinct source exponent-pair
+records with the same numerical shift and a representable remainder. The
+two-square status is evaluated once, while both source records remain in the
+machine-readable success list and contribute `T=2`; there is no first-success
+termination.
+
+## Supported numeric contract
+
+The normal scanner CLI supports unsigned decimal `uint64_t` endpoints with
+`1 <= low <= high`, `0 <= C <= 39`, and `0 <= D <= 26`. It additionally
+requires the existing exact finite-domain checks
+
+```text
+high < 3^(C+1) + 1
+high < 5^(D+1) + 1.
+```
+
+These exponent maxima keep the next powers and their `+1` sentinels in
+`uint64_t`. Values with a sign, junk suffix, `2^64`, `2^65`, `C >= 40`, or
+`D >= 27` fail closed with return code 2 and an `ERROR` diagnostic. Values
+`2^63-1`, `2^63`, and `2^64-1` parse without signed wrap, then either satisfy
+the full contract or fail the explicit finite-domain/resource checks.
+
+For any enumerated remainder, coordinates are at most `2^32-1`; products and
+sums are computed in `__uint128_t`, checked against `uint64_t`, and shift
+addition is checked before narrowing. Physical allocation remains constrained
+by `size_t` and available memory; acceptance of the numeric syntax is not a
+promise that an arbitrarily large interval is computationally feasible.
+
+## Provenance and build state
+
+New scanner outputs contain immutable implementation identities:
+
+- `search_twosquares_bitset` / `direct_two_squares_bitset_x_outer`;
+- `search_twosquares_clean` / `clean_room_direct_two_squares_y_outer`.
+
+`src/direct_scanner_provenance.py` generates adjacent manifests and audits an
+expected x slot and expected y slot. It binds executable/source/output hashes,
+source commit, compiler and GMP versions, exact CLI, interval, timestamp,
+return code, candidate sidecar, stdout, and stderr. The required negative tests
+exchange the x/y manifests and tamper with an output without updating its hash;
+both must be rejected with nonzero status. The contract is specified in
+`docs/direct_scanner_provenance_contract.md`.
+
+The fresh-build driver rejects an existing build or log directory, compiles
+from source with warnings as errors, records every command/return code/time,
+queries the linked GMP version, records binary hashes plus `ldd`/`readelf`, and
+runs normal and AddressSanitizer/UndefinedBehaviorSanitizer property tests.
+LeakSanitizer is probed separately; under the current ptrace-based execution
+environment it is explicitly recorded as unavailable rather than reported as
+a pass.
+
+## Present boundary
+
+No `full1p6b` run, interval extension, large campaign, or formal
+near-counterexample miner belongs to this hardening task. The next task may be
+a **bounded T(n) pilot** only after its interval, time/memory cap, schema, and
+independent oracle comparison are fixed in advance. It must use exponent-pair
+multiplicity, retain every successful source pair and witness, and must not
+alter the certified baseline or describe pilot observations as proof.

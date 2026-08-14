@@ -1,0 +1,40 @@
+STEP shift=2 used=1 cleared=1498570 survivors=8501430 elapsed_seconds=0.0193588
+STEP shift=4 used=2 cleared=1399149 survivors=7102281 elapsed_seconds=0.0397151
+STEP shift=6 used=3 cleared=1165041 survivors=5937240 elapsed_seconds=0.0595978
+STEP shift=8 used=4 cleared=1049847 survivors=4887393 elapsed_seconds=0.0800932
+STEP shift=10 used=5 cleared=811591 survivors=4075802 elapsed_seconds=0.100735
+STEP shift=14 used=6 cleared=623723 survivors=3452079 elapsed_seconds=0.12221
+STEP shift=26 used=7 cleared=425509 survivors=3026570 elapsed_seconds=0.14376
+STEP shift=28 used=8 cleared=591331 survivors=2435239 elapsed_seconds=0.165219
+STEP shift=32 used=9 cleared=447340 survivors=1987899 elapsed_seconds=0.188803
+STEP shift=34 used=10 cleared=288173 survivors=1699726 elapsed_seconds=0.211139
+STEP shift=52 used=11 cleared=294533 survivors=1405193 elapsed_seconds=0.234607
+STEP shift=82 used=12 cleared=175425 survivors=1229768 elapsed_seconds=0.255667
+STEP shift=86 used=13 cleared=168419 survivors=1061349 elapsed_seconds=0.276271
+STEP shift=106 used=14 cleared=103982 survivors=957367 elapsed_seconds=0.297521
+STEP shift=126 used=15 cleared=137502 survivors=819865 elapsed_seconds=0.319194
+STEP shift=128 used=16 cleared=182686 survivors=637179 elapsed_seconds=0.338736
+STEP shift=134 used=17 cleared=64289 survivors=572890 elapsed_seconds=0.359251
+STEP shift=152 used=18 cleared=115401 survivors=457489 elapsed_seconds=0.379441
+STEP shift=206 used=19 cleared=37988 survivors=419501 elapsed_seconds=0.401165
+STEP shift=244 used=20 cleared=83439 survivors=336062 elapsed_seconds=0.422711
+STEP shift=734 used=30 cleared=7297 survivors=74296 elapsed_seconds=0.655562
+STEP shift=3126 used=40 cleared=4911 survivors=19420 elapsed_seconds=0.87838
+STEP shift=6586 used=50 cleared=615 survivors=5457 elapsed_seconds=1.16163
+STEP shift=16354 used=60 cleared=209 survivors=1838 elapsed_seconds=1.43626
+STEP shift=59050 used=70 cleared=79 survivors=771 elapsed_seconds=1.6525
+STEP shift=78152 used=80 cleared=45 survivors=237 elapsed_seconds=1.88634
+STEP shift=177172 used=90 cleared=7 survivors=121 elapsed_seconds=2.11509
+STEP shift=390706 used=100 cleared=11 survivors=57 elapsed_seconds=2.34325
+STEP shift=531566 used=110 cleared=0 survivors=20 elapsed_seconds=2.62234
+STEP shift=1594448 used=120 cleared=0 survivors=8 elapsed_seconds=2.85129
+STEP shift=1953368 used=130 cleared=0 survivors=2 elapsed_seconds=3.08564
+STEP shift=4782970 used=140 cleared=0 survivors=1 elapsed_seconds=3.42475
+STEP shift=4786094 used=145 cleared=1 survivors=0 elapsed_seconds=3.84687
+integers_tested=10000000
+admissible_pair_count_at_high=407
+distinct_shift_count_at_high=406
+shifts_processed=145
+candidate_count=0
+elapsed_seconds=3.84781
+EXACT_EMPTY

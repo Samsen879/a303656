@@ -1,0 +1,20 @@
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp: In function 'std::vector<long unsigned int> parse_primes(std::string)':
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:21:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   21 |     if(v.empty())throw std::runtime_error("empty prime pool");std::set<uint64_t> z;
+      |     ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:21:63: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   21 |     if(v.empty())throw std::runtime_error("empty prime pool");std::set<uint64_t> z;
+      |                                                               ^~~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp: In function 'int main(int, char**)':
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:44:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   44 |    if(window-1<U-cur)end=std::min(end,cur+window-1);if(next!=UINT64_MAX&&next>cur)end=std::min(end,next-1);
+      |    ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:44:53: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   44 |    if(window-1<U-cur)end=std::min(end,cur+window-1);if(next!=UINT64_MAX&&next>cur)end=std::min(end,next-1);
+      |                                                     ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:59:4: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   59 |    if(end==UINT64_MAX)break;cur=end+1;
+      |    ^~
+/mnt/data/a303656_bounded_counterexample/src/search_bitset.cpp:59:29: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   59 |    if(end==UINT64_MAX)break;cur=end+1;
+      |                             ^~~

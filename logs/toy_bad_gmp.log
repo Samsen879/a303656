@@ -1,0 +1,11 @@
+candidate_n=2
+prime_count=16
+max_c=0
+max_d=0
+admissible_pair_count=1
+distinct_shift_count=1
+zero_remainder_count=1
+uncovered_pair_count=1
+assignment_missing_count=0
+assignment_extra_count=0
+FAIL

@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "FULL_MASK_DIGEST_MISMATCH", "expected_error_code": "FULL_MASK_DIGEST_MISMATCH", "expected_semantic_category": "arithmetic", "mutation": "digest nibble flip", "return_code": 1, "status": "PASS", "stderr_excerpt": "FULL_MASK_DIGEST_MISMATCH:arithmetic", "test": "property_same_length_bitflip"}

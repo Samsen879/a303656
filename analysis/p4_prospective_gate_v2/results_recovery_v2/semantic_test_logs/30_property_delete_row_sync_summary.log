@@ -1,0 +1,1 @@
+{"actual_category": "hierarchy", "actual_code": "DESIGN_A_BALANCE_MISMATCH", "expected_error_code": "DESIGN_A_BALANCE_MISMATCH", "expected_semantic_category": "hierarchy", "mutation": "delete candidate and sync summary", "return_code": 1, "status": "PASS", "stderr_excerpt": "DESIGN_A_BALANCE_MISMATCH:hierarchy", "test": "property_delete_row_sync_summary"}

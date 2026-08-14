@@ -1,0 +1,9 @@
+{
+  "certainty": "CONSERVATIVE_SUPERSET",
+  "proof_derivation": "The retained runner declaration fixes this universe; execution can touch no integer outside it. Where bounds are absent, UNKNOWN is retained rather than guessed.",
+  "run_id": "ABANDONED-K4-PRE-C",
+  "superset": {
+    "path": "analysis/k4_ap_pilot/backend_a_counts.csv",
+    "row_count": 1285
+  }
+}

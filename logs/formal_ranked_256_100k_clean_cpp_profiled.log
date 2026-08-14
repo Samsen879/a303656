@@ -1,0 +1,6 @@
+integers_tested=100000
+shift_checks=254487
+prime_checks=28167601
+candidate_count=0
+elapsed_seconds=0.315234
+EXACT_EMPTY

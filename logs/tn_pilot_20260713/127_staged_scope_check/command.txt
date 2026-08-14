@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=bash -c set\ -euo\ pipefail\;\ count=0\;\ while\ IFS=\ read\ -r\ path\;\ do\ case\ \"\$path\"\ in\ docs/current_state.md\|docs/audit_gap_register.md\|docs/tn_pilot_results.md\|logs/tn_pilot_20260713/\*\|output/tn_pilot_20260713/\*\)\ \;\;\ \*\)\ echo\ \"out-of-scope\ staged\ path:\ \$path\"\ \>\&2\;\ exit\ 1\;\;\ esac\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\ \<\ \<\(git\ diff\ --cached\ --name-only\)\;\ echo\ \"allowed_staged_paths=\$count\" 
+started_utc=2026-07-13T09:01:45Z
+finished_utc=2026-07-13T09:01:45Z

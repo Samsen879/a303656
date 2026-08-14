@@ -1,0 +1,92 @@
+{
+  "method": "B-lazy-constraint-generation",
+  "z3_version": "4.16.0",
+  "primes": [
+    7,
+    11
+  ],
+  "prime_data": [
+    {
+      "p": 7,
+      "r": 6,
+      "s": 6,
+      "r2": 42,
+      "s2": 42,
+      "lift3": 6,
+      "lift5": 6
+    },
+    {
+      "p": 11,
+      "r": 5,
+      "s": 5,
+      "r2": 5,
+      "s2": 55,
+      "lift3": 0,
+      "lift5": 9
+    }
+  ],
+  "L3": "210",
+  "L5": "2310",
+  "torus_cardinality": "485100",
+  "torus_materialized": false,
+  "pruning": {
+    "loose_sum": "11/30",
+    "loose_sum_decimal": 0.36666666666666664,
+    "status": "PROVED_IMPOSSIBLE_BY_1_OVER_MAX_LEMMA"
+  },
+  "search": {
+    "status": "COMPUTATIONAL_OBSERVATION_CANDIDATE_UNSAT",
+    "warning": "No formal SAT proof certificate was generated; this is not certified UNSAT.",
+    "iterations_completed": 3,
+    "constraints": 3,
+    "candidate_seconds_last": 0.00017513499983579095,
+    "elapsed_seconds": 0.014346796999916478,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "candidate_seconds": 0.011280035000027056,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 0,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 0,
+          "11": 0
+        }
+      },
+      {
+        "iteration": 2,
+        "candidate_seconds": 0.0006776239999908285,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 1,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 7,
+          "11": 13
+        }
+      },
+      {
+        "iteration": 3,
+        "candidate_seconds": 0.0002484739998180885,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 2,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 13,
+          "11": 13
+        }
+      }
+    ]
+  }
+}

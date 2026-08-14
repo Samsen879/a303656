@@ -1,0 +1,4 @@
+chunk=4 interval=[240040000001,240050000000] candidates=0 elapsed=19.344583
+chunk=2 interval=[240020000001,240030000000] candidates=0 elapsed=19.552671
+chunk=3 interval=[240030000001,240040000000] candidates=0 elapsed=20.750142
+chunk=6 interval=[240060000001,240070000000] candidates=0 elapsed=21.679277

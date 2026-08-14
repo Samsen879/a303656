@@ -1,0 +1,10 @@
+chunk=4 interval=[240040000001,240050000000] rc=0 candidates=0 elapsed=11.493556
+chunk=2 interval=[240020000001,240030000000] rc=0 candidates=0 elapsed=12.113944
+chunk=3 interval=[240030000001,240040000000] rc=0 candidates=0 elapsed=17.740461
+chunk=1 interval=[240010000001,240020000000] rc=0 candidates=0 elapsed=18.244136
+chunk=0 interval=[240000000001,240010000000] rc=0 candidates=0 elapsed=18.473162
+complete_gapless_coverage=true
+integers_tested=50000000
+candidate_count=0
+wall_seconds=18.481703
+summary=output/formal_allodd_clean_a_summary.json

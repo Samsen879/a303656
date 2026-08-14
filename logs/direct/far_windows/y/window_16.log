@@ -1,0 +1,7 @@
+integers_tested=10000000
+admissible_pair_count_at_high=408
+distinct_shift_count_at_high=407
+shifts_processed=140
+candidate_count=0
+elapsed_seconds=3.27342
+EXACT_EMPTY

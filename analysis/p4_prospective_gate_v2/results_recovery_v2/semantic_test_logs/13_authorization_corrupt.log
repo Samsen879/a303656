@@ -1,0 +1,1 @@
+{"actual_category": "authorization", "actual_code": "UNAUTHORIZED_CANDIDATE", "expected_error_code": "UNAUTHORIZED_CANDIDATE", "expected_semantic_category": "authorization", "mutation": "authorization true", "return_code": 1, "status": "PASS", "stderr_excerpt": "UNAUTHORIZED_CANDIDATE:authorization", "test": "authorization_corrupt"}

@@ -1,0 +1,148 @@
+{
+  "method": "B_CEGIS_Z3_Int",
+  "z3_version": "4.16.0",
+  "low": "240000000001",
+  "high": "240000000100",
+  "C": 23,
+  "D": 16,
+  "primes": [
+    3,
+    7,
+    11,
+    19,
+    23,
+    31,
+    43,
+    47,
+    59,
+    67,
+    71,
+    79,
+    83,
+    103,
+    107,
+    127
+  ],
+  "max_iterations": 100,
+  "records": [
+    {
+      "iteration": 1,
+      "candidate_n": "240000000004",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 4,
+        "shift": "626"
+      },
+      "current_constraint_count": 1,
+      "prime_count": 16,
+      "solver_seconds": 0.232911788000024,
+      "verifier_seconds": 0.0005550770000581906,
+      "termination": "continue"
+    },
+    {
+      "iteration": 2,
+      "candidate_n": "240000000032",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 1,
+        "shift": "6"
+      },
+      "current_constraint_count": 2,
+      "prime_count": 16,
+      "solver_seconds": 0.08114162800006852,
+      "verifier_seconds": 0.00039667000010013,
+      "termination": "continue"
+    },
+    {
+      "iteration": 3,
+      "candidate_n": "240000000056",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 3,
+        "shift": "126"
+      },
+      "current_constraint_count": 3,
+      "prime_count": 16,
+      "solver_seconds": 2.446780469999908,
+      "verifier_seconds": 0.0004251670000030572,
+      "termination": "continue"
+    },
+    {
+      "iteration": 4,
+      "candidate_n": "240000000051",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 2,
+        "shift": "26"
+      },
+      "current_constraint_count": 4,
+      "prime_count": 16,
+      "solver_seconds": 0.2692001379999738,
+      "verifier_seconds": 0.0004021690000399758,
+      "termination": "continue"
+    },
+    {
+      "iteration": 5,
+      "candidate_n": "240000000087",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 5,
+        "shift": "3126"
+      },
+      "current_constraint_count": 5,
+      "prime_count": 16,
+      "solver_seconds": 0.37738223200005905,
+      "verifier_seconds": 0.00036391900005128264,
+      "termination": "continue"
+    },
+    {
+      "iteration": 6,
+      "candidate_n": "240000000092",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 9,
+        "shift": "1953126"
+      },
+      "current_constraint_count": 6,
+      "prime_count": 16,
+      "solver_seconds": 2.230298576999985,
+      "verifier_seconds": 0.00037364000002071407,
+      "termination": "continue"
+    },
+    {
+      "iteration": 7,
+      "candidate_n": "240000000033",
+      "active_pair_count": 407,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 6,
+        "shift": "15626"
+      },
+      "current_constraint_count": 7,
+      "prime_count": 16,
+      "solver_seconds": 1.281695046999971,
+      "verifier_seconds": 0.00040773900002477603,
+      "termination": "continue"
+    },
+    {
+      "iteration": 8,
+      "solver_result": "unsat",
+      "solver_seconds": 0.5218476710000459,
+      "reason_unknown": null,
+      "current_constraint_count": 8,
+      "prime_count": 16,
+      "termination": "solver_unsat_without_proof_object"
+    }
+  ],
+  "candidate": null,
+  "termination": "solver_unsat_without_proof_object",
+  "independent_python_verifier_returncode": null,
+  "certificate_paths": {},
+  "classification": "SMT_UNSAT_WITHOUT_PROOF_OBJECT"
+}

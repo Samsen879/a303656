@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=python3 tests/tn_provenance_negative_tests.py --python python3 --runner src/run_tn_pilot.py --verifier src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --clean-binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --work-dir /tmp/a303656_tn_negative_verifier_bound 
+started_utc=2026-07-13T08:43:56Z
+finished_utc=2026-07-13T08:44:00Z

@@ -1,0 +1,131 @@
+{
+  "T_n0": 16,
+  "equal_value_plateau_containing_argmin": {
+    "end_n": "240000005594",
+    "start_n": "240000005594",
+    "wide_plateau": false,
+    "width": 1
+  },
+  "left_side_away_from_argmin": {
+    "adjacent_movements_away_from_argmin": {
+      "down": 47,
+      "equal": 1,
+      "up": 51
+    },
+    "first_step_delta_from_argmin": 32,
+    "maximum": 91,
+    "mean": {
+      "decimal": "59.460000000000000",
+      "denominator": "50",
+      "numerator": "2973"
+    },
+    "minimum": 23,
+    "strictly_increasing_steps_away_from_argmin": 2
+  },
+  "n0": "240000005594",
+  "nearest_same_value": {
+    "left_distance": null,
+    "left_n": null,
+    "right_distance": null,
+    "right_n": null
+  },
+  "right_side_away_from_argmin": {
+    "adjacent_movements_away_from_argmin": {
+      "down": 50,
+      "equal": 0,
+      "up": 49
+    },
+    "first_step_delta_from_argmin": 63,
+    "maximum": 100,
+    "mean": {
+      "decimal": "60.510000000000000",
+      "denominator": "100",
+      "numerator": "6051"
+    },
+    "minimum": 26,
+    "strictly_increasing_steps_away_from_argmin": 1
+  },
+  "strict_local_minimum": true,
+  "window": {
+    "high_inclusive": "240000005694",
+    "low_inclusive": "240000005494",
+    "row_count": 201
+  },
+  "window_distinct_T_values": [
+    16,
+    23,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    91,
+    94,
+    100
+  ],
+  "window_mean": {
+    "decimal": "59.766169154228856",
+    "denominator": "201",
+    "numerator": "12013"
+  },
+  "window_mean_minus_argmin": {
+    "decimal": "43.766169154228856",
+    "denominator": "201",
+    "numerator": "8797"
+  }
+}

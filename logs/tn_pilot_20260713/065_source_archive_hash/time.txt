@@ -1,0 +1,23 @@
+	Command being timed: "git -C /tmp/a303656_tn_acceptance_src_2e38ac0 archive --format=tar 2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9 -o /tmp/a303656_tn_acceptance_source_2e38ac0.tar"
+	User time (seconds): 0.11
+	System time (seconds): 0.29
+	Percent of CPU this job got: 82%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 20013
+	Voluntary context switches: 5
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 80
+	File system outputs: 43600
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,29 @@
+{
+  "anchor_map": {
+    "CAL-216": "ENTRY-002",
+    "CAL-227": "ENTRY-003",
+    "CAL-230": "ENTRY-004",
+    "G231-COMMON": "ENTRY-001",
+    "POOLED-GLOBAL-WEIGHTED-OPT": "ENTRY-005",
+    "T3EQ2-CONSTRAINED-WEIGHTED-OPT": "ENTRY-006"
+  },
+  "families": {
+    "Q": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_anchor < 8"
+    },
+    "R": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_anchor < 8"
+    },
+    "U": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_anchor < 8"
+    }
+  },
+  "name": "anchor-balanced",
+  "schema": "a303656-p5-provisional-design-B-v1"
+}

@@ -1,0 +1,9 @@
+{
+  "first": "output/formal_twosquares_bitset_10m.json",
+  "second": "output/formal_twosquares_clean_10m.json",
+  "mismatch_keys": [],
+  "full_mathematical_output_match": true,
+  "candidate_count": 0,
+  "integers_tested": 10000000,
+  "unordered_square_pairs_enumerated": 581189915
+}

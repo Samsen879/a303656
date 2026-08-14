@@ -1,0 +1,21 @@
+{
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "outputs_sha256": {
+    "histogram.csv": "d19e1e49555dac68ff4dd1a19b7b12185fc686686c2bb72cad1d50c5685cbd4f",
+    "local_minima.csv": "c420a6b93a4f65d5a28654b07dbe036487b14e0fe78fd435900d05f62d43218e",
+    "low_record_details.json": "221e01e16e42ce9d56d2ebf97be89bf3768bcd961ff0a9835b8b8cdfd6909995",
+    "lower_tail_cdf.csv": "19628bf2a996559b9b54164bc7700d885350452db2dd0475c31d3906196caf14",
+    "metadata.json": "9325c5615aef9f8583158cc31e15df10007704558438f2f9f568c7c3dbf4e6fd",
+    "pilot_b_argmin_neighborhood.csv": "05cac4f0e512cc4749bdd49eb52f42e87fe6a562c2c6ed6fac9eebbfde7602d3",
+    "pilot_b_argmin_neighborhood.json": "6516c172b3b5d7eaccb12114e697b94a843d2ba75b0de023b2290c0208eeb404",
+    "pilot_b_local_minima_10k.csv": "bfbae3ac52b22ef6c34d2d2a7e04686b879b2179f1b15bb18eae006c2a173acc",
+    "pilot_b_local_minima_1k.csv": "1e6242d64d8062556575dcd99d7b7b0d2fcb7aa7701cac9d7c8b89ae2a012a59",
+    "pilot_b_low_levels.json": "2178654c213844c9e555e04642de27dc2e3c3db2213a3fb99e46d5b6548c823c",
+    "recommended_obstruction_panel.json": "bca33b54505897d402005a8fb689b0183a9830fd6ada372d5b13331de61f88e9",
+    "record_lows.csv": "bd9bc739ddeba0968a1695586147ff2e54997d7b7bf62db98552a8906b5da611",
+    "summary_statistics.json": "dc7020d624d3b62aa9d76899fd94a2c58096ff0f20395be01f5361831cf27583",
+    "winner_pair_frequency.csv": "4b3f4b835238145e6c73f71f93379948fbde9cd2f97040c1392515a553d09723",
+    "winner_shift_frequency.csv": "3ccae5cd32605f42798de888c41ebc65531908f7014900c83e86e13df4fbede4"
+  },
+  "schema": "a303656-tn-low-tail-artifact-manifest-v1"
+}

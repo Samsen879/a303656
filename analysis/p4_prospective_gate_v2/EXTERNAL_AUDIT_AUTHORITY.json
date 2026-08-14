@@ -1,0 +1,40 @@
+{
+  "schema": "a303656-p4-gate-v2-external-audit-authority-v1",
+  "authority_type": "INDEPENDENT_EXTERNAL_AUDIT",
+  "authority_status": "ACCEPTED_FOR_ROUTE_2_CLOSURE",
+  "hash_receipt_status": "USER_SUPPLIED_FROZEN_AUTHORITY",
+  "artifacts": [
+    {
+      "format": "ZIP",
+      "sha256": "fedbfd4d5079d1ccd23cb6fca61c23a61b7419a01bd7b278168e6bc2750cc49b"
+    },
+    {
+      "format": "TAR.ZST",
+      "sha256": "4e9f27fc52f65d4cdd36fc882da77726bd616545ffd78979ebce2273cd02bae1"
+    }
+  ],
+  "decision": {
+    "exact_H8_landscape": "ACCEPT",
+    "registry_v2": "REJECTED",
+    "semantic_verifier": "REJECT_FIX_REQUIRED",
+    "gate_v2": "FAIL",
+    "design_A": "LEVEL_1_CONDITIONAL_CANDIDATE_ONLY",
+    "new_T": "NOT_AUTHORIZED",
+    "route": "CLOSE_GATE_V2_ROUTE_2",
+    "global_problem_status": "UNRESOLVED"
+  },
+  "authority_scope": {
+    "closes_gate_v2": true,
+    "rejects_exact_H8_landscape": false,
+    "authorizes_new_T": false,
+    "creates_gate_v3": false,
+    "establishes_conjecture_progress": false
+  },
+  "closure_reason_summary": [
+    "registry v2 omits confirmed integer and E4 exposure",
+    "52-way historical exposure facts are not recoverable",
+    "Design A exposure is unestablished for 384 of 384 integers",
+    "semantic verifier accepts 15 material bypasses despite its passing test matrix",
+    "code repair cannot reconstruct missing historical facts"
+  ]
+}

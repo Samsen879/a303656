@@ -1,0 +1,23 @@
+{
+  "P5_CRT_integer_search_performed": false,
+  "T_backends_called": false,
+  "all_q2_residues_represented_by_proved_compression": true,
+  "base_count": 13,
+  "candidate_count": 524,
+  "direct_two_square_oracle_called": false,
+  "exact_integer_arithmetic": true,
+  "histograms_sum_to_q2": true,
+  "literal_small_prime_oracle_primes": [
+    19,
+    31,
+    43
+  ],
+  "mathematical_status": "UNRESOLVED",
+  "new_integer_evaluations": 0,
+  "pair_count": 407,
+  "protected_baseline_hashes_unchanged": true,
+  "schema": "a303656-fifth-prime-verification-report-v1",
+  "status": "PASS",
+  "two_independent_enumerators_agree_for_every_q_and_base": true,
+  "validation_conclusion": "VALIDATED EXACT FIFTH-PRIME MARGINAL-COVERAGE LANDSCAPE"
+}

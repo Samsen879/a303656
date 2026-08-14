@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout 30 python3 src/run_tn_pilot.py --binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --out-dir /tmp/a303656_tn_runner_fixture/clean --compiler g++ --timeout-seconds 20 --allow-dirty --emit-all-records 
+started_utc=2026-07-13T08:32:55Z
+finished_utc=2026-07-13T08:32:55Z

@@ -1,0 +1,4 @@
+chunk_count=10
+complete_gapless_coverage=true
+integers_tested=100000000
+candidate_count=0

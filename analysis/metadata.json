@@ -1,0 +1,79 @@
+{
+  "canonical_counts_source": {
+    "PILOT-A": "pilot_a/bitset/counts.csv",
+    "PILOT-B": "pilot_b/bitset/counts.csv"
+  },
+  "canonical_source_selected_only_after_three_way_byte_equality": true,
+  "classification": "READ-ONLY FINITE COMPUTATIONAL ANALYSIS; NOT A THEOREM",
+  "counting_executables_invoked": false,
+  "input_manifest": {
+    "intervals": {
+      "PILOT-A": {
+        "canonical_counts_role": "bitset",
+        "roles": {
+          "bitset": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset/counts.csv",
+            "counts_sha256": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl",
+            "low_t_sha256": "2ebc2093122f650ee3e2f8c8db1f08395b190cfe40137ba7dd2a6869b4f8eb2e",
+            "summary_sha256": "0a1232b67b66ac8fa9738ad9d0d545b6aedeec4f152d5af76c714647bcc429db",
+            "verifier_report_sha256": "efab81be8f72dacb138917aeee6d88a9463781b276dd94be14380d29e02209f9"
+          },
+          "clean": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean/counts.csv",
+            "counts_sha256": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl",
+            "low_t_sha256": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+            "summary_sha256": "412e883550ccb3cd59a2ef83d9b839ab36544a77592a597aa82e609e7d909737",
+            "verifier_report_sha256": "01ed62ce312c9b36dc502297f3c9f8243dc457739eb5afcae97279fc02d20227"
+          },
+          "oracle": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle/counts.csv",
+            "counts_sha256": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl",
+            "low_t_sha256": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+            "summary_sha256": "f349fbfe87fd1347a822066bf8b521ae05961c5c57a2f67765626696a33225ef",
+            "verifier_report_sha256": "b06fa312dbffe846947790ab1980293b59ac0d89da7e073369753226db0a1ed7"
+          }
+        },
+        "three_way_counts_byte_identical": true,
+        "three_way_low_records_mathematically_identical": true
+      },
+      "PILOT-B": {
+        "canonical_counts_role": "bitset",
+        "roles": {
+          "bitset": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset/counts.csv",
+            "counts_sha256": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl",
+            "low_t_sha256": "059865af7709da2592b2e23fbfa83c419a04d62c894360d81760298d8707fc51",
+            "summary_sha256": "b2dde8f3ecc7e7ff1dc1bd6dcc91007ca36fda8fc32b51eaa70c517b09142b96",
+            "verifier_report_sha256": "d832b4e88644c2a728c4d94e44cad166e1fc883c875e6d0ad4d022fdffa4a880"
+          },
+          "clean": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean/counts.csv",
+            "counts_sha256": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl",
+            "low_t_sha256": "26852a6ded24d69b962ea3490f1bc293c7aeec3a858d4218747ca4dfb869a950",
+            "summary_sha256": "d1b3c2dc3d94c052275ab4ab1be2124d2a09da25f0982732aa927056cc0b664d",
+            "verifier_report_sha256": "7863507dc1d92e9539afc883fea31e519e1eaca89ff9efb2137e17cc33ac346c"
+          },
+          "oracle": {
+            "counts_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle/counts.csv",
+            "counts_sha256": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+            "low_t_path": "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl",
+            "low_t_sha256": "0854f0a06901fe89fe0f0cdbaf13d383bbbcc81b7d051f014b41e94fa2f74a2e",
+            "summary_sha256": "3d482b45afc9a2d6a5e173c0437505671fb57620e159d29bc4405d905d7a3c87",
+            "verifier_report_sha256": "ee1b7b9442b602d5dc52fd45c548f11c7b0713342aed87f02af7e004340db0fb"
+          }
+        },
+        "three_way_counts_byte_identical": true,
+        "three_way_low_records_mathematically_identical": true
+      }
+    }
+  },
+  "input_scope": "only output/tn_pilot_20260713 PILOT-A and PILOT-B committed artifacts",
+  "new_integer_intervals_scanned": false,
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "schema": "a303656-tn-read-only-low-tail-analysis-metadata-v1"
+}

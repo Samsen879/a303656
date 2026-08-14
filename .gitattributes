@@ -1,0 +1,11 @@
+*.zip binary
+*.gz binary
+*.zst binary
+*.bin binary
+*.jsonl -diff
+*.csv -diff
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.txt text eol=lf

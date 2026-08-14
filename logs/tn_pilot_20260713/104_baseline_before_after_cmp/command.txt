@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=cmp logs/tn_pilot_20260713/005_baseline_hashes_before/stdout.log logs/tn_pilot_20260713/100_baseline_hashes_after/stdout.log 
+started_utc=2026-07-13T08:53:39Z
+finished_utc=2026-07-13T08:53:39Z

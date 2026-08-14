@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=find /tmp/a303656_gmp_tn_20260713 -type f -o -type l 
+started_utc=2026-07-13T08:47:29Z
+finished_utc=2026-07-13T08:47:29Z

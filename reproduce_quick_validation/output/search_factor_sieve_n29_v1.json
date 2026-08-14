@@ -1,0 +1,22 @@
+{
+  "method": "exact_all_prime_segmented_factor_sieve",
+  "low": "29",
+  "high": "29",
+  "C": 3,
+  "D": 2,
+  "finite_bound_3_rhs": "82",
+  "finite_bound_5_rhs": "126",
+  "max_odd": 1,
+  "certificate_family": "all primes p=3 mod 4 with v_p=1",
+  "admissible_pair_count_at_high": 9,
+  "distinct_shift_count_at_high": 8,
+  "integers_tested": 1,
+  "shifts_processed_before_termination": 1,
+  "factor_groups_processed": 1,
+  "candidate_count": 0,
+  "candidates": [],
+  "first_failure_histogram": [{"shift":"2","count":1}],
+  "factor_groups": [{"low":"1","high":"27","values":27,"prime_multiple_visits":27,"division_steps":42,"marked":12}],
+  "elapsed_seconds": 1.0321e-05,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "LIVE_PROJECTION_DIGEST_MISMATCH", "expected_error_code": "LIVE_PROJECTION_DIGEST_MISMATCH", "expected_semantic_category": "arithmetic", "mutation": "projection digest mutation", "return_code": 1, "status": "PASS", "stderr_excerpt": "LIVE_PROJECTION_DIGEST_MISMATCH:arithmetic", "test": "projection_corrupt"}

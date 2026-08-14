@@ -1,0 +1,97 @@
+{
+  "all_rejected": true,
+  "schema": "a303656-p5-sparse-corruption-tests-v1",
+  "test_count": 15,
+  "tests": [
+    {
+      "name": "missing_prior_interval",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: prior registry is incomplete, mutated, or non-normalized"
+    },
+    {
+      "name": "missing_sparse_historical_point",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: prior registry is incomplete, mutated, or non-normalized"
+    },
+    {
+      "name": "shortlist_mutation",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: shortlist mutation: ENTRY-001/t"
+    },
+    {
+      "name": "unauthorized_q_or_t",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: wrong base/union/t class description"
+    },
+    {
+      "name": "wrong_base_mask",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: shortlist mutation: ENTRY-001/base_mask_digest"
+    },
+    {
+      "name": "wrong_union_mask",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: wrong base/union/t class description"
+    },
+    {
+      "name": "CRT_congruence_corruption",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: occupied CRT class manifest missing or contains extra class"
+    },
+    {
+      "name": "duplicate_class_not_deduplicated",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: duplicate class was not deduplicated"
+    },
+    {
+      "name": "duplicate_integer_not_deduplicated",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: integer manifest duplicate/missing integer"
+    },
+    {
+      "name": "previously_evaluated_marked_fresh",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: previously evaluated integer marked fresh"
+    },
+    {
+      "name": "activation_cell_boundary_corruption",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: activation-cell boundary corruption"
+    },
+    {
+      "name": "member_count_greater_than_one",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: occupied manifest contains zero/multi-member class"
+    },
+    {
+      "name": "adaptive_entry_deletion",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: adaptive entry/family deletion"
+    },
+    {
+      "name": "non_deterministic_panel_selection",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: non-deterministic/full-census selection corruption"
+    },
+    {
+      "name": "accidental_forbidden_evaluator_invocation",
+      "rejected": true,
+      "return_code": 2,
+      "stderr_last_line": "p5_sparse_verifier: ERROR: accidental forbidden evaluator invocation"
+    }
+  ]
+}

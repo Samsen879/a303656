@@ -1,0 +1,5 @@
+{
+  "evidence": "logs/INTERRUPTED_RUNS.txt#3",
+  "exact_touched_set": "NOT_ESTABLISHED",
+  "run_id": "INT-SMT-K16-K32"
+}

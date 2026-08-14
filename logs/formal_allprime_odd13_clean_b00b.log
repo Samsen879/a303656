@@ -1,0 +1,10 @@
+chunk=2 interval=[240070000001,240080000000] rc=0 candidates=0 elapsed=9.121030
+chunk=3 interval=[240080000001,240090000000] rc=0 candidates=0 elapsed=15.397379
+chunk=1 interval=[240060000001,240070000000] rc=0 candidates=0 elapsed=15.551451
+chunk=4 interval=[240090000001,240100000000] rc=0 candidates=0 elapsed=15.712338
+chunk=0 interval=[240050000001,240060000000] rc=0 candidates=0 elapsed=31.421578
+complete_gapless_coverage=true
+integers_tested=50000000
+candidate_count=0
+wall_seconds=31.430225
+summary=output/formal_allprime_odd13_clean_b00b_summary.json

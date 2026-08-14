@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=bash -c set\ -euo\ pipefail\;\ count=0\;\ for\ file\ in\ output/tn_pilot_20260713/pilot_\{a\,b\}/\{bitset\,clean\,oracle\}/backend_return_code.txt\;\ do\ \[\[\ \$\(\<\"\$file\"\)\ ==\ 0\ \]\]\ \|\|\ \{\ echo\ \"nonzero\ \$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ echo\ \"zero_backend_return_codes=\$count\" 
+started_utc=2026-07-13T09:01:03Z
+finished_utc=2026-07-13T09:01:03Z

@@ -1,0 +1,93 @@
+{
+  "runs": [
+    {
+      "run_id": "INT-DIRECT-100M-256",
+      "stages": {
+        "binary_check_completed": "POSSIBLE",
+        "binary_check_started": "POSSIBLE",
+        "exact_T_completed": "NOT_ESTABLISHED",
+        "exact_T_started": "NOT_ESTABLISHED",
+        "integer_loaded": "POSSIBLE",
+        "output_committed": "FAIL",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "run_id": "INT-FIXEDPOOL-10M-512",
+      "stages": {
+        "binary_check_completed": "POSSIBLE",
+        "binary_check_started": "POSSIBLE",
+        "exact_T_completed": "NOT_ESTABLISHED",
+        "exact_T_started": "NOT_ESTABLISHED",
+        "integer_loaded": "POSSIBLE",
+        "output_committed": "FAIL",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "run_id": "INT-SMT-K16-K32",
+      "stages": {
+        "binary_check_completed": "NOT_ESTABLISHED",
+        "binary_check_started": "NOT_ESTABLISHED",
+        "exact_T_completed": "NOT_ESTABLISHED",
+        "exact_T_started": "NOT_ESTABLISHED",
+        "integer_loaded": "NOT_ESTABLISHED",
+        "output_committed": "NOT_ESTABLISHED",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "run_id": "INT-STAGE0-REDUNDANT",
+      "stages": {
+        "binary_check_completed": "NOT_ESTABLISHED",
+        "binary_check_started": "NOT_ESTABLISHED",
+        "exact_T_completed": "NOT_ESTABLISHED",
+        "exact_T_started": "NOT_ESTABLISHED",
+        "integer_loaded": "NOT_ESTABLISHED",
+        "output_committed": "NOT_ESTABLISHED",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "run_id": "INT-DIRECT-52WAY",
+      "stages": {
+        "binary_check_completed": "POSSIBLE",
+        "binary_check_started": "POSSIBLE",
+        "exact_T_completed": "NOT_ESTABLISHED",
+        "exact_T_started": "NOT_ESTABLISHED",
+        "integer_loaded": "POSSIBLE",
+        "output_committed": "FAIL",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "NOT_ESTABLISHED"
+      }
+    },
+    {
+      "run_id": "ABANDONED-K4-PRE-C",
+      "stages": {
+        "binary_check_completed": "NOT_ESTABLISHED",
+        "binary_check_started": "NOT_ESTABLISHED",
+        "exact_T_completed": "POSSIBLE",
+        "exact_T_started": "CONFIRMED",
+        "integer_loaded": "CONFIRMED",
+        "output_committed": "FAIL",
+        "runner_started": "CONFIRMED",
+        "winner_mask_completed": "POSSIBLE"
+      }
+    }
+  ],
+  "schema": "a303656-interrupted-stage-reachability-v2",
+  "stage_order": [
+    "runner_started",
+    "integer_loaded",
+    "binary_check_started",
+    "binary_check_completed",
+    "exact_T_started",
+    "exact_T_completed",
+    "winner_mask_completed",
+    "output_committed"
+  ]
+}

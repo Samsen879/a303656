@@ -1,0 +1,15 @@
+{
+  "canonical_digest": "34d560eafa47589cf87203f13e38ba80c01ae5460d44940c1a1bf4969e7befc2",
+  "component_digest": "d8285b9726f0e78f366f1df5e370a2778c967cd5684a9be7e1183800b820224d",
+  "files": {
+    "historical_exposure_components.json": "42179d8a6f80dbb55a197285a1ca4653b230c62110f5a9bd2a085d34414523bd",
+    "historical_exposure_limitations.md": "e26b54e84e771ca6d265039c97f28ec330530b08b208b52efcb45bd5bbc9a417",
+    "historical_exposure_registry.csv": "57e12fca7b1f0b78174bb4c776e983049ee88d91498e087b8c1de2e545940b04",
+    "historical_exposure_registry.json": "a822c539c446a7cfcfbbe6472e702c431902e42142ef4db05293a672d839e181"
+  },
+  "registry_digest": "f933613ee9bc5e72fa2e2cc87ad663913154b43505029594f7cf23620dae2c4c",
+  "schema": "a303656-historical-exposure-manifest-v2",
+  "unresolved_components": [
+    "INTERRUPTED_PARTIAL_ABANDONED"
+  ]
+}

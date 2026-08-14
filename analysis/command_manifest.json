@@ -1,0 +1,567 @@
+{
+  "nonzero_return_codes": [
+    {
+      "return_code": 1,
+      "tag": "049_no_counting_invocation_audit"
+    },
+    {
+      "return_code": 2,
+      "tag": "052_final_fail_closed_tests"
+    }
+  ],
+  "raw_log_root": "/tmp/a303656_tn_low_tail_raw_20260713",
+  "record_count": 55,
+  "records": [
+    {
+      "command_shell_escaped": "git rev-parse HEAD ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 41,
+      "stdout_sha256": "22a4ff1ad8d25916343b7065527efb5597fe9bacde7f9b9b18fad91499bdb40b",
+      "tag": "001_start_head"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ subprocess\\;\\ expected=\\'73fbec48fb1343de9e6fa7cf2bcc84e86837955b\\'\\;\\ actual=subprocess.check_output\\(\\[\\'git\\'\\,\\'rev-parse\\'\\,\\'HEAD\\'\\]\\,text=True\\).strip\\(\\)\\;\\ print\\(actual\\)\\;\\ assert\\ actual==expected ",
+      "elapsed_wall_clock": "0:00.32",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 41,
+      "stdout_sha256": "22a4ff1ad8d25916343b7065527efb5597fe9bacde7f9b9b18fad91499bdb40b",
+      "tag": "002_assert_start_head"
+    },
+    {
+      "command_shell_escaped": "git status --short ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1202,
+      "stdout_sha256": "bf5a54400d1cdee9fd4740f20248fbda00400dcfd39ead65e0db39be894b7eb2",
+      "tag": "003_start_status"
+    },
+    {
+      "command_shell_escaped": "git log -1 --oneline ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 50,
+      "stdout_sha256": "0cca73a97df9ece536877c9eb20c05a697753525f92614066135571e78b32fa7",
+      "tag": "004_start_log"
+    },
+    {
+      "command_shell_escaped": "sed -n 1\\,10000p AGENTS.md ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1185,
+      "stdout_sha256": "4e775f73c0d4fb2981d8b366db7ae061babb9d47355da97b348ff6fce6ed8d7f",
+      "tag": "005_read_agents"
+    },
+    {
+      "command_shell_escaped": "sed -n 1\\,10000p docs/tn_pilot_contract.md ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4750,
+      "stdout_sha256": "670fcc97cd66c1b2d963259198352340b85e0a82909623335c3edd5bacdb48ce",
+      "tag": "006_read_contract"
+    },
+    {
+      "command_shell_escaped": "sed -n 1\\,10000p docs/tn_pilot_results.md ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 9727,
+      "stdout_sha256": "659c311df9c2e76d2ad90e83803d671ea0c8bddb461f1df259f6e5a8da804add",
+      "tag": "007_read_results"
+    },
+    {
+      "command_shell_escaped": "sed -n 1\\,10000p docs/current_state.md docs/audit_gap_register.md ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 15910,
+      "stdout_sha256": "f5a18084559212438a50b0f9cfb3840d68c2942e80c58885e86187493ce952b5",
+      "tag": "008_read_state_and_gaps"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 700,
+      "stdout_sha256": "8216d88d70031b99f0c2e0a93c75d81ce5c70e14030b8b88b8b522f27baf1e7a",
+      "tag": "009_input_counts_hashes"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/clean/counts.csv ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "010_counts_cmp_a_clean"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/oracle/counts.csv ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "011_counts_cmp_a_oracle"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "012_counts_cmp_b_clean"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "013_counts_cmp_b_oracle"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ hashlib\\,json\\,pathlib\\;\\ root=pathlib.Path\\(\\'output/tn_pilot_20260713\\'\\)\\;\\ expected=\\{\\'pilot_a\\':\\'cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d\\'\\,\\'pilot_b\\':\\'2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773\\'\\}\\;\\ roles=\\(\\'bitset\\'\\,\\'clean\\'\\,\\'oracle\\'\\)\\;\\ h=lambda\\ p:hashlib.sha256\\(p.read_bytes\\(\\)\\).hexdigest\\(\\)\\;\\ \\[\\(lambda\\ d\\,i\\,r:\\ \\(lambda\\ s\\,v:\\ \\(assertion:=None\\,\\ print\\(i\\,r\\,h\\(d/\\'counts.csv\\'\\)\\,h\\(d/\\'low_t.jsonl\\'\\)\\)\\,\\ \\(_\\ for\\ _\\ in\\ \\(\\)\\).throw\\(AssertionError\\(\\)\\)\\ if\\ h\\(d/\\'counts.csv\\'\\)\\!=expected\\[i\\]\\ or\\ s\\[\\'counts_csv_sha256\\'\\]\\!=h\\(d/\\'counts.csv\\'\\)\\ or\\ s\\[\\'low_t_jsonl_sha256\\'\\]\\!=h\\(d/\\'low_t.jsonl\\'\\)\\ or\\ v\\[\\'counts_csv_sha256\\'\\]\\!=h\\(d/\\'counts.csv\\'\\)\\ else\\ None\\)\\)\\(json.loads\\(\\(d/\\'summary.json\\'\\).read_text\\(\\)\\)\\,json.loads\\(\\(d/\\'verifier_report.json\\'\\).read_text\\(\\)\\)\\)\\)\\(root/i/r\\,i\\,r\\)\\ for\\ i\\ in\\ expected\\ for\\ r\\ in\\ roles\\] ",
+      "elapsed_wall_clock": "0:00.11",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 868,
+      "stdout_sha256": "82b9fd6ce911caab14563cc77a1db92b2213444d1d4d9b16da6bb1f77e9dd364",
+      "tag": "014_low_summary_hash_check"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 516,
+      "stdout_sha256": "62b25268cc2b18f6c6c6eddd10df29c4e005850d1f0defcf135901f1c62131b4",
+      "tag": "015_baseline_hashes_before"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/bitset/summary.json output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/summary.json output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/summary.json output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/summary.json output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/summary.json output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/summary.json ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2118,
+      "stdout_sha256": "9818d1e59b3ad537d26ccb479ccb431aed8c9ac5b1dcd990bf04bb96a1bdf4b2",
+      "tag": "016_input_tree_hashes_before"
+    },
+    {
+      "command_shell_escaped": "env PYTHONPYCACHEPREFIX=/tmp/a303656_tn_low_tail_pycache python3 -m py_compile src/analyze_tn_low_tail.py src/summarize_command_logs.py tests/verify_tn_low_tail_analysis.py tests/tn_low_tail_fail_closed_tests.py ",
+      "elapsed_wall_clock": "0:00.13",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "017_python_syntax"
+    },
+    {
+      "command_shell_escaped": "git diff --check -- src/analyze_tn_low_tail.py src/summarize_command_logs.py tests/verify_tn_low_tail_analysis.py tests/tn_low_tail_fail_closed_tests.py ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "018_script_diff_check"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 tests/tn_low_tail_fail_closed_tests.py --python python3 --analyzer src/analyze_tn_low_tail.py ",
+      "elapsed_wall_clock": "0:00.38",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 140,
+      "stdout_sha256": "3578fb11abc831127fa5c34ebdb2ff879c4a79ccd698a16d95d50049db2a2ec8",
+      "tag": "019_fail_closed_tests"
+    },
+    {
+      "command_shell_escaped": "test \\! -e analysis ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "020_analysis_dir_absent"
+    },
+    {
+      "command_shell_escaped": "timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 src/analyze_tn_low_tail.py run --input-root output/tn_pilot_20260713 --output-dir /tmp/a303656_tn_low_tail_analysis_pretest ",
+      "elapsed_wall_clock": "0:00.65",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 95,
+      "stdout_sha256": "baf3d0f1e585647109ec432d36f37c6707bdfa2a73007aaa3b22eda77ab055e0",
+      "tag": "021_analysis_pretest"
+    },
+    {
+      "command_shell_escaped": "timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 tests/verify_tn_low_tail_analysis.py --input-root output/tn_pilot_20260713 --analysis-dir /tmp/a303656_tn_low_tail_analysis_pretest --report /tmp/a303656_tn_low_tail_analysis_pretest/independent_verifier_report.json ",
+      "elapsed_wall_clock": "0:00.97",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 42,
+      "stdout_sha256": "cafe9b10f6b89bce894b2b0f289a89c83890410b4e42b5539a2fba0cfe83a91a",
+      "tag": "022_verifier_pretest"
+    },
+    {
+      "command_shell_escaped": "timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 src/analyze_tn_low_tail.py run --input-root output/tn_pilot_20260713 --output-dir analysis ",
+      "elapsed_wall_clock": "0:00.63",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 124,
+      "stdout_sha256": "6cf8bc4f1c83fb6b08774668fa1c5415b4cabb6d4a0b8e5a408f99cab725d53e",
+      "tag": "023_analysis_final"
+    },
+    {
+      "command_shell_escaped": "timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 tests/verify_tn_low_tail_analysis.py --input-root output/tn_pilot_20260713 --analysis-dir analysis --report analysis/independent_verifier_report.json ",
+      "elapsed_wall_clock": "0:00.97",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 42,
+      "stdout_sha256": "cafe9b10f6b89bce894b2b0f289a89c83890410b4e42b5539a2fba0cfe83a91a",
+      "tag": "024_verifier_final"
+    },
+    {
+      "command_shell_escaped": "bash -c set\\ -euo\\ pipefail\\;\\ count=0\\;\\ for\\ file\\ in\\ artifact_manifest.json\\ histogram.csv\\ local_minima.csv\\ low_record_details.json\\ lower_tail_cdf.csv\\ metadata.json\\ pilot_b_argmin_neighborhood.csv\\ pilot_b_argmin_neighborhood.json\\ pilot_b_local_minima_10k.csv\\ pilot_b_local_minima_1k.csv\\ pilot_b_low_levels.json\\ recommended_obstruction_panel.json\\ record_lows.csv\\ summary_statistics.json\\ winner_pair_frequency.csv\\ winner_shift_frequency.csv\\;\\ do\\ cmp\\ \\\"/tmp/a303656_tn_low_tail_analysis_pretest/\\$file\\\"\\ \\\"analysis/\\$file\\\"\\;\\ count=\\$\\(\\(count+1\\)\\)\\;\\ done\\;\\ echo\\ \\\"deterministic_identical_artifacts=\\$count\\\" ",
+      "elapsed_wall_clock": "0:00.04",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 37,
+      "stdout_sha256": "dbaf64228b0148517d8b62d36d40f66b640ea6869bd2c40ca1b68d20aee3806b",
+      "tag": "025_deterministic_artifact_cmp"
+    },
+    {
+      "command_shell_escaped": "find analysis -name \\*.json -exec python3 -m json.tool \\{\\} /dev/null \\; ",
+      "elapsed_wall_clock": "0:00.26",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "026_analysis_json_syntax"
+    },
+    {
+      "command_shell_escaped": "find analysis -maxdepth 1 -type f -printf %f\\ %s\\ bytes\\\\n ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 609,
+      "stdout_sha256": "6ac857f9ce11a06308ebafb6e1acf22848bd81bcda78995f638e1a729d91bbdf",
+      "tag": "027_analysis_file_list"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/bitset/summary.json output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/summary.json output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/summary.json output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/summary.json output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/summary.json output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2118,
+      "stdout_sha256": "9818d1e59b3ad537d26ccb479ccb431aed8c9ac5b1dcd990bf04bb96a1bdf4b2",
+      "tag": "028_input_tree_hashes_after_analysis"
+    },
+    {
+      "command_shell_escaped": "cmp /tmp/a303656_tn_low_tail_raw_20260713/016_input_tree_hashes_before/stdout.log /tmp/a303656_tn_low_tail_raw_20260713/028_input_tree_hashes_after_analysis/stdout.log ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "029_input_before_after_cmp"
+    },
+    {
+      "command_shell_escaped": "cat analysis/summary_statistics.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2669,
+      "stdout_sha256": "dc7020d624d3b62aa9d76899fd94a2c58096ff0f20395be01f5361831cf27583",
+      "tag": "030_show_summary_statistics"
+    },
+    {
+      "command_shell_escaped": "cat analysis/pilot_b_low_levels.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1437,
+      "stdout_sha256": "2178654c213844c9e555e04642de27dc2e3c3db2213a3fb99e46d5b6548c823c",
+      "tag": "031_show_b_low_levels"
+    },
+    {
+      "command_shell_escaped": "cat analysis/pilot_b_argmin_neighborhood.json analysis/recommended_obstruction_panel.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4421,
+      "stdout_sha256": "84e8ac58f6c1c9278d93500027df098240d9107317d9fed79ca412cbd6145f0b",
+      "tag": "032_show_neighborhood_panel"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ csv\\,json\\,collections\\;\\ rr=list\\(csv.DictReader\\(open\\(\\'analysis/record_lows.csv\\'\\)\\)\\)\\;\\ lr=list\\(csv.DictReader\\(open\\(\\'analysis/local_minima.csv\\'\\)\\)\\)\\;\\ out=\\{\\'record_lows\\':\\{\\}\\,\\'local_minima\\':\\{\\}\\}\\;\\ \\[\\(out\\[\\'record_lows\\'\\].setdefault\\(\\(r\\[\\'interval_id\\'\\]\\,r\\[\\'direction\\'\\]\\)\\,\\[\\]\\).append\\(\\{\\'n\\':r\\[\\'n\\'\\]\\,\\'T\\':int\\(r\\[\\'T\\'\\]\\)\\}\\)\\)\\ for\\ r\\ in\\ rr\\]\\;\\ \\[\\(out\\[\\'local_minima\\'\\].setdefault\\(\\(i\\,t\\)\\,\\[\\]\\).append\\(r\\)\\)\\ for\\ i\\ in\\ \\(\\'PILOT-A\\'\\,\\'PILOT-B\\'\\)\\ for\\ t\\ in\\ \\(\\'strict\\'\\,\\'weak\\'\\,\\'plateau\\'\\)\\ for\\ r\\ in\\ lr\\ if\\ r\\[\\'interval_id\\'\\]==i\\ and\\ r\\[\\'minimum_type\\'\\]==t\\]\\;\\ summary=\\{\\'record_lows\\':\\{f\\'\\{k\\[0\\]\\}/\\{k\\[1\\]\\}\\':v\\ for\\ k\\,v\\ in\\ out\\[\\'record_lows\\'\\].items\\(\\)\\}\\,\\'local_counts\\':\\{f\\'\\{k\\[0\\]\\}/\\{k\\[1\\]\\}\\':len\\(v\\)\\ for\\ k\\,v\\ in\\ out\\[\\'local_minima\\'\\].items\\(\\)\\}\\,\\'maximum_plateau_width\\':\\{i:max\\(\\[int\\(r\\[\\'width\\'\\]\\)\\ for\\ r\\ in\\ lr\\ if\\ r\\[\\'interval_id\\'\\]==i\\ and\\ r\\[\\'minimum_type\\'\\]==\\'plateau\\'\\]\\,default=0\\)\\ for\\ i\\ in\\ \\(\\'PILOT-A\\'\\,\\'PILOT-B\\'\\)\\}\\,\\'endpoint_minima\\':\\[r\\ for\\ r\\ in\\ lr\\ if\\ r\\[\\'position\\'\\]\\!=\\'interior\\'\\]\\}\\;\\ print\\(json.dumps\\(summary\\,sort_keys=True\\,indent=2\\)\\) ",
+      "elapsed_wall_clock": "0:00.58",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 3566,
+      "stdout_sha256": "4cb7bf34fe856f1c965c3b7de4b550d2f119f594730078e359a25307225d533b",
+      "tag": "033_profile_summary"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ csv\\,json\\;\\ pr=list\\(csv.DictReader\\(open\\(\\'analysis/winner_pair_frequency.csv\\'\\)\\)\\)\\;\\ sr=list\\(csv.DictReader\\(open\\(\\'analysis/winner_shift_frequency.csv\\'\\)\\)\\)\\;\\ top=lambda\\ rows\\,n=10:\\ sorted\\(rows\\,key=lambda\\ r:\\(-int\\(r\\[\\'frequency\\'\\]\\)\\,tuple\\(int\\(x\\)\\ for\\ x\\ in\\ r\\[\\'value\\'\\].split\\(\\'\\,\\'\\)\\)\\ if\\ \\'\\,\\'\\ in\\ r.get\\(\\'value\\'\\,\\'\\'\\)\\ else\\ int\\(r.get\\(\\'value\\'\\,r.get\\(\\'shift\\'\\,\\'0\\'\\)\\)\\)\\)\\)\\[:n\\]\\;\\ out=\\{\\}\\;\\ \\[\\(out.setdefault\\(i\\,\\{\\}\\)\\ .update\\(\\{d:top\\(\\[r\\ for\\ r\\ in\\ pr\\ if\\ r\\[\\'interval_id\\'\\]==i\\ and\\ r\\[\\'dimension\\'\\]==d\\]\\)\\}\\)\\ \\)\\ for\\ i\\ in\\ \\(\\'PILOT-A\\'\\,\\'PILOT-B\\'\\)\\ for\\ d\\ in\\ \\(\\'c\\'\\,\\'d\\'\\,\\'exponent_pair\\'\\,\\'remainder\\'\\)\\]\\;\\ out\\[\\'top_shifts\\'\\]=\\{i:sorted\\(\\[r\\ for\\ r\\ in\\ sr\\ if\\ r\\[\\'interval_id\\'\\]==i\\]\\,key=lambda\\ r:\\(-int\\(r\\[\\'frequency\\'\\]\\)\\,int\\(r\\[\\'shift\\'\\]\\)\\)\\)\\[:10\\]\\ for\\ i\\ in\\ \\(\\'PILOT-A\\'\\,\\'PILOT-B\\'\\)\\}\\;\\ details=json.load\\(open\\(\\'analysis/low_record_details.json\\'\\)\\)\\;\\ out\\[\\'winner_totals\\'\\]=details\\[\\'winner_totals\\'\\]\\;\\ out\\[\\'sole_winners\\'\\]=details\\[\\'T_equals_1_sole_winners\\'\\]\\;\\ print\\(json.dumps\\(out\\,sort_keys=True\\,indent=2\\)\\) ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 23540,
+      "stdout_sha256": "17e7e439bb15f9f8942ec7e4cac8ad64157c9ef8f89342887366ca083cfb364c",
+      "tag": "034_winner_frequency_summary"
+    },
+    {
+      "command_shell_escaped": "cat analysis/pilot_b_local_minima_10k.csv ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 630,
+      "stdout_sha256": "bfbae3ac52b22ef6c34d2d2a7e04686b879b2179f1b15bb18eae006c2a173acc",
+      "tag": "035_show_10k_minima"
+    },
+    {
+      "command_shell_escaped": "cat analysis/independent_verifier_report.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 641,
+      "stdout_sha256": "732a3c31889450c5f24fc4fb83be724df16479d2997c847132f5036b7553dc33",
+      "tag": "036_show_verifier_report"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ json\\;\\ d=json.load\\(open\\(\\'analysis/low_record_details.json\\'\\)\\)\\;\\ wanted=\\{\\'2\\'\\,\\'3\\'\\,\\'5\\'\\,\\'25\\'\\,\\'240000005594\\'\\}\\;\\ print\\(json.dumps\\(\\[\\{\\'interval_id\\':r\\[\\'interval_id\\'\\]\\,\\'n\\':r\\[\\'n\\'\\]\\,\\'T\\':r\\[\\'T\\'\\]\\,\\'active\\':r\\[\\'active_exponent_pair_count\\'\\]\\,\\'ratio\\':r\\[\\'T_over_active\\'\\]\\,\\'sole_winner\\':r\\[\\'sole_winner\\'\\]\\}\\ for\\ r\\ in\\ d\\[\\'records\\'\\]\\ if\\ r\\[\\'n\\'\\]\\ in\\ wanted\\]\\,indent=2\\,sort_keys=True\\)\\) ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1685,
+      "stdout_sha256": "40336da077bfb8c46f9c774b94119893b514c95f24bcf5c72a6b7114d13ca0ec",
+      "tag": "037_key_low_record_ratios"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ csv\\,json\\;\\ rows=list\\(csv.DictReader\\(open\\(\\'analysis/lower_tail_cdf.csv\\'\\)\\)\\)\\;\\ selected=\\[r\\ for\\ r\\ in\\ rows\\ if\\ \\(r\\[\\'interval_id\\'\\]==\\'PILOT-A\\'\\ and\\ int\\(r\\[\\'T\\'\\]\\)\\ in\\ \\(1\\,2\\,3\\,5\\,10\\,20\\,30\\,41\\)\\)\\ or\\ \\(r\\[\\'interval_id\\'\\]==\\'PILOT-B\\'\\ and\\ int\\(r\\[\\'T\\'\\]\\)\\ in\\ \\(16\\,18\\,19\\,20\\,21\\,24\\,29\\,39\\,60\\,95\\,118\\)\\)\\]\\;\\ print\\(json.dumps\\(selected\\,indent=2\\,sort_keys=True\\)\\) ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4033,
+      "stdout_sha256": "722087085c9c29082e30266db70532b7e382cc0c0e48bb0d90decdfed8dee752",
+      "tag": "038_selected_cdf_values"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ csv\\,collections\\,json\\;\\ out=\\{\\}\\;\\ \\[\\(out.update\\(\\{name:dict\\(sorted\\(collections.Counter\\(int\\(r\\[\\'minimum_T\\'\\]\\)\\ for\\ r\\ in\\ csv.DictReader\\(open\\(\\'analysis/\\'+file\\)\\)\\).items\\(\\)\\)\\)\\}\\)\\)\\ for\\ name\\,file\\ in\\ \\[\\(\\'1k\\'\\,\\'pilot_b_local_minima_1k.csv\\'\\)\\,\\(\\'10k\\'\\,\\'pilot_b_local_minima_10k.csv\\'\\)\\]\\]\\;\\ print\\(json.dumps\\(out\\,indent=2\\,sort_keys=True\\)\\) ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 245,
+      "stdout_sha256": "4413bd87f3f866ed1e96eb582d669765458b122e6706daeb151d496d195c82bd",
+      "tag": "039_block_minimum_distributions"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ json\\;\\ d=json.load\\(open\\(\\'analysis/low_record_details.json\\'\\)\\)\\;\\ rows=\\[\\{\\'interval_id\\':r\\[\\'interval_id\\'\\]\\,\\'n\\':r\\[\\'n\\'\\]\\,\\'duplicates\\':r\\[\\'duplicate_numerical_shifts\\'\\]\\}\\ for\\ r\\ in\\ d\\[\\'records\\'\\]\\ if\\ r\\[\\'duplicate_numerical_shifts\\'\\]\\]\\;\\ print\\(json.dumps\\(\\{\\'record_count_with_duplicate_winning_shift\\':len\\(rows\\)\\,\\'records\\':rows\\}\\,indent=2\\,sort_keys=True\\)\\) ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1061,
+      "stdout_sha256": "e02369ce83de558d02e777bc810c5f30f9b7cc4f854f6f8cfb974568841bae6c",
+      "tag": "040_duplicate_shift_summary"
+    },
+    {
+      "command_shell_escaped": "bash -lc sed\\ -n\\ \\\"1\\,90p\\\"\\ docs/current_state.md\\;\\ sed\\ -n\\ \\\"1\\,80p\\\"\\ docs/audit_gap_register.md ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 12162,
+      "stdout_sha256": "1cec47a7b3328ddfebcd78570fa06fd62b0c5036c1f92eca3a6ce276d0200091",
+      "tag": "041_docs_heads"
+    },
+    {
+      "command_shell_escaped": "git diff --check ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "042_diff_check"
+    },
+    {
+      "command_shell_escaped": "python3 tests/verify_tn_low_tail_analysis.py --input-root output/tn_pilot_20260713 --analysis-dir analysis --report /tmp/a303656_tn_low_tail_independent_final.json ",
+      "elapsed_wall_clock": "0:01.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 42,
+      "stdout_sha256": "cafe9b10f6b89bce894b2b0f289a89c83890410b4e42b5539a2fba0cfe83a91a",
+      "tag": "043_final_independent_verify"
+    },
+    {
+      "command_shell_escaped": "cmp analysis/independent_verifier_report.json /tmp/a303656_tn_low_tail_independent_final.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "044_final_verifier_report_cmp"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 516,
+      "stdout_sha256": "62b25268cc2b18f6c6c6eddd10df29c4e005850d1f0defcf135901f1c62131b4",
+      "tag": "045_baseline_hashes_after"
+    },
+    {
+      "command_shell_escaped": "cmp /tmp/a303656_tn_low_tail_raw_20260713/015_baseline_hashes_before/stdout.log /tmp/a303656_tn_low_tail_raw_20260713/045_baseline_hashes_after/stdout.log ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "046_baseline_before_after_cmp"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/bitset/summary.json output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/summary.json output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/summary.json output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/summary.json output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/summary.json output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 2118,
+      "stdout_sha256": "9818d1e59b3ad537d26ccb479ccb431aed8c9ac5b1dcd990bf04bb96a1bdf4b2",
+      "tag": "047_input_tree_hashes_final"
+    },
+    {
+      "command_shell_escaped": "cmp /tmp/a303656_tn_low_tail_raw_20260713/016_input_tree_hashes_before/stdout.log /tmp/a303656_tn_low_tail_raw_20260713/047_input_tree_hashes_final/stdout.log ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "048_input_before_final_cmp"
+    },
+    {
+      "command_shell_escaped": "bash -lc if\\ rg\\ -n\\ \\\"subprocess\\|os\\\\.system\\|Popen\\|tn_\\(bitset\\|clean\\|gmp\\)\\|search_twosquares\\\"\\ src/analyze_tn_low_tail.py\\;\\ then\\ exit\\ 1\\;\\ fi\\;\\ if\\ find\\ /tmp/a303656_tn_low_tail_raw_20260713\\ -name\\ command.txt\\ -print0\\ \\|\\ xargs\\ -0\\ rg\\ -n\\ \\\"tn_pilot_\\(bitset\\|clean\\|gmp\\)\\|search_twosquares\\\"\\;\\ then\\ exit\\ 1\\;\\ fi ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 1,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 429,
+      "stdout_sha256": "732580aa46260c4d176953bb4e0d67f134763823741fe98544958aa128339815",
+      "tag": "049_no_counting_invocation_audit"
+    },
+    {
+      "command_shell_escaped": "bash -lc if\\ rg\\ -n\\ \\\"subprocess\\|os\\\\.system\\|Popen\\|tn_\\(bitset\\|clean\\|gmp\\)\\|search_twosquares\\\"\\ src/analyze_tn_low_tail.py\\;\\ then\\ exit\\ 1\\;\\ fi\\;\\ if\\ rg\\ -n\\ \\\"tn_pilot_\\(bitset\\|clean\\|gmp\\)\\|search_twosquares\\\"\\ /tmp/a303656_tn_low_tail_raw_20260713/0\\[0-3\\]\\[0-9\\]_\\*/command.txt\\ /tmp/a303656_tn_low_tail_raw_20260713/04\\[0-8\\]_\\*/command.txt\\;\\ then\\ exit\\ 1\\;\\ fi ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "050_no_counting_invocation_audit_fixed"
+    },
+    {
+      "command_shell_escaped": "env PYTHONPYCACHEPREFIX=/tmp/a303656_tn_low_tail_pycache python3 -m py_compile src/analyze_tn_low_tail.py src/summarize_command_logs.py tests/tn_low_tail_fail_closed_tests.py tests/verify_tn_low_tail_analysis.py ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "051_final_python_syntax"
+    },
+    {
+      "command_shell_escaped": "python3 tests/tn_low_tail_fail_closed_tests.py --analyzer src/analyze_tn_low_tail.py ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 2,
+      "stderr_bytes": 209,
+      "stderr_sha256": "ce112504b5f389ba775b2b0425e14f7c4fadb37ecc58b716b92053993584ab54",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "052_final_fail_closed_tests"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 tests/tn_low_tail_fail_closed_tests.py --python python3 --analyzer src/analyze_tn_low_tail.py ",
+      "elapsed_wall_clock": "0:00.36",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 140,
+      "stdout_sha256": "3578fb11abc831127fa5c34ebdb2ff879c4a79ccd698a16d95d50049db2a2ec8",
+      "tag": "053_final_fail_closed_tests_fixed"
+    },
+    {
+      "command_shell_escaped": "bash -lc set\\ -euo\\ pipefail\\;\\ tar\\ --version\\;\\ zstd\\ --version ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 367,
+      "stdout_sha256": "e2b1692aaed3b43c21031ed65f0b64f2ffff2804a09639a3b6e3bfb41f40e3d7",
+      "tag": "054_archive_tool_versions"
+    },
+    {
+      "command_shell_escaped": "git status --short ",
+      "elapsed_wall_clock": "0:00.01",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1480,
+      "stdout_sha256": "d6379201100b4e6fe0aba6c52a32c4fa17fbef99db5b34dce4ab8db7073a8544",
+      "tag": "055_prepackage_status"
+    }
+  ],
+  "schema": "a303656-concise-command-manifest-v1"
+}

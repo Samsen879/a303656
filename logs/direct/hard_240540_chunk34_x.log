@@ -1,0 +1,40 @@
+SHIFT shift=2 processed=1 newly_cleared=1498824 survivors=8501176 elapsed_seconds=0.0223109
+SHIFT shift=4 processed=2 newly_cleared=1399201 survivors=7101975 elapsed_seconds=0.0428624
+SHIFT shift=6 processed=3 newly_cleared=1164952 survivors=5937023 elapsed_seconds=0.0620814
+SHIFT shift=8 processed=4 newly_cleared=1050164 survivors=4886859 elapsed_seconds=0.0811677
+SHIFT shift=10 processed=5 newly_cleared=811810 survivors=4075049 elapsed_seconds=0.101383
+SHIFT shift=14 processed=6 newly_cleared=624538 survivors=3450511 elapsed_seconds=0.122748
+SHIFT shift=26 processed=7 newly_cleared=425229 survivors=3025282 elapsed_seconds=0.143265
+SHIFT shift=28 processed=8 newly_cleared=591176 survivors=2434106 elapsed_seconds=0.162498
+SHIFT shift=32 processed=9 newly_cleared=447257 survivors=1986849 elapsed_seconds=0.187594
+SHIFT shift=34 processed=10 newly_cleared=287396 survivors=1699453 elapsed_seconds=0.209584
+SHIFT shift=52 processed=11 newly_cleared=294565 survivors=1404888 elapsed_seconds=0.22881
+SHIFT shift=82 processed=12 newly_cleared=175179 survivors=1229709 elapsed_seconds=0.248626
+SHIFT shift=86 processed=13 newly_cleared=168364 survivors=1061345 elapsed_seconds=0.266532
+SHIFT shift=106 processed=14 newly_cleared=103877 survivors=957468 elapsed_seconds=0.287318
+SHIFT shift=126 processed=15 newly_cleared=137284 survivors=820184 elapsed_seconds=0.308192
+SHIFT shift=128 processed=16 newly_cleared=183030 survivors=637154 elapsed_seconds=0.328972
+SHIFT shift=134 processed=17 newly_cleared=64836 survivors=572318 elapsed_seconds=0.350235
+SHIFT shift=152 processed=18 newly_cleared=115440 survivors=456878 elapsed_seconds=0.371688
+SHIFT shift=206 processed=19 newly_cleared=37528 survivors=419350 elapsed_seconds=0.394304
+SHIFT shift=244 processed=20 newly_cleared=83491 survivors=335859 elapsed_seconds=0.416824
+SHIFT shift=734 processed=30 newly_cleared=7379 survivors=74079 elapsed_seconds=0.622606
+SHIFT shift=3126 processed=40 newly_cleared=4961 survivors=19345 elapsed_seconds=0.820925
+SHIFT shift=6586 processed=50 newly_cleared=562 survivors=5500 elapsed_seconds=1.01924
+SHIFT shift=16354 processed=60 newly_cleared=199 survivors=1831 elapsed_seconds=1.22026
+SHIFT shift=59050 processed=70 newly_cleared=73 survivors=728 elapsed_seconds=1.42602
+SHIFT shift=78152 processed=80 newly_cleared=27 survivors=230 elapsed_seconds=1.63133
+SHIFT shift=177172 processed=90 newly_cleared=4 survivors=120 elapsed_seconds=1.83192
+SHIFT shift=390706 processed=100 newly_cleared=12 survivors=57 elapsed_seconds=2.07545
+SHIFT shift=531566 processed=110 newly_cleared=0 survivors=24 elapsed_seconds=2.27999
+SHIFT shift=1594448 processed=120 newly_cleared=1 survivors=10 elapsed_seconds=2.48668
+SHIFT shift=1953368 processed=130 newly_cleared=0 survivors=2 elapsed_seconds=2.72748
+SHIFT shift=4782970 processed=140 newly_cleared=1 survivors=1 elapsed_seconds=2.91942
+SHIFT shift=4798594 processed=146 newly_cleared=1 survivors=0 elapsed_seconds=3.04146
+integers_tested=10000000
+admissible_pair_count_at_high=407
+distinct_shift_count_at_high=406
+shifts_processed=146
+candidate_count=0
+elapsed_seconds=3.04299
+EXACT_EMPTY

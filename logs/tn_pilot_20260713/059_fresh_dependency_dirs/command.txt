@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=mkdir -p /tmp/a303656_tn_acceptance_build_2e38ac0 /tmp/a303656_gmp_tn_20260713 
+started_utc=2026-07-13T08:47:09Z
+finished_utc=2026-07-13T08:47:09Z

@@ -1,0 +1,775 @@
+{
+  "CRT_search_performed": false,
+  "classification": "COMPUTATIONAL OBSERVATION ON SELECTED FIXTURES",
+  "high_coverage_definition": "prime covers at least 5 percent of n0 losing exponent pairs",
+  "high_coverage_primes": [
+    {
+      "coverage": {
+        "decimal": "0.427109974424552",
+        "denominator": 391,
+        "numerator": 167
+      },
+      "covered_losing_pairs": 167,
+      "prime": 3
+    },
+    {
+      "coverage": {
+        "decimal": "0.130434782608696",
+        "denominator": 391,
+        "numerator": 51
+      },
+      "covered_losing_pairs": 51,
+      "prime": 7
+    },
+    {
+      "coverage": {
+        "decimal": "0.120204603580563",
+        "denominator": 391,
+        "numerator": 47
+      },
+      "covered_losing_pairs": 47,
+      "prime": 11
+    },
+    {
+      "coverage": {
+        "decimal": "0.051150895140665",
+        "denominator": 391,
+        "numerator": 20
+      },
+      "covered_losing_pairs": 20,
+      "prime": 23
+    }
+  ],
+  "losing_pair_count": 391,
+  "n0": 240000005594,
+  "residue_table_only": true,
+  "schema": "a303656-n0-surviving-pairs-v1",
+  "simultaneous_winner_elimination_claimed": false,
+  "surviving_winner_pairs": [
+    {
+      "c": 0,
+      "canonical_a": 109812,
+      "canonical_b": 477432,
+      "complete_factorization": [
+        {
+          "exponent": 4,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 3
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 1666666597
+        }
+      ],
+      "d": 6,
+      "remainder": 239999989968,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 0
+        },
+        {
+          "prime": 7,
+          "residue": 4
+        },
+        {
+          "prime": 11,
+          "residue": 2
+        },
+        {
+          "prime": 23,
+          "residue": 12
+        }
+      ],
+      "shift": 15626
+    },
+    {
+      "c": 1,
+      "canonical_a": 44079,
+      "canonical_b": 455565,
+      "complete_factorization": [
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 3
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 13
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 895224049
+        }
+      ],
+      "d": 15,
+      "remainder": 209482427466,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 0
+        },
+        {
+          "prime": 7,
+          "residue": 4
+        },
+        {
+          "prime": 11,
+          "residue": 4
+        },
+        {
+          "prime": 23,
+          "residue": 22
+        }
+      ],
+      "shift": 30517578128
+    },
+    {
+      "c": 4,
+      "canonical_a": 36558,
+      "canonical_b": 488532,
+      "complete_factorization": [
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 3
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 66221
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 100673
+        }
+      ],
+      "d": 5,
+      "remainder": 240000002388,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 0
+        },
+        {
+          "prime": 7,
+          "residue": 6
+        },
+        {
+          "prime": 11,
+          "residue": 3
+        },
+        {
+          "prime": 23,
+          "residue": 12
+        }
+      ],
+      "shift": 3206
+    },
+    {
+      "c": 4,
+      "canonical_a": 15748,
+      "canonical_b": 483372,
+      "complete_factorization": [
+        {
+          "exponent": 5,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2969
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2461861
+        }
+      ],
+      "d": 14,
+      "remainder": 233896489888,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 5
+        },
+        {
+          "prime": 11,
+          "residue": 6
+        },
+        {
+          "prime": 23,
+          "residue": 19
+        }
+      ],
+      "shift": 6103515706
+    },
+    {
+      "c": 6,
+      "canonical_a": 16736,
+      "canonical_b": 489612,
+      "complete_factorization": [
+        {
+          "exponent": 4,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 41
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 241
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 303613
+        }
+      ],
+      "d": 4,
+      "remainder": 240000004240,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 3
+        },
+        {
+          "prime": 11,
+          "residue": 7
+        },
+        {
+          "prime": 23,
+          "residue": 1
+        }
+      ],
+      "shift": 1354
+    },
+    {
+      "c": 8,
+      "canonical_a": 58288,
+      "canonical_b": 486408,
+      "complete_factorization": [
+        {
+          "exponent": 6,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 9413
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 398369
+        }
+      ],
+      "d": 10,
+      "remainder": 239990233408,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 2
+        },
+        {
+          "prime": 11,
+          "residue": 2
+        },
+        {
+          "prime": 23,
+          "residue": 6
+        }
+      ],
+      "shift": 9772186
+    },
+    {
+      "c": 12,
+      "canonical_a": 24428,
+      "canonical_b": 489288,
+      "complete_factorization": [
+        {
+          "exponent": 4,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 58481
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 256493
+        }
+      ],
+      "d": 2,
+      "remainder": 239999474128,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 1
+        },
+        {
+          "prime": 11,
+          "residue": 7
+        },
+        {
+          "prime": 23,
+          "residue": 16
+        }
+      ],
+      "shift": 531466
+    },
+    {
+      "c": 14,
+      "canonical_a": 130830,
+      "canonical_b": 472090,
+      "complete_factorization": [
+        {
+          "exponent": 3,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 3,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 239985457
+        }
+      ],
+      "d": 10,
+      "remainder": 239985457000,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 2
+        },
+        {
+          "prime": 11,
+          "residue": 3
+        },
+        {
+          "prime": 23,
+          "residue": 8
+        }
+      ],
+      "shift": 14548594
+    },
+    {
+      "c": 14,
+      "canonical_a": 20668,
+      "canonical_b": 294924,
+      "complete_factorization": [
+        {
+          "exponent": 5,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 3,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 21851833
+        }
+      ],
+      "d": 16,
+      "remainder": 87407332000,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 2
+        },
+        {
+          "prime": 11,
+          "residue": 10
+        },
+        {
+          "prime": 23,
+          "residue": 14
+        }
+      ],
+      "shift": 152592673594
+    },
+    {
+      "c": 15,
+      "canonical_a": 204519,
+      "canonical_b": 445149,
+      "complete_factorization": [
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 3
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 61
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 218566169
+        }
+      ],
+      "d": 5,
+      "remainder": 239985653562,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 0
+        },
+        {
+          "prime": 7,
+          "residue": 4
+        },
+        {
+          "prime": 11,
+          "residue": 6
+        },
+        {
+          "prime": 23,
+          "residue": 12
+        }
+      ],
+      "shift": 14352032
+    },
+    {
+      "c": 16,
+      "canonical_a": 26952,
+      "canonical_b": 489112,
+      "complete_factorization": [
+        {
+          "exponent": 7,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 1874663741
+        }
+      ],
+      "d": 2,
+      "remainder": 239956958848,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 5
+        },
+        {
+          "prime": 11,
+          "residue": 2
+        },
+        {
+          "prime": 23,
+          "residue": 6
+        }
+      ],
+      "shift": 43046746
+    },
+    {
+      "c": 16,
+      "canonical_a": 262162,
+      "canonical_b": 413502,
+      "complete_factorization": [
+        {
+          "exponent": 3,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 40697
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 736273
+        }
+      ],
+      "d": 12,
+      "remainder": 239712818248,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 1
+        },
+        {
+          "prime": 11,
+          "residue": 2
+        },
+        {
+          "prime": 23,
+          "residue": 13
+        }
+      ],
+      "shift": 287187346
+    },
+    {
+      "c": 18,
+      "canonical_a": 109908,
+      "canonical_b": 477004,
+      "complete_factorization": [
+        {
+          "exponent": 5,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 53
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 28256201
+        }
+      ],
+      "d": 4,
+      "remainder": 239612584480,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 3
+        },
+        {
+          "prime": 11,
+          "residue": 5
+        },
+        {
+          "prime": 23,
+          "residue": 15
+        }
+      ],
+      "shift": 387421114
+    },
+    {
+      "c": 18,
+      "canonical_a": 91018,
+      "canonical_b": 480966,
+      "complete_factorization": [
+        {
+          "exponent": 3,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 5990314237
+        }
+      ],
+      "d": 6,
+      "remainder": 239612569480,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 4
+        },
+        {
+          "prime": 11,
+          "residue": 9
+        },
+        {
+          "prime": 23,
+          "residue": 11
+        }
+      ],
+      "shift": 387436114
+    },
+    {
+      "c": 20,
+      "canonical_a": 43152,
+      "canonical_b": 484408,
+      "complete_factorization": [
+        {
+          "exponent": 6,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 17
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 11933
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 18217
+        }
+      ],
+      "d": 6,
+      "remainder": 236513205568,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 1
+        },
+        {
+          "prime": 7,
+          "residue": 3
+        },
+        {
+          "prime": 11,
+          "residue": 2
+        },
+        {
+          "prime": 23,
+          "residue": 18
+        }
+      ],
+      "shift": 3486800026
+    },
+    {
+      "c": 21,
+      "canonical_a": 90795,
+      "canonical_b": 470421,
+      "complete_factorization": [
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 2
+        },
+        {
+          "exponent": 2,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 3
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 23041
+        },
+        {
+          "exponent": 1,
+          "primality_verification_status": "DETERMINISTIC_MILLER_RABIN_UINT64_PASS",
+          "prime": 553457
+        }
+      ],
+      "d": 5,
+      "remainder": 229539649266,
+      "remainder_residues_mod_high_coverage_primes": [
+        {
+          "prime": 3,
+          "residue": 0
+        },
+        {
+          "prime": 7,
+          "residue": 4
+        },
+        {
+          "prime": 11,
+          "residue": 4
+        },
+        {
+          "prime": 23,
+          "residue": 16
+        }
+      ],
+      "shift": 10460356328
+    }
+  ],
+  "validated_T": 16,
+  "winner_pair_count": 16
+}

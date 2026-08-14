@@ -1,0 +1,1 @@
+{"actual_category": "selection", "actual_code": "MIN_MAX_RECONSTRUCTION_MISMATCH", "expected_error_code": "MIN_MAX_RECONSTRUCTION_MISMATCH", "expected_semantic_category": "selection", "mutation": "false minimum with redigest", "return_code": 1, "status": "PASS", "stderr_excerpt": "MIN_MAX_RECONSTRUCTION_MISMATCH:selection", "test": "bypass4_false_minimum_redigest"}

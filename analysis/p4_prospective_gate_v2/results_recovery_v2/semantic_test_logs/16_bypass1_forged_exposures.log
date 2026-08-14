@@ -1,0 +1,1 @@
+{"actual_category": "exposure", "actual_code": "AUTHORITATIVE_EXPOSURE_MEMBERSHIP", "expected_error_code": "AUTHORITATIVE_EXPOSURE_MEMBERSHIP", "expected_semantic_category": "exposure", "mutation": "self-report empty, authority exposed", "return_code": 1, "status": "PASS", "stderr_excerpt": "AUTHORITATIVE_EXPOSURE_MEMBERSHIP:exposure", "test": "bypass1_forged_exposures"}

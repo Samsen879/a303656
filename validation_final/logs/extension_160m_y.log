@@ -1,0 +1,20 @@
+chunk=4 interval=[241390000001,241400000000] candidates=0 elapsed=4.760691
+chunk=2 interval=[241370000001,241380000000] candidates=0 elapsed=5.006715
+chunk=1 interval=[241360000001,241370000000] candidates=0 elapsed=5.079705
+chunk=3 interval=[241380000001,241390000000] candidates=0 elapsed=5.136232
+chunk=0 interval=[241350000001,241360000000] candidates=0 elapsed=5.262404
+chunk=7 interval=[241420000001,241430000000] candidates=0 elapsed=5.782684
+chunk=5 interval=[241400000001,241410000000] candidates=0 elapsed=6.370549
+chunk=6 interval=[241410000001,241420000000] candidates=0 elapsed=6.368339
+chunk=9 interval=[241440000001,241450000000] candidates=0 elapsed=6.608741
+chunk=8 interval=[241430000001,241440000000] candidates=0 elapsed=6.928125
+chunk=10 interval=[241450000001,241460000000] candidates=0 elapsed=7.596704
+chunk=12 interval=[241470000001,241480000000] candidates=0 elapsed=7.791329
+chunk=11 interval=[241460000001,241470000000] candidates=0 elapsed=8.504283
+chunk=14 interval=[241490000001,241500000000] candidates=0 elapsed=7.695733
+chunk=13 interval=[241480000001,241490000000] candidates=0 elapsed=7.926901
+chunk=15 interval=[241500000001,241510000000] candidates=0 elapsed=4.185428
+complete_gapless_coverage=true
+integers_tested=160000000
+candidate_count=0
+wall_seconds=22.665431

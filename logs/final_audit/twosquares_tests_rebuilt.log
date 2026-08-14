@@ -1,0 +1,8 @@
+case=0 interval=[1,1] candidates=1 lattice_pairs=0 PASS
+case=1 interval=[2,50] candidates=0 lattice_pairs=116 PASS
+case=2 interval=[2,500] candidates=0 lattice_pairs=1894 PASS
+case=3 interval=[17,350] candidates=0 lattice_pairs=1293 PASS
+case=4 interval=[240,760] candidates=0 lattice_pairs=3449 PASS
+candidate_emission_boundary: PASS
+remainder_zero_representation_boundary: PASS
+ALL_TWO_SQUARE_TESTS_PASS

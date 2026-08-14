@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv 
+started_utc=2026-07-13T08:53:29Z
+finished_utc=2026-07-13T08:53:29Z

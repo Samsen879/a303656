@@ -1,0 +1,630 @@
+{
+  "artifact_sha256_excluding_metadata_and_verification_report": {
+    "backend_a_masks.bin": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+    "backend_b_masks.bin": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+    "class_pair_frequencies.csv": "0c5da2951d269cd2737fc28efa5cd34e0222d5d1c377fccb1b2fd52d2484f7ed",
+    "cross_class_pair_profiles.csv": "5ec97563a41adaae026a769b14b3d76301c6cd9c025f520088be13cdf5427b9e",
+    "five_way_common_uncovered.json": "0f37174f4a8fca7f599197c5593cf3e392df25e626f47a88d7aa8eec2d8fe1cf",
+    "hard_survivor_pairs.json": "0da4587b99de623e286edb64c9db043990ecfe5fff13e9833f98aee873e43bf5",
+    "mask_manifest.json": "a7f18a0d70e5540cc96f56619f47824deabb5fa91cbaec9367b54020d5254bd0",
+    "pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "pairwise_common_uncovered.json": "3c01798dc8df33442d35bbf1d059874dbc6e1ea07b836823b050fa26a47b1548"
+  },
+  "backend_identities": {
+    "backend_a": {
+      "core_algorithm": "generated prime table, deterministic uint64 trial division, Fermat two-square classification",
+      "core_binary_sha256": "e7f7ddd9c43df63250997847ffba63355bf9f00a915175f26ebb097650f33123",
+      "core_implementation_id": "k4_ap_backend_a_trial_division_v1",
+      "core_source": "src/k4_ap_backend_a.cpp",
+      "mask_sha256": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+      "wrapper_implementation_id": "k4_survivor_backend_a_mask_wrapper_v1",
+      "wrapper_source": "src/k4_survivor_backend_a.py"
+    },
+    "backend_b": {
+      "core_algorithm": "deterministic uint64 Miller-Rabin and deterministic-seeded Brent Pollard-Rho, independent Fermat classification",
+      "core_binary_sha256": "f7532c2a05734451daf9113b2f7a59257ee6803e66e29a68766ec3e6c340c685",
+      "core_implementation_id": "k4_ap_backend_b_cpp17_mr7_brent_rho_v1",
+      "core_source": "src/k4_ap_backend_b.cpp",
+      "mask_sha256": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+      "wrapper_implementation_id": "k4_survivor_backend_b_mask_wrapper_v1",
+      "wrapper_source": "src/k4_survivor_backend_b.py"
+    },
+    "direct_oracle": {
+      "algorithm": "factorization-free monotone two-square boundary enumeration with canonical least-a witnesses",
+      "binary_sha256": "f9def5bb344cc51516970930ecb2fca010d147a6e55f1948989c6deab59cd7bf",
+      "implementation_id": "k4_ap_direct_oracle_v1",
+      "source": "src/k4_ap_direct_oracle.cpp"
+    }
+  },
+  "baseline_commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+  "class_residual_survival_analysis": [
+    {
+      "h": -720,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 193,
+        "ge_25_percent": 102,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 1,
+        "46": 1,
+        "47": 4,
+        "48": 1,
+        "49": 2,
+        "50": 5,
+        "51": 3,
+        "52": 3,
+        "53": 3,
+        "54": 2,
+        "55": 5,
+        "56": 6,
+        "57": 4,
+        "58": 2,
+        "59": 7,
+        "60": 9,
+        "61": 6,
+        "62": 10,
+        "63": 7,
+        "64": 10,
+        "65": 6,
+        "66": 12,
+        "67": 12,
+        "68": 15,
+        "69": 11,
+        "70": 9,
+        "71": 17,
+        "72": 11,
+        "73": 2,
+        "74": 1,
+        "75": 3,
+        "76": 1,
+        "78": 1,
+        "79": 1
+      },
+      "persistent_covered_pair_count": 214,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.247938549626015604524102336646",
+        "denominator": 49601,
+        "numerator": 12298
+      },
+      "total_possible_uncovered_incidences": 49601,
+      "total_winner_incidences": 12298,
+      "uncovered_pair_count": 193,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": -360,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 225,
+        "ge_25_percent": 100,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 2,
+        "46": 2,
+        "47": 1,
+        "48": 4,
+        "49": 3,
+        "50": 4,
+        "51": 3,
+        "52": 5,
+        "53": 5,
+        "54": 8,
+        "55": 7,
+        "56": 5,
+        "57": 6,
+        "58": 9,
+        "59": 9,
+        "60": 9,
+        "61": 9,
+        "62": 10,
+        "63": 12,
+        "64": 12,
+        "65": 17,
+        "66": 17,
+        "67": 14,
+        "68": 9,
+        "69": 8,
+        "70": 10,
+        "71": 5,
+        "72": 9,
+        "73": 5,
+        "74": 1,
+        "76": 3,
+        "77": 1,
+        "83": 1
+      },
+      "persistent_covered_pair_count": 182,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.242628620838737570255079982706",
+        "denominator": 11565,
+        "numerator": 2806
+      },
+      "total_possible_uncovered_incidences": 57825,
+      "total_winner_incidences": 14030,
+      "uncovered_pair_count": 225,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 0,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 191,
+        "ge_25_percent": 90,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "41": 1,
+        "42": 1,
+        "44": 1,
+        "45": 5,
+        "47": 2,
+        "48": 1,
+        "49": 1,
+        "50": 7,
+        "51": 3,
+        "52": 1,
+        "53": 3,
+        "54": 4,
+        "55": 2,
+        "56": 4,
+        "57": 4,
+        "58": 6,
+        "59": 9,
+        "60": 10,
+        "61": 6,
+        "62": 12,
+        "63": 10,
+        "64": 8,
+        "65": 11,
+        "66": 14,
+        "67": 11,
+        "68": 7,
+        "69": 8,
+        "70": 13,
+        "71": 7,
+        "72": 5,
+        "73": 5,
+        "74": 5,
+        "75": 3,
+        "79": 1
+      },
+      "persistent_covered_pair_count": 216,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.243974983193106117709373153788",
+        "denominator": 49087,
+        "numerator": 11976
+      },
+      "total_possible_uncovered_incidences": 49087,
+      "total_winner_incidences": 11976,
+      "uncovered_pair_count": 191,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 360,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 209,
+        "ge_25_percent": 121,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "44": 1,
+        "45": 2,
+        "47": 3,
+        "48": 2,
+        "49": 4,
+        "50": 3,
+        "51": 1,
+        "52": 2,
+        "53": 2,
+        "54": 6,
+        "55": 1,
+        "56": 1,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 6,
+        "61": 8,
+        "62": 6,
+        "63": 11,
+        "64": 14,
+        "65": 10,
+        "66": 21,
+        "67": 22,
+        "68": 5,
+        "69": 12,
+        "70": 12,
+        "71": 9,
+        "72": 6,
+        "73": 5,
+        "74": 7,
+        "75": 2,
+        "76": 3,
+        "77": 2,
+        "78": 4,
+        "80": 1
+      },
+      "persistent_covered_pair_count": 198,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.251149628581535196321188539087",
+        "denominator": 2827,
+        "numerator": 710
+      },
+      "total_possible_uncovered_incidences": 53713,
+      "total_winner_incidences": 13490,
+      "uncovered_pair_count": 209,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 720,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 198,
+        "ge_25_percent": 95,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 2,
+        "46": 2,
+        "47": 1,
+        "48": 5,
+        "49": 1,
+        "50": 4,
+        "51": 1,
+        "52": 2,
+        "53": 2,
+        "54": 9,
+        "55": 3,
+        "56": 2,
+        "57": 7,
+        "58": 3,
+        "59": 6,
+        "60": 6,
+        "61": 14,
+        "62": 8,
+        "63": 19,
+        "64": 6,
+        "65": 7,
+        "66": 10,
+        "67": 11,
+        "68": 7,
+        "69": 9,
+        "70": 17,
+        "71": 10,
+        "72": 8,
+        "73": 6,
+        "74": 1,
+        "75": 6,
+        "76": 1,
+        "78": 1,
+        "81": 1
+      },
+      "persistent_covered_pair_count": 209,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.247258577997877608772550406792",
+        "denominator": 2827,
+        "numerator": 699
+      },
+      "total_possible_uncovered_incidences": 50886,
+      "total_winner_incidences": 12582,
+      "uncovered_pair_count": 198,
+      "wins_every_k_uncovered_pairs": 0
+    }
+  ],
+  "classification": "EXACT FINITE COMPUTATION ON THE ALREADY VALIDATED 1285-POINT K4 PANEL; GLOBAL PROBLEM UNRESOLVED",
+  "commands": [
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "/tmp/k4_survivor_E_7123d08/src/k4_ap_backend_a.cpp",
+        "-o",
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_backend_a"
+      ],
+      "elapsed_seconds": "1.293363",
+      "label": "build_backend_a_core",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "/tmp/k4_survivor_E_7123d08/src/k4_ap_backend_b.cpp",
+        "-o",
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_backend_b"
+      ],
+      "elapsed_seconds": "2.138321",
+      "label": "build_backend_b_core",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "/tmp/k4_survivor_E_7123d08/src/k4_ap_direct_oracle.cpp",
+        "-o",
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_direct_oracle"
+      ],
+      "elapsed_seconds": "1.515963",
+      "label": "build_direct_oracle",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/k4_survivor_E_7123d08/src/k4_survivor_backend_a.py",
+        "--core",
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_backend_a",
+        "--input",
+        "/tmp/k4_survivor_E_run6/work/fixed_panel.csv",
+        "--pair-order",
+        "/tmp/k4_survivor_E_run6/artifacts/pair_order.csv",
+        "--pair-order-sha256",
+        "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+        "--output",
+        "/tmp/k4_survivor_E_run6/artifacts/backend_a_masks.bin",
+        "--work-dir",
+        "/tmp/k4_survivor_E_run6/work/backend_a",
+        "--run-report",
+        "/tmp/k4_survivor_E_run6/work/backend_a_run_report.json"
+      ],
+      "elapsed_seconds": "4.885564",
+      "label": "backend_a",
+      "return_code": 0,
+      "stderr_sha256": "d2d52422592a3a0153f90833ebb0b3bc340e3389020b009eab5ca1b97c1bf516",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/tmp/k4_survivor_E_7123d08/src/k4_survivor_backend_b.py",
+        "--core",
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_backend_b",
+        "--input",
+        "/tmp/k4_survivor_E_run6/work/fixed_panel.csv",
+        "--pair-order",
+        "/tmp/k4_survivor_E_run6/artifacts/pair_order.csv",
+        "--pair-order-sha256",
+        "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+        "--output",
+        "/tmp/k4_survivor_E_run6/artifacts/backend_b_masks.bin",
+        "--work-dir",
+        "/tmp/k4_survivor_E_run6/work/backend_b",
+        "--run-report",
+        "/tmp/k4_survivor_E_run6/work/backend_b_run_report.json"
+      ],
+      "elapsed_seconds": "5.681134",
+      "label": "backend_b",
+      "return_code": 0,
+      "stderr_sha256": "25d1b29757e7bb3fb805ba0d3ff21b4a19fa3d95f92f03d2dd23aeb4a9494072",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/tmp/k4_survivor_E_run6/work/bin/k4_ap_direct_oracle",
+        "--input",
+        "/tmp/k4_survivor_E_run6/work/direct_panel.csv",
+        "--output",
+        "/tmp/k4_survivor_E_run6/work/direct_verification_raw.json"
+      ],
+      "elapsed_seconds": "19.463003",
+      "label": "direct_oracle",
+      "return_code": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "4b3e52f1315d8a0d64e1f581d9d8fa80d499060cddca75b20637d116e8256b4f"
+    }
+  ],
+  "direct_oracle_verification": {
+    "all_witness_equations_valid": true,
+    "complete_winner_sets_match_backend_a": true,
+    "complete_winner_sets_match_backend_b": true,
+    "fresh_oracle_matches_committed_direct_artifact": true,
+    "independently_rechecked_witness_count": 2448,
+    "selected_point_count": 73
+  },
+  "full_mask_equality": {
+    "byte_identical_files": true,
+    "mismatch_count": 0,
+    "point_count": 1285,
+    "status": "PASS"
+  },
+  "m4": 28227969,
+  "p4": [
+    3,
+    7,
+    11,
+    23
+  ],
+  "pair_order_sha256": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+  "panel": {
+    "activation_cell": [
+      183968950234,
+      246731069451
+    ],
+    "active_pair_count": 407,
+    "formula": "n = 240000005594 + h + k*28227969",
+    "h_values": [
+      -720,
+      -360,
+      0,
+      360,
+      720
+    ],
+    "k_interval": [
+      -128,
+      128
+    ],
+    "maximum_n": 243613186346,
+    "minimum_n": 236386824842,
+    "panel_csv_sha256": "8abec4a349441cd48e0bd52b30a9dfbec82e2c18873f3b0aa4b8fb2a60430bd0",
+    "point_count": 1285,
+    "unique_integer_count": 1285,
+    "verified_against_committed_K4_artifacts": true
+  },
+  "persistent_covered_sets": {
+    "-360": {
+      "covered_pair_count": 182,
+      "no_covered_pair_winner": true,
+      "uncovered_pair_count": 225
+    },
+    "-720": {
+      "covered_pair_count": 214,
+      "no_covered_pair_winner": true,
+      "uncovered_pair_count": 193
+    },
+    "0": {
+      "covered_pair_count": 216,
+      "no_covered_pair_winner": true,
+      "uncovered_pair_count": 191
+    },
+    "360": {
+      "covered_pair_count": 198,
+      "no_covered_pair_winner": true,
+      "uncovered_pair_count": 209
+    },
+    "720": {
+      "covered_pair_count": 209,
+      "no_covered_pair_winner": true,
+      "uncovered_pair_count": 198
+    }
+  },
+  "protected_baseline_and_prior_pilot_hashes_after": {
+    "all_byte_identical": true,
+    "baseline_manifest_file_count": 86,
+    "baseline_manifest_sha256": "4660e3e9c0757cc4c13ead7e683f84f17b00ef1e5c25fbdf25397d93f6153cb2",
+    "mismatch_count": 0,
+    "prior_k4_file_count": 10,
+    "prior_k4_manifest_sha256": "91a70d8ecc09792e23115d72351bf94c11646e6391a984a238d9b4429376f2b9"
+  },
+  "protected_baseline_and_prior_pilot_hashes_before": {
+    "all_byte_identical": true,
+    "baseline_manifest_file_count": 86,
+    "baseline_manifest_sha256": "4660e3e9c0757cc4c13ead7e683f84f17b00ef1e5c25fbdf25397d93f6153cb2",
+    "mismatch_count": 0,
+    "prior_k4_file_count": 10,
+    "prior_k4_manifest_sha256": "91a70d8ecc09792e23115d72351bf94c11646e6391a984a238d9b4429376f2b9"
+  },
+  "resource_use": {
+    "children_max_rss_kib": 169928,
+    "committed_raw_logs": false,
+    "raw_logs_location_for_this_run": "/tmp/k4_survivor_E_run6/work/logs",
+    "runner_wall_seconds": "35.285073"
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "schema": "a303656-k4-survivor-incidence-metadata-v1",
+  "scope_guards": {
+    "CRT_optimization_performed": false,
+    "P4_M4_h_or_classes_changed": false,
+    "adaptive_points_added": 0,
+    "direct_oracle_points": 73,
+    "formal_points_evaluated_by_each_backend": 1285,
+    "k_outside_fixed_interval_evaluated": false,
+    "other_integer_evaluations": 0,
+    "remaining_activation_cell_progression_scanned": false
+  },
+  "source_commit": "7123d08d4060e30a0e89f7d9b04f799414f00335",
+  "source_parent_commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+  "source_parent_is_exact_required_head": true,
+  "target_leave_anchor_out_residual_survival_analysis": {
+    "h": 0,
+    "high_survival_pair_counts": {
+      "ge_10_percent": 191,
+      "ge_25_percent": 96,
+      "ge_50_percent": 0,
+      "ge_75_percent": 0
+    },
+    "k_scope": "leave_anchor_k0_out",
+    "never_winning_uncovered_pairs": 0,
+    "pair_survival_count_histogram": {
+      "41": 1,
+      "42": 1,
+      "44": 1,
+      "45": 5,
+      "47": 2,
+      "48": 1,
+      "49": 3,
+      "50": 5,
+      "51": 3,
+      "52": 1,
+      "53": 4,
+      "54": 3,
+      "55": 4,
+      "56": 2,
+      "57": 4,
+      "58": 7,
+      "59": 8,
+      "60": 10,
+      "61": 7,
+      "62": 11,
+      "63": 12,
+      "64": 8,
+      "65": 11,
+      "66": 13,
+      "67": 10,
+      "68": 8,
+      "69": 7,
+      "70": 13,
+      "71": 7,
+      "72": 5,
+      "73": 6,
+      "74": 4,
+      "75": 3,
+      "79": 1
+    },
+    "persistent_covered_pair_count": 216,
+    "point_count": 256,
+    "residual_survival_rate": {
+      "decimal": "0.244600785340314136125654450262",
+      "denominator": 6112,
+      "numerator": 1495
+    },
+    "total_possible_uncovered_incidences": 48896,
+    "total_winner_incidences": 11960,
+    "uncovered_pair_count": 191,
+    "wins_every_k_uncovered_pairs": 0
+  },
+  "task": "K4 SURVIVOR-INCIDENCE AND COVERAGE-ADJUSTED AUDIT",
+  "tool_source_sha256": {
+    "src/k4_ap_backend_a.cpp": "a1e0607a48687970614b9b4042837c3a1a82fc1a874aee36281943b48f527042",
+    "src/k4_ap_backend_b.cpp": "40a6a833e6efd18cee09b945557420d6ec6c8bd6cb609920964d6e26c602745a",
+    "src/k4_ap_direct_oracle.cpp": "8f4ac33eda954f8857a2a9cff9cddd2dac4c7d57ef4409e33404c0ba7c8fe62c",
+    "src/k4_survivor_backend_a.py": "7e70b2a6b03a32fff30fcb4719b47cc79915341619a26483824257669d4d2a9b",
+    "src/k4_survivor_backend_b.py": "dcfe18207ada3134aa6540109d903c7d8a3460662b7a27f7afdf088b0c31a415",
+    "src/k4_survivor_run.py": "e631d5f2b2fb53bcb05249379c8b87495ac514a6065ea0fe2e26cacb589426a8",
+    "src/k4_survivor_verify.py": "2e40fcc2b9333201eaf7afd6abcff803b6de503a2de3e141cc0640185cace0e5",
+    "tests/k4_survivor_tests.py": "b1fd3fac4ded723e7420d7f1358a504540bb160c054d20437f809e64844ff077"
+  }
+}

@@ -1,0 +1,2 @@
+TN_PROVENANCE_NEGATIVE_TESTS_PASS
+expected_rejections=wrong_commit,swapped_slots,manifest_relabel,output_tamper,binary_replacement

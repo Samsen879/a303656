@@ -1,0 +1,22 @@
+{
+  "method": "exact_all_prime_segmented_factor_sieve_clean_room",
+  "low": "245",
+  "high": "245",
+  "C": 5,
+  "D": 4,
+  "finite_bound_3_rhs": "730",
+  "finite_bound_5_rhs": "3126",
+  "max_odd": -1,
+  "certificate_family": "all primes p=3 mod 4 with arbitrary odd v_p",
+  "admissible_pair_count_at_high": 21,
+  "distinct_shift_count_at_high": 20,
+  "integers_tested": 1,
+  "shifts_processed_before_termination": 2,
+  "factor_groups_processed": 1,
+  "candidate_count": 0,
+  "candidates": [],
+  "first_failure_histogram": [{"shift":"4","count":1}],
+  "factor_groups": [{"low":"1","high":"243","values":243,"prime_multiple_visits":324,"division_steps":497,"marked":150}],
+  "elapsed_seconds": 0.000398457,
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION FOR THE STATED ALL-PRIME CERTIFICATE FAMILY"
+}

@@ -1,0 +1,6 @@
+{
+  "certainty": "UNKNOWN",
+  "proof_derivation": "The retained runner declaration fixes this universe; execution can touch no integer outside it. Where bounds are absent, UNKNOWN is retained rather than guessed.",
+  "run_id": "INT-DIRECT-52WAY",
+  "superset": "52 declared 100,000,000-integer chunks; start bounds absent from retained runner metadata"
+}

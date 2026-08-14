@@ -1,0 +1,17 @@
+{
+  "all_generated_files_byte_identical": true,
+  "authoritative_result_manifest_sha256": "8dbd674b7a0d7ee093feba114c0e6a2337d07d99e2649af43099c7feb2b27a40",
+  "fresh_result_manifest_sha256": "8dbd674b7a0d7ee093feba114c0e6a2337d07d99e2649af43099c7feb2b27a40",
+  "fresh_worktree": "/tmp/a303656_p4_gate_v2_replay",
+  "raw_return_codes": {
+    "candidate_builder": 0,
+    "corruption_tests": 0,
+    "registry_builder": 0,
+    "result_builder": 0,
+    "unit_tests": 0,
+    "verifier": 0
+  },
+  "schema": "a303656-p4-gate-v2-fresh-replay-v1",
+  "source_commit_W": "db003ac88ff74d6423a9c1e8c215d0222cd53283",
+  "status": "PASS"
+}

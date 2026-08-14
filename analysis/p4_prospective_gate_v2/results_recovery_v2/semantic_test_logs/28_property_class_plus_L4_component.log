@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "CRT_TUPLE_NOT_NORMALIZED", "expected_error_code": "CRT_TUPLE_NOT_NORMALIZED", "expected_semantic_category": "arithmetic", "mutation": "non-normalized tuple representative", "return_code": 1, "status": "PASS", "stderr_excerpt": "CRT_TUPLE_NOT_NORMALIZED:arithmetic", "test": "property_class_plus_L4_component"}

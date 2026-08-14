@@ -1,0 +1,21 @@
+{
+  "all_low_t_witnesses_verified": true,
+  "bounded_candidate_status": "NO T(n)=0 IN THIS BOUNDED PILOT INTERVAL",
+  "classification": "EXACT THREE-WAY BOUNDED PILOT VERIFICATION; NOT A GLOBAL PROOF",
+  "counts_csv_sha256": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+  "generated_utc": "2026-07-13T08:52:29.802088Z",
+  "implementation_id": "tn_bitset_annulus_v1",
+  "interval": {
+    "high_exclusive": "240000100001",
+    "id": "PILOT-B",
+    "low": "240000000001",
+    "number_of_n": 100000
+  },
+  "minimum_T": 16,
+  "per_n_counts_equal": true,
+  "row_completeness_verified": true,
+  "schema": "a303656-tn-three-way-verifier-report-v1",
+  "status": "PASS",
+  "summary_reconstructed": true,
+  "verifier_source_sha256": "a1437aff38a552f2a0ce3825397cafd3385d799c1c4c0ffc6a0ce657b2e8c1d3"
+}

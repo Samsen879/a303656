@@ -1,0 +1,39 @@
+{
+  "T_backends_called": false,
+  "artifact_sha256": {
+    "design_A_all_entry_balanced.json": "c1624056d28756ef08a551f87f5e63483301a29901f2ba1a776e37c11aea1153",
+    "design_B_anchor_balanced.json": "9fd0d5e0295de4178a51c37d0c9264184df4d3506c49bb9890eafd5d1de5e37b",
+    "design_C_full_sparse_census.json": "eda6eaf490dde061f63a82bf99da7833149c6b8b2f1fcc14755cb895775c13d6",
+    "feasibility_report.json": "d03a8aaf8a79207b289fbe2ad9ffb74ec2e0dde6f7afeeb4a27c7631b064acc4",
+    "geometry_diagnostics.json": "9d0e3039bd7f57858f69cb51fa65b21ccf7302ea230c37134a28782c17fcdec2",
+    "integer_deduplication_manifest.jsonl": "df6e5c74924cb681ba184b47b2e55d78f9c45723237f3c85485b8377d4d5fa08",
+    "occupied_fresh_class_manifest.jsonl": "534ca89f5ab80dd1047eded6a84dccaacdc453baa569b8ec8b1b3ffb64884b7a",
+    "per_entry_multiplicity.json": "15a3a6a9a22c206809170fd89bcc24dfef0cfd553cb156b62217852a036d1b01",
+    "prior_evaluation_registry.json": "428f5abee8462d21777326c9fbdf9aa215d722f43d9ceaed75b980e30c4158af"
+  },
+  "direct_oracle_called": false,
+  "factorization_called": false,
+  "integer_values_recorded_from_CRT_only": true,
+  "new_integer_T_evaluations": 0,
+  "protected_hashes_before_and_after": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/fifth_prime_marginal_coverage/results/frozen_base_masks.json": "11d54f3c9d714c36bd6afd130a30daa0e074f71b106052bb10fe4889361a88a3",
+    "analysis/fifth_prime_marginal_coverage/results/frozen_future_shortlist.json": "3b369ade30c2ee0925a19872bf317ea2bc5116812904bff5ad7d8d870eb9c561",
+    "analysis/fifth_prime_marginal_coverage/results/global_summaries.json": "15fb6f90c47e2929358eb4d7f90ea16030d7cd786edf594a46ed728bf52d593d",
+    "analysis/fifth_prime_marginal_coverage/results/per_prime_compressed_landscapes.jsonl": "e5bd40c1db3f85970629488e03bbf0aaf724607ab87c812226c9b138bae15df2",
+    "analysis/k4_survivor_incidence/pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "analysis/p4_weighted_transferability/results/candidate_manifest_holdout_v2.json": "728fd5195d91c75b2b93ae02e4ad43aea07afb6fd6a511c54596d0658bc6e1ca",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "schema": "a303656-p5-sparse-feasibility-metadata-v1",
+  "source_provenance": {
+    "head_at_generation": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370",
+    "source_commit": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370",
+    "source_is_ancestor": true,
+    "starting_commit": "c710dcc9b472a8500b038a33db1315043cffca6e"
+  },
+  "two_square_test_called": false
+}

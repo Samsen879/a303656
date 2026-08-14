@@ -1,0 +1,359 @@
+{
+  "canonical_digest": "d8285b9726f0e78f366f1df5e370a2778c967cd5684a9be7e1183800b820224d",
+  "components": [
+    {
+      "component_id": "FORMAL_CONTINUOUS_1P6B",
+      "endpoint_convention": "inclusive",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "extent": {
+        "integer_count": 1600000000,
+        "interval": [
+          240000000001,
+          241600000000
+        ]
+      },
+      "note": "Continuous direct representability interval; length exceeds L4.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533",
+      "source_commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "source_path": "output/formal_results_audit.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "FORMAL_OTHER_DUAL_INTERVALS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "extent": {
+        "interval_union_count": 27,
+        "normalized_intervals": [
+          [
+            2,
+            200001
+          ],
+          [
+            240000000001,
+            241600000000
+          ],
+          [
+            242000000001,
+            242010000000
+          ],
+          [
+            244000000001,
+            244010000000
+          ],
+          [
+            246730000000,
+            246739999999
+          ],
+          [
+            248000000001,
+            248010000000
+          ],
+          [
+            250000000001,
+            250100000000
+          ],
+          [
+            252000000001,
+            252010000000
+          ],
+          [
+            254000000001,
+            254010000000
+          ],
+          [
+            256000000001,
+            256010000000
+          ],
+          [
+            258000000001,
+            258010000000
+          ],
+          [
+            260000000001,
+            260010000000
+          ],
+          [
+            262000000001,
+            262010000000
+          ],
+          [
+            264000000001,
+            264010000000
+          ],
+          [
+            266000000001,
+            266010000000
+          ],
+          [
+            268000000001,
+            268010000000
+          ],
+          [
+            270000000001,
+            270100000000
+          ],
+          [
+            272000000001,
+            272010000000
+          ],
+          [
+            274000000001,
+            274010000000
+          ],
+          [
+            276000000001,
+            276010000000
+          ],
+          [
+            278000000001,
+            278010000000
+          ],
+          [
+            280000000001,
+            280010000000
+          ],
+          [
+            282300000001,
+            282410000000
+          ],
+          [
+            282420000001,
+            282440000000
+          ],
+          [
+            762930000001,
+            762950000000
+          ],
+          [
+            1000000000001,
+            1000001000000
+          ],
+          [
+            10000000000001,
+            10000001000000
+          ],
+          [
+            100000000000001,
+            100000001000000
+          ]
+        ]
+      },
+      "note": "Remaining formal dual-implementation intervals imported through the legacy registry.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533",
+      "source_commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "source_path": "output/formal_results_audit.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "LEGACY_COMPLETE_PRIOR_REGISTRY_V1",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": "MIXED_BY_SUBCOMPONENT",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK",
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {
+        "interval_union_count": 28,
+        "sparse_integer_count": 6129
+      },
+      "note": "Provenance snapshot for pilots, dossier, K4, and fixed-P4 census.",
+      "outcome_used_in_downstream_selection": "MIXED_BY_SUBCOMPONENT",
+      "sha256": "428f5abee8462d21777326c9fbdf9aa215d722f43d9ceaed75b980e30c4158af",
+      "source_commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "source_path": "analysis/p5_sparse_panel_feasibility/results/prior_evaluation_registry.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "P4_CALIBRATION_AND_G231",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": true,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY",
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {
+        "integer_source": "analysis/p4_maximizer_census/class_panel.csv"
+      },
+      "note": "Calibration panels and G=231 census; integers already represented by legacy registry points.",
+      "outcome_used_in_downstream_selection": true,
+      "sha256": "7441d183a33fa66dda87e74ef28e0de422053843e72992e6a2d3fd1a3af3de5f",
+      "source_commit": "d547130508c7d06b099eab4e93b0db7a0afa7c89",
+      "source_path": "analysis/p4_maximizer_census/verification_report.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "P4_WEIGHTED_FIXED_RUNS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {
+        "new_integer_count": 0
+      },
+      "note": "Weighted work reused the census and its oracle-selection subset.",
+      "outcome_used_in_downstream_selection": true,
+      "sha256": "91955d84509ac8eb69e3932b4b04a9873c305c9b93d3f845992a95cd9ec1288c",
+      "source_commit": "7b4515f463af373bf341407878171b627c7aadc1",
+      "source_path": "analysis/p4_weighted_transferability/results/metadata.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "FIFTH_PRIME_MARGINAL",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {
+        "new_integer_count": 0
+      },
+      "note": "Modular-only work; no integer evaluation.",
+      "outcome_used_in_downstream_selection": true,
+      "sha256": "890b11be3daa3d33751b86aa768fd47797e4d9600c28480d0876d1e14690ec1c",
+      "source_commit": "c710dcc9b472a8500b038a33db1315043cffca6e",
+      "source_path": "analysis/fifth_prime_marginal_coverage/results/metadata.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "P5_FAMILY_U_CENSUS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": true,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY",
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK",
+        "E4_DIRECT_ORACLE_OR_WITNESS_VERIFIED"
+      ],
+      "extent": {
+        "description_count": 457,
+        "distinct_integer_count": 454
+      },
+      "note": "Post-v1 census; collisions preserve one integer with multiple descriptions.",
+      "outcome_used_in_downstream_selection": true,
+      "sha256": "7aed818f628bcfda7573c3d9ee51cdbe9eebf7b273ee11263023017f86c68ea4",
+      "source_commit": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310",
+      "source_path": "analysis/p5_family_u_census/results/panel_reconstruction_manifest.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "P5_FAMILY_R",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {
+        "new_integer_count": 0
+      },
+      "note": "Family R descriptions were design-only in this authority chain.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "c1624056d28756ef08a551f87f5e63483301a29901f2ba1a776e37c11aea1153",
+      "source_commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "source_path": "analysis/p5_sparse_panel_feasibility/results/design_A_all_entry_balanced.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "P5_FAMILY_Q",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {
+        "new_integer_count": 0
+      },
+      "note": "Family Q descriptions were design-only in this authority chain.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "9fd0d5e0295de4178a51c37d0c9264184df4d3506c49bb9890eafd5d1de5e37b",
+      "source_commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "source_path": "analysis/p5_sparse_panel_feasibility/results/design_B_anchor_balanced.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "SPARSE_FEASIBILITY_RUNS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {
+        "new_integer_count": 0
+      },
+      "note": "Sparse feasibility did not execute candidate integers.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "b08640370e95ac7367cdebaffe48a370b364d68464507b6bd56904ff958aba85",
+      "source_commit": "1a3b130536245ef8fcd318b591e1dd37c03eef06",
+      "source_path": "analysis/p5_sparse_panel_feasibility/results/verification_report.json",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "LOW_T_RECORDS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": true,
+      "exposure_levels": [
+        "E2_EXACT_T_COUNT",
+        "E3_COMPLETE_WINNER_MASK"
+      ],
+      "extent": {
+        "covered_by": "LEGACY_COMPLETE_PRIOR_REGISTRY_V1"
+      },
+      "note": "PILOT-A/B are imported through the legacy registry; labels are never read by candidate selection.",
+      "outcome_used_in_downstream_selection": true,
+      "sha256": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "source_commit": "73fbec48fb1343de9e6fa7cf2bcc84e86837955b",
+      "source_path": "output/tn_pilot_20260713/pilot_a/bitset/counts.csv",
+      "status": "COMPLETE"
+    },
+    {
+      "component_id": "INTERRUPTED_PARTIAL_ABANDONED",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": "NOT_ESTABLISHED",
+      "exposure_levels": [
+        "E1_BINARY_REPRESENTABILITY_CHECK"
+      ],
+      "extent": {
+        "integer_count": "NOT_ESTABLISHED"
+      },
+      "note": "Some processes ended before complete chunk JSON/return-code pairs; actual touched integers are not reconstructable.",
+      "outcome_used_in_downstream_selection": "NOT_ESTABLISHED",
+      "sha256": "6a33445a3baba3f4d95b93cf26e210b50cfb57f3b0f49cf054077fb9e59eee53",
+      "source_commit": "1158fdb813168c2b41b889a0b71021677461198a",
+      "source_path": "logs/INTERRUPTED_RUNS.txt",
+      "status": "PARTIAL"
+    },
+    {
+      "component_id": "REPLAY_AND_COLLISION_RECORDS",
+      "endpoint_convention": "not_applicable",
+      "exact_T_computed": false,
+      "exposure_levels": [
+        "E0_DESIGN_ONLY"
+      ],
+      "extent": {
+        "new_integer_count": 0,
+        "reused_integer_count": 3
+      },
+      "note": "Replays and description collisions reuse registered integers; they are not new exposure.",
+      "outcome_used_in_downstream_selection": false,
+      "sha256": "b9bfc5f72b1f87f60cdaca4ea4aaba9e18c3d4ab835aa4f9165735f712656dde",
+      "source_commit": "f452f2dbf66ba9f72f9fe035e367fcc0a8a31310",
+      "source_path": "analysis/p5_family_u_census/results/description_integer_incidence.json",
+      "status": "COMPLETE"
+    }
+  ],
+  "schema": "a303656-historical-exposure-components-v2"
+}

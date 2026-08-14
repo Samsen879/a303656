@@ -1,0 +1,23 @@
+	Command being timed: "python3 tests/tn_provenance_negative_tests.py --python python3 --runner src/run_tn_pilot.py --verifier src/verify_tn_pilot.py --bitset-dir /tmp/a303656_tn_runner_fixture/bitset --clean-dir /tmp/a303656_tn_runner_fixture/clean --oracle-dir /tmp/a303656_tn_runner_fixture/oracle --clean-binary /tmp/a303656_tn_prebuild/tn_count_clean --source-tree . --low 2 --high 100 --interval-id FIXTURE-RUNNER --work-dir /tmp/a303656_tn_negative_verifier_bound"
+	User time (seconds): 0.18
+	System time (seconds): 0.15
+	Percent of CPU this job got: 7%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 18432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 32
+	Minor (reclaiming a frame) page faults: 14606
+	Voluntary context switches: 117
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 3112
+	File system outputs: 2752
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,15 @@
+{
+  "a303656": "UNRESOLVED",
+  "accepted_basis": "Independent web exact-hash audit accepted by Samsen on 2026-08-14 after N-004 and N-009 scope corrections",
+  "artifact_path": "authority/candidates/A303656_POST_TRIGGER_MASTER_AUTHORITY_V2_FINAL_FREEZE_CANDIDATE.zip",
+  "artifact_pre_acceptance_status": "FINAL FREEZE CANDIDATE — PENDING INDEPENDENT WEB EXACT-HASH AUDIT",
+  "curation_authority": "AUTHORIZED",
+  "designation": "MASTER AUTHORITY V2: FROZEN",
+  "freeze_date": "2026-08-14",
+  "public_github_release": "NOT YET AUTHORIZED",
+  "schema": "a303656-master-authority-freeze-receipt-v1",
+  "sha256": "3033149749b1dbfb70ac73190d5323ee1817a219ce07c1e1913d1008c8629d35",
+  "private_forensic_commit_note": "This identifier belongs to the preserved private research history and is not expected to resolve in the public repository.",
+  "private_forensic_scope_patch_commit": "ac5dff25a30fc016a4df16daa7eb47fef2d6bcc2",
+  "validator_path": "scripts/verify_master_authority_v2_final.py"
+}

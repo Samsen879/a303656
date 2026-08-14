@@ -1,0 +1,2 @@
+279b36dd5043500aba8d8e1d1d2221c1c97e416e806d477b5de3a81dc31cd94c  src/search_twosquares_bitset.cpp
+2815c39ea97b134322860d4772ea574779886bd35b5754b1607e6f4615952f30  src/search_twosquares_clean.cpp

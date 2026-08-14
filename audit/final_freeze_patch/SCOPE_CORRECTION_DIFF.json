@@ -1,0 +1,34 @@
+{
+  "a303656": "UNRESOLVED",
+  "authority_effect": "SCOPE_CLARIFICATION_ONLY",
+  "candidate_status": "FINAL FREEZE CANDIDATE — PENDING INDEPENDENT WEB EXACT-HASH AUDIT",
+  "changes": [
+    {
+      "id": "N-004",
+      "new_scope": "The O(sqrt(X) log X) threshold is specific to the SRC-005 absolute-minor-spectrum / F3 localization mechanism. It is not asserted as a universal necessary threshold for all future exceptional-set inverse methods, and a future arithmetic bipartite expansion theorem is not excluded.",
+      "unchanged_fields": [
+        "id",
+        "name",
+        "group",
+        "classification",
+        "adjudication",
+        "source_ids"
+      ]
+    },
+    {
+      "id": "N-009",
+      "new_scope": "This proves arbitrarily large Helly obstruction on arbitrary finite active-shift restrictions. It does not prove that the complete D(n) actual-mask family itself has unbounded Helly number, and it does not exclude a theorem using the full arithmetic witness graph.",
+      "unchanged_fields": [
+        "id",
+        "name",
+        "group",
+        "classification",
+        "adjudication",
+        "source_ids"
+      ]
+    }
+  ],
+  "project": "PAUSED",
+  "route_verdict_changes": 0,
+  "theorem_status_changes": 0
+}

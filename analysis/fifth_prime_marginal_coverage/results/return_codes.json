@@ -1,0 +1,17 @@
+{
+  "schema": "a303656-fifth-prime-raw-return-codes-v1",
+  "commands": [
+    {"name": "initial_HEAD_gate", "return_code": 0},
+    {"name": "source_unit_tests", "return_code": 0},
+    {"name": "corruption_test_harness", "return_code": 0},
+    {"name": "generation_wrong_source_sha_attempt_1", "return_code": 2, "classification": "EXPECTED FAIL-CLOSED"},
+    {"name": "generation_wrong_source_sha_attempt_2", "return_code": 2, "classification": "EXPECTED FAIL-CLOSED"},
+    {"name": "authoritative_generation_final_O", "return_code": 0, "wall_seconds": 348.03, "maximum_rss_kib": 253180},
+    {"name": "full_verifier_stale_auxiliary_hash_attempt", "return_code": 2, "wall_seconds": 330.97, "maximum_rss_kib": 257740, "classification": "EXPECTED FAIL-CLOSED; PACKAGING HASH BUG, NO MATHEMATICAL MISMATCH"},
+    {"name": "hardened_full_verifier", "return_code": 0, "wall_seconds": 443.90, "maximum_rss_kib": 255492},
+    {"name": "fresh_O_generation", "return_code": 0, "wall_seconds": 359.13, "maximum_rss_kib": 252908}
+  ],
+  "individual_corruption_probe_expected_return_code": 2,
+  "fresh_P_verifier_receipt": "POST-COMMIT EXTERNAL RECEIPT; RUN AFTER RESULTS COMMIT P",
+  "new_integer_evaluations": 0
+}

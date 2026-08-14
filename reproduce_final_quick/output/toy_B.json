@@ -1,0 +1,61 @@
+{
+  "method": "B_CEGIS_Z3_Int",
+  "z3_version": "4.16.0",
+  "low": "2",
+  "high": "50",
+  "C": 3,
+  "D": 2,
+  "primes": [
+    3,
+    7,
+    11,
+    19
+  ],
+  "max_iterations": 50,
+  "records": [
+    {
+      "iteration": 1,
+      "candidate_n": "37",
+      "active_pair_count": 11,
+      "new_counterexample_pair": {
+        "c": 0,
+        "d": 1,
+        "shift": "6"
+      },
+      "current_constraint_count": 1,
+      "prime_count": 4,
+      "solver_seconds": 0.040123984000274504,
+      "verifier_seconds": 0.00011688300037349109,
+      "termination": "continue"
+    },
+    {
+      "iteration": 2,
+      "candidate_n": "5",
+      "active_pair_count": 2,
+      "new_counterexample_pair": {
+        "c": 1,
+        "d": 0,
+        "shift": "4"
+      },
+      "current_constraint_count": 2,
+      "prime_count": 4,
+      "solver_seconds": 0.012206835000142746,
+      "verifier_seconds": 4.1262000195274595e-05,
+      "termination": "continue"
+    },
+    {
+      "iteration": 3,
+      "solver_result": "unsat",
+      "solver_seconds": 0.11706774200047221,
+      "reason_unknown": null,
+      "current_constraint_count": 3,
+      "prime_count": 4,
+      "termination": "solver_unsat_without_proof_object"
+    }
+  ],
+  "candidate": null,
+  "termination": "solver_unsat_without_proof_object",
+  "independent_python_verifier_returncode": null,
+  "certificate_paths": {},
+  "classification": "SMT_UNSAT_WITHOUT_PROOF_OBJECT"
+}

@@ -1,0 +1,1 @@
+{"actual_category": "selection", "actual_code": "SELECTION_INDEX_RANGE", "expected_error_code": "SELECTION_INDEX_RANGE", "expected_semantic_category": "selection", "mutation": "negative index", "return_code": 1, "status": "PASS", "stderr_excerpt": "SELECTION_INDEX_RANGE:selection", "test": "bypass3_invalid_index"}

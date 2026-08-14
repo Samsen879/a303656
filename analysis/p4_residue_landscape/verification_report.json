@@ -1,0 +1,94 @@
+{
+  "artifact_report": {
+    "crt_rows_checked": 184,
+    "files_checked": [
+      "coverage_comparison.json",
+      "crt_candidates.json",
+      "full_histogram.csv",
+      "local_landscape.json",
+      "maximizers.json",
+      "metadata.json",
+      "n0_rank.json",
+      "subset_optima.csv",
+      "t3eq2_histogram.csv",
+      "verification_report.json"
+    ]
+  },
+  "classification": "EXACT FINITE COMPUTATION CERTIFICATE VERIFIED",
+  "coverage_sets": {
+    "per_prime": {
+      "11": {
+        "membership_count": 4070,
+        "residue_count": 121,
+        "sets_digest": "d521dd6991dd1fbc25bb3b6a784df12dbad00b10d5eb40913791f7dc5de7c1b8"
+      },
+      "23": {
+        "membership_count": 8954,
+        "residue_count": 529,
+        "sets_digest": "763c8357adbc9b2404c5bfc6977cd4dbf3bd6875a6fdc321487856dad75a94a3"
+      },
+      "3": {
+        "membership_count": 814,
+        "residue_count": 9,
+        "sets_digest": "10d4d3f2d72f308bbdee09baff5db318702367bd0f93cee67d1c957b18233c22"
+      },
+      "7": {
+        "membership_count": 2442,
+        "residue_count": 49,
+        "sets_digest": "609ea5261b241456a18c4e4a5c44660f8b7b03d200cd28d0a1b705809aa7b4b3"
+      }
+    },
+    "valuation3_exclusion_witness": {
+      "pair_index": 4,
+      "prime": 3,
+      "residue": 5
+    }
+  },
+  "domain": {
+    "duplicate_shift_28_pairs": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "interval": [
+      183968950234,
+      246731069451
+    ],
+    "pair_count": 407,
+    "pairs_digest": "cea7cb028f9e9cc05e120b693924e6860e4f6821e23e42366f1122921e36cf39"
+  },
+  "full": {
+    "argmax_count": 156,
+    "argmax_digest": "81734726245a8bf936118126f22486ae03d032af4bee732a19a07106db8bc711",
+    "maximum": 231,
+    "minimum": 57,
+    "stream_digest": "19c546957f7c5ef82ecfd552edf5a31b1f33fdc86397a0b92a38a4aca40d608c",
+    "tuple_count": 28227969
+  },
+  "manifest_reports": [],
+  "n0": {
+    "coverage": 216,
+    "tuple": [
+      2,
+      41,
+      74,
+      504
+    ]
+  },
+  "schema": "a303656-fixed-p4-verification-report-v1",
+  "status": "PASS",
+  "subset_optima_checked": 15,
+  "t3eq2": {
+    "argmax_count": 84,
+    "argmax_digest": "f83d2400cd684dbcc5027d82dcd0d053fdf64521a770b12231cdc259adade825",
+    "maximum": 231,
+    "minimum": 171,
+    "stream_digest": "fd409acfc3f35aa8e333d654a94f5d06c3093f6c5ffd3207adadfe64ed12310c",
+    "tuple_count": 3136441
+  }
+}

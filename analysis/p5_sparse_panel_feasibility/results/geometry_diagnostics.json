@@ -1,0 +1,2296 @@
+{
+  "CRT_class_independence_claim_made": false,
+  "activation_cell": [
+    183968950234,
+    246731069451
+  ],
+  "boundary_alignment_driven_entries": [
+    "R/ENTRY-008"
+  ],
+  "cell_width": 62762119218,
+  "diagnostic_rule": "boundary alignment is flagged per entry when more than half of occupied members lie in the first or last 5 percent of the activation cell",
+  "entries": [
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.166666666666666657",
+        "denominator": 6,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.142857142857142849",
+        "denominator": 7,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "47d72c7876ea6e8e6f78bca25b126047fd6fc04519a2d17a0641f84c3bf309ea",
+        "occupied_residues_digest": "823abcf8b0eacd3b610578cc90cc7bc32160e185b8788d0bcf65535fe11c23a2"
+      },
+      "entry_id": "ENTRY-001",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.012691467527793380",
+        "denominator": 67935312060,
+        "numerator": 862198807
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.166666666666666657",
+        "denominator": 6,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "17f179902e8ed48228191c5439594b83f7e933e4b13ebc646ff5e4eee80e7493",
+        "occupied_residues_digest": "a922d9d4d981b748a71157171246d336b85b27a32cd33cdd86016a2dea5b3acb"
+      },
+      "entry_id": "ENTRY-002",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.012691467527793380",
+        "denominator": 67935312060,
+        "numerator": 862198807
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.155555555555555558",
+        "denominator": 45,
+        "numerator": 7
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "dbd6f5199dfefded998d2acb1a20d6bf9bd15b8281f0a6a44c85d215e73d111f",
+        "occupied_residues_digest": "9fe90fdbaa2aa226a4a9762079a0cc19cddee8b95a07f7b5618654b0a1d59fa6"
+      },
+      "entry_id": "ENTRY-003",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.001580356416682269",
+        "denominator": 203805936180,
+        "numerator": 322086019
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.153846153846153855",
+        "denominator": 13,
+        "numerator": 2
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.125000000000000000",
+        "denominator": 8,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "434c6d5510f9c618882ea7dea50dfd343614df1c826c0cbb006515a4d86d577f",
+        "occupied_residues_digest": "9af51b7e0af3902d9b44ffc21c82d5fe63643b479a55a425bf828e9c803d2641"
+      },
+      "entry_id": "ENTRY-004",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000129045292719440",
+        "denominator": 294386352260,
+        "numerator": -37989173
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "f381d17e6705bb0d4da00fca223aa475d58211fc1ecee7f5b361f4b8569bd559",
+        "occupied_residues_digest": "8ad2135efdf15dc4ad81af9d9929583c08975be73fe959c66b94ef047889f80f"
+      },
+      "entry_id": "ENTRY-005",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.082546627710301856",
+        "denominator": 22645104020,
+        "numerator": -1869276971
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.250000000000000000",
+        "denominator": 4,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "c990a670d2404d0a7d646a8234f2fe97aeacae9e5c39597d45d1755b0ad641f8",
+        "occupied_residues_digest": "9e377b21964fbb3383acd1f3320dcc247938d856e3047990c08fc1b221e34ab7"
+      },
+      "entry_id": "ENTRY-006",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.096024800861126719",
+        "denominator": 5661276005,
+        "numerator": 543622901
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.059523809523809521",
+        "denominator": 84,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "2277467020c51abb71732ce6acd0003413e296f93102bce39543715f287c6746",
+        "occupied_residues_digest": "9f03d6241bf7c123478cedccc81c2d467903cc9e5f98dbb951ac946ecda82b24"
+      },
+      "entry_id": "ENTRY-007",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.001682969888915396",
+        "denominator": 45211797015,
+        "numerator": 76090093
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "1.000000000000000000",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "dc80d2a173bcd616c3ec464a680b50b050f864541495a9651777d5810fd170e4",
+        "occupied_residues_digest": "dd090edf4ede3bff6bc70589f6e276ecf5267701adbba97bb7aa1a624ec9dcf4"
+      },
+      "entry_id": "ENTRY-008",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.013587731793677301",
+        "denominator": 60282396020,
+        "numerator": 819101029
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-009",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": -3486784401
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.011904761904761904",
+        "denominator": 84,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "bf0b8ba110ec4e1b6daeb21d36d257c2c89f2fca49523ff5c20c3e0f68badc6b",
+        "occupied_residues_digest": "459d64b076cdd2e38957dae76d7b854db243fb93d1f9dbd54e68c6f12ffcc2da"
+      },
+      "entry_id": "ENTRY-010",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.018157459235926713",
+        "denominator": 86989191135,
+        "numerator": -1579502692
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "d4046dbd3c64d0cad571ff941f9a3a72cf3c92c4facc2a592b4b2e83fcd2d75a",
+        "occupied_residues_digest": "a5cf056a165d387a3954b04cfd27929a1ccf955b8e6144267bfd29aa4b93b831"
+      },
+      "entry_id": "ENTRY-011",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.041366350287882811",
+        "denominator": 115985588180,
+        "numerator": 4797900469
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-012",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": -3486784401
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.023809523809523808",
+        "denominator": 42,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "eede6070bd58b50f4c0c730842ba9d7337efa266fcef4bac5b180c1d50bff601",
+        "occupied_residues_digest": "fe8dfa9afa9712953128f217c1e658f8d6f38a0ee05710b966de2b8f821fd485"
+      },
+      "entry_id": "ENTRY-013",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.001353467086417004",
+        "denominator": 415703890140,
+        "numerator": -562641533
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "dd0d623a5e1ccfb9b43db6a5405613bb672ccfe71117a95915fba25d17fb5698",
+        "occupied_residues_digest": "0e3d5cd47ac539a0af7a889f708432a8bc951e6bc64d1554a1906bbbae061162"
+      },
+      "entry_id": "ENTRY-014",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "0.046265580532630614",
+        "denominator": 138567963380,
+        "numerator": 6410927269
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-015",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": -3486784401
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 3930462403560,
+      "actual_occupied_fraction": {
+        "decimal": "0.011904761904761904",
+        "denominator": 84,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "6e9d9ccb82b3f2ce74d656399547cc31d8c0378a2232dcc5c8264759c13805da",
+        "occupied_residues_digest": "039d927f6fbd0e7945d6e23663c8aa60a1167851c08807aa53357abfbb7f35d9"
+      },
+      "entry_id": "ENTRY-016",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.004063364176574854",
+        "denominator": 163769266815,
+        "numerator": -665454172
+      },
+      "q": 59,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-017",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": -3486784401
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-018",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": -3486784401
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.011904761904761904",
+        "denominator": 84,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "108bf6cd53558568b266d5f5f2bb148995da914f0cab3dc870d1d548bb169113",
+        "occupied_residues_digest": "d9609a6354edaec069ddcc8977e813a8321adee48b3e7d24c2207daf5ce18304"
+      },
+      "entry_id": "ENTRY-019",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000477739072991104",
+        "denominator": 211192254735,
+        "numerator": -100894792
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "occupied_residues_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "entry_id": "ENTRY-020",
+      "family": "R",
+      "occupancy_discrepancy": {
+        "decimal": "-0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": -3486784401
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.159090909090909088",
+        "denominator": 44,
+        "numerator": 7
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.108843537414965982",
+        "denominator": 147,
+        "numerator": 16
+      },
+      "boundary_5pct_member_count": 16,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "9b2530daf5b3750340831ad19fa73c5a869016dacf12dfe12bc1ce8b63233218",
+        "occupied_residues_digest": "0b012a06e0a53b42f3c4cb3d55ff4f757aaa522edd5ed4637ba056967ad41d90"
+      },
+      "entry_id": "ENTRY-001",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.005115709952035805",
+        "denominator": 5661276005,
+        "numerator": 28961446
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.158564814814814825",
+        "denominator": 864,
+        "numerator": 137
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.094890510948905105",
+        "denominator": 137,
+        "numerator": 13
+      },
+      "boundary_5pct_member_count": 13,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "c7b1fbb60970803d734b3302802060faf905dd1e532780633efd18b259b5141f",
+        "occupied_residues_digest": "6ad7e317abcb6624b71707ca4923cdf56c8840ca0f9dccdc3e5b0c09f1bc5f79"
+      },
+      "entry_id": "ENTRY-002",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.004589615675941528",
+        "denominator": 4891342468320,
+        "numerator": 22449382069
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.153535353535353525",
+        "denominator": 495,
+        "numerator": 76
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.085526315789473686",
+        "denominator": 152,
+        "numerator": 13
+      },
+      "boundary_5pct_member_count": 13,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "1832303e8e73f3336c4c93c8db6faa3469e80479012a1ed823b46fe425b948ab",
+        "occupied_residues_digest": "ef14ee88b4c2c1b6adddd9fb222cc47ca47c28db53dc36e5bb21903ba45357ef"
+      },
+      "entry_id": "ENTRY-003",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000439845603519751",
+        "denominator": 40761187236,
+        "numerator": -17928629
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.153846153846153855",
+        "denominator": 13,
+        "numerator": 2
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.090909090909090912",
+        "denominator": 11,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 8,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "a1463e90b66cd2a714389eb4413fd010686ba168f917405fa665e6bf3a58070e",
+        "occupied_residues_digest": "d4e075b9c78b8c35efceb67196e6a177a25be00c43f2a6b4f670981692cead7e"
+      },
+      "entry_id": "ENTRY-004",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000129045292719440",
+        "denominator": 294386352260,
+        "numerator": -37989173
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.158730158730158721",
+        "denominator": 63,
+        "numerator": 10
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.100000000000000006",
+        "denominator": 10,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "3ddf1efa2708493aeea88d4feab8a122908acb2c876a6b4893245526b08ced92",
+        "occupied_residues_digest": "30c05c7bbf4a70abcc63f8372db852dccfe8f785fbaae2a35d2fb15f62dc916b"
+      },
+      "entry_id": "ENTRY-005",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.004754959591285444",
+        "denominator": 203805936180,
+        "numerator": 969088991
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.093750000000000000",
+        "denominator": 32,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "705acca2b548b255e67e438b22e3560194d1368795ebee67c1b340641c775fd9",
+        "occupied_residues_digest": "c1078d143a0416aa6a4c88cca7ef5d1c79ee0a3d8f8303c2ff7858223f74c75d"
+      },
+      "entry_id": "ENTRY-006",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.060225199138873288",
+        "denominator": 181160832160,
+        "numerator": -10910447193
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.055952380952380955",
+        "denominator": 840,
+        "numerator": 47
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.063829787234042548",
+        "denominator": 47,
+        "numerator": 3
+      },
+      "boundary_5pct_member_count": 6,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "d7c3f5bcb64efdc5ec37659313b1978d2b8fa4570c3a35b375a97b3bf65deb30",
+        "occupied_residues_digest": "256172028b3bb9434c42ecac79263d6a3b0c92d44b047dab500cfe89a6969be3"
+      },
+      "entry_id": "ENTRY-007",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.001888458682513175",
+        "denominator": 72338875224,
+        "numerator": -136608977
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.047619047619047616",
+        "denominator": 21,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.083333333333333329",
+        "denominator": 12,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "29aa9372e5b4aafc036305fed36206594016893904bb2b89cd9a6f3d09b2444a",
+        "occupied_residues_digest": "c7bdfd09ee08951ce82ec2bc6ee4d80927c059d9af448a23cf5786b76a8d691c"
+      },
+      "entry_id": "ENTRY-008",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.010221792015846509",
+        "denominator": 180847188060,
+        "numerator": -1848582343
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4ba092a34b54da20eb544cc6810e2394259a708efc538514d07afd2bf66a9026",
+        "occupied_residues_digest": "3d81cded83143b334b012db73a25fb1c781bee3381b7b4a3c82bb53916f7d9bd"
+      },
+      "entry_id": "ENTRY-009",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.013587731793677301",
+        "denominator": 60282396020,
+        "numerator": 819101029
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.030612244897959183",
+        "denominator": 98,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.088888888888888892",
+        "denominator": 45,
+        "numerator": 4
+      },
+      "boundary_5pct_member_count": 8,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "db6a753ac3da4a1ffabaec4c7bf26d0dec2712ad2e4b1c8cd80fcf0039bed82f",
+        "occupied_residues_digest": "f2a9cf2697288a32032e544dd8c1a0466d82e469f6c43ba21a979fc7a74dfc56"
+      },
+      "entry_id": "ENTRY-010",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.000550023757270565",
+        "denominator": 16569369740,
+        "numerator": 9113547
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.030612244897959183",
+        "denominator": 98,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.133333333333333331",
+        "denominator": 15,
+        "numerator": 2
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "76adac91ffe1d93fa257117a6aca54a4a1e12d7ebeafa6da00678f9859c2fa0a",
+        "occupied_residues_digest": "6dfb5424c4a61d009a1c110ca3f4bfe36bbd2d6c7de1ff6fb013b42f0c6cb974"
+      },
+      "entry_id": "ENTRY-011",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.000550023757270565",
+        "denominator": 16569369740,
+        "numerator": 9113547
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.027777777777777776",
+        "denominator": 36,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "c267bc0ff0cd353ef1108f514b50f3ad248cabb0cfa8d1b7e9280eedab8f15da",
+        "occupied_residues_digest": "d348ed49ddba98005a4905a2c542ed1c2d4452e681551829aeed7c017d3f901c"
+      },
+      "entry_id": "ENTRY-012",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.002284443362910841",
+        "denominator": 260967573405,
+        "numerator": -596165641
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.025641025641025640",
+        "denominator": 39,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.119047619047619041",
+        "denominator": 42,
+        "numerator": 5
+      },
+      "boundary_5pct_member_count": 10,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "3ace7f9becb5ef351e8577fff5eb13f314bad6ed0fc0a892cf997624c86ddbc6",
+        "occupied_residues_digest": "8db250417acdd2aea8f0ca690266cfef14ffdbc7ce371aafb114e628ab006a3b"
+      },
+      "entry_id": "ENTRY-013",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.000478034745084828",
+        "denominator": 5404150571820,
+        "numerator": 2583371741
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.027472527472527472",
+        "denominator": 182,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.133333333333333331",
+        "denominator": 15,
+        "numerator": 2
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "52d6624b2c5ec6c0e5dc0d4c704081d405ef3376632f3753b0c7dfd15d144538",
+        "occupied_residues_digest": "57d2c5ba5931a2b99befc6f2ae3ded3b83c8a12521a2baf4dc8c37cedbca9f1b"
+      },
+      "entry_id": "ENTRY-014",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.002309536576586659",
+        "denominator": 1801383523940,
+        "numerator": 4160361137
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.013392857142857142",
+        "denominator": 224,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "474717040488a24b43dbb966e05c9f8c1bc62bf5e0c89c8816f76c71f1b9fea2",
+        "occupied_residues_digest": "c8dc193440d06eb729c5a5a9426a8b7248f6d94ddc152317440a4a32c07e097f"
+      },
+      "entry_id": "ENTRY-015",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.001010356165104134",
+        "denominator": 2252717383840,
+        "numerator": 2276046897
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 3930462403560,
+      "actual_occupied_fraction": {
+        "decimal": "0.016621743036837375",
+        "denominator": 2226,
+        "numerator": 37
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.108108108108108114",
+        "denominator": 37,
+        "numerator": 4
+      },
+      "boundary_5pct_member_count": 8,
+      "cell_width_over_L5": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "064f517dfbbe84c087c44f3f1e27fe5dd1680d68d203e1d40f362542094c64dc",
+        "occupied_residues_digest": "a9cd543fed3e65ee9148526bba5f7462b8e6ab9e8287c43ebee4dac994642cd5"
+      },
+      "entry_id": "ENTRY-016",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "0.000653616955500618",
+        "denominator": 34719084564780,
+        "numerator": 22692982351
+      },
+      "q": 59,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.012315270935960592",
+        "denominator": 406,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "21869d46c57995bce40b581f73c099471456dbb7c05a03de2cfe7b116f0e35a0",
+        "occupied_residues_digest": "24c919ef74f965c74ba72f7fb6d5a1f5080b7b460a8529d09e6efa19c5c966be"
+      },
+      "entry_id": "ENTRY-017",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000067230041792418",
+        "denominator": 8166100516420,
+        "numerator": -549007279
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.007936507936507936",
+        "denominator": 126,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4cff8eecf7aea4c33ab7e9a49ebd8e7e71c9f823764a5ca00ccf102e591a90f9",
+        "occupied_residues_digest": "2dcf3f5481db0d34931cc39c4c7857bcec4aca4316003e925d31f0ff955c885c"
+      },
+      "entry_id": "ENTRY-018",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.003090083392421493",
+        "denominator": 2845943834580,
+        "numerator": -8794203779
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.012295081967213115",
+        "denominator": 244,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.079365079365079361",
+        "denominator": 63,
+        "numerator": 5
+      },
+      "boundary_5pct_member_count": 5,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "75804b2b627881fc107e0b1266b67c27667cf9ebcf5018385d05d2b2854556a9",
+        "occupied_residues_digest": "23ca1bf95163f3a010fb7b3d6798c26e94877a06553f7d479bdf1dd5d6d564d2"
+      },
+      "entry_id": "ENTRY-019",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000087419010539894",
+        "denominator": 8588485025890,
+        "numerator": -750796863
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.010989010989010990",
+        "denominator": 91,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.100000000000000006",
+        "denominator": 10,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "d833279e90f80f8843e7b3eb4c3680d41af58475d863d071ebac357cf5c282eb",
+        "occupied_residues_digest": "7ecb4e5470b8bb6b6677350955c368e88e4123733487b1bd7f26d92238acdc85"
+      },
+      "entry_id": "ENTRY-020",
+      "family": "U",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000037580339918441",
+        "denominator": 4110807761060,
+        "numerator": -154485553
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.156015037593984968",
+        "denominator": 532,
+        "numerator": 83
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.100401606425702811",
+        "denominator": 249,
+        "numerator": 25
+      },
+      "boundary_5pct_member_count": 25,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "766646b9d191437e4ec017ac3a90b718f011afa551503848d553439a47d3a589",
+        "occupied_residues_digest": "2f57a6631031e2800365d4754c0a2d1864aee5619c725021c9ceabc677ce6728"
+      },
+      "entry_id": "ENTRY-001",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.002039838455111676",
+        "denominator": 11322552010,
+        "numerator": 23096177
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.158564814814814825",
+        "denominator": 864,
+        "numerator": 137
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.094890510948905105",
+        "denominator": 137,
+        "numerator": 13
+      },
+      "boundary_5pct_member_count": 13,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "c7b1fbb60970803d734b3302802060faf905dd1e532780633efd18b259b5141f",
+        "occupied_residues_digest": "6ad7e317abcb6624b71707ca4923cdf56c8840ca0f9dccdc3e5b0c09f1bc5f79"
+      },
+      "entry_id": "ENTRY-002",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.004589615675941528",
+        "denominator": 4891342468320,
+        "numerator": 22449382069
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.152777777777777790",
+        "denominator": 72,
+        "numerator": 11
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.083636363636363634",
+        "denominator": 275,
+        "numerator": 23
+      },
+      "boundary_5pct_member_count": 23,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "eba173635a4dd07de68ea1babf590a417566e99dfbf8585684f4a58fbee4f78d",
+        "occupied_residues_digest": "2ce043f8b0116e42f422494ade51d0091b3110bb71fdf09379289a791819bc89"
+      },
+      "entry_id": "ENTRY-003",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.001197421361095509",
+        "denominator": 407611872360,
+        "numerator": -488083163
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.155769230769230771",
+        "denominator": 520,
+        "numerator": 81
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.090534979423868317",
+        "denominator": 243,
+        "numerator": 22
+      },
+      "boundary_5pct_member_count": 22,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "3489578bc598c57af8b6c88782579eb6f090295fb91f4bc4af73165a377685f0",
+        "occupied_residues_digest": "69c07c4439772109c86ff63751f613d0a8f8b3f09a60ba81c69222dea6bbba86"
+      },
+      "entry_id": "ENTRY-004",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.001794031630357483",
+        "denominator": 117754540904,
+        "numerator": 211255371
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.158730158730158721",
+        "denominator": 63,
+        "numerator": 10
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.100000000000000006",
+        "denominator": 10,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "3ddf1efa2708493aeea88d4feab8a122908acb2c876a6b4893245526b08ced92",
+        "occupied_residues_digest": "30c05c7bbf4a70abcc63f8372db852dccfe8f785fbaae2a35d2fb15f62dc916b"
+      },
+      "entry_id": "ENTRY-005",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.004754959591285444",
+        "denominator": 203805936180,
+        "numerator": 969088991
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 407611872360,
+      "actual_occupied_fraction": {
+        "decimal": "0.093750000000000000",
+        "denominator": 32,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "705acca2b548b255e67e438b22e3560194d1368795ebee67c1b340641c775fd9",
+        "occupied_residues_digest": "c1078d143a0416aa6a4c88cca7ef5d1c79ee0a3d8f8303c2ff7858223f74c75d"
+      },
+      "entry_id": "ENTRY-006",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.060225199138873288",
+        "denominator": 181160832160,
+        "numerator": -10910447193
+      },
+      "q": 19,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.153975199138873281",
+        "denominator": 22645104020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.055952380952380955",
+        "denominator": 840,
+        "numerator": 47
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.063829787234042548",
+        "denominator": 47,
+        "numerator": 3
+      },
+      "boundary_5pct_member_count": 6,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "d7c3f5bcb64efdc5ec37659313b1978d2b8fa4570c3a35b375a97b3bf65deb30",
+        "occupied_residues_digest": "256172028b3bb9434c42ecac79263d6a3b0c92d44b047dab500cfe89a6969be3"
+      },
+      "entry_id": "ENTRY-007",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.001888458682513175",
+        "denominator": 72338875224,
+        "numerator": -136608977
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.047619047619047616",
+        "denominator": 21,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.083333333333333329",
+        "denominator": 12,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "29aa9372e5b4aafc036305fed36206594016893904bb2b89cd9a6f3d09b2444a",
+        "occupied_residues_digest": "c7bdfd09ee08951ce82ec2bc6ee4d80927c059d9af448a23cf5786b76a8d691c"
+      },
+      "entry_id": "ENTRY-008",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.010221792015846509",
+        "denominator": 180847188060,
+        "numerator": -1848582343
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 1085083128360,
+      "actual_occupied_fraction": {
+        "decimal": "0.059523809523809521",
+        "denominator": 84,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "6e4c351200aa75d037ef08d3307432fcfb2fc30fecf47c1c8c24e276ab14ea8e",
+        "occupied_residues_digest": "34c1687ffd6f294c071f842c9e003a2b018dc735c2f8ada54682028baa2406fd"
+      },
+      "entry_id": "ENTRY-009",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.001682969888915396",
+        "denominator": 45211797015,
+        "numerator": 76090093
+      },
+      "q": 31,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.057840839634894128",
+        "denominator": 60282396020,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.030612244897959183",
+        "denominator": 98,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.088888888888888892",
+        "denominator": 45,
+        "numerator": 4
+      },
+      "boundary_5pct_member_count": 8,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "db6a753ac3da4a1ffabaec4c7bf26d0dec2712ad2e4b1c8cd80fcf0039bed82f",
+        "occupied_residues_digest": "f2a9cf2697288a32032e544dd8c1a0466d82e469f6c43ba21a979fc7a74dfc56"
+      },
+      "entry_id": "ENTRY-010",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.000550023757270565",
+        "denominator": 16569369740,
+        "numerator": 9113547
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.029591836734693878",
+        "denominator": 980,
+        "numerator": 29
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.068965517241379309",
+        "denominator": 29,
+        "numerator": 2
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "4f5f9f7b14bc871cb1c3a52cb2d0bee32db82fcd8d9fd4d543b6249349c97874",
+        "occupied_residues_digest": "fadb9a4d54e085f7f3646a0409a97d1ee1468683460a8e636e8b0d2530ea6979"
+      },
+      "entry_id": "ENTRY-011",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000470384405994741",
+        "denominator": 28996397045,
+        "numerator": -13639453
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2087740587240,
+      "actual_occupied_fraction": {
+        "decimal": "0.024305555555555556",
+        "denominator": 288,
+        "numerator": 7
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.071428571428571425",
+        "denominator": 14,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "6d78a2034e3478cc6255315cffca546f0dd242949d7fd6a1cf678b53f54b6804",
+        "occupied_residues_digest": "9424d4ad39ada65c32b7ad7badc121ab91b3bf2ef02ca5df4598448c530af23d"
+      },
+      "entry_id": "ENTRY-012",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.005756665585133064",
+        "denominator": 8350962348960,
+        "numerator": -48073697557
+      },
+      "q": 43,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.030062221140688621",
+        "denominator": 115985588180,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.025641025641025640",
+        "denominator": 39,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.119047619047619041",
+        "denominator": 42,
+        "numerator": 5
+      },
+      "boundary_5pct_member_count": 10,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "3ace7f9becb5ef351e8577fff5eb13f314bad6ed0fc0a892cf997624c86ddbc6",
+        "occupied_residues_digest": "8db250417acdd2aea8f0ca690266cfef14ffdbc7ce371aafb114e628ab006a3b"
+      },
+      "entry_id": "ENTRY-013",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.000478034745084828",
+        "denominator": 5404150571820,
+        "numerator": 2583371741
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 2494223340840,
+      "actual_occupied_fraction": {
+        "decimal": "0.027472527472527472",
+        "denominator": 182,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.133333333333333331",
+        "denominator": 15,
+        "numerator": 2
+      },
+      "boundary_5pct_member_count": 2,
+      "cell_width_over_L5": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "52d6624b2c5ec6c0e5dc0d4c704081d405ef3376632f3753b0c7dfd15d144538",
+        "occupied_residues_digest": "57d2c5ba5931a2b99befc6f2ae3ded3b83c8a12521a2baf4dc8c37cedbca9f1b"
+      },
+      "entry_id": "ENTRY-014",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.002309536576586659",
+        "denominator": 1801383523940,
+        "numerator": 4160361137
+      },
+      "q": 47,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.025162990895940814",
+        "denominator": 138567963380,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.013392857142857142",
+        "denominator": 224,
+        "numerator": 3
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "474717040488a24b43dbb966e05c9f8c1bc62bf5e0c89c8816f76c71f1b9fea2",
+        "occupied_residues_digest": "c8dc193440d06eb729c5a5a9426a8b7248f6d94ddc152317440a4a32c07e097f"
+      },
+      "entry_id": "ENTRY-015",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.001010356165104134",
+        "denominator": 2252717383840,
+        "numerator": 2276046897
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 3930462403560,
+      "actual_occupied_fraction": {
+        "decimal": "0.016621743036837375",
+        "denominator": 2226,
+        "numerator": 37
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.108108108108108114",
+        "denominator": 37,
+        "numerator": 4
+      },
+      "boundary_5pct_member_count": 8,
+      "cell_width_over_L5": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "064f517dfbbe84c087c44f3f1e27fe5dd1680d68d203e1d40f362542094c64dc",
+        "occupied_residues_digest": "a9cd543fed3e65ee9148526bba5f7462b8e6ab9e8287c43ebee4dac994642cd5"
+      },
+      "entry_id": "ENTRY-016",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.000653616955500618",
+        "denominator": 34719084564780,
+        "numerator": 22692982351
+      },
+      "q": 59,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.015968126081336759",
+        "denominator": 218359022420,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.012315270935960592",
+        "denominator": 406,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.000000000000000000",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "boundary_5pct_member_count": 0,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "21869d46c57995bce40b581f73c099471456dbb7c05a03de2cfe7b116f0e35a0",
+        "occupied_residues_digest": "24c919ef74f965c74ba72f7fb6d5a1f5080b7b460a8529d09e6efa19c5c966be"
+      },
+      "entry_id": "ENTRY-017",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000067230041792418",
+        "denominator": 8166100516420,
+        "numerator": -549007279
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.009920634920634920",
+        "denominator": 504,
+        "numerator": 5
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.200000000000000011",
+        "denominator": 5,
+        "numerator": 1
+      },
+      "boundary_5pct_member_count": 1,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "6924d1c25cb0ee9681c18ac6a03dc010cd73131ae216b464be62303969640487",
+        "occupied_residues_digest": "546feb0e2b484b8a2818e511710dfe89b4a494bc2cfd9c4b182c58c9cd93ace6"
+      },
+      "entry_id": "ENTRY-018",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.001105956408294509",
+        "denominator": 5691887669160,
+        "numerator": -6294979643
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5068614113640,
+      "actual_occupied_fraction": {
+        "decimal": "0.012490241998438720",
+        "denominator": 1281,
+        "numerator": 16
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.093750000000000000",
+        "denominator": 32,
+        "numerator": 3
+      },
+      "boundary_5pct_member_count": 12,
+      "cell_width_over_L5": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "278bc6c94b739fb4bd6eae14c6194ccace741df8322c4b5bf77e25701531e54f",
+        "occupied_residues_digest": "efdec3119f6825d75e97d3d2db9612ea3788f6094ce568adf9d0748524b815e9"
+      },
+      "entry_id": "ENTRY-019",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "0.000107741020685711",
+        "denominator": 51530910155340,
+        "numerator": 5551992857
+      },
+      "q": 67,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.012382500977753008",
+        "denominator": 281589672980,
+        "numerator": 3486784401
+      }
+    },
+    {
+      "L5": 5691887669160,
+      "actual_occupied_fraction": {
+        "decimal": "0.010416666666666666",
+        "denominator": 96,
+        "numerator": 1
+      },
+      "boundary_5pct_fraction": {
+        "decimal": "0.107142857142857137",
+        "denominator": 28,
+        "numerator": 3
+      },
+      "boundary_5pct_member_count": 3,
+      "cell_width_over_L5": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      },
+      "class_residue_alignment": {
+        "cell_high_mod_L5": 246731069451,
+        "cell_low_mod_L5": 183968950234,
+        "member_positions_digest": "a903dd2ccb9cf0b88a8d2a99b7c32c493fbe4ac11e4eec5dae2100fc09c69b98",
+        "occupied_residues_digest": "853cbb558d19f82db23f3a20eecef875220d24cadfbe290ee3da8c9f7e7c1878"
+      },
+      "entry_id": "ENTRY-020",
+      "family": "Q",
+      "occupancy_discrepancy": {
+        "decimal": "-0.000609924662262763",
+        "denominator": 7589183558880,
+        "numerator": -4628830219
+      },
+      "q": 71,
+      "theoretical_occupancy_fraction": {
+        "decimal": "0.011026591328929429",
+        "denominator": 316215981620,
+        "numerator": 3486784401
+      }
+    }
+  ],
+  "random_sampling_claim_made": false,
+  "schema": "a303656-p5-sparse-geometry-v1"
+}

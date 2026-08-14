@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=git diff --check --no-index /dev/null src/verify_tn_pilot.py 
+started_utc=2026-07-13T08:43:05Z
+finished_utc=2026-07-13T08:43:05Z

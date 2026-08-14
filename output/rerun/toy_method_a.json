@@ -1,0 +1,32 @@
+{
+  "method": "A_direct_Z3_Int",
+  "z3_version": "4.16.0",
+  "low": "2",
+  "high": "50",
+  "C": 3,
+  "D": 2,
+  "primes": [
+    3,
+    7,
+    11,
+    19
+  ],
+  "timeout_ms_per_split": 5000,
+  "split_size": 49,
+  "records": [
+    {
+      "low": "2",
+      "high": "50",
+      "result": "unsat",
+      "candidate": null,
+      "constraint_count": 11,
+      "solver_seconds": 0.050081057000170404,
+      "statistics": "(:added-eqs                   201\n :arith-eq-adapter            8\n :arith-bound-propagations-lp 1021\n :arith-branch                20\n :arith-conflicts             76\n :arith-cube-calls            7\n :arith-dio-calls             14\n :arith-dio-rewrite-conflicts 1\n :arith-dio-tighten-conflicts 7\n :arith-fixed-eqs             85\n :arith-hnf-calls             7\n :arith-lower                 1802\n :arith-make-feasible         489\n :arith-max-columns           45\n :arith-max-rows              16\n :arith-offset-eqs            84\n :arith-patches               28\n :arith-upper                 1571\n :binary-propagations         3742\n :conflicts                   92\n :decisions                   344\n :del-clause                  47\n :final-checks                28\n :max-memory                  18.64\n :memory                      18.02\n :minimized-lits              49\n :mk-bool-var                 346\n :mk-clause                   181\n :mk-clause-binary            509\n :num-allocs                  190848\n :num-checks                  1\n :propagations                4171\n :rlimit-count                31740\n :time                        0.05)",
+      "reason_unknown": null
+    }
+  ],
+  "candidate": null,
+  "independent_python_verifier_returncode": null,
+  "certificate_paths": {},
+  "classification": "SMT_UNSAT_WITHOUT_PROOF_OBJECT"
+}

@@ -1,0 +1,117 @@
+{
+  "designs": {
+    "A": {
+      "digest": "ef52792fb68815c5bbaf1a4f33fab60592689199348cc625f5e24a8b245a03d9",
+      "distinct_integer_count": 384,
+      "hierarchy": {
+        "199": {
+          "CRT_class_count": 16,
+          "full_mask_count": 4,
+          "integer_count": 128,
+          "live_projection_count": 2,
+          "raw_G_values": [
+            227
+          ]
+        },
+        "200": {
+          "CRT_class_count": 16,
+          "full_mask_count": 4,
+          "integer_count": 128,
+          "live_projection_count": 2,
+          "raw_G_values": [
+            227
+          ]
+        },
+        "201": {
+          "CRT_class_count": 16,
+          "full_mask_count": 4,
+          "integer_count": 128,
+          "live_projection_count": 2,
+          "raw_G_values": [
+            227
+          ]
+        }
+      },
+      "maximum_integer": 242653580714,
+      "minimum_integer": 183983951234
+    },
+    "B": {
+      "digest": "2d33da29a39d6e02c9f39a798918c155cf11ca1b1e7be0212a6c35af8d510b46",
+      "distinct_integer_count": 288,
+      "hierarchy": {
+        "199": {
+          "CRT_class_count": 12,
+          "full_mask_count": 3,
+          "integer_count": 96,
+          "live_projection_count": 3,
+          "raw_G_values": [
+            227
+          ]
+        },
+        "200": {
+          "CRT_class_count": 12,
+          "full_mask_count": 3,
+          "integer_count": 96,
+          "live_projection_count": 3,
+          "raw_G_values": [
+            227
+          ]
+        },
+        "201": {
+          "CRT_class_count": 12,
+          "full_mask_count": 3,
+          "integer_count": 96,
+          "live_projection_count": 3,
+          "raw_G_values": [
+            227
+          ]
+        }
+      },
+      "maximum_integer": 242654772674,
+      "minimum_integer": 183983951234
+    },
+    "C": {
+      "digest": "1bf4650ec99734900deb834cc090bc8fa5390ebe7260bcf9320c153f7660f428",
+      "distinct_integer_count": 480,
+      "hierarchy": {
+        "199": {
+          "CRT_class_count": 20,
+          "full_mask_count": 5,
+          "integer_count": 160,
+          "live_projection_count": 5,
+          "raw_G_values": [
+            222,
+            223,
+            225,
+            228
+          ]
+        },
+        "200": {
+          "CRT_class_count": 20,
+          "full_mask_count": 5,
+          "integer_count": 160,
+          "live_projection_count": 5,
+          "raw_G_values": [
+            226,
+            227
+          ]
+        },
+        "201": {
+          "CRT_class_count": 20,
+          "full_mask_count": 5,
+          "integer_count": 160,
+          "live_projection_count": 5,
+          "raw_G_values": [
+            226,
+            227,
+            228
+          ]
+        }
+      },
+      "maximum_integer": 242653857914,
+      "minimum_integer": 183983951234
+    }
+  },
+  "schema": "a303656-p4-live-candidate-comparison-v2",
+  "selection_code_sha256": "398b9b0cf73a4cabdbddbdf4bdf074dc0ad394a51ea92042eeb32143a3c256b3"
+}

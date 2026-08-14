@@ -1,0 +1,73 @@
+{
+  "method": "B-lazy-constraint-generation",
+  "z3_version": "4.16.0",
+  "primes": [
+    7,
+    11,
+    19
+  ],
+  "prime_data": [
+    {
+      "p": 7,
+      "r": 6,
+      "s": 6,
+      "r2": 42,
+      "s2": 42,
+      "lift3": 6,
+      "lift5": 6
+    },
+    {
+      "p": 11,
+      "r": 5,
+      "s": 5,
+      "r2": 5,
+      "s2": 55,
+      "lift3": 0,
+      "lift5": 9
+    },
+    {
+      "p": 19,
+      "r": 18,
+      "s": 9,
+      "r2": 342,
+      "s2": 171,
+      "lift3": 18,
+      "lift5": 6
+    }
+  ],
+  "L3": "11970",
+  "L5": "131670",
+  "torus_cardinality": "1576089900",
+  "torus_materialized": false,
+  "pruning": {
+    "loose_sum": "19/45",
+    "loose_sum_decimal": 0.4222222222222222,
+    "status": "PROVED_IMPOSSIBLE_BY_1_OVER_MAX_LEMMA"
+  },
+  "search": {
+    "status": "UNRESOLVED_ITERATION_LIMIT",
+    "iterations_completed": 1,
+    "constraints": 1,
+    "elapsed_seconds": 0.5079820179998933,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "candidate_seconds": 0.02809571799934929,
+        "oracle": {
+          "backend": "exact-crt-z3",
+          "seconds": 0.45550844999979745,
+          "status": "sat",
+          "c": 11634,
+          "d": 84482,
+          "L3": 11970,
+          "L5": 131670
+        },
+        "t_values": {
+          "7": 0,
+          "11": 0,
+          "19": 0
+        }
+      }
+    ]
+  }
+}

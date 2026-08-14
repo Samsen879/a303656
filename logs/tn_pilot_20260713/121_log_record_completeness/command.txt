@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=bash -c set\ -euo\ pipefail\;\ root=logs/tn_pilot_20260713\;\ count=0\;\ for\ directory\ in\ \"\$root\"/\*\;\ do\ \[\[\ -d\ \"\$directory\"\ \]\]\ \|\|\ continue\;\ \[\[\ \$\(basename\ \"\$directory\"\)\ ==\ 121_log_record_completeness\ \]\]\ \&\&\ continue\;\ for\ file\ in\ command.txt\ stdout.log\ stderr.log\ return_code.txt\ time.txt\;\ do\ \[\[\ -f\ \"\$directory/\$file\"\ \]\]\ \|\|\ \{\ echo\ \"missing\ \$directory/\$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ done\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ echo\ \"complete_command_records=\$count\" 
+started_utc=2026-07-13T09:01:03Z
+finished_utc=2026-07-13T09:01:03Z

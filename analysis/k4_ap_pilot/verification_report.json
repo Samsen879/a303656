@@ -1,0 +1,122 @@
+{
+  "backend_pointwise_equality": {
+    "mismatch_count": 0,
+    "point_count": 1285,
+    "status": "PASS"
+  },
+  "binary_sha256": {
+    "backend_a": "f0ae6bedbb520344ad9be264eaa8c9544961fdcf67872291ffb5267c8e93c2dd",
+    "backend_b": "3129e92a08b6279c965f5a1d481678a4bb7952caae80f01a0029ecd97807e9cd",
+    "direct_oracle": "20cf88690a6829a8c16ff0987b399e58d8302ae8bd9950c69f21478cc5a5310a"
+  },
+  "checks": {
+    "artifact_hashes": true,
+    "binary_identities_and_hashes": true,
+    "class_summaries": true,
+    "direct_selection_complete": true,
+    "direct_winner_identities_and_equations": true,
+    "exact_panel": true,
+    "matched_k_complete": true,
+    "persistent_sets_reconstructed": true,
+    "protected_prior_artifacts_byte_identical": true,
+    "source_hashes": true
+  },
+  "classification": "INDEPENDENTLY VERIFIED EXACT FINITE COMPUTATION; GLOBAL PROBLEM UNRESOLVED",
+  "commit_chain": {
+    "parent_chain_verified": true,
+    "resolution": "DEFERRED_UNTIL_RESULTS_COMMIT_REPLAY",
+    "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+    "source_commit": "44bb1f9996dab4a71a9249e1f4b12111f5bb1beb",
+    "source_parent_commit": "2f87e5fa431eb96166eed57809013dee84b492d2"
+  },
+  "conclusion": "VALIDATED K4 ARITHMETIC-PROGRESSION ENRICHMENT PILOT",
+  "direct_verification": {
+    "all_witnesses_valid": true,
+    "selected_point_count": 73,
+    "selection_complete": true,
+    "status": "PASS"
+  },
+  "m4": 28227969,
+  "matched_k": {
+    "aggregate": {
+      "including_anchor_k0": {
+        "below_all_four_controls_cases": 81,
+        "below_at_least_three_controls_cases": 159,
+        "longest_consecutive_negative_difference_run": 20,
+        "mean_target_minus_control_median": {
+          "decimal": "-4.40661478599221789883268482490",
+          "denominator": 514,
+          "numerator": -2265
+        },
+        "median_target_minus_control_median": {
+          "decimal": "-5",
+          "denominator": 1,
+          "numerator": -5
+        },
+        "negative_differences": 199,
+        "point_count": 257,
+        "positive_differences": 56,
+        "tied_minimum_cases": 16,
+        "unique_minimum_cases": 81,
+        "zero_differences": 2
+      },
+      "leave_anchor_out": {
+        "below_all_four_controls_cases": 80,
+        "below_at_least_three_controls_cases": 158,
+        "longest_consecutive_negative_difference_run": 20,
+        "mean_target_minus_control_median": {
+          "decimal": "-4.333984375",
+          "denominator": 512,
+          "numerator": -2219
+        },
+        "median_target_minus_control_median": {
+          "decimal": "-5",
+          "denominator": 1,
+          "numerator": -5
+        },
+        "negative_differences": 198,
+        "point_count": 256,
+        "positive_differences": 56,
+        "tied_minimum_cases": 16,
+        "unique_minimum_cases": 80,
+        "zero_differences": 2
+      }
+    },
+    "leave_anchor_out_point_count": 256,
+    "point_count": 257,
+    "status": "PASS"
+  },
+  "p4": [
+    3,
+    7,
+    11,
+    23
+  ],
+  "panel": {
+    "activation_cell": [
+      183968950234,
+      246731069451
+    ],
+    "active_pair_count": 407,
+    "h_values": [
+      -720,
+      -360,
+      0,
+      360,
+      720
+    ],
+    "k_interval": [
+      -128,
+      128
+    ],
+    "point_count": 1285,
+    "unique_integer_count": 1285
+  },
+  "persistent_core": {
+    "class_count": 5,
+    "status": "PASS",
+    "target_covered_active_pairs": 216
+  },
+  "schema": "a303656-k4-ap-pilot-verification-report-v1",
+  "status": "PASS"
+}

@@ -1,0 +1,1 @@
+{"actual_category": "authorization", "actual_code": "V2_9_MUST_REMAIN_NOT_ESTABLISHED", "expected_error_code": "V2_9_MUST_REMAIN_NOT_ESTABLISHED", "expected_semantic_category": "authorization", "mutation": "V2.9 PASS", "return_code": 1, "status": "PASS", "stderr_excerpt": "V2_9_MUST_REMAIN_NOT_ESTABLISHED:authorization", "test": "independent_auth_corrupt"}

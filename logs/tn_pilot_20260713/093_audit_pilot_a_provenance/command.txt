@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=timeout --signal=TERM --kill-after=10s 120s env PYTHONDONTWRITEBYTECODE=1 python3 /tmp/a303656_tn_acceptance_src_2e38ac0/src/verify_tn_pilot.py --audit-only --bitset-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/bitset --clean-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean --oracle-dir /home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/oracle --low 2 --high 200002 --interval-id PILOT-A 
+started_utc=2026-07-13T08:51:02Z
+finished_utc=2026-07-13T08:51:03Z

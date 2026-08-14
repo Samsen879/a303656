@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=mkdir -p output/tn_pilot_20260713/pilot_a output/tn_pilot_20260713/pilot_b output/tn_pilot_20260713/negative_tests 
+started_utc=2026-07-13T08:47:07Z
+finished_utc=2026-07-13T08:47:07Z

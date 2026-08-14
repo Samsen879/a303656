@@ -1,0 +1,11 @@
+candidate_n=2
+prime_count=1
+max_c=0
+max_d=0
+admissible_pair_count=1
+distinct_shift_count=1
+zero_remainder_count=1
+uncovered_pair_count=1
+ERROR remainder=0 occurs for 1 admissible pair(s); 0 is divisible by p^2 and cannot pass exact-one
+elapsed_seconds=0.000152231
+FAIL

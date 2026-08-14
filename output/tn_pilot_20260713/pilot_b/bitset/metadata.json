@@ -1,0 +1,24 @@
+{
+  "T_semantics": "counts active source exponent pairs (c,d), not distinct shifts and not (a,b) multiplicity",
+  "algorithm": "source-pair counting with a-outer annuli, packed per-pair dedup bits, and bitwise isqrt",
+  "all_active_pairs_processed": true,
+  "canonical_witness": "minimum a, then minimum b, with 0 <= a <= b",
+  "classification": "EXACT BOUNDED PILOT OUTPUT; NOT A GLOBAL PROOF",
+  "early_termination": false,
+  "emit_all_records_fixture_mode": false,
+  "formal_acceptance_eligible": true,
+  "generation_timestamp_utc": "2026-07-13T08:51:20.944847Z",
+  "implementation_id": "tn_bitset_annulus_v1",
+  "interval": {
+    "high_exclusive": "240000100001",
+    "id": "PILOT-B",
+    "low": "240000000001",
+    "number_of_n": 100000
+  },
+  "obstruction_data_status": "NOT_COLLECTED_IN_TN_PILOT",
+  "runner_timeout_seconds": 540,
+  "schema": "a303656-tn-pilot-metadata-v1",
+  "source_commit": "2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9",
+  "source_exponent_pair_count_at_upper_minus_one": 407,
+  "source_tree_dirty": false
+}

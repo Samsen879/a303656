@@ -1,0 +1,21 @@
+{
+  "Backend_A_B_bitwise_mask_agreement": true,
+  "Backend_A_B_pointwise_T_agreement": true,
+  "adaptive_extension": false,
+  "all_20_entries_reported": true,
+  "all_summaries_reconstructed_from_raw_outputs": true,
+  "description_count": 457,
+  "description_weighted_summary_separately_labeled": true,
+  "direct_oracle_all_points_verified": true,
+  "distinct_integer_count": 454,
+  "duplicate_shift_pairs_separate": true,
+  "mathematical_status": "UNRESOLVED",
+  "outside_panel_integer_count": 0,
+  "persistent_covered_pairs_never_win_for_every_generating_description": true,
+  "primary_is_distinct_integer_distribution": true,
+  "protected_hashes_unchanged": true,
+  "raw_return_codes_all_zero": true,
+  "schema": "a303656-p5-family-u-census-verification-v1",
+  "status": "PASS",
+  "validation_conclusion": "VALIDATED EXACT P5 FAMILY-U UNBALANCED FULL SPARSE CENSUS"
+}

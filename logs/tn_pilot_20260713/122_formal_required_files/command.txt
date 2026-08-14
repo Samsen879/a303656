@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=bash -c set\ -euo\ pipefail\;\ count=0\;\ for\ interval\ in\ pilot_a\ pilot_b\;\ do\ for\ role\ in\ bitset\ clean\ oracle\;\ do\ directory=\"output/tn_pilot_20260713/\$interval/\$role\"\;\ for\ file\ in\ metadata.json\ counts.csv\ low_t.jsonl\ summary.json\ provenance.json\ verifier_report.json\;\ do\ \[\[\ -f\ \"\$directory/\$file\"\ \]\]\ \|\|\ \{\ echo\ \"missing\ \$directory/\$file\"\ \>\&2\;\ exit\ 1\;\ \}\;\ count=\$\(\(count\ +\ 1\)\)\;\ done\;\ done\;\ done\;\ echo\ \"required_formal_artifacts=\$count\" 
+started_utc=2026-07-13T09:01:03Z
+finished_utc=2026-07-13T09:01:03Z

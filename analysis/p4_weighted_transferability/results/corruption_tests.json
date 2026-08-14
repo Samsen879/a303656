@@ -1,0 +1,67 @@
+{
+  "all_rejected": true,
+  "required_count": 12,
+  "schema": "a303656-weighted-audit-corruption-tests-v1",
+  "tests": [
+    {
+      "name": "enumerator_score_bitflip",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "enumerator_mask_bitflip",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "ordered_digest_mismatch",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "tuple_row_count_mismatch",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "target_rank_mismatch",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "weight_denominator_drift",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "weight_table_truncated",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "pair_identity_corruption",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "payload_agreement_false",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "decoded_agreement_false",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "direct_T15_omitted",
+      "rejected": true,
+      "return_code": 2
+    },
+    {
+      "name": "direct_count_corruption",
+      "rejected": true,
+      "return_code": 2
+    }
+  ]
+}

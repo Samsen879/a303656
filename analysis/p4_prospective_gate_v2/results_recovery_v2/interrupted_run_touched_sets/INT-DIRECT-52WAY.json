@@ -1,0 +1,5 @@
+{
+  "evidence": "logs/direct/interrupted_parallel_52way/README.txt",
+  "exact_touched_set": "NOT_ESTABLISHED",
+  "run_id": "INT-DIRECT-52WAY"
+}

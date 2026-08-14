@@ -1,0 +1,123 @@
+{
+  "backend_a": {
+    "command": [
+      "/usr/bin/python3",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/analysis/p5_family_u_census/tools/backend_a_adapter.py",
+      "--root",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative",
+      "--core",
+      "/tmp/p5_family_u_archive_authoritative/bin/backend_a",
+      "--panel",
+      "/tmp/p5_family_u_results_authoritative/panel_reconstruction_manifest.json",
+      "--work-dir",
+      "/tmp/p5_family_u_archive_authoritative/backend_a",
+      "--counts",
+      "/tmp/p5_family_u_results_authoritative/backend_a_counts.csv",
+      "--masks",
+      "/tmp/p5_family_u_results_authoritative/backend_a_masks.bin",
+      "--run-report",
+      "/tmp/p5_family_u_results_authoritative/backend_a_run.json"
+    ],
+    "elapsed_seconds": "1.192302",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/backend_a.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/backend_a.stdout.log"
+  },
+  "backend_b": {
+    "command": [
+      "/usr/bin/python3",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/analysis/p5_family_u_census/tools/backend_b_adapter.py",
+      "--root",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative",
+      "--core",
+      "/tmp/p5_family_u_archive_authoritative/bin/backend_b",
+      "--panel",
+      "/tmp/p5_family_u_results_authoritative/panel_reconstruction_manifest.json",
+      "--work-dir",
+      "/tmp/p5_family_u_archive_authoritative/backend_b",
+      "--counts",
+      "/tmp/p5_family_u_results_authoritative/backend_b_counts.csv",
+      "--masks",
+      "/tmp/p5_family_u_results_authoritative/backend_b_masks.bin",
+      "--run-report",
+      "/tmp/p5_family_u_results_authoritative/backend_b_run.json"
+    ],
+    "elapsed_seconds": "1.630405",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/backend_b.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/backend_b.stdout.log"
+  },
+  "compile_backend_a": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/src/k4_ap_backend_a.cpp",
+      "-o",
+      "/tmp/p5_family_u_archive_authoritative/bin/backend_a"
+    ],
+    "elapsed_seconds": "1.625682",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/compile_backend_a.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/compile_backend_a.stdout.log"
+  },
+  "compile_backend_b": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/src/k4_ap_backend_b.cpp",
+      "-o",
+      "/tmp/p5_family_u_archive_authoritative/bin/backend_b"
+    ],
+    "elapsed_seconds": "2.050211",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/compile_backend_b.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/compile_backend_b.stdout.log"
+  },
+  "compile_direct_oracle": {
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O3",
+      "-DNDEBUG",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/src/p4_census_direct_oracle.cpp",
+      "-o",
+      "/tmp/p5_family_u_archive_authoritative/bin/direct_oracle"
+    ],
+    "elapsed_seconds": "1.344017",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/compile_direct_oracle.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/compile_direct_oracle.stdout.log"
+  },
+  "direct_oracle": {
+    "command": [
+      "/usr/bin/python3",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative/analysis/p5_family_u_census/tools/direct_oracle_adapter.py",
+      "--root",
+      "/tmp/a303656_p5_family_u_fresh_S_authoritative",
+      "--oracle",
+      "/tmp/p5_family_u_archive_authoritative/bin/direct_oracle",
+      "--panel",
+      "/tmp/p5_family_u_results_authoritative/panel_reconstruction_manifest.json",
+      "--counts",
+      "/tmp/p5_family_u_results_authoritative/backend_a_counts.csv",
+      "--masks",
+      "/tmp/p5_family_u_results_authoritative/backend_a_masks.bin",
+      "--work-dir",
+      "/tmp/p5_family_u_archive_authoritative/direct_oracle",
+      "--artifact",
+      "/tmp/p5_family_u_results_authoritative/direct_oracle.json.gz",
+      "--run-report",
+      "/tmp/p5_family_u_results_authoritative/direct_oracle_run.json",
+      "--jobs",
+      "16"
+    ],
+    "elapsed_seconds": "13.759364",
+    "return_code": 0,
+    "stderr": "/tmp/p5_family_u_archive_authoritative/direct_oracle.stderr.log",
+    "stdout": "/tmp/p5_family_u_archive_authoritative/direct_oracle.stdout.log"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema": "a303656-direct-two-squares-dual-aggregate-v1",
+  "low": "240000000001",
+  "high": "240000100000",
+  "chunk_count_x": 1,
+  "chunk_count_y": 1,
+  "integers_tested_x": 100000,
+  "integers_tested_y": 100000,
+  "candidate_count_x": 0,
+  "candidate_count_y": 0,
+  "candidates_x": [],
+  "candidates_y": [],
+  "unordered_square_pairs_enumerated_x": 4015005,
+  "unordered_square_pairs_enumerated_y": 4015005,
+  "elapsed_seconds_sum_x": 0.260399,
+  "elapsed_seconds_sum_y": 0.422955,
+  "complete_gapless_independent_crosscheck": true,
+  "mismatches": [],
+  "chunks": [
+    {
+      "index": 0,
+      "low": "240000000001",
+      "high": "240000100000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 4015005,
+      "x_json": "/mnt/data/a303656_bounded_counterexample/reproduce_final_quick/direct/direct_100k_x/chunk_0000_240000000001_240000100000.json",
+      "x_sha256": "1fde38fa75a9d6fe8afebb296237f0eb18618e1baf879890af188ff611c4ec93",
+      "y_json": "/mnt/data/a303656_bounded_counterexample/reproduce_final_quick/direct/direct_100k_y/chunk_0000_240000000001_240000100000.json",
+      "y_sha256": "cfb03fc51dee3d71f2d8d71658dc1410cc3c04e01d11452ff535bb8b81840dc4"
+    }
+  ],
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

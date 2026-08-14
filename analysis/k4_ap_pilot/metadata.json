@@ -1,0 +1,206 @@
+{
+  "artifact_sha256_before_metadata_and_verification_report": {
+    "backend_a_counts.csv": "dad853ae1b385ef44ef67b442d5b3b82c78614a4fc99c77530ba6903ede49e23",
+    "backend_b_counts.csv": "dad853ae1b385ef44ef67b442d5b3b82c78614a4fc99c77530ba6903ede49e23",
+    "class_summaries.json": "613c0583b473cb9416c3f066d1e7d530816d2ec4015fd6f84bed0880d1670da1",
+    "direct_verification.json": "3ec8be67747e64d5046dc9c3591c8885865b897f3d02c18be8fd5b01ee201794",
+    "matched_k_comparison.csv": "402680ce1d0f8e7cac28ad08ee6a00f7ba6985e0a0b7eeeb668db471a8bfc367",
+    "persistent_core_by_class.json": "436ef8b4eb740dc2a53f61903752fe269628bbbab3eb430adf23029d0a3073a0",
+    "pointwise_comparison.csv": "4cf6350310b28b3fe7c0b8efc7f289becc58579bd4b594453920a889ce36b2a4"
+  },
+  "backend_identities": {
+    "backend_a": {
+      "algorithm": "independent generated prime table + deterministic uint64 trial division + Fermat two-square theorem",
+      "binary_sha256": "f0ae6bedbb520344ad9be264eaa8c9544961fdcf67872291ffb5267c8e93c2dd",
+      "implementation_id": "k4_ap_backend_a_trial_division_v1",
+      "source_path": "src/k4_ap_backend_a.cpp",
+      "source_sha256": "a1e0607a48687970614b9b4042837c3a1a82fc1a874aee36281943b48f527042"
+    },
+    "backend_b": {
+      "algorithm": "deterministic uint64 Miller-Rabin + deterministic-seeded Pollard-Rho + independent Fermat classification",
+      "binary_sha256": "3129e92a08b6279c965f5a1d481678a4bb7952caae80f01a0029ecd97807e9cd",
+      "implementation_id": "k4_ap_backend_b_cpp17_mr7_brent_rho_v1",
+      "source_path": "src/k4_ap_backend_b.cpp",
+      "source_sha256": "40a6a833e6efd18cee09b945557420d6ec6c8bd6cb609920964d6e26c602745a"
+    },
+    "direct_oracle": {
+      "algorithm": "factorization-free direct two-square enumeration with canonical witnesses",
+      "binary_sha256": "20cf88690a6829a8c16ff0987b399e58d8302ae8bd9950c69f21478cc5a5310a",
+      "implementation_id": "k4_ap_direct_oracle_v1",
+      "source_path": "src/k4_ap_direct_oracle.cpp",
+      "source_sha256": "8f4ac33eda954f8857a2a9cff9cddd2dac4c7d57ef4409e33404c0ba7c8fe62c"
+    }
+  },
+  "classification": "EXACT FINITE COMPUTATION; GLOBAL PROBLEM UNRESOLVED",
+  "commands": [
+    {
+      "command": [
+        "/tmp/k4_c_replay_44bb1f9/bin/k4_ap_backend_a",
+        "--input",
+        "/tmp/k4_c_replay_44bb1f9/work/fixed_panel.csv",
+        "--output",
+        "/tmp/k4_c_replay_44bb1f9/work/backend_a_counts.csv"
+      ],
+      "elapsed_seconds": "2.180046",
+      "label": "backend_a",
+      "return_code": 0,
+      "stderr_log": "backend_a.stderr.log",
+      "stdout_log": "backend_a.stdout.log",
+      "time_log": "backend_a.time.txt"
+    },
+    {
+      "command": [
+        "/tmp/k4_c_replay_44bb1f9/bin/k4_ap_backend_b",
+        "--input",
+        "/tmp/k4_c_replay_44bb1f9/work/fixed_panel.csv",
+        "--output",
+        "/tmp/k4_c_replay_44bb1f9/work/backend_b_counts.csv"
+      ],
+      "elapsed_seconds": "1.761271",
+      "label": "backend_b",
+      "return_code": 0,
+      "stderr_log": "backend_b.stderr.log",
+      "stdout_log": "backend_b.stdout.log",
+      "time_log": "backend_b.time.txt"
+    },
+    {
+      "command": [
+        "/tmp/k4_c_replay_44bb1f9/bin/k4_ap_direct_oracle",
+        "--input",
+        "/tmp/k4_c_replay_44bb1f9/work/direct_panel.csv",
+        "--output",
+        "/tmp/k4_c_replay_44bb1f9/work/direct_verification_raw.json"
+      ],
+      "elapsed_seconds": "16.485369",
+      "label": "direct_oracle",
+      "return_code": 0,
+      "stderr_log": "direct_oracle.stderr.log",
+      "stdout_log": "direct_oracle.stdout.log",
+      "time_log": "direct_oracle.time.txt"
+    }
+  ],
+  "core": {
+    "activation_cell": [
+      183968950234,
+      246731069451
+    ],
+    "active_pair_count": 407,
+    "artifact_sha256": {
+      "analysis/p2_core/activation_cell.json": "54bdb35c8d9206d9014c6e23bc24ca4292e217e48244530cec472ad02cc0e644",
+      "analysis/p2_core/greedy_core_steps.csv": "e7c3680680740db41fa87af8e5d6c14aa0d2c99a4b78b9ce6f027b46e531e04d",
+      "analysis/p2_core/metadata.json": "d1af86b53761364c955d0e4934beeb014fb1f5e8b4f2c4436c2acd61c8a4b4e4",
+      "analysis/p2_core/n0_p2_core.json": "02535370741275c0cb416b9de7156a9f29c3fb9a82b4c524ca61f2476f2824fe",
+      "analysis/p2_core/verification_report.json": "a5601eec079d196ecf7b9336990ca0cad971000430761807525df2941c74cb7a"
+    },
+    "four_prime_persistent_covered_active_pairs": 216,
+    "greedy_first_four": {
+      "COVERAGE_PER_MODULUS_BIT_GREEDY": [
+        3,
+        7,
+        11,
+        23
+      ],
+      "MARGINAL_COVERAGE_GREEDY": [
+        3,
+        7,
+        11,
+        23
+      ]
+    },
+    "m4": 28227969,
+    "p4": [
+      3,
+      7,
+      11,
+      23
+    ],
+    "target_residue_mod_m4": 5813156
+  },
+  "direct_verification": {
+    "all_exact_T_values_match": true,
+    "all_witnesses_valid": true,
+    "selected_point_count": 73,
+    "selection_rule_complete": true
+  },
+  "generated_utc": "2026-07-13T15:23:06Z",
+  "panel": {
+    "all_active_pair_count": 407,
+    "all_inside_activation_cell": true,
+    "control_offsets_congruent_zero_mod_360": true,
+    "duplicate_shift": {
+      "shift": 28,
+      "source_pairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "five_distinct_residues_mod_m4": true,
+    "formula": "n(h,k)=240000005594+h+k*28227969",
+    "h_values": [
+      -720,
+      -360,
+      0,
+      360,
+      720
+    ],
+    "k_interval": [
+      -128,
+      128
+    ],
+    "maximum_n": 243613186346,
+    "minimum_n": 236386824842,
+    "panel_csv_sha256": "8abec4a349441cd48e0bd52b30a9dfbec82e2c18873f3b0aa4b8fb2a60430bd0",
+    "point_count": 1285,
+    "points_per_class": 257,
+    "unique_integer_count": 1285
+  },
+  "pointwise_comparison": {
+    "all_equal": true,
+    "mismatch_count": 0,
+    "point_count": 1285
+  },
+  "protected_prior_baseline_and_pilot_hashes_after": {
+    "all_byte_identical": true,
+    "file_count": 86,
+    "manifest_sha256": "4660e3e9c0757cc4c13ead7e683f84f17b00ef1e5c25fbdf25397d93f6153cb2",
+    "mismatch_count": 0
+  },
+  "protected_prior_baseline_and_pilot_hashes_before": {
+    "all_byte_identical": true,
+    "file_count": 86,
+    "manifest_sha256": "4660e3e9c0757cc4c13ead7e683f84f17b00ef1e5c25fbdf25397d93f6153cb2",
+    "mismatch_count": 0
+  },
+  "raw_log_archive": {
+    "archive_name": "k4_ap_pilot_44bb1f9996dab4a7_raw_20260713.tar.gz",
+    "policy": "Logs remain external under ~/code/a303656/archive; only archive name and SHA256 are committed.",
+    "sha256": "88406fc6e596e7674a6329d1eb96c8be0a11b3870fc5bdada3cb1226607105c0"
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "results_commit_resolution": "The verifier must bind this sentinel to the commit containing metadata.json.",
+  "schema": "a303656-k4-ap-pilot-metadata-v1",
+  "scope_guards": {
+    "CRT_system_solved": false,
+    "adaptive_points_added": 0,
+    "complete_activation_cell_scanned": false,
+    "formal_points_evaluated_by_each_full_backend": 1285,
+    "neighboring_residue_classes_scanned": false,
+    "other_formal_points_evaluated": 0
+  },
+  "source_commit": "44bb1f9996dab4a71a9249e1f4b12111f5bb1beb",
+  "source_parent_commit": "2f87e5fa431eb96166eed57809013dee84b492d2",
+  "task": "K4 ARITHMETIC-PROGRESSION ENRICHMENT PILOT",
+  "tool_source_hashes": {
+    "src/k4_ap_backend_a.cpp": "a1e0607a48687970614b9b4042837c3a1a82fc1a874aee36281943b48f527042",
+    "src/k4_ap_backend_b.cpp": "40a6a833e6efd18cee09b945557420d6ec6c8bd6cb609920964d6e26c602745a",
+    "src/k4_ap_direct_oracle.cpp": "8f4ac33eda954f8857a2a9cff9cddd2dac4c7d57ef4409e33404c0ba7c8fe62c",
+    "src/k4_ap_run.py": "d1057e20dccd766ee28c21c71e72b0f4cbef7e1c59c62b62762363c44ede0c18",
+    "src/k4_ap_verify.py": "7759090fca4945ae900cc801f76a80c3fedfa66c5b8ab44140d92e4e4c236b80"
+  }
+}

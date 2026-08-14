@@ -1,0 +1,273 @@
+{
+  "nonzero_return_codes": [
+    {
+      "return_code": 1,
+      "tag": "025_postcommit_replay_and_report_refresh"
+    }
+  ],
+  "raw_log_root": "/tmp/a303656_selected_obstruction_raw_20260713",
+  "record_count": 26,
+  "records": [
+    {
+      "command_shell_escaped": "git rev-parse HEAD ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 41,
+      "stdout_sha256": "584bad58246920b7be88874e6be46f47f797e101b0d9ab43ccb0f27140671b70",
+      "tag": "001_start_head"
+    },
+    {
+      "command_shell_escaped": "git status --short ",
+      "elapsed_wall_clock": "0:00.03",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1356,
+      "stdout_sha256": "1ca85adf438edca59299807bed04d9ce434473519e546a0f3c8cdb06e73582c8",
+      "tag": "002_start_status"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 516,
+      "stdout_sha256": "62b25268cc2b18f6c6c6eddd10df29c4e005850d1f0defcf135901f1c62131b4",
+      "tag": "003_baseline_hashes_before"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1406,
+      "stdout_sha256": "94ee40c53cd199e51f1ab6436423b33527880760f43377d6cc5f6827037b92ff",
+      "tag": "004_pilot_hashes_before"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/clean/counts.csv ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "005_counts_cmp_clean"
+    },
+    {
+      "command_shell_escaped": "cmp output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/oracle/counts.csv ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "006_counts_cmp_oracle"
+    },
+    {
+      "command_shell_escaped": "env PYTHONPYCACHEPREFIX=/tmp/a303656_obstruction_acceptance_pycache python3 -m py_compile src/generate_obstruction_dossier.py src/verify_obstruction_dossier.py tests/obstruction_dossier_tests.py ",
+      "elapsed_wall_clock": "0:00.12",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "007_python_compile"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/generate_obstruction_dossier.py self-test ",
+      "elapsed_wall_clock": "0:00.04",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 25,
+      "stdout_sha256": "abb005a46ffe4e4f0fd7436b49afb0a398bc1c8725f538300eee073eb7fbf50f",
+      "tag": "008_generator_self_test"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/verify_obstruction_dossier.py self-test ",
+      "elapsed_wall_clock": "0:00.04",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 36,
+      "stdout_sha256": "0167b9e5f1f725369689f103046944c6c197fb6b94aa28061222304d6626c9fb",
+      "tag": "009_verifier_self_test"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 tests/obstruction_dossier_tests.py ",
+      "elapsed_wall_clock": "0:00.14",
+      "return_code": 0,
+      "stderr_bytes": 984,
+      "stderr_sha256": "000c08f6bbb23ed5c69498cba2e7d066f9c75ff5b98247af2264959f4a9a00f0",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "010_unit_tests"
+    },
+    {
+      "command_shell_escaped": "git diff --check -- src/generate_obstruction_dossier.py src/verify_obstruction_dossier.py tests/obstruction_dossier_tests.py docs/selected_obstruction_dossier.md ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "011_diff_check_pre_generation"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/generate_obstruction_dossier.py run --generated-utc 2026-07-13T11:10:00Z ",
+      "elapsed_wall_clock": "0:04.45",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 220,
+      "stdout_sha256": "e25907615e0d9076510ba8ed48275c785a17ea2af6b92e23d8ac21da1101d923",
+      "tag": "012_generate_formal_dossier"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/verify_obstruction_dossier.py run --verified-utc 2026-07-13T11:11:00Z ",
+      "elapsed_wall_clock": "0:07.55",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 123,
+      "stdout_sha256": "c1bac57230ae92238e3fa3c1982c6dd0edb7a1c765f9a0d48ba779106fb3127b",
+      "tag": "013_verify_formal_dossier"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/verify_obstruction_dossier.py run --report /tmp/a303656_selected_obstruction_replay_report.json --verified-utc 2026-07-13T11:11:00Z ",
+      "elapsed_wall_clock": "0:07.17",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 123,
+      "stdout_sha256": "c1bac57230ae92238e3fa3c1982c6dd0edb7a1c765f9a0d48ba779106fb3127b",
+      "tag": "014_verify_replay"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ json\\,sys\\;\\ \\[json.load\\(open\\(p\\,encoding=\\'utf-8\\'\\)\\)\\ for\\ p\\ in\\ sys.argv\\[1:\\]\\]\\;\\ print\\(\\'JSON_PARSE_PASS\\'\\,len\\(sys.argv\\)-1\\) analysis/obstruction_dossier/panel.json analysis/obstruction_dossier/per_n_summary.json analysis/obstruction_dossier/low_vs_control.json analysis/obstruction_dossier/n0_surviving_pairs.json analysis/obstruction_dossier/verification_report.json analysis/obstruction_dossier/metadata.json ",
+      "elapsed_wall_clock": "0:00.02",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 18,
+      "stdout_sha256": "31bf49bda874ea656649d08b5531337e04ecb71e5e31cd8bf41d178e991c1989",
+      "tag": "015_json_parse"
+    },
+    {
+      "command_shell_escaped": "python3 -c import\\ json\\,pathlib\\;\\ d=pathlib.Path\\(\\'analysis/obstruction_dossier\\'\\)\\;\\ names=\\[\\'panel.json\\'\\,\\'records.jsonl\\'\\,\\'per_n_summary.json\\'\\,\\'prime_frequency.csv\\'\\,\\'top_k_coverage.csv\\'\\,\\'low_vs_control.json\\'\\,\\'n0_surviving_pairs.json\\'\\,\\'verification_report.json\\'\\,\\'metadata.json\\'\\]\\;\\ assert\\ all\\(\\(d/n\\).is_file\\(\\)\\ for\\ n\\ in\\ names\\)\\;\\ rows=\\[json.loads\\(x\\)\\ for\\ x\\ in\\ \\(d/\\'records.jsonl\\'\\).read_text\\(\\).splitlines\\(\\)\\]\\;\\ assert\\ len\\(rows\\)==4070\\;\\ assert\\ sum\\(r\\[\\'status\\'\\]==\\'WINNER\\'\\ for\\ r\\ in\\ rows\\)==363\\;\\ assert\\ sum\\(r\\[\\'status\\'\\]==\\'LOSER\\'\\ for\\ r\\ in\\ rows\\)==3707\\;\\ assert\\ all\\(r\\[\\'purpose\\'\\]==\\'PILOT_B_SELECTED_FIXTURE\\'\\ for\\ r\\ in\\ rows\\)\\;\\ print\\(\\'ARTIFACT_SHAPE_PASS\\ files=9\\ records=4070\\ winners=363\\ losers=3707\\'\\) ",
+      "elapsed_wall_clock": "0:00.07",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 65,
+      "stdout_sha256": "93996631d8e02926818b08f56d881344b4d6b9bef48fd3fc85f65d9d667d6d3c",
+      "tag": "016_artifact_shape"
+    },
+    {
+      "command_shell_escaped": "jq -e .status\\ ==\\ \\\"PASS\\\"\\ and\\ .final_conclusion\\ ==\\ \\\"VALIDATED\\ SELECTED\\ OBSTRUCTION\\ DOSSIER\\\"\\ and\\ \\(.checks\\ \\|\\ all\\) analysis/obstruction_dossier/verification_report.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 5,
+      "stdout_sha256": "a17fcf0a2f50e2d495e4f90ce263410edc183add6c62699a2facbccf60410f74",
+      "tag": "017_verification_status"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/formal_results_audit.json output/final_packaging_audit.json cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt output/final_results_manifest.json output/direct/formal_1p6b_final/summary.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 516,
+      "stdout_sha256": "62b25268cc2b18f6c6c6eddd10df29c4e005850d1f0defcf135901f1c62131b4",
+      "tag": "018_baseline_hashes_after"
+    },
+    {
+      "command_shell_escaped": "sha256sum output/tn_pilot_20260713/pilot_a/bitset/counts.csv output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_a/clean/counts.csv output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl output/tn_pilot_20260713/pilot_a/oracle/counts.csv output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl output/tn_pilot_20260713/pilot_b/bitset/counts.csv output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl output/tn_pilot_20260713/pilot_b/clean/counts.csv output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl output/tn_pilot_20260713/pilot_b/oracle/counts.csv output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1406,
+      "stdout_sha256": "94ee40c53cd199e51f1ab6436423b33527880760f43377d6cc5f6827037b92ff",
+      "tag": "019_pilot_hashes_after"
+    },
+    {
+      "command_shell_escaped": "cmp /tmp/a303656_selected_obstruction_raw_20260713/003_baseline_hashes_before/stdout.log /tmp/a303656_selected_obstruction_raw_20260713/018_baseline_hashes_after/stdout.log ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "020_baseline_before_after_cmp"
+    },
+    {
+      "command_shell_escaped": "cmp /tmp/a303656_selected_obstruction_raw_20260713/004_pilot_hashes_before/stdout.log /tmp/a303656_selected_obstruction_raw_20260713/019_pilot_hashes_after/stdout.log ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "021_pilot_before_after_cmp"
+    },
+    {
+      "command_shell_escaped": "sha256sum analysis/obstruction_dossier/panel.json analysis/obstruction_dossier/records.jsonl analysis/obstruction_dossier/per_n_summary.json analysis/obstruction_dossier/prime_frequency.csv analysis/obstruction_dossier/top_k_coverage.csv analysis/obstruction_dossier/low_vs_control.json analysis/obstruction_dossier/n0_surviving_pairs.json analysis/obstruction_dossier/verification_report.json analysis/obstruction_dossier/metadata.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 1021,
+      "stdout_sha256": "372f2bbbecf1487cd70cc402dde4b5b2189ef0e8e811a57ddc1d230160251dea",
+      "tag": "022_artifact_hashes"
+    },
+    {
+      "command_shell_escaped": "wc -lc analysis/obstruction_dossier/panel.json analysis/obstruction_dossier/records.jsonl analysis/obstruction_dossier/per_n_summary.json analysis/obstruction_dossier/prime_frequency.csv analysis/obstruction_dossier/top_k_coverage.csv analysis/obstruction_dossier/low_vs_control.json analysis/obstruction_dossier/n0_surviving_pairs.json analysis/obstruction_dossier/verification_report.json analysis/obstruction_dossier/metadata.json ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 593,
+      "stdout_sha256": "4e31e08e9c664a354eec7bd8927f67a4660d096c332fdec512a0d96f6c7c4ef9",
+      "tag": "023_artifact_sizes"
+    },
+    {
+      "command_shell_escaped": "git diff --check -- src/generate_obstruction_dossier.py src/verify_obstruction_dossier.py tests/obstruction_dossier_tests.py docs/selected_obstruction_dossier.md analysis/obstruction_dossier ",
+      "elapsed_wall_clock": "0:00.00",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "024_final_diff_check"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/verify_obstruction_dossier.py run --overwrite-report --verified-utc 2026-07-13T11:15:00Z ",
+      "elapsed_wall_clock": "0:07.24",
+      "return_code": 1,
+      "stderr_bytes": 730,
+      "stderr_sha256": "6ae45f4a7100ea7a7423196a15b2a9adab0fc7ebf3928fde0d0332bee6d89557",
+      "stdout_bytes": 0,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tag": "025_postcommit_replay_and_report_refresh"
+    },
+    {
+      "command_shell_escaped": "env PYTHONDONTWRITEBYTECODE=1 python3 src/verify_obstruction_dossier.py run --overwrite-report --verified-utc 2026-07-13T11:16:00Z ",
+      "elapsed_wall_clock": "0:07.12",
+      "return_code": 0,
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 123,
+      "stdout_sha256": "c1bac57230ae92238e3fa3c1982c6dd0edb7a1c765f9a0d48ba779106fb3127b",
+      "tag": "026_postcommit_replay_corrected"
+    }
+  ],
+  "schema": "a303656-concise-command-manifest-v1"
+}

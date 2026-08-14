@@ -1,0 +1,10 @@
+candidate_n=5
+prime_count=1
+max_c=1
+max_d=1
+admissible_pair_count=2
+distinct_shift_count=2
+zero_remainder_count=0
+uncovered_pair_count=1
+elapsed_seconds=0.000212079
+FAIL

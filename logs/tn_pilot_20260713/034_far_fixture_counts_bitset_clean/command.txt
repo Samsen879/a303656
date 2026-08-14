@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=cmp /tmp/a303656_tn_far_fixture/bitset/counts.csv /tmp/a303656_tn_far_fixture/clean/counts.csv 
+started_utc=2026-07-13T08:35:13Z
+finished_utc=2026-07-13T08:35:13Z

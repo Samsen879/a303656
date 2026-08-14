@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "all_13_bases_agree": true,
+      "q": 19,
+      "q2_residues_checked_literally": 361
+    },
+    {
+      "all_13_bases_agree": true,
+      "q": 31,
+      "q2_residues_checked_literally": 961
+    },
+    {
+      "all_13_bases_agree": true,
+      "q": 43,
+      "q2_residues_checked_literally": 1849
+    }
+  ],
+  "predeclared_small_primes": [
+    19,
+    31,
+    43
+  ],
+  "schema": "a303656-fifth-prime-brute-oracle-v1"
+}

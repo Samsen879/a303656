@@ -1,0 +1,8 @@
+{
+  "initial_results_commit_V": "6efcf58e18714b100fa86c0646e1b9657e03c908",
+  "initial_source_commit_U": "ee5bef63b02277786fe9c01ae9ff44233d889883",
+  "results_X_resolution_rule": "The RESULTS X commit is the Git commit containing this tracked file; verify with git log -1 --format=%H -- analysis/p4_prospective_gate_v2/results/git_metadata/commit_chain.json",
+  "schema": "a303656-p4-gate-v2-commit-chain-v1",
+  "source_commit_W": "db003ac88ff74d6423a9c1e8c215d0222cd53283",
+  "verified_chain": "U -> V -> W -> RESULTS_X"
+}

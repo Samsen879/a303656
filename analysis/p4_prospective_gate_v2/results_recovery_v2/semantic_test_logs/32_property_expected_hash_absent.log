@@ -1,0 +1,1 @@
+{"actual_category": "hash_closure", "actual_code": "EXPECTED_SOURCE_HASH_MISSING", "expected_error_code": "EXPECTED_SOURCE_HASH_MISSING", "expected_semantic_category": "hash_closure", "mutation": "delete analysis plan hash", "return_code": 1, "status": "PASS", "stderr_excerpt": "EXPECTED_SOURCE_HASH_MISSING:hash_closure", "test": "property_expected_hash_absent"}

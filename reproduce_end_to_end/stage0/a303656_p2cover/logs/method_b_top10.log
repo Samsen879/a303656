@@ -1,0 +1,771 @@
+{
+  "method": "B-lazy-constraint-generation",
+  "z3_version": "4.16.0",
+  "primes": [
+    7,
+    11,
+    19,
+    23,
+    67,
+    59,
+    31,
+    271,
+    71,
+    43
+  ],
+  "prime_data": [
+    {
+      "p": 7,
+      "r": 6,
+      "s": 6,
+      "r2": 42,
+      "s2": 42,
+      "lift3": 6,
+      "lift5": 6
+    },
+    {
+      "p": 11,
+      "r": 5,
+      "s": 5,
+      "r2": 5,
+      "s2": 55,
+      "lift3": 0,
+      "lift5": 9
+    },
+    {
+      "p": 19,
+      "r": 18,
+      "s": 9,
+      "r2": 342,
+      "s2": 171,
+      "lift3": 18,
+      "lift5": 6
+    },
+    {
+      "p": 23,
+      "r": 11,
+      "s": 22,
+      "r2": 253,
+      "s2": 506,
+      "lift3": 20,
+      "lift5": 14
+    },
+    {
+      "p": 67,
+      "r": 22,
+      "s": 22,
+      "r2": 1474,
+      "s2": 1474,
+      "lift3": 5,
+      "lift5": 29
+    },
+    {
+      "p": 59,
+      "r": 29,
+      "s": 29,
+      "r2": 1711,
+      "s2": 1711,
+      "lift3": 50,
+      "lift5": 30
+    },
+    {
+      "p": 31,
+      "r": 30,
+      "s": 3,
+      "r2": 930,
+      "s2": 93,
+      "lift3": 17,
+      "lift5": 4
+    },
+    {
+      "p": 271,
+      "r": 30,
+      "s": 27,
+      "r2": 8130,
+      "s2": 7317,
+      "lift3": 65,
+      "lift5": 166
+    },
+    {
+      "p": 71,
+      "r": 35,
+      "s": 5,
+      "r2": 2485,
+      "s2": 355,
+      "lift3": 16,
+      "lift5": 44
+    },
+    {
+      "p": 43,
+      "r": 42,
+      "s": 42,
+      "r2": 1806,
+      "s2": 1806,
+      "lift3": 2,
+      "lift5": 42
+    }
+  ],
+  "L3": "8904248521198964010",
+  "L5": "26712745563596892030",
+  "torus_cardinality": "237856925181821812273767135291825840300",
+  "torus_materialized": false,
+  "pruning": {
+    "loose_sum": "133979/200970",
+    "loose_sum_decimal": 0.6666616907996218,
+    "status": "PROVED_IMPOSSIBLE_BY_1_OVER_MAX_LEMMA"
+  },
+  "search": {
+    "status": "COMPUTATIONAL_OBSERVATION_CANDIDATE_UNKNOWN",
+    "warning": "No formal SAT proof certificate was generated; this is not certified UNSAT.",
+    "iterations_completed": 28,
+    "constraints": 28,
+    "candidate_seconds_last": 5.001095613999951,
+    "elapsed_seconds": 10.414503665999973,
+    "iteration_log": [
+      {
+        "iteration": 1,
+        "candidate_seconds": 0.011933660999829954,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 0,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 0,
+          "11": 0,
+          "19": 0,
+          "23": 0,
+          "67": 0,
+          "59": 0,
+          "31": 0,
+          "271": 0,
+          "71": 0,
+          "43": 0
+        }
+      },
+      {
+        "iteration": 2,
+        "candidate_seconds": 0.0011164390000431013,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 1,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 13,
+          "19": 21,
+          "23": 25,
+          "67": 69,
+          "59": 61,
+          "31": 33,
+          "271": 273,
+          "71": 71,
+          "43": 45
+        }
+      },
+      {
+        "iteration": 3,
+        "candidate_seconds": 0.000404280000111612,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 2,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 17,
+          "19": 25,
+          "23": 29,
+          "67": 73,
+          "59": 65,
+          "31": 37,
+          "271": 277,
+          "71": 77,
+          "43": 49
+        }
+      },
+      {
+        "iteration": 4,
+        "candidate_seconds": 0.0006360249999488587,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 7,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 16,
+          "19": 7,
+          "23": 51,
+          "67": 93,
+          "59": 85,
+          "31": 57,
+          "271": 297,
+          "71": 77,
+          "43": 49
+        }
+      },
+      {
+        "iteration": 5,
+        "candidate_seconds": 0.0004565790000015113,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 5,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 6,
+          "11": 16,
+          "19": 159,
+          "23": 53,
+          "67": 69,
+          "59": 85,
+          "31": 37,
+          "271": 349,
+          "71": 77,
+          "43": 49
+        }
+      },
+      {
+        "iteration": 6,
+        "candidate_seconds": 0.0008332039999459084,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 3,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 4,
+          "19": 159,
+          "23": 64,
+          "67": 27,
+          "59": 86,
+          "31": 57,
+          "271": 416,
+          "71": 77,
+          "43": 49
+        }
+      },
+      {
+        "iteration": 7,
+        "candidate_seconds": 0.0005189029998291517,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 4,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 16,
+          "19": 159,
+          "23": 64,
+          "67": 194,
+          "59": 204,
+          "31": 57,
+          "271": 416,
+          "71": 148,
+          "43": 156
+        }
+      },
+      {
+        "iteration": 8,
+        "candidate_seconds": 0.0008645110001452849,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 9,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 4,
+          "19": 159,
+          "23": 64,
+          "67": 193,
+          "59": 213,
+          "31": 57,
+          "271": 416,
+          "71": 148,
+          "43": 156
+        }
+      },
+      {
+        "iteration": 9,
+        "candidate_seconds": 0.0008801310000308149,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 10,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 9,
+          "11": 4,
+          "19": 254,
+          "23": 81,
+          "67": 513,
+          "59": 331,
+          "31": 57,
+          "271": 416,
+          "71": 148,
+          "43": 169
+        }
+      },
+      {
+        "iteration": 10,
+        "candidate_seconds": 0.0012393700001211982,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 6,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 35,
+          "11": 43,
+          "19": 254,
+          "23": 87,
+          "67": 475,
+          "59": 626,
+          "31": 119,
+          "271": 416,
+          "71": 144,
+          "43": 167
+        }
+      },
+      {
+        "iteration": 11,
+        "candidate_seconds": 0.0010975129998769262,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 0,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 35,
+          "11": 43,
+          "19": 254,
+          "23": 87,
+          "67": 475,
+          "59": 626,
+          "31": 119,
+          "271": 450,
+          "71": 144,
+          "43": 167
+        }
+      },
+      {
+        "iteration": 12,
+        "candidate_seconds": 0.0006016509998971742,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 1,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 35,
+          "11": 43,
+          "19": 254,
+          "23": 87,
+          "67": 473,
+          "59": 640,
+          "31": 119,
+          "271": 277,
+          "71": 144,
+          "43": 167
+        }
+      },
+      {
+        "iteration": 13,
+        "candidate_seconds": 0.0005421220000698668,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 3,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 35,
+          "11": 43,
+          "19": 254,
+          "23": 77,
+          "67": 473,
+          "59": 640,
+          "31": 119,
+          "271": 277,
+          "71": 144,
+          "43": 167
+        }
+      },
+      {
+        "iteration": 14,
+        "candidate_seconds": 0.0005920549999700597,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 8,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 35,
+          "11": 43,
+          "19": 273,
+          "23": 82,
+          "67": 473,
+          "59": 640,
+          "31": 101,
+          "271": 277,
+          "71": 144,
+          "43": 167
+        }
+      },
+      {
+        "iteration": 15,
+        "candidate_seconds": 0.001295328999958656,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 5,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 14,
+          "11": 51,
+          "19": 284,
+          "23": 78,
+          "67": 473,
+          "59": 813,
+          "31": 101,
+          "271": 277,
+          "71": 144,
+          "43": 155
+        }
+      },
+      {
+        "iteration": 16,
+        "candidate_seconds": 0.005080548000023555,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 20,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 46,
+          "11": 70,
+          "19": 157,
+          "23": 81,
+          "67": 477,
+          "59": 8,
+          "31": 316,
+          "271": 399,
+          "71": 148,
+          "43": 131
+        }
+      },
+      {
+        "iteration": 17,
+        "candidate_seconds": 0.002789978999999221,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 2,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 13,
+          "11": 2,
+          "19": 160,
+          "23": 71,
+          "67": 830,
+          "59": 108,
+          "31": 252,
+          "271": 386,
+          "71": 2327,
+          "43": 239
+        }
+      },
+      {
+        "iteration": 18,
+        "candidate_seconds": 0.0016560760000174923,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 4,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 0,
+          "11": 70,
+          "19": 160,
+          "23": 71,
+          "67": 865,
+          "59": 65,
+          "31": 460,
+          "271": 386,
+          "71": 2,
+          "43": 239
+        }
+      },
+      {
+        "iteration": 19,
+        "candidate_seconds": 0.0013384090000272408,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 6,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 0,
+          "11": 70,
+          "19": 153,
+          "23": 28,
+          "67": 865,
+          "59": 65,
+          "31": 274,
+          "271": 279,
+          "71": 2274,
+          "43": 232
+        }
+      },
+      {
+        "iteration": 20,
+        "candidate_seconds": 0.0018781789999593457,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 7,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 27,
+          "11": 71,
+          "19": 198,
+          "23": 74,
+          "67": 813,
+          "59": 1717,
+          "31": 190,
+          "271": 3260,
+          "71": 2274,
+          "43": 886
+        }
+      },
+      {
+        "iteration": 21,
+        "candidate_seconds": 0.01779395200014733,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 8,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 34,
+          "11": 71,
+          "19": 198,
+          "23": 74,
+          "67": 1882,
+          "59": 1642,
+          "31": 376,
+          "271": 3279,
+          "71": 2274,
+          "43": 886
+        }
+      },
+      {
+        "iteration": 22,
+        "candidate_seconds": 0.0015446879999672092,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 9,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 13,
+          "11": 71,
+          "19": 198,
+          "23": 74,
+          "67": 1882,
+          "59": 1642,
+          "31": 376,
+          "271": 3369,
+          "71": 2274,
+          "43": 886
+        }
+      },
+      {
+        "iteration": 23,
+        "candidate_seconds": 0.0006014329999288748,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 20,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 13,
+          "11": 71,
+          "19": 198,
+          "23": 74,
+          "67": 1882,
+          "59": 1642,
+          "31": 407,
+          "271": 3369,
+          "71": 2274,
+          "43": 886
+        }
+      },
+      {
+        "iteration": 24,
+        "candidate_seconds": 0.3167958429999089,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 0,
+          "d": 100,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 14,
+          "11": 46,
+          "19": 293,
+          "23": 76,
+          "67": 3155,
+          "59": 813,
+          "31": 407,
+          "271": 3399,
+          "71": 2298,
+          "43": 153
+        }
+      },
+      {
+        "iteration": 25,
+        "candidate_seconds": 0.000921952999988207,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 2,
+          "d": 0,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 14,
+          "11": 57,
+          "19": 293,
+          "23": 76,
+          "67": 3155,
+          "59": 813,
+          "31": 407,
+          "271": 3399,
+          "71": 2298,
+          "43": 1099
+        }
+      },
+      {
+        "iteration": 26,
+        "candidate_seconds": 3.644570167999973,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 1,
+          "d": 10,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 28,
+          "11": 72,
+          "19": 88,
+          "23": 86,
+          "67": 693,
+          "59": 1603,
+          "31": 407,
+          "271": 279,
+          "71": 3197,
+          "43": 886
+        }
+      },
+      {
+        "iteration": 27,
+        "candidate_seconds": 1.3357228739998845,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 2,
+          "d": 1,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 14,
+          "11": 57,
+          "19": 179,
+          "23": 86,
+          "67": 140,
+          "59": 69,
+          "31": 407,
+          "271": 43986,
+          "71": 146,
+          "43": 671
+        }
+      },
+      {
+        "iteration": 28,
+        "candidate_seconds": 0.0009420240000963531,
+        "oracle": {
+          "backend": "exact-witness-grid",
+          "status": "sat",
+          "c": 2,
+          "d": 2,
+          "seconds": 0.0
+        },
+        "t_values": {
+          "7": 7,
+          "11": 57,
+          "19": 179,
+          "23": 86,
+          "67": 140,
+          "59": 69,
+          "31": 407,
+          "271": 43986,
+          "71": 146,
+          "43": 671
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic -I /tmp/a303656_tn_acceptance_src_2e38ac0 /tmp/a303656_tn_acceptance_src_2e38ac0/tests/exponent_pair_multiplicity_test.cpp -o /tmp/a303656_tn_acceptance_build_2e38ac0/exponent_pair_multiplicity_test 
+started_utc=2026-07-13T08:50:00Z
+finished_utc=2026-07-13T08:50:01Z

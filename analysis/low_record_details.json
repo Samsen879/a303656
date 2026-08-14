@@ -1,0 +1,2679 @@
+{
+  "T_equals_1_sole_winners": [
+    {
+      "n": "2",
+      "winner": {
+        "c": 0,
+        "canonical_witness": {
+          "a": "0",
+          "b": "0"
+        },
+        "d": 0,
+        "remainder": "0",
+        "shift": "2"
+      }
+    },
+    {
+      "n": "3",
+      "winner": {
+        "c": 0,
+        "canonical_witness": {
+          "a": "0",
+          "b": "1"
+        },
+        "d": 0,
+        "remainder": "1",
+        "shift": "2"
+      }
+    },
+    {
+      "n": "5",
+      "winner": {
+        "c": 1,
+        "canonical_witness": {
+          "a": "0",
+          "b": "1"
+        },
+        "d": 0,
+        "remainder": "1",
+        "shift": "4"
+      }
+    },
+    {
+      "n": "25",
+      "winner": {
+        "c": 1,
+        "canonical_witness": {
+          "a": "1",
+          "b": "4"
+        },
+        "d": 1,
+        "remainder": "17",
+        "shift": "8"
+      }
+    }
+  ],
+  "classification": "FINITE COMPUTATIONAL OBSERVATION FROM VALIDATED PILOT OUTPUTS",
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "record_count": 57,
+  "records": [
+    {
+      "T": 1,
+      "T_over_active": {
+        "decimal": "1.000000000000000",
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 1,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "2",
+      "sole_winner": {
+        "c": 0,
+        "canonical_witness": {
+          "a": "0",
+          "b": "0"
+        },
+        "d": 0,
+        "remainder": "0",
+        "shift": "2"
+      },
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "0"
+          },
+          "d": 0,
+          "remainder": "0",
+          "shift": "2"
+        }
+      ]
+    },
+    {
+      "T": 1,
+      "T_over_active": {
+        "decimal": "1.000000000000000",
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 1,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "3",
+      "sole_winner": {
+        "c": 0,
+        "canonical_witness": {
+          "a": "0",
+          "b": "1"
+        },
+        "d": 0,
+        "remainder": "1",
+        "shift": "2"
+      },
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "1",
+          "shift": "2"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "1.000000000000000",
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 2,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "4",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "2",
+          "shift": "2"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "0"
+          },
+          "d": 0,
+          "remainder": "0",
+          "shift": "4"
+        }
+      ]
+    },
+    {
+      "T": 1,
+      "T_over_active": {
+        "decimal": "0.500000000000000",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 2,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "5",
+      "sole_winner": {
+        "c": 1,
+        "canonical_witness": {
+          "a": "0",
+          "b": "1"
+        },
+        "d": 0,
+        "remainder": "1",
+        "shift": "4"
+      },
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "1",
+          "shift": "4"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "1.000000000000000",
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 3,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "6",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "2"
+          },
+          "d": 0,
+          "remainder": "4",
+          "shift": "2"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "0"
+          },
+          "d": 1,
+          "remainder": "0",
+          "shift": "6"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "2",
+          "shift": "4"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.666666666666667",
+        "denominator": "3",
+        "numerator": "2"
+      },
+      "active_exponent_pair_count": 3,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "7",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "2"
+          },
+          "d": 0,
+          "remainder": "5",
+          "shift": "2"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 1,
+          "remainder": "1",
+          "shift": "6"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.750000000000000",
+        "denominator": "4",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 4,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "8",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "1"
+          },
+          "d": 1,
+          "remainder": "2",
+          "shift": "6"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "2"
+          },
+          "d": 0,
+          "remainder": "4",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "0"
+          },
+          "d": 1,
+          "remainder": "0",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.500000000000000",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 4,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "9",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "2"
+          },
+          "d": 0,
+          "remainder": "5",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 1,
+          "remainder": "1",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.600000000000000",
+        "denominator": "5",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 5,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "11",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "9",
+          "shift": "2"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "2"
+          },
+          "d": 1,
+          "remainder": "5",
+          "shift": "6"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "1",
+          "shift": "10"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.400000000000000",
+        "denominator": "5",
+        "numerator": "2"
+      },
+      "active_exponent_pair_count": 5,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "13",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "9",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "2"
+          },
+          "d": 1,
+          "remainder": "5",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.500000000000000",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "16",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "3"
+          },
+          "d": 1,
+          "remainder": "10",
+          "shift": "6"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "2",
+            "b": "2"
+          },
+          "d": 1,
+          "remainder": "8",
+          "shift": "8"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "1",
+            "b": "1"
+          },
+          "d": 1,
+          "remainder": "2",
+          "shift": "14"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.333333333333333",
+        "denominator": "3",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "17",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "2",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "13",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "3"
+          },
+          "d": 1,
+          "remainder": "9",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.500000000000000",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "20",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "3",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "18",
+          "shift": "2"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "4"
+          },
+          "d": 0,
+          "remainder": "16",
+          "shift": "4"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "1",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "10",
+          "shift": "10"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.333333333333333",
+        "denominator": "3",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "21",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "4"
+          },
+          "d": 0,
+          "remainder": "17",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "2",
+            "b": "3"
+          },
+          "d": 1,
+          "remainder": "13",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.500000000000000",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "23",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "4"
+          },
+          "d": 1,
+          "remainder": "17",
+          "shift": "6"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "2",
+            "b": "3"
+          },
+          "d": 0,
+          "remainder": "13",
+          "shift": "10"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "0",
+            "b": "3"
+          },
+          "d": 1,
+          "remainder": "9",
+          "shift": "14"
+        }
+      ]
+    },
+    {
+      "T": 1,
+      "T_over_active": {
+        "decimal": "0.166666666666667",
+        "denominator": "6",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 6,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "25",
+      "sole_winner": {
+        "c": 1,
+        "canonical_witness": {
+          "a": "1",
+          "b": "4"
+        },
+        "d": 1,
+        "remainder": "17",
+        "shift": "8"
+      },
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "4"
+          },
+          "d": 1,
+          "remainder": "17",
+          "shift": "8"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.333333333333333",
+        "denominator": "3",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 9,
+      "duplicate_numerical_shifts": [
+        {
+          "shift": "28",
+          "source_exponent_pairs": [
+            {
+              "c": 1,
+              "d": 2
+            },
+            {
+              "c": 3,
+              "d": 0
+            }
+          ]
+        }
+      ],
+      "interval_id": "PILOT-A",
+      "n": "29",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "5"
+          },
+          "d": 0,
+          "remainder": "25",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 2,
+          "remainder": "1",
+          "shift": "28"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "0",
+            "b": "1"
+          },
+          "d": 0,
+          "remainder": "1",
+          "shift": "28"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.272727272727273",
+        "denominator": "11",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 11,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "49",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "3",
+            "b": "6"
+          },
+          "d": 0,
+          "remainder": "45",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "5"
+          },
+          "d": 1,
+          "remainder": "41",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "1",
+            "b": "4"
+          },
+          "d": 1,
+          "remainder": "17",
+          "shift": "32"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.250000000000000",
+        "denominator": "4",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 12,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "56",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "7"
+          },
+          "d": 1,
+          "remainder": "50",
+          "shift": "6"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "6"
+          },
+          "d": 0,
+          "remainder": "52",
+          "shift": "4"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "0",
+            "b": "2"
+          },
+          "d": 2,
+          "remainder": "4",
+          "shift": "52"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.250000000000000",
+        "denominator": "4",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 12,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "61",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "2",
+            "b": "7"
+          },
+          "d": 1,
+          "remainder": "53",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "2",
+            "b": "5"
+          },
+          "d": 1,
+          "remainder": "29",
+          "shift": "32"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "0",
+            "b": "3"
+          },
+          "d": 2,
+          "remainder": "9",
+          "shift": "52"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.153846153846154",
+        "denominator": "13",
+        "numerator": "2"
+      },
+      "active_exponent_pair_count": 13,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "85",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "9"
+          },
+          "d": 0,
+          "remainder": "81",
+          "shift": "4"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "2",
+            "b": "7"
+          },
+          "d": 1,
+          "remainder": "53",
+          "shift": "32"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.214285714285714",
+        "denominator": "14",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 14,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "97",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "5",
+            "b": "8"
+          },
+          "d": 1,
+          "remainder": "89",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "1",
+            "b": "8"
+          },
+          "d": 1,
+          "remainder": "65",
+          "shift": "32"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "3",
+            "b": "6"
+          },
+          "d": 2,
+          "remainder": "45",
+          "shift": "52"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.200000000000000",
+        "denominator": "5",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 15,
+      "duplicate_numerical_shifts": [
+        {
+          "shift": "28",
+          "source_exponent_pairs": [
+            {
+              "c": 1,
+              "d": 2
+            },
+            {
+              "c": 3,
+              "d": 0
+            }
+          ]
+        }
+      ],
+      "interval_id": "PILOT-A",
+      "n": "109",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "10"
+          },
+          "d": 1,
+          "remainder": "101",
+          "shift": "8"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "0",
+            "b": "9"
+          },
+          "d": 2,
+          "remainder": "81",
+          "shift": "28"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "0",
+            "b": "9"
+          },
+          "d": 0,
+          "remainder": "81",
+          "shift": "28"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.200000000000000",
+        "denominator": "5",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 15,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "121",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "6",
+            "b": "9"
+          },
+          "d": 0,
+          "remainder": "117",
+          "shift": "4"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "7",
+            "b": "8"
+          },
+          "d": 1,
+          "remainder": "113",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "5",
+            "b": "8"
+          },
+          "d": 1,
+          "remainder": "89",
+          "shift": "32"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.157894736842105",
+        "denominator": "19",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 19,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "193",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "13"
+          },
+          "d": 1,
+          "remainder": "185",
+          "shift": "8"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "65",
+          "shift": "128"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "4",
+            "b": "5"
+          },
+          "d": 3,
+          "remainder": "41",
+          "shift": "152"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.150000000000000",
+        "denominator": "20",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 20,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "217",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "5",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "89",
+          "shift": "128"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "4",
+            "b": "13"
+          },
+          "d": 1,
+          "remainder": "185",
+          "shift": "32"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "1",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "65",
+          "shift": "152"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.150000000000000",
+        "denominator": "20",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 20,
+      "duplicate_numerical_shifts": [
+        {
+          "shift": "28",
+          "source_exponent_pairs": [
+            {
+              "c": 1,
+              "d": 2
+            },
+            {
+              "c": 3,
+              "d": 0
+            }
+          ]
+        }
+      ],
+      "interval_id": "PILOT-A",
+      "n": "221",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "7",
+            "b": "12"
+          },
+          "d": 2,
+          "remainder": "193",
+          "shift": "28"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "7",
+            "b": "12"
+          },
+          "d": 0,
+          "remainder": "193",
+          "shift": "28"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "0",
+            "b": "13"
+          },
+          "d": 2,
+          "remainder": "169",
+          "shift": "52"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.150000000000000",
+        "denominator": "20",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 20,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "241",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "8",
+            "b": "13"
+          },
+          "d": 1,
+          "remainder": "233",
+          "shift": "8"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "7",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "113",
+          "shift": "128"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "5",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "89",
+          "shift": "152"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.130434782608696",
+        "denominator": "23",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 23,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "310",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "9",
+            "b": "15"
+          },
+          "d": 0,
+          "remainder": "306",
+          "shift": "4"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "10",
+            "b": "14"
+          },
+          "d": 1,
+          "remainder": "296",
+          "shift": "14"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "2",
+            "b": "10"
+          },
+          "d": 3,
+          "remainder": "104",
+          "shift": "206"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.130434782608696",
+        "denominator": "23",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 23,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "335",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "3",
+            "b": "18"
+          },
+          "d": 0,
+          "remainder": "333",
+          "shift": "2"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "1",
+            "b": "18"
+          },
+          "d": 0,
+          "remainder": "325",
+          "shift": "10"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "2",
+            "b": "15"
+          },
+          "d": 2,
+          "remainder": "229",
+          "shift": "106"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.125000000000000",
+        "denominator": "8",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "382",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "10",
+            "b": "16"
+          },
+          "d": 2,
+          "remainder": "356",
+          "shift": "26"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "0",
+            "b": "16"
+          },
+          "d": 3,
+          "remainder": "256",
+          "shift": "126"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "10",
+            "b": "14"
+          },
+          "d": 1,
+          "remainder": "296",
+          "shift": "86"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.125000000000000",
+        "denominator": "8",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "436",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "7",
+            "b": "19"
+          },
+          "d": 2,
+          "remainder": "410",
+          "shift": "26"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "2",
+            "b": "20"
+          },
+          "d": 1,
+          "remainder": "404",
+          "shift": "32"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "2",
+            "b": "8"
+          },
+          "d": 3,
+          "remainder": "68",
+          "shift": "368"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.125000000000000",
+        "denominator": "8",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "506",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "4",
+            "b": "22"
+          },
+          "d": 1,
+          "remainder": "500",
+          "shift": "6"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "10",
+            "b": "18"
+          },
+          "d": 0,
+          "remainder": "424",
+          "shift": "82"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "0",
+            "b": "20"
+          },
+          "d": 2,
+          "remainder": "400",
+          "shift": "106"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.125000000000000",
+        "denominator": "8",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "545",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "10",
+            "b": "21"
+          },
+          "d": 0,
+          "remainder": "541",
+          "shift": "4"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "3",
+            "b": "22"
+          },
+          "d": 2,
+          "remainder": "493",
+          "shift": "52"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "9",
+            "b": "14"
+          },
+          "d": 2,
+          "remainder": "277",
+          "shift": "268"
+        }
+      ]
+    },
+    {
+      "T": 2,
+      "T_over_active": {
+        "decimal": "0.083333333333333",
+        "denominator": "12",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "560",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "5",
+            "b": "23"
+          },
+          "d": 1,
+          "remainder": "554",
+          "shift": "6"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "6",
+            "b": "16"
+          },
+          "d": 2,
+          "remainder": "292",
+          "shift": "268"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.125000000000000",
+        "denominator": "8",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 24,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "623",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "16",
+            "b": "19"
+          },
+          "d": 1,
+          "remainder": "617",
+          "shift": "6"
+        },
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "17",
+            "b": "18"
+          },
+          "d": 0,
+          "remainder": "613",
+          "shift": "10"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "10",
+            "b": "21"
+          },
+          "d": 0,
+          "remainder": "541",
+          "shift": "82"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.090909090909091",
+        "denominator": "11",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 33,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "865",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "29"
+          },
+          "d": 1,
+          "remainder": "857",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "7",
+            "b": "28"
+          },
+          "d": 1,
+          "remainder": "833",
+          "shift": "32"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "16",
+            "b": "19"
+          },
+          "d": 1,
+          "remainder": "617",
+          "shift": "248"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1370",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "8",
+            "b": "36"
+          },
+          "d": 0,
+          "remainder": "1360",
+          "shift": "10"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "8",
+            "b": "24"
+          },
+          "d": 0,
+          "remainder": "640",
+          "shift": "730"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "0",
+            "b": "4"
+          },
+          "d": 4,
+          "remainder": "16",
+          "shift": "1354"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1489",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "16",
+            "b": "35"
+          },
+          "d": 1,
+          "remainder": "1481",
+          "shift": "8"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "20",
+            "b": "31"
+          },
+          "d": 3,
+          "remainder": "1361",
+          "shift": "128"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "4",
+            "b": "35"
+          },
+          "d": 1,
+          "remainder": "1241",
+          "shift": "248"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1568",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "12",
+            "b": "36"
+          },
+          "d": 3,
+          "remainder": "1440",
+          "shift": "128"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "4",
+            "b": "30"
+          },
+          "d": 4,
+          "remainder": "916",
+          "shift": "652"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "2",
+            "b": "36"
+          },
+          "d": 2,
+          "remainder": "1300",
+          "shift": "268"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1705",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "41"
+          },
+          "d": 1,
+          "remainder": "1697",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "23",
+            "b": "32"
+          },
+          "d": 3,
+          "remainder": "1553",
+          "shift": "152"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "18",
+            "b": "27"
+          },
+          "d": 4,
+          "remainder": "1053",
+          "shift": "652"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1825",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "4",
+            "b": "41"
+          },
+          "d": 3,
+          "remainder": "1697",
+          "shift": "128"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "3",
+            "b": "42"
+          },
+          "d": 2,
+          "remainder": "1773",
+          "shift": "52"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "6",
+            "b": "39"
+          },
+          "d": 2,
+          "remainder": "1557",
+          "shift": "268"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1918",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "12",
+            "b": "42"
+          },
+          "d": 0,
+          "remainder": "1908",
+          "shift": "10"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "26",
+            "b": "34"
+          },
+          "d": 1,
+          "remainder": "1832",
+          "shift": "86"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "20",
+            "b": "28"
+          },
+          "d": 1,
+          "remainder": "1184",
+          "shift": "734"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "1945",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "1",
+            "b": "44"
+          },
+          "d": 1,
+          "remainder": "1937",
+          "shift": "8"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "8",
+            "b": "43"
+          },
+          "d": 1,
+          "remainder": "1913",
+          "shift": "32"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "4",
+            "b": "41"
+          },
+          "d": 1,
+          "remainder": "1697",
+          "shift": "248"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.085714285714286",
+        "denominator": "35",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 35,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "2018",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 2,
+          "canonical_witness": {
+            "a": "22",
+            "b": "30"
+          },
+          "d": 4,
+          "remainder": "1384",
+          "shift": "634"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "0",
+            "b": "44"
+          },
+          "d": 0,
+          "remainder": "1936",
+          "shift": "82"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "4",
+            "b": "36"
+          },
+          "d": 4,
+          "remainder": "1312",
+          "shift": "706"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.075000000000000",
+        "denominator": "40",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 40,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "3028",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "55"
+          },
+          "d": 0,
+          "remainder": "3026",
+          "shift": "2"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "1",
+            "b": "49"
+          },
+          "d": 4,
+          "remainder": "2402",
+          "shift": "626"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "14",
+            "b": "52"
+          },
+          "d": 3,
+          "remainder": "2900",
+          "shift": "128"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.063829787234043",
+        "denominator": "47",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 47,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "3920",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "13",
+            "b": "25"
+          },
+          "d": 5,
+          "remainder": "794",
+          "shift": "3126"
+        },
+        {
+          "c": 7,
+          "canonical_witness": {
+            "a": "24",
+            "b": "34"
+          },
+          "d": 0,
+          "remainder": "1732",
+          "shift": "2188"
+        },
+        {
+          "c": 7,
+          "canonical_witness": {
+            "a": "18",
+            "b": "28"
+          },
+          "d": 4,
+          "remainder": "1108",
+          "shift": "2812"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.062500000000000",
+        "denominator": "16",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 48,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "6454",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "26",
+            "b": "76"
+          },
+          "d": 0,
+          "remainder": "6452",
+          "shift": "2"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "32",
+            "b": "48"
+          },
+          "d": 5,
+          "remainder": "3328",
+          "shift": "3126"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "10",
+            "b": "50"
+          },
+          "d": 5,
+          "remainder": "2600",
+          "shift": "3854"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.055555555555556",
+        "denominator": "18",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 54,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "9913",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "40",
+            "b": "91"
+          },
+          "d": 1,
+          "remainder": "9881",
+          "shift": "32"
+        },
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "19",
+            "b": "80"
+          },
+          "d": 5,
+          "remainder": "6761",
+          "shift": "3152"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "16",
+            "b": "97"
+          },
+          "d": 1,
+          "remainder": "9665",
+          "shift": "248"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.055555555555556",
+        "denominator": "18",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 54,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "13501",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 3,
+          "canonical_witness": {
+            "a": "37",
+            "b": "110"
+          },
+          "d": 1,
+          "remainder": "13469",
+          "shift": "32"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "22",
+            "b": "113"
+          },
+          "d": 1,
+          "remainder": "13253",
+          "shift": "248"
+        },
+        {
+          "c": 5,
+          "canonical_witness": {
+            "a": "23",
+            "b": "98"
+          },
+          "d": 5,
+          "remainder": "10133",
+          "shift": "3368"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.043478260869565",
+        "denominator": "23",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 69,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "33670",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "54",
+            "b": "120"
+          },
+          "d": 6,
+          "remainder": "17316",
+          "shift": "16354"
+        },
+        {
+          "c": 7,
+          "canonical_witness": {
+            "a": "27",
+            "b": "123"
+          },
+          "d": 6,
+          "remainder": "15858",
+          "shift": "17812"
+        },
+        {
+          "c": 8,
+          "canonical_witness": {
+            "a": "110",
+            "b": "122"
+          },
+          "d": 3,
+          "remainder": "26984",
+          "shift": "6686"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.042857142857143",
+        "denominator": "70",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 70,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "50110",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "70",
+            "b": "172"
+          },
+          "d": 6,
+          "remainder": "34484",
+          "shift": "15626"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "39",
+            "b": "219"
+          },
+          "d": 4,
+          "remainder": "49482",
+          "shift": "628"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "50",
+            "b": "218"
+          },
+          "d": 1,
+          "remainder": "50024",
+          "shift": "86"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.039473684210526",
+        "denominator": "76",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 76,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "64204",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "13",
+            "b": "253"
+          },
+          "d": 2,
+          "remainder": "64178",
+          "shift": "26"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "100",
+            "b": "226"
+          },
+          "d": 5,
+          "remainder": "61076",
+          "shift": "3128"
+        },
+        {
+          "c": 7,
+          "canonical_witness": {
+            "a": "104",
+            "b": "226"
+          },
+          "d": 3,
+          "remainder": "61892",
+          "shift": "2312"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.038961038961039",
+        "denominator": "77",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 77,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "76562",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "94",
+            "b": "260"
+          },
+          "d": 3,
+          "remainder": "76436",
+          "shift": "126"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "45",
+            "b": "273"
+          },
+          "d": 1,
+          "remainder": "76554",
+          "shift": "8"
+        },
+        {
+          "c": 10,
+          "canonical_witness": {
+            "a": "8",
+            "b": "132"
+          },
+          "d": 2,
+          "remainder": "17488",
+          "shift": "59074"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.034482758620690",
+        "denominator": "29",
+        "numerator": "1"
+      },
+      "active_exponent_pair_count": 87,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "108862",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "110",
+            "b": "306"
+          },
+          "d": 5,
+          "remainder": "105736",
+          "shift": "3126"
+        },
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "80",
+            "b": "156"
+          },
+          "d": 7,
+          "remainder": "30736",
+          "shift": "78126"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "50",
+            "b": "326"
+          },
+          "d": 1,
+          "remainder": "108776",
+          "shift": "86"
+        }
+      ]
+    },
+    {
+      "T": 3,
+      "T_over_active": {
+        "decimal": "0.031914893617021",
+        "denominator": "94",
+        "numerator": "3"
+      },
+      "active_exponent_pair_count": 94,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-A",
+      "n": "188018",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "63",
+            "b": "429"
+          },
+          "d": 1,
+          "remainder": "188010",
+          "shift": "8"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "42",
+            "b": "430"
+          },
+          "d": 4,
+          "remainder": "186664",
+          "shift": "1354"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "108",
+            "b": "400"
+          },
+          "d": 6,
+          "remainder": "171664",
+          "shift": "16354"
+        }
+      ]
+    },
+    {
+      "T": 16,
+      "T_over_active": {
+        "decimal": "0.039312039312039",
+        "denominator": "407",
+        "numerator": "16"
+      },
+      "active_exponent_pair_count": 407,
+      "duplicate_numerical_shifts": [],
+      "interval_id": "PILOT-B",
+      "n": "240000005594",
+      "sole_winner": null,
+      "winning_exponent_pairs": [
+        {
+          "c": 0,
+          "canonical_witness": {
+            "a": "109812",
+            "b": "477432"
+          },
+          "d": 6,
+          "remainder": "239999989968",
+          "shift": "15626"
+        },
+        {
+          "c": 1,
+          "canonical_witness": {
+            "a": "44079",
+            "b": "455565"
+          },
+          "d": 15,
+          "remainder": "209482427466",
+          "shift": "30517578128"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "36558",
+            "b": "488532"
+          },
+          "d": 5,
+          "remainder": "240000002388",
+          "shift": "3206"
+        },
+        {
+          "c": 4,
+          "canonical_witness": {
+            "a": "15748",
+            "b": "483372"
+          },
+          "d": 14,
+          "remainder": "233896489888",
+          "shift": "6103515706"
+        },
+        {
+          "c": 6,
+          "canonical_witness": {
+            "a": "16736",
+            "b": "489612"
+          },
+          "d": 4,
+          "remainder": "240000004240",
+          "shift": "1354"
+        },
+        {
+          "c": 8,
+          "canonical_witness": {
+            "a": "58288",
+            "b": "486408"
+          },
+          "d": 10,
+          "remainder": "239990233408",
+          "shift": "9772186"
+        },
+        {
+          "c": 12,
+          "canonical_witness": {
+            "a": "24428",
+            "b": "489288"
+          },
+          "d": 2,
+          "remainder": "239999474128",
+          "shift": "531466"
+        },
+        {
+          "c": 14,
+          "canonical_witness": {
+            "a": "130830",
+            "b": "472090"
+          },
+          "d": 10,
+          "remainder": "239985457000",
+          "shift": "14548594"
+        },
+        {
+          "c": 14,
+          "canonical_witness": {
+            "a": "20668",
+            "b": "294924"
+          },
+          "d": 16,
+          "remainder": "87407332000",
+          "shift": "152592673594"
+        },
+        {
+          "c": 15,
+          "canonical_witness": {
+            "a": "204519",
+            "b": "445149"
+          },
+          "d": 5,
+          "remainder": "239985653562",
+          "shift": "14352032"
+        },
+        {
+          "c": 16,
+          "canonical_witness": {
+            "a": "26952",
+            "b": "489112"
+          },
+          "d": 2,
+          "remainder": "239956958848",
+          "shift": "43046746"
+        },
+        {
+          "c": 16,
+          "canonical_witness": {
+            "a": "262162",
+            "b": "413502"
+          },
+          "d": 12,
+          "remainder": "239712818248",
+          "shift": "287187346"
+        },
+        {
+          "c": 18,
+          "canonical_witness": {
+            "a": "109908",
+            "b": "477004"
+          },
+          "d": 4,
+          "remainder": "239612584480",
+          "shift": "387421114"
+        },
+        {
+          "c": 18,
+          "canonical_witness": {
+            "a": "91018",
+            "b": "480966"
+          },
+          "d": 6,
+          "remainder": "239612569480",
+          "shift": "387436114"
+        },
+        {
+          "c": 20,
+          "canonical_witness": {
+            "a": "43152",
+            "b": "484408"
+          },
+          "d": 6,
+          "remainder": "236513205568",
+          "shift": "3486800026"
+        },
+        {
+          "c": 21,
+          "canonical_witness": {
+            "a": "90795",
+            "b": "470421"
+          },
+          "d": 5,
+          "remainder": "229539649266",
+          "shift": "10460356328"
+        }
+      ]
+    }
+  ],
+  "schema": "a303656-tn-low-record-details-v1",
+  "winner_totals": {
+    "PILOT-A": 152,
+    "PILOT-B": 16
+  }
+}

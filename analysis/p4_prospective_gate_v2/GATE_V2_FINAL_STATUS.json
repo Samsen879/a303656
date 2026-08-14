@@ -1,0 +1,75 @@
+{
+  "schema": "a303656-p4-gate-v2-final-status-v1",
+  "gate": "P4_LIVE_TOP_BAND_PROSPECTIVE_GATE_V2",
+  "status": "FAIL",
+  "lifecycle": "CLOSED",
+  "route_decision": "CLOSE_GATE_V2_ROUTE_2",
+  "new_T_authorized": false,
+  "registry_v2_status": "REJECTED",
+  "semantic_verifier_status": "REJECTED",
+  "semantic_verifier_disposition": "FIX_REQUIRED_BY_AUDIT_BUT_OUT_OF_SCOPE_FOR_CLOSED_GATE",
+  "design_A_status": "LEVEL_1_ARCHIVED_CONDITIONAL_CANDIDATE",
+  "global_problem_status": "UNRESOLVED",
+  "independent_audit_decision": {
+    "exact_H8_landscape": "ACCEPT",
+    "registry_v2": "REJECTED",
+    "semantic_verifier": "REJECT_FIX_REQUIRED",
+    "gate_v2": "FAIL",
+    "new_T": "NOT_AUTHORIZED"
+  },
+  "decisive_facts": {
+    "repository_registry_v2_integer_rows": 6129,
+    "repository_registry_v2_E4_count": 0,
+    "independent_reconstruction_confirmed_integer_rows": 6583,
+    "independent_reconstruction_E4_count": 983,
+    "known_omissions": {
+      "P5_Family_U_integers": 454,
+      "K4_direct_rows": 73,
+      "P4_direct_rows": 457,
+      "exact_T_intervals": [
+        "PILOT-A",
+        "PILOT-B"
+      ]
+    },
+    "design_A_unestablished_historical_exposure": "384/384",
+    "reported_passing_semantic_tests": 32,
+    "material_accepted_bypasses": 15,
+    "historical_facts_recoverable_by_code_repair": false
+  },
+  "protected_exact_result": {
+    "status": "ACCEPTED_AND_UNCHANGED",
+    "H8_min": 32,
+    "H8_max": 201,
+    "argmax_count": 468,
+    "lex_first_argmax": [2, 13, 50, 5],
+    "maximizing_full_mask_count": 21,
+    "live_projection_count": 5,
+    "protected_histograms": true,
+    "maximizing_mask_aggregate_sha256": "3d6fb47adb745d5501a53f2dcfddbc1106e8f67cfa85ea0d1ce61d487102bce3"
+  },
+  "protected_authority_file_sha256": {
+    "analysis/p4_mod8_live_landscape/results/authorities.json": "fc0ab1b7a6ae0555d85a7cfcfdeae4fea805aa1e128026140f5a3772d91df967",
+    "analysis/p4_mod8_live_landscape/results/top_band_masks.json": "2f122eb40cfb2a27cc55b5afe9522fbeb54b5ca9867c291d9872c06e9020721f",
+    "analysis/p4_mod8_live_landscape/results/landscape.json": "4f4ec921904242114c23b3e6146efb32687c788f9bcb8cf8ed046969e5e6984f",
+    "analysis/p4_mod8_live_landscape/results/metadata.json": "08596ad7e0c9d83c4e353e6c77cd4ff50b8e6a5bda7e3c77371bfb2de50f1bf0"
+  },
+  "closure_constraints": {
+    "repair_semantic_verifier": false,
+    "build_registry_v3": false,
+    "continue_52_way_forensics": false,
+    "reselect_design_A": false,
+    "construct_gate_v3": false,
+    "generate_integer_panel": false,
+    "execute_new_T": false,
+    "modify_exact_H8_landscape": false
+  },
+  "supersedes_gate_claims": [
+    "PASS",
+    "NOT_ESTABLISHED"
+  ],
+  "final_labels": [
+    "GATE_V2_CLOSED_FAIL",
+    "NEW_T_NOT_AUTHORIZED",
+    "OEIS_A303656_UNRESOLVED"
+  ]
+}

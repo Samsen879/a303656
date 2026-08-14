@@ -1,0 +1,2 @@
+cmp: invalid --ignore-initial value 'output/tn_pilot_20260713/pilot_a/oracle/counts.csv'
+cmp: Try 'cmp --help' for more information.

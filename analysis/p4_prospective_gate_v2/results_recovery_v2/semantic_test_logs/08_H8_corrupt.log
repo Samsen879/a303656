@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "H8_MISMATCH", "expected_error_code": "H8_MISMATCH", "expected_semantic_category": "arithmetic", "mutation": "H8 -1", "return_code": 1, "status": "PASS", "stderr_excerpt": "H8_MISMATCH:arithmetic", "test": "H8_corrupt"}

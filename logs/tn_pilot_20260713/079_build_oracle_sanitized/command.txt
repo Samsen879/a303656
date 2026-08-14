@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=g++ -std=c++20 -O1 -g -Wall -Wextra -Wpedantic -Werror -fsanitize=address\,undefined -fno-omit-frame-pointer -I /tmp/a303656_tn_acceptance_src_2e38ac0/src -I /tmp/a303656_gmp_tn_20260713/usr/include -I /tmp/a303656_gmp_tn_20260713/usr/include/x86_64-linux-gnu /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tn_gmp_oracle.cpp -L /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu -Wl\,-Bstatic -lgmpxx -lgmp -Wl\,-Bdynamic -fsanitize=address\,undefined -o /tmp/a303656_tn_acceptance_build_2e38ac0/tn_gmp_oracle_san 
+started_utc=2026-07-13T08:49:07Z
+finished_utc=2026-07-13T08:49:12Z

@@ -1,0 +1,21 @@
+{
+  "families": {
+    "Q": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_all < 8"
+    },
+    "R": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_all < 8"
+    },
+    "U": {
+      "entries": [],
+      "feasible": false,
+      "reason": "s_all < 8"
+    }
+  },
+  "name": "all-entry balanced",
+  "schema": "a303656-p5-provisional-design-A-v1"
+}

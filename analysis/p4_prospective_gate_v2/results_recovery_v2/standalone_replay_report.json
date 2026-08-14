@@ -1,0 +1,13 @@
+{
+  "schema": "a303656-standalone-replay-report-v2",
+  "source_tip": "7b3d981199f1d0a560202f4f942b0eef913d97cd",
+  "detached_worktree": "/tmp/a303656_gate_v2_replay_7b3d981199f1",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 analysis/p4_prospective_gate_v2/recovery/run_recovery_v2.py --root . --output /tmp/a303656_gate_v2_replay_results --inventory-dir /tmp/a303656_forensics_initial",
+  "evaluator_invoked": false,
+  "core_artifact_comparison": "BYTE_IDENTICAL",
+  "core_artifact_count": 25,
+  "return_code": 0,
+  "transcript": "detached_replay/transcript.log",
+  "transcript_sha256": "46c0f75ea2880b8c0cf83beab4db8c297c8e11047e39085cadf2e9178fda7aa1",
+  "standalone_bundle_expected_path": "/home/samsen/code/a303656/archive/a303656_gate_v2_forensic_audit_RESULTS_Z.tar.zst"
+}

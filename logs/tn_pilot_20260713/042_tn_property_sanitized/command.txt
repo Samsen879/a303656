@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=env ASAN_OPTIONS=detect_leaks=0:halt_on_error=1 UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1 python3 tests/tn_counting_property_tests.py --bitset /tmp/a303656_tn_sanitized/tn_count_bitset --clean /tmp/a303656_tn_sanitized/tn_count_clean --oracle /tmp/a303656_tn_sanitized/tn_gmp_oracle --work-dir /tmp/a303656_tn_property_sanitized 
+started_utc=2026-07-13T08:38:17Z
+finished_utc=2026-07-13T08:38:17Z

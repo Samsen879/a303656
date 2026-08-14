@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=g++ --version 
+started_utc=2026-07-13T08:47:33Z
+finished_utc=2026-07-13T08:47:38Z

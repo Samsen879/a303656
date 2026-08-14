@@ -1,0 +1,714 @@
+ docs/audit_gap_register.md                         |    187 +-
+ docs/current_state.md                              |    254 +-
+ docs/tn_pilot_results.md                           |    195 +
+ logs/tn_pilot_20260713/001_start_head/command.txt  |      4 +
+ .../001_start_head/return_code.txt                 |      1 +
+ logs/tn_pilot_20260713/001_start_head/stderr.log   |      0
+ logs/tn_pilot_20260713/001_start_head/stdout.log   |      1 +
+ logs/tn_pilot_20260713/001_start_head/time.txt     |     23 +
+ .../002_assert_start_head/command.txt              |      4 +
+ .../002_assert_start_head/return_code.txt          |      1 +
+ .../002_assert_start_head/stderr.log               |      0
+ .../002_assert_start_head/stdout.log               |      1 +
+ .../002_assert_start_head/time.txt                 |     23 +
+ .../tn_pilot_20260713/003_start_status/command.txt |      4 +
+ .../003_start_status/return_code.txt               |      1 +
+ logs/tn_pilot_20260713/003_start_status/stderr.log |      0
+ logs/tn_pilot_20260713/003_start_status/stdout.log |     26 +
+ logs/tn_pilot_20260713/003_start_status/time.txt   |     23 +
+ logs/tn_pilot_20260713/004_start_log/command.txt   |      4 +
+ .../004_start_log/return_code.txt                  |      1 +
+ logs/tn_pilot_20260713/004_start_log/stderr.log    |      0
+ logs/tn_pilot_20260713/004_start_log/stdout.log    |      1 +
+ logs/tn_pilot_20260713/004_start_log/time.txt      |     23 +
+ .../005_baseline_hashes_before/command.txt         |      4 +
+ .../005_baseline_hashes_before/return_code.txt     |      1 +
+ .../005_baseline_hashes_before/stderr.log          |      0
+ .../005_baseline_hashes_before/stdout.log          |      5 +
+ .../005_baseline_hashes_before/time.txt            |     23 +
+ .../006_existing_binaries/command.txt              |      4 +
+ .../006_existing_binaries/return_code.txt          |      1 +
+ .../006_existing_binaries/stderr.log               |      0
+ .../006_existing_binaries/stdout.log               |     21 +
+ .../006_existing_binaries/time.txt                 |     23 +
+ .../007_existing_repro_dirs/command.txt            |      4 +
+ .../007_existing_repro_dirs/return_code.txt        |      1 +
+ .../007_existing_repro_dirs/stderr.log             |      0
+ .../007_existing_repro_dirs/stdout.log             |     29 +
+ .../007_existing_repro_dirs/time.txt               |     23 +
+ logs/tn_pilot_20260713/008_read_agents/command.txt |      4 +
+ .../008_read_agents/return_code.txt                |      1 +
+ logs/tn_pilot_20260713/008_read_agents/stderr.log  |      0
+ logs/tn_pilot_20260713/008_read_agents/stdout.log  |     31 +
+ logs/tn_pilot_20260713/008_read_agents/time.txt    |     23 +
+ .../009_read_next_task/command.txt                 |      4 +
+ .../009_read_next_task/return_code.txt             |      1 +
+ .../009_read_next_task/stderr.log                  |      0
+ .../009_read_next_task/stdout.log                  |     36 +
+ logs/tn_pilot_20260713/009_read_next_task/time.txt |     23 +
+ logs/tn_pilot_20260713/010_read_readme/command.txt |      4 +
+ .../010_read_readme/return_code.txt                |      1 +
+ logs/tn_pilot_20260713/010_read_readme/stderr.log  |      0
+ logs/tn_pilot_20260713/010_read_readme/stdout.log  |     61 +
+ logs/tn_pilot_20260713/010_read_readme/time.txt    |     23 +
+ logs/tn_pilot_20260713/011_read_report/command.txt |      4 +
+ .../011_read_report/return_code.txt                |      1 +
+ logs/tn_pilot_20260713/011_read_report/stderr.log  |      0
+ logs/tn_pilot_20260713/011_read_report/stdout.log  |    780 +
+ logs/tn_pilot_20260713/011_read_report/time.txt    |     23 +
+ .../012_read_formal_audit/command.txt              |      4 +
+ .../012_read_formal_audit/return_code.txt          |      1 +
+ .../012_read_formal_audit/stderr.log               |      0
+ .../012_read_formal_audit/stdout.log               |   2862 +
+ .../012_read_formal_audit/time.txt                 |     23 +
+ .../013_read_packaging_audit/command.txt           |      4 +
+ .../013_read_packaging_audit/return_code.txt       |      1 +
+ .../013_read_packaging_audit/stderr.log            |      0
+ .../013_read_packaging_audit/stdout.log            |     96 +
+ .../013_read_packaging_audit/time.txt              |     23 +
+ .../014_read_certificate/command.txt               |      4 +
+ .../014_read_certificate/return_code.txt           |      1 +
+ .../014_read_certificate/stderr.log                |      0
+ .../014_read_certificate/stdout.log                |     15 +
+ .../014_read_certificate/time.txt                  |     23 +
+ .../015_read_current_state/command.txt             |      4 +
+ .../015_read_current_state/return_code.txt         |      1 +
+ .../015_read_current_state/stderr.log              |      0
+ .../015_read_current_state/stdout.log              |    161 +
+ .../015_read_current_state/time.txt                |     23 +
+ .../016_read_gap_register/command.txt              |      4 +
+ .../016_read_gap_register/return_code.txt          |      1 +
+ .../016_read_gap_register/stderr.log               |      0
+ .../016_read_gap_register/stdout.log               |    117 +
+ .../016_read_gap_register/time.txt                 |     23 +
+ .../017_read_provenance_contract/command.txt       |      4 +
+ .../017_read_provenance_contract/return_code.txt   |      1 +
+ .../017_read_provenance_contract/stderr.log        |      0
+ .../017_read_provenance_contract/stdout.log        |     82 +
+ .../017_read_provenance_contract/time.txt          |     23 +
+ .../018_prebuild_mkdir/command.txt                 |      4 +
+ .../018_prebuild_mkdir/return_code.txt             |      1 +
+ .../018_prebuild_mkdir/stderr.log                  |      0
+ .../018_prebuild_mkdir/stdout.log                  |      0
+ logs/tn_pilot_20260713/018_prebuild_mkdir/time.txt |     23 +
+ .../019_compile_tn_bitset_pre/command.txt          |      4 +
+ .../019_compile_tn_bitset_pre/return_code.txt      |      1 +
+ .../019_compile_tn_bitset_pre/stderr.log           |      0
+ .../019_compile_tn_bitset_pre/stdout.log           |      0
+ .../019_compile_tn_bitset_pre/time.txt             |     23 +
+ .../020_compile_tn_clean_pre/command.txt           |      4 +
+ .../020_compile_tn_clean_pre/return_code.txt       |      1 +
+ .../020_compile_tn_clean_pre/stderr.log            |      0
+ .../020_compile_tn_clean_pre/stdout.log            |      0
+ .../020_compile_tn_clean_pre/time.txt              |     23 +
+ .../021_compile_tn_oracle_pre/command.txt          |      4 +
+ .../021_compile_tn_oracle_pre/return_code.txt      |      1 +
+ .../021_compile_tn_oracle_pre/stderr.log           |      0
+ .../021_compile_tn_oracle_pre/stdout.log           |      0
+ .../021_compile_tn_oracle_pre/time.txt             |     23 +
+ .../022_python_syntax_pre/command.txt              |      4 +
+ .../022_python_syntax_pre/return_code.txt          |      1 +
+ .../022_python_syntax_pre/stderr.log               |      0
+ .../022_python_syntax_pre/stdout.log               |      0
+ .../022_python_syntax_pre/time.txt                 |     23 +
+ .../023_tn_property_pre/command.txt                |      4 +
+ .../023_tn_property_pre/return_code.txt            |      1 +
+ .../023_tn_property_pre/stderr.log                 |      8 +
+ .../023_tn_property_pre/stdout.log                 |      0
+ .../tn_pilot_20260713/023_tn_property_pre/time.txt |     24 +
+ .../024_tn_property_pre_retry/command.txt          |      4 +
+ .../024_tn_property_pre_retry/return_code.txt      |      1 +
+ .../024_tn_property_pre_retry/stderr.log           |      0
+ .../024_tn_property_pre_retry/stdout.log           |      2 +
+ .../024_tn_property_pre_retry/time.txt             |     23 +
+ .../025_runner_bitset_fixture/command.txt          |      4 +
+ .../025_runner_bitset_fixture/return_code.txt      |      1 +
+ .../025_runner_bitset_fixture/stderr.log           |      0
+ .../025_runner_bitset_fixture/stdout.log           |      2 +
+ .../025_runner_bitset_fixture/time.txt             |     23 +
+ .../026_runner_clean_fixture/command.txt           |      4 +
+ .../026_runner_clean_fixture/return_code.txt       |      1 +
+ .../026_runner_clean_fixture/stderr.log            |      0
+ .../026_runner_clean_fixture/stdout.log            |      2 +
+ .../026_runner_clean_fixture/time.txt              |     23 +
+ .../027_runner_oracle_fixture/command.txt          |      4 +
+ .../027_runner_oracle_fixture/return_code.txt      |      1 +
+ .../027_runner_oracle_fixture/stderr.log           |      0
+ .../027_runner_oracle_fixture/stdout.log           |      2 +
+ .../027_runner_oracle_fixture/time.txt             |     23 +
+ .../028_verify_runner_fixture/command.txt          |      4 +
+ .../028_verify_runner_fixture/return_code.txt      |      1 +
+ .../028_verify_runner_fixture/stderr.log           |      1 +
+ .../028_verify_runner_fixture/stdout.log           |      0
+ .../028_verify_runner_fixture/time.txt             |     24 +
+ .../029_verify_runner_fixture_retry/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../029_verify_runner_fixture_retry/stderr.log     |      0
+ .../029_verify_runner_fixture_retry/stdout.log     |      4 +
+ .../029_verify_runner_fixture_retry/time.txt       |     23 +
+ .../030_provenance_negative_fixture/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../030_provenance_negative_fixture/stderr.log     |      0
+ .../030_provenance_negative_fixture/stdout.log     |      2 +
+ .../030_provenance_negative_fixture/time.txt       |     23 +
+ .../031_far_fixture_bitset/command.txt             |      4 +
+ .../031_far_fixture_bitset/return_code.txt         |      1 +
+ .../031_far_fixture_bitset/stderr.log              |      0
+ .../031_far_fixture_bitset/stdout.log              |      1 +
+ .../031_far_fixture_bitset/time.txt                |     23 +
+ .../031_far_fixture_bitset_mkdir/command.txt       |      4 +
+ .../031_far_fixture_bitset_mkdir/return_code.txt   |      1 +
+ .../031_far_fixture_bitset_mkdir/stderr.log        |      0
+ .../031_far_fixture_bitset_mkdir/stdout.log        |      0
+ .../031_far_fixture_bitset_mkdir/time.txt          |     23 +
+ .../032_far_fixture_clean/command.txt              |      4 +
+ .../032_far_fixture_clean/return_code.txt          |      1 +
+ .../032_far_fixture_clean/stderr.log               |      0
+ .../032_far_fixture_clean/stdout.log               |      1 +
+ .../032_far_fixture_clean/time.txt                 |     23 +
+ .../032_far_fixture_clean_mkdir/command.txt        |      4 +
+ .../032_far_fixture_clean_mkdir/return_code.txt    |      1 +
+ .../032_far_fixture_clean_mkdir/stderr.log         |      0
+ .../032_far_fixture_clean_mkdir/stdout.log         |      0
+ .../032_far_fixture_clean_mkdir/time.txt           |     23 +
+ .../033_far_fixture_oracle/command.txt             |      4 +
+ .../033_far_fixture_oracle/return_code.txt         |      1 +
+ .../033_far_fixture_oracle/stderr.log              |      0
+ .../033_far_fixture_oracle/stdout.log              |      1 +
+ .../033_far_fixture_oracle/time.txt                |     23 +
+ .../033_far_fixture_oracle_mkdir/command.txt       |      4 +
+ .../033_far_fixture_oracle_mkdir/return_code.txt   |      1 +
+ .../033_far_fixture_oracle_mkdir/stderr.log        |      0
+ .../033_far_fixture_oracle_mkdir/stdout.log        |      0
+ .../033_far_fixture_oracle_mkdir/time.txt          |     23 +
+ .../command.txt                                    |      4 +
+ .../return_code.txt                                |      1 +
+ .../034_far_fixture_counts_bitset_clean/stderr.log |      0
+ .../034_far_fixture_counts_bitset_clean/stdout.log |      0
+ .../034_far_fixture_counts_bitset_clean/time.txt   |     23 +
+ .../command.txt                                    |      4 +
+ .../return_code.txt                                |      1 +
+ .../stderr.log                                     |      0
+ .../stdout.log                                     |      0
+ .../035_far_fixture_counts_bitset_oracle/time.txt  |     23 +
+ .../036_fixture_audit_after_hardening/command.txt  |      4 +
+ .../return_code.txt                                |      1 +
+ .../036_fixture_audit_after_hardening/stderr.log   |      0
+ .../036_fixture_audit_after_hardening/stdout.log   |      1 +
+ .../036_fixture_audit_after_hardening/time.txt     |     23 +
+ .../037_negative_after_hardening/command.txt       |      4 +
+ .../037_negative_after_hardening/return_code.txt   |      1 +
+ .../037_negative_after_hardening/stderr.log        |      0
+ .../037_negative_after_hardening/stdout.log        |      2 +
+ .../037_negative_after_hardening/time.txt          |     23 +
+ .../tn_pilot_20260713/038_tn_san_mkdir/command.txt |      4 +
+ .../038_tn_san_mkdir/return_code.txt               |      1 +
+ logs/tn_pilot_20260713/038_tn_san_mkdir/stderr.log |      0
+ logs/tn_pilot_20260713/038_tn_san_mkdir/stdout.log |      0
+ logs/tn_pilot_20260713/038_tn_san_mkdir/time.txt   |     23 +
+ .../039_compile_tn_bitset_san/command.txt          |      4 +
+ .../039_compile_tn_bitset_san/return_code.txt      |      1 +
+ .../039_compile_tn_bitset_san/stderr.log           |      0
+ .../039_compile_tn_bitset_san/stdout.log           |      0
+ .../039_compile_tn_bitset_san/time.txt             |     23 +
+ .../040_compile_tn_clean_san/command.txt           |      4 +
+ .../040_compile_tn_clean_san/return_code.txt       |      1 +
+ .../040_compile_tn_clean_san/stderr.log            |      0
+ .../040_compile_tn_clean_san/stdout.log            |      0
+ .../040_compile_tn_clean_san/time.txt              |     23 +
+ .../041_compile_tn_oracle_san/command.txt          |      4 +
+ .../041_compile_tn_oracle_san/return_code.txt      |      1 +
+ .../041_compile_tn_oracle_san/stderr.log           |      0
+ .../041_compile_tn_oracle_san/stdout.log           |      0
+ .../041_compile_tn_oracle_san/time.txt             |     23 +
+ .../042_tn_property_sanitized/command.txt          |      4 +
+ .../042_tn_property_sanitized/return_code.txt      |      1 +
+ .../042_tn_property_sanitized/stderr.log           |      0
+ .../042_tn_property_sanitized/stdout.log           |      2 +
+ .../042_tn_property_sanitized/time.txt             |     23 +
+ .../043_chmod_tn_scripts/command.txt               |      4 +
+ .../043_chmod_tn_scripts/return_code.txt           |      1 +
+ .../043_chmod_tn_scripts/stderr.log                |      0
+ .../043_chmod_tn_scripts/stdout.log                |      0
+ .../043_chmod_tn_scripts/time.txt                  |     23 +
+ .../044_verify_fixture_verifier_bound/command.txt  |      4 +
+ .../return_code.txt                                |      1 +
+ .../044_verify_fixture_verifier_bound/stderr.log   |      0
+ .../044_verify_fixture_verifier_bound/stdout.log   |      4 +
+ .../044_verify_fixture_verifier_bound/time.txt     |     23 +
+ .../045_fixture_audit_verifier_bound/command.txt   |      4 +
+ .../return_code.txt                                |      1 +
+ .../045_fixture_audit_verifier_bound/stderr.log    |      0
+ .../045_fixture_audit_verifier_bound/stdout.log    |      1 +
+ .../045_fixture_audit_verifier_bound/time.txt      |     23 +
+ .../046_pycompile_precommit/command.txt            |      4 +
+ .../046_pycompile_precommit/return_code.txt        |      1 +
+ .../046_pycompile_precommit/stderr.log             |      0
+ .../046_pycompile_precommit/stdout.log             |      0
+ .../046_pycompile_precommit/time.txt               |     23 +
+ .../047_diff_check_precommit/command.txt           |      4 +
+ .../047_diff_check_precommit/return_code.txt       |      1 +
+ .../047_diff_check_precommit/stderr.log            |      0
+ .../047_diff_check_precommit/stdout.log            |      0
+ .../047_diff_check_precommit/time.txt              |     24 +
+ .../048_negative_verifier_bound/command.txt        |      4 +
+ .../048_negative_verifier_bound/return_code.txt    |      1 +
+ .../048_negative_verifier_bound/stderr.log         |      0
+ .../048_negative_verifier_bound/stdout.log         |      2 +
+ .../048_negative_verifier_bound/time.txt           |     23 +
+ .../049_staged_diff_check/command.txt              |      4 +
+ .../049_staged_diff_check/return_code.txt          |      1 +
+ .../049_staged_diff_check/stderr.log               |      0
+ .../049_staged_diff_check/stdout.log               |      0
+ .../049_staged_diff_check/time.txt                 |     23 +
+ .../050_staged_name_status/command.txt             |      4 +
+ .../050_staged_name_status/return_code.txt         |      1 +
+ .../050_staged_name_status/stderr.log              |      0
+ .../050_staged_name_status/stdout.log              |      9 +
+ .../050_staged_name_status/time.txt                |     23 +
+ .../051_property_precommit_final/command.txt       |      4 +
+ .../051_property_precommit_final/return_code.txt   |      1 +
+ .../051_property_precommit_final/stderr.log        |      0
+ .../051_property_precommit_final/stdout.log        |      2 +
+ .../051_property_precommit_final/time.txt          |     23 +
+ .../052_source_commit_after_code/command.txt       |      4 +
+ .../052_source_commit_after_code/return_code.txt   |      1 +
+ .../052_source_commit_after_code/stderr.log        |      0
+ .../052_source_commit_after_code/stdout.log        |      1 +
+ .../052_source_commit_after_code/time.txt          |     23 +
+ .../053_source_commit_parent/command.txt           |      4 +
+ .../053_source_commit_parent/return_code.txt       |      1 +
+ .../053_source_commit_parent/stderr.log            |      0
+ .../053_source_commit_parent/stdout.log            |      1 +
+ .../053_source_commit_parent/time.txt              |     23 +
+ .../054_gmp_package_hash/command.txt               |      4 +
+ .../054_gmp_package_hash/return_code.txt           |      1 +
+ .../054_gmp_package_hash/stderr.log                |      0
+ .../054_gmp_package_hash/stdout.log                |      1 +
+ .../054_gmp_package_hash/time.txt                  |     23 +
+ .../055_acceptance_paths_absent/command.txt        |      4 +
+ .../055_acceptance_paths_absent/return_code.txt    |      1 +
+ .../055_acceptance_paths_absent/stderr.log         |      0
+ .../055_acceptance_paths_absent/stdout.log         |      0
+ .../055_acceptance_paths_absent/time.txt           |     23 +
+ .../056_fresh_source_clone/command.txt             |      4 +
+ .../056_fresh_source_clone/return_code.txt         |      1 +
+ .../056_fresh_source_clone/stderr.log              |      2 +
+ .../056_fresh_source_clone/stdout.log              |      0
+ .../056_fresh_source_clone/time.txt                |     23 +
+ .../057_fresh_source_detach/command.txt            |      4 +
+ .../057_fresh_source_detach/return_code.txt        |      1 +
+ .../057_fresh_source_detach/stderr.log             |      1 +
+ .../057_fresh_source_detach/stdout.log             |      0
+ .../057_fresh_source_detach/time.txt               |     24 +
+ .../058_fresh_source_detach_correct/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../058_fresh_source_detach_correct/stderr.log     |      1 +
+ .../058_fresh_source_detach_correct/stdout.log     |      0
+ .../058_fresh_source_detach_correct/time.txt       |     23 +
+ .../059_fresh_dependency_dirs/command.txt          |      4 +
+ .../059_fresh_dependency_dirs/return_code.txt      |      1 +
+ .../059_fresh_dependency_dirs/stderr.log           |      0
+ .../059_fresh_dependency_dirs/stdout.log           |      0
+ .../059_fresh_dependency_dirs/time.txt             |     23 +
+ .../060_acceptance_output_parents/command.txt      |      4 +
+ .../060_acceptance_output_parents/return_code.txt  |      1 +
+ .../060_acceptance_output_parents/stderr.log       |      0
+ .../060_acceptance_output_parents/stdout.log       |      0
+ .../060_acceptance_output_parents/time.txt         |     23 +
+ .../061_extract_gmp_package/command.txt            |      4 +
+ .../061_extract_gmp_package/return_code.txt        |      1 +
+ .../061_extract_gmp_package/stderr.log             |      0
+ .../061_extract_gmp_package/stdout.log             |      0
+ .../061_extract_gmp_package/time.txt               |     23 +
+ .../062_fresh_source_identity_clean/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../062_fresh_source_identity_clean/stderr.log     |      0
+ .../062_fresh_source_identity_clean/stdout.log     |      1 +
+ .../062_fresh_source_identity_clean/time.txt       |     23 +
+ logs/tn_pilot_20260713/063_gpp_version/command.txt |      4 +
+ .../063_gpp_version/return_code.txt                |      1 +
+ logs/tn_pilot_20260713/063_gpp_version/stderr.log  |      0
+ logs/tn_pilot_20260713/063_gpp_version/stdout.log  |      5 +
+ logs/tn_pilot_20260713/063_gpp_version/time.txt    |     23 +
+ .../064_gmp_extracted_files/command.txt            |      4 +
+ .../064_gmp_extracted_files/return_code.txt        |      1 +
+ .../064_gmp_extracted_files/stderr.log             |      0
+ .../064_gmp_extracted_files/stdout.log             |     13 +
+ .../064_gmp_extracted_files/time.txt               |     23 +
+ .../065_source_archive_hash/command.txt            |      4 +
+ .../065_source_archive_hash/return_code.txt        |      1 +
+ .../065_source_archive_hash/stderr.log             |      0
+ .../065_source_archive_hash/stdout.log             |      0
+ .../065_source_archive_hash/time.txt               |     23 +
+ .../066_build_bitset_acceptance/command.txt        |      4 +
+ .../066_build_bitset_acceptance/return_code.txt    |      1 +
+ .../066_build_bitset_acceptance/stderr.log         |      0
+ .../066_build_bitset_acceptance/stdout.log         |      0
+ .../066_build_bitset_acceptance/time.txt           |     23 +
+ .../067_build_clean_acceptance/command.txt         |      4 +
+ .../067_build_clean_acceptance/return_code.txt     |      1 +
+ .../067_build_clean_acceptance/stderr.log          |      0
+ .../067_build_clean_acceptance/stdout.log          |      0
+ .../067_build_clean_acceptance/time.txt            |     23 +
+ .../068_build_oracle_acceptance/command.txt        |      4 +
+ .../068_build_oracle_acceptance/return_code.txt    |      1 +
+ .../068_build_oracle_acceptance/stderr.log         |      0
+ .../068_build_oracle_acceptance/stdout.log         |      0
+ .../068_build_oracle_acceptance/time.txt           |     23 +
+ .../069_acceptance_binary_hashes/command.txt       |      4 +
+ .../069_acceptance_binary_hashes/return_code.txt   |      1 +
+ .../069_acceptance_binary_hashes/stderr.log        |      0
+ .../069_acceptance_binary_hashes/stdout.log        |      3 +
+ .../069_acceptance_binary_hashes/time.txt          |     23 +
+ .../070_acceptance_binary_identities/command.txt   |      4 +
+ .../return_code.txt                                |      1 +
+ .../070_acceptance_binary_identities/stderr.log    |      0
+ .../070_acceptance_binary_identities/stdout.log    |      1 +
+ .../070_acceptance_binary_identities/time.txt      |     23 +
+ .../071_acceptance_clean_identity/command.txt      |      4 +
+ .../071_acceptance_clean_identity/return_code.txt  |      1 +
+ .../071_acceptance_clean_identity/stderr.log       |      0
+ .../071_acceptance_clean_identity/stdout.log       |      1 +
+ .../071_acceptance_clean_identity/time.txt         |     23 +
+ .../command.txt                                    |      4 +
+ .../return_code.txt                                |      1 +
+ .../stderr.log                                     |      0
+ .../stdout.log                                     |      1 +
+ .../time.txt                                       |     23 +
+ .../073_acceptance_oracle_identity/command.txt     |      4 +
+ .../073_acceptance_oracle_identity/return_code.txt |      1 +
+ .../073_acceptance_oracle_identity/stderr.log      |      0
+ .../073_acceptance_oracle_identity/stdout.log      |      1 +
+ .../073_acceptance_oracle_identity/time.txt        |     23 +
+ .../074_acceptance_ldd/command.txt                 |      4 +
+ .../074_acceptance_ldd/return_code.txt             |      1 +
+ .../074_acceptance_ldd/stderr.log                  |      0
+ .../074_acceptance_ldd/stdout.log                  |     21 +
+ logs/tn_pilot_20260713/074_acceptance_ldd/time.txt |     23 +
+ .../075_acceptance_readelf_dynamic/command.txt     |      4 +
+ .../075_acceptance_readelf_dynamic/return_code.txt |      1 +
+ .../075_acceptance_readelf_dynamic/stderr.log      |      0
+ .../075_acceptance_readelf_dynamic/stdout.log      |    102 +
+ .../075_acceptance_readelf_dynamic/time.txt        |     23 +
+ .../076_source_archive_sha256/command.txt          |      4 +
+ .../076_source_archive_sha256/return_code.txt      |      1 +
+ .../076_source_archive_sha256/stderr.log           |      0
+ .../076_source_archive_sha256/stdout.log           |      1 +
+ .../076_source_archive_sha256/time.txt             |     23 +
+ .../077_build_bitset_sanitized/command.txt         |      4 +
+ .../077_build_bitset_sanitized/return_code.txt     |      1 +
+ .../077_build_bitset_sanitized/stderr.log          |      0
+ .../077_build_bitset_sanitized/stdout.log          |      0
+ .../077_build_bitset_sanitized/time.txt            |     23 +
+ .../078_build_clean_sanitized/command.txt          |      4 +
+ .../078_build_clean_sanitized/return_code.txt      |      1 +
+ .../078_build_clean_sanitized/stderr.log           |      0
+ .../078_build_clean_sanitized/stdout.log           |      0
+ .../078_build_clean_sanitized/time.txt             |     23 +
+ .../079_build_oracle_sanitized/command.txt         |      4 +
+ .../079_build_oracle_sanitized/return_code.txt     |      1 +
+ .../079_build_oracle_sanitized/stderr.log          |      0
+ .../079_build_oracle_sanitized/stdout.log          |      0
+ .../079_build_oracle_sanitized/time.txt            |     23 +
+ .../080_fresh_python_compile/command.txt           |      4 +
+ .../080_fresh_python_compile/return_code.txt       |      1 +
+ .../080_fresh_python_compile/stderr.log            |      0
+ .../080_fresh_python_compile/stdout.log            |      0
+ .../080_fresh_python_compile/time.txt              |     23 +
+ .../081_property_acceptance_optimized/command.txt  |      4 +
+ .../return_code.txt                                |      1 +
+ .../081_property_acceptance_optimized/stderr.log   |      0
+ .../081_property_acceptance_optimized/stdout.log   |      2 +
+ .../081_property_acceptance_optimized/time.txt     |     23 +
+ .../082_property_acceptance_sanitized/command.txt  |      4 +
+ .../return_code.txt                                |      1 +
+ .../082_property_acceptance_sanitized/stderr.log   |      0
+ .../082_property_acceptance_sanitized/stdout.log   |      2 +
+ .../082_property_acceptance_sanitized/time.txt     |     23 +
+ .../083_build_existing_bitset/command.txt          |      4 +
+ .../083_build_existing_bitset/return_code.txt      |      1 +
+ .../083_build_existing_bitset/stderr.log           |      0
+ .../083_build_existing_bitset/stdout.log           |      0
+ .../083_build_existing_bitset/time.txt             |     23 +
+ .../084_build_existing_clean/command.txt           |      4 +
+ .../084_build_existing_clean/return_code.txt       |      1 +
+ .../084_build_existing_clean/stderr.log            |      0
+ .../084_build_existing_clean/stdout.log            |      0
+ .../084_build_existing_clean/time.txt              |     23 +
+ .../085_build_existing_tiny_oracle/command.txt     |      4 +
+ .../085_build_existing_tiny_oracle/return_code.txt |      1 +
+ .../085_build_existing_tiny_oracle/stderr.log      |      0
+ .../085_build_existing_tiny_oracle/stdout.log      |      0
+ .../085_build_existing_tiny_oracle/time.txt        |     23 +
+ .../086_build_existing_multiplicity/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../086_build_existing_multiplicity/stderr.log     |      0
+ .../086_build_existing_multiplicity/stdout.log     |      0
+ .../086_build_existing_multiplicity/time.txt       |     23 +
+ .../087_existing_boundary_properties/command.txt   |      4 +
+ .../return_code.txt                                |      1 +
+ .../087_existing_boundary_properties/stderr.log    |      0
+ .../087_existing_boundary_properties/stdout.log    |      2 +
+ .../087_existing_boundary_properties/time.txt      |     23 +
+ .../088_fresh_source_clean_preformal/command.txt   |      4 +
+ .../return_code.txt                                |      1 +
+ .../088_fresh_source_clean_preformal/stderr.log    |      0
+ .../088_fresh_source_clean_preformal/stdout.log    |      0
+ .../088_fresh_source_clean_preformal/time.txt      |     23 +
+ .../089_pilot_a_bitset/command.txt                 |      4 +
+ .../089_pilot_a_bitset/return_code.txt             |      1 +
+ .../089_pilot_a_bitset/stderr.log                  |      0
+ .../089_pilot_a_bitset/stdout.log                  |      2 +
+ logs/tn_pilot_20260713/089_pilot_a_bitset/time.txt |     23 +
+ .../090_pilot_a_clean/command.txt                  |      4 +
+ .../090_pilot_a_clean/return_code.txt              |      1 +
+ .../tn_pilot_20260713/090_pilot_a_clean/stderr.log |      0
+ .../tn_pilot_20260713/090_pilot_a_clean/stdout.log |      2 +
+ logs/tn_pilot_20260713/090_pilot_a_clean/time.txt  |     23 +
+ .../091_pilot_a_oracle/command.txt                 |      4 +
+ .../091_pilot_a_oracle/return_code.txt             |      1 +
+ .../091_pilot_a_oracle/stderr.log                  |      0
+ .../091_pilot_a_oracle/stdout.log                  |      2 +
+ logs/tn_pilot_20260713/091_pilot_a_oracle/time.txt |     23 +
+ .../092_verify_pilot_a/command.txt                 |      4 +
+ .../092_verify_pilot_a/return_code.txt             |      1 +
+ .../092_verify_pilot_a/stderr.log                  |      0
+ .../092_verify_pilot_a/stdout.log                  |      4 +
+ logs/tn_pilot_20260713/092_verify_pilot_a/time.txt |     23 +
+ .../093_audit_pilot_a_provenance/command.txt       |      4 +
+ .../093_audit_pilot_a_provenance/return_code.txt   |      1 +
+ .../093_audit_pilot_a_provenance/stderr.log        |      0
+ .../093_audit_pilot_a_provenance/stdout.log        |      1 +
+ .../093_audit_pilot_a_provenance/time.txt          |     23 +
+ .../094_pilot_b_bitset/command.txt                 |      4 +
+ .../094_pilot_b_bitset/return_code.txt             |      1 +
+ .../094_pilot_b_bitset/stderr.log                  |      0
+ .../094_pilot_b_bitset/stdout.log                  |      2 +
+ logs/tn_pilot_20260713/094_pilot_b_bitset/time.txt |     23 +
+ .../095_pilot_b_clean/command.txt                  |      4 +
+ .../095_pilot_b_clean/return_code.txt              |      1 +
+ .../tn_pilot_20260713/095_pilot_b_clean/stderr.log |      0
+ .../tn_pilot_20260713/095_pilot_b_clean/stdout.log |      2 +
+ logs/tn_pilot_20260713/095_pilot_b_clean/time.txt  |     23 +
+ .../096_pilot_b_oracle/command.txt                 |      4 +
+ .../096_pilot_b_oracle/return_code.txt             |      1 +
+ .../096_pilot_b_oracle/stderr.log                  |      0
+ .../096_pilot_b_oracle/stdout.log                  |      2 +
+ logs/tn_pilot_20260713/096_pilot_b_oracle/time.txt |     23 +
+ .../097_verify_pilot_b/command.txt                 |      4 +
+ .../097_verify_pilot_b/return_code.txt             |      1 +
+ .../097_verify_pilot_b/stderr.log                  |      0
+ .../097_verify_pilot_b/stdout.log                  |      4 +
+ logs/tn_pilot_20260713/097_verify_pilot_b/time.txt |     23 +
+ .../098_audit_pilot_b_provenance/command.txt       |      4 +
+ .../098_audit_pilot_b_provenance/return_code.txt   |      1 +
+ .../098_audit_pilot_b_provenance/stderr.log        |      0
+ .../098_audit_pilot_b_provenance/stdout.log        |      1 +
+ .../098_audit_pilot_b_provenance/time.txt          |     23 +
+ .../099_provenance_negative_acceptance/command.txt |      4 +
+ .../return_code.txt                                |      1 +
+ .../099_provenance_negative_acceptance/stderr.log  |      0
+ .../099_provenance_negative_acceptance/stdout.log  |      2 +
+ .../099_provenance_negative_acceptance/time.txt    |     23 +
+ .../100_baseline_hashes_after/command.txt          |      4 +
+ .../100_baseline_hashes_after/return_code.txt      |      1 +
+ .../100_baseline_hashes_after/stderr.log           |      0
+ .../100_baseline_hashes_after/stdout.log           |      5 +
+ .../100_baseline_hashes_after/time.txt             |     23 +
+ .../101_fresh_source_clean_after/command.txt       |      4 +
+ .../101_fresh_source_clean_after/return_code.txt   |      1 +
+ .../101_fresh_source_clean_after/stderr.log        |      0
+ .../101_fresh_source_clean_after/stdout.log        |      0
+ .../101_fresh_source_clean_after/time.txt          |     23 +
+ .../102_formal_counts_crosscmp_a/command.txt       |      4 +
+ .../102_formal_counts_crosscmp_a/return_code.txt   |      1 +
+ .../102_formal_counts_crosscmp_a/stderr.log        |      2 +
+ .../102_formal_counts_crosscmp_a/stdout.log        |      0
+ .../102_formal_counts_crosscmp_a/time.txt          |     24 +
+ .../103_formal_counts_crosscmp_b/command.txt       |      4 +
+ .../103_formal_counts_crosscmp_b/return_code.txt   |      1 +
+ .../103_formal_counts_crosscmp_b/stderr.log        |      2 +
+ .../103_formal_counts_crosscmp_b/stdout.log        |      0
+ .../103_formal_counts_crosscmp_b/time.txt          |     24 +
+ .../104_baseline_before_after_cmp/command.txt      |      4 +
+ .../104_baseline_before_after_cmp/return_code.txt  |      1 +
+ .../104_baseline_before_after_cmp/stderr.log       |      0
+ .../104_baseline_before_after_cmp/stdout.log       |      0
+ .../104_baseline_before_after_cmp/time.txt         |     23 +
+ .../105_counts_a_bitset_clean_cmp/command.txt      |      4 +
+ .../105_counts_a_bitset_clean_cmp/return_code.txt  |      1 +
+ .../105_counts_a_bitset_clean_cmp/stderr.log       |      0
+ .../105_counts_a_bitset_clean_cmp/stdout.log       |      0
+ .../105_counts_a_bitset_clean_cmp/time.txt         |     23 +
+ .../106_counts_a_bitset_oracle_cmp/command.txt     |      4 +
+ .../106_counts_a_bitset_oracle_cmp/return_code.txt |      1 +
+ .../106_counts_a_bitset_oracle_cmp/stderr.log      |      0
+ .../106_counts_a_bitset_oracle_cmp/stdout.log      |      0
+ .../106_counts_a_bitset_oracle_cmp/time.txt        |     23 +
+ .../107_counts_b_bitset_clean_cmp/command.txt      |      4 +
+ .../107_counts_b_bitset_clean_cmp/return_code.txt  |      1 +
+ .../107_counts_b_bitset_clean_cmp/stderr.log       |      0
+ .../107_counts_b_bitset_clean_cmp/stdout.log       |      0
+ .../107_counts_b_bitset_clean_cmp/time.txt         |     23 +
+ .../108_counts_b_bitset_oracle_cmp/command.txt     |      4 +
+ .../108_counts_b_bitset_oracle_cmp/return_code.txt |      1 +
+ .../108_counts_b_bitset_oracle_cmp/stderr.log      |      0
+ .../108_counts_b_bitset_oracle_cmp/stdout.log      |      0
+ .../108_counts_b_bitset_oracle_cmp/time.txt        |     23 +
+ .../109_environment_uname/command.txt              |      4 +
+ .../109_environment_uname/return_code.txt          |      1 +
+ .../109_environment_uname/stderr.log               |      0
+ .../109_environment_uname/stdout.log               |      1 +
+ .../109_environment_uname/time.txt                 |     23 +
+ .../110_environment_os/command.txt                 |      4 +
+ .../110_environment_os/return_code.txt             |      1 +
+ .../110_environment_os/stderr.log                  |      0
+ .../110_environment_os/stdout.log                  |     13 +
+ logs/tn_pilot_20260713/110_environment_os/time.txt |     23 +
+ .../111_environment_python/command.txt             |      4 +
+ .../111_environment_python/return_code.txt         |      1 +
+ .../111_environment_python/stderr.log              |      0
+ .../111_environment_python/stdout.log              |      1 +
+ .../111_environment_python/time.txt                |     23 +
+ .../112_environment_lscpu/command.txt              |      4 +
+ .../112_environment_lscpu/return_code.txt          |      1 +
+ .../112_environment_lscpu/stderr.log               |      0
+ .../112_environment_lscpu/stdout.log               |     39 +
+ .../112_environment_lscpu/time.txt                 |     23 +
+ .../113_pilot_a_argmin/command.txt                 |      4 +
+ .../113_pilot_a_argmin/return_code.txt             |      1 +
+ .../113_pilot_a_argmin/stderr.log                  |      0
+ .../113_pilot_a_argmin/stdout.log                  |      4 +
+ logs/tn_pilot_20260713/113_pilot_a_argmin/time.txt |     23 +
+ .../114_pilot_b_argmin/command.txt                 |      4 +
+ .../114_pilot_b_argmin/return_code.txt             |      1 +
+ .../114_pilot_b_argmin/stderr.log                  |      0
+ .../114_pilot_b_argmin/stdout.log                  |      1 +
+ logs/tn_pilot_20260713/114_pilot_b_argmin/time.txt |     23 +
+ .../115_formal_core_artifact_hashes/command.txt    |      4 +
+ .../return_code.txt                                |      1 +
+ .../115_formal_core_artifact_hashes/stderr.log     |      0
+ .../115_formal_core_artifact_hashes/stdout.log     |     12 +
+ .../115_formal_core_artifact_hashes/time.txt       |     23 +
+ .../command.txt                                    |      4 +
+ .../return_code.txt                                |      1 +
+ .../116_formal_report_provenance_hashes/stderr.log |      0
+ .../116_formal_report_provenance_hashes/stdout.log |     12 +
+ .../116_formal_report_provenance_hashes/time.txt   |     23 +
+ .../117_final_audit_pilot_a/command.txt            |      4 +
+ .../117_final_audit_pilot_a/return_code.txt        |      1 +
+ .../117_final_audit_pilot_a/stderr.log             |      0
+ .../117_final_audit_pilot_a/stdout.log             |      1 +
+ .../117_final_audit_pilot_a/time.txt               |     23 +
+ .../118_final_audit_pilot_b/command.txt            |      4 +
+ .../118_final_audit_pilot_b/return_code.txt        |      1 +
+ .../118_final_audit_pilot_b/stderr.log             |      0
+ .../118_final_audit_pilot_b/stdout.log             |      1 +
+ .../118_final_audit_pilot_b/time.txt               |     23 +
+ .../119_formal_json_syntax/command.txt             |      4 +
+ .../119_formal_json_syntax/return_code.txt         |      1 +
+ .../119_formal_json_syntax/stderr.log              |      0
+ .../119_formal_json_syntax/stdout.log              |      0
+ .../119_formal_json_syntax/time.txt                |     23 +
+ .../120_document_diff_check/command.txt            |      4 +
+ .../120_document_diff_check/return_code.txt        |      1 +
+ .../120_document_diff_check/stderr.log             |      0
+ .../120_document_diff_check/stdout.log             |      0
+ .../120_document_diff_check/time.txt               |     23 +
+ .../121_log_record_completeness/command.txt        |      4 +
+ .../121_log_record_completeness/return_code.txt    |      1 +
+ .../121_log_record_completeness/stderr.log         |      0
+ .../121_log_record_completeness/stdout.log         |      1 +
+ .../121_log_record_completeness/time.txt           |     23 +
+ .../122_formal_required_files/command.txt          |      4 +
+ .../122_formal_required_files/return_code.txt      |      1 +
+ .../122_formal_required_files/stderr.log           |      0
+ .../122_formal_required_files/stdout.log           |      1 +
+ .../122_formal_required_files/time.txt             |     23 +
+ .../123_backend_return_codes/command.txt           |      4 +
+ .../123_backend_return_codes/return_code.txt       |      1 +
+ .../123_backend_return_codes/stderr.log            |      0
+ .../123_backend_return_codes/stdout.log            |      1 +
+ .../123_backend_return_codes/time.txt              |     23 +
+ .../124_final_unstaged_diff_check/command.txt      |      4 +
+ .../124_final_unstaged_diff_check/return_code.txt  |      1 +
+ .../124_final_unstaged_diff_check/stderr.log       |      0
+ .../124_final_unstaged_diff_check/stdout.log       |      0
+ .../124_final_unstaged_diff_check/time.txt         |     23 +
+ .../binary_replacement.return_code.txt             |      1 +
+ .../binary_replacement.stderr.log                  |      1 +
+ .../binary_replacement.stdout.log                  |      0
+ .../manifest_relabel.return_code.txt               |      1 +
+ .../manifest_relabel.stderr.log                    |      1 +
+ .../manifest_relabel.stdout.log                    |      0
+ .../output_tamper.return_code.txt                  |      1 +
+ .../output_tamper.stderr.log                       |      1 +
+ .../output_tamper.stdout.log                       |      0
+ .../swapped_slots.return_code.txt                  |      1 +
+ .../swapped_slots.stderr.log                       |      1 +
+ .../swapped_slots.stdout.log                       |      0
+ .../wrong_commit_cli.return_code.txt               |      1 +
+ .../wrong_commit_cli.stderr.log                    |      5 +
+ .../wrong_commit_cli.stdout.log                    |      0
+ .../pilot_a/bitset/backend_elapsed_seconds.txt     |      1 +
+ .../pilot_a/bitset/backend_return_code.txt         |      1 +
+ .../pilot_a/bitset/backend_stderr.log              |      0
+ .../pilot_a/bitset/backend_stdout.log              |      1 +
+ output/tn_pilot_20260713/pilot_a/bitset/counts.csv | 200001 ++++++++++++++++++
+ .../tn_pilot_20260713/pilot_a/bitset/low_t.jsonl   |     56 +
+ .../tn_pilot_20260713/pilot_a/bitset/metadata.json |     24 +
+ .../pilot_a/bitset/provenance.json                 |     94 +
+ .../tn_pilot_20260713/pilot_a/bitset/summary.json  |     68 +
+ .../pilot_a/bitset/verifier_report.json            |     21 +
+ .../pilot_a/clean/backend_elapsed_seconds.txt      |      1 +
+ .../pilot_a/clean/backend_return_code.txt          |      1 +
+ .../pilot_a/clean/backend_stderr.log               |      0
+ .../pilot_a/clean/backend_stdout.log               |      1 +
+ output/tn_pilot_20260713/pilot_a/clean/counts.csv  | 200001 ++++++++++++++++++
+ output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl |     56 +
+ .../tn_pilot_20260713/pilot_a/clean/metadata.json  |     24 +
+ .../pilot_a/clean/provenance.json                  |     94 +
+ .../tn_pilot_20260713/pilot_a/clean/summary.json   |     68 +
+ .../pilot_a/clean/verifier_report.json             |     21 +
+ .../pilot_a/oracle/backend_elapsed_seconds.txt     |      1 +
+ .../pilot_a/oracle/backend_return_code.txt         |      1 +
+ .../pilot_a/oracle/backend_stderr.log              |      0
+ .../pilot_a/oracle/backend_stdout.log              |      1 +
+ output/tn_pilot_20260713/pilot_a/oracle/counts.csv | 200001 ++++++++++++++++++
+ .../tn_pilot_20260713/pilot_a/oracle/low_t.jsonl   |     56 +
+ .../tn_pilot_20260713/pilot_a/oracle/metadata.json |     24 +
+ .../pilot_a/oracle/provenance.json                 |     94 +
+ .../tn_pilot_20260713/pilot_a/oracle/summary.json  |     68 +
+ .../pilot_a/oracle/verifier_report.json            |     21 +
+ .../pilot_b/bitset/backend_elapsed_seconds.txt     |      1 +
+ .../pilot_b/bitset/backend_return_code.txt         |      1 +
+ .../pilot_b/bitset/backend_stderr.log              |      0
+ .../pilot_b/bitset/backend_stdout.log              |      1 +
+ output/tn_pilot_20260713/pilot_b/bitset/counts.csv | 100001 +++++++++
+ .../tn_pilot_20260713/pilot_b/bitset/low_t.jsonl   |      1 +
+ .../tn_pilot_20260713/pilot_b/bitset/metadata.json |     24 +
+ .../pilot_b/bitset/provenance.json                 |     94 +
+ .../tn_pilot_20260713/pilot_b/bitset/summary.json  |    129 +
+ .../pilot_b/bitset/verifier_report.json            |     21 +
+ .../pilot_b/clean/backend_elapsed_seconds.txt      |      1 +
+ .../pilot_b/clean/backend_return_code.txt          |      1 +
+ .../pilot_b/clean/backend_stderr.log               |      0
+ .../pilot_b/clean/backend_stdout.log               |      1 +
+ output/tn_pilot_20260713/pilot_b/clean/counts.csv  | 100001 +++++++++
+ output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl |      1 +
+ .../tn_pilot_20260713/pilot_b/clean/metadata.json  |     24 +
+ .../pilot_b/clean/provenance.json                  |     94 +
+ .../tn_pilot_20260713/pilot_b/clean/summary.json   |    129 +
+ .../pilot_b/clean/verifier_report.json             |     21 +
+ .../pilot_b/oracle/backend_elapsed_seconds.txt     |      1 +
+ .../pilot_b/oracle/backend_return_code.txt         |      1 +
+ .../pilot_b/oracle/backend_stderr.log              |      0
+ .../pilot_b/oracle/backend_stdout.log              |      1 +
+ output/tn_pilot_20260713/pilot_b/oracle/counts.csv | 100001 +++++++++
+ .../tn_pilot_20260713/pilot_b/oracle/low_t.jsonl   |      1 +
+ .../tn_pilot_20260713/pilot_b/oracle/metadata.json |     24 +
+ .../pilot_b/oracle/provenance.json                 |     94 +
+ .../tn_pilot_20260713/pilot_b/oracle/summary.json  |    129 +
+ .../pilot_b/oracle/verifier_report.json            |     21 +
+ 713 files changed, 910253 insertions(+), 237 deletions(-)

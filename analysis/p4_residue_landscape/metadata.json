@@ -1,0 +1,363 @@
+{
+  "L": 1129118760,
+  "M4": 28227969,
+  "P4": [
+    3,
+    7,
+    11,
+    23
+  ],
+  "artifact_sha256_excluding_metadata_and_verification_report": {
+    "coverage_comparison.json": "8b33268a8f4a89a6fb6fd7e5f624d637df87aa7e697ba02b88150a4f24b63068",
+    "crt_candidates.json": "72cda319102f307590f4b8d3b3d6888a06077af0a11ae0b6753ecd2c06127dd5",
+    "full_histogram.csv": "9c29fb639b1a42bf2ec9c15f2f1e43a54b044d224ba3bf6ffa2328292aa4216a",
+    "local_landscape.json": "2da392aa8760c3e49855efe23b4fe4af4240abac99d80a929b355efe53817118",
+    "maximizers.json": "7daa2c7b3d726e0f05b5b484fe5e4dffc0c22d57550a10c828241fa6b62e5a5a",
+    "n0_rank.json": "78d84e544f8b0287d48f9508b4d1e140397e2fcfb4506b069d96a8b6b7b6cf53",
+    "subset_optima.csv": "3353e5f2a4123d118fba8c8adad9b48f7f9f7a9e85b821a5cd90060fe3d47975",
+    "t3eq2_histogram.csv": "d2d96b00abfcddbc6074c0bc51aafc63ac2cebcfdcff16505461a830f8fd60ef"
+  },
+  "classification": "EXACT FINITE COMBINATORIAL OPTIMIZATION; GLOBAL A303656 PROBLEM UNRESOLVED",
+  "conclusion": "VALIDATED EXACT FIXED-P4 RESIDUE LANDSCAPE",
+  "domain": {
+    "activation_cell": [
+      183968950234,
+      246731069451
+    ],
+    "duplicate_shift_28_pairs": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "pair_count": 407
+  },
+  "enumerator_stable_certificate_sha256": {
+    "A": "2a104c1325ecd6b8c0ee3aff20787062d9ca57d069c140c2f8b9dad1911c8b89",
+    "B": "43e7265ce4bed4fc151d33ec1dbfb5297b382c06e87f0a9bd1a824bffe3cefc4"
+  },
+  "full_stream_digest": "19c546957f7c5ef82ecfd552edf5a31b1f33fdc86397a0b92a38a4aca40d608c",
+  "mathematical_status": "UNRESOLVED",
+  "protected_input_and_baseline_sha256": {
+    "README.md": "9c1f11b8ba76e0d0ff70d3d0dc5f8b1b528e1e31405b27be9b047bdcc3916a8b",
+    "REPORT_zh.md": "833e66fd88c27412e2522448f17075baf4e85828080c22ca2e87a12f30f77649",
+    "analysis/k4_ap_pilot/metadata.json": "edac79f1bb9932a05a145b6326dd143a44027fbf1e7b4e9ace5e060fc95d4b8a",
+    "analysis/k4_ap_pilot/verification_report.json": "7f1c999893d890dcaca37aee6c6d300fc3b41bd8c9ee779c1d4cb28e1a992d1a",
+    "analysis/k4_survivor_incidence/metadata.json": "8f6c3b203ab568f57f8c2178a140dc67d9ef4c422c76a96d8afc1b8a04ad0109",
+    "analysis/k4_survivor_incidence/pair_order.csv": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b",
+    "analysis/k4_survivor_incidence/verification_report.json": "d816f910701f344784048fcf8d8cd1737fda96d77eab5267b48643f251f32917",
+    "analysis/p2_core/activation_cell.json": "54bdb35c8d9206d9014c6e23bc24ca4292e217e48244530cec472ad02cc0e644",
+    "analysis/p2_core/metadata.json": "d1af86b53761364c955d0e4934beeb014fb1f5e8b4f2c4436c2acd61c8a4b4e4",
+    "analysis/p2_core/n0_p2_core.json": "02535370741275c0cb416b9de7156a9f29c3fb9a82b4c524ca61f2476f2824fe",
+    "analysis/p2_core/verification_report.json": "a5601eec079d196ecf7b9336990ca0cad971000430761807525df2941c74cb7a",
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "raw_archive": {
+    "archive_filename": "fixed_p4_residue_landscape_raw_653e6fb3591d.tar.zst",
+    "archive_sha256": "07f56be0b8fce72c494c6db7dd47ae2389a4320080027b771fd84690499b9c9f",
+    "archive_size_bytes": 53125,
+    "archived_file_count": 40,
+    "raw_regular_file_bytes": 167703,
+    "source_commit": "653e6fb3591d3ada44a69decdbd9e22f1c15e856"
+  },
+  "resources": {
+    "fresh_G_replay": {
+      "exit_status": 0,
+      "maximum_rss_kib": 213344,
+      "wall_seconds": 18.88
+    },
+    "commands": {
+      "artifact_selfcheck": {
+        "command": [
+          "/usr/bin/python3",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tools/verifier.py",
+          "--certificate-a",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_a.json",
+          "--certificate-b",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_b.json",
+          "--artifact-dir",
+          "/tmp/a303656_p4_authoritative_g2_artifacts",
+          "--output",
+          "/tmp/a303656_p4_authoritative_g2_raw/artifact_selfcheck_report.json"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 34624,
+        "name": "artifact_selfcheck",
+        "return_code": 0,
+        "runner_wall_seconds": 4.00020395699903,
+        "stderr": "artifact_selfcheck.stderr.log",
+        "stdout": "artifact_selfcheck.stdout.log",
+        "time_log": "artifact_selfcheck.time.txt",
+        "wall_seconds": 3.99
+      },
+      "artifact_verifier": {
+        "command": [
+          "/usr/bin/python3",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tools/verifier.py",
+          "--certificate-a",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_a.json",
+          "--certificate-b",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_b.json",
+          "--artifact-dir",
+          "/tmp/a303656_p4_authoritative_g2_artifacts",
+          "--output",
+          "/tmp/a303656_p4_authoritative_g2_artifacts/verification_report.json"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 34668,
+        "name": "artifact_verifier",
+        "return_code": 0,
+        "runner_wall_seconds": 3.9638757739994617,
+        "stderr": "artifact_verifier.stderr.log",
+        "stdout": "artifact_verifier.stdout.log",
+        "time_log": "artifact_verifier.time.txt",
+        "wall_seconds": 1.39
+      },
+      "build_a": {
+        "command": [
+          "g++",
+          "-std=c++20",
+          "-O3",
+          "-DNDEBUG",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-Werror",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tools/enumerator_a.cpp",
+          "-o",
+          "/tmp/a303656_p4_authoritative_g2_raw/bin/enumerator_a"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 213344,
+        "name": "build_a",
+        "return_code": 0,
+        "runner_wall_seconds": 2.4359604679993936,
+        "stderr": "build_a.stderr.log",
+        "stdout": "build_a.stdout.log",
+        "time_log": "build_a.time.txt",
+        "wall_seconds": 2.43
+      },
+      "build_b": {
+        "command": [
+          "g++",
+          "-std=c++20",
+          "-O3",
+          "-DNDEBUG",
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic",
+          "-Werror",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tools/enumerator_b.cpp",
+          "-o",
+          "/tmp/a303656_p4_authoritative_g2_raw/bin/enumerator_b"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 203852,
+        "name": "build_b",
+        "return_code": 0,
+        "runner_wall_seconds": 2.023225197001011,
+        "stderr": "build_b.stderr.log",
+        "stdout": "build_b.stdout.log",
+        "time_log": "build_b.time.txt",
+        "wall_seconds": 2.02
+      },
+      "enumerator_a": {
+        "command": [
+          "/tmp/a303656_p4_authoritative_g2_raw/bin/enumerator_a",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_a.json"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 3968,
+        "name": "enumerator_a",
+        "return_code": 0,
+        "runner_wall_seconds": 3.0004145889979554,
+        "stderr": "enumerator_a.stderr.log",
+        "stdout": "enumerator_a.stdout.log",
+        "time_log": "enumerator_a.time.txt",
+        "wall_seconds": 2.99
+      },
+      "enumerator_b": {
+        "command": [
+          "/tmp/a303656_p4_authoritative_g2_raw/bin/enumerator_b",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_b.json"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 7296,
+        "name": "enumerator_b",
+        "return_code": 0,
+        "runner_wall_seconds": 1.6560407599972677,
+        "stderr": "enumerator_b.stderr.log",
+        "stdout": "enumerator_b.stdout.log",
+        "time_log": "enumerator_b.time.txt",
+        "wall_seconds": 1.65
+      },
+      "negative_tests": {
+        "command": [
+          "/usr/bin/python3",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tests/test_negative.py"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 23040,
+        "name": "negative_tests",
+        "return_code": 0,
+        "runner_wall_seconds": 0.2046094270008325,
+        "stderr": "negative_tests.stderr.log",
+        "stdout": "negative_tests.stdout.log",
+        "time_log": "negative_tests.time.txt",
+        "wall_seconds": 0.2
+      },
+      "verifier": {
+        "command": [
+          "/usr/bin/python3",
+          "/tmp/a303656_p4_fresh_g2/analysis/p4_residue_landscape/tools/verifier.py",
+          "--certificate-a",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_a.json",
+          "--certificate-b",
+          "/tmp/a303656_p4_authoritative_g2_raw/certificate_b.json",
+          "--output",
+          "/tmp/a303656_p4_authoritative_g2_raw/verification_report.json"
+        ],
+        "cwd": "/tmp/a303656_p4_fresh_g2",
+        "exit_status": 0,
+        "maximum_rss_kib": 34504,
+        "name": "verifier",
+        "return_code": 0,
+        "runner_wall_seconds": 3.9603724850021536,
+        "stderr": "verifier.stderr.log",
+        "stdout": "verifier.stdout.log",
+        "time_log": "verifier.time.txt",
+        "wall_seconds": 3.95
+      }
+    },
+    "enumerator_internal": {
+      "A": {
+        "resources": {
+          "constrained_slice": {
+            "ru_maxrss_kib_at_stage_end": 3456,
+            "wall_seconds": 0.243828154
+          },
+          "coverage_generation": {
+            "ru_maxrss_kib_at_stage_end": 3456,
+            "wall_seconds": 0.001563252
+          },
+          "full_landscape": {
+            "ru_maxrss_kib_at_stage_end": 3456,
+            "wall_seconds": 2.13272919
+          },
+          "rss_definition": "getrusage(RUSAGE_SELF) ru_maxrss KiB; peak-to-date at stage end",
+          "subset_optimization": {
+            "ru_maxrss_kib_at_stage_end": 3456,
+            "wall_seconds": 0.617818915
+          }
+        },
+        "timings_seconds": {
+          "constrained_slice": 0.243828154,
+          "coverage_set_generation": 0.001563252,
+          "full_landscape": 2.13272919,
+          "subset_optimization": 0.617818915,
+          "total": 2.99605596
+        }
+      },
+      "B": {
+        "resources": {
+          "constrained_slice": {
+            "measurement_note": "integrated exactly into full landscape pass",
+            "ru_maxrss_kib_at_stage_end": 6912,
+            "wall_seconds": 1.540606
+          },
+          "coverage_generation": {
+            "ru_maxrss_kib_at_stage_end": 3456,
+            "wall_seconds": 0.001579
+          },
+          "full_landscape": {
+            "ru_maxrss_kib_at_stage_end": 6912,
+            "wall_seconds": 1.540606
+          },
+          "mitm_construction": {
+            "ru_maxrss_kib_at_stage_end": 6912,
+            "wall_seconds": 0.00298
+          },
+          "ru_maxrss_unit": "KiB; Linux peak-to-date at stage end",
+          "subset_optimization": {
+            "ru_maxrss_kib_at_stage_end": 6912,
+            "wall_seconds": 0.106132
+          }
+        },
+        "timings_seconds": {
+          "coverage_set_generation_and_verification": 0.001579,
+          "full_landscape_including_t3eq2": 1.540606,
+          "partial_union_precomputation": 0.00298,
+          "subset_optimization": 0.106132,
+          "total_before_json_write": 1.651297
+        }
+      }
+    }
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "schema": "a303656-fixed-p4-residue-landscape-metadata-v1",
+  "scope_guards": {
+    "CRT_candidate_searches": 0,
+    "T_evaluations": 0,
+    "arithmetic_progressions_scanned": 0,
+    "full_tuple_stream_committed": false,
+    "new_primes": 0,
+    "two_square_executables_run": 0
+  },
+  "serialization": {
+    "argmax": {
+      "byte_order": "little",
+      "fields": [
+        "t3",
+        "t7",
+        "t11",
+        "t23"
+      ],
+      "includes_G": false,
+      "integer_width_bits": 16,
+      "padding_bytes": 0,
+      "row_bytes": 8,
+      "struct_format": "<4H",
+      "tuple_order": "lexicographic"
+    },
+    "byte_order": "little",
+    "description": "Stream rows are t3,t7,t11,t23,G as five uint16 values in canonical lexicographic tuple order. Argmax rows omit G. All fields are little-endian with no padding.",
+    "fields": [
+      "t3",
+      "t7",
+      "t11",
+      "t23",
+      "G"
+    ],
+    "integer_width_bits": 16,
+    "padding_bytes": 0,
+    "row_bytes": 10,
+    "row_count": 28227969,
+    "struct_format": "<5H",
+    "tuple_order": "lexicographic"
+  },
+  "source_commit": "653e6fb3591d3ada44a69decdbd9e22f1c15e856",
+  "source_parent_commit": "b76d097081ac2b5704bbd234e3eaf25ba9564502",
+  "square_moduli": [
+    9,
+    49,
+    121,
+    529
+  ],
+  "t3eq2_stream_digest": "fd409acfc3f35aa8e333d654a94f5d06c3093f6c5ffd3207adadfe64ed12310c",
+  "task": "EXACT FIXED-P4 RESIDUE LANDSCAPE",
+  "verification_report_sha256": "96ac947a17445ca65e18690ee4e370f24b1b8d3b7bdf1e33a1ad1663f1b1b372"
+}

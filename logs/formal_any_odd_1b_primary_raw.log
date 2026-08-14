@@ -1,0 +1,60 @@
+===== PRIMARY CHUNK 00 =====
+integers_tested=100000000
+survivors_after_prefix_total=484
+candidate_count=0
+elapsed_seconds=17.458
+EXACT_EMPTY
+===== PRIMARY CHUNK 01 =====
+integers_tested=100000000
+survivors_after_prefix_total=496
+candidate_count=0
+elapsed_seconds=21.5792
+EXACT_EMPTY
+===== PRIMARY CHUNK 02 =====
+integers_tested=100000000
+survivors_after_prefix_total=527
+candidate_count=0
+elapsed_seconds=17.7434
+EXACT_EMPTY
+===== PRIMARY CHUNK 03 =====
+integers_tested=100000000
+survivors_after_prefix_total=513
+candidate_count=0
+elapsed_seconds=17.3293
+EXACT_EMPTY
+===== PRIMARY CHUNK 04 =====
+integers_tested=100000000
+survivors_after_prefix_total=493
+candidate_count=0
+elapsed_seconds=22.5443
+EXACT_EMPTY
+===== PRIMARY CHUNK 05 =====
+integers_tested=100000000
+survivors_after_prefix_total=504
+candidate_count=0
+elapsed_seconds=17.0735
+EXACT_EMPTY
+===== PRIMARY CHUNK 06 =====
+integers_tested=100000000
+survivors_after_prefix_total=462
+candidate_count=0
+elapsed_seconds=17.3457
+EXACT_EMPTY
+===== PRIMARY CHUNK 07 =====
+integers_tested=100000000
+survivors_after_prefix_total=510
+candidate_count=0
+elapsed_seconds=17.0478
+EXACT_EMPTY
+===== PRIMARY CHUNK 08 =====
+integers_tested=100000000
+survivors_after_prefix_total=524
+candidate_count=0
+elapsed_seconds=17.3061
+EXACT_EMPTY
+===== PRIMARY CHUNK 09 =====
+integers_tested=100000000
+survivors_after_prefix_total=502
+candidate_count=0
+elapsed_seconds=17.2982
+EXACT_EMPTY

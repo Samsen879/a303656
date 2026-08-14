@@ -1,0 +1,23 @@
+	Command being timed: "g++ -O2 -std=c++17 -Wall -Wextra -Werror -pedantic -I /tmp/a303656_gmp_tn_20260713/usr/include -I /tmp/a303656_gmp_tn_20260713/usr/include/x86_64-linux-gnu /tmp/a303656_tn_acceptance_src_2e38ac0/tests/tiny_twosquares_oracle.cpp /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu/libgmpxx.a /tmp/a303656_gmp_tn_20260713/usr/lib/x86_64-linux-gnu/libgmp.a -o /tmp/a303656_tn_acceptance_build_2e38ac0/tiny_twosquares_oracle"
+	User time (seconds): 0.96
+	System time (seconds): 0.18
+	Percent of CPU this job got: 81%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 136812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40212
+	Voluntary context switches: 1042
+	Involuntary context switches: 15
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 840
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

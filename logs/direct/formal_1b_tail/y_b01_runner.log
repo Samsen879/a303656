@@ -1,0 +1,14 @@
+chunk=1 interval=[240610000001,240620000000] candidates=0 elapsed=3.969475
+chunk=3 interval=[240630000001,240640000000] candidates=0 elapsed=4.284610
+chunk=0 interval=[240600000001,240610000000] candidates=0 elapsed=4.387043
+chunk=2 interval=[240620000001,240630000000] candidates=0 elapsed=5.698559
+chunk=4 interval=[240640000001,240650000000] candidates=0 elapsed=4.605100
+chunk=6 interval=[240660000001,240670000000] candidates=0 elapsed=4.292532
+chunk=5 interval=[240650000001,240660000000] candidates=0 elapsed=5.029672
+chunk=7 interval=[240670000001,240680000000] candidates=0 elapsed=5.020301
+chunk=9 interval=[240690000001,240700000000] candidates=0 elapsed=3.207052
+chunk=8 interval=[240680000001,240690000000] candidates=0 elapsed=3.722430
+complete_gapless_coverage=true
+integers_tested=100000000
+candidate_count=0
+wall_seconds=12.314696

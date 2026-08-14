@@ -1,0 +1,55 @@
+{
+  "method": "exact_integer_sieve_of_eratosthenes",
+  "records": [
+    {
+      "count": 16,
+      "file": "output/primes_numeric_16.txt",
+      "maximum_prime": 127
+    },
+    {
+      "count": 32,
+      "file": "output/primes_numeric_32.txt",
+      "maximum_prime": 283
+    },
+    {
+      "count": 64,
+      "file": "output/primes_numeric_64.txt",
+      "maximum_prime": 683
+    },
+    {
+      "count": 128,
+      "file": "output/primes_numeric_128.txt",
+      "maximum_prime": 1567
+    },
+    {
+      "count": 256,
+      "file": "output/primes_numeric_256.txt",
+      "maximum_prime": 3607
+    },
+    {
+      "count": 512,
+      "file": "output/primes_numeric_512.txt",
+      "maximum_prime": 8111
+    },
+    {
+      "count": 1024,
+      "file": "output/primes_numeric_1024.txt",
+      "maximum_prime": 17579
+    },
+    {
+      "count": 2048,
+      "file": "output/primes_numeric_2048.txt",
+      "maximum_prime": 38699
+    },
+    {
+      "count": 4096,
+      "file": "output/primes_numeric_4096.txt",
+      "maximum_prime": 83639
+    },
+    {
+      "count": 8192,
+      "file": "output/primes_numeric_8192.txt",
+      "maximum_prime": 180331
+    }
+  ]
+}

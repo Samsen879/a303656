@@ -1,0 +1,45 @@
+{
+  "a303656": "UNRESOLVED",
+  "authorization_basis": "Frozen authority, sanitized single-root export, recursive privacy scan, private-remote CI, and fresh-clone replay all passed before publication authorization.",
+  "authorization_date": "2026-08-14",
+  "fresh_clone": {
+    "level_0": "PASS",
+    "quick_level_1": "PASS",
+    "source_commit": "2898c3c728b820993b6b8775618a813018682740",
+    "status": "PASS"
+  },
+  "github_actions": {
+    "head_commit": "2898c3c728b820993b6b8775618a813018682740",
+    "run_id": 31782349948,
+    "run_url": "https://github.com/Samsen879/a303656/actions/runs/31782349948",
+    "status": "PASS"
+  },
+  "original_freeze_receipt_policy": "authority/frozen/FREEZE_RECEIPT.json is preserved unchanged as a historical record; this receipt separately records later publication authorization.",
+  "privacy_scan": {
+    "archive_errors": 0,
+    "archive_members": 40162,
+    "bytes_scanned": 405603010,
+    "privacy_findings": 0,
+    "regular_files": 10297,
+    "scope": "Repository files and recursively nested archives; personal Gmail addresses rejected without recording the private address.",
+    "status": "PASS"
+  },
+  "release_authorization": "PUBLIC GITHUB RELEASE: AUTHORIZED",
+  "release_root_post_commit_gate": "MUST PASS BEFORE PUBLIC VISIBILITY",
+  "repository": {
+    "github_full_name": "Samsen879/a303656",
+    "github_repository_id": 1333945235
+  },
+  "sanitized_history": {
+    "author_and_committer_policy": "GitHub noreply only",
+    "commit_count": 1,
+    "parent_count": 0,
+    "source_commit": "2898c3c728b820993b6b8775618a813018682740",
+    "status": "PASS"
+  },
+  "schema": "a303656-public-release-receipt-v1",
+  "scientific_authority": {
+    "designation": "MASTER AUTHORITY V2: FROZEN",
+    "sha256": "3033149749b1dbfb70ac73190d5323ee1817a219ce07c1e1913d1008c8629d35"
+  }
+}

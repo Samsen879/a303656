@@ -1,0 +1,96 @@
+{
+  "schema": "a303656-factor-run-comparison-v1",
+  "first": "output/formal_allprime_allodd_primary_100m_summary.json",
+  "second": "output/formal_allprime_allodd_clean_100m_summary.json",
+  "summary_interval": [
+    "240000000001",
+    "240100000000"
+  ],
+  "max_odd": -1,
+  "chunks_compared": 10,
+  "candidate_count": 0,
+  "mismatches": [],
+  "full_mathematical_output_match": true,
+  "details": [
+    {
+      "index": 0,
+      "low": "240000000001",
+      "high": "240010000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 120
+    },
+    {
+      "index": 1,
+      "low": "240010000001",
+      "high": "240020000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 121
+    },
+    {
+      "index": 2,
+      "low": "240020000001",
+      "high": "240030000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 121
+    },
+    {
+      "index": 3,
+      "low": "240030000001",
+      "high": "240040000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 119
+    },
+    {
+      "index": 4,
+      "low": "240040000001",
+      "high": "240050000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 118
+    },
+    {
+      "index": 5,
+      "low": "240050000001",
+      "high": "240060000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 118
+    },
+    {
+      "index": 6,
+      "low": "240060000001",
+      "high": "240070000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 122
+    },
+    {
+      "index": 7,
+      "low": "240070000001",
+      "high": "240080000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 116
+    },
+    {
+      "index": 8,
+      "low": "240080000001",
+      "high": "240090000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 119
+    },
+    {
+      "index": 9,
+      "low": "240090000001",
+      "high": "240100000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "histogram_entries": 122
+    }
+  ]
+}

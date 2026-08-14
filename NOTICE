@@ -1,0 +1,7 @@
+# Licensing and evidence notice
+
+The MIT License applies to repository-authored source code and documentation unless a file states otherwise.
+
+Files under `authority/raw/` and `authority/audits/`, embedded third-party publications, quoted material, and historically supplied evidence archives are preserved for scientific verification. Their inclusion does not relicense third-party content or override notices inside those artifacts.
+
+OEIS is a trademark of The OEIS Foundation Inc. This repository is an independent research project and is not an official OEIS publication.

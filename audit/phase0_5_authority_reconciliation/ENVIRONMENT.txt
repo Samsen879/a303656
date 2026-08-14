@@ -1,0 +1,7 @@
+generated_utc=2026-08-13T09:43:57.402954+00:00
+python=3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]
+platform=Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+repo=/home/samsen/code/a303656/worktrees/authority-reconciliation-v2
+original_repo=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+head=8cfff6a28c2194fc3e2cda8164f967248a16df0a
+branch=audit/authority-reconciliation-v2

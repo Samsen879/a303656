@@ -1,0 +1,47 @@
+started_utc=2026-07-13T02:23:30Z
+g++=g++ (Debian 14.2.0-19) 14.2.0
+COMPILE src/search_bitset.cpp
+COMPILE src/search_exhaustive_clean.cpp
+COMPILE src/search_factor_sieve.cpp
+COMPILE src/search_factor_sieve_clean.cpp
+COMPILE src/search_shifted_sieve.cpp
+COMPILE src/search_twosquares_bitset.cpp
+	Command being timed: "g++ -O3 -std=c++17 /mnt/data/a303656_bounded_counterexample/src/search_twosquares_bitset.cpp -o /mnt/data/a303656_final_build/search_twosquares_bitset"
+	User time (seconds): 2.51
+	System time (seconds): 0.24
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 143932
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 0
+	Voluntary context switches: 0
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+COMPILE src/search_twosquares_clean.cpp
+elapsed=3.16 maxrss_kb=124332
+COMPILE src/verifier_gmp.cpp
+elapsed=4.03 maxrss_kb=182472
+PY_COMPILE
+python_py_compile=PASS
+BINARY_SHA256
+3516d27ccca606b508d272c4e06a2b1ae67bd9c84f8508243d0c328ba57830d4  /mnt/data/a303656_final_build/search_bitset
+22b0ddcb30422eb7919ed6ef68e64ddffbbab97164daa5fe38adc8ebe1dc7c13  /mnt/data/a303656_final_build/search_exhaustive_clean
+34ddbe01de7f5a19578c6baafeda9c963e13846f10756045e21f8868ca5b59b9  /mnt/data/a303656_final_build/search_factor_sieve
+9c3ce008c5b1791c242728a801499a49aa0ffe443db564c2f2a0086ac2a1fc63  /mnt/data/a303656_final_build/search_factor_sieve_clean
+31e5560214d5f1ed062dcc4ef0856a83254795368b1628e5a08cd5f7458a0bf6  /mnt/data/a303656_final_build/search_shifted_sieve
+2dbbcbbbc7500ff42f0850e4a75ead8e4cf8bc2d1a00cda1bc0b0c960be26260  /mnt/data/a303656_final_build/search_twosquares_bitset
+89808bb807475c86882acf3984a1d57c56eae24f01dcb91c767fa164e0fba317  /mnt/data/a303656_final_build/search_twosquares_clean
+83c995b5df5da85c8479a2ac8f4fa044d72566976129278d83c8e8445a63ccba  /mnt/data/a303656_final_build/verifier_gmp
+completed_utc=2026-07-13T02:24:51Z

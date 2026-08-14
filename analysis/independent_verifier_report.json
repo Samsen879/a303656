@@ -1,0 +1,23 @@
+{
+  "classification": "INDEPENDENT RECOMPUTATION OF FINITE PILOT STATISTICS",
+  "histogram_totals": {
+    "PILOT-A": 200000,
+    "PILOT-B": 100000
+  },
+  "local_minima_verified": true,
+  "minimum_and_argmin_verified": true,
+  "obstruction_data_status": "SCHEMA_ONLY_NOT_COLLECTED",
+  "quantiles_verified": true,
+  "record_lows_verified": true,
+  "schema": "a303656-independent-tn-low-tail-verifier-report-v1",
+  "status": "PASS",
+  "three_way_input_counts_equal": true,
+  "winner_frequencies_verified": true,
+  "winner_frequency_totals": {
+    "record_count": 57,
+    "winner_totals": {
+      "PILOT-A": 152,
+      "PILOT-B": 16
+    }
+  }
+}

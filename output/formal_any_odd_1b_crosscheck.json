@@ -1,0 +1,118 @@
+{
+  "project": "OEIS A303656 bounded self-consistent counterexample search",
+  "result_label": "EXACT EXHAUSTIVE FINITE COMPUTATION",
+  "low": "240000000001",
+  "high": "241000000000",
+  "integers_tested": 1000000000,
+  "C": 23,
+  "D": 16,
+  "next_power_bound_3": "282429536482",
+  "next_power_bound_5": "762939453126",
+  "admissible_pair_count_at_high": 407,
+  "distinct_shift_count_at_high": 406,
+  "valuation_mode": "any-odd",
+  "mathematical_scope": "all primes p == 3 mod 4 and every positive odd valuation; by Fermat two-square theorem this is equivalent to testing the original representation problem on the finite interval",
+  "primary_implementation": "src/search_all_odd_valuation.cpp (packed shifted bitsets)",
+  "independent_implementation": "src/search_all_odd_valuation_clean.cpp (byte array plus compacted live offsets)",
+  "primary_chunk_size": 100000000,
+  "primary_chunk_count": 10,
+  "clean_subchunk_size": 5000000,
+  "clean_subchunk_count": 200,
+  "primary_survivors_after_first_100_shifts": 5015,
+  "clean_survivors_after_first_100_shifts": 5015,
+  "candidate_count_primary": 0,
+  "candidate_count_clean": 0,
+  "candidates_primary": [],
+  "candidates_clean": [],
+  "elapsed_seconds_primary_sum": 182.7255,
+  "elapsed_seconds_clean_sum": 266.98077,
+  "coverage_checks": {
+    "primary": "PASS: 10 inclusive 100,000,000-integer chunks are contiguous and nonoverlapping",
+    "clean": "PASS: 200 inclusive 5,000,000-integer subchunks are contiguous and nonoverlapping",
+    "crosscheck": "PASS: every parent chunk has identical prefix-survivor and final-candidate counts in both implementations"
+  },
+  "per_primary_chunk": [
+    {
+      "index": 0,
+      "low": "240000000001",
+      "high": "240100000000",
+      "survivors_after_prefix_total": 484,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.458
+    },
+    {
+      "index": 1,
+      "low": "240100000001",
+      "high": "240200000000",
+      "survivors_after_prefix_total": 496,
+      "candidate_count": 0,
+      "elapsed_seconds": 21.5792
+    },
+    {
+      "index": 2,
+      "low": "240200000001",
+      "high": "240300000000",
+      "survivors_after_prefix_total": 527,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.7434
+    },
+    {
+      "index": 3,
+      "low": "240300000001",
+      "high": "240400000000",
+      "survivors_after_prefix_total": 513,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.3293
+    },
+    {
+      "index": 4,
+      "low": "240400000001",
+      "high": "240500000000",
+      "survivors_after_prefix_total": 493,
+      "candidate_count": 0,
+      "elapsed_seconds": 22.5443
+    },
+    {
+      "index": 5,
+      "low": "240500000001",
+      "high": "240600000000",
+      "survivors_after_prefix_total": 504,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.0735
+    },
+    {
+      "index": 6,
+      "low": "240600000001",
+      "high": "240700000000",
+      "survivors_after_prefix_total": 462,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.3457
+    },
+    {
+      "index": 7,
+      "low": "240700000001",
+      "high": "240800000000",
+      "survivors_after_prefix_total": 510,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.0478
+    },
+    {
+      "index": 8,
+      "low": "240800000001",
+      "high": "240900000000",
+      "survivors_after_prefix_total": 524,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.3061
+    },
+    {
+      "index": 9,
+      "low": "240900000001",
+      "high": "241000000000",
+      "survivors_after_prefix_total": 502,
+      "candidate_count": 0,
+      "elapsed_seconds": 17.2982
+    }
+  ],
+  "final_statement": "No integer in the stated interval is a counterexample to n=a^2+b^2+3^c+5^d.",
+  "classification": "EXACT EXHAUSTIVE FINITE COMPUTATION, INDEPENDENTLY REPRODUCED"
+}

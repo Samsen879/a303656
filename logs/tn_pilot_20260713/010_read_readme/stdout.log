@@ -1,0 +1,61 @@
+# OEIS A303656 bounded self-consistent counterexample search
+
+本 bundle 是一次严格、可复现的 bounded counterexample search。最终结果为 **B**：
+没有找到 counterexample，但对明确有限区间得到独立双实现的 exact exhaustive computation。
+
+最强结果：两个 clean-room C++ direct scanners 从不同循环顺序和不同 exact integer-square-root 实现出发，逐个验证了
+
+```text
+240000000001 <= n <= 241600000000
+```
+
+中的全部 `1,600,000,000` 个整数均可写成
+
+```text
+n = a^2 + b^2 + 3^c + 5^d
+```
+
+其中 `a,b,c,d >= 0`。两实现的 160 个无缝 chunks、candidate sets 和 unordered square-pair counts 全部一致，candidate count 为 0。
+额外离散区间使双实现直接检查的互异整数总数达到 `1,853,000,000`。
+
+本 bundle 同时包含：
+
+- valuation-one criterion 的严格证明与 `p=3`/remainder-zero 审计；
+- Python exact verifier：`src/verifier.py`；
+- C++/GMP independent verifier：`src/verifier_gmp.cpp`；
+- Method A direct Z3：`src/search_z3_direct.py`；
+- Method B CEGIS：`src/search_z3_cegis.py`；
+- fixed-pool Method C 的两个实现；
+- all-prime exact factor-sieve 的两个实现，支持 valuation `1`、`{1,3}` 和任意奇 valuation；
+- original-representation direct scanners：
+  `src/search_twosquares_bitset.cpp` 与 `src/search_twosquares_clean.cpp`；
+- raw chunk JSON、日志、机器可读 manifest 和 SHA256。
+
+入口文件：
+
+- 完整中文报告：`REPORT_zh.md`；
+- 最终机器清单：`output/final_results_manifest.json`；
+- 全结果重新审计：`output/formal_results_audit.json`；
+- 最终 clean-build/packaging 审计：`output/final_packaging_audit.json`；
+- 连续 1.6B 双实现 manifest：`output/direct/formal_1p6b_final/summary.json`；
+- 一键重编译与复现：`run_reproduce.sh`。
+
+快速验证当前源码、toy fault injection 与已存结果：
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+SKIP_STAGE0=1 LEVEL=quick ./run_reproduce.sh
+```
+
+包含上一阶段 baseline 的完整快速复现：
+
+```bash
+LEVEL=quick ./run_reproduce.sh
+```
+
+系统依赖：支持 C++17 的 `g++`、GMP development library、`sha256sum`、`unzip`。
+昂贵的完整区间重跑可使用 `LEVEL=certified10m`、`certified100m`、`full1b` 或 `full1p6b`。
+
+没有找到 `counterexample.json` 或 `obstructions.csv` 的 PASS certificate；`cert/` 中只保留明确的无证书说明。

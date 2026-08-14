@@ -1,0 +1,177 @@
+{
+  "schema": "a303656-direct-two-squares-band-v1",
+  "interval": {
+    "low": "240000000001",
+    "high": "240100000000"
+  },
+  "chunk_size": 10000000,
+  "chunk_count": 10,
+  "implementations": {
+    "x": {
+      "method": "direct_two_squares_bitset_x_outer",
+      "integers_tested": 100000000,
+      "candidate_count": 0,
+      "elapsed_seconds_sum": 36.86745,
+      "unordered_square_pairs_enumerated_sum": 6000448010,
+      "chunk_records": [
+        {
+          "index": "00",
+          "low": "240000000001",
+          "high": "240010000000",
+          "shifts_processed": 148,
+          "elapsed_seconds": 4.23496
+        },
+        {
+          "index": "01",
+          "low": "240010000001",
+          "high": "240020000000",
+          "shifts_processed": 156,
+          "elapsed_seconds": 4.19281
+        },
+        {
+          "index": "02",
+          "low": "240020000001",
+          "high": "240030000000",
+          "shifts_processed": 138,
+          "elapsed_seconds": 2.82421
+        },
+        {
+          "index": "03",
+          "low": "240030000001",
+          "high": "240040000000",
+          "shifts_processed": 150,
+          "elapsed_seconds": 2.56545
+        },
+        {
+          "index": "04",
+          "low": "240040000001",
+          "high": "240050000000",
+          "shifts_processed": 133,
+          "elapsed_seconds": 2.34914
+        },
+        {
+          "index": "05",
+          "low": "240050000001",
+          "high": "240060000000",
+          "shifts_processed": 176,
+          "elapsed_seconds": 4.2868
+        },
+        {
+          "index": "06",
+          "low": "240060000001",
+          "high": "240070000000",
+          "shifts_processed": 152,
+          "elapsed_seconds": 3.13689
+        },
+        {
+          "index": "07",
+          "low": "240070000001",
+          "high": "240080000000",
+          "shifts_processed": 159,
+          "elapsed_seconds": 2.94984
+        },
+        {
+          "index": "08",
+          "low": "240080000001",
+          "high": "240090000000",
+          "shifts_processed": 157,
+          "elapsed_seconds": 4.82798
+        },
+        {
+          "index": "09",
+          "low": "240090000001",
+          "high": "240100000000",
+          "shifts_processed": 159,
+          "elapsed_seconds": 5.49937
+        }
+      ]
+    },
+    "y": {
+      "method": "clean_room_direct_two_squares_y_outer",
+      "integers_tested": 100000000,
+      "candidate_count": 0,
+      "elapsed_seconds_sum": 33.40275,
+      "unordered_square_pairs_enumerated_sum": 6000448010,
+      "chunk_records": [
+        {
+          "index": "00",
+          "low": "240000000001",
+          "high": "240010000000",
+          "shifts_processed": 148,
+          "elapsed_seconds": 3.02512
+        },
+        {
+          "index": "01",
+          "low": "240010000001",
+          "high": "240020000000",
+          "shifts_processed": 156,
+          "elapsed_seconds": 2.85821
+        },
+        {
+          "index": "02",
+          "low": "240020000001",
+          "high": "240030000000",
+          "shifts_processed": 138,
+          "elapsed_seconds": 2.55354
+        },
+        {
+          "index": "03",
+          "low": "240030000001",
+          "high": "240040000000",
+          "shifts_processed": 150,
+          "elapsed_seconds": 2.67728
+        },
+        {
+          "index": "04",
+          "low": "240040000001",
+          "high": "240050000000",
+          "shifts_processed": 133,
+          "elapsed_seconds": 2.47382
+        },
+        {
+          "index": "05",
+          "low": "240050000001",
+          "high": "240060000000",
+          "shifts_processed": 176,
+          "elapsed_seconds": 4.44841
+        },
+        {
+          "index": "06",
+          "low": "240060000001",
+          "high": "240070000000",
+          "shifts_processed": 152,
+          "elapsed_seconds": 6.16935
+        },
+        {
+          "index": "07",
+          "low": "240070000001",
+          "high": "240080000000",
+          "shifts_processed": 159,
+          "elapsed_seconds": 3.17362
+        },
+        {
+          "index": "08",
+          "low": "240080000001",
+          "high": "240090000000",
+          "shifts_processed": 157,
+          "elapsed_seconds": 2.96917
+        },
+        {
+          "index": "09",
+          "low": "240090000001",
+          "high": "240100000000",
+          "shifts_processed": 159,
+          "elapsed_seconds": 3.05423
+        }
+      ]
+    }
+  },
+  "crosscheck": {
+    "status": "PASS",
+    "coverage": "contiguous, gap-free, no overlap",
+    "candidate_counts_agree": true,
+    "unordered_lattice_pair_counts_agree_chunkwise": true,
+    "result": "every n in [240000000001,240100000000] has at least one exact representation a^2+b^2+3^c+5^d"
+  },
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION"
+}

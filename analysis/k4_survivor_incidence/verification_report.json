@@ -1,0 +1,1607 @@
+{
+  "backend_masks": {
+    "T_matches_committed_K4_panel_all_rows": true,
+    "byte_identical_files": true,
+    "mask_sha256": "cc71d841d9909d3d4f30826fccfe840455b1fac7c40a550e8e034deffb054b33",
+    "pointwise_equal": true,
+    "popcount_equals_T_all_rows": true
+  },
+  "class_residual_survival_analysis": [
+    {
+      "h": -720,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 193,
+        "ge_25_percent": 102,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 1,
+        "46": 1,
+        "47": 4,
+        "48": 1,
+        "49": 2,
+        "50": 5,
+        "51": 3,
+        "52": 3,
+        "53": 3,
+        "54": 2,
+        "55": 5,
+        "56": 6,
+        "57": 4,
+        "58": 2,
+        "59": 7,
+        "60": 9,
+        "61": 6,
+        "62": 10,
+        "63": 7,
+        "64": 10,
+        "65": 6,
+        "66": 12,
+        "67": 12,
+        "68": 15,
+        "69": 11,
+        "70": 9,
+        "71": 17,
+        "72": 11,
+        "73": 2,
+        "74": 1,
+        "75": 3,
+        "76": 1,
+        "78": 1,
+        "79": 1
+      },
+      "persistent_covered_pair_count": 214,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.247938549626015604524102336646",
+        "denominator": 49601,
+        "numerator": 12298
+      },
+      "total_possible_uncovered_incidences": 49601,
+      "total_winner_incidences": 12298,
+      "uncovered_pair_count": 193,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": -360,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 225,
+        "ge_25_percent": 100,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 2,
+        "46": 2,
+        "47": 1,
+        "48": 4,
+        "49": 3,
+        "50": 4,
+        "51": 3,
+        "52": 5,
+        "53": 5,
+        "54": 8,
+        "55": 7,
+        "56": 5,
+        "57": 6,
+        "58": 9,
+        "59": 9,
+        "60": 9,
+        "61": 9,
+        "62": 10,
+        "63": 12,
+        "64": 12,
+        "65": 17,
+        "66": 17,
+        "67": 14,
+        "68": 9,
+        "69": 8,
+        "70": 10,
+        "71": 5,
+        "72": 9,
+        "73": 5,
+        "74": 1,
+        "76": 3,
+        "77": 1,
+        "83": 1
+      },
+      "persistent_covered_pair_count": 182,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.242628620838737570255079982706",
+        "denominator": 11565,
+        "numerator": 2806
+      },
+      "total_possible_uncovered_incidences": 57825,
+      "total_winner_incidences": 14030,
+      "uncovered_pair_count": 225,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 0,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 191,
+        "ge_25_percent": 90,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "41": 1,
+        "42": 1,
+        "44": 1,
+        "45": 5,
+        "47": 2,
+        "48": 1,
+        "49": 1,
+        "50": 7,
+        "51": 3,
+        "52": 1,
+        "53": 3,
+        "54": 4,
+        "55": 2,
+        "56": 4,
+        "57": 4,
+        "58": 6,
+        "59": 9,
+        "60": 10,
+        "61": 6,
+        "62": 12,
+        "63": 10,
+        "64": 8,
+        "65": 11,
+        "66": 14,
+        "67": 11,
+        "68": 7,
+        "69": 8,
+        "70": 13,
+        "71": 7,
+        "72": 5,
+        "73": 5,
+        "74": 5,
+        "75": 3,
+        "79": 1
+      },
+      "persistent_covered_pair_count": 216,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.243974983193106117709373153788",
+        "denominator": 49087,
+        "numerator": 11976
+      },
+      "total_possible_uncovered_incidences": 49087,
+      "total_winner_incidences": 11976,
+      "uncovered_pair_count": 191,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 360,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 209,
+        "ge_25_percent": 121,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "44": 1,
+        "45": 2,
+        "47": 3,
+        "48": 2,
+        "49": 4,
+        "50": 3,
+        "51": 1,
+        "52": 2,
+        "53": 2,
+        "54": 6,
+        "55": 1,
+        "56": 1,
+        "57": 4,
+        "58": 5,
+        "59": 6,
+        "60": 6,
+        "61": 8,
+        "62": 6,
+        "63": 11,
+        "64": 14,
+        "65": 10,
+        "66": 21,
+        "67": 22,
+        "68": 5,
+        "69": 12,
+        "70": 12,
+        "71": 9,
+        "72": 6,
+        "73": 5,
+        "74": 7,
+        "75": 2,
+        "76": 3,
+        "77": 2,
+        "78": 4,
+        "80": 1
+      },
+      "persistent_covered_pair_count": 198,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.251149628581535196321188539087",
+        "denominator": 2827,
+        "numerator": 710
+      },
+      "total_possible_uncovered_incidences": 53713,
+      "total_winner_incidences": 13490,
+      "uncovered_pair_count": 209,
+      "wins_every_k_uncovered_pairs": 0
+    },
+    {
+      "h": 720,
+      "high_survival_pair_counts": {
+        "ge_10_percent": 198,
+        "ge_25_percent": 95,
+        "ge_50_percent": 0,
+        "ge_75_percent": 0
+      },
+      "k_scope": "all_-128_through_128",
+      "never_winning_uncovered_pairs": 0,
+      "pair_survival_count_histogram": {
+        "45": 2,
+        "46": 2,
+        "47": 1,
+        "48": 5,
+        "49": 1,
+        "50": 4,
+        "51": 1,
+        "52": 2,
+        "53": 2,
+        "54": 9,
+        "55": 3,
+        "56": 2,
+        "57": 7,
+        "58": 3,
+        "59": 6,
+        "60": 6,
+        "61": 14,
+        "62": 8,
+        "63": 19,
+        "64": 6,
+        "65": 7,
+        "66": 10,
+        "67": 11,
+        "68": 7,
+        "69": 9,
+        "70": 17,
+        "71": 10,
+        "72": 8,
+        "73": 6,
+        "74": 1,
+        "75": 6,
+        "76": 1,
+        "78": 1,
+        "81": 1
+      },
+      "persistent_covered_pair_count": 209,
+      "point_count": 257,
+      "residual_survival_rate": {
+        "decimal": "0.247258577997877608772550406792",
+        "denominator": 2827,
+        "numerator": 699
+      },
+      "total_possible_uncovered_incidences": 50886,
+      "total_winner_incidences": 12582,
+      "uncovered_pair_count": 198,
+      "wins_every_k_uncovered_pairs": 0
+    }
+  ],
+  "classification": "INDEPENDENTLY VERIFIED EXACT FINITE COMPUTATION ON THE FIXED 1285-POINT PANEL; GLOBAL PROBLEM UNRESOLVED",
+  "commit_chain": {
+    "baseline_commit": "406677c3b095d2125a4a439c76b3a8d6788cb1da",
+    "resolution": "RESULT_COMMIT_SELF_REFERENCE_SENTINEL",
+    "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+    "source_commit": "7123d08d4060e30a0e89f7d9b04f799414f00335",
+    "source_is_direct_parent_of_results": true
+  },
+  "coverage_adjusted_interpretation": {
+    "I_all_target_minus_mean_control_mean": {
+      "decimal": "-0.308365758754863813229571984436",
+      "denominator": 1028,
+      "numerator": -317
+    },
+    "absolute_gap_reduction_fraction_after_I_all_restriction": {
+      "decimal": "0.929492882562277580071174377224",
+      "denominator": 4496,
+      "numerator": 4179
+    },
+    "allowed_coverage_adjusted_interpretation": "MIXED / INCONCLUSIVE FINITE RESULT",
+    "claim_boundary": "finite descriptive result only; no statistical-significance, causal, necessity, or global claim",
+    "descriptive_criterion": "strictly lower mean and median, with more negative than positive matched-k differences for pairwise comparisons",
+    "pairwise_common_uncovered": {
+      "-360": {
+        "including_anchor_k0": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": true,
+          "target_mean_lower": true,
+          "target_median_lower": true
+        },
+        "leave_anchor_out": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": true,
+          "target_mean_lower": true,
+          "target_median_lower": true
+        }
+      },
+      "-720": {
+        "including_anchor_k0": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": false,
+          "target_mean_lower": true,
+          "target_median_lower": false
+        },
+        "leave_anchor_out": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": false,
+          "target_mean_lower": true,
+          "target_median_lower": false
+        }
+      },
+      "360": {
+        "including_anchor_k0": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": false,
+          "target_mean_lower": true,
+          "target_median_lower": false
+        },
+        "leave_anchor_out": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": false,
+          "target_mean_lower": true,
+          "target_median_lower": false
+        }
+      },
+      "720": {
+        "including_anchor_k0": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": true,
+          "target_mean_lower": true,
+          "target_median_lower": true
+        },
+        "leave_anchor_out": {
+          "negative_differences_exceed_positive": true,
+          "retains_lower_distribution_under_declared_descriptive_criterion": true,
+          "target_mean_lower": true,
+          "target_median_lower": true
+        }
+      }
+    },
+    "raw_enrichment_mostly_explained_by_guaranteed_coverage_under_50_percent_gap_reduction_rule": true,
+    "raw_target_minus_mean_control_mean": {
+      "decimal": "-4.37354085603112840466926070039",
+      "denominator": 257,
+      "numerator": -1124
+    },
+    "secondary_residue_effect_observed_under_declared_descriptive_criterion": false,
+    "target_frequent_pair_count": 90,
+    "target_lower_on_I_all_mean_and_median_vs_every_control_all_k": true,
+    "target_lower_on_I_all_mean_and_median_vs_every_control_leave_anchor_out": true,
+    "target_lower_on_every_pairwise_common_uncovered_set_with_and_without_anchor": false,
+    "target_very_frequent_pair_count": 0
+  },
+  "cross_class_pair_profiles": {
+    "claim_boundary": "finite empirical ranks only",
+    "pair_count": 407,
+    "three_rankings_complete": true
+  },
+  "direct_oracle": {
+    "all_witnesses_independently_rechecked": true,
+    "complete_winner_sets_match": true,
+    "selected_point_count": 73,
+    "verified_witness_count": 2448
+  },
+  "discovered_bugs": [],
+  "final_conclusion": "VALIDATED K4 SURVIVOR-INCIDENCE AUDIT",
+  "five_way_common_uncovered": {
+    "I_all_size": 46,
+    "classes": [
+      {
+        "h": -720,
+        "summary_all_k": {
+          "argmin_k": [
+            -48
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 100,
+            "20": 253,
+            "30": 257,
+            "40": 257
+          },
+          "mean": {
+            "decimal": "11.4980544747081712062256809339",
+            "denominator": 257,
+            "numerator": 2955
+          },
+          "median": {
+            "decimal": "12",
+            "denominator": 1,
+            "numerator": 12
+          },
+          "minimum": 2,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "3.77182315484559712266933566621",
+          "population_variance": {
+            "decimal": "14.2266499114293933291949915971",
+            "denominator": 66049,
+            "numerator": 939656
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 2,
+            "q10": 7,
+            "q100": 23,
+            "q25": 9,
+            "q50": 12,
+            "q75": 14,
+            "q90": 16
+          }
+        }
+      },
+      {
+        "h": -360,
+        "summary_all_k": {
+          "argmin_k": [
+            -122,
+            -88
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 97,
+            "20": 256,
+            "30": 257,
+            "40": 257
+          },
+          "mean": {
+            "decimal": "11.4513618677042801556420233463",
+            "denominator": 257,
+            "numerator": 2943
+          },
+          "median": {
+            "decimal": "12",
+            "denominator": 1,
+            "numerator": 12
+          },
+          "minimum": 3,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "3.77975460022517333925573139277",
+          "population_variance": {
+            "decimal": "14.2865448379233599297491256491",
+            "denominator": 66049,
+            "numerator": 943612
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 3,
+            "q10": 6,
+            "q100": 21,
+            "q25": 9,
+            "q50": 12,
+            "q75": 14,
+            "q90": 16
+          }
+        }
+      },
+      {
+        "h": 0,
+        "summary_all_k": {
+          "argmin_k": [
+            -34,
+            32,
+            38,
+            73,
+            110
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 109,
+            "20": 255,
+            "30": 257,
+            "40": 257
+          },
+          "mean": {
+            "decimal": "11.2762645914396887159533073930",
+            "denominator": 257,
+            "numerator": 2898
+          },
+          "median": {
+            "decimal": "11",
+            "denominator": 1,
+            "numerator": 11
+          },
+          "minimum": 3,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "4.07964731729267445125805695832",
+          "population_variance": {
+            "decimal": "16.6435222334933155687444170237",
+            "denominator": 66049,
+            "numerator": 1099288
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 3,
+            "q10": 6,
+            "q100": 21,
+            "q25": 8,
+            "q50": 11,
+            "q75": 14,
+            "q90": 17
+          }
+        },
+        "summary_leave_anchor_out": {
+          "argmin_k": [
+            -34,
+            32,
+            38,
+            73,
+            110
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 108,
+            "20": 254,
+            "30": 256,
+            "40": 256
+          },
+          "mean": {
+            "decimal": "11.3046875",
+            "denominator": 128,
+            "numerator": 1447
+          },
+          "median": {
+            "decimal": "11",
+            "denominator": 1,
+            "numerator": 11
+          },
+          "minimum": 3,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "4.06213189438055420706819354885",
+          "population_variance": {
+            "decimal": "16.50091552734375",
+            "denominator": 16384,
+            "numerator": 270351
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 3,
+            "q10": 6,
+            "q100": 21,
+            "q25": 8,
+            "q50": 11,
+            "q75": 14,
+            "q90": 17
+          }
+        }
+      },
+      {
+        "h": 360,
+        "summary_all_k": {
+          "argmin_k": [
+            22
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 100,
+            "20": 253,
+            "30": 257,
+            "40": 257
+          },
+          "mean": {
+            "decimal": "11.7821011673151750972762645914",
+            "denominator": 257,
+            "numerator": 3028
+          },
+          "median": {
+            "decimal": "12",
+            "denominator": 1,
+            "numerator": 12
+          },
+          "minimum": 2,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "3.87237932738191651266453305245",
+          "population_variance": {
+            "decimal": "14.9953216551348241457100031795",
+            "denominator": 66049,
+            "numerator": 990426
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 2,
+            "q10": 7,
+            "q100": 24,
+            "q25": 9,
+            "q50": 12,
+            "q75": 14,
+            "q90": 17
+          }
+        }
+      },
+      {
+        "h": 720,
+        "summary_all_k": {
+          "argmin_k": [
+            -56
+          ],
+          "fixed_threshold_counts_le": {
+            "10": 100,
+            "20": 255,
+            "30": 257,
+            "40": 257
+          },
+          "mean": {
+            "decimal": "11.6070038910505836575875486381",
+            "denominator": 257,
+            "numerator": 2983
+          },
+          "median": {
+            "decimal": "12",
+            "denominator": 1,
+            "numerator": 12
+          },
+          "minimum": 1,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "3.90614969250006121169982186960",
+          "population_variance": {
+            "decimal": "15.2580054202183227603748732002",
+            "denominator": 66049,
+            "numerator": 1007776
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 1,
+            "q10": 6,
+            "q100": 23,
+            "q25": 9,
+            "q50": 12,
+            "q75": 14,
+            "q90": 17
+          }
+        }
+      }
+    ]
+  },
+  "hard_survivor_set_counts": {
+    "FREQUENT_WIN_TARGET": 90,
+    "NEVER_WIN_TARGET": 0,
+    "SOMETIMES_WIN_TARGET": 191,
+    "VERY_FREQUENT_WIN_TARGET": 0
+  },
+  "negative_tests": {
+    "all_rejected": true,
+    "required_count": 14,
+    "tests": [
+      {
+        "name": "changed_pair_ordering",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: pair-order CSV is not the canonical independently regenerated table"
+      },
+      {
+        "name": "changed_pair_order_hash",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: pair-order hash manifest mismatch"
+      },
+      {
+        "name": "one_flipped_winner_bit",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: popcount/T mismatch"
+      },
+      {
+        "name": "mask_row_deletion",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: wrong size, truncation or extra bytes"
+      },
+      {
+        "name": "duplicated_row",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: point order/identity/class mismatch"
+      },
+      {
+        "name": "extra_bytes",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: wrong size, truncation or extra bytes"
+      },
+      {
+        "name": "truncated_mask",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: wrong size, truncation or extra bytes"
+      },
+      {
+        "name": "incorrect_popcount_T",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: popcount/T mismatch"
+      },
+      {
+        "name": "class_relabeling",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: point order/identity/class mismatch"
+      },
+      {
+        "name": "point_reordering",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: backend_a_masks.bin: point order/identity/class mismatch"
+      },
+      {
+        "name": "persistent_covered_pair_marked_winner",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: persistent-covered pair marked winner at h=-720, k=-128"
+      },
+      {
+        "name": "swapped_backend_identity",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: core identity mismatch/swapped slot: backend_a"
+      },
+      {
+        "name": "source_commit_mismatch",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: source-commit mismatch"
+      },
+      {
+        "name": "baseline_hash_mismatch",
+        "rejected": true,
+        "return_code": 2,
+        "stderr_last_line": "K4 SURVIVOR-INCIDENCE AUDIT NOT VALIDATED: metadata protected-hash record mismatch"
+      }
+    ]
+  },
+  "pair_order": {
+    "canonical_lexicographic_c_then_d": true,
+    "duplicate_shift_group_28": [
+      19,
+      51
+    ],
+    "row_count": 407,
+    "sha256": "5f3b6ea52f9d3d5e544f10ae17a3752cbf1a476d9575a2e0a6ae4c502ed0452b"
+  },
+  "pairwise_common_uncovered": [
+    {
+      "I_h_size": 132,
+      "control_h": -720,
+      "including_anchor_k0": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 16,
+            "30": 113,
+            "40": 201
+          },
+          "mean": {
+            "decimal": "32.6926070038910505836575875486",
+            "denominator": 257,
+            "numerator": 8402
+          },
+          "median": {
+            "decimal": "32",
+            "denominator": 1,
+            "numerator": 32
+          },
+          "minimum": 12,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "9.05811671472268534206047412635",
+          "population_variance": {
+            "decimal": "82.0494784175384941482838498690",
+            "denominator": 66049,
+            "numerator": 5419286
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 12,
+            "q10": 21,
+            "q100": 56,
+            "q25": 26,
+            "q50": 32,
+            "q75": 39,
+            "q90": 45
+          }
+        },
+        "negative_count": 124,
+        "point_count": 257,
+        "positive_count": 115,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 1,
+            "20": 23,
+            "30": 115,
+            "40": 201
+          },
+          "mean": {
+            "decimal": "32.1867704280155642023346303502",
+            "denominator": 257,
+            "numerator": 8272
+          },
+          "median": {
+            "decimal": "32",
+            "denominator": 1,
+            "numerator": 32
+          },
+          "minimum": 9,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "9.34613988847807606566520402101",
+          "population_variance": {
+            "decimal": "87.3503308150009841178518978334",
+            "denominator": 66049,
+            "numerator": 5769402
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 9,
+            "q10": 21,
+            "q100": 56,
+            "q25": 25,
+            "q50": 32,
+            "q75": 39,
+            "q90": 45
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.505836575875486381322957198444",
+          "denominator": 257,
+          "numerator": -130
+        },
+        "target_minus_control_median": {
+          "decimal": "0",
+          "denominator": 1,
+          "numerator": 0
+        },
+        "target_tied_minimum_count": 18,
+        "target_unique_minimum_count": 124,
+        "zero_count": 18
+      },
+      "leave_anchor_out": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 16,
+            "30": 112,
+            "40": 200
+          },
+          "mean": {
+            "decimal": "32.71484375",
+            "denominator": 256,
+            "numerator": 8375
+          },
+          "median": {
+            "decimal": "32",
+            "denominator": 1,
+            "numerator": 32
+          },
+          "minimum": 12,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "9.06878738658515124745574215062",
+          "population_variance": {
+            "decimal": "82.2429046630859375",
+            "denominator": 65536,
+            "numerator": 5389871
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 12,
+            "q10": 21,
+            "q100": 56,
+            "q25": 26,
+            "q50": 32,
+            "q75": 39,
+            "q90": 45
+          }
+        },
+        "negative_count": 123,
+        "point_count": 256,
+        "positive_count": 115,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 1,
+            "20": 22,
+            "30": 114,
+            "40": 200
+          },
+          "mean": {
+            "decimal": "32.2578125",
+            "denominator": 128,
+            "numerator": 4129
+          },
+          "median": {
+            "decimal": "32",
+            "denominator": 1,
+            "numerator": 32
+          },
+          "minimum": 9,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "9.29486257105739837199561244739",
+          "population_variance": {
+            "decimal": "86.39447021484375",
+            "denominator": 16384,
+            "numerator": 1415487
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 9,
+            "q10": 21,
+            "q100": 56,
+            "q25": 25,
+            "q50": 32,
+            "q75": 39,
+            "q90": 45
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.45703125",
+          "denominator": 256,
+          "numerator": -117
+        },
+        "target_minus_control_median": {
+          "decimal": "0",
+          "denominator": 1,
+          "numerator": 0
+        },
+        "target_tied_minimum_count": 18,
+        "target_unique_minimum_count": 123,
+        "zero_count": 18
+      }
+    },
+    {
+      "I_h_size": 161,
+      "control_h": -360,
+      "including_anchor_k0": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 5,
+            "30": 57,
+            "40": 143
+          },
+          "mean": {
+            "decimal": "39.1167315175097276264591439689",
+            "denominator": 257,
+            "numerator": 10053
+          },
+          "median": {
+            "decimal": "39",
+            "denominator": 1,
+            "numerator": 39
+          },
+          "minimum": 18,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "10.1939361800196708695049694726",
+          "population_variance": {
+            "decimal": "103.916334842314039576677920937",
+            "denominator": 66049,
+            "numerator": 6863570
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 18,
+            "q10": 26,
+            "q100": 69,
+            "q25": 31,
+            "q50": 39,
+            "q75": 46,
+            "q90": 53
+          }
+        },
+        "negative_count": 122,
+        "point_count": 257,
+        "positive_count": 119,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 5,
+            "30": 58,
+            "40": 145
+          },
+          "mean": {
+            "decimal": "38.8210116731517509727626459144",
+            "denominator": 257,
+            "numerator": 9977
+          },
+          "median": {
+            "decimal": "38",
+            "denominator": 1,
+            "numerator": 38
+          },
+          "minimum": 13,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "10.3821469288391317463209326577",
+          "population_variance": {
+            "decimal": "107.788974852003815349210434677",
+            "denominator": 66049,
+            "numerator": 7119354
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 13,
+            "q10": 24,
+            "q100": 66,
+            "q25": 32,
+            "q50": 38,
+            "q75": 46,
+            "q90": 53
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.295719844357976653696498054475",
+          "denominator": 257,
+          "numerator": -76
+        },
+        "target_minus_control_median": {
+          "decimal": "0",
+          "denominator": 1,
+          "numerator": 0
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 122,
+        "zero_count": 16
+      },
+      "leave_anchor_out": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 5,
+            "30": 57,
+            "40": 142
+          },
+          "mean": {
+            "decimal": "39.1484375",
+            "denominator": 128,
+            "numerator": 5011
+          },
+          "median": {
+            "decimal": "39",
+            "denominator": 1,
+            "numerator": 39
+          },
+          "minimum": 18,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "10.2011716880265156137228663474",
+          "population_variance": {
+            "decimal": "104.06390380859375",
+            "denominator": 16384,
+            "numerator": 1704983
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 18,
+            "q10": 26,
+            "q100": 69,
+            "q25": 31,
+            "q50": 39,
+            "q75": 46,
+            "q90": 53
+          }
+        },
+        "negative_count": 121,
+        "point_count": 256,
+        "positive_count": 119,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 4,
+            "30": 57,
+            "40": 144
+          },
+          "mean": {
+            "decimal": "38.921875",
+            "denominator": 64,
+            "numerator": 2491
+          },
+          "median": {
+            "decimal": "38",
+            "denominator": 1,
+            "numerator": 38
+          },
+          "minimum": 16,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "10.2759651120649003495758359259",
+          "population_variance": {
+            "decimal": "105.595458984375",
+            "denominator": 4096,
+            "numerator": 432519
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 16,
+            "q10": 24,
+            "q100": 66,
+            "q25": 32,
+            "q50": 38,
+            "q75": 46,
+            "q90": 53
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.2265625",
+          "denominator": 128,
+          "numerator": -29
+        },
+        "target_minus_control_median": {
+          "decimal": "0",
+          "denominator": 1,
+          "numerator": 0
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 121,
+        "zero_count": 16
+      }
+    },
+    {
+      "I_h_size": 144,
+      "control_h": 360,
+      "including_anchor_k0": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 17,
+            "30": 73,
+            "40": 179
+          },
+          "mean": {
+            "decimal": "36.2529182879377431906614785992",
+            "denominator": 257,
+            "numerator": 9317
+          },
+          "median": {
+            "decimal": "35",
+            "denominator": 1,
+            "numerator": 35
+          },
+          "minimum": 15,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "10.2768222297159086871081808002",
+          "population_variance": {
+            "decimal": "105.613075141183061060727641599",
+            "denominator": 66049,
+            "numerator": 6975638
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 15,
+            "q10": 22,
+            "q100": 62,
+            "q25": 30,
+            "q50": 35,
+            "q75": 43,
+            "q90": 51
+          }
+        },
+        "negative_count": 139,
+        "point_count": 257,
+        "positive_count": 102,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 1,
+            "20": 24,
+            "30": 76,
+            "40": 178
+          },
+          "mean": {
+            "decimal": "35.5175097276264591439688715953",
+            "denominator": 257,
+            "numerator": 9128
+          },
+          "median": {
+            "decimal": "35",
+            "denominator": 1,
+            "numerator": 35
+          },
+          "minimum": 9,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "10.3990741892293486398079385392",
+          "population_variance": {
+            "decimal": "108.140743993096034762070583960",
+            "denominator": 66049,
+            "numerator": 7142588
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 9,
+            "q10": 21,
+            "q100": 57,
+            "q25": 28,
+            "q50": 35,
+            "q75": 42,
+            "q90": 50
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.735408560311284046692607003891",
+          "denominator": 257,
+          "numerator": -189
+        },
+        "target_minus_control_median": {
+          "decimal": "-1",
+          "denominator": 1,
+          "numerator": -1
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 139,
+        "zero_count": 16
+      },
+      "leave_anchor_out": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 17,
+            "30": 72,
+            "40": 178
+          },
+          "mean": {
+            "decimal": "36.30859375",
+            "denominator": 256,
+            "numerator": 9295
+          },
+          "median": {
+            "decimal": "35",
+            "denominator": 1,
+            "numerator": 35
+          },
+          "minimum": 15,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "10.2581181825645261718667002876",
+          "population_variance": {
+            "decimal": "105.2289886474609375",
+            "denominator": 65536,
+            "numerator": 6896287
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 15,
+            "q10": 22,
+            "q100": 62,
+            "q25": 30,
+            "q50": 35,
+            "q75": 43,
+            "q90": 51
+          }
+        },
+        "negative_count": 138,
+        "point_count": 256,
+        "positive_count": 102,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 23,
+            "30": 75,
+            "40": 177
+          },
+          "mean": {
+            "decimal": "35.62109375",
+            "denominator": 256,
+            "numerator": 9119
+          },
+          "median": {
+            "decimal": "35",
+            "denominator": 1,
+            "numerator": 35
+          },
+          "minimum": 15,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "10.2861872821619837304442811170",
+          "population_variance": {
+            "decimal": "105.8056488037109375",
+            "denominator": 65536,
+            "numerator": 6934079
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 15,
+            "q10": 21,
+            "q100": 57,
+            "q25": 28,
+            "q50": 35,
+            "q75": 42,
+            "q90": 50
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.6875",
+          "denominator": 16,
+          "numerator": -11
+        },
+        "target_minus_control_median": {
+          "decimal": "-1",
+          "denominator": 1,
+          "numerator": -1
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 138,
+        "zero_count": 16
+      }
+    },
+    {
+      "I_h_size": 137,
+      "control_h": 720,
+      "including_anchor_k0": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 17,
+            "30": 103,
+            "40": 192
+          },
+          "mean": {
+            "decimal": "33.9416342412451361867704280156",
+            "denominator": 257,
+            "numerator": 8723
+          },
+          "median": {
+            "decimal": "34",
+            "denominator": 1,
+            "numerator": 34
+          },
+          "minimum": 11,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "9.35552116760912475381833021811",
+          "population_variance": {
+            "decimal": "87.5257763175824009447531378219",
+            "denominator": 66049,
+            "numerator": 5780990
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 11,
+            "q10": 22,
+            "q100": 57,
+            "q25": 27,
+            "q50": 34,
+            "q75": 41,
+            "q90": 47
+          }
+        },
+        "negative_count": 140,
+        "point_count": 257,
+        "positive_count": 101,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 20,
+            "30": 103,
+            "40": 190
+          },
+          "mean": {
+            "decimal": "33.4863813229571984435797665370",
+            "denominator": 257,
+            "numerator": 8606
+          },
+          "median": {
+            "decimal": "33",
+            "denominator": 1,
+            "numerator": 33
+          },
+          "minimum": 12,
+          "point_count": 257,
+          "population_standard_deviation_decimal": "9.65034672763327290056059052558",
+          "population_variance": {
+            "decimal": "93.1291919635422186558464170540",
+            "denominator": 66049,
+            "numerator": 6151090
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 12,
+            "q10": 21,
+            "q100": 56,
+            "q25": 26,
+            "q50": 33,
+            "q75": 41,
+            "q90": 47
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.455252918287937743190661478599",
+          "denominator": 257,
+          "numerator": -117
+        },
+        "target_minus_control_median": {
+          "decimal": "-1",
+          "denominator": 1,
+          "numerator": -1
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 140,
+        "zero_count": 16
+      },
+      "leave_anchor_out": {
+        "control": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 17,
+            "30": 102,
+            "40": 191
+          },
+          "mean": {
+            "decimal": "33.98828125",
+            "denominator": 256,
+            "numerator": 8701
+          },
+          "median": {
+            "decimal": "34",
+            "denominator": 1,
+            "numerator": 34
+          },
+          "minimum": 11,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "9.34389942266602297678051854968",
+          "population_variance": {
+            "decimal": "87.3084564208984375",
+            "denominator": 65536,
+            "numerator": 5721847
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 11,
+            "q10": 22,
+            "q100": 57,
+            "q25": 27,
+            "q50": 34,
+            "q75": 41,
+            "q90": 47
+          }
+        },
+        "negative_count": 139,
+        "point_count": 256,
+        "positive_count": 101,
+        "target": {
+          "fixed_threshold_counts_le": {
+            "10": 0,
+            "20": 19,
+            "30": 102,
+            "40": 189
+          },
+          "mean": {
+            "decimal": "33.5703125",
+            "denominator": 128,
+            "numerator": 4297
+          },
+          "median": {
+            "decimal": "33",
+            "denominator": 1,
+            "numerator": 33
+          },
+          "minimum": 13,
+          "point_count": 256,
+          "population_standard_deviation_decimal": "9.57510084293339179033623694998",
+          "population_variance": {
+            "decimal": "91.68255615234375",
+            "denominator": 16384,
+            "numerator": 1502127
+          },
+          "quantiles_inverse_ecdf": {
+            "q00": 13,
+            "q10": 21,
+            "q100": 56,
+            "q25": 26,
+            "q50": 33,
+            "q75": 41,
+            "q90": 47
+          }
+        },
+        "target_minus_control_mean": {
+          "decimal": "-0.41796875",
+          "denominator": 256,
+          "numerator": -107
+        },
+        "target_minus_control_median": {
+          "decimal": "-1",
+          "denominator": 1,
+          "numerator": -1
+        },
+        "target_tied_minimum_count": 16,
+        "target_unique_minimum_count": 139,
+        "zero_count": 16
+      }
+    }
+  ],
+  "panel": {
+    "active_pair_count": 407,
+    "all_fields_match_committed_K4_artifacts": true,
+    "h_values": [
+      -720,
+      -360,
+      0,
+      360,
+      720
+    ],
+    "k_interval": [
+      -128,
+      128
+    ],
+    "point_count": 1285,
+    "unique_integer_count": 1285
+  },
+  "persistent_covered_sets": {
+    "-360": {
+      "covered": 182,
+      "covered_pair_winner_count": 0,
+      "uncovered": 225
+    },
+    "-720": {
+      "covered": 214,
+      "covered_pair_winner_count": 0,
+      "uncovered": 193
+    },
+    "0": {
+      "covered": 216,
+      "covered_pair_winner_count": 0,
+      "uncovered": 191
+    },
+    "360": {
+      "covered": 198,
+      "covered_pair_winner_count": 0,
+      "uncovered": 209
+    },
+    "720": {
+      "covered": 209,
+      "covered_pair_winner_count": 0,
+      "uncovered": 198
+    }
+  },
+  "protected_baseline_and_prior_pilot_hashes": {
+    "all_byte_identical": true,
+    "baseline_manifest_file_count": 86,
+    "baseline_manifest_sha256": "4660e3e9c0757cc4c13ead7e683f84f17b00ef1e5c25fbdf25397d93f6153cb2",
+    "mismatch_count": 0,
+    "prior_k4_file_count": 10,
+    "prior_k4_manifest_sha256": "91a70d8ecc09792e23115d72351bf94c11646e6391a984a238d9b4429376f2b9"
+  },
+  "schema": "a303656-k4-survivor-incidence-verification-report-v1",
+  "status": "PASS",
+  "target_leave_anchor_out_residual_survival_analysis": {
+    "h": 0,
+    "high_survival_pair_counts": {
+      "ge_10_percent": 191,
+      "ge_25_percent": 96,
+      "ge_50_percent": 0,
+      "ge_75_percent": 0
+    },
+    "k_scope": "leave_anchor_k0_out",
+    "never_winning_uncovered_pairs": 0,
+    "pair_survival_count_histogram": {
+      "41": 1,
+      "42": 1,
+      "44": 1,
+      "45": 5,
+      "47": 2,
+      "48": 1,
+      "49": 3,
+      "50": 5,
+      "51": 3,
+      "52": 1,
+      "53": 4,
+      "54": 3,
+      "55": 4,
+      "56": 2,
+      "57": 4,
+      "58": 7,
+      "59": 8,
+      "60": 10,
+      "61": 7,
+      "62": 11,
+      "63": 12,
+      "64": 8,
+      "65": 11,
+      "66": 13,
+      "67": 10,
+      "68": 8,
+      "69": 7,
+      "70": 13,
+      "71": 7,
+      "72": 5,
+      "73": 6,
+      "74": 4,
+      "75": 3,
+      "79": 1
+    },
+    "persistent_covered_pair_count": 216,
+    "point_count": 256,
+    "residual_survival_rate": {
+      "decimal": "0.244600785340314136125654450262",
+      "denominator": 6112,
+      "numerator": 1495
+    },
+    "total_possible_uncovered_incidences": 48896,
+    "total_winner_incidences": 11960,
+    "uncovered_pair_count": 191,
+    "wins_every_k_uncovered_pairs": 0
+  },
+  "unresolved_risks": [
+    "The panel is finite and preselected; no result is a global theorem or statistical-significance claim.",
+    "Direct-oracle completeness is checked on the predeclared 73-point panel, while full-panel masks rely on the two independent factorization cores."
+  ]
+}

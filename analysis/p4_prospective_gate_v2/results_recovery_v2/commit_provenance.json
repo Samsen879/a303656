@@ -1,0 +1,16 @@
+{
+  "initial_HEAD": "339df087171809610a297a733bedcb0ec98694bc",
+  "initial_parent": "db003ac88ff74d6423a9c1e8c215d0222cd53283",
+  "SOURCE_Y_tip": "7b3d981199f1d0a560202f4f942b0eef913d97cd",
+  "SOURCE_Y_commits": [
+    "aa63d32e80d50bf6eb362c3809ac93b86f563235",
+    "9b39039",
+    "7b3d981"
+  ],
+  "RESULTS_Z": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "W": "db003ac88ff74d6423a9c1e8c215d0222cd53283",
+  "X": "339df087171809610a297a733bedcb0ec98694bc",
+  "detached_replay": "BYTE_IDENTICAL",
+  "worktree_initially_clean": false,
+  "preexisting_untracked_preserved": true
+}

@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=dpkg-deb -x /tmp/libgmp-dev_2%3a6.3.0+dfsg-2ubuntu6_amd64.deb /tmp/a303656_gmp_tn_20260713 
+started_utc=2026-07-13T08:47:18Z
+finished_utc=2026-07-13T08:47:18Z

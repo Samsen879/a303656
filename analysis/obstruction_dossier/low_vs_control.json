@@ -1,0 +1,3844 @@
+{
+  "classification": "COMPUTATIONAL OBSERVATION ON SELECTED FIXTURES",
+  "comparisons": [
+    {
+      "control_n": 240000002114,
+      "low_tail": {
+        "T": 16,
+        "T_over_active_pair_count": {
+          "decimal": "0.039312039312039",
+          "denominator": 407,
+          "numerator": 16
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 348,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.427109974424552",
+            "denominator": 391,
+            "numerator": 167
+          },
+          "covered_losing_pairs": 167,
+          "prime": 3
+        },
+        "n": 240000005594,
+        "obstruction_signature_diversity": 319,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.427109974424552",
+              "denominator": 391,
+              "numerator": 167
+            },
+            "covered_losing_pairs": 167,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.524296675191816",
+              "denominator": 391,
+              "numerator": 205
+            },
+            "covered_losing_pairs": 205,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.601023017902813",
+              "denominator": 391,
+              "numerator": 235
+            },
+            "covered_losing_pairs": 235,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              23
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.675191815856777",
+              "denominator": 391,
+              "numerator": 264
+            },
+            "covered_losing_pairs": 264,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              23,
+              19,
+              31,
+              47,
+              83
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.713554987212276",
+              "denominator": 391,
+              "numerator": 279
+            },
+            "covered_losing_pairs": 279,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              23,
+              19,
+              31,
+              47,
+              83,
+              43,
+              59,
+              71,
+              67,
+              79,
+              103,
+              107,
+              131
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 1
+          },
+          {
+            "c": 1,
+            "frequency": 1
+          },
+          {
+            "c": 4,
+            "frequency": 2
+          },
+          {
+            "c": 6,
+            "frequency": 1
+          },
+          {
+            "c": 8,
+            "frequency": 1
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 14,
+            "frequency": 2
+          },
+          {
+            "c": 15,
+            "frequency": 1
+          },
+          {
+            "c": 16,
+            "frequency": 2
+          },
+          {
+            "c": 18,
+            "frequency": 2
+          },
+          {
+            "c": 20,
+            "frequency": 1
+          },
+          {
+            "c": 21,
+            "frequency": 1
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 2,
+            "frequency": 2
+          },
+          {
+            "d": 4,
+            "frequency": 2
+          },
+          {
+            "d": 5,
+            "frequency": 3
+          },
+          {
+            "d": 6,
+            "frequency": 3
+          },
+          {
+            "d": 10,
+            "frequency": 2
+          },
+          {
+            "d": 12,
+            "frequency": 1
+          },
+          {
+            "d": 14,
+            "frequency": 1
+          },
+          {
+            "d": 15,
+            "frequency": 1
+          },
+          {
+            "d": 16,
+            "frequency": 1
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 1354
+          },
+          {
+            "frequency": 1,
+            "shift": 3206
+          },
+          {
+            "frequency": 1,
+            "shift": 15626
+          },
+          {
+            "frequency": 1,
+            "shift": 531466
+          },
+          {
+            "frequency": 1,
+            "shift": 9772186
+          },
+          {
+            "frequency": 1,
+            "shift": 14352032
+          },
+          {
+            "frequency": 1,
+            "shift": 14548594
+          },
+          {
+            "frequency": 1,
+            "shift": 43046746
+          },
+          {
+            "frequency": 1,
+            "shift": 287187346
+          },
+          {
+            "frequency": 1,
+            "shift": 387421114
+          },
+          {
+            "frequency": 1,
+            "shift": 387436114
+          },
+          {
+            "frequency": 1,
+            "shift": 3486800026
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515706
+          },
+          {
+            "frequency": 1,
+            "shift": 10460356328
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578128
+          },
+          {
+            "frequency": 1,
+            "shift": 152592673594
+          }
+        ]
+      },
+      "low_tail_n": 240000005594,
+      "matched_control": {
+        "T": 50,
+        "T_over_active_pair_count": {
+          "decimal": "0.122850122850123",
+          "denominator": 407,
+          "numerator": 50
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 312,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.350140056022409",
+            "denominator": 357,
+            "numerator": 125
+          },
+          "covered_losing_pairs": 125,
+          "prime": 3
+        },
+        "n": 240000002114,
+        "obstruction_signature_diversity": 312,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.350140056022409",
+              "denominator": 357,
+              "numerator": 125
+            },
+            "covered_losing_pairs": 125,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.431372549019608",
+              "denominator": 357,
+              "numerator": 154
+            },
+            "covered_losing_pairs": 154,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.529411764705882",
+              "denominator": 357,
+              "numerator": 189
+            },
+            "covered_losing_pairs": 189,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.599439775910364",
+              "denominator": 357,
+              "numerator": 214
+            },
+            "covered_losing_pairs": 214,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.647058823529412",
+              "denominator": 357,
+              "numerator": 231
+            },
+            "covered_losing_pairs": 231,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47,
+              79,
+              139,
+              67,
+              107,
+              71,
+              131,
+              151,
+              179
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 1
+          },
+          {
+            "c": 2,
+            "frequency": 4
+          },
+          {
+            "c": 4,
+            "frequency": 2
+          },
+          {
+            "c": 5,
+            "frequency": 1
+          },
+          {
+            "c": 6,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 1
+          },
+          {
+            "c": 8,
+            "frequency": 3
+          },
+          {
+            "c": 9,
+            "frequency": 2
+          },
+          {
+            "c": 10,
+            "frequency": 3
+          },
+          {
+            "c": 11,
+            "frequency": 3
+          },
+          {
+            "c": 12,
+            "frequency": 3
+          },
+          {
+            "c": 13,
+            "frequency": 1
+          },
+          {
+            "c": 14,
+            "frequency": 4
+          },
+          {
+            "c": 15,
+            "frequency": 2
+          },
+          {
+            "c": 16,
+            "frequency": 2
+          },
+          {
+            "c": 17,
+            "frequency": 2
+          },
+          {
+            "c": 18,
+            "frequency": 2
+          },
+          {
+            "c": 19,
+            "frequency": 3
+          },
+          {
+            "c": 20,
+            "frequency": 2
+          },
+          {
+            "c": 21,
+            "frequency": 3
+          },
+          {
+            "c": 22,
+            "frequency": 4
+          },
+          {
+            "c": 23,
+            "frequency": 1
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 2
+          },
+          {
+            "d": 1,
+            "frequency": 11
+          },
+          {
+            "d": 2,
+            "frequency": 2
+          },
+          {
+            "d": 4,
+            "frequency": 2
+          },
+          {
+            "d": 6,
+            "frequency": 1
+          },
+          {
+            "d": 7,
+            "frequency": 9
+          },
+          {
+            "d": 8,
+            "frequency": 4
+          },
+          {
+            "d": 10,
+            "frequency": 3
+          },
+          {
+            "d": 12,
+            "frequency": 3
+          },
+          {
+            "d": 13,
+            "frequency": 8
+          },
+          {
+            "d": 14,
+            "frequency": 2
+          },
+          {
+            "d": 16,
+            "frequency": 3
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 248
+          },
+          {
+            "frequency": 1,
+            "shift": 2192
+          },
+          {
+            "frequency": 1,
+            "shift": 6562
+          },
+          {
+            "frequency": 1,
+            "shift": 59054
+          },
+          {
+            "frequency": 1,
+            "shift": 59674
+          },
+          {
+            "frequency": 1,
+            "shift": 78206
+          },
+          {
+            "frequency": 1,
+            "shift": 84686
+          },
+          {
+            "frequency": 1,
+            "shift": 97808
+          },
+          {
+            "frequency": 1,
+            "shift": 177152
+          },
+          {
+            "frequency": 1,
+            "shift": 255272
+          },
+          {
+            "frequency": 1,
+            "shift": 609566
+          },
+          {
+            "frequency": 1,
+            "shift": 1672448
+          },
+          {
+            "frequency": 1,
+            "shift": 4782970
+          },
+          {
+            "frequency": 1,
+            "shift": 4782974
+          },
+          {
+            "frequency": 1,
+            "shift": 5173594
+          },
+          {
+            "frequency": 1,
+            "shift": 9765634
+          },
+          {
+            "frequency": 1,
+            "shift": 9824674
+          },
+          {
+            "frequency": 1,
+            "shift": 14348912
+          },
+          {
+            "frequency": 1,
+            "shift": 14548594
+          },
+          {
+            "frequency": 1,
+            "shift": 43046746
+          },
+          {
+            "frequency": 1,
+            "shift": 43437346
+          },
+          {
+            "frequency": 1,
+            "shift": 129140168
+          },
+          {
+            "frequency": 1,
+            "shift": 129218288
+          },
+          {
+            "frequency": 1,
+            "shift": 244140634
+          },
+          {
+            "frequency": 1,
+            "shift": 244147186
+          },
+          {
+            "frequency": 1,
+            "shift": 244672066
+          },
+          {
+            "frequency": 1,
+            "shift": 387421114
+          },
+          {
+            "frequency": 1,
+            "shift": 1162261472
+          },
+          {
+            "frequency": 1,
+            "shift": 1162339592
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703134
+          },
+          {
+            "frequency": 1,
+            "shift": 1220722808
+          },
+          {
+            "frequency": 1,
+            "shift": 1220880272
+          },
+          {
+            "frequency": 1,
+            "shift": 1235052032
+          },
+          {
+            "frequency": 1,
+            "shift": 1608123614
+          },
+          {
+            "frequency": 1,
+            "shift": 2382964592
+          },
+          {
+            "frequency": 1,
+            "shift": 3486800026
+          },
+          {
+            "frequency": 1,
+            "shift": 3487175026
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515634
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515706
+          },
+          {
+            "frequency": 1,
+            "shift": 10460353208
+          },
+          {
+            "frequency": 1,
+            "shift": 10460431328
+          },
+          {
+            "frequency": 1,
+            "shift": 11681056328
+          },
+          {
+            "frequency": 1,
+            "shift": 31381059614
+          },
+          {
+            "frequency": 1,
+            "shift": 31381059634
+          },
+          {
+            "frequency": 1,
+            "shift": 31381450234
+          },
+          {
+            "frequency": 1,
+            "shift": 32601762734
+          },
+          {
+            "frequency": 1,
+            "shift": 94143178832
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890626
+          },
+          {
+            "frequency": 1,
+            "shift": 152587891354
+          },
+          {
+            "frequency": 1,
+            "shift": 152588422066
+          }
+        ]
+      },
+      "scalar_differences_control_minus_low": {
+        "T": 34,
+        "active_pair_count": 0,
+        "distinct_obstruction_prime_count": -36,
+        "obstruction_signature_diversity": -7
+      },
+      "selection_key": [
+        10,
+        3480,
+        240000002114
+      ]
+    },
+    {
+      "control_n": 240000003122,
+      "low_tail": {
+        "T": 18,
+        "T_over_active_pair_count": {
+          "decimal": "0.044226044226044",
+          "denominator": 407,
+          "numerator": 18
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 345,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.426735218508997",
+            "denominator": 389,
+            "numerator": 166
+          },
+          "covered_losing_pairs": 166,
+          "prime": 3
+        },
+        "n": 240000004802,
+        "obstruction_signature_diversity": 332,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.426735218508997",
+              "denominator": 389,
+              "numerator": 166
+            },
+            "covered_losing_pairs": 166,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.511568123393316",
+              "denominator": 389,
+              "numerator": 199
+            },
+            "covered_losing_pairs": 199,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.611825192802057",
+              "denominator": 389,
+              "numerator": 238
+            },
+            "covered_losing_pairs": 238,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.670951156812339",
+              "denominator": 389,
+              "numerator": 261
+            },
+            "covered_losing_pairs": 261,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.712082262210797",
+              "denominator": 389,
+              "numerator": 277
+            },
+            "covered_losing_pairs": 277,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47,
+              71,
+              67,
+              59,
+              79,
+              83,
+              163,
+              103,
+              127
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 1
+          },
+          {
+            "c": 1,
+            "frequency": 2
+          },
+          {
+            "c": 2,
+            "frequency": 2
+          },
+          {
+            "c": 4,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 1
+          },
+          {
+            "c": 8,
+            "frequency": 1
+          },
+          {
+            "c": 9,
+            "frequency": 1
+          },
+          {
+            "c": 10,
+            "frequency": 1
+          },
+          {
+            "c": 12,
+            "frequency": 2
+          },
+          {
+            "c": 13,
+            "frequency": 1
+          },
+          {
+            "c": 16,
+            "frequency": 3
+          },
+          {
+            "c": 20,
+            "frequency": 2
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 2,
+            "frequency": 1
+          },
+          {
+            "d": 4,
+            "frequency": 2
+          },
+          {
+            "d": 8,
+            "frequency": 1
+          },
+          {
+            "d": 9,
+            "frequency": 1
+          },
+          {
+            "d": 10,
+            "frequency": 1
+          },
+          {
+            "d": 11,
+            "frequency": 6
+          },
+          {
+            "d": 12,
+            "frequency": 2
+          },
+          {
+            "d": 14,
+            "frequency": 3
+          },
+          {
+            "d": 15,
+            "frequency": 1
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 59674
+          },
+          {
+            "frequency": 1,
+            "shift": 397186
+          },
+          {
+            "frequency": 1,
+            "shift": 1953128
+          },
+          {
+            "frequency": 1,
+            "shift": 43046746
+          },
+          {
+            "frequency": 1,
+            "shift": 43047346
+          },
+          {
+            "frequency": 1,
+            "shift": 48828126
+          },
+          {
+            "frequency": 1,
+            "shift": 48830312
+          },
+          {
+            "frequency": 1,
+            "shift": 48847808
+          },
+          {
+            "frequency": 1,
+            "shift": 49359566
+          },
+          {
+            "frequency": 1,
+            "shift": 50422448
+          },
+          {
+            "frequency": 1,
+            "shift": 52812346
+          },
+          {
+            "frequency": 1,
+            "shift": 244140634
+          },
+          {
+            "frequency": 1,
+            "shift": 244672066
+          },
+          {
+            "frequency": 1,
+            "shift": 3535612526
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515634
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515706
+          },
+          {
+            "frequency": 1,
+            "shift": 9590300026
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578128
+          }
+        ]
+      },
+      "low_tail_n": 240000004802,
+      "matched_control": {
+        "T": 53,
+        "T_over_active_pair_count": {
+          "decimal": "0.130221130221130",
+          "denominator": 407,
+          "numerator": 53
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 328,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.353107344632768",
+            "denominator": 354,
+            "numerator": 125
+          },
+          "covered_losing_pairs": 125,
+          "prime": 3
+        },
+        "n": 240000003122,
+        "obstruction_signature_diversity": 310,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.353107344632768",
+              "denominator": 354,
+              "numerator": 125
+            },
+            "covered_losing_pairs": 125,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.432203389830508",
+              "denominator": 354,
+              "numerator": 153
+            },
+            "covered_losing_pairs": 153,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.514124293785311",
+              "denominator": 354,
+              "numerator": 182
+            },
+            "covered_losing_pairs": 182,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.579096045197740",
+              "denominator": 354,
+              "numerator": 205
+            },
+            "covered_losing_pairs": 205,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              71,
+              59
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.641242937853107",
+              "denominator": 354,
+              "numerator": 227
+            },
+            "covered_losing_pairs": 227,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              71,
+              59,
+              47,
+              83,
+              103,
+              127,
+              139,
+              79,
+              131,
+              251
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 2
+          },
+          {
+            "c": 2,
+            "frequency": 3
+          },
+          {
+            "c": 3,
+            "frequency": 1
+          },
+          {
+            "c": 4,
+            "frequency": 4
+          },
+          {
+            "c": 5,
+            "frequency": 2
+          },
+          {
+            "c": 6,
+            "frequency": 5
+          },
+          {
+            "c": 7,
+            "frequency": 3
+          },
+          {
+            "c": 8,
+            "frequency": 2
+          },
+          {
+            "c": 9,
+            "frequency": 1
+          },
+          {
+            "c": 10,
+            "frequency": 3
+          },
+          {
+            "c": 12,
+            "frequency": 2
+          },
+          {
+            "c": 13,
+            "frequency": 2
+          },
+          {
+            "c": 14,
+            "frequency": 3
+          },
+          {
+            "c": 15,
+            "frequency": 2
+          },
+          {
+            "c": 16,
+            "frequency": 4
+          },
+          {
+            "c": 18,
+            "frequency": 2
+          },
+          {
+            "c": 19,
+            "frequency": 1
+          },
+          {
+            "c": 20,
+            "frequency": 4
+          },
+          {
+            "c": 21,
+            "frequency": 1
+          },
+          {
+            "c": 22,
+            "frequency": 4
+          },
+          {
+            "c": 23,
+            "frequency": 2
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 2
+          },
+          {
+            "d": 1,
+            "frequency": 10
+          },
+          {
+            "d": 2,
+            "frequency": 4
+          },
+          {
+            "d": 4,
+            "frequency": 3
+          },
+          {
+            "d": 6,
+            "frequency": 3
+          },
+          {
+            "d": 7,
+            "frequency": 11
+          },
+          {
+            "d": 8,
+            "frequency": 1
+          },
+          {
+            "d": 10,
+            "frequency": 3
+          },
+          {
+            "d": 12,
+            "frequency": 2
+          },
+          {
+            "d": 13,
+            "frequency": 7
+          },
+          {
+            "d": 14,
+            "frequency": 3
+          },
+          {
+            "d": 15,
+            "frequency": 1
+          },
+          {
+            "d": 16,
+            "frequency": 3
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 34
+          },
+          {
+            "frequency": 1,
+            "shift": 106
+          },
+          {
+            "frequency": 1,
+            "shift": 248
+          },
+          {
+            "frequency": 1,
+            "shift": 734
+          },
+          {
+            "frequency": 1,
+            "shift": 1354
+          },
+          {
+            "frequency": 1,
+            "shift": 2192
+          },
+          {
+            "frequency": 1,
+            "shift": 15634
+          },
+          {
+            "frequency": 1,
+            "shift": 16354
+          },
+          {
+            "frequency": 1,
+            "shift": 59054
+          },
+          {
+            "frequency": 1,
+            "shift": 78126
+          },
+          {
+            "frequency": 1,
+            "shift": 78206
+          },
+          {
+            "frequency": 1,
+            "shift": 78368
+          },
+          {
+            "frequency": 1,
+            "shift": 80312
+          },
+          {
+            "frequency": 1,
+            "shift": 97808
+          },
+          {
+            "frequency": 1,
+            "shift": 531442
+          },
+          {
+            "frequency": 1,
+            "shift": 1594328
+          },
+          {
+            "frequency": 1,
+            "shift": 1672448
+          },
+          {
+            "frequency": 1,
+            "shift": 4782974
+          },
+          {
+            "frequency": 1,
+            "shift": 4783594
+          },
+          {
+            "frequency": 1,
+            "shift": 10297066
+          },
+          {
+            "frequency": 1,
+            "shift": 14348912
+          },
+          {
+            "frequency": 1,
+            "shift": 14427032
+          },
+          {
+            "frequency": 1,
+            "shift": 43062346
+          },
+          {
+            "frequency": 1,
+            "shift": 43124846
+          },
+          {
+            "frequency": 1,
+            "shift": 43437346
+          },
+          {
+            "frequency": 1,
+            "shift": 244140706
+          },
+          {
+            "frequency": 1,
+            "shift": 244141354
+          },
+          {
+            "frequency": 1,
+            "shift": 387420494
+          },
+          {
+            "frequency": 1,
+            "shift": 1162261472
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703152
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703854
+          },
+          {
+            "frequency": 1,
+            "shift": 1220705312
+          },
+          {
+            "frequency": 1,
+            "shift": 1220762174
+          },
+          {
+            "frequency": 1,
+            "shift": 1225486094
+          },
+          {
+            "frequency": 1,
+            "shift": 1608123614
+          },
+          {
+            "frequency": 1,
+            "shift": 3486784402
+          },
+          {
+            "frequency": 1,
+            "shift": 3486784426
+          },
+          {
+            "frequency": 1,
+            "shift": 3486862526
+          },
+          {
+            "frequency": 1,
+            "shift": 3496550026
+          },
+          {
+            "frequency": 1,
+            "shift": 6103522186
+          },
+          {
+            "frequency": 1,
+            "shift": 6103574674
+          },
+          {
+            "frequency": 1,
+            "shift": 6146562346
+          },
+          {
+            "frequency": 1,
+            "shift": 10460431328
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578126
+          },
+          {
+            "frequency": 1,
+            "shift": 31381059634
+          },
+          {
+            "frequency": 1,
+            "shift": 31381060234
+          },
+          {
+            "frequency": 1,
+            "shift": 31390825234
+          },
+          {
+            "frequency": 1,
+            "shift": 32601762734
+          },
+          {
+            "frequency": 1,
+            "shift": 94143178832
+          },
+          {
+            "frequency": 1,
+            "shift": 94143256952
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890634
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890706
+          },
+          {
+            "frequency": 1,
+            "shift": 152587897186
+          }
+        ]
+      },
+      "scalar_differences_control_minus_low": {
+        "T": 35,
+        "active_pair_count": 0,
+        "distinct_obstruction_prime_count": -17,
+        "obstruction_signature_diversity": -22
+      },
+      "selection_key": [
+        7,
+        1680,
+        240000003122
+      ]
+    },
+    {
+      "control_n": 240000048838,
+      "low_tail": {
+        "T": 19,
+        "T_over_active_pair_count": {
+          "decimal": "0.046683046683047",
+          "denominator": 407,
+          "numerator": 19
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 324,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.407216494845361",
+            "denominator": 388,
+            "numerator": 158
+          },
+          "covered_losing_pairs": 158,
+          "prime": 3
+        },
+        "n": 240000044158,
+        "obstruction_signature_diversity": 312,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.407216494845361",
+              "denominator": 388,
+              "numerator": 158
+            },
+            "covered_losing_pairs": 158,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.505154639175258",
+              "denominator": 388,
+              "numerator": 196
+            },
+            "covered_losing_pairs": 196,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.605670103092784",
+              "denominator": 388,
+              "numerator": 235
+            },
+            "covered_losing_pairs": 235,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.677835051546392",
+              "denominator": 388,
+              "numerator": 263
+            },
+            "covered_losing_pairs": 263,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.716494845360825",
+              "denominator": 388,
+              "numerator": 278
+            },
+            "covered_losing_pairs": 278,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              43,
+              47,
+              71,
+              67,
+              79,
+              83,
+              223,
+              59,
+              103,
+              367
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 2
+          },
+          {
+            "c": 2,
+            "frequency": 1
+          },
+          {
+            "c": 4,
+            "frequency": 3
+          },
+          {
+            "c": 8,
+            "frequency": 1
+          },
+          {
+            "c": 10,
+            "frequency": 1
+          },
+          {
+            "c": 11,
+            "frequency": 1
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 13,
+            "frequency": 1
+          },
+          {
+            "c": 14,
+            "frequency": 3
+          },
+          {
+            "c": 17,
+            "frequency": 1
+          },
+          {
+            "c": 18,
+            "frequency": 1
+          },
+          {
+            "c": 19,
+            "frequency": 1
+          },
+          {
+            "c": 21,
+            "frequency": 1
+          },
+          {
+            "c": 22,
+            "frequency": 1
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 2
+          },
+          {
+            "d": 1,
+            "frequency": 1
+          },
+          {
+            "d": 2,
+            "frequency": 1
+          },
+          {
+            "d": 3,
+            "frequency": 1
+          },
+          {
+            "d": 5,
+            "frequency": 2
+          },
+          {
+            "d": 6,
+            "frequency": 6
+          },
+          {
+            "d": 7,
+            "frequency": 1
+          },
+          {
+            "d": 9,
+            "frequency": 2
+          },
+          {
+            "d": 11,
+            "frequency": 1
+          },
+          {
+            "d": 13,
+            "frequency": 2
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 26
+          },
+          {
+            "frequency": 1,
+            "shift": 86
+          },
+          {
+            "frequency": 1,
+            "shift": 3134
+          },
+          {
+            "frequency": 1,
+            "shift": 15706
+          },
+          {
+            "frequency": 1,
+            "shift": 192772
+          },
+          {
+            "frequency": 1,
+            "shift": 547066
+          },
+          {
+            "frequency": 1,
+            "shift": 1609948
+          },
+          {
+            "frequency": 1,
+            "shift": 1953206
+          },
+          {
+            "frequency": 1,
+            "shift": 4782970
+          },
+          {
+            "frequency": 1,
+            "shift": 4786094
+          },
+          {
+            "frequency": 1,
+            "shift": 6736094
+          },
+          {
+            "frequency": 1,
+            "shift": 48834686
+          },
+          {
+            "frequency": 1,
+            "shift": 129155788
+          },
+          {
+            "frequency": 1,
+            "shift": 387498614
+          },
+          {
+            "frequency": 1,
+            "shift": 1162261468
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703126
+          },
+          {
+            "frequency": 1,
+            "shift": 1220762174
+          },
+          {
+            "frequency": 1,
+            "shift": 10460368828
+          },
+          {
+            "frequency": 1,
+            "shift": 31381059734
+          }
+        ]
+      },
+      "low_tail_n": 240000044158,
+      "matched_control": {
+        "T": 55,
+        "T_over_active_pair_count": {
+          "decimal": "0.135135135135135",
+          "denominator": 407,
+          "numerator": 55
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 317,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.394886363636364",
+            "denominator": 352,
+            "numerator": 139
+          },
+          "covered_losing_pairs": 139,
+          "prime": 3
+        },
+        "n": 240000048838,
+        "obstruction_signature_diversity": 294,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.394886363636364",
+              "denominator": 352,
+              "numerator": 139
+            },
+            "covered_losing_pairs": 139,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.491477272727273",
+              "denominator": 352,
+              "numerator": 173
+            },
+            "covered_losing_pairs": 173,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.548295454545455",
+              "denominator": 352,
+              "numerator": 193
+            },
+            "covered_losing_pairs": 193,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.610795454545455",
+              "denominator": 352,
+              "numerator": 215
+            },
+            "covered_losing_pairs": 215,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              47,
+              79
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.653409090909091",
+              "denominator": 352,
+              "numerator": 230
+            },
+            "covered_losing_pairs": 230,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              47,
+              79,
+              59,
+              67,
+              83,
+              127,
+              131,
+              151,
+              199,
+              263
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 5
+          },
+          {
+            "c": 1,
+            "frequency": 2
+          },
+          {
+            "c": 2,
+            "frequency": 3
+          },
+          {
+            "c": 3,
+            "frequency": 2
+          },
+          {
+            "c": 4,
+            "frequency": 4
+          },
+          {
+            "c": 5,
+            "frequency": 2
+          },
+          {
+            "c": 6,
+            "frequency": 3
+          },
+          {
+            "c": 8,
+            "frequency": 4
+          },
+          {
+            "c": 9,
+            "frequency": 2
+          },
+          {
+            "c": 10,
+            "frequency": 3
+          },
+          {
+            "c": 11,
+            "frequency": 1
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 14,
+            "frequency": 2
+          },
+          {
+            "c": 15,
+            "frequency": 2
+          },
+          {
+            "c": 16,
+            "frequency": 4
+          },
+          {
+            "c": 17,
+            "frequency": 2
+          },
+          {
+            "c": 18,
+            "frequency": 2
+          },
+          {
+            "c": 20,
+            "frequency": 6
+          },
+          {
+            "c": 21,
+            "frequency": 1
+          },
+          {
+            "c": 22,
+            "frequency": 3
+          },
+          {
+            "c": 23,
+            "frequency": 1
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 6
+          },
+          {
+            "d": 1,
+            "frequency": 1
+          },
+          {
+            "d": 2,
+            "frequency": 1
+          },
+          {
+            "d": 3,
+            "frequency": 3
+          },
+          {
+            "d": 4,
+            "frequency": 1
+          },
+          {
+            "d": 5,
+            "frequency": 4
+          },
+          {
+            "d": 6,
+            "frequency": 10
+          },
+          {
+            "d": 7,
+            "frequency": 4
+          },
+          {
+            "d": 8,
+            "frequency": 1
+          },
+          {
+            "d": 9,
+            "frequency": 4
+          },
+          {
+            "d": 11,
+            "frequency": 5
+          },
+          {
+            "d": 12,
+            "frequency": 7
+          },
+          {
+            "d": 13,
+            "frequency": 3
+          },
+          {
+            "d": 14,
+            "frequency": 1
+          },
+          {
+            "d": 15,
+            "frequency": 3
+          },
+          {
+            "d": 16,
+            "frequency": 1
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 2,
+            "shift": 28
+          },
+          {
+            "frequency": 1,
+            "shift": 244
+          },
+          {
+            "frequency": 1,
+            "shift": 626
+          },
+          {
+            "frequency": 1,
+            "shift": 734
+          },
+          {
+            "frequency": 1,
+            "shift": 3134
+          },
+          {
+            "frequency": 1,
+            "shift": 3206
+          },
+          {
+            "frequency": 1,
+            "shift": 6686
+          },
+          {
+            "frequency": 1,
+            "shift": 15634
+          },
+          {
+            "frequency": 1,
+            "shift": 15868
+          },
+          {
+            "frequency": 1,
+            "shift": 16354
+          },
+          {
+            "frequency": 1,
+            "shift": 35308
+          },
+          {
+            "frequency": 1,
+            "shift": 59174
+          },
+          {
+            "frequency": 1,
+            "shift": 62174
+          },
+          {
+            "frequency": 1,
+            "shift": 78206
+          },
+          {
+            "frequency": 1,
+            "shift": 192772
+          },
+          {
+            "frequency": 1,
+            "shift": 390626
+          },
+          {
+            "frequency": 1,
+            "shift": 609566
+          },
+          {
+            "frequency": 1,
+            "shift": 1953206
+          },
+          {
+            "frequency": 1,
+            "shift": 1953854
+          },
+          {
+            "frequency": 1,
+            "shift": 4798594
+          },
+          {
+            "frequency": 1,
+            "shift": 4861094
+          },
+          {
+            "frequency": 1,
+            "shift": 14364532
+          },
+          {
+            "frequency": 1,
+            "shift": 43046722
+          },
+          {
+            "frequency": 1,
+            "shift": 43049846
+          },
+          {
+            "frequency": 1,
+            "shift": 44999846
+          },
+          {
+            "frequency": 1,
+            "shift": 48828126
+          },
+          {
+            "frequency": 1,
+            "shift": 48834686
+          },
+          {
+            "frequency": 1,
+            "shift": 48887174
+          },
+          {
+            "frequency": 1,
+            "shift": 91874846
+          },
+          {
+            "frequency": 1,
+            "shift": 129140164
+          },
+          {
+            "frequency": 1,
+            "shift": 244140626
+          },
+          {
+            "frequency": 1,
+            "shift": 244140652
+          },
+          {
+            "frequency": 1,
+            "shift": 244147186
+          },
+          {
+            "frequency": 1,
+            "shift": 244160308
+          },
+          {
+            "frequency": 1,
+            "shift": 258489532
+          },
+          {
+            "frequency": 1,
+            "shift": 373280788
+          },
+          {
+            "frequency": 1,
+            "shift": 387420614
+          },
+          {
+            "frequency": 1,
+            "shift": 387436114
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703134
+          },
+          {
+            "frequency": 1,
+            "shift": 1220709686
+          },
+          {
+            "frequency": 1,
+            "shift": 3486784402
+          },
+          {
+            "frequency": 1,
+            "shift": 3486862526
+          },
+          {
+            "frequency": 1,
+            "shift": 3488737526
+          },
+          {
+            "frequency": 1,
+            "shift": 3730925026
+          },
+          {
+            "frequency": 1,
+            "shift": 4707487526
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515628
+          },
+          {
+            "frequency": 1,
+            "shift": 10460353204
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578206
+          },
+          {
+            "frequency": 1,
+            "shift": 31381075234
+          },
+          {
+            "frequency": 1,
+            "shift": 31429887734
+          },
+          {
+            "frequency": 1,
+            "shift": 34004362526
+          },
+          {
+            "frequency": 1,
+            "shift": 61898637734
+          },
+          {
+            "frequency": 1,
+            "shift": 94143194452
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890626
+          }
+        ]
+      },
+      "scalar_differences_control_minus_low": {
+        "T": 36,
+        "active_pair_count": 0,
+        "distinct_obstruction_prime_count": -7,
+        "obstruction_signature_diversity": -18
+      },
+      "selection_key": [
+        5,
+        4680,
+        240000048838
+      ]
+    },
+    {
+      "control_n": 240000000728,
+      "low_tail": {
+        "T": 20,
+        "T_over_active_pair_count": {
+          "decimal": "0.049140049140049",
+          "denominator": 407,
+          "numerator": 20
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 343,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.426356589147287",
+            "denominator": 387,
+            "numerator": 165
+          },
+          "covered_losing_pairs": 165,
+          "prime": 3
+        },
+        "n": 240000000968,
+        "obstruction_signature_diversity": 320,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.426356589147287",
+              "denominator": 387,
+              "numerator": 165
+            },
+            "covered_losing_pairs": 165,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.521963824289406",
+              "denominator": 387,
+              "numerator": 202
+            },
+            "covered_losing_pairs": 202,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.589147286821705",
+              "denominator": 387,
+              "numerator": 228
+            },
+            "covered_losing_pairs": 228,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.645994832041344",
+              "denominator": 387,
+              "numerator": 250
+            },
+            "covered_losing_pairs": 250,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              71,
+              47
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.692506459948320",
+              "denominator": 387,
+              "numerator": 268
+            },
+            "covered_losing_pairs": 268,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              71,
+              47,
+              59,
+              43,
+              67,
+              79,
+              127,
+              131,
+              167,
+              83
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 1,
+            "frequency": 2
+          },
+          {
+            "c": 3,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 1
+          },
+          {
+            "c": 8,
+            "frequency": 1
+          },
+          {
+            "c": 9,
+            "frequency": 2
+          },
+          {
+            "c": 10,
+            "frequency": 1
+          },
+          {
+            "c": 11,
+            "frequency": 2
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 13,
+            "frequency": 1
+          },
+          {
+            "c": 15,
+            "frequency": 1
+          },
+          {
+            "c": 17,
+            "frequency": 1
+          },
+          {
+            "c": 19,
+            "frequency": 1
+          },
+          {
+            "c": 20,
+            "frequency": 1
+          },
+          {
+            "c": 21,
+            "frequency": 2
+          },
+          {
+            "c": 23,
+            "frequency": 2
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 1
+          },
+          {
+            "d": 2,
+            "frequency": 2
+          },
+          {
+            "d": 4,
+            "frequency": 1
+          },
+          {
+            "d": 6,
+            "frequency": 2
+          },
+          {
+            "d": 8,
+            "frequency": 3
+          },
+          {
+            "d": 11,
+            "frequency": 6
+          },
+          {
+            "d": 12,
+            "frequency": 1
+          },
+          {
+            "d": 14,
+            "frequency": 2
+          },
+          {
+            "d": 16,
+            "frequency": 2
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 4
+          },
+          {
+            "frequency": 1,
+            "shift": 628
+          },
+          {
+            "frequency": 1,
+            "shift": 17812
+          },
+          {
+            "frequency": 1,
+            "shift": 177172
+          },
+          {
+            "frequency": 1,
+            "shift": 410308
+          },
+          {
+            "frequency": 1,
+            "shift": 14348932
+          },
+          {
+            "frequency": 1,
+            "shift": 48828152
+          },
+          {
+            "frequency": 1,
+            "shift": 48834686
+          },
+          {
+            "frequency": 1,
+            "shift": 48887174
+          },
+          {
+            "frequency": 1,
+            "shift": 49359566
+          },
+          {
+            "frequency": 1,
+            "shift": 129530788
+          },
+          {
+            "frequency": 1,
+            "shift": 244160308
+          },
+          {
+            "frequency": 1,
+            "shift": 1162277092
+          },
+          {
+            "frequency": 1,
+            "shift": 3535612526
+          },
+          {
+            "frequency": 1,
+            "shift": 6103692772
+          },
+          {
+            "frequency": 1,
+            "shift": 10460743828
+          },
+          {
+            "frequency": 1,
+            "shift": 94192006952
+          },
+          {
+            "frequency": 1,
+            "shift": 100246694452
+          },
+          {
+            "frequency": 1,
+            "shift": 152589484948
+          },
+          {
+            "frequency": 1,
+            "shift": 163048243828
+          }
+        ]
+      },
+      "low_tail_n": 240000000968,
+      "matched_control": {
+        "T": 58,
+        "T_over_active_pair_count": {
+          "decimal": "0.142506142506143",
+          "denominator": 407,
+          "numerator": 58
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 325,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.363896848137536",
+            "denominator": 349,
+            "numerator": 127
+          },
+          "covered_losing_pairs": 127,
+          "prime": 3
+        },
+        "n": 240000000728,
+        "obstruction_signature_diversity": 296,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.363896848137536",
+              "denominator": 349,
+              "numerator": 127
+            },
+            "covered_losing_pairs": 127,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.444126074498567",
+              "denominator": 349,
+              "numerator": 155
+            },
+            "covered_losing_pairs": 155,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.541547277936963",
+              "denominator": 349,
+              "numerator": 189
+            },
+            "covered_losing_pairs": 189,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.613180515759312",
+              "denominator": 349,
+              "numerator": 214
+            },
+            "covered_losing_pairs": 214,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              43,
+              31,
+              47
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.670487106017192",
+              "denominator": 349,
+              "numerator": 234
+            },
+            "covered_losing_pairs": 234,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              43,
+              31,
+              47,
+              59,
+              71,
+              79,
+              83,
+              107,
+              163,
+              179,
+              191
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 4
+          },
+          {
+            "c": 2,
+            "frequency": 1
+          },
+          {
+            "c": 3,
+            "frequency": 4
+          },
+          {
+            "c": 4,
+            "frequency": 2
+          },
+          {
+            "c": 5,
+            "frequency": 2
+          },
+          {
+            "c": 6,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 1
+          },
+          {
+            "c": 8,
+            "frequency": 3
+          },
+          {
+            "c": 9,
+            "frequency": 4
+          },
+          {
+            "c": 10,
+            "frequency": 1
+          },
+          {
+            "c": 11,
+            "frequency": 3
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 13,
+            "frequency": 3
+          },
+          {
+            "c": 14,
+            "frequency": 2
+          },
+          {
+            "c": 15,
+            "frequency": 3
+          },
+          {
+            "c": 16,
+            "frequency": 3
+          },
+          {
+            "c": 17,
+            "frequency": 5
+          },
+          {
+            "c": 18,
+            "frequency": 3
+          },
+          {
+            "c": 19,
+            "frequency": 3
+          },
+          {
+            "c": 20,
+            "frequency": 2
+          },
+          {
+            "c": 21,
+            "frequency": 2
+          },
+          {
+            "c": 22,
+            "frequency": 2
+          },
+          {
+            "c": 23,
+            "frequency": 3
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 3
+          },
+          {
+            "d": 1,
+            "frequency": 11
+          },
+          {
+            "d": 2,
+            "frequency": 2
+          },
+          {
+            "d": 6,
+            "frequency": 4
+          },
+          {
+            "d": 7,
+            "frequency": 9
+          },
+          {
+            "d": 8,
+            "frequency": 2
+          },
+          {
+            "d": 9,
+            "frequency": 1
+          },
+          {
+            "d": 10,
+            "frequency": 2
+          },
+          {
+            "d": 11,
+            "frequency": 1
+          },
+          {
+            "d": 12,
+            "frequency": 4
+          },
+          {
+            "d": 13,
+            "frequency": 9
+          },
+          {
+            "d": 14,
+            "frequency": 5
+          },
+          {
+            "d": 15,
+            "frequency": 1
+          },
+          {
+            "d": 16,
+            "frequency": 4
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 6
+          },
+          {
+            "frequency": 1,
+            "shift": 52
+          },
+          {
+            "frequency": 1,
+            "shift": 86
+          },
+          {
+            "frequency": 1,
+            "shift": 244
+          },
+          {
+            "frequency": 1,
+            "shift": 6566
+          },
+          {
+            "frequency": 1,
+            "shift": 15652
+          },
+          {
+            "frequency": 1,
+            "shift": 17812
+          },
+          {
+            "frequency": 1,
+            "shift": 59054
+          },
+          {
+            "frequency": 1,
+            "shift": 78152
+          },
+          {
+            "frequency": 1,
+            "shift": 78206
+          },
+          {
+            "frequency": 1,
+            "shift": 84686
+          },
+          {
+            "frequency": 1,
+            "shift": 97808
+          },
+          {
+            "frequency": 1,
+            "shift": 177172
+          },
+          {
+            "frequency": 1,
+            "shift": 410308
+          },
+          {
+            "frequency": 1,
+            "shift": 1594324
+          },
+          {
+            "frequency": 1,
+            "shift": 1953126
+          },
+          {
+            "frequency": 1,
+            "shift": 1984948
+          },
+          {
+            "frequency": 1,
+            "shift": 4782974
+          },
+          {
+            "frequency": 1,
+            "shift": 4861094
+          },
+          {
+            "frequency": 1,
+            "shift": 14348912
+          },
+          {
+            "frequency": 1,
+            "shift": 24114532
+          },
+          {
+            "frequency": 1,
+            "shift": 43046726
+          },
+          {
+            "frequency": 1,
+            "shift": 43124846
+          },
+          {
+            "frequency": 1,
+            "shift": 48828126
+          },
+          {
+            "frequency": 1,
+            "shift": 129140164
+          },
+          {
+            "frequency": 1,
+            "shift": 129140168
+          },
+          {
+            "frequency": 1,
+            "shift": 129218288
+          },
+          {
+            "frequency": 1,
+            "shift": 244160308
+          },
+          {
+            "frequency": 1,
+            "shift": 245734948
+          },
+          {
+            "frequency": 1,
+            "shift": 373280788
+          },
+          {
+            "frequency": 1,
+            "shift": 387420494
+          },
+          {
+            "frequency": 1,
+            "shift": 387498614
+          },
+          {
+            "frequency": 1,
+            "shift": 1162277092
+          },
+          {
+            "frequency": 1,
+            "shift": 1162339592
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703134
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703854
+          },
+          {
+            "frequency": 1,
+            "shift": 1220709686
+          },
+          {
+            "frequency": 1,
+            "shift": 1220880272
+          },
+          {
+            "frequency": 1,
+            "shift": 1221234566
+          },
+          {
+            "frequency": 1,
+            "shift": 1263749846
+          },
+          {
+            "frequency": 1,
+            "shift": 1608123614
+          },
+          {
+            "frequency": 1,
+            "shift": 3486784406
+          },
+          {
+            "frequency": 1,
+            "shift": 4707487526
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515652
+          },
+          {
+            "frequency": 1,
+            "shift": 6103692772
+          },
+          {
+            "frequency": 1,
+            "shift": 6117864532
+          },
+          {
+            "frequency": 1,
+            "shift": 7265777092
+          },
+          {
+            "frequency": 1,
+            "shift": 10704493828
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578126
+          },
+          {
+            "frequency": 1,
+            "shift": 31381059614
+          },
+          {
+            "frequency": 1,
+            "shift": 32601762734
+          },
+          {
+            "frequency": 1,
+            "shift": 94143194452
+          },
+          {
+            "frequency": 1,
+            "shift": 94152944452
+          },
+          {
+            "frequency": 1,
+            "shift": 100246694452
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890868
+          },
+          {
+            "frequency": 1,
+            "shift": 152587910308
+          },
+          {
+            "frequency": 1,
+            "shift": 152717030788
+          },
+          {
+            "frequency": 1,
+            "shift": 163048243828
+          }
+        ]
+      },
+      "scalar_differences_control_minus_low": {
+        "T": 38,
+        "active_pair_count": 0,
+        "distinct_obstruction_prime_count": -18,
+        "obstruction_signature_diversity": -24
+      },
+      "selection_key": [
+        2,
+        240,
+        240000000728
+      ]
+    },
+    {
+      "control_n": 240000003584,
+      "low_tail": {
+        "T": 21,
+        "T_over_active_pair_count": {
+          "decimal": "0.051597051597052",
+          "denominator": 407,
+          "numerator": 21
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 344,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.430051813471503",
+            "denominator": 386,
+            "numerator": 166
+          },
+          "covered_losing_pairs": 166,
+          "prime": 3
+        },
+        "n": 240000001544,
+        "obstruction_signature_diversity": 321,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.430051813471503",
+              "denominator": 386,
+              "numerator": 166
+            },
+            "covered_losing_pairs": 166,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.505181347150259",
+              "denominator": 386,
+              "numerator": 195
+            },
+            "covered_losing_pairs": 195,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.593264248704663",
+              "denominator": 386,
+              "numerator": 229
+            },
+            "covered_losing_pairs": 229,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.652849740932642",
+              "denominator": 386,
+              "numerator": 252
+            },
+            "covered_losing_pairs": 252,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              71,
+              43
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.694300518134715",
+              "denominator": 386,
+              "numerator": 268
+            },
+            "covered_losing_pairs": 268,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              11,
+              19,
+              23,
+              31,
+              71,
+              43,
+              47,
+              59,
+              67,
+              83,
+              179,
+              79,
+              103,
+              131
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 1
+          },
+          {
+            "c": 1,
+            "frequency": 1
+          },
+          {
+            "c": 3,
+            "frequency": 1
+          },
+          {
+            "c": 5,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 2
+          },
+          {
+            "c": 9,
+            "frequency": 1
+          },
+          {
+            "c": 10,
+            "frequency": 1
+          },
+          {
+            "c": 12,
+            "frequency": 1
+          },
+          {
+            "c": 13,
+            "frequency": 1
+          },
+          {
+            "c": 15,
+            "frequency": 2
+          },
+          {
+            "c": 17,
+            "frequency": 3
+          },
+          {
+            "c": 19,
+            "frequency": 1
+          },
+          {
+            "c": 20,
+            "frequency": 1
+          },
+          {
+            "c": 21,
+            "frequency": 2
+          },
+          {
+            "c": 22,
+            "frequency": 1
+          },
+          {
+            "c": 23,
+            "frequency": 1
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 1
+          },
+          {
+            "d": 4,
+            "frequency": 3
+          },
+          {
+            "d": 5,
+            "frequency": 5
+          },
+          {
+            "d": 6,
+            "frequency": 1
+          },
+          {
+            "d": 10,
+            "frequency": 3
+          },
+          {
+            "d": 12,
+            "frequency": 1
+          },
+          {
+            "d": 14,
+            "frequency": 3
+          },
+          {
+            "d": 15,
+            "frequency": 1
+          },
+          {
+            "d": 16,
+            "frequency": 3
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 868
+          },
+          {
+            "frequency": 1,
+            "shift": 15652
+          },
+          {
+            "frequency": 1,
+            "shift": 62174
+          },
+          {
+            "frequency": 1,
+            "shift": 534566
+          },
+          {
+            "frequency": 1,
+            "shift": 9767812
+          },
+          {
+            "frequency": 1,
+            "shift": 24114532
+          },
+          {
+            "frequency": 1,
+            "shift": 129140788
+          },
+          {
+            "frequency": 1,
+            "shift": 129143288
+          },
+          {
+            "frequency": 1,
+            "shift": 244160308
+          },
+          {
+            "frequency": 1,
+            "shift": 1172027092
+          },
+          {
+            "frequency": 1,
+            "shift": 3486787526
+          },
+          {
+            "frequency": 1,
+            "shift": 6103517812
+          },
+          {
+            "frequency": 1,
+            "shift": 6117864532
+          },
+          {
+            "frequency": 1,
+            "shift": 10460353204
+          },
+          {
+            "frequency": 1,
+            "shift": 10460353828
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578126
+          },
+          {
+            "frequency": 1,
+            "shift": 31381062734
+          },
+          {
+            "frequency": 1,
+            "shift": 100246694452
+          },
+          {
+            "frequency": 1,
+            "shift": 152587890628
+          },
+          {
+            "frequency": 1,
+            "shift": 152589484948
+          },
+          {
+            "frequency": 1,
+            "shift": 152717030788
+          }
+        ]
+      },
+      "low_tail_n": 240000001544,
+      "matched_control": {
+        "T": 53,
+        "T_over_active_pair_count": {
+          "decimal": "0.130221130221130",
+          "denominator": 407,
+          "numerator": 53
+        },
+        "active_pair_count": 407,
+        "distinct_obstruction_prime_count": 293,
+        "largest_single_prime_coverage": {
+          "coverage": {
+            "decimal": "0.409604519774011",
+            "denominator": 354,
+            "numerator": 145
+          },
+          "covered_losing_pairs": 145,
+          "prime": 3
+        },
+        "n": 240000003584,
+        "obstruction_signature_diversity": 282,
+        "top_k_coverage": [
+          {
+            "coverage": {
+              "decimal": "0.409604519774011",
+              "denominator": 354,
+              "numerator": 145
+            },
+            "covered_losing_pairs": 145,
+            "k": 1,
+            "ranked_primes": [
+              3
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.516949152542373",
+              "denominator": 354,
+              "numerator": 183
+            },
+            "covered_losing_pairs": 183,
+            "k": 2,
+            "ranked_primes": [
+              3,
+              7
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.567796610169492",
+              "denominator": 354,
+              "numerator": 201
+            },
+            "covered_losing_pairs": 201,
+            "k": 4,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.629943502824859",
+              "denominator": 354,
+              "numerator": 223
+            },
+            "covered_losing_pairs": 223,
+            "k": 8,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              71,
+              59
+            ]
+          },
+          {
+            "coverage": {
+              "decimal": "0.694915254237288",
+              "denominator": 354,
+              "numerator": 246
+            },
+            "covered_losing_pairs": 246,
+            "k": 16,
+            "ranked_primes": [
+              3,
+              7,
+              19,
+              23,
+              31,
+              43,
+              71,
+              59,
+              83,
+              47,
+              67,
+              139,
+              103,
+              131,
+              239,
+              127
+            ]
+          }
+        ],
+        "winner_c_distribution": [
+          {
+            "c": 0,
+            "frequency": 6
+          },
+          {
+            "c": 1,
+            "frequency": 3
+          },
+          {
+            "c": 2,
+            "frequency": 2
+          },
+          {
+            "c": 3,
+            "frequency": 2
+          },
+          {
+            "c": 4,
+            "frequency": 1
+          },
+          {
+            "c": 5,
+            "frequency": 4
+          },
+          {
+            "c": 6,
+            "frequency": 1
+          },
+          {
+            "c": 7,
+            "frequency": 4
+          },
+          {
+            "c": 9,
+            "frequency": 4
+          },
+          {
+            "c": 10,
+            "frequency": 2
+          },
+          {
+            "c": 11,
+            "frequency": 4
+          },
+          {
+            "c": 12,
+            "frequency": 2
+          },
+          {
+            "c": 13,
+            "frequency": 3
+          },
+          {
+            "c": 14,
+            "frequency": 2
+          },
+          {
+            "c": 15,
+            "frequency": 3
+          },
+          {
+            "c": 16,
+            "frequency": 1
+          },
+          {
+            "c": 17,
+            "frequency": 3
+          },
+          {
+            "c": 19,
+            "frequency": 1
+          },
+          {
+            "c": 21,
+            "frequency": 2
+          },
+          {
+            "c": 23,
+            "frequency": 3
+          }
+        ],
+        "winner_d_distribution": [
+          {
+            "d": 0,
+            "frequency": 4
+          },
+          {
+            "d": 1,
+            "frequency": 1
+          },
+          {
+            "d": 2,
+            "frequency": 4
+          },
+          {
+            "d": 3,
+            "frequency": 2
+          },
+          {
+            "d": 4,
+            "frequency": 3
+          },
+          {
+            "d": 5,
+            "frequency": 1
+          },
+          {
+            "d": 6,
+            "frequency": 4
+          },
+          {
+            "d": 8,
+            "frequency": 4
+          },
+          {
+            "d": 9,
+            "frequency": 10
+          },
+          {
+            "d": 10,
+            "frequency": 3
+          },
+          {
+            "d": 11,
+            "frequency": 1
+          },
+          {
+            "d": 12,
+            "frequency": 3
+          },
+          {
+            "d": 13,
+            "frequency": 1
+          },
+          {
+            "d": 14,
+            "frequency": 6
+          },
+          {
+            "d": 15,
+            "frequency": 6
+          }
+        ],
+        "winner_shift_distribution": [
+          {
+            "frequency": 1,
+            "shift": 6
+          },
+          {
+            "frequency": 2,
+            "shift": 28
+          },
+          {
+            "frequency": 1,
+            "shift": 126
+          },
+          {
+            "frequency": 1,
+            "shift": 134
+          },
+          {
+            "frequency": 1,
+            "shift": 268
+          },
+          {
+            "frequency": 1,
+            "shift": 2188
+          },
+          {
+            "frequency": 1,
+            "shift": 3126
+          },
+          {
+            "frequency": 1,
+            "shift": 15628
+          },
+          {
+            "frequency": 1,
+            "shift": 15868
+          },
+          {
+            "frequency": 1,
+            "shift": 19708
+          },
+          {
+            "frequency": 1,
+            "shift": 35308
+          },
+          {
+            "frequency": 1,
+            "shift": 177148
+          },
+          {
+            "frequency": 1,
+            "shift": 177772
+          },
+          {
+            "frequency": 1,
+            "shift": 390652
+          },
+          {
+            "frequency": 1,
+            "shift": 392812
+          },
+          {
+            "frequency": 1,
+            "shift": 567772
+          },
+          {
+            "frequency": 1,
+            "shift": 1594348
+          },
+          {
+            "frequency": 1,
+            "shift": 1953134
+          },
+          {
+            "frequency": 1,
+            "shift": 1953206
+          },
+          {
+            "frequency": 1,
+            "shift": 1953368
+          },
+          {
+            "frequency": 1,
+            "shift": 1953854
+          },
+          {
+            "frequency": 1,
+            "shift": 1955312
+          },
+          {
+            "frequency": 1,
+            "shift": 2012174
+          },
+          {
+            "frequency": 1,
+            "shift": 2484566
+          },
+          {
+            "frequency": 1,
+            "shift": 3547448
+          },
+          {
+            "frequency": 1,
+            "shift": 6736094
+          },
+          {
+            "frequency": 1,
+            "shift": 9785308
+          },
+          {
+            "frequency": 1,
+            "shift": 14348908
+          },
+          {
+            "frequency": 1,
+            "shift": 14349532
+          },
+          {
+            "frequency": 1,
+            "shift": 48828126
+          },
+          {
+            "frequency": 1,
+            "shift": 129155788
+          },
+          {
+            "frequency": 1,
+            "shift": 138905788
+          },
+          {
+            "frequency": 1,
+            "shift": 244142812
+          },
+          {
+            "frequency": 1,
+            "shift": 244317772
+          },
+          {
+            "frequency": 1,
+            "shift": 258489532
+          },
+          {
+            "frequency": 1,
+            "shift": 1162652092
+          },
+          {
+            "frequency": 1,
+            "shift": 1220703126
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515628
+          },
+          {
+            "frequency": 1,
+            "shift": 6103515868
+          },
+          {
+            "frequency": 1,
+            "shift": 6103535308
+          },
+          {
+            "frequency": 1,
+            "shift": 6105109948
+          },
+          {
+            "frequency": 1,
+            "shift": 6232655788
+          },
+          {
+            "frequency": 1,
+            "shift": 10470118828
+          },
+          {
+            "frequency": 1,
+            "shift": 16563868828
+          },
+          {
+            "frequency": 1,
+            "shift": 30517578126
+          },
+          {
+            "frequency": 1,
+            "shift": 30517637174
+          },
+          {
+            "frequency": 1,
+            "shift": 30518109566
+          },
+          {
+            "frequency": 1,
+            "shift": 30522361094
+          },
+          {
+            "frequency": 1,
+            "shift": 30560624846
+          },
+          {
+            "frequency": 1,
+            "shift": 94143179452
+          },
+          {
+            "frequency": 1,
+            "shift": 94145131952
+          },
+          {
+            "frequency": 1,
+            "shift": 124660756952
+          }
+        ]
+      },
+      "scalar_differences_control_minus_low": {
+        "T": 32,
+        "active_pair_count": 0,
+        "distinct_obstruction_prime_count": -51,
+        "obstruction_signature_diversity": -39
+      },
+      "selection_key": [
+        7,
+        2040,
+        240000003584
+      ]
+    }
+  ],
+  "global_statistical_significance_claimed": false,
+  "schema": "a303656-low-vs-control-comparison-v1"
+}

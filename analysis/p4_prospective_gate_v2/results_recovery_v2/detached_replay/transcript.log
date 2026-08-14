@@ -1,0 +1,2 @@
+PYTHONDONTWRITEBYTECODE=1 python3 analysis/p4_prospective_gate_v2/recovery/run_recovery_v2.py --root . --output /tmp/a303656_gate_v2_replay_results --inventory-dir /tmp/a303656_forensics_initial
+DETACHED_REPLAY_BYTE_IDENTICAL

@@ -1,0 +1,210 @@
+{
+  "baseline_hashes_at_generation": {
+    "cert/NO_COUNTEREXAMPLE_CERTIFICATE.txt": "510ac25107f8764fbacb3fe10f2c67de1a5cc595b20a23f793ff77dd54d5ec42",
+    "output/direct/formal_1p6b_final/summary.json": "33fc50fd1323c8d9b8b6f69e22599de9ec392a3d55f8c7c12f4cc5f4cca67319",
+    "output/final_packaging_audit.json": "de8f4d351b809b03daac280879eddc69a795fce50f9c8f6b2d786ad2f9d611ca",
+    "output/final_results_manifest.json": "99bfcf78d4800aacaac4b9fb36cb52aa4a1f655394c6f79db8432b6ebcfd9360",
+    "output/formal_results_audit.json": "fe87b53734fe9f8978396428769af5db76fb35709276241f36c49c2a9145b533"
+  },
+  "classification": "EXACT FINITE COMPUTATION ON FIXED SELECTED FIXTURES",
+  "dossier_verification_counts": {
+    "reported_factorizations": 4070,
+    "reported_obstruction_primes": 6905
+  },
+  "fixed_input_audit": {
+    "all_declared_hashes_passed": true,
+    "declared_hash_checks": [
+      {
+        "checked": 7,
+        "label": "dossier_artifacts",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 12,
+        "label": "pilot_inputs_before",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 12,
+        "label": "pilot_inputs_after",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 5,
+        "label": "baseline_before",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 5,
+        "label": "baseline_after",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_a_bitset_outputs",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_a_clean_outputs",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_a_oracle_outputs",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_b_bitset_outputs",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_b_clean_outputs",
+        "mismatches": [],
+        "passed": true
+      },
+      {
+        "checked": 9,
+        "label": "pilot_b_oracle_outputs",
+        "mismatches": [],
+        "passed": true
+      }
+    ],
+    "fixed_input_file_count": 86,
+    "fixed_input_tree_sha256": {
+      "analysis/obstruction_dossier/command_manifest.json": "5b4ffc17798d9a538ccdb814f2e8f5eef66bbf2889a77fe1191f87ac89cb1ca9",
+      "analysis/obstruction_dossier/low_vs_control.json": "19c002a96c8d1fb1fc814b6744913f9c13c5c0f28a46eaca059d0ec33114cf1a",
+      "analysis/obstruction_dossier/metadata.json": "996fd05323caaf652480be59d7b0c0b8fca9b248c7c809456b5b884758f9cd36",
+      "analysis/obstruction_dossier/n0_surviving_pairs.json": "972faad48a4989dc9e804650fbc1dc7e2b729a29566a8a9b5165aebb0890749a",
+      "analysis/obstruction_dossier/panel.json": "0229d9e1ca696660f3478b17f1bccbe6983cc49a74bbf63af0018f39f086ca8a",
+      "analysis/obstruction_dossier/per_n_summary.json": "c408a37cfbf200c0f5d54ad9899689e5671a7b63b8d88cdf3047b7a04e64d882",
+      "analysis/obstruction_dossier/prime_frequency.csv": "e21286d48d5080436ad2bcc08b868f4f73e44f11a47565a88d4e23252cfcd37a",
+      "analysis/obstruction_dossier/raw_log_archive.json": "ec229f57fe0cc017251351ad9eb2010e0c76c3a07dd574e53bf31610aad9de6f",
+      "analysis/obstruction_dossier/records.jsonl": "88c61baea2960f2822a0ad87d147781f93037224da2c9a1592303021f1bddcd8",
+      "analysis/obstruction_dossier/top_k_coverage.csv": "4f6d519f50eea8d671f3e21176c2a5e54dcfc74aa34291f8ba5f017f372eedec",
+      "analysis/obstruction_dossier/verification_report.json": "ad852581248a1bee601ed9c837e9a18c8c7f68d61e15e83a276746815e738028",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/binary_replacement.return_code.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/binary_replacement.stderr.log": "f87e9416c8184fcca494dcc673eca6b400a0275ca2dde951bb5f5d06e40d3479",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/binary_replacement.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/manifest_relabel.return_code.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/manifest_relabel.stderr.log": "100656e2ebd9eb824d0dd51407f0aa434ca5b60def516bc350b356695c916e38",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/manifest_relabel.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/output_tamper.return_code.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/output_tamper.stderr.log": "d1feea58649697198c3b6d7077eabddbd743dd7db525dce2c5fb1f5512ef2158",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/output_tamper.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/swapped_slots.return_code.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/swapped_slots.stderr.log": "100656e2ebd9eb824d0dd51407f0aa434ca5b60def516bc350b356695c916e38",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/swapped_slots.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/wrong_commit_cli.return_code.txt": "53c234e5e8472b6ac51c1ae1cab3fe06fad053beb8ebfd8977b010655bfdd3c3",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/wrong_commit_cli.stderr.log": "82488f95f5814dbbf8df105f233b78b6b5f8012e0a7eb34cd243143d88e3b196",
+      "output/tn_pilot_20260713/negative_tests/provenance_expected_rejections/wrong_commit_cli.stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_a/bitset/backend_elapsed_seconds.txt": "cce50eb4111a74d124f366534b5ea6e38b80c52945ddf2518a2ab3e2403862b5",
+      "output/tn_pilot_20260713/pilot_a/bitset/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_a/bitset/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_a/bitset/backend_stdout.log": "b943e4fe235af99be60ea48ced61d9632ecc4492339051bde547b51c87c312bf",
+      "output/tn_pilot_20260713/pilot_a/bitset/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/bitset/low_t.jsonl": "2ebc2093122f650ee3e2f8c8db1f08395b190cfe40137ba7dd2a6869b4f8eb2e",
+      "output/tn_pilot_20260713/pilot_a/bitset/metadata.json": "a985f7a7231956e4b696b1b8404416cc4a8203d355d119852138eec0f214ac4f",
+      "output/tn_pilot_20260713/pilot_a/bitset/provenance.json": "c3c5822d2aed1d7406dc289aa60cfb78505441228733b6903a99bd9b84694da9",
+      "output/tn_pilot_20260713/pilot_a/bitset/summary.json": "0a1232b67b66ac8fa9738ad9d0d545b6aedeec4f152d5af76c714647bcc429db",
+      "output/tn_pilot_20260713/pilot_a/bitset/verifier_report.json": "efab81be8f72dacb138917aeee6d88a9463781b276dd94be14380d29e02209f9",
+      "output/tn_pilot_20260713/pilot_a/clean/backend_elapsed_seconds.txt": "d65a8a1a8b11a650967d1936677374efb44d799b2ec528c11f96594f7dd6558d",
+      "output/tn_pilot_20260713/pilot_a/clean/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_a/clean/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_a/clean/backend_stdout.log": "93644acdb50890f2dede94340a45468cd6a8e9198ec709ca72681484c5eeebc5",
+      "output/tn_pilot_20260713/pilot_a/clean/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/clean/low_t.jsonl": "25ee4e9365f665da8139ed778a6696787af560cdaf725892918bc7f96e81bf15",
+      "output/tn_pilot_20260713/pilot_a/clean/metadata.json": "8c81a0bf5af8a163ac5941a85f7234992713d41d7744ccad9f8a345c25ce0f7d",
+      "output/tn_pilot_20260713/pilot_a/clean/provenance.json": "e9e7b0687ef50af618612b8ebc5d2a32d15fb1e579ccd854205064401f3956a4",
+      "output/tn_pilot_20260713/pilot_a/clean/summary.json": "412e883550ccb3cd59a2ef83d9b839ab36544a77592a597aa82e609e7d909737",
+      "output/tn_pilot_20260713/pilot_a/clean/verifier_report.json": "01ed62ce312c9b36dc502297f3c9f8243dc457739eb5afcae97279fc02d20227",
+      "output/tn_pilot_20260713/pilot_a/oracle/backend_elapsed_seconds.txt": "30a79ad1c80d987d3973f21d3187142eb5e6bb05bfb8fe7101c17fabffab2e87",
+      "output/tn_pilot_20260713/pilot_a/oracle/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_a/oracle/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_a/oracle/backend_stdout.log": "ef9e8c25370fab1249edcec22ce6c3933aa2e16801aa69e7afbd5ec08363e7aa",
+      "output/tn_pilot_20260713/pilot_a/oracle/counts.csv": "cf53f054c6a3055083470e45e2bafa9d2f5bc3a1d62b5c912bf255e87910bd2d",
+      "output/tn_pilot_20260713/pilot_a/oracle/low_t.jsonl": "d75128ccacbe23e8fca8f73b6f1b9396a7e615f0e879ae8a7e180d9811b9e35a",
+      "output/tn_pilot_20260713/pilot_a/oracle/metadata.json": "a69c120040c3347ec50045fc65da1d49c35ee6febdd477da74a3666a3f023676",
+      "output/tn_pilot_20260713/pilot_a/oracle/provenance.json": "bf4b47b7d47788cd3246e0a9f99185b4bbab421141e07aee879576d6940f98fc",
+      "output/tn_pilot_20260713/pilot_a/oracle/summary.json": "f349fbfe87fd1347a822066bf8b521ae05961c5c57a2f67765626696a33225ef",
+      "output/tn_pilot_20260713/pilot_a/oracle/verifier_report.json": "b06fa312dbffe846947790ab1980293b59ac0d89da7e073369753226db0a1ed7",
+      "output/tn_pilot_20260713/pilot_b/bitset/backend_elapsed_seconds.txt": "5849dd78ad79aad6f73ad6d969abdb048feaa6d3238d50dcdf212f4dbdfcddfc",
+      "output/tn_pilot_20260713/pilot_b/bitset/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_b/bitset/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_b/bitset/backend_stdout.log": "75f22a737f71f1029bc789f1af6795a56da53f74bce6c9ec35b67ac7eda7b1aa",
+      "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/bitset/low_t.jsonl": "059865af7709da2592b2e23fbfa83c419a04d62c894360d81760298d8707fc51",
+      "output/tn_pilot_20260713/pilot_b/bitset/metadata.json": "aebe451e395b3420f4af318e5af91bbc2864b2d55ad3ddd7714ff84daffda515",
+      "output/tn_pilot_20260713/pilot_b/bitset/provenance.json": "70f4fed2ed50b44426f8802c5d8cdd4dcb20faf472f6b0960af01cf334213dd7",
+      "output/tn_pilot_20260713/pilot_b/bitset/summary.json": "b2dde8f3ecc7e7ff1dc1bd6dcc91007ca36fda8fc32b51eaa70c517b09142b96",
+      "output/tn_pilot_20260713/pilot_b/bitset/verifier_report.json": "d832b4e88644c2a728c4d94e44cad166e1fc883c875e6d0ad4d022fdffa4a880",
+      "output/tn_pilot_20260713/pilot_b/clean/backend_elapsed_seconds.txt": "774e72db56224e3d84b1ccf586517c50355f81741f67b624def17dfa8c2e8c4e",
+      "output/tn_pilot_20260713/pilot_b/clean/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_b/clean/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_b/clean/backend_stdout.log": "72e6584c7a9f131347052565d23fa55c3685da46c9637d1a5a7748d377ab0e35",
+      "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/clean/low_t.jsonl": "26852a6ded24d69b962ea3490f1bc293c7aeec3a858d4218747ca4dfb869a950",
+      "output/tn_pilot_20260713/pilot_b/clean/metadata.json": "4f809e50b049202bb41e7473c014747b7f8e02de5ded582626dbb0beeeb5b44f",
+      "output/tn_pilot_20260713/pilot_b/clean/provenance.json": "b55bd9900f942ce7719eff954a8df016f8b8f306c8a8554809c20223965abee3",
+      "output/tn_pilot_20260713/pilot_b/clean/summary.json": "d1b3c2dc3d94c052275ab4ab1be2124d2a09da25f0982732aa927056cc0b664d",
+      "output/tn_pilot_20260713/pilot_b/clean/verifier_report.json": "7863507dc1d92e9539afc883fea31e519e1eaca89ff9efb2137e17cc33ac346c",
+      "output/tn_pilot_20260713/pilot_b/oracle/backend_elapsed_seconds.txt": "2a19fb6eae79cf59470175d32f9cad0aa811ebb44d97768348e4e88d3dca89d7",
+      "output/tn_pilot_20260713/pilot_b/oracle/backend_return_code.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "output/tn_pilot_20260713/pilot_b/oracle/backend_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "output/tn_pilot_20260713/pilot_b/oracle/backend_stdout.log": "141189d13b8b76732cb9c6c157f81a93d4c24116bf45d90248412d3ce5f4c826",
+      "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+      "output/tn_pilot_20260713/pilot_b/oracle/low_t.jsonl": "0854f0a06901fe89fe0f0cdbaf13d383bbbcc81b7d051f014b41e94fa2f74a2e",
+      "output/tn_pilot_20260713/pilot_b/oracle/metadata.json": "18a989aadc9302123759f138da0f327fc39d93fbd1b520234ec1ad62d0df7b43",
+      "output/tn_pilot_20260713/pilot_b/oracle/provenance.json": "4ebaa829eeffe4584da11d2251172a1c5209654ae9d742eb6c1d0ab76f677486",
+      "output/tn_pilot_20260713/pilot_b/oracle/summary.json": "3d482b45afc9a2d6a5e173c0437505671fb57620e159d29bc4405d905d7a3c87",
+      "output/tn_pilot_20260713/pilot_b/oracle/verifier_report.json": "ee1b7b9442b602d5dc52fd45c548f11c7b0713342aed87f02af7e004340db0fb"
+    }
+  },
+  "fixture_counts": {
+    "active_pairs_each": 407,
+    "corrected_controls": 5,
+    "distinct_analyzed_n": 14,
+    "low_tail": 5,
+    "old_controls": 5
+  },
+  "generated_utc": "2026-07-13T11:55:23Z",
+  "mathematical_problem_status": "UNRESOLVED",
+  "pilot_b_counts_sha256": {
+    "output/tn_pilot_20260713/pilot_b/bitset/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/clean/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773",
+    "output/tn_pilot_20260713/pilot_b/oracle/counts.csv": "2546df39a90d10fc349123f599f4da09abb3798f11e85a578787effb7d9ef773"
+  },
+  "primary_analyzer": {
+    "path": "src/analyze_p2_persistent_core.py",
+    "sha256": "f36da971d57f447ed123bae786a9720b2291dd33326029c9c516f483c182b069"
+  },
+  "results_commit": "RESULT_COMMIT_CONTAINING_THIS_FILE",
+  "results_commit_resolution": "resolved as the commit containing this metadata and checked by the independent verifier during fresh replay",
+  "schema": "a303656-p2-core-metadata-v1",
+  "scope_guards": {
+    "CRT_system_solved": false,
+    "T_evaluated_at_progression_candidates": false,
+    "arithmetic_progression_searched": false,
+    "certified_or_pilot_outputs_modified": false,
+    "counting_executable_invoked": false,
+    "new_integer_interval_scanned": false
+  },
+  "source_commit": "f141f9f3786480b06609fed099aa4c8ffbfee39e",
+  "source_file_sha256_at_source_commit": {
+    "src/analyze_p2_persistent_core.py": "f36da971d57f447ed123bae786a9720b2291dd33326029c9c516f483c182b069",
+    "src/verify_p2_persistent_core.py": "eaa955b001d8404a0880bb2a739d05ff9ce98d7202bdf296765a9013af54d5df"
+  },
+  "source_parent_commit": "6e357619ee9309819aeb36caf0f1f3f974b4c0fb",
+  "task": "P2-PERSISTENT OBSTRUCTION CORE AND CONTROL AUDIT"
+}

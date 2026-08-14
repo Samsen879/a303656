@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=find output/tn_pilot_20260713/pilot_a output/tn_pilot_20260713/pilot_b -name \*.json -exec python3 -m json.tool \{\} /dev/null \; 
+started_utc=2026-07-13T09:00:06Z
+finished_utc=2026-07-13T09:00:07Z

@@ -1,0 +1,33 @@
+{
+  "CRT_congruences_independently_verified": true,
+  "T_backend_called": false,
+  "anchor_entry_count": 6,
+  "class_and_integer_deduplication_exact": true,
+  "direct_oracle_called": false,
+  "factorization_called": false,
+  "family_definitions_verified": [
+    "R",
+    "U",
+    "Q"
+  ],
+  "feasibility_metrics_reconstructed": true,
+  "git_provenance": {
+    "ancestry_verified": true,
+    "source_commit": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370",
+    "starting_commit": "c710dcc9b472a8500b038a33db1315043cffca6e",
+    "verification_head": "4605e09047bc8ca934392c3e26a3ec8f7e8c7370"
+  },
+  "interpretation_label": "ONLY AN UNBALANCED FULL SPARSE CENSUS IS FEASIBLE",
+  "mathematical_status": "UNRESOLVED",
+  "maximum_activation_cell_member_count": 1,
+  "previously_evaluated_integers_excluded_from_fresh": true,
+  "prior_registry_complete": true,
+  "protected_hashes_unchanged": true,
+  "provisional_selections_reconstructed": true,
+  "schema": "a303656-p5-sparse-feasibility-verification-v1",
+  "shortlist_entry_count": 20,
+  "shortlist_unchanged": true,
+  "status": "PASS",
+  "two_square_test_called": false,
+  "validation_conclusion": "VALIDATED EXACT P5 SPARSE CROSS-CLASS PANEL FEASIBILITY AUDIT"
+}

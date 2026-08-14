@@ -1,0 +1,4 @@
+working_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample
+command=git diff --cached --stat 
+started_utc=2026-07-13T09:01:45Z
+finished_utc=2026-07-13T09:01:46Z

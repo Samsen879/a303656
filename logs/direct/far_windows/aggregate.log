@@ -1,0 +1,6 @@
+window_count_expected=21
+window_count_compared=21
+integers_tested=210000000
+candidate_count=0
+mismatch_count=0
+complete_independent_crosscheck=true

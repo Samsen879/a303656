@@ -1,0 +1,2 @@
+TN_RUN_PASS implementation_id=tn_clean_annulus_v1 interval_id=PILOT-A source_commit=2e38ac0a55cc8765f8e29e6ef4f1ec215ff8e9f9 dirty=false elapsed_seconds=0.034436
+output_directory=/home/samsen/code/a303656/repo/a303656_bounded_counterexample/output/tn_pilot_20260713/pilot_a/clean

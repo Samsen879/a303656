@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A303656 immutable conditional preregistration",
+  "type": "object",
+  "required": ["research_question", "primary_design", "secondary_design", "exact_manifests", "selection_code_hash", "registry_hash", "authorities", "replacement_protocol", "exposure_exclusion_policy", "outcome_schema", "planned_descriptive_statistics", "duplicate_collision_treatment", "execution_failure", "stopping_rules", "no_adaptive_extension", "no_post_hoc_mask_class_replacement", "audit_authorization_commit_hash", "authorization"],
+  "properties": {"authorization": {"const": false}},
+  "additionalProperties": true
+}

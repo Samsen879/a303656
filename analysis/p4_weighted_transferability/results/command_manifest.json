@@ -1,0 +1,183 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/prepare_inputs.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--output-dir",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results",
+        "--source-commit",
+        "196413213fa832e55ce83a6d128e1b0a3b9fafda"
+      ],
+      "name": "prepare_inputs",
+      "return_code": 0,
+      "stderr": "prepare_inputs.stderr.log",
+      "stdout": "prepare_inputs.stdout.log",
+      "wall_seconds": "0.812713"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-O3",
+        "-DNDEBUG",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/weighted_enumerator_a.cpp",
+        "-o",
+        "/tmp/a303656_weighted_workspace_raw2/weighted_enumerator_a"
+      ],
+      "name": "build_a",
+      "return_code": 0,
+      "stderr": "build_a.stderr.log",
+      "stdout": "build_a.stdout.log",
+      "wall_seconds": "2.174602"
+    },
+    {
+      "command": [
+        "g++",
+        "-std=c++20",
+        "-O3",
+        "-DNDEBUG",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/weighted_enumerator_b.cpp",
+        "-o",
+        "/tmp/a303656_weighted_workspace_raw2/weighted_enumerator_b"
+      ],
+      "name": "build_b",
+      "return_code": 0,
+      "stderr": "build_b.stderr.log",
+      "stdout": "build_b.stdout.log",
+      "wall_seconds": "2.083193"
+    },
+    {
+      "command": [
+        "/tmp/a303656_weighted_workspace_raw2/weighted_enumerator_a",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/exact_weight_table.csv",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_a_certificate.tsv"
+      ],
+      "name": "enumerator_a",
+      "return_code": 0,
+      "stderr": "enumerator_a.stderr.log",
+      "stdout": "enumerator_a.stdout.log",
+      "wall_seconds": "29.417079"
+    },
+    {
+      "command": [
+        "/tmp/a303656_weighted_workspace_raw2/weighted_enumerator_b",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/exact_weight_table.csv",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_b_certificate.tsv"
+      ],
+      "name": "enumerator_b",
+      "return_code": 0,
+      "stderr": "enumerator_b.stderr.log",
+      "stdout": "enumerator_b.stdout.log",
+      "wall_seconds": "34.587233"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/verifier.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--artifact-dir",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results",
+        "--certificate-a",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_a_certificate.tsv",
+        "--certificate-b",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_b_certificate.tsv",
+        "--source-commit",
+        "196413213fa832e55ce83a6d128e1b0a3b9fafda",
+        "--check-only"
+      ],
+      "name": "certificate_check",
+      "return_code": 0,
+      "stderr": "certificate_check.stderr.log",
+      "stdout": "certificate_check.stdout.log",
+      "wall_seconds": "0.061268"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tests/test_weighted_audit.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--artifact-dir",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results",
+        "--certificate-a",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_a_certificate.tsv",
+        "--certificate-b",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_b_certificate.tsv",
+        "--verifier",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/verifier.py",
+        "--source-commit",
+        "196413213fa832e55ce83a6d128e1b0a3b9fafda",
+        "--output",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/corruption_tests.json"
+      ],
+      "name": "corruption_tests",
+      "return_code": 0,
+      "stderr": "corruption_tests.stderr.log",
+      "stdout": "corruption_tests.stdout.log",
+      "wall_seconds": "0.817473"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/verifier.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--artifact-dir",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results",
+        "--certificate-a",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_a_certificate.tsv",
+        "--certificate-b",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_b_certificate.tsv",
+        "--source-commit",
+        "196413213fa832e55ce83a6d128e1b0a3b9fafda",
+        "--negative-report",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/corruption_tests.json"
+      ],
+      "name": "result_builder",
+      "return_code": 0,
+      "stderr": "result_builder.stderr.log",
+      "stdout": "result_builder.stdout.log",
+      "wall_seconds": "0.085684"
+    },
+    {
+      "command": [
+        "python3",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/tools/verifier.py",
+        "--root",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample",
+        "--artifact-dir",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results",
+        "--certificate-a",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_a_certificate.tsv",
+        "--certificate-b",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/enumerator_b_certificate.tsv",
+        "--source-commit",
+        "196413213fa832e55ce83a6d128e1b0a3b9fafda",
+        "--negative-report",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/corruption_tests.json",
+        "--command-manifest",
+        "/home/samsen/code/a303656/repo/a303656_bounded_counterexample/analysis/p4_weighted_transferability/results/command_manifest.json"
+      ],
+      "name": "artifact_verifier",
+      "return_code": 0,
+      "stderr": "artifact_verifier.stderr.log",
+      "stdout": "artifact_verifier.stdout.log",
+      "wall_seconds": "0.082261"
+    }
+  ],
+  "raw_log_directory": "/tmp/a303656_weighted_workspace_raw2",
+  "raw_logs_committed": false,
+  "schema": "a303656-weighted-audit-command-manifest-v1"
+}

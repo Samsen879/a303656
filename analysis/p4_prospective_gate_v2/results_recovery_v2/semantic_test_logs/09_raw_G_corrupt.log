@@ -1,0 +1,1 @@
+{"actual_category": "arithmetic", "actual_code": "RAW_G_MISMATCH", "expected_error_code": "RAW_G_MISMATCH", "expected_semantic_category": "arithmetic", "mutation": "raw G -1", "return_code": 1, "status": "PASS", "stderr_excerpt": "RAW_G_MISMATCH:arithmetic", "test": "raw_G_corrupt"}

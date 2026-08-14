@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "enumerators_pointwise_digest_agree": true,
+    "histogram_complete": true,
+    "no_T_evaluation": true,
+    "no_direct_two_square_oracle": true,
+    "no_empirical_weight": true,
+    "no_factorization": true,
+    "protected_hashes_unchanged": true,
+    "tuple_count_exact": true
+  },
+  "interpretation_label": "MOD-8-LIVE COVERAGE STRICTLY IMPROVES THE KNOWN P4 LANDSCAPE",
+  "schema": "a303656-p4-mod8-live-verification-v1",
+  "validation_conclusion": "VALIDATED EXACT P4 MOD-8-LIVE COVERAGE LANDSCAPE"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "a303656-direct-two-squares-dual-aggregate-v1",
+  "low": "282420000001",
+  "high": "282440000000",
+  "chunk_count_x": 2,
+  "chunk_count_y": 2,
+  "integers_tested_x": 20000000,
+  "integers_tested_y": 20000000,
+  "candidate_count_x": 0,
+  "candidate_count_y": 0,
+  "candidates_x": [],
+  "candidates_y": [],
+  "unordered_square_pairs_enumerated_x": 1146666112,
+  "unordered_square_pairs_enumerated_y": 1146666112,
+  "elapsed_seconds_sum_x": 9.14067,
+  "elapsed_seconds_sum_y": 6.534689999999999,
+  "complete_gapless_independent_crosscheck": true,
+  "mismatches": [],
+  "chunks": [
+    {
+      "index": 0,
+      "low": "282420000001",
+      "high": "282430000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 624407602,
+      "x_json": "output/direct/cross_C24_boundary/x/chunk_0000_282420000001_282430000000.json",
+      "x_sha256": "059a29a5bc0867918c32c18c7b6ff2f7028d0c43e8da0f3237531c820afe65d0",
+      "y_json": "output/direct/cross_C24_boundary/y/chunk_0000_282420000001_282430000000.json",
+      "y_sha256": "8d049298f99abcf624e4a4a271d31b45185e2d2f017333b8844bb77ffa9470f5"
+    },
+    {
+      "index": 1,
+      "low": "282430000001",
+      "high": "282440000000",
+      "mismatches": [],
+      "candidate_count": 0,
+      "unordered_square_pairs_enumerated": 522258510,
+      "x_json": "output/direct/cross_C24_boundary/x/chunk_0001_282430000001_282440000000.json",
+      "x_sha256": "79842922bca3d2a74a6fd6cf89b746102afa121b47b429022a40947f16c848dd",
+      "y_json": "output/direct/cross_C24_boundary/y/chunk_0001_282430000001_282440000000.json",
+      "y_sha256": "b8338d3c91808986c5f6c2fd708a5f910ae78c0d08c2971741122ea519e2f036"
+    }
+  ],
+  "classification": "INDEPENDENTLY REPRODUCIBLE EXACT EXHAUSTIVE FINITE COMPUTATION: EVERY n IN INTERVAL HAS A REPRESENTATION"
+}

@@ -1,0 +1,22 @@
+{
+  "backend": "A",
+  "command": [
+    "/tmp/p5_family_u_archive_authoritative/bin/backend_a",
+    "--input",
+    "/tmp/p5_family_u_archive_authoritative/backend_a/core_panel.csv",
+    "--output",
+    "/tmp/p5_family_u_archive_authoritative/backend_a/raw_counts.csv",
+    "--diagnostics",
+    "/tmp/p5_family_u_archive_authoritative/backend_a/raw_diagnostics.csv"
+  ],
+  "core_implementation_id": "k4_ap_backend_a_trial_division_v1",
+  "counts_sha256": "1f813304990e5d35afaeb2973a08cc6feb1dd0d3205565024adf281cb5e67a63",
+  "diagnostic_row_count": 184778,
+  "elapsed_seconds": "1.137152",
+  "masks_sha256": "b7e86bd5a5acf9e438c53bad91d969bd09d00f8d5ec4c83149cab3d3f0a69636",
+  "point_count": 454,
+  "return_code": 0,
+  "schema": "a303656-holdout-backend-run-v1",
+  "stderr": "/tmp/p5_family_u_archive_authoritative/backend_a/core.stderr.log",
+  "stdout": "/tmp/p5_family_u_archive_authoritative/backend_a/core.stdout.log"
+}
