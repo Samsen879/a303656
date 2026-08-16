@@ -1,0 +1,9 @@
+{
+  "authority_state": "PAUSED / NONE / UNRESOLVED",
+  "corruption_tests_rejected": 14,
+  "manifest_files_verified": 5,
+  "raw_arrays_committed": false,
+  "schema": "a303656-one-sided-strip-verification-v1",
+  "source_commit": "96b2398b683a5d43643f4127ed9a2519ef9f7067",
+  "verdict": "PASS"
+}

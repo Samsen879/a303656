@@ -1,0 +1,61 @@
+{
+  "classification": "PROVED_NEGATIVE_STRUCTURAL_THEOREM_PENDING_AUTHORITY_REVIEW",
+  "lemma_checks": [
+    {
+      "ord_p3": 18,
+      "p": 3,
+      "subgroup_size": 18,
+      "w": 2
+    },
+    {
+      "ord_p3": 294,
+      "p": 7,
+      "subgroup_size": 294,
+      "w": 6
+    },
+    {
+      "ord_p3": 605,
+      "p": 11,
+      "subgroup_size": 605,
+      "w": 5
+    },
+    {
+      "ord_p3": 3249,
+      "p": 19,
+      "subgroup_size": 3249,
+      "w": 9
+    },
+    {
+      "ord_p3": 2883,
+      "p": 31,
+      "subgroup_size": 2883,
+      "w": 3
+    },
+    {
+      "ord_p3": 77658,
+      "p": 43,
+      "subgroup_size": 77658,
+      "w": 42
+    }
+  ],
+  "schema": "a303656-regular-lift-theorem-audit-v1",
+  "scope": {
+    "anchors_used": [
+      0,
+      1
+    ],
+    "arbitrary_finite_regular_bad_prime_set": true,
+    "base5_nonregular_primes": "NOT COVERED",
+    "global_nonlocal_mechanisms": "NOT COVERED",
+    "universal_strip_target": "UNRESOLVED"
+  },
+  "small_complete_model": {
+    "cells_per_tuple": 252,
+    "maximum_covered": 186,
+    "minimum_uncovered": 66,
+    "period": 126,
+    "residue_tuples": 10584,
+    "status": "PASS_NO_COMPLETE_COVER"
+  },
+  "verdict": "PASS"
+}

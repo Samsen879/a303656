@@ -1,0 +1,12 @@
+{
+  "C": 0,
+  "PASS": true,
+  "cell_count": 1,
+  "covered_count": 1,
+  "global_modulus": 4,
+  "global_residue": 1,
+  "schema": "a303656-one-sided-periodic-certificate-v1",
+  "tail_period": 1,
+  "uncovered_count": 0,
+  "uncovered_prefix": []
+}

@@ -1,0 +1,52 @@
+{
+  "authority": {
+    "A303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "base_sha": "d8025c7020a1dca25d1fb32f42a1bbd4c072351d",
+    "base_tree": "00a4cea799b9b0c3c77f140b5c6ad576ffc53143",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "source_commit": "96b2398b683a5d43643f4127ed9a2519ef9f7067"
+  },
+  "files": [
+    {
+      "path": "REPORT.md",
+      "sha256": "f28d988b8acc1ce5bc633a66da371a9096f83124b7eabbc769c27df6d1d7b152",
+      "size_bytes": 6777
+    },
+    {
+      "path": "c0_mod4_control.json",
+      "sha256": "7a05c0218fb86d1b0ca9998cc65021336d7eda4c4bb05b057cdc9a7850f6e22d",
+      "size_bytes": 243
+    },
+    {
+      "path": "corruption_tests.json",
+      "sha256": "fa318bce2956cf73d3508a7abd1d068182ec93650523fdf0fc8765572a5a4165",
+      "size_bytes": 1181
+    },
+    {
+      "path": "finite_replay.json",
+      "sha256": "1e30fb43529afaf909b47e8749361174fc9b892332f381084d37cde25b8016f6",
+      "size_bytes": 2964
+    },
+    {
+      "path": "regular_lift_theorem_audit.json",
+      "sha256": "c624c4efdedd7b0ddbf4c04f62f9e239c61eb12b1c2031d017148fbd82491cc7",
+      "size_bytes": 1188
+    }
+  ],
+  "schema": "a303656-one-sided-strip-audit-manifest-v1",
+  "scope_guards": {
+    "authority_modified": false,
+    "domain": [
+      2,
+      100000000
+    ],
+    "interval_extension": "NOT EXECUTED",
+    "prime_pool_expansion": "NOT EXECUTED",
+    "raw_arrays_committed": false,
+    "wieferich_full_cover_research": "NOT EXECUTED"
+  },
+  "verdict": "PASS_NARROW_REPOSITORY_NATIVE_AUDIT"
+}

@@ -1,0 +1,64 @@
+{
+  "all_rejected": true,
+  "schema": "a303656-one-sided-strip-corruption-tests-v1",
+  "test_count": 14,
+  "tests": [
+    {
+      "name": "negative_C",
+      "rejected": true
+    },
+    {
+      "name": "unknown_top_field",
+      "rejected": true
+    },
+    {
+      "name": "two_adic_low_precision",
+      "rejected": true
+    },
+    {
+      "name": "destroy_complete_cover",
+      "rejected": true
+    },
+    {
+      "name": "composite_prime",
+      "rejected": true
+    },
+    {
+      "name": "wrong_prime_class",
+      "rejected": true
+    },
+    {
+      "name": "base_five_prime",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_prime",
+      "rejected": true
+    },
+    {
+      "name": "odd_prime_low_precision",
+      "rejected": true
+    },
+    {
+      "name": "even_valuation",
+      "rejected": true
+    },
+    {
+      "name": "valuation_above_precision",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_valuation",
+      "rejected": true
+    },
+    {
+      "name": "zero_at_precision_unresolved",
+      "rejected": true
+    },
+    {
+      "name": "empty_certificate_incomplete",
+      "rejected": true
+    }
+  ],
+  "valid_control_passed": true
+}

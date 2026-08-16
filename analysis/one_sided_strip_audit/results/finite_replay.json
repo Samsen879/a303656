@@ -1,0 +1,169 @@
+{
+  "C3_records": [
+    [
+      2,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      50,
+      2
+    ],
+    [
+      1465,
+      3
+    ],
+    [
+      10300,
+      4
+    ],
+    [
+      33670,
+      6
+    ],
+    [
+      101686,
+      8
+    ],
+    [
+      41068510,
+      10
+    ],
+    [
+      47708696,
+      13
+    ]
+  ],
+  "C5_records": [
+    [
+      2,
+      0
+    ],
+    [
+      16,
+      1
+    ],
+    [
+      386,
+      2
+    ],
+    [
+      3721,
+      3
+    ],
+    [
+      27290,
+      4
+    ],
+    [
+      211846,
+      5
+    ],
+    [
+      1187326,
+      6
+    ],
+    [
+      2565074,
+      8
+    ]
+  ],
+  "N": 100000000,
+  "arrays": {
+    "C3": {
+      "byte_for_byte_equal": true,
+      "method_a": "fe2691d609e905a4401b3cb41910ad13ab0b243d5e681854ea9938bce5fc6f97",
+      "method_b": "fe2691d609e905a4401b3cb41910ad13ab0b243d5e681854ea9938bce5fc6f97"
+    },
+    "C5": {
+      "byte_for_byte_equal": true,
+      "method_a": "cb9384050abc80b0f9bfecb6b65a4c7fe15ff68513ad17c32a0805fa5a7e1349",
+      "method_b": "cb9384050abc80b0f9bfecb6b65a4c7fe15ff68513ad17c32a0805fa5a7e1349"
+    },
+    "S2": {
+      "byte_for_byte_equal": true,
+      "method_a": "f9279e46942fb684a54f69c31b1c5e4ff28b4b1e9d70e3e0fd4a40ad05d50822",
+      "method_b": "f9279e46942fb684a54f69c31b1c5e4ff28b4b1e9d70e3e0fd4a40ad05d50822"
+    }
+  },
+  "claimed_point": {
+    "C3": 13,
+    "n": 47708696,
+    "smaller_c_pairs_checked": 143,
+    "status": "VERIFIED",
+    "witness": {
+      "a": 2988,
+      "b": 6098,
+      "c": 13,
+      "d": 4
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++20",
+        "-Wall",
+        "-Wextra",
+        "-pedantic",
+        "<repo>/analysis/one_sided_strip_audit/tools/method_b.cpp",
+        "-o",
+        "<scratch>/method_b"
+      ],
+      "return_code": 0,
+      "stdout": ""
+    },
+    {
+      "command": [
+        "<python>",
+        "<repo>/analysis/one_sided_strip_audit/tools/method_a.py",
+        "--N",
+        "100000000",
+        "--outdir",
+        "<scratch>"
+      ],
+      "return_code": 0,
+      "stdout": ""
+    },
+    {
+      "command": [
+        "<scratch>/method_b",
+        "100000000",
+        "<scratch>"
+      ],
+      "return_code": 0,
+      "stdout": ""
+    }
+  ],
+  "expected_crosscheck": {
+    "C3_hash": true,
+    "C3_records": true,
+    "C5_hash": true,
+    "C5_records": true,
+    "N": true,
+    "S2_hash": true,
+    "max_C3": true,
+    "max_C5": true,
+    "s2_count": true,
+    "uncovered_C3": true,
+    "uncovered_C5": true
+  },
+  "external_packet_sha256": "daf72d62fa3ab4c47cf771d47994fe368be292251c13ea46e86f809333b05a21",
+  "max_C3": 13,
+  "max_C5": 8,
+  "n_domain": [
+    2,
+    100000000
+  ],
+  "raw_arrays_committed": false,
+  "s2_count": 18457848,
+  "schema": "a303656-one-sided-strip-finite-replay-v1",
+  "source_commit": "96b2398b683a5d43643f4127ed9a2519ef9f7067",
+  "uncovered_C3": 0,
+  "uncovered_C5": 0,
+  "verdict": "PASS_EXACT_FINITE_DOMAIN_ONLY"
+}
