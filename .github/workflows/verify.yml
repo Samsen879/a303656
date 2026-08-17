@@ -26,4 +26,8 @@ jobs:
           mapfile -t roots < <(git rev-list --max-parents=0 HEAD)
           test "${#roots[@]}" -eq 1
           test "${roots[0]}" = "$SANITIZED_GENESIS"
-          test -z "$(git log --format='%ae%n%ce' | grep -Ev '@users\.noreply\.github\.com$' || true)"
+          identity_tip=HEAD
+          if test "$GITHUB_EVENT_NAME" = pull_request; then
+            identity_tip=HEAD^2
+          fi
+          test -z "$(git log "$identity_tip" --format='%ae%n%ce' | grep -Ev '@users\.noreply\.github\.com$' || true)"
