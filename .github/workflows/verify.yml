@@ -13,12 +13,17 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Verify frozen authority and public repository surface
         run: python3 scripts/verify_public_repository.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
-      - name: Verify sanitized commit identity
+      - name: Verify sanitized genesis and commit identities
         shell: bash
         run: |
-          test "$(git rev-list --count HEAD)" -eq 1
+          readonly SANITIZED_GENESIS=d8025c7020a1dca25d1fb32f42a1bbd4c072351d
+          mapfile -t roots < <(git rev-list --max-parents=0 HEAD)
+          test "${#roots[@]}" -eq 1
+          test "${roots[0]}" = "$SANITIZED_GENESIS"
           test -z "$(git log --format='%ae%n%ce' | grep -Ev '@users\.noreply\.github\.com$' || true)"
