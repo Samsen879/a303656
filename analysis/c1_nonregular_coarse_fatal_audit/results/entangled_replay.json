@@ -1,0 +1,13 @@
+{
+  "L": 7182,
+  "PASS": true,
+  "U": 18,
+  "a_3": 3,
+  "beta_3": 2,
+  "closed_formula_checks": 12960,
+  "complete_certificate_count": 0,
+  "expected_records_sha256": "bf6d55c505b3ba4b388b2407149e68caf6e07eda17263fdf4e96406124dc0906",
+  "records_sha256": "bf6d55c505b3ba4b388b2407149e68caf6e07eda17263fdf4e96406124dc0906",
+  "schema": "a303656-c1-entangled-replay-v1",
+  "systems": 120
+}

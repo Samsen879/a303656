@@ -1,0 +1,41 @@
+{
+  "artifact_class": "compact_repository_native_audit",
+  "base_sha": "9ae583fcaa7b0a46ed638d7ab25423b55e1a8f8d",
+  "base_tree": "86f5b202972981ab2d028c6613fa74f7f07eaa68",
+  "files": [
+    {
+      "bytes": 2498,
+      "path": "REPORT.md",
+      "sha256": "35c34c982151430b2a061d2dc92293c46c9ea5502d6bef624eb107be4a7cdd1a"
+    },
+    {
+      "bytes": 833,
+      "path": "audit_summary.json",
+      "sha256": "a9e1cbb70ff155a7cd0fe7ef6af2f5ee72e21aa2ccd8fcc54515d865c4269a16"
+    },
+    {
+      "bytes": 1349,
+      "path": "boundary_replay.json",
+      "sha256": "217b459aed291dae21e4cba5987909dbb8121fbade984f5687458f0aa633b827"
+    },
+    {
+      "bytes": 388,
+      "path": "entangled_replay.json",
+      "sha256": "b46a02dc833cc1b49001671042916b7d71cc7783dd03431bb6e6d10b2a3a1f69"
+    },
+    {
+      "bytes": 121,
+      "path": "two_adic_replay.json",
+      "sha256": "0071875f392b10f47d4915cc17fd2a4b879e14e97afaa0f9cca71349f48d58bf"
+    },
+    {
+      "bytes": 592,
+      "path": "verification_report.json",
+      "sha256": "4d8be7980436c763ec3733faa856b91e93d058551b774b493feec3bb9a207d53"
+    }
+  ],
+  "scope": "C=1 closed fatal-set formula and bounded beta_p>0 replay",
+  "source_commit": "b42ed4f266d73311da80d3e642e1347375ddecbb",
+  "source_tree": "a44e738b90aa6f1321d1ee0114b1db45b6776449",
+  "verdict": "PASS_WITH_STRICT_SCOPE"
+}

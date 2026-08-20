@@ -1,0 +1,13 @@
+{
+  "PASS": true,
+  "authority_validator": "PASS",
+  "base_sha": "9ae583fcaa7b0a46ed638d7ab25423b55e1a8f8d",
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s analysis/c1_nonregular_coarse_fatal_audit/tests -p test_*.py",
+    "PYTHONDONTWRITEBYTECODE=1 python3 analysis/c1_nonregular_coarse_fatal_audit/tools/replay.py --source-commit b42ed4f266d73311da80d3e642e1347375ddecbb --output-dir SCRATCH",
+    "python3 scripts/verify_public_repository.py"
+  ],
+  "source_commit": "b42ed4f266d73311da80d3e642e1347375ddecbb",
+  "tests_run": 10,
+  "tests_status": "PASS"
+}
