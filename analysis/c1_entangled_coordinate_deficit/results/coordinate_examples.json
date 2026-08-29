@@ -1,0 +1,63 @@
+{
+  "PASS": true,
+  "active_cover_relaxation": {
+    "assignments_checked": 3960,
+    "maximizers": 660,
+    "maximizers_sha256": "ee9d717d71fe688f891664e306711fd9a36127c0cee84462f03d5c24d931afc0",
+    "maximum": 290,
+    "period": 330,
+    "upper_bound_with_terminal_shell": [
+      301198,
+      342705
+    ]
+  },
+  "coordinate_succeeds_global_fails": {
+    "U": 145992330,
+    "global_mass": [
+      75169,
+      72633
+    ],
+    "hazards": {
+      "11": [
+        10,
+        11
+      ],
+      "3": [
+        2,
+        3
+      ],
+      "31": [
+        30,
+        31
+      ],
+      "71": [
+        70,
+        71
+      ]
+    },
+    "safe_coarse_class": 0
+  },
+  "dual_anchor_common_residue": {
+    "fatal_classes": {
+      "0": [
+        6528
+      ],
+      "1": [
+        2
+      ]
+    },
+    "p": 20771,
+    "r": 96315155
+  },
+  "global_succeeds_coordinate_fails": {
+    "coordinate_budget": [
+      1,
+      1
+    ],
+    "global_mass": [
+      25896,
+      114235
+    ],
+    "saturated_coordinate": 67
+  }
+}
