@@ -1,0 +1,15 @@
+{
+  "PASS": true,
+  "chain": true,
+  "coordinate_examples": true,
+  "implementation": "clean-room direct modular enumeration",
+  "imports_candidate_code": false,
+  "k2_boundary": true,
+  "old_wording_counterexample_reproduced": true,
+  "reference_active_cover_hash_match": true,
+  "reference_assignment_hash_match": true,
+  "schema": "a303656-c1-entangled-verification-v2",
+  "two_adic": true,
+  "unit_test_command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s analysis/c1_entangled_coordinate_deficit/tests -p test_*.py",
+  "unit_tests_expected": 11
+}

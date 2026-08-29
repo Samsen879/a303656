@@ -1,0 +1,33 @@
+{
+  "PASS": true,
+  "accepted_new_theorems": [
+    "boundary-corrected prime-coordinate strict-deficit criterion",
+    "necessary saturated odd-coordinate condition",
+    "beta-one saturation and lower-coordinate contraction lemma"
+  ],
+  "base_sha": "6f6611ce089d0f3378e191f55bffdb0caa4b83bc",
+  "base_tree": "ebfd4a6dcbcdb4f0e84f89a0c86ff40d13e538b2",
+  "boundary_repair": {
+    "cases": [
+      "no two-adic row",
+      "K_2=2 constant boundary",
+      "K_2>=3 genuine coordinate-two hazard"
+    ],
+    "old_wording_counterexample_reproduced": true
+  },
+  "input_zip_sha256": "8c300e869ebfa0a4a559e38d9667a469b3e352dd9b9dfbd9425ae200d55cb4e0",
+  "prior_dependencies_not_reclassified_as_new": [
+    "prime-power lifting geometry",
+    "exact entangled fatal normal form",
+    "coarse-to-full reverse CRT equivalence"
+  ],
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "schema": "a303656-c1-entangled-audit-summary-v2",
+  "status": {
+    "A303656": "UNRESOLVED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "PROJECT": "PAUSED"
+  },
+  "verdict": "ACCEPT_REPOSITORY_NATIVE_TARGETED_PARTIAL_ADVANCE"
+}

@@ -1,0 +1,173 @@
+{
+  "PASS": true,
+  "k2_equals_2_safe": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "K_2": 2,
+    "L": 55,
+    "Theta_c": [
+      0,
+      1
+    ],
+    "U": 5,
+    "a_11": 1,
+    "anchor": 0,
+    "beta_11": 0,
+    "constant_two_adic_safe": true,
+    "coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "corrected_criterion_hypothesis": true,
+    "direct_safe_count": 55,
+    "first_safe": 0,
+    "name": "K2=2 safe constant boundary",
+    "odd_coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "odd_fatal_count": 0,
+    "old_wording_hypothesis": true,
+    "p": 11,
+    "r": 0,
+    "r_2": 0,
+    "s_11": 1,
+    "t_2": 1,
+    "two_divides_U": false,
+    "w_11": 5
+  },
+  "k2_equals_2_unsafe": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "K_2": 2,
+    "L": 55,
+    "Theta_c": [
+      1,
+      1
+    ],
+    "U": 5,
+    "a_11": 1,
+    "anchor": 0,
+    "beta_11": 0,
+    "constant_two_adic_safe": false,
+    "coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "corrected_criterion_hypothesis": false,
+    "direct_safe_count": 0,
+    "first_safe": null,
+    "name": "K2=2 constant obstruction",
+    "odd_coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "odd_fatal_count": 0,
+    "old_wording_hypothesis": true,
+    "p": 11,
+    "r": 0,
+    "r_2": 1,
+    "s_11": 1,
+    "t_2": 1,
+    "two_divides_U": false,
+    "w_11": 5
+  },
+  "k2_equals_3_coordinate": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "K_2": 3,
+    "L": 110,
+    "Theta_c": [
+      1,
+      2
+    ],
+    "U": 10,
+    "a_11": 1,
+    "anchor": 0,
+    "beta_11": 0,
+    "constant_two_adic_safe": null,
+    "coordinate_hazards": {
+      "2": [
+        1,
+        2
+      ],
+      "5": [
+        0,
+        1
+      ]
+    },
+    "corrected_criterion_hypothesis": true,
+    "direct_safe_count": 55,
+    "first_safe": 1,
+    "name": "K2=3 coordinate-2 hazard",
+    "odd_coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "odd_fatal_count": 0,
+    "old_wording_hypothesis": true,
+    "p": 11,
+    "r": 0,
+    "r_2": 0,
+    "s_11": 1,
+    "t_2": 2,
+    "two_divides_U": true,
+    "w_11": 5
+  },
+  "no_two_adic_row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "K_2": null,
+    "L": 55,
+    "Theta_c": null,
+    "U": 5,
+    "a_11": 1,
+    "anchor": 0,
+    "beta_11": 0,
+    "constant_two_adic_safe": null,
+    "coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "corrected_criterion_hypothesis": true,
+    "direct_safe_count": 55,
+    "first_safe": 0,
+    "name": "no two-adic row",
+    "odd_coordinate_hazards": {
+      "5": [
+        0,
+        1
+      ]
+    },
+    "odd_fatal_count": 0,
+    "old_wording_hypothesis": true,
+    "p": 11,
+    "r": 0,
+    "r_2": null,
+    "s_11": 1,
+    "t_2": null,
+    "two_divides_U": false,
+    "w_11": 5
+  },
+  "old_wording_counterexample_reproduced": true
+}
