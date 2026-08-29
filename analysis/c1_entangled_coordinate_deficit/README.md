@@ -10,8 +10,10 @@ ACTIVE PROMOTED ROUTE: NONE
 A303656: UNRESOLVED
 ```
 
-The new result is a dependency-aware prime-coordinate deficit criterion.  It
-is accompanied by a necessary saturated odd-coordinate condition and an exact
+The new result is a dependency-aware, boundary-corrected prime-coordinate
+deficit criterion.  It separately treats an absent two-adic row, the constant
+`K_2=2` boundary, and the genuine coordinate-two hazard for `K_2>=3`.  It is
+accompanied by a necessary saturated odd-coordinate condition and an exact
 beta-one saturation/contraction example.  It is not a universal `C=1` no-go,
 a complete certificate, a representation theorem, or a route promotion.
 
@@ -36,4 +38,5 @@ python3 analysis/c1_entangled_coordinate_deficit/tools/verify.py \
 
 The verifier imports no candidate code.  It uses direct modular enumeration
 for the admitted `228470`-cell chain period, exact rational arithmetic for the
-coordinate examples, and square-residue sets for the two-adic replay.
+coordinate examples, direct full-period enumeration for the `K_2=2` boundary
+regressions, and square-residue sets for the two-adic replay.

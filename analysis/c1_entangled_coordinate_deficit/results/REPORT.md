@@ -9,10 +9,18 @@ ACTIVE PROMOTED ROUTE: NONE
 A303656: UNRESOLVED
 ```
 
-The independent audit accepts the prime-coordinate strict-deficit theorem,
-the necessary saturated odd-coordinate condition, and the beta-one aligned
-rigid-shell contraction lemma.  Lifting geometry, the fatal normal form, and
-reverse CRT are prior dependencies and are not counted as new results.
+The independent audit accepts the boundary-corrected prime-coordinate
+strict-deficit theorem, the re-audited necessary saturated odd-coordinate
+condition, and the beta-one aligned rigid-shell contraction lemma.  Lifting
+geometry, the fatal normal form, and reverse CRT are prior dependencies and
+are not counted as new results.
+
+The superseded coordinate-only wording failed when `K_2=2` and `2` did not
+divide `U`: an exact `p=11, r=0, r_2=1, c=0` replay has zero odd-coordinate
+hazard but no safe exponent modulo `L=55`.  The corrected theorem checks this
+constant boundary first, treats `K_2>=3` as a genuine coordinate-two hazard,
+and imposes no two-adic condition when the row is absent.  Four regression
+cases agree with direct full-period enumeration.
 
 The direct verifier reproduces `U=L=228470`, the chain witness partition
 `670+66+1`, diagnostic assignment SHA-256

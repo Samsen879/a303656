@@ -3,7 +3,7 @@
 ## PROVED
 
 - the order-dependency graph is strictly ascending and acyclic;
-- the prime-coordinate strict-deficit criterion;
+- the boundary-corrected prime-coordinate strict-deficit criterion;
 - the necessary saturated odd-coordinate condition;
 - the beta-one aligned-shell saturation and lower-coordinate contraction;
 - the common-residue minimum-valuation compatibility rule;
@@ -20,7 +20,9 @@ were already established on main and are not reclassified as new.
   incomparability in both directions;
 - the common-`r` dual-anchor sample;
 - the 3,960-case narrow active-cover relaxation;
-- direct square-residue verification through `K_2=10`.
+- direct square-residue verification through `K_2=10`;
+- the exact `K_2=2, 2 not dividing U` counterexample to the superseded
+  coordinate-only wording and four-case boundary regression replay.
 
 ## OBSERVATION
 
@@ -30,6 +32,10 @@ boundary.  This identifies a recursion mechanism but does not classify it.
 ## HEURISTIC
 
 No heuristic is used in the accepted theorem statements.
+
+The superseded T2 wording was not retained as proved: it omitted a constant
+two-adic obstruction when `K_2=2`.  The corrected theorem explicitly checks
+that boundary before genuine CRT-coordinate induction.
 
 ## UNKNOWN
 

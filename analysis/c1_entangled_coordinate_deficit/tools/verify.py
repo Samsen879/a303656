@@ -218,14 +218,128 @@ def verify_coordinate_examples() -> dict:
     }
 
 
+def two_square_residues(modulus: int) -> set[int]:
+    square_residues = {x * x % modulus for x in range(modulus)}
+    return {(x + y) % modulus for x in square_residues for y in square_residues}
+
+
+def two_adic_safe(precision: int, residue: int, anchor: int, exponent: int) -> bool:
+    modulus = 2**precision
+    value = (residue - 3**anchor - pow(5, exponent, modulus)) % modulus
+    return value in two_square_residues(modulus)
+
+
+def verify_k2_boundary() -> dict:
+    """Directly replay the constant K_2=2 boundary and adjacent cases."""
+    p, precision, residue, anchor = 11, 2, 0, 0
+    order = order_mod_5(p)
+    s_value = exact_s(p, order)
+    lift_power = max(0, precision - s_value)
+    odd_period = order * p**lift_power
+    if (order, s_value, lift_power, odd_period) != (5, 1, 1, 55):
+        raise AssertionError("K2 boundary odd-row arithmetic mismatch")
+
+    def replay_case(name: str, k2: int | None, r2: int | None) -> dict:
+        t2 = None if k2 is None else (1 if k2 == 2 else 2 ** (k2 - 2))
+        U = order if t2 is None else math.lcm(order, t2)
+        L = odd_period if t2 is None else math.lcm(odd_period, t2)
+        odd_fatal = [d for d in range(L) if fatal(p, residue, anchor, d)]
+        odd_coordinate_hazards = {"5": [0, 1]}
+
+        if k2 is None:
+            constant_safe: bool | None = None
+            theta: list[int] | None = None
+            coordinate_hazards = dict(odd_coordinate_hazards)
+            safe = [d for d in range(L) if d not in odd_fatal]
+            old_hypothesis = True
+            corrected_hypothesis = all(n < q for n, q in coordinate_hazards.values())
+        else:
+            assert r2 is not None and t2 is not None
+            safe_in_period = [
+                d for d in range(t2)
+                if two_adic_safe(k2, r2, anchor, d)
+            ]
+            theta_fraction = Fraction(t2 - len(safe_in_period), t2)
+            theta = [theta_fraction.numerator, theta_fraction.denominator]
+            constant_safe = (len(safe_in_period) == t2) if k2 == 2 else None
+            coordinate_hazards = dict(odd_coordinate_hazards)
+            if k2 >= 3:
+                coordinate_hazards["2"] = theta
+            safe = [
+                d for d in range(L)
+                if d not in odd_fatal and two_adic_safe(k2, r2, anchor, d)
+            ]
+            old_hypothesis = all(n < q for n, q in odd_coordinate_hazards.values())
+            boundary_ok = constant_safe if k2 == 2 else True
+            corrected_hypothesis = bool(boundary_ok) and all(
+                n < q for n, q in coordinate_hazards.values()
+            )
+
+        return {
+            "name": name,
+            "p": p,
+            "K": precision,
+            "r": residue,
+            "E": [1],
+            "anchor": anchor,
+            "K_2": k2,
+            "r_2": r2,
+            "w_11": order,
+            "s_11": s_value,
+            "a_11": lift_power,
+            "t_2": t2,
+            "U": U,
+            "L": L,
+            "beta_11": 0,
+            "two_divides_U": U % 2 == 0,
+            "odd_fatal_count": len(odd_fatal),
+            "odd_coordinate_hazards": odd_coordinate_hazards,
+            "constant_two_adic_safe": constant_safe,
+            "Theta_c": theta,
+            "coordinate_hazards": coordinate_hazards,
+            "old_wording_hypothesis": old_hypothesis,
+            "corrected_criterion_hypothesis": corrected_hypothesis,
+            "direct_safe_count": len(safe),
+            "first_safe": min(safe) if safe else None,
+        }
+
+    cases = {
+        "k2_equals_2_unsafe": replay_case("K2=2 constant obstruction", 2, 1),
+        "k2_equals_2_safe": replay_case("K2=2 safe constant boundary", 2, 0),
+        "k2_equals_3_coordinate": replay_case("K2=3 coordinate-2 hazard", 3, 0),
+        "no_two_adic_row": replay_case("no two-adic row", None, None),
+    }
+    bad = cases["k2_equals_2_unsafe"]
+    good = cases["k2_equals_2_safe"]
+    coordinate = cases["k2_equals_3_coordinate"]
+    absent = cases["no_two_adic_row"]
+    if not (
+        bad["old_wording_hypothesis"]
+        and not bad["constant_two_adic_safe"]
+        and not bad["corrected_criterion_hypothesis"]
+        and bad["direct_safe_count"] == 0
+        and good["constant_two_adic_safe"]
+        and good["corrected_criterion_hypothesis"]
+        and good["direct_safe_count"] == good["L"] == 55
+        and coordinate["two_divides_U"]
+        and coordinate["coordinate_hazards"]["2"] == [1, 2]
+        and coordinate["corrected_criterion_hypothesis"]
+        and coordinate["direct_safe_count"] == 55
+        and absent["constant_two_adic_safe"] is None
+        and absent["corrected_criterion_hypothesis"]
+        and absent["direct_safe_count"] == absent["L"] == 55
+    ):
+        raise AssertionError("K2 boundary replay mismatch")
+    return {**cases, "old_wording_counterexample_reproduced": True, "PASS": True}
+
+
 def verify_two_adic() -> dict:
     distributions: dict[str, dict[str, int]] = {}
     checks = 0
     for K in range(2, 11):
         modulus = 2**K
         period = 1 if K == 2 else 2 ** (K - 2)
-        square_residues = {x * x % modulus for x in range(modulus)}
-        sums = {(x + y) % modulus for x in square_residues for y in square_residues}
+        sums = two_square_residues(modulus)
         observed: dict[str, int] = {}
         for residue in range(modulus):
             counts = tuple(
@@ -269,7 +383,7 @@ def seal_results(output_dir: Path, names: list[str]) -> dict:
             "sha256": hashlib.sha256(payload).hexdigest(),
         })
     return {
-        "schema": "a303656-c1-entangled-results-manifest-v1",
+        "schema": "a303656-c1-entangled-results-manifest-v2",
         "artifact_class": "compact_repository_native_audit",
         "base_sha": BASE_SHA,
         "base_tree": BASE_TREE,
@@ -285,19 +399,30 @@ def main() -> None:
 
     chain = verify_chain()
     examples = verify_coordinate_examples()
+    k2_boundary = verify_k2_boundary()
     two_adic = verify_two_adic()
     audit_summary = {
-        "schema": "a303656-c1-entangled-audit-summary-v1",
+        "schema": "a303656-c1-entangled-audit-summary-v2",
         "repository": "Samsen879/a303656",
         "repository_id": 1333945235,
         "base_sha": BASE_SHA,
         "base_tree": BASE_TREE,
         "input_zip_sha256": INPUT_ZIP_SHA256,
         "accepted_new_theorems": [
-            "prime-coordinate strict-deficit criterion",
+            "boundary-corrected prime-coordinate strict-deficit criterion",
             "necessary saturated odd-coordinate condition",
             "beta-one saturation and lower-coordinate contraction lemma",
         ],
+        "boundary_repair": {
+            "old_wording_counterexample_reproduced": (
+                k2_boundary["old_wording_counterexample_reproduced"]
+            ),
+            "cases": [
+                "no two-adic row",
+                "K_2=2 constant boundary",
+                "K_2>=3 genuine coordinate-two hazard",
+            ],
+        },
         "prior_dependencies_not_reclassified_as_new": [
             "prime-power lifting geometry",
             "exact entangled fatal normal form",
@@ -312,11 +437,15 @@ def main() -> None:
         "PASS": True,
     }
     verification = {
-        "schema": "a303656-c1-entangled-verification-v1",
+        "schema": "a303656-c1-entangled-verification-v2",
         "implementation": "clean-room direct modular enumeration",
         "imports_candidate_code": False,
         "chain": chain["PASS"],
         "coordinate_examples": examples["PASS"],
+        "k2_boundary": k2_boundary["PASS"],
+        "old_wording_counterexample_reproduced": (
+            k2_boundary["old_wording_counterexample_reproduced"]
+        ),
         "two_adic": two_adic["PASS"],
         "reference_assignment_hash_match": (
             chain["assignment_sha256"]
@@ -330,13 +459,14 @@ def main() -> None:
             "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover "
             "-s analysis/c1_entangled_coordinate_deficit/tests -p test_*.py"
         ),
-        "unit_tests_expected": 7,
+        "unit_tests_expected": 11,
         "PASS": True,
     }
     records = {
         "audit_summary.json": audit_summary,
         "coordinate_examples.json": examples,
         "dependency_chain.json": chain,
+        "k2_boundary_replay.json": k2_boundary,
         "two_adic_replay.json": two_adic,
         "verification_report.json": verification,
     }
@@ -353,10 +483,18 @@ ACTIVE PROMOTED ROUTE: NONE
 A303656: UNRESOLVED
 ```
 
-The independent audit accepts the prime-coordinate strict-deficit theorem,
-the necessary saturated odd-coordinate condition, and the beta-one aligned
-rigid-shell contraction lemma.  Lifting geometry, the fatal normal form, and
-reverse CRT are prior dependencies and are not counted as new results.
+The independent audit accepts the boundary-corrected prime-coordinate
+strict-deficit theorem, the re-audited necessary saturated odd-coordinate
+condition, and the beta-one aligned rigid-shell contraction lemma.  Lifting
+geometry, the fatal normal form, and reverse CRT are prior dependencies and
+are not counted as new results.
+
+The superseded coordinate-only wording failed when `K_2=2` and `2` did not
+divide `U`: an exact `p=11, r=0, r_2=1, c=0` replay has zero odd-coordinate
+hazard but no safe exponent modulo `L=55`.  The corrected theorem checks this
+constant boundary first, treats `K_2>=3` as a genuine coordinate-two hazard,
+and imposes no two-adic condition when the row is absent.  Four regression
+cases agree with direct full-period enumeration.
 
 The direct verifier reproduces `U=L=228470`, the chain witness partition
 `670+66+1`, diagnostic assignment SHA-256
