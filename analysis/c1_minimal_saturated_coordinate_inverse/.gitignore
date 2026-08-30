@@ -1,0 +1,4 @@
+# Large deterministic catalogs are regenerated from frozen code and bounds.
+/results/arithmetic_inventory.json
+/results/fiber_template_catalog.json
+/results/rational_template_catalog.json
