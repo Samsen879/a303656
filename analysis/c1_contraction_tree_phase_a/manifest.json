@@ -1,0 +1,141 @@
+{
+  "authority": {
+    "main_sha": "29fee0317b268d2b2747f9564efc445fdd6da7f9",
+    "main_tree": "0f5c5acbd5b5d0bc3b24b06cdce70685d10dbd55",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 24,
+  "files": [
+    {
+      "path": "COUNTEREXAMPLES.md",
+      "sha256": "278e44be97111321302361d30c4a3ee543d78106fdd0f8016c09bbcaf965d0d5",
+      "size": 6266
+    },
+    {
+      "path": "DEFINITIONS.md",
+      "sha256": "dfe8fd8336e9c5a316a43844fc99a58070d00969a76c49218f65806407b2a6cb",
+      "size": 7583
+    },
+    {
+      "path": "PROOF_DEPENDENCIES.md",
+      "sha256": "d5da7e56f4e4eec360bd1bc6cb8ba14709d2adc046db10f0ebf31b830183672b",
+      "size": 4578
+    },
+    {
+      "path": "README.md",
+      "sha256": "c9d0c44558d98fa309b5f6ba8f02edf11aedf8ff7888e9c2001f6cb97710061e",
+      "size": 3752
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "5c5dd0b9f06d668e1dcea1793753ce4ceb91194693e7dfe0ad82efd67b205a4a",
+      "size": 7723
+    },
+    {
+      "path": "THEOREM_AUDIT.md",
+      "sha256": "5f33c9d1b56f4675ed6eeedd10af2398a59e0d378104fa0b6f2d89fac733f596",
+      "size": 10852
+    },
+    {
+      "path": "results/abstract_search.json",
+      "sha256": "2d65c6f9e986c14486ee2644de33af0615f7944428596061f0e302f0ac957d5a",
+      "size": 3270
+    },
+    {
+      "path": "results/aligned_misaligned_pair.json",
+      "sha256": "d74a227f53acfe260888cfec12325a16defd334bbce59531cac02a6581e77825",
+      "size": 2659
+    },
+    {
+      "path": "results/authority_binding.json",
+      "sha256": "1c2f1499c45b5b130d6b91e9a9fe9007f242965268e7cd157912875f54b788a3",
+      "size": 511
+    },
+    {
+      "path": "results/chain_replay.json",
+      "sha256": "d0dc155b35e1819a8b3ce5dfea1bcab333d4f29fda23d1defd7046c313f07367",
+      "size": 1436
+    },
+    {
+      "path": "results/dependency_recheck.json",
+      "sha256": "03ec82df024f1c113406996b8dfa23ba0cd390a45a637e9e52e9e316eaf51626",
+      "size": 1325
+    },
+    {
+      "path": "results/environment.json",
+      "sha256": "119e0c4f0e68c83a6cd02ad990a8cf53b26fc51ebf19e47a7ac849b3f0fdc3fe",
+      "size": 265
+    },
+    {
+      "path": "results/k2_boundary.json",
+      "sha256": "e12924efa8db324175ba0b108528ed29e959513e4f83eb5fa26b43f2731508ef",
+      "size": 1745
+    },
+    {
+      "path": "results/local_zero_corruption.json",
+      "sha256": "ef6329cddf8119a44ae8c8a11f7b74d50dc9d0e4954f13e6cd2593ff8b35888d",
+      "size": 571
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "ea5d222d3e57431620608fc3f509e9ae57f802c16296c9c5c4dc5afc67633f84",
+      "size": 1374
+    },
+    {
+      "path": "results/test_results.json",
+      "sha256": "4a9629cf3d1d6943300d7b82f3e82aa1de35747d75dd1ecb555a4d257ec1a137",
+      "size": 1544
+    },
+    {
+      "path": "results/two_anchor_two_adic_audit.json",
+      "sha256": "3b2eaafcf14156939bbbb55d3a274d69b949fff400da3470a7dad82bff0620b2",
+      "size": 16465
+    },
+    {
+      "path": "tests/test_arithmetic.py",
+      "sha256": "ebc8681669eb1ef2b397a0ee1af16e34c96ee0e3e322da71f7d208e12e9f9399",
+      "size": 5616
+    },
+    {
+      "path": "tests/test_contraction.py",
+      "sha256": "48a333caaa3567066723ef1cc3fe1d4a09d39bc839d9f8994bba8897448e9337",
+      "size": 3554
+    },
+    {
+      "path": "tools/contraction.py",
+      "sha256": "5d554e62c89606ee9d220563f327cfb63b2931c0d2b76db012023d1d6b687abb",
+      "size": 10452
+    },
+    {
+      "path": "tools/finalize.py",
+      "sha256": "694ad081f3e709dfdb6f8e4ce12d784691618db0bbaf4fb470f2a0a9002ba67a",
+      "size": 5000
+    },
+    {
+      "path": "tools/model.py",
+      "sha256": "843e77fa97866e4ed6e6ce0c8db6960253063c823295cb4d57747eafdd53eeae",
+      "size": 8282
+    },
+    {
+      "path": "tools/run_reference.py",
+      "sha256": "0bf1ab265f8b1bf68edeec528727581dfcd893e91014c16955d24235a6b47544",
+      "size": 16324
+    },
+    {
+      "path": "tools/run_tests.py",
+      "sha256": "8e38596bb5be6768d5e6af647ce648a6a0cf81e93214b95a4168775a93645e4e",
+      "size": 1887
+    }
+  ],
+  "generation": {
+    "archive_method": "ZIP_STORED",
+    "bytecode": "disabled",
+    "entry_order": "lexicographic POSIX path",
+    "permissions": "0644 files; 0755 tools/*.py",
+    "python_hash_seed": "0",
+    "timestamp": "1980-01-01T00:00:00"
+  },
+  "package": "A303656_C1_CONTRACTION_TREE_PHASE_A",
+  "schema": "a303656-deterministic-artifact-manifest-v1"
+}

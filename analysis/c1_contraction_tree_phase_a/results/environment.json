@@ -1,0 +1,8 @@
+{
+  "dependencies": "Python standard library only",
+  "executable": "/opt/pyvenv/bin/python3",
+  "hash_seed": "0",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+}

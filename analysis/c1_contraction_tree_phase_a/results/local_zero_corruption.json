@@ -1,0 +1,34 @@
+{
+  "PASS": true,
+  "anchor": 0,
+  "coarse_class": "d == 0 (mod 2)",
+  "correct_coarse_fatal": false,
+  "corrupted_zero_as_K_minus_1_coarse_fatal": true,
+  "full_period": 6,
+  "lifts": [
+    {
+      "d": 0,
+      "status": "zero",
+      "valuation": null
+    },
+    {
+      "d": 2,
+      "status": "fatal",
+      "valuation": 1
+    },
+    {
+      "d": 4,
+      "status": "fatal",
+      "valuation": 1
+    }
+  ],
+  "logical_point": "The unresolved local zero at d=0 prevents coarse fatality.",
+  "row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "p": 3,
+    "r": 2
+  }
+}
