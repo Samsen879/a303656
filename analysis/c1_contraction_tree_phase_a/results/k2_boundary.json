@@ -1,0 +1,81 @@
+{
+  "PASS": true,
+  "anchor": 0,
+  "cases": {
+    "K2_equals_2_safe": {
+      "K_2": 2,
+      "covered_count": 0,
+      "first_safe": 0,
+      "first_witness_counts": {
+        "p=11": 0,
+        "two_adic": 0
+      },
+      "local_zero_counts": {
+        "p=11": 0
+      },
+      "period": 55,
+      "r_2": 0,
+      "safe_count": 55,
+      "t_2": 1,
+      "witness_sha256": "02779466cdec163811d078815c633f21901413081449002f24aa3e80f0b88ef7"
+    },
+    "K2_equals_2_unsafe": {
+      "K_2": 2,
+      "covered_count": 55,
+      "first_safe": null,
+      "first_witness_counts": {
+        "p=11": 0,
+        "two_adic": 55
+      },
+      "local_zero_counts": {
+        "p=11": 0
+      },
+      "period": 55,
+      "r_2": 1,
+      "safe_count": 0,
+      "t_2": 1,
+      "witness_sha256": "a1262653abe523a2b0b5ce818c5f274ede7e09f921fbb14ff29ddf321ca95ea9"
+    },
+    "K2_equals_3_coordinate": {
+      "K_2": 3,
+      "covered_count": 55,
+      "first_safe": 1,
+      "first_witness_counts": {
+        "p=11": 0,
+        "two_adic": 55
+      },
+      "local_zero_counts": {
+        "p=11": 0
+      },
+      "period": 110,
+      "r_2": 0,
+      "safe_count": 55,
+      "t_2": 2,
+      "witness_sha256": "d5d434cefd86cccc7177a1ea708626f95250d602aac68e113f6ffc70dca9aa0c"
+    },
+    "no_two_adic_row": {
+      "K_2": null,
+      "covered_count": 0,
+      "first_safe": 0,
+      "first_witness_counts": {
+        "p=11": 0
+      },
+      "local_zero_counts": {
+        "p=11": 0
+      },
+      "period": 55,
+      "r_2": null,
+      "safe_count": 55,
+      "t_2": null,
+      "witness_sha256": "02779466cdec163811d078815c633f21901413081449002f24aa3e80f0b88ef7"
+    }
+  },
+  "odd_row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "p": 11,
+    "r": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "PASS": true,
+  "anchor": 1,
+  "cylinder_d_mod_310": {
+    "first_witness_counts": {
+      "p=11": 670,
+      "p=20771": 1,
+      "p=67": 66,
+      "safe": 0
+    },
+    "modulus": 310,
+    "point_count": 737,
+    "residue": 0,
+    "witness_sha256": "dfd3b6ab015ee75d567f90c16c702631ce315172c09402571926e21981b4d41c"
+  },
+  "full_period": {
+    "covered_count": 51772,
+    "first_safe": 1,
+    "first_witness_counts": {
+      "p=11": 41540,
+      "p=20771": 2,
+      "p=67": 10230
+    },
+    "local_zero_counts": {
+      "p=11": 4154,
+      "p=20771": 0,
+      "p=67": 155
+    },
+    "period": 228470,
+    "safe_count": 176698,
+    "witness_sha256": "27cc3b046bbc175168aa9a3a2d0603e8e52cca0d1b6efabe6d0d4ec82528f133"
+  },
+  "period": 228470,
+  "triangular_semantic_contraction": {
+    "depth": 2,
+    "initial_complete": true,
+    "levels": [
+      {
+        "already_lower_covered": 10,
+        "coordinate_index": 1,
+        "coordinate_size": 67,
+        "full_fiber_projection_count": 11,
+        "identity_verified": true,
+        "lower_point_count": 11,
+        "saturated_fiber_count": 1
+      },
+      {
+        "already_lower_covered": 0,
+        "coordinate_index": 0,
+        "coordinate_size": 11,
+        "full_fiber_projection_count": 1,
+        "identity_verified": true,
+        "lower_point_count": 1,
+        "saturated_fiber_count": 1
+      }
+    ],
+    "root_covered": true,
+    "sound_and_complete": true
+  }
+}

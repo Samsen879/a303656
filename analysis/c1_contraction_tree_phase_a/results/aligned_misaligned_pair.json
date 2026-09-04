@@ -1,0 +1,216 @@
+{
+  "PASS": true,
+  "U": 228470,
+  "aligned": {
+    "actual_union_density": [
+      1,
+      1
+    ],
+    "budget": [
+      1,
+      1
+    ],
+    "covered_count": 67,
+    "dynamic_fatal_digits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "dynamic_local_zero_digits": [
+      0
+    ],
+    "fiber_covered": true,
+    "rigid_digits": [
+      0
+    ],
+    "uncovered_digits": []
+  },
+  "aligned_rigid_row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "b": 0,
+    "r": 20775
+  },
+  "anchor": 1,
+  "contracted_lower_congruences_same": true,
+  "contracted_system": [
+    "d == 0 (mod 22)",
+    "d == 0 (mod 155)",
+    "equivalently d == 0 (mod 3410)"
+  ],
+  "dynamic_row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "r": 4
+  },
+  "logical_point": "The lower residual congruences do not encode the p-digit alignment; omitting the alignment check makes contraction unsound.",
+  "lower_modulus": 3410,
+  "misaligned": {
+    "actual_union_density": [
+      66,
+      67
+    ],
+    "budget": [
+      1,
+      1
+    ],
+    "covered_count": 66,
+    "dynamic_fatal_digits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66
+    ],
+    "dynamic_local_zero_digits": [
+      0
+    ],
+    "fiber_covered": false,
+    "rigid_digits": [
+      64
+    ],
+    "uncovered_digits": [
+      0
+    ]
+  },
+  "misaligned_rigid_row": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "b": 155,
+    "r": 360322407
+  },
+  "p": 67,
+  "q": 20771,
+  "w_p": 22,
+  "w_q": 10385
+}

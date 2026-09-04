@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "errors": [],
+  "expected_failures": [],
+  "failures": [],
+  "skipped": [],
+  "test_ids": [
+    "test_arithmetic.ArithmeticReferenceTests.test_aligned_and_misaligned_same_lower_residual",
+    "test_arithmetic.ArithmeticReferenceTests.test_chain_full_period_and_saturated_cylinder",
+    "test_arithmetic.ArithmeticReferenceTests.test_k2_boundaries",
+    "test_arithmetic.ArithmeticReferenceTests.test_lifting_formula_against_direct_orders",
+    "test_arithmetic.ArithmeticReferenceTests.test_local_zero_fail_closed_and_corruption",
+    "test_arithmetic.ArithmeticReferenceTests.test_reverse_crt_escape_equivalence_small_system",
+    "test_arithmetic.ArithmeticReferenceTests.test_two_anchor_two_adic_lemma_through_K10",
+    "test_contraction.ContractionReferenceTests.test_beta_two_requires_multiple_rigid_singletons",
+    "test_contraction.ContractionReferenceTests.test_branch_local_reuse_and_naive_nonconfluence",
+    "test_contraction.ContractionReferenceTests.test_chain_normal_form_tree",
+    "test_contraction.ContractionReferenceTests.test_density_saturation_is_not_coverage",
+    "test_contraction.ContractionReferenceTests.test_exact_cover_without_beta_one_pair",
+    "test_contraction.ContractionReferenceTests.test_semantic_contraction_soundness",
+    "test_contraction.ContractionReferenceTests.test_semantic_residual_need_not_be_single_admitted_shape",
+    "test_contraction.ContractionReferenceTests.test_universal_projection_order_invariance_exhaustive"
+  ],
+  "tests_run": 15,
+  "unexpected_successes": []
+}

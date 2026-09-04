@@ -1,0 +1,16 @@
+{
+  "binding_verified_externally_before_computation": true,
+  "github_modified": false,
+  "main_ref_verified_externally": true,
+  "main_sha": "29fee0317b268d2b2747f9564efc445fdd6da7f9",
+  "main_tree": "0f5c5acbd5b5d0bc3b24b06cdce70685d10dbd55",
+  "project_state": {
+    "A303656": "UNRESOLVED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "PROJECT": "PAUSED"
+  },
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_id_verified_externally": true,
+  "tree_verified_externally": true
+}
