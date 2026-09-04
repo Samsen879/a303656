@@ -191,6 +191,27 @@ def counterexamples() -> dict:
     }
     bad["counterexample_sha256"] = template_hash(bad)
 
+    # Strict mass excess is still only a budget statement.  Misaligning the
+    # rigid digit leaves the dynamic center branch uncovered.
+    strict_hole_events = [
+        dynamic_cells(3, 3, 3, (0, 2), 0),
+        cylinder_cells(3, 3, 1, 1),
+    ]
+    strict_hole = {
+        "name": "strict_budget_but_center_holes",
+        "l": 3,
+        "beta": 3,
+        "m": 3,
+        "rows": [
+            {"type": "dynamic", "accepted_j": [0, 2], "center": 0},
+            {"type": "rigid", "depth": 1, "residue": 1},
+        ],
+        "budget": fraction_record(sum((event_mass(e, 3, 3) for e in strict_hole_events), Fraction())),
+        "uncovered_cells": uncovered_cells(strict_hole_events, 27),
+        "multiplicity_histogram": multiplicity_histogram(strict_hole_events, 27),
+    }
+    strict_hole["counterexample_sha256"] = template_hash(strict_hole)
+
     rigid_events = [cylinder_cells(3, 1, 1, r) for r in range(3)]
     no_pair = {
         "name": "exact_cover_without_dynamic_beta_one_pair",
@@ -202,6 +223,45 @@ def counterexamples() -> dict:
         "row_minimal": row_minimal(rigid_events, 3),
     }
     no_pair["counterexample_sha256"] = template_hash(no_pair)
+
+    refined_center_events = [
+        dynamic_cells(3, 2, 1, (0,), 0),
+        *(cylinder_cells(3, 2, 2, residue) for residue in (0, 3, 6)),
+    ]
+    refined_center = {
+        "name": "exact_cover_by_proper_unresolved_center_refinement",
+        "l": 3,
+        "beta": 2,
+        "m": 1,
+        "rows": [
+            {"type": "dynamic", "accepted_j": [0], "center": 0},
+            *(
+                {"type": "rigid", "depth": 2, "residue": residue}
+                for residue in (0, 3, 6)
+            ),
+        ],
+        "budget": fraction_record(sum((event_mass(e, 3, 2) for e in refined_center_events), Fraction())),
+        "uncovered_cells": uncovered_cells(refined_center_events, 9),
+        "row_minimal": row_minimal(refined_center_events, 9),
+        "contains_depth_one_center_row": False,
+    }
+    refined_center["counterexample_sha256"] = template_hash(refined_center)
+
+    duplicate_rigid_events = [cylinder_cells(3, 1, 1, residue) for residue in (0, 0, 1)]
+    duplicate_rigid = {
+        "name": "rigid_mass_one_with_duplicate_and_hole",
+        "l": 3,
+        "beta": 1,
+        "rows": [
+            {"type": "rigid", "depth": 1, "residue": residue}
+            for residue in (0, 0, 1)
+        ],
+        "budget": fraction_record(sum((event_mass(e, 3, 1) for e in duplicate_rigid_events), Fraction())),
+        "uncovered_cells": uncovered_cells(duplicate_rigid_events, 3),
+        "row_minimal": row_minimal(duplicate_rigid_events, 3),
+        "multiplicity_histogram": multiplicity_histogram(duplicate_rigid_events, 3),
+    }
+    duplicate_rigid["counterexample_sha256"] = template_hash(duplicate_rigid)
 
     overlap_events = [dynamic_cells(3, 3, 3, (0, 2), 0), cylinder_cells(3, 3, 1, 0)]
     overlap = {
@@ -256,7 +316,10 @@ def counterexamples() -> dict:
 
     return {
         "budget_not_cover": bad,
+        "strict_budget_not_cover": strict_hole,
         "covered_without_beta_one_pair": no_pair,
+        "proper_unresolved_center_refinement": refined_center,
+        "duplicate_rigid_mass_not_cover": duplicate_rigid,
         "minimal_overlap": overlap,
         "lower_assignment_sensitivity": assignment_sensitive,
         "K2_separation": k2_guard,

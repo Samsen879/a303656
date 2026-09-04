@@ -40,7 +40,7 @@ This is not a complete `C=1` certificate, not a no-go theorem for all certificat
 - `results/` — generated machine-readable outputs; no generated JSON is hand-edited.
 - `manifest.json`, `SHA256SUMS.txt` — internal integrity data.
 
-The sealed test report records 26 passing tests.  The archive SHA-256 is emitted beside the ZIP so that the payload does not contain a self-referential checksum.
+The sealed test report records 31 passing tests.  The archive SHA-256 is emitted beside the ZIP so that the payload does not contain a self-referential checksum.
 
 ## Deterministic replay
 

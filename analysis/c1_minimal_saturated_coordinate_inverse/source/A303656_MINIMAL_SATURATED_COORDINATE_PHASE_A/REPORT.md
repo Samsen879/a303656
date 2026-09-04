@@ -163,15 +163,24 @@ Both anchors must share each row residue.  The exact common-residue congruence i
 
 The actual pair `(67,20771)` realizes the beta-one exact partition at anchor one after fixing `d==0 mod 3410`: `66+1`, no overlap, no holes.  The local zero of the 67-row fails closed and is covered by the 20771-row.
 
+A distinct shared-residue example, `r_67=2` and `r_20771=13471`, realizes
+exact `66+1` fibers at both anchors on lower assignments `2728 mod 3410` and
+`1639 mod 3410`.  This is positive pointwise compatibility only; it does not
+establish uniform lower-coordinate saturation or a complete certificate.
+
 ## 8. Adversarial results
 
 The package contains exact counterexamples to:
 
 - `budget>=1 => coverage`;
+- `strict budget excess => coverage`;
 - `exact cover => beta-one pair`;
+- `exact dynamic cover => depth-one centered rigid row`;
+- `rigid mass one => rigid union coverage`;
 - `row-minimal => exact partition`;
 - `one lower assignment => all lower assignments`;
 - `abstract template => arithmetic realization`;
+- `order-coordinate divisibility => admitted rigid row` (the `q=7` boundary);
 - `separate anchor realization => common-residue realization`;
 - mixing the constant `K_2=2` boundary into odd-coordinate induction;
 - a depth-independent finite literal template list.
@@ -220,7 +229,7 @@ The known prime `1645333507` is checked separately.  Bounded absence is not a th
 
 ## 10. Tests and hashes
 
-The deterministic suite contains exact-fraction, beta-one, beta-two, bounded brute-force, arithmetic, common-residue, independent `K_2=2`, local-zero, deterministic-ZIP, text-hygiene, and corruption fail-closed tests.  The sealed run executes **26 tests**, all passing.  Run:
+The deterministic suite contains exact-fraction, beta-one, beta-two, bounded brute-force, arithmetic, common-residue, independent `K_2=2`, local-zero, deterministic-ZIP, text-hygiene, and corruption fail-closed tests.  The sealed run executes **31 tests**, all passing.  Run:
 
 ```bash
 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 \

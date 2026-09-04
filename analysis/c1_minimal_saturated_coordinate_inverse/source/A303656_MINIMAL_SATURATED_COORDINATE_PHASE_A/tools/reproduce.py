@@ -130,6 +130,8 @@ def main() -> None:
         "arithmetic.universal_impossibility": arithmetic["feasibility"]["universal_impossibility_example"],
         "arithmetic.anchorwise_not_common": arithmetic["common_residue"]["separately_realizable_but_not_common"],
         "arithmetic.separate_anchor_beta_one_class_zero": arithmetic["separate_anchor_beta_one_class_zero"],
+        "arithmetic.actual_dual_anchor_beta_one": arithmetic["actual_dual_anchor_beta_one_realization"],
+        "arithmetic.unrealizable_q7_rigid_label": arithmetic["unrealizable_q7_rigid_label"],
         "boundary.K2_constant": arithmetic["k2_constant_boundary_replay"],
     }
     write_json(results / "counterexamples.json", {
@@ -139,6 +141,8 @@ def main() -> None:
             "universal_impossibility": arithmetic["feasibility"]["universal_impossibility_example"],
             "anchorwise_not_common": arithmetic["common_residue"]["separately_realizable_but_not_common"],
             "separate_anchor_beta_one_class_zero": arithmetic["separate_anchor_beta_one_class_zero"],
+            "actual_dual_anchor_beta_one": arithmetic["actual_dual_anchor_beta_one_realization"],
+            "unrealizable_q7_rigid_label": arithmetic["unrealizable_q7_rigid_label"],
             "bounded_depth_two_absence": arithmetic["feasibility"]["bounded_absence_warning"],
         },
         "boundary": {
@@ -162,6 +166,14 @@ def main() -> None:
             "fiber_multiplicity_at_most_two": fiber["theorem_checks"]["no_multiplicity_above_two"],
             "budget_equality_iff_no_overlap_tail": fiber["theorem_checks"]["exact_budget_iff_no_overlap_tail"],
             "actual_67_20771_beta_one": arithmetic["actual_beta_one_realization"]["exact_partition"],
+            "actual_67_20771_dual_anchor_pointwise": all(
+                row["dynamic_fatal_count"] == 66
+                and row["rigid_fatal_count"] == 1
+                and not row["uncovered_indices"]
+                and not row["overlap_indices"]
+                for row in arithmetic["actual_dual_anchor_beta_one_realization"]["anchors"].values()
+            ),
+            "q7_rigid_label_rejected": not arithmetic["unrealizable_q7_rigid_label"]["realizable"],
             "local_zero_fail_closed": arithmetic["actual_beta_one_realization"]["local_zero_fail_closed"],
             "K2_constant_boundary_replayed_and_separated": (
                 arithmetic["k2_constant_boundary_replay"]["direct_safe_count"] == 0

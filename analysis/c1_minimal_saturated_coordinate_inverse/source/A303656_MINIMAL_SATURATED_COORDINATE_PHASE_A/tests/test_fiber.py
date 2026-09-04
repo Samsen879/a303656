@@ -22,11 +22,28 @@ class FiberClassificationTests(unittest.TestCase):
         self.assertEqual(item["budget"]["text"], "1/1")
         self.assertEqual(item["uncovered_cells"], [0])
 
+    def test_strict_budget_can_still_leave_holes(self) -> None:
+        item = counterexamples()["strict_budget_not_cover"]
+        self.assertEqual(item["budget"]["text"], "29/27")
+        self.assertTrue(item["uncovered_cells"])
+
     def test_rigid_only_cover_without_beta_pair(self) -> None:
         item = counterexamples()["covered_without_beta_one_pair"]
         self.assertEqual(item["uncovered_cells"], [])
         self.assertTrue(item["row_minimal"])
         self.assertEqual(len(item["rows"]), 3)
+
+    def test_proper_unresolved_center_refinement(self) -> None:
+        item = counterexamples()["proper_unresolved_center_refinement"]
+        self.assertEqual(item["uncovered_cells"], [])
+        self.assertTrue(item["row_minimal"])
+        self.assertFalse(item["contains_depth_one_center_row"])
+
+    def test_duplicate_rigid_mass_is_not_union_coverage(self) -> None:
+        item = counterexamples()["duplicate_rigid_mass_not_cover"]
+        self.assertEqual(item["budget"]["text"], "1/1")
+        self.assertEqual(item["uncovered_cells"], [2])
+        self.assertFalse(item["row_minimal"])
 
     def test_admitted_overlap_tail(self) -> None:
         item = counterexamples()["minimal_overlap"]

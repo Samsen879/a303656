@@ -35,10 +35,17 @@ The large generated template catalogs are not duplicated in Git history. They ar
 The complete deterministic ZIP has SHA-256
 
 ```text
-4d1946a2fd9d7738d3cf7d5ef462f16b58f26c3f327fe25831a4accd389c925e
+55b5c08737780a11a4c9f8d74200834aa7a533702e6d0c5af03d3a0c3f52e72e
 ```
 
-and size `3,057,991` bytes with `32` entries. A fresh replay from the committed exact source template was verified byte-identical before integration.
+and size `3,077,002` bytes with `32` entries. A fresh replay from the committed exact source template was verified byte-identical before integration.
+
+This repaired synthesis keeps the PR #7 theorem package as its base and adds
+only independently replayed adversarial material from PR #9: strict excess
+with holes, proper unresolved-center refinement, duplicate rigid mass, the
+`q=7` rigid-label boundary, and one scoped dual-anchor common-residue example.
+It does not adopt PR #9's split-base64 transport or create a second competing
+theorem package.
 
 ## Fast verification
 
@@ -52,7 +59,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover \
   -p 'test_*.py'
 ```
 
-The sealed test report records `26` passing tests.
+The sealed test report records `31` passing tests.
 
 ## Full source replay
 

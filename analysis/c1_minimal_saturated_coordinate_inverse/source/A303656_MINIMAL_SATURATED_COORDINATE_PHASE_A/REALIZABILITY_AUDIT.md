@@ -59,6 +59,10 @@ Therefore every rigid fatal cylinder requires a base-5 nonregular prime
 q == 3 (mod 4), q != 5, s_q>=2.
 ```
 
+Order support alone is insufficient.  Although `ord_7(5)=6` contains the
+coordinate factor `3`, its lifting depth is `s_7=1`, so no positive odd
+`h<s_7` exists and `q=7` cannot supply an admitted rigid fatal cylinder.
+
 Conversely, for one anchor, any full exponent class `b mod w_q` and any odd `h<s_q` can be made rigid fatal by choosing
 
 ```text
@@ -140,6 +144,13 @@ c=1: (r_67,r_q)=(4,q+4).
 ```
 
 Both are exact `66+1` partitions.  They cannot be the two anchors of one common-residue system because both row residues disagree modulo their respective primes.  This remains a prescribed class-zero incompatibility, not a universal two-anchor no-go.
+
+There is also a positive pointwise compatibility example.  The single shared
+system `r_67=2`, `r_20771=13471` gives an exact `66+1` partition at anchor zero
+on lower assignment `2728 mod 3410`, and at anchor one on lower assignment
+`1639 mod 3410`.  The dynamic center is a fail-closed local zero in each fiber
+and the rigid row fills it.  Because the lower assignments differ, this proves
+neither uniform lower-coordinate saturation nor a complete certificate.
 
 ## 6. Both-anchor template compatibility
 

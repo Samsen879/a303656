@@ -8,11 +8,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 
 from arithmetic_realizability_checker import (
     actual_beta_one_67_20771,
+    actual_dual_anchor_beta_one_67_20771,
     common_residue_audit,
     k2_constant_boundary_replay,
     nonregular_record,
     scan_nonregular,
     separate_anchor_beta_one_class_zero,
+    unrealizable_q7_rigid_label,
 )
 
 
@@ -41,6 +43,27 @@ class ArithmeticTests(unittest.TestCase):
         self.assertEqual(record["rigid_fatal_count"], 1)
         self.assertTrue(record["exact_partition"])
         self.assertTrue(record["local_zero_fail_closed"])
+
+    def test_actual_dual_anchor_pointwise_partitions(self) -> None:
+        record = actual_dual_anchor_beta_one_67_20771()
+        self.assertEqual(record["dynamic_residue"], 2)
+        self.assertEqual(record["rigid_residue"], 13471)
+        self.assertEqual(
+            [record["anchors"][str(c)]["lower_assignment_mod_3410"] for c in (0, 1)],
+            [2728, 1639],
+        )
+        for anchor in record["anchors"].values():
+            self.assertEqual(anchor["dynamic_fatal_count"], 66)
+            self.assertEqual(anchor["rigid_fatal_count"], 1)
+            self.assertEqual(anchor["uncovered_indices"], [])
+            self.assertEqual(anchor["overlap_indices"], [])
+            self.assertTrue(anchor["local_zero_fail_closed"])
+
+    def test_q7_rigid_label_is_not_admitted(self) -> None:
+        record = unrealizable_q7_rigid_label()
+        self.assertEqual((record["w_q"], record["s_q"]), (6, 1))
+        self.assertFalse(record["positive_odd_h_below_s_exists"])
+        self.assertFalse(record["realizable"])
 
     def test_common_residue_compatibility(self) -> None:
         audit = common_residue_audit()

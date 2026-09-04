@@ -168,6 +168,111 @@ def actual_beta_one_67_20771() -> dict:
     return record
 
 
+def actual_dual_anchor_beta_one_67_20771() -> dict:
+    """Replay one common-residue system on one fiber at each anchor.
+
+    The two fibers use different lower-coordinate assignments.  This is a
+    positive compatibility example, not uniform lower-class saturation and
+    not a complete certificate.
+    """
+    l, q = 67, 20771
+    r_l, r_q = 2, 13471
+    lower_modulus = 3410
+    full_period = 228470
+    lower_assignments = {0: 2728, 1: 1639}
+    expected_active_logs = {
+        0: {"dynamic": 0, "rigid": 8308},
+        1: {"dynamic": 11, "rigid": 7839},
+    }
+
+    def active_log(p: int, residue: int, anchor: int) -> int | None:
+        order = order_mod_prime(5, p)
+        target = (residue - 3**anchor) % p
+        for exponent in range(order):
+            if pow(5, exponent, p) == target:
+                return exponent
+        return None
+
+    anchors: dict[str, dict] = {}
+    assignment = bytearray()
+    for anchor in (0, 1):
+        dynamic_log = active_log(l, r_l, anchor)
+        rigid_log = active_log(q, r_q, anchor)
+        expected = expected_active_logs[anchor]
+        if dynamic_log != expected["dynamic"] or rigid_log != expected["rigid"]:
+            raise AssertionError("dual-anchor active-log mismatch")
+
+        lower = lower_assignments[anchor]
+        if lower % order_mod_prime(5, l) != dynamic_log:
+            raise AssertionError("dynamic lower-coordinate assignment mismatch")
+        if lower % (order_mod_prime(5, q) // l) != rigid_log % (order_mod_prime(5, q) // l):
+            raise AssertionError("rigid lower-coordinate assignment mismatch")
+
+        exponents = [(lower + lower_modulus * t) % full_period for t in range(l)]
+        dynamic = [fatal_at_precision_two(l, r_l, anchor, d) for d in exponents]
+        rigid = [fatal_at_precision_two(q, r_q, anchor, d) for d in exponents]
+        holes = [i for i, flags in enumerate(zip(dynamic, rigid)) if not any(flags)]
+        overlaps = [i for i, flags in enumerate(zip(dynamic, rigid)) if all(flags)]
+        center_indices = [i for i, flag in enumerate(dynamic) if not flag]
+        local_zero_fail_closed = (
+            len(center_indices) == 1
+            and rigid[center_indices[0]]
+            and clipped_valuation(
+                r_l - 3**anchor - pow(5, exponents[center_indices[0]], l * l),
+                l,
+                2,
+            ) is None
+        )
+        if holes or overlaps or sum(dynamic) != 66 or sum(rigid) != 1 or not local_zero_fail_closed:
+            raise AssertionError("dual-anchor fiber is not an exact fail-closed 66+1 partition")
+        assignment.extend(0 if a else 1 if b else 2 for a, b in zip(dynamic, rigid))
+        anchors[str(anchor)] = {
+            "lower_assignment_mod_3410": lower,
+            "dynamic_active_log": dynamic_log,
+            "rigid_active_log": rigid_log,
+            "dynamic_fatal_count": sum(dynamic),
+            "rigid_fatal_count": sum(rigid),
+            "uncovered_indices": holes,
+            "overlap_indices": overlaps,
+            "local_zero_fail_closed": local_zero_fail_closed,
+        }
+
+    record = {
+        "name": "one common-residue system with one exact beta-one fiber at each anchor",
+        "l": l,
+        "q": q,
+        "dynamic_residue": r_l,
+        "rigid_residue": r_q,
+        "lower_modulus": lower_modulus,
+        "full_period": full_period,
+        "anchors": anchors,
+        "assignment_sha256": hashlib.sha256(assignment).hexdigest(),
+        "scope": "Positive pointwise compatibility only: the anchor-dependent fibers do not establish uniform lower-coordinate saturation or a complete certificate.",
+    }
+    record["record_sha256"] = template_hash(record)
+    return record
+
+
+def unrealizable_q7_rigid_label() -> dict:
+    q = 7
+    w = order_mod_prime(5, q)
+    s = exact_lifting_depth(5, q, w)
+    record = {
+        "name": "q=7 cannot supply a positive odd rigid valuation",
+        "abstract_request": {"coordinate_l": 3, "depth": 1, "rigid_prime_q": q},
+        "w_q": w,
+        "s_q": s,
+        "order_factorization": {str(p): e for p, e in sorted(factor(w).items())},
+        "positive_odd_h_below_s_exists": any(h % 2 == 1 for h in range(1, s)),
+        "realizable": False,
+        "reason": "Although 3 divides ord_7(5)=6, s_7=1 leaves no positive odd h<s_7.",
+    }
+    if (w, s, record["positive_odd_h_below_s_exists"]) != (6, 1, False):
+        raise AssertionError("q=7 rigid-label boundary changed")
+    record["record_sha256"] = template_hash(record)
+    return record
+
+
 def separate_anchor_beta_one_class_zero() -> dict:
     """Two exact one-anchor beta-one fibers with prescribed class zero.
 
@@ -363,10 +468,12 @@ def build_result(bound: int, searched_primes_output: Path) -> dict:
         },
         "known_panel": known,
         "actual_beta_one_realization": actual_beta_one_67_20771(),
+        "actual_dual_anchor_beta_one_realization": actual_dual_anchor_beta_one_67_20771(),
         "separate_anchor_beta_one_class_zero": separate_anchor_beta_one_class_zero(),
         "common_residue": common_residue_audit(),
         "k2_constant_boundary_replay": k2_constant_boundary_replay(),
         "feasibility": feasibility_summary(found, known, bound),
+        "unrealizable_q7_rigid_label": unrealizable_q7_rigid_label(),
         "local_zero_policy": "A value zero modulo p^K has clipped valuation None and is never accepted; the actual 67/20771 fiber test checks the dynamic center is covered only by the rigid row.",
         "both_anchor_policy": "Anchorwise cylinder choices are not independent: every row must pass the exact common-residue congruence before a two-anchor template is called realizable.",
         "PASS": True,
