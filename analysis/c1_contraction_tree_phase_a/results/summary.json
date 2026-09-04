@@ -1,0 +1,35 @@
+{
+  "PASS": true,
+  "checks": {
+    "abstract_search.json": true,
+    "aligned_misaligned_pair.json": true,
+    "authority_binding.json": true,
+    "chain_replay.json": true,
+    "dependency_recheck.json": true,
+    "environment.json": true,
+    "k2_boundary.json": true,
+    "local_zero_corruption.json": true,
+    "two_anchor_two_adic_audit.json": true
+  },
+  "explicit_actual_arithmetic_defect": "67/20771 misaligned rigid digit: budget 1, union 66/67",
+  "final_verdict": "TARGETED PARTIAL ADVANCE",
+  "forbidden_claims_not_made": [
+    "UNIVERSAL C=1 NO-GO",
+    "COMPLETE CERTIFICATE",
+    "A303656 SOLVED"
+  ],
+  "main_candidate_strong_reading": "not established; completeness alone does not imply aligned/admitted-class contraction",
+  "missing_structural_hypothesis": "hereditary exact shell decomposability with branch-local reuse and admitted residual closure",
+  "outcome": "Outcome C plus an unconditional semantic contraction theorem",
+  "project_state": {
+    "A303656": "UNRESOLVED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "PROJECT": "PAUSED"
+  },
+  "semantic_tree_reading": "proved for every finite triangular coarse cover",
+  "smallest_abstract_normal_form_counterexamples": {
+    "beta_two_multiple_shell_coordinate_size": 9,
+    "density_saturation_without_coverage_coordinate_size": 3,
+    "exact_cover_without_beta_one_pair_coordinate_size": 3
+  }
+}

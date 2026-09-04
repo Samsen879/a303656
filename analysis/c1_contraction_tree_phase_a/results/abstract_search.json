@@ -1,0 +1,151 @@
+{
+  "PASS": true,
+  "beta_two_multiple_shell_cover": {
+    "beta": 2,
+    "coordinate_size": 9,
+    "covered": true,
+    "dynamic_shell": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8
+    ],
+    "p": 3,
+    "rigid_count": 3,
+    "rigid_singletons_required": [
+      0,
+      3,
+      6
+    ],
+    "single_rigid_closes_center": false,
+    "unresolved_center_cylinder": [
+      0,
+      3,
+      6
+    ]
+  },
+  "branch_local_reuse_and_naive_nonconfluence": {
+    "both_naive_results_incomplete": true,
+    "branch_local_residual": [
+      0,
+      1
+    ],
+    "naive_global_consume_R0_then_R1": [
+      0
+    ],
+    "naive_global_consume_R1_then_R0": [
+      1
+    ],
+    "naive_results_equal": false,
+    "original_complete": true,
+    "semantic_trace": {
+      "depth": 2,
+      "initial_complete": true,
+      "levels": [
+        {
+          "already_lower_covered": 0,
+          "coordinate_index": 1,
+          "coordinate_size": 3,
+          "full_fiber_projection_count": 2,
+          "identity_verified": true,
+          "lower_point_count": 2,
+          "saturated_fiber_count": 2
+        },
+        {
+          "already_lower_covered": 0,
+          "coordinate_index": 0,
+          "coordinate_size": 2,
+          "full_fiber_projection_count": 1,
+          "identity_verified": true,
+          "lower_point_count": 1,
+          "saturated_fiber_count": 1
+        }
+      ],
+      "root_covered": true,
+      "sound_and_complete": true
+    }
+  },
+  "density_saturation_without_coverage": {
+    "budget": [
+      1,
+      1
+    ],
+    "coordinate_size": 3,
+    "covered_digits": [
+      1,
+      2
+    ],
+    "dynamic_center": 0,
+    "dynamic_fatal_digits": [
+      1,
+      2
+    ],
+    "minimal_in_search_grammar": true,
+    "rigid_digit": 1,
+    "uncovered_digits": [
+      0
+    ]
+  },
+  "exact_cover_without_beta_one_pair": {
+    "coordinate_size": 3,
+    "dynamic_center": null,
+    "event_count": 3,
+    "minimal_in_search_grammar": true,
+    "rigid_digits": [
+      0,
+      1,
+      2
+    ]
+  },
+  "semantic_residual_nonclosure_example": {
+    "logical_point": "The exact macro-predicate is a lower-coordinate subset, but not a single rigid singleton or beta-one dynamic shell in this grammar.",
+    "parent_moduli": [
+      5,
+      3
+    ],
+    "residual_is_beta_one_complement": false,
+    "residual_is_singleton": false,
+    "saturated_lower_residues": [
+      0,
+      2
+    ],
+    "semantic_identity": {
+      "already_lower_covered": 0,
+      "coordinate_index": 1,
+      "coordinate_size": 3,
+      "full_fiber_projection_count": 2,
+      "identity_verified": true,
+      "lower_point_count": 5,
+      "saturated_fiber_count": 2
+    }
+  },
+  "simultaneous_anchor_terminal_conflict": {
+    "anchor_0_required_terminal_residue": 0,
+    "anchor_1_required_terminal_residue": 1,
+    "classification": "abstract coupling countermodel, not an arithmetic complete certificate",
+    "common_terminal_residue_exists": false,
+    "each_fixed_anchor_tree_can_close": true
+  },
+  "universal_projection_order_invariance": {
+    "PASS": true,
+    "kept_coordinate": 0,
+    "moduli": [
+      2,
+      3,
+      2
+    ],
+    "orders": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "subsets_checked": 4096
+  }
+}
