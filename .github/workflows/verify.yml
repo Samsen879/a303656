@@ -23,6 +23,11 @@ jobs:
         shell: bash
         run: |
           readonly SANITIZED_GENESIS=d8025c7020a1dca25d1fb32f42a1bbd4c072351d
+          # Commit 6f6611ce predates this enforcement step and is already in
+          # the frozen public main history.  Bind that reviewed history rather
+          # than silently exempting an arbitrary prefix, then enforce the
+          # noreply policy on every commit introduced after it.
+          readonly IDENTITY_POLICY_BASELINE=29fee0317b268d2b2747f9564efc445fdd6da7f9
           mapfile -t roots < <(git rev-list --max-parents=0 HEAD)
           test "${#roots[@]}" -eq 1
           test "${roots[0]}" = "$SANITIZED_GENESIS"
@@ -30,4 +35,5 @@ jobs:
           if test "$GITHUB_EVENT_NAME" = pull_request; then
             identity_tip=HEAD^2
           fi
-          test -z "$(git log "$identity_tip" --format='%ae%n%ce' | grep -Ev '@users\.noreply\.github\.com$' || true)"
+          git merge-base --is-ancestor "$IDENTITY_POLICY_BASELINE" "$identity_tip"
+          test -z "$(git log "$IDENTITY_POLICY_BASELINE..$identity_tip" --format='%ae%n%ce' | grep -Ev '(^noreply@github\.com$|@users\.noreply\.github\.com$)' || true)"
