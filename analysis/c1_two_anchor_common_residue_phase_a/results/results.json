@@ -1,0 +1,758 @@
+{
+  "PASS": true,
+  "authority": {
+    "main_sha": "1100eb5ba01d90e5b1001be0bdfa464860fdbb92",
+    "main_tree": "ad1269916bf420c564e34887a96c808033fe538b",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "state": {
+      "A303656": "UNRESOLVED",
+      "ACTIVE_PROMOTED_ROUTE": "NONE",
+      "PROJECT": "PAUSED"
+    }
+  },
+  "direct_repository_example": {
+    "all_lower_assignments": {
+      "joint_hole_histogram": [
+        {
+          "anchor_0_holes": 0,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 1,
+          "anchor_1_holes": 66,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 1,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 153
+        },
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 1,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 20
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 0,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 1,
+          "lower_assignment_count": 153
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 66,
+          "lower_assignment_count": 20
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 3060
+        }
+      ],
+      "joint_hole_histogram_sha256": "edeb0a193b9caadcd9855718ca54c846fb7088ba7ed84e81819aac632d146b59",
+      "minimizers": [
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 1,
+          "lower_assignment_mod_3410": 1023
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 0,
+          "lower_assignment_mod_3410": 1639
+        },
+        {
+          "anchor_0_holes": 0,
+          "anchor_1_holes": 67,
+          "lower_assignment_mod_3410": 2728
+        },
+        {
+          "anchor_0_holes": 1,
+          "anchor_1_holes": 66,
+          "lower_assignment_mod_3410": 3344
+        }
+      ],
+      "minimum_total_holes_over_common_lower_assignment": 67,
+      "saturated_lower_assignments": {
+        "anchor_0": [
+          2728
+        ],
+        "anchor_1": [
+          1639
+        ],
+        "intersection": []
+      }
+    },
+    "full_period": {
+      "both_anchors_covered_at_same_exponent_count": 0,
+      "exponents_not_jointly_covered_count": 228470,
+      "is_complete_two_anchor_certificate": false,
+      "per_anchor": {
+        "0": {
+          "covered_count": 10252,
+          "dynamic_fatal_count": 10230,
+          "overlap_count": 0,
+          "rigid_fatal_count": 22,
+          "safe_count": 218218
+        },
+        "1": {
+          "covered_count": 10252,
+          "dynamic_fatal_count": 10230,
+          "overlap_count": 0,
+          "rigid_fatal_count": 22,
+          "safe_count": 218218
+        }
+      }
+    },
+    "level_classification": {
+      "anchor_uniform_joint_contraction": false,
+      "complete_two_anchor_certificate": false,
+      "lower_uniform_saturation": false,
+      "pointwise_exact_fiber_at_each_anchor": true,
+      "same_lower_assignment_full_fiber": false
+    },
+    "name": "repository shared-residue pointwise example",
+    "pointwise_witness_anchor_0": {
+      "anchor": 0,
+      "dynamic_fatal_count": 66,
+      "dynamic_nonfatal_indices": [
+        26
+      ],
+      "exact_66_plus_1_partition": true,
+      "hole_count": 0,
+      "hole_indices": [],
+      "local_zero_fail_closed": true,
+      "lower_assignment_mod_3410": 2728,
+      "overlap_count": 0,
+      "overlap_indices": [],
+      "rigid_fatal_count": 1,
+      "rigid_indices": [
+        26
+      ]
+    },
+    "pointwise_witness_anchor_1": {
+      "anchor": 1,
+      "dynamic_fatal_count": 66,
+      "dynamic_nonfatal_indices": [
+        14
+      ],
+      "exact_66_plus_1_partition": true,
+      "hole_count": 0,
+      "hole_indices": [],
+      "local_zero_fail_closed": true,
+      "lower_assignment_mod_3410": 1639,
+      "overlap_count": 0,
+      "overlap_indices": [],
+      "rigid_fatal_count": 1,
+      "rigid_indices": [
+        14
+      ]
+    },
+    "r_20771_mod_20771_squared": 13471,
+    "r_67_mod_67_squared": 2,
+    "record_sha256": "ce25ea8fdf61b49771a51dda74ede94ba79695dfdb0a785f26c2dd5dd4667477"
+  },
+  "dynamic_common_residue_classification": {
+    "distinct_shared_r_67_count": 603,
+    "mod_67_compatibility_classes": [
+      {
+        "anchor_0_log_mod_22": 11,
+        "anchor_1_log_mod_22": 18,
+        "r_p_mod_p": 0
+      },
+      {
+        "anchor_0_log_mod_22": 0,
+        "anchor_1_log_mod_22": 11,
+        "r_p_mod_p": 2
+      },
+      {
+        "anchor_0_log_mod_22": 7,
+        "anchor_1_log_mod_22": 0,
+        "r_p_mod_p": 4
+      },
+      {
+        "anchor_0_log_mod_22": 1,
+        "anchor_1_log_mod_22": 7,
+        "r_p_mod_p": 6
+      },
+      {
+        "anchor_0_log_mod_22": 16,
+        "anchor_1_log_mod_22": 4,
+        "r_p_mod_p": 25
+      },
+      {
+        "anchor_0_log_mod_22": 21,
+        "anchor_1_log_mod_22": 2,
+        "r_p_mod_p": 28
+      },
+      {
+        "anchor_0_log_mod_22": 13,
+        "anchor_1_log_mod_22": 10,
+        "r_p_mod_p": 43
+      },
+      {
+        "anchor_0_log_mod_22": 15,
+        "anchor_1_log_mod_22": 5,
+        "r_p_mod_p": 46
+      },
+      {
+        "anchor_0_log_mod_22": 18,
+        "anchor_1_log_mod_22": 12,
+        "r_p_mod_p": 65
+      }
+    ],
+    "pair_count_mod_67_squared": 603,
+    "records_sha256": "43af0537d143df3b55576d908db92ec2560e6f2eb98c4a3ebfb422ecdad9767b",
+    "same_lower_class_mod_22_count": 0
+  },
+  "exhaustive_fixed_pair_pointwise_classification": {
+    "aligned_dynamic_rigid_class_combinations": 693,
+    "first_20_joined_records": [
+      {
+        "a0": 0,
+        "a1": 737,
+        "b0": 8308,
+        "b1": 7839,
+        "excluded_local_zero_lifts": [
+          12424,
+          13809
+        ],
+        "lower_y0_mod_3410": 2728,
+        "lower_y1_mod_3410": 1639,
+        "r_p_mod_p2": 2,
+        "r_q_mod_q": 13471,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 1,
+        "a1": 51,
+        "b0": 1743,
+        "b1": 654,
+        "excluded_local_zero_lifts": [
+          7080,
+          14773
+        ],
+        "lower_y0_mod_3410": 1123,
+        "lower_y1_mod_3410": 2669,
+        "r_p_mod_p2": 6,
+        "r_q_mod_q": 11166,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 1,
+        "a1": 51,
+        "b0": 7706,
+        "b1": 5947,
+        "excluded_local_zero_lifts": [
+          7458,
+          15176
+        ],
+        "lower_y0_mod_3410": 111,
+        "lower_y1_mod_3410": 2537,
+        "r_p_mod_p2": 6,
+        "r_q_mod_q": 9425,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 7,
+        "a1": 1342,
+        "b0": 2754,
+        "b1": 9181,
+        "excluded_local_zero_lifts": [
+          1023,
+          2692
+        ],
+        "lower_y0_mod_3410": 3219,
+        "lower_y1_mod_3410": 1276,
+        "r_p_mod_p2": 1813,
+        "r_q_mod_q": 3879,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 7,
+        "a1": 1342,
+        "b0": 10124,
+        "b1": 8913,
+        "excluded_local_zero_lifts": [
+          7252,
+          18293
+        ],
+        "lower_y0_mod_3410": 359,
+        "lower_y1_mod_3410": 1628,
+        "r_p_mod_p2": 1813,
+        "r_q_mod_q": 18227,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 16,
+        "a1": 356,
+        "b0": 1155,
+        "b1": 2634,
+        "excluded_local_zero_lifts": [
+          13430,
+          20745
+        ],
+        "lower_y0_mod_3410": 1930,
+        "lower_y1_mod_3410": 774,
+        "r_p_mod_p2": 2236,
+        "r_q_mod_q": 2324,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 16,
+        "a1": 356,
+        "b0": 6180,
+        "b1": 825,
+        "excluded_local_zero_lifts": [
+          2335,
+          19851
+        ],
+        "lower_y0_mod_3410": 2150,
+        "lower_y1_mod_3410": 3150,
+        "r_p_mod_p2": 2236,
+        "r_q_mod_q": 19584,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 18,
+        "a1": 276,
+        "b0": 5579,
+        "b1": 2956,
+        "excluded_local_zero_lifts": [
+          13084,
+          19121
+        ],
+        "lower_y0_mod_3410": 2944,
+        "lower_y1_mod_3410": 166,
+        "r_p_mod_p2": 2008,
+        "r_q_mod_q": 14627,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 21,
+        "a1": 508,
+        "b0": 3974,
+        "b1": 6538,
+        "excluded_local_zero_lifts": [
+          811,
+          2767
+        ],
+        "lower_y0_mod_3410": 1649,
+        "lower_y1_mod_3410": 2818,
+        "r_p_mod_p2": 3981,
+        "r_q_mod_q": 4804,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 21,
+        "a1": 508,
+        "b0": 5783,
+        "b1": 6873,
+        "excluded_local_zero_lifts": [
+          1368,
+          1808
+        ],
+        "lower_y0_mod_3410": 2683,
+        "lower_y1_mod_3410": 2378,
+        "r_p_mod_p2": 3981,
+        "r_q_mod_q": 2031,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 33,
+        "a1": 62,
+        "b0": 5728,
+        "b1": 7231,
+        "excluded_local_zero_lifts": [
+          4643,
+          14342
+        ],
+        "lower_y0_mod_3410": 2783,
+        "lower_y1_mod_3410": 876,
+        "r_p_mod_p2": 3819,
+        "r_q_mod_q": 8592,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 35,
+        "a1": 1330,
+        "b0": 2782,
+        "b1": 4546,
+        "excluded_local_zero_lifts": [
+          5973,
+          15766
+        ],
+        "lower_y0_mod_3410": 3247,
+        "lower_y1_mod_3410": 516,
+        "r_p_mod_p2": 1182,
+        "r_q_mod_q": 5295,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 38,
+        "a1": 246,
+        "b0": 6604,
+        "b1": 782,
+        "excluded_local_zero_lifts": [
+          2981,
+          10638
+        ],
+        "lower_y0_mod_3410": 1644,
+        "lower_y1_mod_3410": 2952,
+        "r_p_mod_p2": 3978,
+        "r_q_mod_q": 11091,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 38,
+        "a1": 246,
+        "b0": 9619,
+        "b1": 7549,
+        "excluded_local_zero_lifts": [
+          705,
+          7755
+        ],
+        "lower_y0_mod_3410": 1094,
+        "lower_y1_mod_3410": 884,
+        "r_p_mod_p2": 3978,
+        "r_q_mod_q": 772,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 40,
+        "a1": 584,
+        "b0": 1246,
+        "b1": 986,
+        "excluded_local_zero_lifts": [
+          6778,
+          8280
+        ],
+        "lower_y0_mod_3410": 1866,
+        "lower_y1_mod_3410": 56,
+        "r_p_mod_p2": 668,
+        "r_q_mod_q": 15252,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 43,
+        "a1": 178,
+        "b0": 3326,
+        "b1": 5069,
+        "excluded_local_zero_lifts": [
+          2794,
+          9848
+        ],
+        "lower_y0_mod_3410": 2551,
+        "lower_y1_mod_3410": 574,
+        "r_p_mod_p2": 2574,
+        "r_q_mod_q": 19518,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 44,
+        "a1": 693,
+        "b0": 9960,
+        "b1": 9939,
+        "excluded_local_zero_lifts": [
+          8352,
+          17342
+        ],
+        "lower_y0_mod_3410": 660,
+        "lower_y1_mod_3410": 2189,
+        "r_p_mod_p2": 3888,
+        "r_q_mod_q": 6829,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 45,
+        "a1": 1107,
+        "b0": 3797,
+        "b1": 5797,
+        "excluded_local_zero_lifts": [
+          1247,
+          10295
+        ],
+        "lower_y0_mod_3410": 1937,
+        "lower_y1_mod_3410": 1767,
+        "r_p_mod_p2": 1480,
+        "r_q_mod_q": 7949,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 45,
+        "a1": 1107,
+        "b0": 4534,
+        "b1": 2782,
+        "excluded_local_zero_lifts": [
+          5973,
+          14076
+        ],
+        "lower_y0_mod_3410": 969,
+        "lower_y1_mod_3410": 2317,
+        "r_p_mod_p2": 1480,
+        "r_q_mod_q": 5297,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      },
+      {
+        "a0": 45,
+        "a1": 1107,
+        "b0": 6879,
+        "b1": 1643,
+        "excluded_local_zero_lifts": [
+          1352,
+          3166
+        ],
+        "lower_y0_mod_3410": 1299,
+        "lower_y1_mod_3410": 403,
+        "r_p_mod_p2": 1480,
+        "r_q_mod_q": 11726,
+        "same_lower_assignment": false,
+        "valid_r_q_lifts_mod_q2": 20769
+      }
+    ],
+    "full_shared_residue_system_count_mod_p2_times_q2": 14392917,
+    "independent_nested_count": 693,
+    "independent_nested_same_lower_count": 0,
+    "interpretation": "Every counted system has an exact beta-one 66+1 fiber at each anchor on possibly different lower assignments. None has one common lower assignment.",
+    "joined_records_sha256": "93d01542b4a1f5e6b1721e985d55bcaabd3a22e2f92c861cae472e97af3d95f6",
+    "same_lower_assignment_combinations": 0,
+    "unique_ordered_lower_assignment_pairs": 692
+  },
+  "logical_boundary": {
+    "missing_bridge": "A theorem forcing every complete simultaneous certificate to expose one odd coordinate and one lower assignment whose two anchor fibers must be saturated simultaneously, together with an arithmetic bound excluding p compatible active rigid rows there.",
+    "not_proved": "No universal incompatibility of arbitrary complete simultaneous certificates: separate lower branches, p or more rigid rows, other coordinates, and derived lower events remain possible.",
+    "proved_global_principle": "Direct same-lower dynamic gluing is universally impossible for odd rows with one shared residue; a common saturated p-fiber therefore forces a rigid-only frontier at at least one anchor."
+  },
+  "method_agreement": {
+    "dynamic_equation_vs_direct_residue": true,
+    "rigid_equation_vs_direct_residue": true,
+    "signature_join_vs_direct_nested_join": true
+  },
+  "result_sha256": "777f41181f585e75270c6a47d168da23ccba2d27844768f9eb461bcafa8158ca",
+  "rigid_common_residue_classification": {
+    "class_pair_count_mod_20771": 5192,
+    "q2_exact_difference_pair_count": 0,
+    "q2_valid_lift_distribution": [
+      {
+        "class_pair_count": 5192,
+        "excluded_local_zero_lifts": 2,
+        "valid_r_q_lifts": 20769
+      }
+    ],
+    "records_sha256": "6646c8e053465dc782843bf957e423f3119ebeba0d212a3f0096c27a1485abf9",
+    "same_lower_class_mod_155_count": 33
+  },
+  "schema": "a303656.c1-two-anchor-common-residue-phase-a.v1",
+  "scope": {
+    "finite_exact_domain": {
+      "K_dynamic": 2,
+      "K_rigid": 2,
+      "accepted_valuations": [
+        1
+      ],
+      "dynamic_prime": 67,
+      "fiber_digit_count": 67,
+      "full_period": 228470,
+      "lower_assignment_count": 3410,
+      "rigid_prime": 20771
+    },
+    "universal_results": [
+      "odd-row anchor exclusion",
+      "joint common-fiber dynamic/rigid dichotomy",
+      "rigid-frontier tax: at least p active rigid rows on the dynamic-inactive anchor",
+      "Hall-type anchor-capacity deficit is a necessary condition"
+    ]
+  },
+  "sharp_minimal_joint_counterexample": {
+    "all_lower_assignments": {
+      "joint_hole_histogram": [
+        {
+          "anchor_0_holes": 0,
+          "anchor_1_holes": 66,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 1,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 154
+        },
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 0,
+          "lower_assignment_count": 1
+        },
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 66,
+          "lower_assignment_count": 20
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 1,
+          "lower_assignment_count": 154
+        },
+        {
+          "anchor_0_holes": 67,
+          "anchor_1_holes": 67,
+          "lower_assignment_count": 3080
+        }
+      ],
+      "joint_hole_histogram_sha256": "7b45996787026955d08216c25895aac07db95c118b4ae1bb97d0ad1ff5d90d40",
+      "minimizers": [
+        {
+          "anchor_0_holes": 66,
+          "anchor_1_holes": 0,
+          "lower_assignment_mod_3410": 106
+        },
+        {
+          "anchor_0_holes": 0,
+          "anchor_1_holes": 66,
+          "lower_assignment_mod_3410": 2431
+        }
+      ],
+      "minimum_total_holes_over_common_lower_assignment": 66,
+      "saturated_lower_assignments": {
+        "anchor_0": [
+          2431
+        ],
+        "anchor_1": [
+          106
+        ],
+        "intersection": []
+      }
+    },
+    "full_period": {
+      "both_anchors_covered_at_same_exponent_count": 2,
+      "exponents_not_jointly_covered_count": 228468,
+      "is_complete_two_anchor_certificate": false,
+      "per_anchor": {
+        "0": {
+          "covered_count": 10252,
+          "dynamic_fatal_count": 10230,
+          "overlap_count": 0,
+          "rigid_fatal_count": 22,
+          "safe_count": 218218
+        },
+        "1": {
+          "covered_count": 10252,
+          "dynamic_fatal_count": 10230,
+          "overlap_count": 0,
+          "rigid_fatal_count": 22,
+          "safe_count": 218218
+        }
+      }
+    },
+    "level_classification": {
+      "anchor_uniform_joint_contraction": false,
+      "complete_two_anchor_certificate": false,
+      "lower_uniform_saturation": false,
+      "pointwise_exact_fiber_at_each_anchor": true,
+      "same_lower_assignment_full_fiber": false
+    },
+    "logarithm_and_crt_core": {
+      "alignment_digits_mod_67": {
+        "anchor_0": {
+          "dynamic": 0,
+          "rigid": 0
+        },
+        "anchor_1": {
+          "dynamic": 51,
+          "rigid": 51
+        }
+      },
+      "dynamic_center_logs": {
+        "anchor_0_mod_1474": 737,
+        "anchor_1_mod_1474": 788
+      },
+      "dynamic_lower_classes_mod_22": {
+        "anchor_0": 11,
+        "anchor_1": 18
+      },
+      "rigid_logs": {
+        "anchor_0_mod_10385": 7236,
+        "anchor_1_mod_10385": 9096
+      },
+      "rigid_lower_classes_mod_155": {
+        "anchor_0": 106,
+        "anchor_1": 106
+      }
+    },
+    "name": "sharp two-row joint counterexample with common rigid lower condition",
+    "pointwise_witness_anchor_0": {
+      "anchor": 0,
+      "dynamic_fatal_count": 66,
+      "dynamic_nonfatal_indices": [
+        41
+      ],
+      "exact_66_plus_1_partition": true,
+      "hole_count": 0,
+      "hole_indices": [],
+      "local_zero_fail_closed": true,
+      "lower_assignment_mod_3410": 2431,
+      "overlap_count": 0,
+      "overlap_indices": [],
+      "rigid_fatal_count": 1,
+      "rigid_indices": [
+        41
+      ]
+    },
+    "pointwise_witness_anchor_1": {
+      "anchor": 1,
+      "dynamic_fatal_count": 66,
+      "dynamic_nonfatal_indices": [
+        27
+      ],
+      "exact_66_plus_1_partition": true,
+      "hole_count": 0,
+      "hole_indices": [],
+      "local_zero_fail_closed": true,
+      "lower_assignment_mod_3410": 106,
+      "overlap_count": 0,
+      "overlap_indices": [],
+      "rigid_fatal_count": 1,
+      "rigid_indices": [
+        27
+      ]
+    },
+    "r_20771_mod_20771_squared": 4494,
+    "r_67_mod_67_squared": 0,
+    "record_sha256": "ae2b6954c8a4818e8ecc169e74e0b0ab0919b62281b7b18ce10d06d9b8e5af78"
+  },
+  "theorem_checks": {
+    "dynamic_both_active_same_lower_assignment_impossible": true,
+    "odd_row_anchor_exclusion_identity": "(r-1-5^d)-(r-3-5^d)=2; an odd p cannot divide both",
+    "one_rigid_row_sharp_first_branch_deficit": 66,
+    "rigid_frontier_tax_for_p_67": 67,
+    "sharp_example_attains_p_minus_1_deficit": true
+  }
+}

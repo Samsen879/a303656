@@ -1,0 +1,32 @@
+{
+  "PASS": true,
+  "authority": {
+    "main_sha": "1100eb5ba01d90e5b1001be0bdfa464860fdbb92",
+    "main_tree": "ad1269916bf420c564e34887a96c808033fe538b",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "state": {
+      "A303656": "UNRESOLVED",
+      "ACTIVE_PROMOTED_ROUTE": "NONE",
+      "PROJECT": "PAUSED"
+    }
+  },
+  "deterministic_replay_byte_identical": true,
+  "embedded_result_sha256": "777f41181f585e75270c6a47d168da23ccba2d27844768f9eb461bcafa8158ca",
+  "frozen_counts": {
+    "dynamic_pairs": 603,
+    "full_shared_residue_systems": 14392917,
+    "pointwise_combinations": 693,
+    "rigid_pairs": 5192,
+    "same_lower_combinations": 0,
+    "sharp_minimum_joint_holes": 66
+  },
+  "method_agreement": {
+    "dynamic_equation_vs_direct_residue": true,
+    "rigid_equation_vs_direct_residue": true,
+    "signature_join_vs_direct_nested_join": true
+  },
+  "recomputed_result_sha256": "777f41181f585e75270c6a47d168da23ccba2d27844768f9eb461bcafa8158ca",
+  "schema": "a303656.c1-two-anchor-common-residue-verification.v1",
+  "scope_warning": "One standalone implementation contains differently organized exact methods; this is not a claim of independent software stacks."
+}
