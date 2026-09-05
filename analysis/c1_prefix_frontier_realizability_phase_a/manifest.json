@@ -1,0 +1,183 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "1100eb5ba01d90e5b1001be0bdfa464860fdbb92",
+    "integration_base_tree": "ad1269916bf420c564e34887a96c808033fe538b",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 32,
+  "files": [
+    {
+      "path": "EVIDENCE_CLASSIFICATION.md",
+      "sha256": "e6905f9b518de1a06bb593c3b64163f94cfe8bab10ba891d4569e1f7439981e8",
+      "size": 2276
+    },
+    {
+      "path": "README.md",
+      "sha256": "a5d73355f30f31276d013bd594df7ea72465f51fdf984061a799016d073c35e4",
+      "size": 1608
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "7c8ad13d73fb6138baaa47d2ce190f1adf6835144afbff885f458d0d2bf99da7",
+      "size": 31763
+    },
+    {
+      "path": "THEOREM_AUDIT.md",
+      "sha256": "ab4a6066b14f855fae94ccbd4d0ea9def19e04927dd72d6870728c223709f809",
+      "size": 3169
+    },
+    {
+      "path": "results/actual_67_beta_1_2_3_embeddings.json",
+      "sha256": "0b97ecfa34ff1c3ddd930bb8bfaa66581284f2eaf753d49613675f6d2fb63323",
+      "size": 7403
+    },
+    {
+      "path": "results/common_residue_audit.json",
+      "sha256": "20a3d70cac334075f3f1925c8a018f7cce9e1071f2a0b5f6f79e19644cd369db",
+      "size": 4186
+    },
+    {
+      "path": "results/l3_beta_le_3_literal_catalog.json",
+      "sha256": "ab21aaa46c937f805d8d7e1b021fd12e12d2611cfeecf0923839b6b707d61f9f",
+      "size": 1335498
+    },
+    {
+      "path": "results/l67_beta_le_3_compressed_catalog.json",
+      "sha256": "2ec18f866307d83073b5e91fe8f51227be8b3cc51d9519842e5e73b1f3f7e9e0",
+      "size": 19680
+    },
+    {
+      "path": "results/prime_lists/l3_e1_active_nonregular.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "results/prime_lists/l3_e1_order_signature.txt",
+      "sha256": "79d171a275120ab346fac1dc9cc808a3756a9ab1e63002678be6ea106f6f29cc",
+      "size": 5
+    },
+    {
+      "path": "results/prime_lists/l3_e1_support.txt",
+      "sha256": "6f889f6ac189d02296a4de1b5e9f60f122caf242206e86b8311d1e938d0d42aa",
+      "size": 654562
+    },
+    {
+      "path": "results/prime_lists/l3_e2_active_nonregular.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "results/prime_lists/l3_e2_order_signature.txt",
+      "sha256": "6f963ab7d0c0c2e6c7a558c60e71c2b029c78413443b329bff80e37a41dcf4c9",
+      "size": 8
+    },
+    {
+      "path": "results/prime_lists/l3_e2_support.txt",
+      "sha256": "89c400c134700dd2f098633cb6481ba04d230075a95b8d4fae0c15fb464c098d",
+      "size": 218110
+    },
+    {
+      "path": "results/prime_lists/l3_e3_active_nonregular.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "results/prime_lists/l3_e3_order_signature.txt",
+      "sha256": "5e58e6382f25951bff85e6eccc4ff0ec0f50fd4219f452a7932f0b54071c9293",
+      "size": 23
+    },
+    {
+      "path": "results/prime_lists/l3_e3_support.txt",
+      "sha256": "c8cd5c1cc05e64d02aa39d2794ef6c3b73a55ee7cb210be6a78f6431a3a6cba2",
+      "size": 72718
+    },
+    {
+      "path": "results/prime_lists/l67_e1_active_nonregular.txt",
+      "sha256": "56e758d62616f5a5b1cb5eefe5bfc1d72cb1b9eeee6ac7af0aa0809e37dc56b2",
+      "size": 6
+    },
+    {
+      "path": "results/prime_lists/l67_e1_order_signature.txt",
+      "sha256": "1d321a1e6df905ab198a4410c775f6962c6383f8995e297f3856f1857af45a28",
+      "size": 4935
+    },
+    {
+      "path": "results/prime_lists/l67_e1_support.txt",
+      "sha256": "9cdba62f25290c47f68944d43c20cbd06f7122360971630c409c756a70c1417a",
+      "size": 38343
+    },
+    {
+      "path": "results/prime_lists/l67_e2_active_nonregular.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "results/prime_lists/l67_e2_order_signature.txt",
+      "sha256": "11fdfd13c9e7e9f519372ceeba6f70f3db6f92013a518b1b5e2d649f03dfd9ed",
+      "size": 273
+    },
+    {
+      "path": "results/prime_lists/l67_e2_support.txt",
+      "sha256": "a183e37c06c8d37628e187ca929ce25d62e3b7ba670cc8f736b6b0fa3f314ba8",
+      "size": 567
+    },
+    {
+      "path": "results/prime_lists/l67_e3_active_nonregular.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "results/prime_lists/l67_e3_order_signature.txt",
+      "sha256": "e67434735d2310a92379291c489ed2581f43b6a48f329c813cf414cd08bce03e",
+      "size": 8
+    },
+    {
+      "path": "results/prime_lists/l67_e3_support.txt",
+      "sha256": "e67434735d2310a92379291c489ed2581f43b6a48f329c813cf414cd08bce03e",
+      "size": 8
+    },
+    {
+      "path": "results/resource_scan_B10000000.json",
+      "sha256": "562017287e809e2105647eefaf359b7461fe5af2797fd0a6427b1148427e0244",
+      "size": 6188
+    },
+    {
+      "path": "results/source_binding.json",
+      "sha256": "13924dca0e443920cf4315bd8ca27e4825c8caeae3c7533f065f95004a949369",
+      "size": 995
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "5196a8b7ff79a4321722ed27c8bfe0679d3f2de3a63a8111d7a6c09b9d0382e4",
+      "size": 4396
+    },
+    {
+      "path": "tests/test_frozen_results.py",
+      "sha256": "8c73d4f62d7152bb0bc490994065ea8cbcef95b5c00f4912c52bffe9d41070a0",
+      "size": 2135
+    },
+    {
+      "path": "tools/finalize_integration.py",
+      "sha256": "348bfb88c5ce84128a510eecb10611863355e7b3ef3190a284090ff01126a96f",
+      "size": 3349
+    },
+    {
+      "path": "tools/phase3_reference.py",
+      "sha256": "d192e240b8c1159f80bd1b77b219baa1b4a9bc96948339816a3e733d806637e4",
+      "size": 37081
+    }
+  ],
+  "schema": "a303656.repository-native-phase-integration.v1",
+  "source": {
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_PREFIX_FRONTIER_REALIZABILITY_PHASE_A.zip",
+    "outer_zip_sha256": "60780334b892445d966a0224e1e6eb8ca2acba6b4bad1bb67b8baf168f8d24ab",
+    "requested_filename": "A303656_PREFIX_FRONTIER_REALIZABILITY_PHASE_A(1).zip",
+    "safe_extraction": "PASS",
+    "standalone_replay": "BYTE_IDENTICAL"
+  }
+}
