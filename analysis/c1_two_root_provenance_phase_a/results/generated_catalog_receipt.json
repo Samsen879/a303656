@@ -1,0 +1,24 @@
+{
+  "catalogs": [
+    {
+      "exact_states": 2346,
+      "filename": "paired_states_p67_K2.json",
+      "maximal_states": 2345,
+      "prime": 67,
+      "raw_residues": 4489,
+      "sha256": "0452c3741889a3b3291329d01d18bffde23471bf01ba447468adbaf520a3e90f",
+      "size": 229442
+    },
+    {
+      "exact_states": 25963,
+      "filename": "paired_states_p20771_K2.json",
+      "maximal_states": 15578,
+      "prime": 20771,
+      "raw_residues": 431434441,
+      "sha256": "8c4960d58e02f9db5b612393d1ed1c693bdbe845f1f60a4d9d3fdb5aecae31f7",
+      "size": 2562114
+    }
+  ],
+  "policy": "Generated catalogs are deterministic full-replay outputs and are not stored in Git.",
+  "source_bundle_catalogs_verified": true
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "L": 42,
+    "U": 6,
+    "coarse_classes_checked": 360,
+    "full_period_cell_checks": 2520,
+    "full_period_cells_per_system": 42,
+    "mismatches": 0,
+    "residue_valuation_systems": 60,
+    "row_prime_precisions": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        2
+      ]
+    ]
+  },
+  {
+    "L": 378,
+    "U": 6,
+    "coarse_classes_checked": 360,
+    "full_period_cell_checks": 22680,
+    "full_period_cells_per_system": 378,
+    "mismatches": 0,
+    "residue_valuation_systems": 60,
+    "row_prime_precisions": [
+      [
+        3,
+        4
+      ],
+      [
+        7,
+        2
+      ]
+    ]
+  },
+  {
+    "L": 330,
+    "U": 10,
+    "coarse_classes_checked": 600,
+    "full_period_cell_checks": 19800,
+    "full_period_cells_per_system": 330,
+    "mismatches": 0,
+    "residue_valuation_systems": 60,
+    "row_prime_precisions": [
+      [
+        3,
+        2
+      ],
+      [
+        11,
+        2
+      ]
+    ]
+  },
+  {
+    "L": 2310,
+    "U": 30,
+    "coarse_classes_checked": 1800,
+    "full_period_cell_checks": 138600,
+    "full_period_cells_per_system": 2310,
+    "mismatches": 0,
+    "residue_valuation_systems": 60,
+    "row_prime_precisions": [
+      [
+        3,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        11,
+        2
+      ]
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "end_of_research_main_recheck": "same SHA and tree",
+  "first_parent_merge_chain_verified": true,
+  "github_writes_performed": [],
+  "main_sha": "0200beede923c56e0284d9555c1dabaf91fa1755",
+  "main_tree": "23f10c12181c5caa394f7a3fb1acb6e79cc02fe6",
+  "merged_prs": [
+    {
+      "merge_sha": "e9b537f70fb0196b30f5b476b634299b012c369e",
+      "number": 11
+    },
+    {
+      "merge_sha": "7786a0b356a790623eb0662b64e84b9c6240edde",
+      "number": 12
+    },
+    {
+      "merge_sha": "0200beede923c56e0284d9555c1dabaf91fa1755",
+      "number": 13
+    }
+  ],
+  "precondition": "PASS",
+  "reading_limit": "Core mathematical definitions/proofs and the three new reports; not every archival catalog entry or historical code/test file in the six directories",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "source_blob_ids_are": "GitHub-reported metadata, not independently rehashed downloaded source bytes",
+  "source_documents": [
+    {
+      "git_blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+      "path": "STATUS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/STATUS.md"
+    },
+    {
+      "git_blob_sha": "791ffb9ed0f719162480db034a137a1385d6b160",
+      "path": "docs/THEOREM_INDEX.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/docs/THEOREM_INDEX.md"
+    },
+    {
+      "git_blob_sha": "35333f603572b1369faa7ec09a5fad012361284c",
+      "path": "docs/ROUTE_MAP.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/docs/ROUTE_MAP.md"
+    },
+    {
+      "git_blob_sha": "2a788348cf9abdce43f47809b7b6fd6cb8f3f04d",
+      "path": "analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md"
+    },
+    {
+      "git_blob_sha": "33fb391b6547fce68bb7a1964d3757fa5b5c8910",
+      "path": "analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md"
+    },
+    {
+      "git_blob_sha": "922d31d72f74a8c81f75b5b3a64902c0ad6a0448",
+      "path": "analysis/c1_contraction_tree_phase_a/DEFINITIONS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_contraction_tree_phase_a/DEFINITIONS.md"
+    },
+    {
+      "git_blob_sha": "27cd196104e3c7f566375965ac1b671f6f276111",
+      "path": "analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md"
+    },
+    {
+      "git_blob_sha": "5908a3373a5e8d0997c6df387be59e17239f961a",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md"
+    },
+    {
+      "git_blob_sha": "7ad233f07750d6baeea4b822fd57e4c12f46f157",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md"
+    },
+    {
+      "git_blob_sha": "27b255f6bedbf983f0d3ba58f64e1af8b7e0061a",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md"
+    },
+    {
+      "git_blob_sha": "2711299b58f5c3b9f67c117af0df4ae3cd3357ec",
+      "path": "analysis/c1_two_anchor_common_residue_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_two_anchor_common_residue_phase_a/REPORT.md"
+    },
+    {
+      "git_blob_sha": "cb2f117f5b2e3f2bdd54f4bfe11f6414eed4570b",
+      "path": "analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md"
+    },
+    {
+      "git_blob_sha": "260d7160f6b2321cdc6f7f1212986b898461980e",
+      "path": "analysis/c1_hereditary_shell_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_hereditary_shell_phase_a/REPORT.md"
+    }
+  ],
+  "source_read_method": "GitHub connector at frozen SHA; no complete local checkout",
+  "status": {
+    "A303656": "UNRESOLVED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "PROJECT": "PAUSED"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "abstract_domain": [
+    3,
+    5,
+    7
+  ],
+  "complete_product_cells_checked": 124950,
+  "contraction_root_checks": 2380,
+  "mismatches": 0,
+  "paired_rigid_states_checked": 1190,
+  "scope": "ARITHMETIC-INSPIRED NORMAL FORM, NOT ACTUAL PRIME REALIZATIONS"
+}

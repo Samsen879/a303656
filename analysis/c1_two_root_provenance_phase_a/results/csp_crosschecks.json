@@ -1,0 +1,71 @@
+[
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      2,
+      2
+    ],
+    "exact_sat_systems": 15,
+    "marginal_union_false_positives": 11,
+    "mismatches": 0,
+    "state_systems": 50
+  },
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      2,
+      3
+    ],
+    "exact_sat_systems": 1,
+    "marginal_union_false_positives": 6,
+    "mismatches": 0,
+    "state_systems": 50
+  },
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      3,
+      3
+    ],
+    "exact_sat_systems": 0,
+    "marginal_union_false_positives": 0,
+    "mismatches": 0,
+    "state_systems": 50
+  },
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      2,
+      2,
+      2
+    ],
+    "exact_sat_systems": 0,
+    "marginal_union_false_positives": 6,
+    "mismatches": 0,
+    "state_systems": 50
+  },
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      2,
+      3,
+      2
+    ],
+    "exact_sat_systems": 0,
+    "marginal_union_false_positives": 2,
+    "mismatches": 0,
+    "state_systems": 50
+  },
+  {
+    "assignments_checked": 1191,
+    "domain": [
+      3,
+      3,
+      2
+    ],
+    "exact_sat_systems": 0,
+    "marginal_union_false_positives": 0,
+    "mismatches": 0,
+    "state_systems": 50
+  }
+]
