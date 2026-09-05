@@ -1,0 +1,53 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "1100eb5ba01d90e5b1001be0bdfa464860fdbb92",
+    "integration_base_tree": "ad1269916bf420c564e34887a96c808033fe538b",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 6,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "7f55dd593aa95bb2839f69d1a3795abb8333e87fdbe3e675e1207e2acb34bcaa",
+      "size": 931
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "c581ee626cfa4ab985707627cfc055117a3c95a6f1de0b9c86cdb173f77c523e",
+      "size": 18999
+    },
+    {
+      "path": "results/results.json",
+      "sha256": "eb9b767ee6cab5d35bc29200f19506f9e019d0338d3724cc69ab9056c0c18867",
+      "size": 17191
+    },
+    {
+      "path": "tests/test_scope_and_results.py",
+      "sha256": "8ce2f1e57aa3f8709dbb1c96bbd9da905a76354498ba76c54bf5bb12d3c55da6",
+      "size": 1641
+    },
+    {
+      "path": "tools/finalize_integration.py",
+      "sha256": "db2627240ae8864f2f0177424b65ed2d66f14cf61240b718452abcc8b4b193fd",
+      "size": 3321
+    },
+    {
+      "path": "tools/hereditary_shell_classifier.py",
+      "sha256": "67bfa89a367f9d2276ff7f7d1451c2ab705d995daa4692eeb1df071454486d6a",
+      "size": 39635
+    }
+  ],
+  "schema": "a303656.repository-native-phase-integration.v1",
+  "source": {
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_HEREDITARY_SHELL_PHASE1.zip",
+    "outer_zip_sha256": "0e2cbeb8b226dee16b44cc0783a07e45da57d7738ad924af1503337f9d2d0fde",
+    "requested_filename": "A303656_HEREDITARY_SHELL_PHASE1(1).zip",
+    "safe_extraction": "PASS",
+    "standalone_replay": "BYTE_IDENTICAL"
+  }
+}
