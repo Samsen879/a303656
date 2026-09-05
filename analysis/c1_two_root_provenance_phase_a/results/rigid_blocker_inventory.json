@@ -1,0 +1,49 @@
+{
+  "admitted_prime_count": 332398,
+  "bound": 10000000,
+  "bounded_panel_no_go": "all finite admitted P subset of primes <= bound; arbitrary K,E,shared residues; optional sound two-adic row",
+  "larger_formal_subclass": "any finite P with all nonregular primes contained in {20771,40487}; no size bound on regular rows",
+  "loads": [
+    {
+      "coordinate": 5,
+      "guaranteed_remaining_digits": 3,
+      "maximum_forbidden_digits": 2,
+      "original_row_count": 1
+    },
+    {
+      "coordinate": 653,
+      "guaranteed_remaining_digits": 651,
+      "maximum_forbidden_digits": 2,
+      "original_row_count": 1
+    }
+  ],
+  "method": "Eratosthenes sieve + 5^(q-1) mod q^2; exact order only for hits",
+  "nonregular_rows": [
+    {
+      "lifting_depth": 2,
+      "order": 10385,
+      "order_factorization": {
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "prime": 20771
+    },
+    {
+      "lifting_depth": 2,
+      "order": 40486,
+      "order_factorization": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "prime": 40487
+    }
+  ],
+  "paired_blocker_assignment": {
+    "20771": 5,
+    "40487": 653
+  },
+  "prime_list_newline_sha256": "7bb2c369a3dcd0732ca1f61e63e8df9c512f77b2e4f891a2292711d86a9ea92d",
+  "scope": "EXACT FINITE INVENTORY; NO CLAIM ABOVE THE BOUND"
+}

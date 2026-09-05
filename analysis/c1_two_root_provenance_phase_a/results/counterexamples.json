@@ -1,0 +1,1071 @@
+{
+  "I1_original_rank_three_row": {
+    "anchors": [
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 1,
+        "minimal_supports": [
+          [
+            0,
+            1
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 0
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [
+              {
+                "guard": [],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  1
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 1,
+            "size": 2,
+            "top_clause_count": 2
+          }
+        ]
+      },
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 3,
+        "minimal_supports": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  1
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  2
+                ],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 3
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [
+              {
+                "guard": [],
+                "parent_provenances": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    0,
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 1,
+            "size": 2,
+            "top_clause_count": 2
+          }
+        ]
+      }
+    ],
+    "domain": [
+      2,
+      2
+    ],
+    "initial_rank_saturations": [
+      {
+        "0": [
+          []
+        ],
+        "1": []
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "pointwise_exclusive": true,
+    "rows": [
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        null,
+        [
+          3,
+          2
+        ]
+      ]
+    ]
+  },
+  "I2_I3_I4_three_row": {
+    "anchors": [
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 2,
+        "minimal_supports": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  2
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 2
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [
+              {
+                "guard": [],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    1,
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 1,
+            "size": 2,
+            "top_clause_count": 2
+          }
+        ]
+      },
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 2,
+        "minimal_supports": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  1
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 2
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [
+              {
+                "guard": [],
+                "parent_provenances": [
+                  [
+                    1,
+                    2
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 1,
+            "size": 2,
+            "top_clause_count": 2
+          }
+        ]
+      }
+    ],
+    "domain": [
+      2,
+      2
+    ],
+    "initial_rank_saturations": [
+      {
+        "0": [],
+        "1": [
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ]
+        ]
+      }
+    ],
+    "pointwise_exclusive": true,
+    "rows": [
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    ]
+  },
+  "I5_five_row_six_macros": {
+    "anchors": [
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 6,
+        "minimal_supports": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    3
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  3
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    4
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  4
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    3
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  3
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    4
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  4
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 6,
+            "size": 2,
+            "top_clause_count": 5
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [],
+            "output_clause_count": 6,
+            "size": 2,
+            "top_clause_count": 0
+          }
+        ]
+      },
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 6,
+        "minimal_supports": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    2
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    2
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    3
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  3
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    3
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  3
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    4
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  4
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    4
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  4
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 6,
+            "size": 2,
+            "top_clause_count": 5
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [],
+            "output_clause_count": 6,
+            "size": 2,
+            "top_clause_count": 0
+          }
+        ]
+      }
+    ],
+    "domain": [
+      2,
+      2
+    ],
+    "initial_rank_saturations": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "pointwise_exclusive": true,
+    "rows": [
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    ]
+  },
+  "I6_masses": {
+    "deduplicated_geometry_mass": "1",
+    "new_provenance_clause_sum": "2",
+    "original_sum_per_anchor": "3/2"
+  },
+  "I6_three_row_covered_mass_failure": {
+    "anchors": [
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 2,
+        "minimal_supports": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    0
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 3
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 0
+          }
+        ]
+      },
+      {
+        "covered": true,
+        "derived_clause_count_before_absorption": 2,
+        "minimal_supports": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "stages": [
+          {
+            "coordinate_index": 1,
+            "new_macros": [
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    2
+                  ],
+                  [
+                    0
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  0,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              },
+              {
+                "guard": [
+                  3
+                ],
+                "parent_provenances": [
+                  [
+                    2
+                  ],
+                  [
+                    1
+                  ]
+                ],
+                "parent_slices": [
+                  1,
+                  2
+                ],
+                "provenance": [
+                  1,
+                  2
+                ],
+                "resource_kind": "DERIVED MACRO"
+              }
+            ],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 3
+          },
+          {
+            "coordinate_index": 0,
+            "new_macros": [],
+            "output_clause_count": 2,
+            "size": 2,
+            "top_clause_count": 0
+          }
+        ]
+      }
+    ],
+    "domain": [
+      2,
+      2
+    ],
+    "initial_rank_saturations": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "pointwise_exclusive": true,
+    "rows": [
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    ]
+  },
+  "scope": "ABSTRACT PRODUCT-CYLINDER ROWS; NOT ACTUAL PRIME ROWS"
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "counts": [
+      {
+        "both_roots": 0,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 0,
+        "systems_up_to_row_permutation": 1
+      },
+      {
+        "both_roots": 0,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 1,
+        "systems_up_to_row_permutation": 48
+      },
+      {
+        "both_roots": 2,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 2,
+        "systems_up_to_row_permutation": 1176
+      },
+      {
+        "both_roots": 384,
+        "first_fiber_counterexample": [
+          [
+            null,
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "first_rank_counterexample": [
+          [
+            null,
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        ],
+        "no_common_original_rank_full_fiber": 112,
+        "no_common_original_saturation_rank": 92,
+        "rows": 3,
+        "systems_up_to_row_permutation": 19600
+      }
+    ],
+    "fixed_rank_per_row_between_anchors": false,
+    "row_pair_catalog_size": 48
+  },
+  {
+    "counts": [
+      {
+        "both_roots": 0,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 0,
+        "systems_up_to_row_permutation": 1
+      },
+      {
+        "both_roots": 0,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 1,
+        "systems_up_to_row_permutation": 40
+      },
+      {
+        "both_roots": 2,
+        "first_fiber_counterexample": null,
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 0,
+        "no_common_original_saturation_rank": 0,
+        "rows": 2,
+        "systems_up_to_row_permutation": 820
+      },
+      {
+        "both_roots": 188,
+        "first_fiber_counterexample": [
+          [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          [
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        ],
+        "first_rank_counterexample": null,
+        "no_common_original_rank_full_fiber": 20,
+        "no_common_original_saturation_rank": 0,
+        "rows": 3,
+        "systems_up_to_row_permutation": 11480
+      }
+    ],
+    "fixed_rank_per_row_between_anchors": true,
+    "row_pair_catalog_size": 40
+  }
+]

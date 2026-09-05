@@ -1,0 +1,13 @@
+{
+  "implication": "the structural blocker criterion does not cover every known nonregular row",
+  "lifting_depth": 2,
+  "not_a_complete_certificate": true,
+  "order": 1645333506,
+  "order_factorization": {
+    "2": 1,
+    "3": 3,
+    "30469139": 1
+  },
+  "prime": 1645333507,
+  "structurally_ineligible_odd_order_factors": []
+}

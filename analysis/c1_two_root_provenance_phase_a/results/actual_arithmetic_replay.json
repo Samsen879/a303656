@@ -1,0 +1,372 @@
+[
+  {
+    "anchors": [
+      {
+        "anchor": 0,
+        "covered_count": 10252,
+        "dynamic_center_log": 0,
+        "first_safe_exponent": 0,
+        "full_row_mask_sha256": "e4cb0dd43156816b0dcd527f3f48014e59df3c5c358433665c46171b557f3c6f",
+        "local_zero_counts": [
+          155,
+          0
+        ],
+        "rigid_log": 8308,
+        "root_covered": false,
+        "row_fatal_counts": [
+          10230,
+          22
+        ],
+        "safe_count": 218218,
+        "saturation_lower_residues": [
+          2728
+        ]
+      },
+      {
+        "anchor": 1,
+        "covered_count": 10252,
+        "dynamic_center_log": 737,
+        "first_safe_exponent": 0,
+        "full_row_mask_sha256": "e227e3c183805639104c1d295e82f0708c24bd4c487208bc094b6035fedb501f",
+        "local_zero_counts": [
+          155,
+          0
+        ],
+        "rigid_log": 7839,
+        "root_covered": false,
+        "row_fatal_counts": [
+          10230,
+          22
+        ],
+        "safe_count": 218218,
+        "saturation_lower_residues": [
+          1639
+        ]
+      }
+    ],
+    "contraction_traces": [
+      [
+        {
+          "coordinate_index": 4,
+          "new_macros": [
+            {
+              "guard": [
+                1,
+                8,
+                1,
+                1
+              ],
+              "parent_provenances": [
+                [
+                  0
+                ],
+                [
+                  1
+                ]
+              ],
+              "parent_slices": [
+                147573952589676412926,
+                1
+              ],
+              "provenance": [
+                0,
+                1
+              ],
+              "resource_kind": "DERIVED MACRO"
+            }
+          ],
+          "output_clause_count": 1,
+          "size": 67,
+          "top_clause_count": 2
+        },
+        {
+          "coordinate_index": 3,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 31,
+          "top_clause_count": 1
+        },
+        {
+          "coordinate_index": 2,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 11,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 1,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 5,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 0,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 2,
+          "top_clause_count": 0
+        }
+      ],
+      [
+        {
+          "coordinate_index": 4,
+          "new_macros": [
+            {
+              "guard": [
+                2,
+                16,
+                1,
+                134217728
+              ],
+              "parent_provenances": [
+                [
+                  0
+                ],
+                [
+                  1
+                ]
+              ],
+              "parent_slices": [
+                147573952589676412926,
+                1
+              ],
+              "provenance": [
+                0,
+                1
+              ],
+              "resource_kind": "DERIVED MACRO"
+            }
+          ],
+          "output_clause_count": 1,
+          "size": 67,
+          "top_clause_count": 2
+        },
+        {
+          "coordinate_index": 3,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 31,
+          "top_clause_count": 1
+        },
+        {
+          "coordinate_index": 2,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 11,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 1,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 5,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 0,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 2,
+          "top_clause_count": 0
+        }
+      ]
+    ],
+    "lower_period": 3410,
+    "minimizing_lower_count": 4,
+    "minimum_joint_fiber_holes": 67,
+    "mismatches": 0,
+    "period": 228470,
+    "pointwise_row_exclusion_checks": 456940,
+    "residues": [
+      2,
+      13471
+    ],
+    "same_lower_saturation_intersection": []
+  },
+  {
+    "anchors": [
+      {
+        "anchor": 0,
+        "covered_count": 10252,
+        "dynamic_center_log": 737,
+        "first_safe_exponent": 0,
+        "full_row_mask_sha256": "bc9ff7e06027b1f07791fc9a6692e65ccdef4a4c9deedaf733c15534adfdd488",
+        "local_zero_counts": [
+          155,
+          0
+        ],
+        "rigid_log": 7236,
+        "root_covered": false,
+        "row_fatal_counts": [
+          10230,
+          22
+        ],
+        "safe_count": 218218,
+        "saturation_lower_residues": [
+          2431
+        ]
+      },
+      {
+        "anchor": 1,
+        "covered_count": 10252,
+        "dynamic_center_log": 788,
+        "first_safe_exponent": 0,
+        "full_row_mask_sha256": "d6af8c91272be9845ebca9e74f790b15c03723c65c4b2deddf9e2a2132122d70",
+        "local_zero_counts": [
+          155,
+          0
+        ],
+        "rigid_log": 9096,
+        "root_covered": false,
+        "row_fatal_counts": [
+          10230,
+          22
+        ],
+        "safe_count": 218218,
+        "saturation_lower_residues": [
+          106
+        ]
+      }
+    ],
+    "contraction_traces": [
+      [
+        {
+          "coordinate_index": 4,
+          "new_macros": [
+            {
+              "guard": [
+                2,
+                2,
+                1,
+                8192
+              ],
+              "parent_provenances": [
+                [
+                  0
+                ],
+                [
+                  1
+                ]
+              ],
+              "parent_slices": [
+                147573952589676412926,
+                1
+              ],
+              "provenance": [
+                0,
+                1
+              ],
+              "resource_kind": "DERIVED MACRO"
+            }
+          ],
+          "output_clause_count": 1,
+          "size": 67,
+          "top_clause_count": 2
+        },
+        {
+          "coordinate_index": 3,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 31,
+          "top_clause_count": 1
+        },
+        {
+          "coordinate_index": 2,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 11,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 1,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 5,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 0,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 2,
+          "top_clause_count": 0
+        }
+      ],
+      [
+        {
+          "coordinate_index": 4,
+          "new_macros": [
+            {
+              "guard": [
+                1,
+                2,
+                128,
+                8192
+              ],
+              "parent_provenances": [
+                [
+                  0
+                ],
+                [
+                  1
+                ]
+              ],
+              "parent_slices": [
+                147571700789862727679,
+                2251799813685248
+              ],
+              "provenance": [
+                0,
+                1
+              ],
+              "resource_kind": "DERIVED MACRO"
+            }
+          ],
+          "output_clause_count": 1,
+          "size": 67,
+          "top_clause_count": 2
+        },
+        {
+          "coordinate_index": 3,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 31,
+          "top_clause_count": 1
+        },
+        {
+          "coordinate_index": 2,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 11,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 1,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 5,
+          "top_clause_count": 0
+        },
+        {
+          "coordinate_index": 0,
+          "new_macros": [],
+          "output_clause_count": 0,
+          "size": 2,
+          "top_clause_count": 0
+        }
+      ]
+    ],
+    "lower_period": 3410,
+    "minimizing_lower_count": 2,
+    "minimum_joint_fiber_holes": 66,
+    "mismatches": 0,
+    "period": 228470,
+    "pointwise_row_exclusion_checks": 456940,
+    "residues": [
+      0,
+      4494
+    ],
+    "same_lower_saturation_intersection": []
+  }
+]
