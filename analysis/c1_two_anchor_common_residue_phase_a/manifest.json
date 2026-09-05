@@ -1,0 +1,58 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "1100eb5ba01d90e5b1001be0bdfa464860fdbb92",
+    "integration_base_tree": "ad1269916bf420c564e34887a96c808033fe538b",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 7,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "54204f9e97484c3f40665df3bf4e6873f5e51a46988b9e0852a5bfd03d3b2fd8",
+      "size": 1056
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "8c2a4aa37b1abda6be068cbbf4828c6a9989b9484ea89ab18557ff5a33dad6d1",
+      "size": 24776
+    },
+    {
+      "path": "results/results.json",
+      "sha256": "288011282ca6c5e20c178c7b69d7fa272ee85186db8f7cd285bb1ff8d83ffa05",
+      "size": 20536
+    },
+    {
+      "path": "results/verification.json",
+      "sha256": "43ab438acc5f5dac43f4b4d68ac461b3a41e5d9ccfd745067970decce32879fb",
+      "size": 1209
+    },
+    {
+      "path": "tests/test_reference.py",
+      "sha256": "0b7263650b9c2abebf90c079e49b6fc8662a4092a222d5c6b178eefb548a423c",
+      "size": 1987
+    },
+    {
+      "path": "tools/finalize_integration.py",
+      "sha256": "d24ae569d1de4d514fb8f34a9cdcd03ebd57c0f7d3b8bd4df3b6ac407ce63a84",
+      "size": 3347
+    },
+    {
+      "path": "tools/reference_two_anchor.py",
+      "sha256": "7e5a6be1d3a45fa2a274c1841713df921bd24c65eef46d12a5c4eb69f42e9938",
+      "size": 28550
+    }
+  ],
+  "schema": "a303656.repository-native-phase-integration.v1",
+  "source": {
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_C1_TWO_ANCHOR_COMMON_RESIDUE_PHASE_A.zip",
+    "outer_zip_sha256": "faf61d42c0c4315e6cddf9bd896807c3dad7a01c4aa8eb3b991ad472f65a82c9",
+    "requested_filename": "A303656_C1_TWO_ANCHOR_COMMON_RESIDUE_PHASE_A(1).zip",
+    "safe_extraction": "PASS",
+    "standalone_replay": "BYTE_IDENTICAL"
+  }
+}
