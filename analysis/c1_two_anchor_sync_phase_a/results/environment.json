@@ -1,0 +1,7 @@
+{
+  "dependencies": "Python standard library only",
+  "implementation": "CPython",
+  "platform": "Linux",
+  "python": "3.13.5",
+  "random_seed": 20260905
+}

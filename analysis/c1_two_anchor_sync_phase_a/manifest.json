@@ -1,0 +1,123 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "0200beede923c56e0284d9555c1dabaf91fa1755",
+    "integration_base_tree": "23f10c12181c5caa394f7a3fb1acb6e79cc02fe6",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 20,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d402a8d9b3ee946d825ca4c132c904996736d4dca375674f86e023151623d6d0",
+      "size": 946
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "df51f6d60a5d8526a6711da115a074396d7c86641a325b2f73681d46d55b52ff",
+      "size": 31809
+    },
+    {
+      "path": "REPRODUCE.md",
+      "sha256": "7faae340afd2e4c8b1674116dde49043d204cd6a70c1ad231b6ddb5bda650545",
+      "size": 2331
+    },
+    {
+      "path": "results/actual_arithmetic_replay.json",
+      "sha256": "87aabcc192ea28f6be083bbc74df23264152131e48b1b7bd6c123a642c57b628",
+      "size": 3780
+    },
+    {
+      "path": "results/actual_first_split.json",
+      "sha256": "3611433abf4561786028524864c73ab6e95da18e2507306ee529fb6bfd7e07b4",
+      "size": 2168
+    },
+    {
+      "path": "results/counterexamples.json",
+      "sha256": "ce7eb323f57a4d27cd5d253314d8b66333f1b820cf5496cc09e7b2cb81d79b4c",
+      "size": 46043
+    },
+    {
+      "path": "results/environment.json",
+      "sha256": "d8fe6fdb639c82e35bd2040ff107a8900f004608fa285d4cf9ee0ab97c31feb9",
+      "size": 156
+    },
+    {
+      "path": "results/frozen_U15_nonrealizability.json",
+      "sha256": "0e5f6622a58c62e95a2aa2435d2e850c5105d05d201310e0f586b8db7a57dda7",
+      "size": 611
+    },
+    {
+      "path": "results/random_contraction_audit.json",
+      "sha256": "61bb6b5de29af88197c0b497af9fe8d75ecea26d2a6119f88b1d92c8a3f6327e",
+      "size": 116
+    },
+    {
+      "path": "results/source_binding.json",
+      "sha256": "d4c4cb5ab7eccf4ccb1c57fb6acab1fba254d5fc92662a812e18a97d2edb3b07",
+      "size": 6388
+    },
+    {
+      "path": "results/source_replay_receipt.json",
+      "sha256": "bf839950e6a3ca824d16b6b22ed5bae5001c2044941a0265bb439ece260bd96a",
+      "size": 1904
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "ccb73448fd9e055f99caa5216f73760ff805e807cf82aa57339f2669604510da",
+      "size": 2105
+    },
+    {
+      "path": "results/template_search.json",
+      "sha256": "c248439cbb59e111b9b6a6d8e3915c23e2b0bde492bc20742df623fef9d71693",
+      "size": 918
+    },
+    {
+      "path": "results/truth_table_audit.json",
+      "sha256": "c96d021c6877ef517665ecf0fdb0c268a23f093f92aa8f76f007d3a4cd8b40ea",
+      "size": 81
+    },
+    {
+      "path": "results/two_adic_audit.json",
+      "sha256": "885480de74b4ee273db9e38b6b1eccf57982e5e5e0eddf69340146f815ccb154",
+      "size": 1063
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "6e2e4d282453bbeca3988cc64864ee4b8192c5e6f7179e6f19bec00f8616822b",
+      "size": 769
+    },
+    {
+      "path": "tests/test_reference.py",
+      "sha256": "17425c3552c81c499554fb42525c7766e528c04e2f6e0a48af5123672ff5b863",
+      "size": 3608
+    },
+    {
+      "path": "tools/finalize_integration.py",
+      "sha256": "3ddc12ef2a3312b131b33931a7ab25c04f1cd7b3abc4e0da4a86960a9ffe33d6",
+      "size": 3318
+    },
+    {
+      "path": "tools/reference.py",
+      "sha256": "f83d912519e4525b97235ac2e6bb24c1b42032ff9d6f36749f9708cb56049331",
+      "size": 26808
+    },
+    {
+      "path": "tools/verify_integration.py",
+      "sha256": "52724aa4cbd469cfddd5fc652d6344a9aaf8e0a82fd1be5c52817f8c7da010b4",
+      "size": 1791
+    }
+  ],
+  "schema": "a303656.repository-native-phase-integration.v1",
+  "source": {
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_TWO_ANCHOR_SYNC_PHASE_A.zip",
+    "outer_zip_sha256": "8b8b519014833f9311e7f1d158c0d6d115b598a06d15893e44d04d984943ce4e",
+    "requested_filename": "A303656_TWO_ANCHOR_SYNC_PHASE_A.zip",
+    "safe_extraction": "PASS",
+    "standalone_replay": "BYTE_IDENTICAL"
+  }
+}

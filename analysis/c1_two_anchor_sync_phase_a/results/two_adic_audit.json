@@ -1,0 +1,51 @@
+[
+  {
+    "K": 2,
+    "explicit_even_residue_witnesses": 2,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 2,
+    "residues": 4
+  },
+  {
+    "K": 3,
+    "explicit_even_residue_witnesses": 4,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 4,
+    "residues": 8
+  },
+  {
+    "K": 4,
+    "explicit_even_residue_witnesses": 8,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 8,
+    "residues": 16
+  },
+  {
+    "K": 5,
+    "explicit_even_residue_witnesses": 16,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 16,
+    "residues": 32
+  },
+  {
+    "K": 6,
+    "explicit_even_residue_witnesses": 32,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 32,
+    "residues": 64
+  },
+  {
+    "K": 7,
+    "explicit_even_residue_witnesses": 64,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 64,
+    "residues": 128
+  },
+  {
+    "K": 8,
+    "explicit_even_residue_witnesses": 128,
+    "no_common_exactly_odd_r": true,
+    "no_common_safe_count": 128,
+    "residues": 256
+  }
+]
