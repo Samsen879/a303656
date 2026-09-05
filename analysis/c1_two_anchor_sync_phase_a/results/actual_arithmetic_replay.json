@@ -1,0 +1,251 @@
+[
+  {
+    "L": 228470,
+    "U": 228470,
+    "common_saturation": [],
+    "complete_simultaneous": false,
+    "covered_cells": [
+      10252,
+      10252
+    ],
+    "direct_pow_crosschecks": 134,
+    "full_fibers": [
+      {
+        "anchor": 1,
+        "covered": 67,
+        "lower": 1639,
+        "row_cells": [
+          66,
+          1
+        ]
+      },
+      {
+        "anchor": 0,
+        "covered": 67,
+        "lower": 2728,
+        "row_cells": [
+          66,
+          1
+        ]
+      }
+    ],
+    "local_zero_counts": [
+      [
+        155,
+        155
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "lower_modulus": 3410,
+    "minimum_joint_holes": 67,
+    "new_no_go_class": {
+      "boundary": "no two-adic row",
+      "distinct_top_rigid_resources": 1,
+      "passes": true,
+      "pooled_lower_events": 0,
+      "top_prime": 67,
+      "top_rigid_Kraft_per_anchor": [
+        "1/67",
+        "1/67"
+      ]
+    },
+    "pooled_saturation": [
+      1023,
+      1639,
+      2728,
+      3344
+    ],
+    "primes": [
+      67,
+      20771
+    ],
+    "residues": [
+      2,
+      13471
+    ],
+    "s": [
+      1,
+      2
+    ],
+    "safe_cells": [
+      218218,
+      218218
+    ],
+    "saturation": [
+      [
+        2728
+      ],
+      [
+        1639
+      ]
+    ],
+    "w": [
+      22,
+      10385
+    ]
+  },
+  {
+    "L": 228470,
+    "U": 228470,
+    "common_saturation": [],
+    "complete_simultaneous": false,
+    "covered_cells": [
+      10252,
+      10252
+    ],
+    "direct_pow_crosschecks": 134,
+    "full_fibers": [
+      {
+        "anchor": 1,
+        "covered": 67,
+        "lower": 106,
+        "row_cells": [
+          66,
+          1
+        ]
+      },
+      {
+        "anchor": 0,
+        "covered": 67,
+        "lower": 2431,
+        "row_cells": [
+          66,
+          1
+        ]
+      }
+    ],
+    "local_zero_counts": [
+      [
+        155,
+        155
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "lower_modulus": 3410,
+    "minimum_joint_holes": 66,
+    "new_no_go_class": {
+      "boundary": "no two-adic row",
+      "distinct_top_rigid_resources": 1,
+      "passes": true,
+      "pooled_lower_events": 0,
+      "top_prime": 67,
+      "top_rigid_Kraft_per_anchor": [
+        "1/67",
+        "1/67"
+      ]
+    },
+    "pooled_saturation": [
+      106,
+      2431
+    ],
+    "primes": [
+      67,
+      20771
+    ],
+    "residues": [
+      0,
+      4494
+    ],
+    "s": [
+      1,
+      2
+    ],
+    "safe_cells": [
+      218218,
+      218218
+    ],
+    "saturation": [
+      [
+        2431
+      ],
+      [
+        106
+      ]
+    ],
+    "w": [
+      22,
+      10385
+    ]
+  },
+  {
+    "L": 228470,
+    "U": 228470,
+    "common_saturation": [],
+    "complete_simultaneous": false,
+    "covered_cells": [
+      10251,
+      10252
+    ],
+    "direct_pow_crosschecks": 67,
+    "full_fibers": [
+      {
+        "anchor": 1,
+        "covered": 67,
+        "lower": 1705,
+        "row_cells": [
+          66,
+          1
+        ]
+      }
+    ],
+    "local_zero_counts": [
+      [
+        155,
+        155
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "lower_modulus": 3410,
+    "minimum_joint_holes": 67,
+    "new_no_go_class": {
+      "boundary": "no two-adic row",
+      "distinct_top_rigid_resources": 1,
+      "passes": true,
+      "pooled_lower_events": 0,
+      "top_prime": 67,
+      "top_rigid_Kraft_per_anchor": [
+        "1/67",
+        "1/67"
+      ]
+    },
+    "pooled_saturation": [
+      0,
+      1705
+    ],
+    "primes": [
+      67,
+      20771
+    ],
+    "residues": [
+      2,
+      20775
+    ],
+    "s": [
+      1,
+      2
+    ],
+    "safe_cells": [
+      218219,
+      218218
+    ],
+    "saturation": [
+      [],
+      [
+        1705
+      ]
+    ],
+    "w": [
+      22,
+      10385
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "byte_identical": true,
+      "path": "results/actual_arithmetic_replay.json",
+      "sha256": "87aabcc192ea28f6be083bbc74df23264152131e48b1b7bd6c123a642c57b628"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/actual_first_split.json",
+      "sha256": "3611433abf4561786028524864c73ab6e95da18e2507306ee529fb6bfd7e07b4"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/counterexamples.json",
+      "sha256": "ce7eb323f57a4d27cd5d253314d8b66333f1b820cf5496cc09e7b2cb81d79b4c"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/frozen_U15_nonrealizability.json",
+      "sha256": "0e5f6622a58c62e95a2aa2435d2e850c5105d05d201310e0f586b8db7a57dda7"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/random_contraction_audit.json",
+      "sha256": "61bb6b5de29af88197c0b497af9fe8d75ecea26d2a6119f88b1d92c8a3f6327e"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/summary.json",
+      "sha256": "ccb73448fd9e055f99caa5216f73760ff805e807cf82aa57339f2669604510da"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/template_search.json",
+      "sha256": "c248439cbb59e111b9b6a6d8e3915c23e2b0bde492bc20742df623fef9d71693"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/truth_table_audit.json",
+      "sha256": "c96d021c6877ef517665ecf0fdb0c268a23f093f92aa8f76f007d3a4cd8b40ea"
+    },
+    {
+      "byte_identical": true,
+      "path": "results/two_adic_audit.json",
+      "sha256": "885480de74b4ee273db9e38b6b1eccf57982e5e5e0eddf69340146f815ccb154"
+    }
+  ],
+  "generated_json_files": 9,
+  "result": "PASS",
+  "scope": "Same independently written program replayed twice; not two independent software stacks; no repository tests replayed",
+  "second_output_directory_comparison": "byte-identical",
+  "unit_tests": {
+    "failed": 0,
+    "passed": 10,
+    "run": 10
+  }
+}

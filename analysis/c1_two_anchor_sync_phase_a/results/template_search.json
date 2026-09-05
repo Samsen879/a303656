@@ -1,0 +1,63 @@
+[
+  {
+    "dims": [
+      2,
+      3
+    ],
+    "f_maps": 0,
+    "g_maps": 6,
+    "nested_H1_false": 4,
+    "nested_complete": 4,
+    "nested_separations": [
+      1
+    ],
+    "rectangular_complete_H2_false": 0
+  },
+  {
+    "dims": [
+      2,
+      3,
+      2
+    ],
+    "f_maps": 0,
+    "g_maps": 6,
+    "nested_H1_false": 4,
+    "nested_complete": 4,
+    "nested_separations": [
+      1
+    ],
+    "rectangular_complete_H2_false": 0
+  },
+  {
+    "dims": [
+      3,
+      3
+    ],
+    "f_maps": 6,
+    "g_maps": 6,
+    "nested_H1_false": 12,
+    "nested_complete": 18,
+    "nested_separations": [
+      0,
+      1,
+      2
+    ],
+    "rectangular_complete_H2_false": 36
+  },
+  {
+    "dims": [
+      3,
+      5
+    ],
+    "f_maps": 6,
+    "g_maps": 980,
+    "nested_H1_false": 24,
+    "nested_complete": 36,
+    "nested_separations": [
+      0,
+      1,
+      2
+    ],
+    "rectangular_complete_H2_false": 5880
+  }
+]
