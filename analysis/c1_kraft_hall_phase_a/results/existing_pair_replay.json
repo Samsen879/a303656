@@ -1,0 +1,70 @@
+{
+  "dynamic_pairs": 603,
+  "rigid_pairs": 5192,
+  "pointwise_joins": 693,
+  "distinct_lower_pairs": 692,
+  "same_lower_joins": 0,
+  "examples": [
+    {
+      "r67": 2,
+      "r20771": 13471,
+      "saturation_sets": [
+        [
+          2728
+        ],
+        [
+          1639
+        ]
+      ],
+      "same_lower": [],
+      "minimum_joint_holes": 67,
+      "saturated_fiber_counts": [
+        {
+          "c": 0,
+          "y": 2728,
+          "dynamic": 66,
+          "rigid": 1,
+          "overlap": 0
+        },
+        {
+          "c": 1,
+          "y": 1639,
+          "dynamic": 66,
+          "rigid": 1,
+          "overlap": 0
+        }
+      ]
+    },
+    {
+      "r67": 0,
+      "r20771": 4494,
+      "saturation_sets": [
+        [
+          2431
+        ],
+        [
+          106
+        ]
+      ],
+      "same_lower": [],
+      "minimum_joint_holes": 66,
+      "saturated_fiber_counts": [
+        {
+          "c": 0,
+          "y": 2431,
+          "dynamic": 66,
+          "rigid": 1,
+          "overlap": 0
+        },
+        {
+          "c": 1,
+          "y": 106,
+          "dynamic": 66,
+          "rigid": 1,
+          "overlap": 0
+        }
+      ]
+    }
+  ],
+  "seconds": 0.33640629799992894
+}
