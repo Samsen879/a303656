@@ -1,0 +1,153 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "0200beede923c56e0284d9555c1dabaf91fa1755",
+    "integration_base_tree": "23f10c12181c5caa394f7a3fb1acb6e79cc02fe6",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235
+  },
+  "file_count": 26,
+  "files": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "cbcf17d29aa10822dbf2ebf10cdb24722ceea3abb0a52dda3ac95b7650431c64",
+      "size": 2256
+    },
+    {
+      "path": "README.md",
+      "sha256": "a3cd4866e6a9f2336cc26a2f29815c4631b3bf2c60f5d4aaf4e4ecda98e9254c",
+      "size": 2811
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "3dfd8be1ce38b3e29d3fd78bb6e72a76c9d4795a4893f307fafa701b9bbf6fa6",
+      "size": 34873
+    },
+    {
+      "path": "SOURCE_READING.md",
+      "sha256": "2b3928b18a41d80e27e824338204114440d35f4ebdf7c520f1d5643e162471f1",
+      "size": 4423
+    },
+    {
+      "path": "results/benchmark_panel.json",
+      "sha256": "7d03433c9bde10ac9ba99994a05b649619c25ceb0d6bfadd2431bee376a9ff79",
+      "size": 1811
+    },
+    {
+      "path": "results/counterexamples.json",
+      "sha256": "a4c06b51a90a85948bc99878682acd47e420ba09d471cecaf5a7b4b33b87d4be",
+      "size": 962
+    },
+    {
+      "path": "results/cyclotomic_complete.json",
+      "sha256": "00669553504a37ecf7ec00002da0a40225e0c48c516383e32f3f1395f26344d2",
+      "size": 2443
+    },
+    {
+      "path": "results/environment.json",
+      "sha256": "88f5022a1589b8ef78b567f57cf765ff38937f746b27e0d5e53f9e3cc8e99512",
+      "size": 458
+    },
+    {
+      "path": "results/existing_pair_replay.json",
+      "sha256": "52cc8b74d7756f009b6960b33c601ed325a5ed97b49c0e22d568570b881a20ed",
+      "size": 1217
+    },
+    {
+      "path": "results/paired_positions.json",
+      "sha256": "eb27083765320f6635dcf007c0c09a2a9fb762f8ec6e8309b3e495c495d6f0c9",
+      "size": 62116
+    },
+    {
+      "path": "results/panel_10000000.json",
+      "sha256": "791f8b41cc59b2cb21b3db74f9b3ed49bf9af9d2420e6fb6e44937660ef76365",
+      "size": 11219
+    },
+    {
+      "path": "results/reproduction_verification.json",
+      "sha256": "cf84f46eaf823e2a8559f03716078d721205fa250894a70d221a7c9aa4ceb12c",
+      "size": 990
+    },
+    {
+      "path": "results/resultant_zero_classes.json",
+      "sha256": "3577a14ac592e8286e5309114e502cae5e9fd91ec52a211a95a7a5b52ddb889b",
+      "size": 2483
+    },
+    {
+      "path": "results/source_authority.json",
+      "sha256": "92439d166f60dfa3fa11abb746976084867ade529e60ba2ae52c9e46da86792d",
+      "size": 748
+    },
+    {
+      "path": "results/source_manifest.json",
+      "sha256": "cb5173ecf60f4ae5e477c2496fb2d94d08034535df3330d0d9449f07fbbfd83f",
+      "size": 3862
+    },
+    {
+      "path": "results/theorem_verification.json",
+      "sha256": "08abf45efddde717523e12891ab5f03089cdacdfa87c7b8c0738c5a368966e4c",
+      "size": 1250
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "4f676f2eb8dcc25c3a4149ac3ee718194689fb6772d9ba76d25d370f6435344c",
+      "size": 1103
+    },
+    {
+      "path": "tools/counterexamples.py",
+      "sha256": "a7c374e24c8fc6baa1b24c82a22b4a99b830056f4d11ec0c98a329c755dffc29",
+      "size": 2106
+    },
+    {
+      "path": "tools/finalize_integration.py",
+      "sha256": "349664ef70a6304f85d22b2e5db22b61d7c5f5dd1c51e492662992aaab42399a",
+      "size": 3308
+    },
+    {
+      "path": "tools/generate_certificates.py",
+      "sha256": "427af12eaff00b2d69031408b42ae2e721717542bf48e7553f197ff1c0acbd43",
+      "size": 3373
+    },
+    {
+      "path": "tools/paired.py",
+      "sha256": "f7c15f5c466d3855ce2f3777dbf792bb54684ac5a96ea519c3c86bdeea547fbc",
+      "size": 2604
+    },
+    {
+      "path": "tools/panel.py",
+      "sha256": "b6fabca416bededdeaab474d53ed3bc3356c6b3801a5a5572a8c2e234fcea67a",
+      "size": 2467
+    },
+    {
+      "path": "tools/replay.py",
+      "sha256": "1050e9fb9d19f63e0b735dc3a007eeab3cce56f3323eafcfc68bcee76c78ce4a",
+      "size": 2429
+    },
+    {
+      "path": "tools/run_all.py",
+      "sha256": "28fe329ac1addc3ac1fe75cbb7eb551f02478eda71f12df88a01e86b9fdeaee1",
+      "size": 2913
+    },
+    {
+      "path": "tools/verify_integration.py",
+      "sha256": "a77b7344caba8a42dd049f142038bb0d1f399e699082fc0d7e202f9533daf313",
+      "size": 1596
+    },
+    {
+      "path": "tools/verify_theorems.py",
+      "sha256": "c39ca8fe7d0bdd49ff28bbc3e5802937f03cd865fa3eb6f184957a88aea8ed76",
+      "size": 5956
+    }
+  ],
+  "schema": "a303656.repository-native-phase-integration.v1",
+  "source": {
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_KRAFT_HALL_PHASE_A.zip",
+    "outer_zip_sha256": "46ddff326095b284a38d912315e3db11c4b20fce13049c0e4d820e63ec75f1a5",
+    "requested_filename": "A303656_KRAFT_HALL_PHASE_A.zip",
+    "safe_extraction": "PASS",
+    "standalone_replay": "BYTE_IDENTICAL"
+  }
+}
