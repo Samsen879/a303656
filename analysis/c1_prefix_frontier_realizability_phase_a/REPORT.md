@@ -19,7 +19,14 @@ A303656: UNRESOLVED
 
 The requested gap can be closed exactly at the following scope:
 
-> Fix one odd coordinate \(\ell\), one anchor \(c\), one lower-coordinate fiber, and one parameter-labelled abstract centered prefix frontier. Its realization by actual admitted prime rows is equivalent to three arithmetic gates: the actual dynamic parity/admissibility gate, an injective depth-by-depth supply of nonregular prime rows for the rigid leaves, and exact ambient \(\beta\)-support.
+> Fix one odd coordinate \(\ell\), a target depth \(\beta\), one anchor
+> \(c\), and one parameter-labelled abstract centered prefix frontier. First
+> choose the actual rigid-resource rows and any required support row satisfying
+> the three arithmetic gates. Let \(U\) be the coarse period induced by those
+> rows together with any explicitly retained ambient rows. Then fix one
+> compatible lower-coordinate CRT point of this final induced system (or
+> compatibly extend a previously prescribed partial lower point). On that
+> final lower fiber, the frontier is realized exactly.
 
 This is a genuine arbitrary-\(\beta\) theorem. It does **not** assert that the frontier extends to a complete certificate, that one lower fiber works uniformly, or that separately realizable frontiers at the two anchors admit one common-residue system.
 
@@ -109,14 +116,17 @@ and for an odd rational prime \(\ell\),
 
 The order-dependency graph has an edge \(p\to q\) when \(p\mid w_q\). Since \(w_q\mid q-1\), every edge is strictly increasing, so the graph is a DAG.
 
-### 2.2 Fixed \(\ell\)-coordinate fiber
+### 2.2 Final induced ambient system and fixed \(\ell\)-coordinate fiber
 
-Fix:
+For the realization theorem, choose the finite actual resource rows and any
+explicitly retained ambient rows before fixing the complete lower-coordinate
+fiber. Let \(U\) be their resulting coarse period. Fix:
 
 - an odd rational prime coordinate \(\ell\mid U\);
 - \(\beta=v_\ell(U)\);
 - one anchor \(c\in\{0,1\}\);
-- one assignment of every lower rational-prime coordinate.
+- one compatible assignment of every lower rational-prime coordinate of this
+  final \(U\).
 
 The fiber is
 
@@ -125,6 +135,14 @@ X_{\ell,\beta}=\mathbf Z/\ell^\beta\mathbf Z.
 \]
 
 After translation, a chosen dynamic center lift is normalized to \(\zeta=0\).
+
+If a lower point was prescribed before the resources were selected, the
+theorem applies only after extending it compatibly to every newly introduced
+lower prime power. It does not claim that the selected rows preserve an
+externally frozen ambient \(U\) or its unextended coordinate system. Such a
+stronger ambient-relative theorem would require restricting the resource sets
+to rows whose relevant order factors are already supported by that frozen
+\(U\).
 
 ### 2.3 Dynamic row
 
@@ -236,7 +254,14 @@ n_d(F)=\#\{\text{rigid frontier leaves of exact depth }d\}.
 
 ### 3.2 Theorem A — fiberwise arithmetic realizability criterion
 
-Fix \(\ell,\beta,c\), one lower-coordinate fiber, and one parameter-labelled abstract centered prefix frontier \(F\). Then \(F\) is induced exactly by a genuine finite collection of admitted actual prime rows at that anchor and fiber if and only if all of the following hold.
+Fix \(\ell,\beta,c\) and one parameter-labelled abstract centered prefix
+frontier \(F\). A *final-induced-system realization* means that a finite
+collection of actual resource rows and any explicitly retained ambient rows
+is chosen first, their orders induce a coarse period \(U\) with
+\(v_\ell(U)=\beta\), and only then one compatible lower-coordinate CRT point of
+that final system is fixed. A compatible previously prescribed partial lower
+point may instead be extended to the new lower prime powers. Such a
+realization of \(F\) exists if and only if all of the following gates hold.
 
 #### Dynamic gate
 
@@ -278,7 +303,10 @@ n_\beta(F)>0
 \mathcal S_{\ell,\beta}\ne\varnothing.
 \]
 
-No additional one-anchor `CENTER_BLOCKED` condition exists: after the lower coordinates have been fixed, every desired dynamic center and every desired rigid cylinder position can be placed by choosing the row residue.
+No additional one-anchor `CENTER_BLOCKED` condition exists: after the resource
+rows determine the final ambient coordinate system and a compatible lower
+point has been fixed, every desired dynamic center and every desired rigid
+cylinder position can be placed by choosing the row residue.
 
 ### 3.3 Proof of necessity
 
@@ -303,7 +331,19 @@ so some admitted row has exact \(\ell\)-order depth \(\beta\). If no active fron
 
 ### 3.4 Proof of sufficiency
 
-Choose an arbitrary compatible lower-coordinate CRT point.
+First choose distinct rigid-resource rows for all leaves and, when required,
+an ambient-support row. Together with any explicitly retained ambient rows,
+these choices determine the final coarse period \(U\). By the depth gates,
+every selected row has \(\ell\)-order depth at most \(\beta\), and some selected
+or retained row has exact depth \(\beta\); hence \(v_\ell(U)=\beta\).
+
+Now choose one compatible lower-coordinate CRT point of this final system. If
+a partial lower point was prescribed earlier, extend each of its coordinates
+to the higher powers introduced by the selected orders and choose values at
+new lower coordinates. The construction is conditional on that extension
+being compatible. This quantifier order is essential: the theorem does not
+promise to add arbitrary resources while leaving a pre-existing frozen \(U\)
+unchanged.
 
 #### Realizing one rigid leaf
 
@@ -314,7 +354,7 @@ w_q=u_q\ell^d,
 \qquad P^+(u_q)<\ell.
 \]
 
-The fixed lower assignment specifies the exponent modulo \(u_q\), while the desired cylinder specifies it modulo \(\ell^d\). CRT gives one exponent class
+The final fixed lower assignment specifies the exponent modulo \(u_q\), while the desired cylinder specifies it modulo \(\ell^d\). CRT gives one exponent class
 
 \[
 b_q\pmod{w_q}
@@ -1081,8 +1121,14 @@ depth-by-depth nonregular leaf inventory
 +
 exact ambient support
 <=>
-one-anchor fixed-fiber arithmetic realization.
+after selecting those resources/support and letting their orders plus retained
+rows induce final U, there exists one compatible final lower fiber (or a
+compatible extension of a prescribed partial lower point) on which the
+one-anchor frontier is realized exactly.
 ```
+
+This equivalence does not quantify over an externally frozen `U` that the
+selected resources are forbidden to refine.
 
 What remains unresolved:
 

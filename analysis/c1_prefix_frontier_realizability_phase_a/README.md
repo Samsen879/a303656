@@ -34,7 +34,12 @@ label included `(1)`) with outer SHA-256:
 60780334b892445d966a0224e1e6eb8ca2acba6b4bad1bb67b8baf168f8d24ab
 ```
 
-The theorem is restricted to one anchor and one fixed lower-coordinate fiber.
+The theorem is restricted to one anchor and one final fixed lower-coordinate
+fiber. Actual resource and support rows are selected first; their orders,
+together with explicitly retained ambient rows, induce the final `U`. A
+previously prescribed partial lower point must be compatibly extended to any
+new lower prime powers. Preservation of an externally frozen `U` is not
+claimed.
 The `q <= 10^7` resource inventories are exact finite data only.
 
 Repository checks:

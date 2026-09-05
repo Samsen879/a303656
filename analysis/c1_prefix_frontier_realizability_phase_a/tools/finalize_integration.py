@@ -59,7 +59,10 @@ def expected_manifest(root: Path, source_zip_sha256: str) -> dict[str, object]:
             "outer_zip_sha256": source_zip_sha256,
             "safe_extraction": "PASS",
             "internal_sha256sums": "PASS",
-            "standalone_replay": "BYTE_IDENTICAL",
+            "standalone_replay": (
+                "SOURCE_GENERATED_RESULTS_BYTE_IDENTICAL_BEFORE_REPAIR; "
+                "SUMMARY_SCOPE_METADATA_INTENTIONALLY_REGENERATED_AFTER_QUANTIFIER_REPAIR"
+            ),
         },
         "file_count": len(entries),
         "files": entries,

@@ -927,7 +927,12 @@ def build_summary(resource: dict, l3: dict, l67: dict, actual: dict, common: dic
         "schema": "a303656.phase3.summary.v1",
         "authority": AUTHORITY,
         "verdict": "ONE-ANCHOR REALIZABILITY THEOREM + COMPLETE SYMBOLIC BETA<=3 CLASSIFICATION + EXACT FINITE AUDIT",
-        "universal_theorem_scope": "fixed odd coordinate, fixed anchor, fixed lower-coordinate fiber; global certificate extension and simultaneous two-anchor assembly are separate",
+        "universal_theorem_scope": (
+            "fixed odd coordinate and anchor; select actual resources and support first, let their orders "
+            "and retained rows induce final U, then fix or compatibly extend one lower-coordinate point; "
+            "preservation of an externally frozen U, global certificate extension, and simultaneous "
+            "two-anchor assembly are separate"
+        ),
         "bounded_scan": {
             "bound": BOUND,
             "nonregular_rows": resource["all_nonregular_rows"],

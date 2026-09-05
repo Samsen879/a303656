@@ -43,6 +43,14 @@ class FrozenPhaseThreeResults(unittest.TestCase):
         self.assertEqual(result["q20771_k2_h1"]["pair_count"], 5192)
         self.assertTrue(result["q20771_k2_h1"]["contains_6528_2"])
 
+    def test_ambient_quantifier_scope_is_explicit(self):
+        report = (ROOT / "REPORT.md").read_text(encoding="utf-8")
+        self.assertIn("First choose distinct rigid-resource rows", report)
+        self.assertIn("determine the final coarse period", report)
+        self.assertIn("previously prescribed partial lower point", report)
+        self.assertIn("the theorem does not", report)
+        self.assertIn("promise to add arbitrary resources", report)
+
 
 if __name__ == "__main__":
     unittest.main()

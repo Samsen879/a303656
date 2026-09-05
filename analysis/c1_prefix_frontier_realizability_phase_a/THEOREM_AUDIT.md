@@ -4,7 +4,7 @@
 
 ```text
 THEOREM-LEVEL PARTIAL ADVANCE: PASS
-SCOPE: one anchor, one fixed lower-coordinate fiber
+SCOPE: one anchor, one final induced ambient system and fixed lower-coordinate fiber
 GLOBAL/TWO-ANCHOR COMPLETION: NOT PROVED
 PROJECT: PAUSED
 ACTIVE PROMOTED ROUTE: NONE
@@ -25,7 +25,14 @@ A regular row may have exact `v_l(w_q)=beta` and create the coordinate while sup
 
 ## Audit D — lower-coordinate consistency
 
-For a desired depth-e cylinder, `w_q=u_q l^e` with all prime factors of `u_q` below `l`. A fixed lower CRT point determines the class modulo `u_q`; the desired cylinder determines it modulo `l^e`; CRT gives one full class modulo `w_q`. Row residues are then chosen independently. No cross-row congruence is silently imposed at one anchor.
+Resource and support rows are selected before the complete lower fiber is
+fixed. Their orders, with any explicitly retained rows, determine the final
+`U`. For a desired depth-e cylinder, `w_q=u_q l^e` with all prime factors of
+`u_q` below `l`. A compatible lower CRT point of this final system determines
+the class modulo `u_q`; the desired cylinder determines it modulo `l^e`; CRT
+gives one full class modulo `w_q`. A previously prescribed partial lower point
+must be extended compatibly to new prime powers. The theorem does not claim
+that arbitrary selected resources preserve an externally frozen `U`.
 
 ## Audit E — local zero remains fail-closed
 

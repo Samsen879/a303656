@@ -2,7 +2,10 @@
 
 ## PROVED
 
-- Exact one-anchor fixed-fiber realizability criterion: actual dynamic parity/admissibility + injective nonregular rigid-leaf inventory + exact ambient beta support.
+- Exact one-anchor final-fixed-fiber realizability criterion: first select
+  actual resources and support satisfying the gates, let their orders and any
+  retained rows induce the final ambient `U`, then fix or compatibly extend one
+  lower CRT point. Preservation of a pre-existing frozen `U` is not proved.
 - One-anchor center-position freedom.
 - Wieferich leaf inventory invariant and congruence `q == 1 + 2*l^e (mod 4*l^e)`.
 - Center-depth lower bound in terms of the number of distinct rigid rows.
