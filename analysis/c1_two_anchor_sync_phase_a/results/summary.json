@@ -1,0 +1,91 @@
+{
+  "A303656": "UNRESOLVED",
+  "abstract_H1": "DISPROVED ABSTRACTLY",
+  "abstract_H2": "DISPROVED ABSTRACTLY",
+  "active_promoted_route": "NONE",
+  "actual_H1": "OPEN AFTER TARGETED SEARCH",
+  "actual_H2": "OPEN AFTER TARGETED SEARCH",
+  "authority_main": "0200beede923c56e0284d9555c1dabaf91fa1755",
+  "authority_tree": "23f10c12181c5caa394f7a3fb1acb6e79cc02fe6",
+  "contraction": {
+    "cases": 1000,
+    "complete_simultaneous": 53,
+    "derived_clauses": 635,
+    "mismatches": 0,
+    "seed": 20260905
+  },
+  "github_writes": "NONE",
+  "independent": "No repository code imported; one independently written standard-library program",
+  "local_zero_corruption_rejected": true,
+  "no_go_scope": "pooled lower strict deficit + common-safe boundary + top rigid Kraft mass <1 at each anchor (in particular <p original rigid rows)",
+  "phase_verdict": "C. WEAKER USEFUL BRIDGE FOUND; secondary D, abstract structural negative",
+  "project": "PAUSED",
+  "search": [
+    {
+      "dims": [
+        2,
+        3
+      ],
+      "f_maps": 0,
+      "g_maps": 6,
+      "nested_H1_false": 4,
+      "nested_complete": 4,
+      "nested_separations": [
+        1
+      ],
+      "rectangular_complete_H2_false": 0
+    },
+    {
+      "dims": [
+        2,
+        3,
+        2
+      ],
+      "f_maps": 0,
+      "g_maps": 6,
+      "nested_H1_false": 4,
+      "nested_complete": 4,
+      "nested_separations": [
+        1
+      ],
+      "rectangular_complete_H2_false": 0
+    },
+    {
+      "dims": [
+        3,
+        3
+      ],
+      "f_maps": 6,
+      "g_maps": 6,
+      "nested_H1_false": 12,
+      "nested_complete": 18,
+      "nested_separations": [
+        0,
+        1,
+        2
+      ],
+      "rectangular_complete_H2_false": 36
+    },
+    {
+      "dims": [
+        3,
+        5
+      ],
+      "f_maps": 6,
+      "g_maps": 980,
+      "nested_H1_false": 24,
+      "nested_complete": 36,
+      "nested_separations": [
+        0,
+        1,
+        2
+      ],
+      "rectangular_complete_H2_false": 5880
+    }
+  ],
+  "truth": {
+    "last_coordinate_cases": 4416,
+    "mismatches": 0,
+    "rigid_tax_cases": 951
+  }
+}
