@@ -1,0 +1,8 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "implementation": "CPython",
+  "final_bundle_dependencies": "Python standard library only",
+  "arithmetic": "integer, modular pow, Fraction, trial-division certificates",
+  "software_independence_scope": "Independent of repository computational kernels; multiple algorithms in one Python environment, not independent software stacks"
+}

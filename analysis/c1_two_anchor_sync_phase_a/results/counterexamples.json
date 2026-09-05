@@ -1,0 +1,2662 @@
+{
+  "H1_split_2x3": {
+    "H1": false,
+    "H2": true,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    0
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "macro_0_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    1
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "macro_1_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      6,
+      6
+    ],
+    "dims": [
+      2,
+      3
+    ],
+    "domain_cells": 6,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "L0",
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "kind": "SPLIT",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            39,
+            39,
+            39,
+            41,
+            41,
+            41
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "L0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            109,
+            1,
+            1,
+            1,
+            107,
+            1
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "R0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            341,
+            1,
+            1,
+            1,
+            339
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "R1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            505,
+            503,
+            1,
+            1
+          ],
+          "q": 23,
+          "r": 0,
+          "row": "R2"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  },
+  "H1_split_2x3x2": {
+    "H1": false,
+    "H2": true,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [],
+            "rank": 2,
+            "top_events": 0
+          },
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    0
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "macro_0_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [],
+            "rank": 2,
+            "top_events": 0
+          },
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    1
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "macro_1_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "R0",
+                  "R1",
+                  "R2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      12,
+      12
+    ],
+    "dims": [
+      2,
+      3,
+      2
+    ],
+    "domain_cells": 12,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "L0",
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "R0",
+          "R1",
+          "R2"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ]
+        ],
+        "2": []
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            1
+          ]
+        ],
+        "2": []
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "kind": "SPLIT",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            39,
+            39,
+            39,
+            39,
+            39,
+            39,
+            41,
+            41,
+            41,
+            41,
+            41,
+            41
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "L0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            109,
+            109,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            107,
+            107,
+            1,
+            1
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "R0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            341,
+            341,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            339,
+            339
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "R1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            1,
+            1,
+            505,
+            505,
+            503,
+            503,
+            1,
+            1,
+            1,
+            1
+          ],
+          "q": 23,
+          "r": 0,
+          "row": "R2"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  },
+  "H1_split_same_coordinate_3x5": {
+    "H1": false,
+    "H2": true,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    3,
+                    0
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 5
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "L1",
+                  "macro_0_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "L1",
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    3,
+                    2
+                  ]
+                ],
+                "parent_events": [
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ],
+                "rows": [
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 5
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L0",
+                  "L1",
+                  "macro_1_1_0"
+                ],
+                "rows": [
+                  "L0",
+                  "L1",
+                  "R0",
+                  "R1",
+                  "R2",
+                  "R3",
+                  "R4"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      15,
+      15
+    ],
+    "dims": [
+      3,
+      5
+    ],
+    "domain_cells": 15,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "L0"
+        ],
+        "rank": 0,
+        "row": "L0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "L1"
+        ],
+        "rank": 0,
+        "row": "L1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "L1"
+        ],
+        "rank": 0,
+        "row": "L1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            3,
+            2
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R0"
+        ],
+        "rank": 1,
+        "row": "R0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            3,
+            2
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R1"
+        ],
+        "rank": 1,
+        "row": "R1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            3,
+            2
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 8,
+        "provenance": [
+          "R2"
+        ],
+        "rank": 1,
+        "row": "R2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 8,
+        "provenance": [
+          "R3"
+        ],
+        "rank": 1,
+        "row": "R3",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            3,
+            2
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 16,
+        "provenance": [
+          "R3"
+        ],
+        "rank": 1,
+        "row": "R3",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            3,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 16,
+        "provenance": [
+          "R4"
+        ],
+        "rank": 1,
+        "row": "R4",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            3,
+            2
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R4"
+        ],
+        "rank": 1,
+        "row": "R4",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "L0",
+          "L1",
+          "R0",
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ]
+      ],
+      [
+        [
+          "L0",
+          "L1",
+          "R0",
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            2
+          ]
+        ]
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [
+            0
+          ],
+          [
+            2
+          ]
+        ],
+        "kind": "SPLIT",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            39,
+            39,
+            39,
+            39,
+            39,
+            41,
+            41,
+            41,
+            41,
+            41,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "L0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            107,
+            107,
+            107,
+            107,
+            107,
+            109,
+            109,
+            109,
+            109,
+            109
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "L1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            341,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            339,
+            1,
+            1,
+            1
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "R0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            505,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            503,
+            1,
+            1
+          ],
+          "q": 23,
+          "r": 0,
+          "row": "R1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            929,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            927,
+            1
+          ],
+          "q": 31,
+          "r": 0,
+          "row": "R2"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            1,
+            1805,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1803
+          ],
+          "q": 43,
+          "r": 0,
+          "row": "R3"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1,
+            1,
+            1,
+            1,
+            2161,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2159,
+            1,
+            1,
+            1,
+            1
+          ],
+          "q": 47,
+          "r": 0,
+          "row": "R4"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  },
+  "H2_disjoint_coordinates_3x3": {
+    "H1": false,
+    "H2": false,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "A0",
+                  "A1",
+                  "A2"
+                ],
+                "rows": [
+                  "A0",
+                  "A1",
+                  "A2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "B0",
+                  "B1",
+                  "B2"
+                ],
+                "rows": [
+                  "B0",
+                  "B1",
+                  "B2"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 3
+          },
+          {
+            "clauses": [],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      9,
+      9
+    ],
+    "dims": [
+      3,
+      3
+    ],
+    "domain_cells": 9,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A0"
+        ],
+        "rank": 0,
+        "row": "A0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "A0"
+        ],
+        "rank": 0,
+        "row": "A0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "A1"
+        ],
+        "rank": 0,
+        "row": "A1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A1"
+        ],
+        "rank": 0,
+        "row": "A1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "A2"
+        ],
+        "rank": 0,
+        "row": "A2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A2"
+        ],
+        "rank": 0,
+        "row": "A2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "B0"
+        ],
+        "rank": 1,
+        "row": "B0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B0"
+        ],
+        "rank": 1,
+        "row": "B0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B1"
+        ],
+        "rank": 1,
+        "row": "B1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "B1"
+        ],
+        "rank": 1,
+        "row": "B1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B2"
+        ],
+        "rank": 1,
+        "row": "B2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "B2"
+        ],
+        "rank": 1,
+        "row": "B2",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "A0",
+          "A1",
+          "A2"
+        ]
+      ],
+      [
+        [
+          "B0",
+          "B1",
+          "B2"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [
+          []
+        ],
+        "1": []
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [],
+          [
+            2
+          ]
+        ],
+        "kind": "SINGLE_FULL",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            41,
+            41,
+            41,
+            39,
+            39,
+            39,
+            1,
+            1,
+            1
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "A0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            107,
+            107,
+            107,
+            109,
+            109,
+            109,
+            1,
+            1,
+            1
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "A1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            339,
+            339,
+            339,
+            1,
+            1,
+            1,
+            341,
+            341,
+            341
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "A2"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            503,
+            505,
+            1,
+            503,
+            505,
+            1,
+            503,
+            505,
+            1
+          ],
+          "q": 23,
+          "r": 0,
+          "row": "B0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            929,
+            927,
+            1,
+            929,
+            927,
+            1,
+            929,
+            927,
+            1
+          ],
+          "q": 31,
+          "r": 0,
+          "row": "B1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1805,
+            1,
+            1803,
+            1805,
+            1,
+            1803,
+            1805,
+            1,
+            1803
+          ],
+          "q": 43,
+          "r": 0,
+          "row": "B2"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  },
+  "H2_disjoint_coordinates_3x5": {
+    "H1": false,
+    "H2": false,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [],
+            "rank": 1,
+            "top_events": 5
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "A0",
+                  "A1",
+                  "A2"
+                ],
+                "rows": [
+                  "A0",
+                  "A1",
+                  "A2"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "B0",
+                  "B1",
+                  "B2",
+                  "B3",
+                  "B4"
+                ],
+                "rows": [
+                  "B0",
+                  "B1",
+                  "B2",
+                  "B3",
+                  "B4"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 5
+          },
+          {
+            "clauses": [],
+            "rank": 0,
+            "top_events": 3
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      15,
+      15
+    ],
+    "dims": [
+      3,
+      5
+    ],
+    "domain_cells": 15,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A0"
+        ],
+        "rank": 0,
+        "row": "A0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "A0"
+        ],
+        "rank": 0,
+        "row": "A0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "A1"
+        ],
+        "rank": 0,
+        "row": "A1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A1"
+        ],
+        "rank": 0,
+        "row": "A1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "A2"
+        ],
+        "rank": 0,
+        "row": "A2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "A2"
+        ],
+        "rank": 0,
+        "row": "A2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "B0"
+        ],
+        "rank": 1,
+        "row": "B0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B0"
+        ],
+        "rank": 1,
+        "row": "B0",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B1"
+        ],
+        "rank": 1,
+        "row": "B1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "B1"
+        ],
+        "rank": 1,
+        "row": "B1",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B2"
+        ],
+        "rank": 1,
+        "row": "B2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 4,
+        "provenance": [
+          "B2"
+        ],
+        "rank": 1,
+        "row": "B2",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B3"
+        ],
+        "rank": 1,
+        "row": "B3",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 8,
+        "provenance": [
+          "B3"
+        ],
+        "rank": 1,
+        "row": "B3",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "B4"
+        ],
+        "rank": 1,
+        "row": "B4",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 16,
+        "provenance": [
+          "B4"
+        ],
+        "rank": 1,
+        "row": "B4",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "A0",
+          "A1",
+          "A2"
+        ]
+      ],
+      [
+        [
+          "B0",
+          "B1",
+          "B2",
+          "B3",
+          "B4"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [
+          []
+        ],
+        "1": []
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [],
+          [
+            2
+          ]
+        ],
+        "kind": "SINGLE_FULL",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            41,
+            41,
+            41,
+            41,
+            41,
+            39,
+            39,
+            39,
+            39,
+            39,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "A0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            107,
+            107,
+            107,
+            107,
+            107,
+            109,
+            109,
+            109,
+            109,
+            109,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "A1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            339,
+            339,
+            339,
+            339,
+            339,
+            1,
+            1,
+            1,
+            1,
+            1,
+            341,
+            341,
+            341,
+            341,
+            341
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "A2"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            503,
+            505,
+            1,
+            1,
+            1,
+            503,
+            505,
+            1,
+            1,
+            1,
+            503,
+            505,
+            1,
+            1,
+            1
+          ],
+          "q": 23,
+          "r": 0,
+          "row": "B0"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            929,
+            927,
+            1,
+            1,
+            1,
+            929,
+            927,
+            1,
+            1,
+            1,
+            929,
+            927,
+            1,
+            1,
+            1
+          ],
+          "q": 31,
+          "r": 0,
+          "row": "B1"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            1805,
+            1,
+            1803,
+            1,
+            1,
+            1805,
+            1,
+            1803,
+            1,
+            1,
+            1805,
+            1,
+            1803,
+            1,
+            1
+          ],
+          "q": 43,
+          "r": 0,
+          "row": "B2"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            2161,
+            1,
+            1,
+            2159,
+            1,
+            2161,
+            1,
+            1,
+            2159,
+            1,
+            2161,
+            1,
+            1,
+            2159,
+            1
+          ],
+          "q": 47,
+          "r": 0,
+          "row": "B3"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            3421,
+            1,
+            1,
+            1,
+            3419,
+            3421,
+            1,
+            1,
+            1,
+            3419,
+            3421,
+            1,
+            1,
+            1,
+            3419
+          ],
+          "q": 59,
+          "r": 0,
+          "row": "B4"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  },
+  "dynamic_local_zero_switch_2x3": {
+    "H1": false,
+    "H2": true,
+    "all_rows_active_at_both_anchors": true,
+    "complete": [
+      true,
+      true
+    ],
+    "contraction": [
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    0
+                  ]
+                ],
+                "parent_events": [
+                  "D",
+                  "R"
+                ],
+                "rows": [
+                  "D",
+                  "R"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 2
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L",
+                  "macro_0_1_0"
+                ],
+                "rows": [
+                  "D",
+                  "L",
+                  "R"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      },
+      {
+        "root_covered": true,
+        "trace": [
+          {
+            "clauses": [
+              {
+                "guard": [
+                  [
+                    0,
+                    2,
+                    1
+                  ]
+                ],
+                "parent_events": [
+                  "D",
+                  "R"
+                ],
+                "rows": [
+                  "D",
+                  "R"
+                ]
+              }
+            ],
+            "rank": 1,
+            "top_events": 2
+          },
+          {
+            "clauses": [
+              {
+                "guard": [],
+                "parent_events": [
+                  "L",
+                  "macro_1_1_0"
+                ],
+                "rows": [
+                  "D",
+                  "L",
+                  "R"
+                ]
+              }
+            ],
+            "rank": 0,
+            "top_events": 2
+          }
+        ]
+      }
+    ],
+    "covered_cells": [
+      6,
+      6
+    ],
+    "dims": [
+      2,
+      3
+    ],
+    "domain_cells": 6,
+    "events": [
+      {
+        "anchor": 0,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 2,
+        "provenance": [
+          "L"
+        ],
+        "rank": 0,
+        "row": "L",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "L"
+        ],
+        "rank": 0,
+        "row": "L",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "dynamic",
+        "mask": 6,
+        "provenance": [
+          "D"
+        ],
+        "rank": 1,
+        "row": "D",
+        "zero_mask": 1
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "dynamic",
+        "mask": 6,
+        "provenance": [
+          "D"
+        ],
+        "rank": 1,
+        "row": "D",
+        "zero_mask": 1
+      },
+      {
+        "anchor": 0,
+        "guard": [
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R"
+        ],
+        "rank": 1,
+        "row": "R",
+        "zero_mask": 0
+      },
+      {
+        "anchor": 1,
+        "guard": [
+          [
+            0,
+            2,
+            1
+          ]
+        ],
+        "kind": "rigid",
+        "mask": 1,
+        "provenance": [
+          "R"
+        ],
+        "rank": 1,
+        "row": "R",
+        "zero_mask": 0
+      }
+    ],
+    "minimal_global_row_covers": [
+      [
+        [
+          "L",
+          "D",
+          "R"
+        ]
+      ],
+      [
+        [
+          "L",
+          "D",
+          "R"
+        ]
+      ]
+    ],
+    "original_rank_saturation": [
+      {
+        "0": [],
+        "1": [
+          [
+            0
+          ]
+        ]
+      },
+      {
+        "0": [],
+        "1": [
+          [
+            1
+          ]
+        ]
+      }
+    ],
+    "paired_greedy": [
+      {
+        "escape_digits": [
+          [
+            0
+          ],
+          [
+            1
+          ]
+        ],
+        "kind": "SPLIT",
+        "prefix": [],
+        "rank": 0
+      }
+    ],
+    "paired_residue_surrogate": {
+      "rows": [
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            48,
+            41,
+            41,
+            46,
+            39,
+            39
+          ],
+          "q": 7,
+          "r": 0,
+          "row": "D"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            107,
+            107,
+            107,
+            109,
+            109,
+            109
+          ],
+          "q": 11,
+          "r": 0,
+          "row": "L"
+        },
+        {
+          "E": [
+            1
+          ],
+          "K": 2,
+          "g_table": [
+            341,
+            1,
+            1,
+            339,
+            1,
+            1
+          ],
+          "q": 19,
+          "r": 0,
+          "row": "R"
+        }
+      ],
+      "scope": "arbitrary periodic g_i, NOT 5^d; not an admitted arithmetic realization"
+    },
+    "simultaneously_row_irredundant": true
+  }
+}

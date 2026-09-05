@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "matched_result_files": 8,
+  "comparison": "All JSON content except fields named seconds; no numeric tolerance",
+  "mathematical_sha256": {
+    "benchmark_panel.json": "f5f42a6c90d3f6f7d16bc40f86ecb6f413363f7a1631ab4c7517760f32665310",
+    "counterexamples.json": "a8a470c0352aff2ee81173f7ab24dc4bce735ca7f4a3fcbbd89b91e3121a7278",
+    "cyclotomic_complete.json": "a2b7a2ee3363e0d6903bb08747137b9c62d68e13e9133487b0766baec1fa3755",
+    "existing_pair_replay.json": "b389a3447094c773873f7285582033e3943c47f6065804c2ba9cf5ca5bc26f80",
+    "paired_positions.json": "71cd878f1294a1a7a5084368801b3e64974ff99c9fb5707a4cebccd0bd25fb36",
+    "panel_10000000.json": "09c3699290aa538b1f181389930a87deb2813b418721bc1bf895d1d949033df3",
+    "resultant_zero_classes.json": "b1dd37a0fcf937ae1b1725ce6edf771fa7d5f6c2270d79260b24803412db5543",
+    "theorem_verification.json": "281f9dc362602181c82a2f2b4077e3caa4bb41d9034b1e98be7c6d773fb19ad4"
+  },
+  "seconds": 8.355692509999926
+}

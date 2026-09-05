@@ -1,0 +1,70 @@
+{
+  "arithmetic": {
+    "cyclotomic_factorizations": 6,
+    "resultants_checked_by_Bareiss": 4,
+    "distinct_prime_factors_trial_division": 28,
+    "complete_coordinate3_orders": [
+      [
+        7,
+        6
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        31,
+        3
+      ],
+      [
+        163,
+        54
+      ],
+      [
+        271,
+        27
+      ],
+      [
+        487,
+        54
+      ],
+      [
+        4159,
+        27
+      ],
+      [
+        5167,
+        18
+      ],
+      [
+        31051,
+        27
+      ],
+      [
+        16018507,
+        54
+      ]
+    ],
+    "coordinate3_min_rigid_depth": 4,
+    "rigid_only_minimum_rows": 81,
+    "dynamic_allowed_minimum_rows": 21,
+    "coordinate5_beta1_Y0_joint_rows": 10,
+    "coordinate7_beta1_Y0_joint_rows": 8
+  },
+  "combinatorics": {
+    "all_cylinder_subsets": 4096,
+    "full_cover_subsets": 729,
+    "corrected_branch_inequalities_checked": 8748,
+    "failures_of_uncorrected_inside_only_T2_on_full_covers": 2916,
+    "greedy_inventory_profiles": 1000,
+    "coloured_hypergraph_integral_solutions": 0,
+    "coloured_hypergraph_fractional_cover": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "status": "PASS",
+  "seconds": 0.035833056000001307
+}

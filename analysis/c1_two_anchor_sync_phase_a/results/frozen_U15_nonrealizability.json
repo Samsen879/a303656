@@ -1,0 +1,35 @@
+{
+  "N": 30517578124,
+  "all_possible_admitted_primes": [
+    {
+      "pow_mod_q_squared": 100,
+      "q": 11,
+      "s": 1,
+      "w": 5
+    },
+    {
+      "pow_mod_q_squared": 125,
+      "q": 31,
+      "s": 1,
+      "w": 3
+    },
+    {
+      "pow_mod_q_squared": 3125,
+      "q": 71,
+      "s": 1,
+      "w": 5
+    }
+  ],
+  "extension_to_enlarged_U": "NOT decided by this calculation",
+  "factorization": {
+    "11": 1,
+    "1741": 1,
+    "181": 1,
+    "2": 2,
+    "31": 1,
+    "71": 1
+  },
+  "frozen_U": 15,
+  "rigid_resources": 0,
+  "status": "exact CRT 3x5 countermodel NOT realizable in unchanged U=15"
+}

@@ -1,0 +1,55 @@
+{
+  "misalignment": {
+    "classification": "EXACT FINITE RESULT; previously known mechanism, independently constructed",
+    "p": 67,
+    "q": 20771,
+    "K": 2,
+    "E": [
+      1
+    ],
+    "c": 0,
+    "lower_modulus": 3410,
+    "lower_value": 0,
+    "r67": 2,
+    "r20771": 53298436,
+    "rigid_full_class": 2480,
+    "dynamic_count": 66,
+    "rigid_count": 1,
+    "union_count": 66,
+    "holes": [
+      0
+    ],
+    "mass_sum": "1"
+  },
+  "zero_lower_double_activity": {
+    "classification": "EXACT FINITE RESULT; refutes blanket zero-lower one-sidedness, not the h=5,7 theorems",
+    "q": 40487,
+    "K": 2,
+    "E": [
+      1
+    ],
+    "r": 25919,
+    "u": 62,
+    "lower_value": 0,
+    "ell": 653,
+    "beta": 1,
+    "events": [
+      [
+        [
+          50,
+          3968
+        ]
+      ],
+      [
+        [
+          547,
+          14260
+        ]
+      ]
+    ],
+    "positive_valuation_one_coefficients": [
+      11379,
+      37832
+    ]
+  }
+}

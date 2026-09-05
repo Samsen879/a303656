@@ -1,0 +1,132 @@
+{
+  "PRs": [
+    {
+      "draft": false,
+      "merge_commit": "e9b537f70fb0196b30f5b476b634299b012c369e",
+      "merged": true,
+      "number": 11,
+      "state": "closed"
+    },
+    {
+      "draft": false,
+      "merge_commit": "7786a0b356a790623eb0662b64e84b9c6240edde",
+      "merged": true,
+      "number": 12,
+      "state": "closed"
+    },
+    {
+      "draft": false,
+      "merge_commit": "0200beede923c56e0284d9555c1dabaf91fa1755",
+      "merged": true,
+      "number": 13,
+      "state": "closed"
+    }
+  ],
+  "main_sha": "0200beede923c56e0284d9555c1dabaf91fa1755",
+  "main_tree": "23f10c12181c5caa394f7a3fb1acb6e79cc02fe6",
+  "read_scope": "Listed core mathematical sources; not a claim of exhaustive generated-catalog reading or repository test replay",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_implementation_imported": false,
+  "repository_writes": "NONE",
+  "sources": [
+    {
+      "observed_git_blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+      "path": "STATUS.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/STATUS.md"
+    },
+    {
+      "observed_git_blob_sha": "791ffb9ed0f719162480db034a137a1385d6b160",
+      "path": "docs/THEOREM_INDEX.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/docs/THEOREM_INDEX.md"
+    },
+    {
+      "observed_git_blob_sha": "35333f603572b1369faa7ec09a5fad012361284c",
+      "path": "docs/ROUTE_MAP.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/docs/ROUTE_MAP.md"
+    },
+    {
+      "observed_git_blob_sha": "2a788348cf9abdce43f47809b7b6fd6cb8f3f04d",
+      "path": "analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md"
+    },
+    {
+      "observed_git_blob_sha": "33fb391b6547fce68bb7a1964d3757fa5b5c8910",
+      "path": "analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md"
+    },
+    {
+      "observed_git_blob_sha": "922d31d72f74a8c81f75b5b3a64902c0ad6a0448",
+      "path": "analysis/c1_contraction_tree_phase_a/DEFINITIONS.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_contraction_tree_phase_a/DEFINITIONS.md"
+    },
+    {
+      "observed_git_blob_sha": "27cd196104e3c7f566375965ac1b671f6f276111",
+      "path": "analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md"
+    },
+    {
+      "observed_git_blob_sha": "5908a3373a5e8d0997c6df387be59e17239f961a",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md"
+    },
+    {
+      "observed_git_blob_sha": "7ad233f07750d6baeea4b822fd57e4c12f46f157",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md"
+    },
+    {
+      "observed_git_blob_sha": "27b255f6bedbf983f0d3ba58f64e1af8b7e0061a",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md",
+      "read_range": "full",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md"
+    },
+    {
+      "observed_git_blob_sha": "2711299b58f5c3b9f67c117af0df4ae3cd3357ec",
+      "path": "analysis/c1_two_anchor_common_residue_phase_a/REPORT.md",
+      "read_range": "initial full-file response (tool truncated near section 10); explicit ranges 330-630 and 630-800 complete mathematical and final sections",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_two_anchor_common_residue_phase_a/REPORT.md"
+    },
+    {
+      "observed_git_blob_sha": "cb2f117f5b2e3f2bdd54f4bfe11f6414eed4570b",
+      "path": "analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md",
+      "read_range": "ranges 1-220, 220-460, 461-740, 741-1100, 1080-1320",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md"
+    },
+    {
+      "observed_git_blob_sha": "260d7160f6b2321cdc6f7f1212986b898461980e",
+      "path": "analysis/c1_hereditary_shell_phase_a/REPORT.md",
+      "read_range": "ranges 1-240, 241-560",
+      "url": "https://github.com/Samsen879/a303656/blob/0200beede923c56e0284d9555c1dabaf91fa1755/analysis/c1_hereditary_shell_phase_a/REPORT.md"
+    }
+  ],
+  "status": {
+    "A303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "project": "PAUSED"
+  },
+  "uploaded_inputs": [
+    {
+      "name": "Pasted markdown(10).md",
+      "sha256": "af9f4fa1ca04be164f86156e5735e5bbdc00be03b948cdb0c059a6571a778995"
+    },
+    {
+      "name": "分工规则.txt",
+      "sha256": "94261338e1d2e0a348ff264e9a98322b647918eeca74b0932dcd90bac980b5f6"
+    },
+    {
+      "name": "项目简介.txt",
+      "sha256": "42903e1adb5731d195786538a1072aa5b54a5c2adbf7fe6b963226fa74a139ae"
+    }
+  ],
+  "verification_method": "live GitHub connector GET reads; immutable SHA source reads; commit-parent ancestry checked"
+}
