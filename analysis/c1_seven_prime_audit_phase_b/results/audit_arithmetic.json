@@ -1,0 +1,125 @@
+{
+  "factorizations": [
+    {
+      "m": 3,
+      "cyclotomic_value": 31,
+      "primes": [
+        {
+          "q": 31,
+          "multiplicity": 1,
+          "order": 3,
+          "s": 1,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "m": 6,
+      "cyclotomic_value": 21,
+      "primes": [
+        {
+          "q": 3,
+          "multiplicity": 1,
+          "order": 2,
+          "s": 1,
+          "admitted": true
+        },
+        {
+          "q": 7,
+          "multiplicity": 1,
+          "order": 6,
+          "s": 1,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "m": 9,
+      "cyclotomic_value": 15751,
+      "primes": [
+        {
+          "q": 19,
+          "multiplicity": 1,
+          "order": 9,
+          "s": 1,
+          "admitted": true
+        },
+        {
+          "q": 829,
+          "multiplicity": 1,
+          "order": 9,
+          "s": 1,
+          "admitted": false
+        }
+      ]
+    },
+    {
+      "m": 18,
+      "cyclotomic_value": 15501,
+      "primes": [
+        {
+          "q": 3,
+          "multiplicity": 1,
+          "order": 2,
+          "s": 1,
+          "admitted": true
+        },
+        {
+          "q": 5167,
+          "multiplicity": 1,
+          "order": 18,
+          "s": 1,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "m": 5,
+      "cyclotomic_value": 781,
+      "primes": [
+        {
+          "q": 11,
+          "multiplicity": 1,
+          "order": 5,
+          "s": 1,
+          "admitted": true
+        },
+        {
+          "q": 71,
+          "multiplicity": 1,
+          "order": 5,
+          "s": 1,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "m": 10,
+      "cyclotomic_value": 521,
+      "primes": [
+        {
+          "q": 521,
+          "multiplicity": 1,
+          "order": 10,
+          "s": 1,
+          "admitted": false
+        }
+      ]
+    }
+  ],
+  "rank3_heads": {
+    "1": [
+      7,
+      31
+    ],
+    "2": [
+      19,
+      5167
+    ]
+  },
+  "rank5_3free_depth1_heads": [
+    11,
+    71
+  ],
+  "seconds": 0.00015262199997323478
+}

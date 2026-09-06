@@ -1,0 +1,20 @@
+test_01_scan_full_inventory (test_review.ReviewTests.test_01_scan_full_inventory) ... ok
+test_02_scan_all_blocks (test_review.ReviewTests.test_02_scan_all_blocks) ... ok
+test_03_hit_exact_orders (test_review.ReviewTests.test_03_hit_exact_orders) ... ok
+test_04_nonadmitted_prime_not_resource (test_review.ReviewTests.test_04_nonadmitted_prime_not_resource) ... ok
+test_05_complete_helper_inventories (test_review.ReviewTests.test_05_complete_helper_inventories) ... ok
+test_06_boundary_same_anchor (test_review.ReviewTests.test_06_boundary_same_anchor) ... ok
+test_07_dynamic_center_excluded (test_review.ReviewTests.test_07_dynamic_center_excluded) ... ok
+test_08_simple_pair_full (test_review.ReviewTests.test_08_simple_pair_full) ... ok
+test_09_parity_essential_negative_control (test_review.ReviewTests.test_09_parity_essential_negative_control) ... ok
+test_10_three_shallow_head_union (test_review.ReviewTests.test_10_three_shallow_head_union) ... ok
+test_11_five_all_witnesses (test_review.ReviewTests.test_11_five_all_witnesses) ... ok
+test_12_guard_intersection_never_forgets (test_review.ReviewTests.test_12_guard_intersection_never_forgets) ... ok
+test_13_sparse_exact_elimination (test_review.ReviewTests.test_13_sparse_exact_elimination) ... ok
+test_14_row_normal_form_and_forall (test_review.ReviewTests.test_14_row_normal_form_and_forall) ... ok
+test_15_pair_arithmetic_overflow_bound (test_review.ReviewTests.test_15_pair_arithmetic_overflow_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.323s
+
+OK

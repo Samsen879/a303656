@@ -1,0 +1,21 @@
+{
+  "head_placements": 729,
+  "union_size_histogram": {
+    "3": 27,
+    "4": 126,
+    "5": 90,
+    "6": 216,
+    "7": 234,
+    "8": 36
+  },
+  "max_union": "8/9",
+  "max_example": [
+    2,
+    1,
+    6,
+    3
+  ],
+  "complete_frontiers_including_root": 17,
+  "min_leaves_at_depth3": 7,
+  "seconds": 0.0022094869999591538
+}

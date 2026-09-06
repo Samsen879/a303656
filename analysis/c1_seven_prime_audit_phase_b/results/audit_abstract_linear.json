@@ -1,0 +1,7 @@
+{
+  "fiber_comparisons": 18000,
+  "states": 1200,
+  "mismatches": 0,
+  "scope": "abstract sparse guarded-cylinder states, not prime realizations",
+  "seconds": 0.07332829899996796
+}

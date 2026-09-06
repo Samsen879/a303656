@@ -1,0 +1,9 @@
+{
+  "python": "3.13.5",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17"
+  ],
+  "external_python_libraries_required": []
+}

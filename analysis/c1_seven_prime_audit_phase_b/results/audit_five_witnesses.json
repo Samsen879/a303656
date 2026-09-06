@@ -1,0 +1,27 @@
+{
+  "grammar": "depth 1 or 2 cylinders in Z/25; distinct source identities may repeat geometry",
+  "cases": [
+    {
+      "n": 5,
+      "multisets": 278256,
+      "full": 1,
+      "max_minimal_witnesses": 1,
+      "witness_count_histogram": {
+        "1": 1
+      }
+    },
+    {
+      "n": 6,
+      "multisets": 1623160,
+      "full": 30,
+      "max_minimal_witnesses": 2,
+      "witness_count_histogram": {
+        "2": 5,
+        "1": 25
+      }
+    }
+  ],
+  "total_multisets": 1901416,
+  "mismatches": 0,
+  "seconds": 0.6554593990000512
+}
