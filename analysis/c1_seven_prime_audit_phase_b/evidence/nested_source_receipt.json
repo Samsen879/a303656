@@ -1,0 +1,7 @@
+{
+  "byte_identity_with_package_a": "PASS",
+  "committed": false,
+  "filename_in_source_bundle": "evidence/original_research_bundle.zip",
+  "outer_sha256": "4d75958f51ff27e7a0d4d50811c6f60fb1e0886745eeae1b292e5b9718f0653e",
+  "policy": "transport ZIP omitted; hash and custody receipt retained"
+}

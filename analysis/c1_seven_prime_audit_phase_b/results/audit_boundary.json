@@ -1,0 +1,9 @@
+{
+  "K_min": 2,
+  "K_max": 12,
+  "residues": 8188,
+  "parity_witnesses": 16376,
+  "mismatches": 0,
+  "method": "direct square-sum residue sets and discrete log dictionary",
+  "seconds": 0.07894867000004524
+}
