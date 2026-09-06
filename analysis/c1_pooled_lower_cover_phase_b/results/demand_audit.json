@@ -1,0 +1,21 @@
+{
+  "mismatches": 0,
+  "split_both_residual": "BOTH",
+  "split_either_residual": "TRUE",
+  "top_words": 340,
+  "transition_histogram": {
+    "A0 -> A0": 310,
+    "A0 -> TRUE": 30,
+    "A1 -> A1": 310,
+    "A1 -> TRUE": 30,
+    "BOTH -> A0": 26,
+    "BOTH -> A1": 26,
+    "BOTH -> BOTH": 284,
+    "BOTH -> TRUE": 4,
+    "EITHER -> EITHER": 220,
+    "EITHER -> TRUE": 120,
+    "FALSE -> FALSE": 340,
+    "TRUE -> TRUE": 340
+  },
+  "truth_evaluations": 8160
+}

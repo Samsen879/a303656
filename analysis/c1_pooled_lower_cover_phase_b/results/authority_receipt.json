@@ -1,0 +1,35 @@
+{
+  "final_main_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+  "github_writes_performed": "NONE",
+  "initial_main_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+  "main_unchanged_between_observations": true,
+  "merged_prs": {
+    "14": {
+      "merge_commit_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+      "merged": true
+    },
+    "15": {
+      "merge_commit_sha": "76e7b4d447ea2ba9674b2787990dd37551d6844a",
+      "merged": true
+    },
+    "16": {
+      "merge_commit_sha": "25086bb932bbae00692ddf06cce0474aedf1cd7a",
+      "merged": true
+    }
+  },
+  "precondition": "PASS",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "research_results_integrated_into_github": false,
+  "state": {
+    "A303656": "UNRESOLVED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "PROJECT": "PAUSED"
+  },
+  "tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+  "verified_first_parent_chain": [
+    "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "25086bb932bbae00692ddf06cce0474aedf1cd7a",
+    "76e7b4d447ea2ba9674b2787990dd37551d6844a"
+  ]
+}

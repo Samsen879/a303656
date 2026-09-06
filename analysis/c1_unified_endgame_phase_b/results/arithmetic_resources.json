@@ -1,0 +1,87 @@
+{
+  "chain_orders": {
+    "11": 5,
+    "12207031": 11
+  },
+  "chain_scope": "arbitrarily long existence is proved symbolically; only this prefix computed",
+  "dynamic_allowed_3_minimum": 21,
+  "no_3_chain_prefix": [
+    5,
+    11,
+    12207031
+  ],
+  "no_free_direct_blocker_resource": {
+    "factor_admissibility": [
+      true,
+      true
+    ],
+    "odd_order_factors": [
+      3,
+      30469139
+    ],
+    "order": 1645333506,
+    "q": 1645333507,
+    "s": 2
+  },
+  "rigid_3_minimum": 81,
+  "signatures": [
+    {
+      "order": 3,
+      "q": 31,
+      "s": 1
+    },
+    {
+      "order": 6,
+      "q": 7,
+      "s": 1
+    },
+    {
+      "order": 9,
+      "q": 19,
+      "s": 1
+    },
+    {
+      "order": 18,
+      "q": 5167,
+      "s": 1
+    },
+    {
+      "order": 27,
+      "q": 271,
+      "s": 1
+    },
+    {
+      "order": 27,
+      "q": 4159,
+      "s": 1
+    },
+    {
+      "order": 27,
+      "q": 31051,
+      "s": 1
+    },
+    {
+      "order": 54,
+      "q": 163,
+      "s": 1
+    },
+    {
+      "order": 54,
+      "q": 487,
+      "s": 1
+    },
+    {
+      "order": 54,
+      "q": 16018507,
+      "s": 1
+    }
+  ],
+  "squarefree_cyclotomic_orders": [
+    3,
+    6,
+    9,
+    18,
+    27,
+    54
+  ]
+}

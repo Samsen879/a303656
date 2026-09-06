@@ -1,0 +1,79 @@
+{
+  "boundary_counterexample": {
+    "E": [
+      1
+    ],
+    "K": 2,
+    "K_two": 2,
+    "L": 55,
+    "U": 5,
+    "both_complete": false,
+    "classification": "ACTUAL COMPLETE BOUNDARY-INCLUSIVE POOLED COVER, NOT FULL CERTIFICATE",
+    "covered_counts": [
+      55,
+      0
+    ],
+    "pooled_complete": true,
+    "q": 11,
+    "r": 0,
+    "r_two": 1
+  },
+  "regular_skeleton": {
+    "E_all": [
+      1
+    ],
+    "K_all": 2,
+    "T": [
+      3,
+      7,
+      31
+    ],
+    "actual_induced_L_without_seed": 1302,
+    "actual_induced_U_without_seed": 6,
+    "anchor_covered_counts": [
+      860,
+      620
+    ],
+    "classification": "ACTUAL SHARED-RESIDUE FULL-PERIOD SKELETON; PROMOTING L TO COARSE U REQUIRES A SEED",
+    "common_escapes": [
+      0,
+      651
+    ],
+    "prescribed_coarse_U_with_hypothetical_seed": 1302,
+    "r_all": 2,
+    "terminal_nonregular_seed": null
+  },
+  "s1_boundary_example": {
+    "A0": [
+      0,
+      1
+    ],
+    "A1": [],
+    "E_all": [
+      1
+    ],
+    "K_all": 2,
+    "K_two": 2,
+    "L": 42,
+    "U": 6,
+    "both_complete": false,
+    "classification": "ACTUAL BOUNDARY-INCLUSIVE POOLED LOWER COVER WITH NONEMPTY TOP EVENT",
+    "full_anchor_covered_counts": [
+      42,
+      20
+    ],
+    "lower_domain": "Z/2Z",
+    "maximal_original_odd_rank": 3,
+    "r_two": 1,
+    "rows": [
+      {
+        "q": 3,
+        "r": 2
+      },
+      {
+        "q": 7,
+        "r": 0
+      }
+    ]
+  }
+}

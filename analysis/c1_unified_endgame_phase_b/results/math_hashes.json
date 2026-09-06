@@ -1,0 +1,15 @@
+{
+  "canonicalization": "sort keys, compact JSON, UTF-8, drop only keys named seconds",
+  "generated_json": {
+    "actual_arithmetic.json": "177ed98e867fcf8afa09c74fd3607b2ccb3d04ddd59dec838a90e826c1974f44",
+    "arithmetic_resources.json": "5560031a89c9476f55c65bfb038421346df0d6aec376fefe3543ba603941b6ac",
+    "benchmark.json": "f0977aadbdf7171c65dbfa00b20854071bf3cb9ce538bc8ead7c68c3423323f3",
+    "boundary.json": "c8e32a6a9a60251b881226ad2b4ce4920a9e6e6dbd74560a2682e18b35ae76b6",
+    "descended_resources.json": "362676e5037ea81a73a7e29ba654c41d4fad7f9cf985a7fa0dc2ac70fae88994",
+    "dual_temporal.json": "7d2be0bdd96467f1efd4ae27bbcc840d8d22cd7383c0b56fade9b7ad21f596d9",
+    "local_geometry.json": "9ead17f8306166e7702d3bd217f138d17db951534d41d90f8cf28cd464475f5e",
+    "resultants.json": "38d6d4ec5787cdabdb2132663fdf435900b430808868176ec60f09cce94ecf07",
+    "run_receipt.json": "b7ca60360fbb128bfba2d31df5dff5a750bd05177321f9fa47b29ec678be5b9d",
+    "triangular_models.json": "1453ffd73da574fdbe4e134f89ae2489a85c9620e252211a46f5c39f819d0c7f"
+  }
+}
