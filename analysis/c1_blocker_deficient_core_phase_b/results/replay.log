@@ -1,0 +1,25 @@
+arithmetic_closure PASS
+hall_audit PASS
+route_audit PASS
+terminal_signatures PASS
+paired_digits PASS
+boundary_escape PASS
+primed_three PASS
+primed_terminal_signatures PASS
+six_row_obstruction PASS
+{
+  "exact_json_outputs": 9,
+  "outputs": [
+    "arithmetic_closure",
+    "hall_audit",
+    "route_audit",
+    "terminal_signatures",
+    "paired_digits",
+    "boundary_escape",
+    "primed_three",
+    "primed_terminal_signatures",
+    "six_row_obstruction"
+  ],
+  "comparison": "byte-for-byte deterministic JSON",
+  "mismatches": 0
+}

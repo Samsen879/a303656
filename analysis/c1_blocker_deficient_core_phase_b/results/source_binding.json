@@ -1,0 +1,42 @@
+{
+  "a303656": "UNRESOLVED",
+  "active_promoted_route": "NONE",
+  "final_main_unchanged": true,
+  "first_parent_merge_chain": [
+    15,
+    16,
+    14
+  ],
+  "github_writes_performed": "NONE",
+  "main_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+  "main_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+  "precondition": "PASS",
+  "project": "PAUSED",
+  "receipt_type": "transcribed read-only GitHub connector metadata, not raw downloaded archive",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "request_sha256": "f092ca1b8cdef883aa3ccec8ce9e45772de9a315ff85eb6f6a9e673f6d573c74",
+  "required_directories_present": [
+    "analysis/c1_two_root_provenance_phase_a/",
+    "analysis/c1_two_anchor_sync_phase_a/",
+    "analysis/c1_kraft_hall_phase_a/"
+  ],
+  "required_prs": [
+    {
+      "merge_commit": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+      "merged": true,
+      "number": 14
+    },
+    {
+      "merge_commit": "76e7b4d447ea2ba9674b2787990dd37551d6844a",
+      "merged": true,
+      "number": 15
+    },
+    {
+      "merge_commit": "25086bb932bbae00692ddf06cce0474aedf1cd7a",
+      "merged": true,
+      "number": 16
+    }
+  ],
+  "upstream_full_repository_replay": false
+}

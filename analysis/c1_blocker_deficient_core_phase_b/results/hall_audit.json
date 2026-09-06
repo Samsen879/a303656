@@ -1,0 +1,25 @@
+{
+  "paired": {
+    "graphs": 37448,
+    "minimal_whole_left_cores_by_size": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 40,
+      "5": 101
+    },
+    "mismatches": 0
+  },
+  "single": {
+    "graphs": 37448,
+    "minimal_whole_left_cores_by_size": {
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 1
+    },
+    "mismatches": 0
+  },
+  "total_graph_capacity_cases": 74896
+}

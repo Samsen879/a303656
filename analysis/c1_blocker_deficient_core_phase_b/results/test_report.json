@@ -1,0 +1,16 @@
+{
+  "dependencies": "Python standard library only",
+  "hall_graph_capacity_cases": 74896,
+  "implementation": "CPython",
+  "independent_authors_claimed": false,
+  "json_outputs_replayed_byte_identically": 9,
+  "primed_dag_cases": 486,
+  "proof_assistant_used": false,
+  "python": "3.13.5",
+  "six_root_allocation_cases": 84,
+  "standalone_not_upstream_replay": true,
+  "test_failures": 0,
+  "tests_run": 23,
+  "two_adic_three_boundary_cases": 3060,
+  "unprimed_dag_cases": 1458
+}

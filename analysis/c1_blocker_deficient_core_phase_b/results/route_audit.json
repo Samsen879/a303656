@@ -1,0 +1,32 @@
+{
+  "coalescing_counterexample": {
+    "P": [
+      11,
+      23,
+      67
+    ],
+    "disproves": "necessity of terminal Hall for all guard-forest strategies only",
+    "mandatory_targets": [
+      11,
+      23,
+      67
+    ],
+    "maximum_terminal_matching_size": 2,
+    "target_type": "actual regular rows treated as mandatory guard targets, not nonregular Q",
+    "valid_forest": {
+      "11": 5,
+      "23": 11,
+      "67": 11
+    }
+  },
+  "paired": {
+    "cases": 729,
+    "mismatches": 0,
+    "passing": 312
+  },
+  "single": {
+    "cases": 729,
+    "mismatches": 0,
+    "passing": 351
+  }
+}

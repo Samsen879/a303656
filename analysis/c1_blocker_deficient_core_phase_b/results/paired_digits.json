@@ -1,0 +1,126 @@
+{
+  "E": [
+    1
+  ],
+  "K": 2,
+  "coordinates": {
+    "31": {
+      "different": 5025,
+      "same": 167,
+      "witnesses": {
+        "different": {
+          "anchor_logs": [
+            2176,
+            0
+          ],
+          "projected_digits": [
+            6,
+            0
+          ],
+          "r_mod_q": 4,
+          "r_mod_q2": 20775,
+          "valuation_quotients": [
+            12139,
+            1
+          ]
+        },
+        "same": {
+          "anchor_logs": [
+            2177,
+            9772
+          ],
+          "projected_digits": [
+            7,
+            7
+          ],
+          "r_mod_q": 16,
+          "r_mod_q2": 16,
+          "valuation_quotients": [
+            19148,
+            1594
+          ]
+        }
+      }
+    },
+    "5": {
+      "different": 4154,
+      "same": 1038,
+      "witnesses": {
+        "different": {
+          "anchor_logs": [
+            2176,
+            0
+          ],
+          "projected_digits": [
+            1,
+            0
+          ],
+          "r_mod_q": 4,
+          "r_mod_q2": 20775,
+          "valuation_quotients": [
+            12139,
+            1
+          ]
+        },
+        "same": {
+          "anchor_logs": [
+            1,
+            2176
+          ],
+          "projected_digits": [
+            1,
+            1
+          ],
+          "r_mod_q": 6,
+          "r_mod_q2": 20777,
+          "valuation_quotients": [
+            1,
+            12139
+          ]
+        }
+      }
+    },
+    "67": {
+      "different": 5115,
+      "same": 77,
+      "witnesses": {
+        "different": {
+          "anchor_logs": [
+            2176,
+            0
+          ],
+          "projected_digits": [
+            32,
+            0
+          ],
+          "r_mod_q": 4,
+          "r_mod_q2": 20775,
+          "valuation_quotients": [
+            12139,
+            1
+          ]
+        },
+        "same": {
+          "anchor_logs": [
+            8591,
+            1489
+          ],
+          "projected_digits": [
+            15,
+            15
+          ],
+          "r_mod_q": 689,
+          "r_mod_q2": 689,
+          "valuation_quotients": [
+            16913,
+            12688
+          ]
+        }
+      }
+    }
+  },
+  "paired_low_residue_count": 5192,
+  "q": 20771,
+  "s": 2,
+  "w": 10385
+}
