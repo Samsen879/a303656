@@ -1,0 +1,15 @@
+{
+  "a303656_solved": false,
+  "corollary": "At least seven distinct original nonregular primes are necessary.",
+  "gate_A_universal_no_go": false,
+  "gate_B_necessary_core_reduction": true,
+  "gate_C_general_recursive_arithmetic_closure": false,
+  "gate_D_actual_complete_countermodel": false,
+  "general_nonlinear_closure_proved": false,
+  "github_writes_performed": "NONE",
+  "independent_author_review_performed": false,
+  "main_theorem": "Complete finite admitted simultaneous C=1 certificate implies a canonical first essential nonlinear single-origin descended-resource core.",
+  "precision_cutoff": null,
+  "prime_size_cutoff": null,
+  "proof_assistant_verified": false
+}

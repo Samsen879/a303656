@@ -1,0 +1,14 @@
+{
+  "K_max": 9,
+  "K_min": 2,
+  "mismatches": 0,
+  "odd_r_boundary_counterexample": {
+    "K": 2,
+    "anchor_0": "always unsafe",
+    "anchor_1": "always safe",
+    "r": 1,
+    "simultaneous_complete": false
+  },
+  "parity_witness_checks": 2040,
+  "residues": 1020
+}
