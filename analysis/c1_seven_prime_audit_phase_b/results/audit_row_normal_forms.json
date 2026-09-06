@@ -1,0 +1,53 @@
+{
+  "full_event_comparisons": 565710,
+  "coarse_forall_comparisons": 730180,
+  "mismatches": 0,
+  "configs": [
+    {
+      "q": 3,
+      "K": 2,
+      "residues": "all"
+    },
+    {
+      "q": 3,
+      "K": 3,
+      "residues": "all"
+    },
+    {
+      "q": 3,
+      "K": 4,
+      "residues": "all"
+    },
+    {
+      "q": 3,
+      "K": 5,
+      "residues": "all"
+    },
+    {
+      "q": 7,
+      "K": 2,
+      "residues": "all"
+    },
+    {
+      "q": 7,
+      "K": 3,
+      "residues": "all"
+    },
+    {
+      "q": 11,
+      "K": 2,
+      "residues": "all"
+    },
+    {
+      "q": 20771,
+      "K": 2,
+      "residues": [
+        0,
+        2,
+        20775,
+        13471
+      ]
+    }
+  ],
+  "seconds": 0.43307789200002844
+}

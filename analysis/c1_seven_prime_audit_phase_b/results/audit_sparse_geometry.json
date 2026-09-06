@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "p": 3,
+      "beta": 1,
+      "distinct_cylinders": 3,
+      "tests": 42
+    },
+    {
+      "p": 3,
+      "beta": 2,
+      "distinct_cylinders": 12,
+      "tests": 2133
+    },
+    {
+      "p": 3,
+      "beta": 3,
+      "distinct_cylinders": 39,
+      "tests": 105435
+    },
+    {
+      "p": 5,
+      "beta": 1,
+      "distinct_cylinders": 5,
+      "tests": 310
+    },
+    {
+      "p": 5,
+      "beta": 2,
+      "distinct_cylinders": 30,
+      "tests": 2394825
+    },
+    {
+      "p": 7,
+      "beta": 1,
+      "distinct_cylinders": 7,
+      "tests": 1778
+    }
+  ],
+  "total": 2504523,
+  "mismatches": 0,
+  "out_of_class_counterexample": {
+    "p": 3,
+    "beta": 2,
+    "J": [
+      0,
+      1
+    ],
+    "rigid_depth": 2,
+    "rigid_position": 0
+  },
+  "seconds": 0.322523695999962
+}

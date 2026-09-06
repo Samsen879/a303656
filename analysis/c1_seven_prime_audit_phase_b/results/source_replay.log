@@ -1,0 +1,28 @@
+test_abstract_core_extraction (test_reference.ReferenceTests.test_abstract_core_extraction) ... ok
+test_actual_split_does_not_stop_one_anchor_escape (test_reference.ReferenceTests.test_actual_split_does_not_stop_one_anchor_escape) ... ok
+test_ancestor_accounting (test_reference.ReferenceTests.test_ancestor_accounting) ... ok
+test_exact_center_hole (test_reference.ReferenceTests.test_exact_center_hole) ... ok
+test_full_tree_depth_tax (test_reference.ReferenceTests.test_full_tree_depth_tax) ... ok
+test_helper_inventories (test_reference.ReferenceTests.test_helper_inventories) ... ok
+test_incompatible_lower_guard_dies (test_reference.ReferenceTests.test_incompatible_lower_guard_dies) ... ok
+test_invalid_blocker_rejected (test_reference.ReferenceTests.test_invalid_blocker_rejected) ... ok
+test_linear_origin_preservation (test_reference.ReferenceTests.test_linear_origin_preservation) ... ok
+test_local_zero_rejected (test_reference.ReferenceTests.test_local_zero_rejected) ... ok
+test_parity_flexible_boundary (test_reference.ReferenceTests.test_parity_flexible_boundary) ... ok
+test_position_translation (test_reference.ReferenceTests.test_position_translation) ... ok
+test_resultant_known_values (test_reference.ReferenceTests.test_resultant_known_values) ... ok
+test_resultant_nonzero_Y_exact (test_reference.ReferenceTests.test_resultant_nonzero_Y_exact) ... ok
+test_temporal_and_configuration_gap (test_reference.ReferenceTests.test_temporal_and_configuration_gap) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.014s
+
+OK
+{
+  "byte_payload_files": 25,
+  "generated_json_files": 10,
+  "replay": true,
+  "integrity": "PASS",
+  "mathematical_equality": "PASS",
+  "github_writes": "NONE"
+}

@@ -1,0 +1,39 @@
+{
+  "architecture": "x86_64",
+  "candidate_count": 49112626,
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17"
+  ],
+  "full_domain_completed_by": [
+    "tools/scan_a.cpp",
+    "tools/scan_b.cpp"
+  ],
+  "full_scan_replay_wall_seconds": 30.32,
+  "hit_certificates": [
+    {
+      "order": 10385,
+      "q": 20771,
+      "s_q": 2
+    },
+    {
+      "order": 40486,
+      "q": 40487,
+      "s_q": 2
+    },
+    {
+      "order": 1645333506,
+      "q": 1645333507,
+      "s_q": 2
+    }
+  ],
+  "nonregular_hits": [
+    20771,
+    40487,
+    1645333507
+  ],
+  "python": "3.12.3",
+  "scan_bound": 2000000000,
+  "two_implementation_jsonl_comparison": "BYTE_IDENTICAL_PASS"
+}

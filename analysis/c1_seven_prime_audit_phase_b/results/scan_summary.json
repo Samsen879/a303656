@@ -1,0 +1,98 @@
+{
+  "limit": 2000000000,
+  "blocks": 201,
+  "candidate_count": 49112626,
+  "candidate_sum": 47838069590583778,
+  "hits": [
+    20771,
+    40487,
+    1645333507
+  ],
+  "new_admitted_hits": [
+    1645333507
+  ],
+  "full_block_comparison": "PASS",
+  "python_baseline_comparison": "PASS",
+  "certificates": [
+    {
+      "q": 20771,
+      "admitted": true,
+      "q_minus_one_factorization": {
+        "2": 1,
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "order": 10385,
+      "order_factorization": {
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "order_exclusion_residues": {
+        "5": 12936,
+        "31": 3587,
+        "67": 7867
+      },
+      "s": 2,
+      "power_mod_q2": 1,
+      "power_mod_q_s_plus_one": 4584422370067,
+      "free_odd_factor_coordinates": [
+        5
+      ],
+      "primality": "exhaustive trial division"
+    },
+    {
+      "q": 40487,
+      "admitted": true,
+      "q_minus_one_factorization": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "order": 40486,
+      "order_factorization": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "order_exclusion_residues": {
+        "2": 40486,
+        "31": 32940,
+        "653": 4413
+      },
+      "s": 2,
+      "power_mod_q2": 1,
+      "power_mod_q_s_plus_one": 20181795544729,
+      "free_odd_factor_coordinates": [
+        653
+      ],
+      "primality": "exhaustive trial division"
+    },
+    {
+      "q": 1645333507,
+      "admitted": true,
+      "q_minus_one_factorization": {
+        "2": 1,
+        "3": 3,
+        "30469139": 1
+      },
+      "order": 1645333506,
+      "order_factorization": {
+        "2": 1,
+        "3": 3,
+        "30469139": 1
+      },
+      "order_exclusion_residues": {
+        "2": 1645333506,
+        "3": 87169718,
+        "30469139": 100010278
+      },
+      "s": 2,
+      "power_mod_q2": 1,
+      "power_mod_q_s_plus_one": 4397088330090755603229972882,
+      "free_odd_factor_coordinates": [],
+      "primality": "exhaustive trial division"
+    }
+  ]
+}

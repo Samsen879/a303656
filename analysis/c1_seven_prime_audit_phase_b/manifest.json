@@ -1,0 +1,250 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "integration_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "research_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "research_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c"
+  },
+  "file_count": 42,
+  "files": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "4b165468946eac13349fecc6a3a3bdca1ac5c62a3a06467b72cc9ce2291c88f0",
+      "size": 2259
+    },
+    {
+      "path": "EXPANDED_PANEL_BLOCKER_PROOF.md",
+      "sha256": "849751250007a153dca58cb702302119ac4d2da556f960b435b806d2cc789392",
+      "size": 2067
+    },
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "4bffb6509d3fe5c6d95c8931edbf12e12f3dc2337e6f9b9b5989d1996c10b3ca",
+      "size": 775
+    },
+    {
+      "path": "README.md",
+      "sha256": "7fd6357f5fad0be9cef534dc9109ee6b94f178bb28d4b48d4f42117182997f01",
+      "size": 1728
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "3ed64688ce89c563e8a7568e92a6d01a6fbfce3325ca4f7f71b59cb820e4ddd3",
+      "size": 6469
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "19e0b9c64d0de106beb078dc9dc11fc54013e26218808e923bdd2bb5698a7d60",
+      "size": 5444
+    },
+    {
+      "path": "SEVEN_PRIME_INDEPENDENT_PROOF.md",
+      "sha256": "77a21947afed816051196f6769b78c97c1534ddd0542ee70e0e2c98550cba097",
+      "size": 11409
+    },
+    {
+      "path": "evidence/custody_and_authority.json",
+      "sha256": "2f881758652b6915bdbd5cbc4e91318539ea6065af538aeba2430721403eeb0d",
+      "size": 1241
+    },
+    {
+      "path": "evidence/environment.json",
+      "sha256": "0c4bfb8add8fa544ae596cf8335ef2eef5bd3a3e8eb860e819c432bdacb040d7",
+      "size": 171
+    },
+    {
+      "path": "evidence/nested_source_receipt.json",
+      "sha256": "3f189a50a3e0d2093559e8b811ae62a8cc30ba740e693f5129a6e7f1dfa545ca",
+      "size": 297
+    },
+    {
+      "path": "results/audit_abstract_linear.json",
+      "sha256": "45644240754555dc138c0babbb6b896074d3c4cd7df6f3e2337077b72267fff7",
+      "size": 182
+    },
+    {
+      "path": "results/audit_arithmetic.json",
+      "sha256": "4768d1d215486a5133c3202962d406548cb2f95770784c2f9298e5ccee82c0fd",
+      "size": 2083
+    },
+    {
+      "path": "results/audit_boundary.json",
+      "sha256": "ad42b0e40680a8d1ca0ecafdd12ff6629afc0c94081cb65020a332faba79d857",
+      "size": 208
+    },
+    {
+      "path": "results/audit_five_witnesses.json",
+      "sha256": "fa0770c376c0677aafc3bbe9031ff1ad016df01286dc1bb32ca6247329811379",
+      "size": 542
+    },
+    {
+      "path": "results/audit_guard_intersections.json",
+      "sha256": "a691f738f99e29aa48e60995d7756bebeae5f1c3983d36dde37917a35fc4876a",
+      "size": 86
+    },
+    {
+      "path": "results/audit_row_normal_forms.json",
+      "sha256": "515aaac51f822ee8bb8e4dd3c2856e265a8749f1fa6cd1d6a7ec1ac76b4c74a6",
+      "size": 730
+    },
+    {
+      "path": "results/audit_shallow_three.json",
+      "sha256": "8373f96e2951da6a957bc3a4f4ffd919dd6b46fd7195fa7d7ba04babb8a5399b",
+      "size": 323
+    },
+    {
+      "path": "results/audit_sparse_geometry.json",
+      "sha256": "483eb2dab912a38af63cd4c283fc4604e8c2fa62e59ab63f31be23816e4bc2a8",
+      "size": 814
+    },
+    {
+      "path": "results/aux_all_odd_1e8.jsonl",
+      "sha256": "6e44dfe3ac052a41262e643a8bc6032c09700d80490de8a0dfba85d3f2a8b840",
+      "size": 1138
+    },
+    {
+      "path": "results/aux_all_odd_1e8.log",
+      "sha256": "7f5f773a5a4c75924c1ed840a4a5136f6870909b57168454b54763eab3c21879",
+      "size": 43
+    },
+    {
+      "path": "results/benchmark_a.jsonl",
+      "sha256": "8fb8ab303c796e0f3fcb61e6c1ff2a178cc439f7e27f2b4eea53fd2add9af915",
+      "size": 177
+    },
+    {
+      "path": "results/benchmark_a.log",
+      "sha256": "dad0c72df49bf0b3f0c217d38e60678c42381865545a154f6b1687170c5ccafb",
+      "size": 43
+    },
+    {
+      "path": "results/benchmark_b.jsonl",
+      "sha256": "8fb8ab303c796e0f3fcb61e6c1ff2a178cc439f7e27f2b4eea53fd2add9af915",
+      "size": 177
+    },
+    {
+      "path": "results/benchmark_b.log",
+      "sha256": "82d536635f7991d8a1c77a194f28b76184438096a53da41db7f9ed8e1245442c",
+      "size": 42
+    },
+    {
+      "path": "results/independent_hit_certificates.json",
+      "sha256": "5e8618e8346b5a67ce93eb80f0e65a50a697c0cb72c45a3fc7ab75b36d8744df",
+      "size": 2157
+    },
+    {
+      "path": "results/mathematical_hashes.json",
+      "sha256": "57154d0efc11a8c6b669708c00933b6e94ec9e8ab63ffb3d3faefc523b0ac3ba",
+      "size": 1173
+    },
+    {
+      "path": "results/new_tests.log",
+      "sha256": "f38c2fe10e96537b70f30f37a57e465e7c7c3e3debf629beeba8ddde31b70709",
+      "size": 1570
+    },
+    {
+      "path": "results/python_baseline.json",
+      "sha256": "58095fbb69db4a6e0f968143a0f7d764a14c61be736df965282613d28ce6264d",
+      "size": 172
+    },
+    {
+      "path": "results/repository_replay_environment.json",
+      "sha256": "c4dcb7727fbeaeda6eda2b3c90ea0219e553833b5fec651a8de7235f7419ad45",
+      "size": 725
+    },
+    {
+      "path": "results/scan_a.jsonl",
+      "sha256": "7d6356ea82d1280511a41a427456604ebaa036eb5467d668d3ef484446976a67",
+      "size": 21910
+    },
+    {
+      "path": "results/scan_a.log",
+      "sha256": "9cb8b4f0c71ad6dcd13e7d1993d9e6051aaae34fa7b86f54ab99939b97ec190e",
+      "size": 44
+    },
+    {
+      "path": "results/scan_b.jsonl",
+      "sha256": "7d6356ea82d1280511a41a427456604ebaa036eb5467d668d3ef484446976a67",
+      "size": 21910
+    },
+    {
+      "path": "results/scan_b.log",
+      "sha256": "55e8d26e14d45bb69a89f1d3c158b2ede36c981210df935d2b7ecc933a18139d",
+      "size": 44
+    },
+    {
+      "path": "results/scan_summary.json",
+      "sha256": "aa30eb744bc06cad637eba1b855d7b47d3e4b4326a502efc7f035d9815f577cc",
+      "size": 2038
+    },
+    {
+      "path": "results/source_replay.log",
+      "sha256": "56048d442c7ee6ddaf39ab9e0227ca614b1bb84a5fce07716397ed1318912a80",
+      "size": 1748
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "dd95129d06dbe491129a6df5f80db148b39609b613366e6ee7ba6c3d78187634",
+      "size": 1836
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "55282e06847c4f1aee028d83846a55e87cb433dba274180a575ed524bd6ef0b7",
+      "size": 2907
+    },
+    {
+      "path": "tools/audit_independent.py",
+      "sha256": "48ab45d417c3ec0f8690252320890d0e0e9e7289b5ae639cbc2ba7382420435e",
+      "size": 13243
+    },
+    {
+      "path": "tools/scan_a.cpp",
+      "sha256": "1cc27f2045d89093a214cdf5c334fa8e7d7a6a829d6fa0fb540888829802038a",
+      "size": 1835
+    },
+    {
+      "path": "tools/scan_b.cpp",
+      "sha256": "e1964ed4947ad75bb06f72b82f4a43349b70cec3e92adb71c173338db1aa2a6e",
+      "size": 2337
+    },
+    {
+      "path": "tools/verify_package.py",
+      "sha256": "3f0fc71763f00b31e21bedc132ca06fa7e3fc257bd697420fa9e1a7d82a032ff",
+      "size": 5540
+    },
+    {
+      "path": "tools/verify_scan.py",
+      "sha256": "2c8fb7f89918a334f7482882db925092f73cec9762eeccf77319965394004ca9",
+      "size": 3041
+    }
+  ],
+  "repository_native": {
+    "generated_binaries_committed": false,
+    "inventory_excludes": [
+      "manifest.json",
+      "SHA256SUMS.txt"
+    ],
+    "transport_archives_committed": false
+  },
+  "schema": "a303656.repository-native-phase-b-integration.v1",
+  "source": {
+    "archive_payload_file_count": 40,
+    "internal_checksum_entries": 39,
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_SCAN_AND_SEVEN_PRIME_AUDIT.zip",
+    "nested_unified_zip": {
+      "byte_identity_with_package_a": "PASS",
+      "committed": false,
+      "sha256": "4d75958f51ff27e7a0d4d50811c6f60fb1e0886745eeae1b292e5b9718f0653e"
+    },
+    "outer_zip_sha256": "4321fbce72729e7ffe6d8d39745ca63f22bc3a64a05833f8f28e8b0652694d7c",
+    "safe_extraction": "PASS",
+    "source_archive_committed": false,
+    "standalone_replay": "PASS: independent audit; Python baseline; 15 new and 15 source tests; two full q<=2e9 scanners"
+  }
+}
