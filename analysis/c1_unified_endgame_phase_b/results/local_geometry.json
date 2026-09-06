@@ -1,0 +1,49 @@
+{
+  "audits": [
+    {
+      "beta": 2,
+      "centered_criterion_cases": 1896,
+      "centers": "0; translation-equivariant",
+      "max_r": 2,
+      "mismatches": 0,
+      "p": 3,
+      "sparse_cases": 237,
+      "sparse_full_cases": 12,
+      "strict_hybrid_cases": 720
+    },
+    {
+      "beta": 3,
+      "centered_criterion_cases": 31240,
+      "centers": "0; translation-equivariant",
+      "max_r": 2,
+      "mismatches": 0,
+      "p": 3,
+      "sparse_cases": 3905,
+      "sparse_full_cases": 78,
+      "strict_hybrid_cases": 15737
+    },
+    {
+      "beta": 2,
+      "centered_criterion_cases": 95793,
+      "centers": "0; translation-equivariant",
+      "max_r": 4,
+      "mismatches": 0,
+      "p": 5,
+      "sparse_cases": 95793,
+      "sparse_full_cases": 4090,
+      "strict_hybrid_cases": 79138
+    },
+    {
+      "beta": 1,
+      "centered_criterion_cases": 254,
+      "centers": "0; translation-equivariant",
+      "max_r": 6,
+      "mismatches": 0,
+      "p": 7,
+      "sparse_cases": 254,
+      "sparse_full_cases": 63,
+      "strict_hybrid_cases": 128
+    }
+  ],
+  "mismatches": 0
+}

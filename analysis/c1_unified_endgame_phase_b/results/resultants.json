@@ -1,0 +1,101 @@
+{
+  "exact_resultants": [
+    {
+      "Y": 0,
+      "bit_length": 10,
+      "h": 3,
+      "resultant": "-728"
+    },
+    {
+      "Y": 1,
+      "bit_length": 22,
+      "h": 3,
+      "resultant": "-3375512"
+    },
+    {
+      "Y": 2,
+      "bit_length": 36,
+      "h": 3,
+      "resultant": "-52734375512"
+    },
+    {
+      "Y": 0,
+      "bit_length": 26,
+      "h": 5,
+      "resultant": "-54134432"
+    },
+    {
+      "Y": 1,
+      "bit_length": 64,
+      "h": 5,
+      "resultant": "-9536943164096054432"
+    },
+    {
+      "Y": 2,
+      "bit_length": 110,
+      "h": 5,
+      "resultant": "-909494701774881362915039096054432"
+    },
+    {
+      "Y": 0,
+      "bit_length": 50,
+      "h": 7,
+      "resultant": "-988021837560704"
+    },
+    {
+      "Y": 1,
+      "bit_length": 125,
+      "h": 7,
+      "resultant": "-23968724603566737105769043418703421312"
+    },
+    {
+      "Y": 2,
+      "bit_length": 222,
+      "h": 7,
+      "resultant": "-5449750425630082026159398189690834347434681200981140699668703421312"
+    }
+  ],
+  "paired_pool": {
+    "edges": 33,
+    "gcd_checks": 155,
+    "h": 67,
+    "histogram": {
+      "0": 127,
+      "1": 24,
+      "2": 3,
+      "3": 1
+    },
+    "nonzero_Y_examples": [
+      {
+        "Y": 7,
+        "edges": [
+          [
+            33,
+            57
+          ]
+        ]
+      },
+      {
+        "Y": 8,
+        "edges": [
+          [
+            17,
+            54
+          ]
+        ]
+      },
+      {
+        "Y": 10,
+        "edges": [
+          [
+            35,
+            49
+          ]
+        ]
+      }
+    ],
+    "q": 20771,
+    "u": 155
+  },
+  "scope": "Nonzero Y resultants computed exactly, not fully factored; no arbitrary-Y resource exclusion claimed"
+}

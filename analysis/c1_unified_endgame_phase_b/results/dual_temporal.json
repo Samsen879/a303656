@@ -1,0 +1,62 @@
+{
+  "actual_current_blocker_regression": {
+    "prefix": "all lower coordinates zero",
+    "primes": [
+      67,
+      20771
+    ],
+    "unsafe_if_rigid_removed_without_F": true
+  },
+  "configuration_gap": {
+    "fractional_half_assignment_covers": true,
+    "integral_choices": 4,
+    "integral_covers": 0,
+    "scope": "abstract configurations; proves scalar/configuration LP necessity is not integral sufficiency"
+  },
+  "mixed_anchor_blocker_regression": {
+    "result": {
+      "assignment": {
+        "101": 3
+      },
+      "coords": {
+        "3": 1,
+        "7": 1
+      },
+      "steps": [
+        {
+          "F": [
+            0
+          ],
+          "chosen": 1,
+          "coordinate": 3,
+          "preblocked": [
+            101
+          ]
+        },
+        {
+          "F": [],
+          "chosen": 1,
+          "coordinate": 7,
+          "preblocked": [
+            101
+          ]
+        }
+      ],
+      "success": true
+    },
+    "scope": "synthetic geometry, not an arithmetic prime101 row"
+  },
+  "overlap_counterexample": {
+    "F": [
+      1,
+      2
+    ],
+    "J": [
+      0
+    ],
+    "beta": 2,
+    "naive_cost": "4/3",
+    "p": 3,
+    "safe_center_branch": true
+  }
+}
