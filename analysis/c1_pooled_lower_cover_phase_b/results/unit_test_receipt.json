@@ -1,0 +1,28 @@
+{
+  "command": "python3 -m unittest discover -s tests -v",
+  "errors": 0,
+  "failures": 0,
+  "note": "Timing removed from canonical receipt; all 17 tests executed.",
+  "skipped": 0,
+  "status": "PASS",
+  "test_names": [
+    "test_01_local_zero_is_never_fatal",
+    "test_02_six_demands_exhaustive",
+    "test_03_either_does_not_become_fixed_anchor",
+    "test_04_non_coprime_crt",
+    "test_05_global_state_conflict_rejected",
+    "test_06_branch_local_reuse_not_a_new_prime",
+    "test_07_positive_both_root_fixture",
+    "test_08_actual_split_not_joint_full",
+    "test_09_two_cylinders_can_share_one_actual_prime",
+    "test_10_independent_lucas_certificate_verification",
+    "test_11_corrupt_factor_certificate_rejected",
+    "test_12_sparse_subclass_not_prime_cutoff",
+    "test_13_full_depth_is_not_first_digit",
+    "test_14_ancestor_sensitive_prefix_frontier",
+    "test_15_boundary_and_seed_scope",
+    "test_16_configuration_fractional_is_not_integral",
+    "test_17_anchor_specific_mixed_row_classification"
+  ],
+  "tests_run": 17
+}

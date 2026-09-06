@@ -1,0 +1,26 @@
+{
+  "checks": 12288,
+  "classification": "ABSTRACT PREFIX GEOMETRY; J={1} IS NOT AN ACTUAL DYNAMIC-3 EVENT",
+  "mismatches": 0,
+  "panels": [
+    {
+      "J": [],
+      "full_covers": 729,
+      "subsets": 4096
+    },
+    {
+      "J": [
+        0
+      ],
+      "full_covers": 2304,
+      "subsets": 4096
+    },
+    {
+      "J": [
+        1
+      ],
+      "full_covers": 972,
+      "subsets": 4096
+    }
+  ]
+}

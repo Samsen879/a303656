@@ -1,0 +1,35 @@
+{
+  "classification": "EXACT FINITE CERTIFICATE, NO PRIME-SIZE CUTOFF",
+  "combined_with_source_depths_1_to_3": {
+    "minimum_rigid_depth": 5,
+    "one_anchor_dynamic_allowed_prime_lower_bound": 61,
+    "one_anchor_rigid_only_prime_lower_bound": 243,
+    "pooled_dynamic_allowed_prime_lower_bound": 31,
+    "pooled_rigid_only_prime_lower_bound": 122
+  },
+  "factorizations": [
+    {
+      "factors": [
+        "4861",
+        "11419697846380955982026777206637491"
+      ],
+      "m": 81,
+      "squarefree": true,
+      "value": "55511151231257827028632164001464843751"
+    },
+    {
+      "factors": [
+        "3",
+        "1783",
+        "5023",
+        "2066067271380136212224701233463"
+      ],
+      "m": 162,
+      "squarefree": true,
+      "value": "55511151231257827013731002807617187501"
+    }
+  ],
+  "new_theorem": "R_(3,4) is empty",
+  "primality_nodes_verified": 44,
+  "warning": "necessary lower bounds, not sharpness or existence claims"
+}

@@ -1,0 +1,24 @@
+{
+  "classification": "ABSTRACT COUNTEREXAMPLES ONLY",
+  "configuration_integrality": {
+    "complete_assignments": 0,
+    "fractional_half_each_option_feasible": true,
+    "global_assignments": 4
+  },
+  "macro_mass": {
+    "derived_sum_mass": "2",
+    "geometry_union_mass": "1",
+    "original_mass": "3/2",
+    "witnesses": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "potential_scope": "these defeat these specific counts; no assertion against every possible arithmetic potential"
+}

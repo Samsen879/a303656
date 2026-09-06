@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "h": 67,
+      "logs": [
+        6528,
+        2
+      ],
+      "lower_classes": [
+        18,
+        2
+      ],
+      "q": 20771,
+      "r": 96315155,
+      "s": 2,
+      "top_p": 67,
+      "top_positions": [
+        29,
+        2
+      ],
+      "u": 155,
+      "w": 10385
+    },
+    {
+      "h": 653,
+      "logs": [
+        3968,
+        14260
+      ],
+      "lower_classes": [
+        0,
+        0
+      ],
+      "q": 40487,
+      "r": 25919,
+      "s": 2,
+      "top_p": 653,
+      "top_positions": [
+        50,
+        547
+      ],
+      "u": 62,
+      "w": 40486
+    }
+  ],
+  "classification": "ACTUAL SHARED-RESIDUE ROW MASKS, NOT COMPLETE COVERS"
+}

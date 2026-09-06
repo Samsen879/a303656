@@ -1,0 +1,190 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "integration_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "research_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "research_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c"
+  },
+  "file_count": 31,
+  "files": [
+    {
+      "path": "COMPUTATION_NOTES.md",
+      "sha256": "95f579a870e3732e84540c092f1d9e96f7b1823f7804247305abd84cd89ef339",
+      "size": 1111
+    },
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "08046d28e3e4e54420293695951122615b2167a94f24fc13f32992e41ece90b0",
+      "size": 2826
+    },
+    {
+      "path": "COMPUTATION_SPEC_ADDENDUM.md",
+      "sha256": "a223723e127963570bde4fb87e5d9b61a3a10921155a082bd35d41d353ad042f",
+      "size": 1168
+    },
+    {
+      "path": "DEFINITIONS.md",
+      "sha256": "bfbbaa5048f3f382ad9d13dc269a2534ac838730c44d8acfe41fc8818f53d566",
+      "size": 10416
+    },
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "17373a4b5d19d987d1fb7a03cbd73c1ff57ced364b1958e5a3c91e62788405c4",
+      "size": 1009
+    },
+    {
+      "path": "README.md",
+      "sha256": "f44b7880faa9493826504a76d8421c151c826c46052da6b60719728f7430d0b0",
+      "size": 2912
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "a2044da47da57d891a7176ed4b7bc11227f112f9fc77b7a24db9f025ca931d49",
+      "size": 38208
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "c0f0588f0a81468cf5208cc7c0e6bd893980b64f7173cde11c96f92e824bcb89",
+      "size": 5866
+    },
+    {
+      "path": "THEOREM_AUDIT.md",
+      "sha256": "fa96032b90ce317144b31b3b1d37a9be122514c06d57b5d117dd12932713c06f",
+      "size": 10154
+    },
+    {
+      "path": "results/actual_split.json",
+      "sha256": "3b96669a43b331a633d7d9aad2eaa3a1ce33bd377cae6e1c47d60a682f064e1e",
+      "size": 1862
+    },
+    {
+      "path": "results/authority_receipt.json",
+      "sha256": "a7d6ea44bac12a8a8bed2a0720250e8db46543fed79e96e2bab6b1355a7642f9",
+      "size": 1060
+    },
+    {
+      "path": "results/blocker_models.json",
+      "sha256": "fc3aabe827ac160ed97d244d1e9e62554a18e904f868ae9b5b0802049955bc3c",
+      "size": 232
+    },
+    {
+      "path": "results/boundary_and_skeleton.json",
+      "sha256": "bd7dade084d77e3b1643f87b35275423c3e14bed6acfb856c873f17790648518",
+      "size": 1437
+    },
+    {
+      "path": "results/cyclotomic_depth4.json",
+      "sha256": "a0fb7eda32605e01092419a673662be07a65189accfce518a24d83f8ba185c91",
+      "size": 954
+    },
+    {
+      "path": "results/demand_audit.json",
+      "sha256": "e6af27405c26ea29f97094e53142315bcd50bfd0eade446b5fb51acb0cdee75a",
+      "size": 457
+    },
+    {
+      "path": "results/false_potentials.json",
+      "sha256": "52f64a9c33cea90c9b309829904832ae75ae47944c274f8c4b02632f50f24647",
+      "size": 532
+    },
+    {
+      "path": "results/mixed_row.json",
+      "sha256": "de615c833b04284ba07952e63f98b4307a675b2903f20371619ed7611e9dc01d",
+      "size": 1142
+    },
+    {
+      "path": "results/paired_rigid.json",
+      "sha256": "903a7cac69fa7d435a11576bbf3582960713d43c2848a67f313fc9806b14be53",
+      "size": 687
+    },
+    {
+      "path": "results/prefix_geometry.json",
+      "sha256": "361ace0108364b0b3325eb1300de1d538a01d08d60abdf5f6e9b46965ab278cc",
+      "size": 410
+    },
+    {
+      "path": "results/primality_certificates.json",
+      "sha256": "256295f009a5b656acc2ead2eeb9746730f3877fe1df4ecc1b93fc8dfb709f60",
+      "size": 7495
+    },
+    {
+      "path": "results/replay_receipt.json",
+      "sha256": "fe412d817e39cad713200828fd242df75194c13e8a1c6f5564063f7d825ed8d3",
+      "size": 1200
+    },
+    {
+      "path": "results/row_geometry.json",
+      "sha256": "6fb9c557658cb3deabfcbdac761eacb55fe9518cd2f10b905aa6a40530f30202",
+      "size": 1613
+    },
+    {
+      "path": "results/sparse_subclass.json",
+      "sha256": "d05295791e854b136dc57d89a24900af42e96a46e3b7c9537d581e7bf68ee392",
+      "size": 1943
+    },
+    {
+      "path": "results/stateful_contraction.json",
+      "sha256": "04c2c72d7e5dab3bc75dcaf2ba44bbae9e4d3707fb2f31a29c84b509e3d4a7e9",
+      "size": 384
+    },
+    {
+      "path": "results/unit_test_receipt.json",
+      "sha256": "f00da23eb04cbcd0bbc01e604ec10801e77e9f691db28694e5332ba907140cab",
+      "size": 1045
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "376ce04a197870eef87dbf6a381c4823072f70d622855eb78c4815ca528ac4d1",
+      "size": 1493
+    },
+    {
+      "path": "tests/test_reference.py",
+      "sha256": "77af50db4776e05727e12d7c9cfd79583b408674fc1f5011b01ffc543364f42c",
+      "size": 4817
+    },
+    {
+      "path": "tools/discover_certificates.py",
+      "sha256": "cf1ca5310e985d6a68710b4eb2579b761f3a4ba65dd46b7ef979ccb956536a7c",
+      "size": 2028
+    },
+    {
+      "path": "tools/reference.py",
+      "sha256": "2515def79287886481ea8e5059b517f323b68ff61717a94766f3e734fc9c405e",
+      "size": 31036
+    },
+    {
+      "path": "tools/reproduce.py",
+      "sha256": "e678452a6251ea531f5989a2d481fab1345337fa7b3e0d741b4db13681b711e1",
+      "size": 388
+    },
+    {
+      "path": "tools/verify_bundle.py",
+      "sha256": "34b723f461a6d94b75093954821a10437f2071efcfc4e5e768fc6c8cbad7a926",
+      "size": 2188
+    }
+  ],
+  "repository_native": {
+    "generated_binaries_committed": false,
+    "inventory_excludes": [
+      "manifest.json",
+      "SHA256SUMS.txt"
+    ],
+    "transport_archives_committed": false
+  },
+  "schema": "a303656.repository-native-phase-b-integration.v1",
+  "source": {
+    "archive_payload_file_count": 30,
+    "internal_checksum_entries": 29,
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_POOLED_LOWER_COVER_PHASE_B.zip",
+    "outer_zip_sha256": "9183554a8a5a5e1deee50ab675c049b7bb997bd83315fcb1050926caa76b3405",
+    "safe_extraction": "PASS",
+    "source_archive_committed": false,
+    "standalone_replay": "PASS: 13 byte-identical JSON files; 17 tests"
+  }
+}

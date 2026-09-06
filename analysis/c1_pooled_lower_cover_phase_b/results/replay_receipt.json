@@ -1,0 +1,19 @@
+{
+  "all_exact_checks_pass": true,
+  "github_writes_performed": "NONE",
+  "result_sha256": {
+    "actual_split": "3b96669a43b331a633d7d9aad2eaa3a1ce33bd377cae6e1c47d60a682f064e1e",
+    "blocker_models": "fc3aabe827ac160ed97d244d1e9e62554a18e904f868ae9b5b0802049955bc3c",
+    "boundary_and_skeleton": "bd7dade084d77e3b1643f87b35275423c3e14bed6acfb856c873f17790648518",
+    "cyclotomic_depth4": "a0fb7eda32605e01092419a673662be07a65189accfce518a24d83f8ba185c91",
+    "demand_audit": "e6af27405c26ea29f97094e53142315bcd50bfd0eade446b5fb51acb0cdee75a",
+    "false_potentials": "52f64a9c33cea90c9b309829904832ae75ae47944c274f8c4b02632f50f24647",
+    "mixed_row": "de615c833b04284ba07952e63f98b4307a675b2903f20371619ed7611e9dc01d",
+    "paired_rigid": "903a7cac69fa7d435a11576bbf3582960713d43c2848a67f313fc9806b14be53",
+    "prefix_geometry": "361ace0108364b0b3325eb1300de1d538a01d08d60abdf5f6e9b46965ab278cc",
+    "row_geometry": "6fb9c557658cb3deabfcbdac761eacb55fe9518cd2f10b905aa6a40530f30202",
+    "sparse_subclass": "d05295791e854b136dc57d89a24900af42e96a46e3b7c9537d581e7bf68ee392",
+    "stateful_contraction": "04c2c72d7e5dab3bc75dcaf2ba44bbae9e4d3707fb2f31a29c84b509e3d4a7e9"
+  },
+  "schema": 1
+}

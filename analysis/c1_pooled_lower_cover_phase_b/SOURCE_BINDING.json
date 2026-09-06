@@ -1,0 +1,100 @@
+{
+  "access": "GitHub connector read/fetch calls, pinned ref",
+  "control_documents_read": [
+    "STATUS.md",
+    "docs/THEOREM_INDEX.md",
+    "docs/ROUTE_MAP.md"
+  ],
+  "github_writes_performed": "NONE",
+  "main_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+  "main_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+  "mathematical_sources": [
+    {
+      "blob_sha_as_returned_by_connector": "2a788348cf9abdce43f47809b7b6fd6cb8f3f04d",
+      "key": "S1",
+      "path": "analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_entangled_coordinate_deficit/FORMAL_CLASS.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "33fb391b6547fce68bb7a1964d3757fa5b5c8910",
+      "key": "S1",
+      "path": "analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_entangled_coordinate_deficit/THEOREM_AUDIT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "922d31d72f74a8c81f75b5b3a64902c0ad6a0448",
+      "key": "S2",
+      "path": "analysis/c1_contraction_tree_phase_a/DEFINITIONS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_contraction_tree_phase_a/DEFINITIONS.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "27cd196104e3c7f566375965ac1b671f6f276111",
+      "key": "S2",
+      "path": "analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "5908a3373a5e8d0997c6df387be59e17239f961a",
+      "key": "S3",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/DEFINITIONS.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "7ad233f07750d6baeea4b822fd57e4c12f46f157",
+      "key": "S3",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/ABSTRACT_CLASSIFICATION.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "27b255f6bedbf983f0d3ba58f64e1af8b7e0061a",
+      "key": "S3",
+      "path": "analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_minimal_saturated_coordinate_inverse/source/A303656_MINIMAL_SATURATED_COORDINATE_PHASE_A/REALIZABILITY_AUDIT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "2711299b58f5c3b9f67c117af0df4ae3cd3357ec",
+      "key": "S4",
+      "path": "analysis/c1_two_anchor_common_residue_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_two_anchor_common_residue_phase_a/REPORT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "cb2f117f5b2e3f2bdd54f4bfe11f6414eed4570b",
+      "key": "S5",
+      "path": "analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "260d7160f6b2321cdc6f7f1212986b898461980e",
+      "key": "S6",
+      "path": "analysis/c1_hereditary_shell_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_hereditary_shell_phase_a/REPORT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "5b816092c33ea53078c9422482edd223a13b5bc3",
+      "key": "S7",
+      "path": "analysis/c1_two_root_provenance_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_two_root_provenance_phase_a/REPORT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "382cc8069efb7f7d1eab9ad8fb92e1cb0ddd1568",
+      "key": "S8",
+      "path": "analysis/c1_two_anchor_sync_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_two_anchor_sync_phase_a/REPORT.md"
+    },
+    {
+      "blob_sha_as_returned_by_connector": "c7c41d7432255b437b3a9fbdcc8d5b4ccc2a080f",
+      "key": "S9",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/44e522dd6e88504e2b9829f0b27359e6c45a76ff/analysis/c1_kraft_hall_phase_a/REPORT.md"
+    }
+  ],
+  "not_claimed": [
+    "Not every auxiliary/generated file in the nine directories was individually read.",
+    "No repository clone, full archive audit, source test-suite replay, or historical prime-inventory replay.",
+    "Source files are not vendored; recorded Git blob IDs came from connector metadata, not independently rehashed downloaded source bytes.",
+    "No external mathematical literature verification is used as a premise of a new theorem."
+  ],
+  "read_scope": "Definitions, formal theorem proofs, inverse classification, and principal reports in the nine requested analysis directories, as listed above.",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235
+}
