@@ -1,0 +1,12 @@
+{
+  "both_covers": 0,
+  "classification": "ABSTRACT CONFIGURATION MODELS, NOT ACTUAL PRIME REALIZATION",
+  "global_state_assignments": 2880,
+  "mismatches": 0,
+  "pooled_covers": 439,
+  "root_comparisons": 8640,
+  "root_terms": 421,
+  "scope": "three rows, two one-sided configurations per row; paired rigidity tested separately with actual q",
+  "seed": 20260905,
+  "systems": 360
+}

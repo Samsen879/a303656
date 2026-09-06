@@ -1,0 +1,105 @@
+{
+  "classification": "ACTUAL ROW-LEVEL ARITHMETIC; beta is a prescribed local support parameter",
+  "counts": {
+    "coarse_anchor_cells": 2064494,
+    "full_anchor_cells": 1856944,
+    "mismatches": 0,
+    "residue_accepted_set_systems": 2123
+  },
+  "form_histogram": {
+    "dynamic": 2364,
+    "inactive": 1882
+  },
+  "panels": [
+    {
+      "K": 2,
+      "beta_tested": [
+        0,
+        1
+      ],
+      "ell": 6,
+      "p": 3,
+      "s": 1,
+      "systems": 9,
+      "w": 2
+    },
+    {
+      "K": 3,
+      "beta_tested": [
+        0,
+        1,
+        2
+      ],
+      "ell": 18,
+      "p": 3,
+      "s": 1,
+      "systems": 27,
+      "w": 2
+    },
+    {
+      "K": 2,
+      "beta_tested": [
+        0,
+        1
+      ],
+      "ell": 42,
+      "p": 7,
+      "s": 1,
+      "systems": 49,
+      "w": 6
+    },
+    {
+      "K": 3,
+      "beta_tested": [
+        0,
+        1,
+        2
+      ],
+      "ell": 294,
+      "p": 7,
+      "s": 1,
+      "systems": 343,
+      "w": 6
+    },
+    {
+      "K": 2,
+      "beta_tested": [
+        0,
+        1
+      ],
+      "ell": 55,
+      "p": 11,
+      "s": 1,
+      "systems": 121,
+      "w": 5
+    },
+    {
+      "K": 3,
+      "beta_tested": [
+        0,
+        1,
+        2
+      ],
+      "ell": 605,
+      "p": 11,
+      "s": 1,
+      "systems": 1331,
+      "w": 5
+    },
+    {
+      "K": 4,
+      "beta_tested": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ell": 54,
+      "p": 3,
+      "s": 1,
+      "systems": 243,
+      "w": 2
+    }
+  ],
+  "scope": "all listed residues and nonempty odd accepted sets, not all admitted multirow systems"
+}

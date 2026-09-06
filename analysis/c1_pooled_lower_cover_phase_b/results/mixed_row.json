@@ -1,0 +1,62 @@
+{
+  "E": [
+    1,
+    3
+  ],
+  "K": 4,
+  "anchor0_guard": 6528,
+  "anchor0_type": "dynamic",
+  "anchor1_guard": 2,
+  "anchor1_type": "rigid, valuation 1",
+  "classification": "ACTUAL SHARED-RESIDUE SINGLE ROW; SELECTED EXPONENT CHECKS PLUS SYMBOLIC LTE PROOF",
+  "full_period_not_enumerated": 4480446669785,
+  "guard_modulus": 10385,
+  "q": 20771,
+  "r": 82423279840775796,
+  "s": 2,
+  "samples": [
+    {
+      "fatal0": false,
+      "fatal1": true,
+      "h0_clipped": 4,
+      "h1_clipped": 1,
+      "k": 0
+    },
+    {
+      "fatal0": false,
+      "fatal1": true,
+      "h0_clipped": 2,
+      "h1_clipped": 1,
+      "k": 1
+    },
+    {
+      "fatal0": true,
+      "fatal1": true,
+      "h0_clipped": 3,
+      "h1_clipped": 1,
+      "k": 20771
+    },
+    {
+      "fatal0": false,
+      "fatal1": true,
+      "h0_clipped": 2,
+      "h1_clipped": 1,
+      "k": 20772
+    },
+    {
+      "fatal0": false,
+      "fatal1": true,
+      "h0_clipped": 4,
+      "h1_clipped": 1,
+      "k": 431434441
+    },
+    {
+      "fatal0": true,
+      "fatal1": true,
+      "h0_clipped": 3,
+      "h1_clipped": 1,
+      "k": 431455212
+    }
+  ],
+  "w": 10385
+}
