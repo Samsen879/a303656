@@ -1,0 +1,170 @@
+{
+  "authority": {
+    "a303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "integration_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "integration_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c",
+    "project": "PAUSED",
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "research_base_sha": "44e522dd6e88504e2b9829f0b27359e6c45a76ff",
+    "research_base_tree": "6a30565826c8f988bfbb85e4098b78b2992d290c"
+  },
+  "file_count": 27,
+  "files": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "6ef9d0c8500bc06f40f3e7a8b6174eb0c671a895efac2769e523f5bf8581d8c3",
+      "size": 4619
+    },
+    {
+      "path": "COUNTEREXAMPLES.md",
+      "sha256": "c628dafaa6a6a3f095b0fb0af61bb87555d73719ab26dc0fe8a9f1a251305c76",
+      "size": 7204
+    },
+    {
+      "path": "DEFINITIONS.md",
+      "sha256": "c9671159888933384e662c654d15aaf5e7672b7b15ca8d7d1e7e2f96f6d8a29e",
+      "size": 13287
+    },
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "44b525dba2262710721e6677703e1ecc23ae7a3ed151c619e5991e04209f3d02",
+      "size": 974
+    },
+    {
+      "path": "MASTER_THEOREM.md",
+      "sha256": "d1e473f3c4389df23d33c821747262f1aea08af12d76fe359dce1be715f13984",
+      "size": 22337
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "f753eafe72b272a89bb976cad48e5b0e6c0b27f08df674665cfeba5614393f9e",
+      "size": 4462
+    },
+    {
+      "path": "README.md",
+      "sha256": "9fc849532534fc9a90a64472c7022532e9bc9914db90a0607de91cadbda27834",
+      "size": 1686
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "55cbd5c7c01c4f5cdb8d47a00a00cb3d28552136039b7c2fadec21b0c13e1341",
+      "size": 20353
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "a843888ea19b630ed5a608ee05cc4ef4d68b18f8a17369e19064afbd1e734d9b",
+      "size": 4308
+    },
+    {
+      "path": "results/actual_arithmetic.json",
+      "sha256": "c7148d59751c9bbb442e13aff22059de328f0bc1d94a898333b4198e14678bfe",
+      "size": 5249
+    },
+    {
+      "path": "results/arithmetic_resources.json",
+      "sha256": "f6f759b0c01b280b64f4d17d87f349f72e8912d6c07a6fd234c9bb1d3b826ebb",
+      "size": 1213
+    },
+    {
+      "path": "results/benchmark.json",
+      "sha256": "9cf110248abe2fcbbafee9167cc0d9df3541a1730b3b5b1c647b8e4bfa224bea",
+      "size": 341
+    },
+    {
+      "path": "results/boundary.json",
+      "sha256": "b111d840c03fface78dd654afc5851c2c53a58adb93b5a12af6b7d9cd4cd3b25",
+      "size": 268
+    },
+    {
+      "path": "results/descended_resources.json",
+      "sha256": "5bcbe7a247914f67355de21f925d9f934d034ecd57d8192d424d96b84ffa8a68",
+      "size": 1535
+    },
+    {
+      "path": "results/dual_temporal.json",
+      "sha256": "d2552b7d87ff46f81b4b9ceb799ead794a3878d3532676eb8611227b72af6fb1",
+      "size": 1201
+    },
+    {
+      "path": "results/local_geometry.json",
+      "sha256": "9593964c7ad1029f2ca1c53e78a29ff61def18dd8d0a29bc2e1357894653f920",
+      "size": 1102
+    },
+    {
+      "path": "results/math_hashes.json",
+      "sha256": "d044037dca47b175e14f2537c7690a7b1b090208da53730f9f791bdd3c30ced3",
+      "size": 1063
+    },
+    {
+      "path": "results/resultants.json",
+      "sha256": "4ebfd8d387959aaa8d62806f6700a7f715efbf0b05148bc6f128192f1e30c25a",
+      "size": 1718
+    },
+    {
+      "path": "results/run_receipt.json",
+      "sha256": "c08b629ad5bba9341af4add190be94d0569d3b7c84af5a9d17d186157635d369",
+      "size": 134
+    },
+    {
+      "path": "results/source_binding.json",
+      "sha256": "92d005d8de855b74217ee9c0e7809c5aad2e5d217967835be9ed787c52875a73",
+      "size": 4436
+    },
+    {
+      "path": "results/triangular_models.json",
+      "sha256": "99034ad1d8fc63a09e0424247f3db83b78628eb074f8b6f96c035f8e87ec14ca",
+      "size": 1139
+    },
+    {
+      "path": "results/unit_tests.log",
+      "sha256": "f4a793ef5d80dec9a4114edbdf42fca715e1d34a71c5708594f4f3f57d93f771",
+      "size": 1584
+    },
+    {
+      "path": "results/verdict.json",
+      "sha256": "ee42dd960a5e8045cebb7a89a7690442f007d461e8f75ae1cf1063b792532b46",
+      "size": 680
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "1ae7cdc220a242f1456cd7dc54f597ff03c6d5566d46867ae7a7ec9954f5e5f9",
+      "size": 1138
+    },
+    {
+      "path": "tests/test_reference.py",
+      "sha256": "6d0c5c24bbd3b4282c21edb4b249bed9b4723d3a3df30adcdfd4e4dc71b49c71",
+      "size": 4381
+    },
+    {
+      "path": "tools/reference.py",
+      "sha256": "4558e91fff83309b1ad32e4ebc8ee08e01c658aae3a7bdee9ce45c8f2965e568",
+      "size": 31342
+    },
+    {
+      "path": "tools/verify_bundle.py",
+      "sha256": "418e685278e39384e03b8d1a392a48580e84b17d94ffb3c756a12bfeff4b4b97",
+      "size": 3151
+    }
+  ],
+  "repository_native": {
+    "generated_binaries_committed": false,
+    "inventory_excludes": [
+      "manifest.json",
+      "SHA256SUMS.txt"
+    ],
+    "transport_archives_committed": false
+  },
+  "schema": "a303656.repository-native-phase-b-integration.v1",
+  "source": {
+    "archive_payload_file_count": 26,
+    "internal_checksum_entries": 25,
+    "internal_sha256sums": "PASS",
+    "located_filename": "A303656_UNIFIED_ENDGAME_PHASE_B.zip",
+    "outer_zip_sha256": "4d75958f51ff27e7a0d4d50811c6f60fb1e0886745eeae1b292e5b9718f0653e",
+    "safe_extraction": "PASS",
+    "source_archive_committed": false,
+    "standalone_replay": "PASS: 10 mathematical JSON files; 15 tests"
+  }
+}

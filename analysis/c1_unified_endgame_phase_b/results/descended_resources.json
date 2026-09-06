@@ -1,0 +1,102 @@
+{
+  "additional_factor_identities": [
+    {
+      "admitted": true,
+      "cyclotomic_order": 5,
+      "order": 5,
+      "q": 11,
+      "s": 1
+    },
+    {
+      "admitted": true,
+      "cyclotomic_order": 5,
+      "order": 5,
+      "q": 71,
+      "s": 1
+    },
+    {
+      "admitted": false,
+      "cyclotomic_order": 10,
+      "order": 10,
+      "q": 521,
+      "s": 1
+    }
+  ],
+  "five_covered_patterns": 7,
+  "five_witness_multiset_cases": 714,
+  "proper_frontier_profiles_le_six": {
+    "3": [
+      [
+        0,
+        2,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "5": [
+      [
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "scope": "Finite supporting identities for the analytic >=7 theorem; not enumeration of all admitted systems. The seven-leaf frontier is geometry only, not actual-prime realization.",
+  "seven_leaf_abstract_frontier": [
+    {
+      "depth": 1,
+      "residue": 0
+    },
+    {
+      "depth": 1,
+      "residue": 1
+    },
+    {
+      "depth": 2,
+      "residue": 2
+    },
+    {
+      "depth": 2,
+      "residue": 5
+    },
+    {
+      "depth": 3,
+      "residue": 8
+    },
+    {
+      "depth": 3,
+      "residue": 17
+    },
+    {
+      "depth": 3,
+      "residue": 26
+    }
+  ],
+  "shallow_three_heads": {
+    "1": [
+      7,
+      31
+    ],
+    "2": [
+      19,
+      5167
+    ]
+  },
+  "shallow_three_union_upper_bound": "8/9"
+}

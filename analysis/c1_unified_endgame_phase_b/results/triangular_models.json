@@ -1,0 +1,67 @@
+{
+  "abstract_sharp_core": {
+    "guards": {
+      "abstract_R0": [
+        [
+          3,
+          1,
+          0
+        ]
+      ],
+      "abstract_R1": [
+        [
+          3,
+          1,
+          1
+        ]
+      ],
+      "abstract_R2": [
+        [
+          3,
+          1,
+          2
+        ]
+      ]
+    },
+    "history": [],
+    "kind": "NONLINEAR_DESCENDED_CORE",
+    "lineages": {
+      "abstract_R0": [],
+      "abstract_R1": [],
+      "abstract_R2": []
+    },
+    "lower": {
+      "2": 0
+    },
+    "rank": 3,
+    "rigid_count": 3,
+    "rigid_origins": [
+      "abstract_R0",
+      "abstract_R1",
+      "abstract_R2"
+    ],
+    "source_class": "ABSTRACT_OR_ARITHMETIC_INPUT_MUST_BE_LABELLED_BY_CALLER",
+    "witness": [
+      "abstract_R0",
+      "abstract_R1",
+      "abstract_R2"
+    ]
+  },
+  "arithmetic_scope": "Only dynamic order signatures are arithmetic; rigid seeds are abstract",
+  "cases_by_rigid_count": [
+    301,
+    27993,
+    1315671
+  ],
+  "complete_by_rigid_count": [
+    0,
+    0,
+    0
+  ],
+  "domain": "Z/2 x Z/3 x Z/7",
+  "dynamic_orders": {
+    "3": 2,
+    "7": 6
+  },
+  "rigid_seed_catalog": 93
+}
