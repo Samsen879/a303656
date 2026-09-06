@@ -1,0 +1,118 @@
+{
+  "E": [
+    1
+  ],
+  "K": 2,
+  "L": 2725026504850506222,
+  "P": [
+    3,
+    1523,
+    30469139,
+    1645333507
+  ],
+  "U": 2725026504850506222,
+  "common_odd_safe_exponent": 1569734815146673626,
+  "compatible_global_residue": 24610521048390483053230000269308644736987,
+  "crt_constraints": [
+    {
+      "modulus": 2,
+      "residue": 0
+    },
+    {
+      "modulus": 27,
+      "residue": 0
+    },
+    {
+      "modulus": 761,
+      "residue": 1
+    },
+    {
+      "modulus": 1429,
+      "residue": 1
+    },
+    {
+      "modulus": 1523,
+      "residue": 0
+    },
+    {
+      "modulus": 30469139,
+      "residue": 1
+    }
+  ],
+  "dependency_released_route": [
+    1645333507,
+    30469139,
+    1429
+  ],
+  "global_residue_modulus": 52465107193162279142234630287511255972769,
+  "not_a_complete_certificate": true,
+  "not_an_A303656_counterexample": true,
+  "original_direct_core": [
+    1645333507
+  ],
+  "original_direct_neighborhood": [],
+  "q_projected_digits_at_30469139": [
+    0,
+    0
+  ],
+  "q_rigid_anchor_logs": [
+    0,
+    822666753
+  ],
+  "row_evaluations": [
+    {
+      "c": 0,
+      "kind": "LOCAL_ZERO_UNRESOLVED",
+      "local_value_mod_p2": 0,
+      "p": 3
+    },
+    {
+      "c": 1,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 7,
+      "p": 3
+    },
+    {
+      "c": 0,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 708201,
+      "p": 1523
+    },
+    {
+      "c": 1,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 708199,
+      "p": 1523
+    },
+    {
+      "c": 0,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 107296249038220,
+      "p": 30469139
+    },
+    {
+      "c": 1,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 107296249038218,
+      "p": 30469139
+    },
+    {
+      "c": 0,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 1179806112783667692,
+      "p": 1645333507
+    },
+    {
+      "c": 1,
+      "kind": "VALUATION_ZERO_SAFE",
+      "local_value_mod_p2": 1179806112783667690,
+      "p": 1645333507
+    }
+  ],
+  "shared_residues": {
+    "3": 2,
+    "1523": 2,
+    "30469139": 2,
+    "1645333507": 1645333509
+  }
+}

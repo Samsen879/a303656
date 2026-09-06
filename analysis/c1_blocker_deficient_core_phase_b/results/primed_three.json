@@ -1,0 +1,18 @@
+{
+  "boundary_cases": 3060,
+  "cases_by_K": {
+    "2": 12,
+    "3": 24,
+    "4": 48,
+    "5": 96,
+    "6": 192,
+    "7": 384,
+    "8": 768,
+    "9": 1536
+  },
+  "mismatches": 0,
+  "route_cases": 486,
+  "route_passing": 486,
+  "route_target_scope": "arbitrary mandatory regular-row guard targets, excluding pre-inactive 3",
+  "verification": "directly enumerated sums of two square residues"
+}

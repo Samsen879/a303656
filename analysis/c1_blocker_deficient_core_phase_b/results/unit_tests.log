@@ -1,0 +1,28 @@
+test_absolute_frontiers (test_reference.ArithmeticTests.test_absolute_frontiers) ... ok
+test_boundary_nonregular (test_reference.ArithmeticTests.test_boundary_nonregular) ... ok
+test_closure_not_prime_scan (test_reference.ArithmeticTests.test_closure_not_prime_scan) ... ok
+test_invalid_inputs (test_reference.ArithmeticTests.test_invalid_inputs) ... ok
+test_pure_shallow_gateways (test_reference.ArithmeticTests.test_pure_shallow_gateways) ... ok
+test_regular_relays (test_reference.ArithmeticTests.test_regular_relays) ... ok
+test_unadmitted_terminals (test_reference.ArithmeticTests.test_unadmitted_terminals) ... ok
+test_actual_direct_singleton (test_reference.HallTests.test_actual_direct_singleton) ... ok
+test_boundary_direct_vs_transitive (test_reference.HallTests.test_boundary_direct_vs_transitive) ... ok
+test_capacities_change_result (test_reference.HallTests.test_capacities_change_result) ... ok
+test_coalescing_not_conserved_flow (test_reference.HallTests.test_coalescing_not_conserved_flow) ... ok
+test_mixed_isolated_core_not_minimal (test_reference.HallTests.test_mixed_isolated_core_not_minimal) ... ok
+test_no_common_factor_required (test_reference.HallTests.test_no_common_factor_required) ... ok
+test_order_compatible_is_not_nonregular (test_reference.HallTests.test_order_compatible_is_not_nonregular) ... ok
+test_primed_circuit_signatures (test_reference.HallTests.test_primed_circuit_signatures) ... ok
+test_all_six_root_allocations (test_reference.SemanticTests.test_all_six_root_allocations) ... ok
+test_bad_boundary_precision (test_reference.SemanticTests.test_bad_boundary_precision) ... ok
+test_boundary_local_zero_not_fatal (test_reference.SemanticTests.test_boundary_local_zero_not_fatal) ... ok
+test_boundary_priming_all_small_precisions (test_reference.SemanticTests.test_boundary_priming_all_small_precisions) ... ok
+test_corrupted_order_rejected_by_certificate (test_reference.SemanticTests.test_corrupted_order_rejected_by_certificate) ... ok
+test_crt_rejects_shared_factors (test_reference.SemanticTests.test_crt_rejects_shared_factors) ... ok
+test_paired_digits_are_not_independent (test_reference.SemanticTests.test_paired_digits_are_not_independent) ... ok
+test_seven_is_not_claimed (test_reference.SemanticTests.test_seven_is_not_claimed) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.327s
+
+OK

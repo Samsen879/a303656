@@ -1,0 +1,1435 @@
+{
+  "allocation_cases": 84,
+  "allocations": [
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 5,
+      "mixed_to3": 1,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 6,
+      "mixed_to3": 2,
+      "pure3": 0,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 1,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 5,
+      "mixed_to3": 2,
+      "pure3": 0,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 2,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 2,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 2,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 1,
+      "pure3": 0,
+      "pure5": 2,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 2,
+      "pure3": 0,
+      "pure5": 2,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        11,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 3,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        16,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 3,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        21,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 3,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        21,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 1,
+      "pure3": 0,
+      "pure5": 3,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        12,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 4,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        17,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 4,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        22,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 4,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        13,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 5,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        18,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 5,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        14,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 0,
+      "pure5": 6,
+      "three_mass": [
+        0,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 5,
+      "mixed_to3": 1,
+      "pure3": 1,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 1,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 1,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 1,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 1,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 1,
+      "pure3": 1,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 2,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 2,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 2,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 1,
+      "pure3": 1,
+      "pure5": 2,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        11,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 3,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        16,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 3,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        21,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 3,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        12,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 4,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        17,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 4,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        13,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 1,
+      "pure5": 5,
+      "three_mass": [
+        9,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 4,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 0,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 1,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 2,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 2,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        20,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 2,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        11,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 3,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        16,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 3,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        12,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 2,
+      "pure5": 4,
+      "three_mass": [
+        18,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 0,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 0,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 0,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 3,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 0,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 1,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 1,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 1,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 2,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        15,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 2,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        11,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 3,
+      "pure5": 3,
+      "three_mass": [
+        21,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 0,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 0,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 2,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 0,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 1,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 1,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        10,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 4,
+      "pure5": 2,
+      "three_mass": [
+        24,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 5,
+      "pure5": 0,
+      "three_mass": [
+        25,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 1,
+      "mixed_to3": 0,
+      "pure3": 5,
+      "pure5": 0,
+      "three_mass": [
+        25,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        5,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 5,
+      "pure5": 1,
+      "three_mass": [
+        25,
+        27
+      ]
+    },
+    {
+      "five_mass": [
+        0,
+        25
+      ],
+      "mixed": 0,
+      "mixed_to3": 0,
+      "pure3": 6,
+      "pure5": 0,
+      "three_mass": [
+        26,
+        27
+      ]
+    }
+  ],
+  "claim_scope": "no complete admitted C=1 certificate with at most six original nonregular rows",
+  "cyclotomic_identities": {
+    "10": {
+      "exact_admitted_order_primes": [],
+      "factorization": {
+        "521": 1
+      },
+      "value": 521
+    },
+    "18": {
+      "exact_admitted_order_primes": [
+        5167
+      ],
+      "factorization": {
+        "3": 1,
+        "5167": 1
+      },
+      "value": 15501
+    },
+    "3": {
+      "exact_admitted_order_primes": [
+        31
+      ],
+      "factorization": {
+        "31": 1
+      },
+      "value": 31
+    },
+    "5": {
+      "exact_admitted_order_primes": [
+        11,
+        71
+      ],
+      "factorization": {
+        "11": 1,
+        "71": 1
+      },
+      "value": 781
+    },
+    "6": {
+      "exact_admitted_order_primes": [
+        7
+      ],
+      "factorization": {
+        "3": 1,
+        "7": 1
+      },
+      "value": 21
+    },
+    "9": {
+      "exact_admitted_order_primes": [
+        19
+      ],
+      "factorization": {
+        "19": 1,
+        "829": 1
+      },
+      "value": 15751
+    }
+  },
+  "f3_denominator": 27,
+  "f3_numerators": [
+    0,
+    9,
+    18,
+    21,
+    24,
+    25,
+    26
+  ],
+  "f5_denominator": 25,
+  "f5_numerators": [
+    0,
+    5,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "gateway_rows": {
+    "11": {
+      "admitted_children": [],
+      "odd_order_factors": [
+        5
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "5": 5
+      },
+      "p": 11,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "5": 1
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [
+        5
+      ],
+      "valuation_next_check": 100,
+      "valuation_one_check": 1,
+      "w": 5,
+      "w_factorization": {
+        "5": 1
+      }
+    },
+    "19": {
+      "admitted_children": [
+        3
+      ],
+      "odd_order_factors": [
+        3
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "3": 11
+      },
+      "p": 19,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "3": 2
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [],
+      "valuation_next_check": 115,
+      "valuation_one_check": 1,
+      "w": 9,
+      "w_factorization": {
+        "3": 2
+      }
+    },
+    "31": {
+      "admitted_children": [
+        3
+      ],
+      "odd_order_factors": [
+        3
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "3": 5
+      },
+      "p": 31,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [],
+      "valuation_next_check": 125,
+      "valuation_one_check": 1,
+      "w": 3,
+      "w_factorization": {
+        "3": 1
+      }
+    },
+    "5167": {
+      "admitted_children": [
+        3
+      ],
+      "odd_order_factors": [
+        3
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "2": 5166,
+        "3": 124
+      },
+      "p": 5167,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "3": 2,
+        "7": 1,
+        "41": 1
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [],
+      "valuation_next_check": 22791638,
+      "valuation_one_check": 1,
+      "w": 18,
+      "w_factorization": {
+        "2": 1,
+        "3": 2
+      }
+    },
+    "7": {
+      "admitted_children": [
+        3
+      ],
+      "odd_order_factors": [
+        3
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "2": 6,
+        "3": 4
+      },
+      "p": 7,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "3": 1
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [],
+      "valuation_next_check": 43,
+      "valuation_one_check": 1,
+      "w": 6,
+      "w_factorization": {
+        "2": 1,
+        "3": 1
+      }
+    },
+    "71": {
+      "admitted_children": [],
+      "odd_order_factors": [
+        5
+      ],
+      "order_one_check": 1,
+      "order_proper_divisor_checks": {
+        "5": 5
+      },
+      "p": 71,
+      "p_minus_one_factorization": {
+        "2": 1,
+        "5": 1,
+        "7": 1
+      },
+      "primality_method": "complete trial division",
+      "prime": true,
+      "s": 1,
+      "unadmitted_terminal_factors": [
+        5
+      ],
+      "valuation_next_check": 3125,
+      "valuation_one_check": 1,
+      "w": 5,
+      "w_factorization": {
+        "5": 1
+      }
+    }
+  },
+  "mismatches": 0,
+  "proof_not_computation": "unbounded prime sizes, arbitrary regular support rows and precision"
+}

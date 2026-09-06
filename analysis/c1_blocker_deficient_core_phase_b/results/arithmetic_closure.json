@@ -1,0 +1,424 @@
+{
+  "closures": [
+    {
+      "U": 2725026504850506222,
+      "edges": [
+        [
+          30469139,
+          1523
+        ],
+        [
+          1645333507,
+          3
+        ],
+        [
+          1645333507,
+          30469139
+        ]
+      ],
+      "rows": [
+        {
+          "admitted_children": [],
+          "odd_order_factors": [],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 2
+          },
+          "p": 3,
+          "p_minus_one_factorization": {
+            "2": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 7,
+          "valuation_one_check": 1,
+          "w": 2,
+          "w_factorization": {
+            "2": 1
+          }
+        },
+        {
+          "admitted_children": [],
+          "odd_order_factors": [
+            761
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 1522,
+            "761": 25
+          },
+          "p": 1523,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "761": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [
+            761
+          ],
+          "valuation_next_check": 141640,
+          "valuation_one_check": 1,
+          "w": 1522,
+          "w_factorization": {
+            "2": 1,
+            "761": 1
+          }
+        },
+        {
+          "admitted_children": [
+            1523
+          ],
+          "odd_order_factors": [
+            1429,
+            1523
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "1429": 22780410,
+            "1523": 29333899
+          },
+          "p": 30469139,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "7": 1,
+            "1429": 1,
+            "1523": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [
+            1429
+          ],
+          "valuation_next_check": 812418701850463,
+          "valuation_one_check": 1,
+          "w": 2176367,
+          "w_factorization": {
+            "1429": 1,
+            "1523": 1
+          }
+        },
+        {
+          "admitted_children": [
+            3,
+            30469139
+          ],
+          "odd_order_factors": [
+            3,
+            30469139
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 1645333506,
+            "3": 87169718,
+            "30469139": 100010278
+          },
+          "p": 1645333507,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "3": 3,
+            "30469139": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 2,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 4397088330090755603229972882,
+          "valuation_one_check": 1,
+          "w": 1645333506,
+          "w_factorization": {
+            "2": 1,
+            "3": 3,
+            "30469139": 1
+          }
+        }
+      ],
+      "seed": 1645333507,
+      "terminal_factors": [
+        761,
+        1429
+      ]
+    },
+    {
+      "U": 685410,
+      "edges": [
+        [
+          31,
+          3
+        ],
+        [
+          67,
+          11
+        ],
+        [
+          20771,
+          31
+        ],
+        [
+          20771,
+          67
+        ]
+      ],
+      "rows": [
+        {
+          "admitted_children": [],
+          "odd_order_factors": [],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 2
+          },
+          "p": 3,
+          "p_minus_one_factorization": {
+            "2": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 7,
+          "valuation_one_check": 1,
+          "w": 2,
+          "w_factorization": {
+            "2": 1
+          }
+        },
+        {
+          "admitted_children": [],
+          "odd_order_factors": [
+            5
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "5": 5
+          },
+          "p": 11,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "5": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [
+            5
+          ],
+          "valuation_next_check": 100,
+          "valuation_one_check": 1,
+          "w": 5,
+          "w_factorization": {
+            "5": 1
+          }
+        },
+        {
+          "admitted_children": [
+            3
+          ],
+          "odd_order_factors": [
+            3
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "3": 5
+          },
+          "p": 31,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 125,
+          "valuation_one_check": 1,
+          "w": 3,
+          "w_factorization": {
+            "3": 1
+          }
+        },
+        {
+          "admitted_children": [
+            11
+          ],
+          "odd_order_factors": [
+            11
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "11": 25,
+            "2": 66
+          },
+          "p": 67,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "3": 1,
+            "11": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 1944,
+          "valuation_one_check": 1,
+          "w": 22,
+          "w_factorization": {
+            "2": 1,
+            "11": 1
+          }
+        },
+        {
+          "admitted_children": [
+            31,
+            67
+          ],
+          "odd_order_factors": [
+            5,
+            31,
+            67
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "31": 3587,
+            "5": 12936,
+            "67": 7867
+          },
+          "p": 20771,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "5": 1,
+            "31": 1,
+            "67": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 2,
+          "unadmitted_terminal_factors": [
+            5
+          ],
+          "valuation_next_check": 4584422370067,
+          "valuation_one_check": 1,
+          "w": 10385,
+          "w_factorization": {
+            "5": 1,
+            "31": 1,
+            "67": 1
+          }
+        }
+      ],
+      "seed": 20771,
+      "terminal_factors": [
+        5
+      ]
+    },
+    {
+      "U": 121458,
+      "edges": [
+        [
+          31,
+          3
+        ],
+        [
+          40487,
+          31
+        ]
+      ],
+      "rows": [
+        {
+          "admitted_children": [],
+          "odd_order_factors": [],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 2
+          },
+          "p": 3,
+          "p_minus_one_factorization": {
+            "2": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 7,
+          "valuation_one_check": 1,
+          "w": 2,
+          "w_factorization": {
+            "2": 1
+          }
+        },
+        {
+          "admitted_children": [
+            3
+          ],
+          "odd_order_factors": [
+            3
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "3": 5
+          },
+          "p": 31,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 1,
+          "unadmitted_terminal_factors": [],
+          "valuation_next_check": 125,
+          "valuation_one_check": 1,
+          "w": 3,
+          "w_factorization": {
+            "3": 1
+          }
+        },
+        {
+          "admitted_children": [
+            31
+          ],
+          "odd_order_factors": [
+            31,
+            653
+          ],
+          "order_one_check": 1,
+          "order_proper_divisor_checks": {
+            "2": 40486,
+            "31": 32940,
+            "653": 4413
+          },
+          "p": 40487,
+          "p_minus_one_factorization": {
+            "2": 1,
+            "31": 1,
+            "653": 1
+          },
+          "primality_method": "complete trial division",
+          "prime": true,
+          "s": 2,
+          "unadmitted_terminal_factors": [
+            653
+          ],
+          "valuation_next_check": 20181795544729,
+          "valuation_one_check": 1,
+          "w": 40486,
+          "w_factorization": {
+            "2": 1,
+            "31": 1,
+            "653": 1
+          }
+        }
+      ],
+      "seed": 40487,
+      "terminal_factors": [
+        653
+      ]
+    }
+  ],
+  "domain": "fixed-seed descending admitted-label closures"
+}
