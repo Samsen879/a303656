@@ -1,0 +1,39 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+  "main_tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6",
+  "main_rechecked_before_delivery": true,
+  "status_blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+  "status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "merged_prs": [
+    {
+      "number": 17,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:12:30Z"
+    },
+    {
+      "number": 20,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:15:57Z"
+    },
+    {
+      "number": 18,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:18:58Z"
+    },
+    {
+      "number": 19,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:21:38Z"
+    }
+  ],
+  "metadata_source": "Live GitHub connector branch/PR/repository reads; manually transcribed selected fields, not raw API receipts.",
+  "github_writes_performed": "NONE",
+  "repository_checkout_obtained": false,
+  "repository_native_tests_run": false
+}

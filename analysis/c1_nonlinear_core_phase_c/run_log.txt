@@ -1,0 +1,46 @@
+{
+  "case_count": 8,
+  "random_systems": 112,
+  "subledger_state_checks": 166688,
+  "exact_arithmetic_modular_checks": 2741640,
+  "benchmark_seconds": 0.0008254120002675336,
+  "total_seconds": 1.7645469919998504,
+  "traces": {
+    "duplicate_frontier_p3": [
+      6,
+      8
+    ],
+    "duplicate_frontier_p5": [
+      10,
+      32
+    ],
+    "duplicate_frontier_p7": [
+      14,
+      128
+    ],
+    "nested_partition_3_5": [
+      7,
+      3,
+      1
+    ],
+    "nested_partition_3_5_7": [
+      13,
+      7,
+      3,
+      1
+    ],
+    "disjoint_support_grid_3_5": [
+      15,
+      3,
+      1
+    ],
+    "deep_ternary_frontier": [
+      7,
+      1
+    ],
+    "dynamic_nonsimple_beta2": [
+      4,
+      1
+    ]
+  }
+}
