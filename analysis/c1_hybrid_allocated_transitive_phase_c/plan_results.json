@@ -1,0 +1,306 @@
+{
+  "anchor_specific_release": "PASS",
+  "intention_is_not_release": "PASS",
+  "rejected_mutations": [
+    "phantom relay source",
+    "macro as original row",
+    "non-order edge",
+    "wrong full projection depth",
+    "changed frozen logarithm",
+    "duplicated tag as new resource"
+  ],
+  "targets": 12,
+  "trace": [
+    {
+      "after_receipts": [
+        {
+          "chosen": 14,
+          "e": 3,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 3,
+          "required": 1
+        }
+      ],
+      "before_receipts": [
+        null
+      ],
+      "chosen": 14,
+      "incoming_tags": [
+        [
+          1645333507,
+          0
+        ]
+      ],
+      "own_targeted_release_receipts": {},
+      "p": 3
+    },
+    {
+      "after_receipts": [
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 5,
+          "required": 0
+        },
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 5,
+          "required": 0
+        }
+      ],
+      "before_receipts": [
+        null,
+        null
+      ],
+      "chosen": 1,
+      "incoming_tags": [
+        [
+          20771,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ],
+      "own_targeted_release_receipts": {},
+      "p": 5
+    },
+    {
+      "after_receipts": [
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 11,
+          "required": 0
+        },
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 11,
+          "required": 0
+        }
+      ],
+      "before_receipts": [
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        null,
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        null
+      ],
+      "chosen": 1,
+      "incoming_tags": [
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          67,
+          0
+        ],
+        [
+          67,
+          1
+        ]
+      ],
+      "own_targeted_release_receipts": {
+        "0": {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 5,
+          "required": 0
+        }
+      },
+      "p": 11
+    },
+    {
+      "after_receipts": [],
+      "before_receipts": [],
+      "chosen": 0,
+      "incoming_tags": [],
+      "own_targeted_release_receipts": {},
+      "p": 31
+    },
+    {
+      "after_receipts": [],
+      "before_receipts": [],
+      "chosen": 0,
+      "incoming_tags": [],
+      "own_targeted_release_receipts": {
+        "0": {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        "1": {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 11,
+          "required": 0
+        }
+      },
+      "p": 67
+    },
+    {
+      "after_receipts": [
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 653,
+          "required": 0
+        }
+      ],
+      "before_receipts": [
+        {
+          "chosen": 1,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 2,
+          "required": 0
+        },
+        null
+      ],
+      "chosen": 1,
+      "incoming_tags": [
+        [
+          40487,
+          0
+        ],
+        [
+          40487,
+          1
+        ]
+      ],
+      "own_targeted_release_receipts": {},
+      "p": 653
+    },
+    {
+      "after_receipts": [
+        {
+          "chosen": 0,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 1429,
+          "required": 1
+        },
+        {
+          "chosen": 0,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 1429,
+          "required": 1253
+        }
+      ],
+      "before_receipts": [
+        null,
+        null
+      ],
+      "chosen": 0,
+      "incoming_tags": [
+        [
+          30469139,
+          0
+        ],
+        [
+          30469139,
+          1
+        ]
+      ],
+      "own_targeted_release_receipts": {},
+      "p": 1429
+    },
+    {
+      "after_receipts": [],
+      "before_receipts": [],
+      "chosen": 1,
+      "incoming_tags": [],
+      "own_targeted_release_receipts": {},
+      "p": 1523
+    },
+    {
+      "after_receipts": [
+        {
+          "chosen": 0,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 30469139,
+          "required": 24709975
+        }
+      ],
+      "before_receipts": [
+        null
+      ],
+      "chosen": 0,
+      "incoming_tags": [
+        [
+          1645333507,
+          1
+        ]
+      ],
+      "own_targeted_release_receipts": {
+        "0": {
+          "chosen": 0,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 1429,
+          "required": 1
+        },
+        "1": {
+          "chosen": 0,
+          "e": 1,
+          "kind": "PERMANENT_CONGRUENCE_FAILURE",
+          "p": 1429,
+          "required": 1253
+        }
+      },
+      "p": 30469139
+    }
+  ],
+  "valid_plan": "PASS"
+}
