@@ -40,12 +40,17 @@ class IntegrationScopeTests(unittest.TestCase):
         self.assertEqual(archives, [])
 
     def test_diff_is_confined_to_this_directory(self):
-        base = self.manifest["integration_base"]["sha"]
-        result = subprocess.run(
-            ["git", "diff", "--name-only", f"{base}...HEAD"],
+        receipt = (ROOT / "INTEGRATION.md").relative_to(REPOSITORY).as_posix()
+        introduction = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--format=%H", "--", receipt],
+            cwd=REPOSITORY, check=True, capture_output=True, text=True,
+        ).stdout.splitlines()
+        self.assertTrue(introduction)
+        changed_result = subprocess.run(
+            ["git", "diff-tree", "--no-commit-id", "--name-only", "-r", introduction[0]],
             cwd=REPOSITORY, check=True, capture_output=True, text=True,
         )
-        changed = [line for line in result.stdout.splitlines() if line]
+        changed = [line for line in changed_result.stdout.splitlines() if line]
         self.assertTrue(changed)
         self.assertTrue(all(path.startswith(DESTINATION) for path in changed), changed)
 
