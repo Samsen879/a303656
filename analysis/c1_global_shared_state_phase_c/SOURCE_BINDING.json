@@ -1,0 +1,102 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+  "main_tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6",
+  "main_rechecked_unchanged": true,
+  "project_state": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "phase_b_prs": [
+    {
+      "number": 17,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:12:30Z"
+    },
+    {
+      "number": 20,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:15:57Z"
+    },
+    {
+      "number": 18,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:18:58Z"
+    },
+    {
+      "number": 19,
+      "merged": true,
+      "merged_at_utc": "2026-09-06T14:21:38Z"
+    }
+  ],
+  "read_mode": "GitHub connector pinned file reads; source text not downloaded into a repository checkout",
+  "reading_boundary": {
+    "six_required_main_reports_read_completely": true,
+    "all_generated_files_in_directories_read": false,
+    "pooled_definitions_and_theorem_audit_read": true,
+    "repository_native_tests_run": false,
+    "local_repository_checkout": false
+  },
+  "source_id_warning": "Blob identifiers were returned by the connector; source files are not bundled or locally hash-replayed.",
+  "sources": [
+    {
+      "key": "S1",
+      "path": "analysis/c1_two_anchor_common_residue_phase_a/REPORT.md",
+      "git_blob_sha": "2711299b58f5c3b9f67c117af0df4ae3cd3357ec",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_two_anchor_common_residue_phase_a/REPORT.md"
+    },
+    {
+      "key": "S2",
+      "path": "analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md",
+      "git_blob_sha": "cb2f117f5b2e3f2bdd54f4bfe11f6414eed4570b",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_prefix_frontier_realizability_phase_a/REPORT.md"
+    },
+    {
+      "key": "S3",
+      "path": "analysis/c1_two_anchor_sync_phase_a/REPORT.md",
+      "git_blob_sha": "382cc8069efb7f7d1eab9ad8fb92e1cb0ddd1568",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_two_anchor_sync_phase_a/REPORT.md"
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "git_blob_sha": "c7c41d7432255b437b3a9fbdcc8d5b4ccc2a080f",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_kraft_hall_phase_a/REPORT.md"
+    },
+    {
+      "key": "S5",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "git_blob_sha": "79205ac5869cd2851927cad20f194363349a6d18",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_pooled_lower_cover_phase_b/REPORT.md"
+    },
+    {
+      "key": "S5-audit",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/THEOREM_AUDIT.md",
+      "git_blob_sha": "3328225ec2fe2155e656dd6bea25325a320c1588",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_pooled_lower_cover_phase_b/THEOREM_AUDIT.md"
+    },
+    {
+      "key": "S6",
+      "path": "analysis/c1_unified_endgame_phase_b/REPORT.md",
+      "git_blob_sha": "204613f6747d2bfa739ed29907237055ba836f9e",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_unified_endgame_phase_b/REPORT.md"
+    },
+    {
+      "key": "S7",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md",
+      "git_blob_sha": "95e942e955c5e2e40b7ac17c13fe0fe30428cf98",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md"
+    }
+  ],
+  "github_writes_performed": []
+}

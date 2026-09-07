@@ -1,0 +1,18 @@
+test_actual_non_TU (test_reference.ExactPhaseCTests.test_actual_non_TU) ... ok
+test_actual_three_way_collision (test_reference.ExactPhaseCTests.test_actual_three_way_collision) ... ok
+test_exact_resultant (test_reference.ExactPhaseCTests.test_exact_resultant) ... ok
+test_fractional_capacity_exact (test_reference.ExactPhaseCTests.test_fractional_capacity_exact) ... ok
+test_gcd_is_not_state_conjunction (test_reference.ExactPhaseCTests.test_gcd_is_not_state_conjunction) ... ok
+test_local_zero_not_fatal (test_reference.ExactPhaseCTests.test_local_zero_not_fatal) ... ok
+test_max_radius_mixed_valuations (test_reference.ExactPhaseCTests.test_max_radius_mixed_valuations) ... ok
+test_named_pair_collision (test_reference.ExactPhaseCTests.test_named_pair_collision) ... ok
+test_nonregular_rows (test_reference.ExactPhaseCTests.test_nonregular_rows) ... ok
+test_period_must_support_row (test_reference.ExactPhaseCTests.test_period_must_support_row) ... ok
+test_real_support_orders (test_reference.ExactPhaseCTests.test_real_support_orders) ... ok
+test_six_demands_distinct (test_reference.ExactPhaseCTests.test_six_demands_distinct) ... ok
+test_split_is_not_both (test_reference.ExactPhaseCTests.test_split_is_not_both) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.005s
+
+OK
