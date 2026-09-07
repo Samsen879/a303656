@@ -1,0 +1,1006 @@
+{
+  "accepted_set_checks": {
+    "direct_normal_form_anchor_cells": 262440,
+    "invalid_even_E_control": {
+      "E": [
+        1,
+        2
+      ],
+      "K": 3,
+      "admitted": false,
+      "r": 2,
+      "safe_projection_mod9": [
+        0
+      ]
+    },
+    "mismatches": 0,
+    "safe_projection_checks": 1296,
+    "systems": 972
+  },
+  "authority": {
+    "github_writes": "NONE",
+    "main_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+    "main_tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6",
+    "repository": "Samsen879/a303656"
+  },
+  "configuration_gap": {
+    "L": 72949758,
+    "U": 1302,
+    "all_escape_bitsets_sha256": "d3553204547f26f563eb80813d548c154f55c23b22ac895e26a33fd83f9206c0",
+    "best_assignment_count": 217,
+    "direct_full_escape_witnesses_checked": 5859,
+    "escape_count_histogram": {
+      "2": 217,
+      "14": 434,
+      "38": 868,
+      "62": 434,
+      "218": 868,
+      "224": 868,
+      "248": 868,
+      "434": 1302
+    },
+    "fractional_feasible": true,
+    "fractional_rows": {
+      "3": {
+        "covering_states_per_cell": 2,
+        "family_size": 3,
+        "fractional_contribution": "2/3"
+      },
+      "7": {
+        "covering_states_per_cell": 6,
+        "family_size": 21,
+        "fractional_contribution": "2/7"
+      },
+      "31": {
+        "covering_states_per_cell": 30,
+        "family_size": 93,
+        "fractional_contribution": "10/31"
+      }
+    },
+    "fractional_sum_every_cell": "830/651",
+    "full_L_enumerated": false,
+    "full_escape_witnesses_sha256": "dc96d2dee9de6fdd5fdadfb01ed25f6d18203809a93dbed6d65c4ed06104559d",
+    "global_assignments": 5859,
+    "integer_complete_assignments": 0,
+    "max_coverage_witness": {
+      "coarse_escapes": [
+        0,
+        651
+      ],
+      "residues": {
+        "1303": 2,
+        "3": 2,
+        "31": 2,
+        "43": 2,
+        "7": 2
+      }
+    },
+    "max_covered_coarse_cells": 1300,
+    "minor_determinant": -2,
+    "non_TU_minor": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "signatures": [
+      {
+        "admitted": true,
+        "order_factors": {
+          "2": 1
+        },
+        "prime": true,
+        "q": 3,
+        "s": 1,
+        "w": 2
+      },
+      {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "3": 1
+        },
+        "prime": true,
+        "q": 7,
+        "s": 1,
+        "w": 6
+      },
+      {
+        "admitted": true,
+        "order_factors": {
+          "3": 1
+        },
+        "prime": true,
+        "q": 31,
+        "s": 1,
+        "w": 3
+      },
+      {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "prime": true,
+        "q": 43,
+        "s": 1,
+        "w": 42
+      },
+      {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "31": 1
+        },
+        "prime": true,
+        "q": 1303,
+        "s": 1,
+        "w": 62
+      }
+    ],
+    "skeleton_only": {
+      "L": 1302,
+      "P": [
+        3,
+        7,
+        31
+      ],
+      "U": 6,
+      "full_escapes": [
+        0,
+        651
+      ]
+    },
+    "state_families": {
+      "3": [
+        2,
+        5,
+        8
+      ],
+      "7": [
+        2,
+        9,
+        16,
+        23,
+        30,
+        37,
+        44,
+        5,
+        12,
+        19,
+        26,
+        33,
+        40,
+        47,
+        6,
+        13,
+        20,
+        27,
+        34,
+        41,
+        48
+      ],
+      "31": [
+        2,
+        33,
+        64,
+        95,
+        126,
+        157,
+        188,
+        219,
+        250,
+        281,
+        312,
+        343,
+        374,
+        405,
+        436,
+        467,
+        498,
+        529,
+        560,
+        591,
+        622,
+        653,
+        684,
+        715,
+        746,
+        777,
+        808,
+        839,
+        870,
+        901,
+        932,
+        6,
+        37,
+        68,
+        99,
+        130,
+        161,
+        192,
+        223,
+        254,
+        285,
+        316,
+        347,
+        378,
+        409,
+        440,
+        471,
+        502,
+        533,
+        564,
+        595,
+        626,
+        657,
+        688,
+        719,
+        750,
+        781,
+        812,
+        843,
+        874,
+        905,
+        936,
+        26,
+        57,
+        88,
+        119,
+        150,
+        181,
+        212,
+        243,
+        274,
+        305,
+        336,
+        367,
+        398,
+        429,
+        460,
+        491,
+        522,
+        553,
+        584,
+        615,
+        646,
+        677,
+        708,
+        739,
+        770,
+        801,
+        832,
+        863,
+        894,
+        925,
+        956
+      ]
+    },
+    "support_receipts": [
+      {
+        "beta": 0,
+        "coarse_fatal_mask": "empty",
+        "q": 43,
+        "reason": "regular private center lift"
+      },
+      {
+        "beta": 0,
+        "coarse_fatal_mask": "empty",
+        "q": 1303,
+        "reason": "regular private center lift"
+      }
+    ]
+  },
+  "hereditary_examples": [
+    {
+      "in_H": true,
+      "p": 3,
+      "required_children": [],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1
+        },
+        "prime": true,
+        "q": 3,
+        "s": 1,
+        "w": 2
+      }
+    },
+    {
+      "in_H": true,
+      "p": 7,
+      "required_children": [
+        {
+          "in_H": true,
+          "p": 3,
+          "required_children": [],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1
+            },
+            "prime": true,
+            "q": 3,
+            "s": 1,
+            "w": 2
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "3": 1
+        },
+        "prime": true,
+        "q": 7,
+        "s": 1,
+        "w": 6
+      }
+    },
+    {
+      "in_H": false,
+      "p": 11,
+      "required_children": [
+        {
+          "in_H": false,
+          "p": 5,
+          "reason": "not an admitted regular-support prime"
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "5": 1
+        },
+        "prime": true,
+        "q": 11,
+        "s": 1,
+        "w": 5
+      }
+    },
+    {
+      "in_H": false,
+      "p": 19,
+      "reason": "nonsquarefree odd order",
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "3": 2
+        },
+        "prime": true,
+        "q": 19,
+        "s": 1,
+        "w": 9
+      }
+    },
+    {
+      "in_H": true,
+      "p": 31,
+      "required_children": [
+        {
+          "in_H": true,
+          "p": 3,
+          "required_children": [],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1
+            },
+            "prime": true,
+            "q": 3,
+            "s": 1,
+            "w": 2
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "3": 1
+        },
+        "prime": true,
+        "q": 31,
+        "s": 1,
+        "w": 3
+      }
+    },
+    {
+      "in_H": true,
+      "p": 43,
+      "required_children": [
+        {
+          "in_H": true,
+          "p": 3,
+          "required_children": [],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1
+            },
+            "prime": true,
+            "q": 3,
+            "s": 1,
+            "w": 2
+          }
+        },
+        {
+          "in_H": true,
+          "p": 7,
+          "required_children": [
+            {
+              "in_H": true,
+              "p": 3,
+              "required_children": [],
+              "signature": {
+                "admitted": true,
+                "order_factors": {
+                  "2": 1
+                },
+                "prime": true,
+                "q": 3,
+                "s": 1,
+                "w": 2
+              }
+            }
+          ],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1,
+              "3": 1
+            },
+            "prime": true,
+            "q": 7,
+            "s": 1,
+            "w": 6
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "prime": true,
+        "q": 43,
+        "s": 1,
+        "w": 42
+      }
+    },
+    {
+      "in_H": false,
+      "p": 67,
+      "required_children": [
+        {
+          "in_H": false,
+          "p": 11,
+          "required_children": [
+            {
+              "in_H": false,
+              "p": 5,
+              "reason": "not an admitted regular-support prime"
+            }
+          ],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "5": 1
+            },
+            "prime": true,
+            "q": 11,
+            "s": 1,
+            "w": 5
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "11": 1
+        },
+        "prime": true,
+        "q": 67,
+        "s": 1,
+        "w": 22
+      }
+    },
+    {
+      "in_H": true,
+      "p": 127,
+      "required_children": [
+        {
+          "in_H": true,
+          "p": 3,
+          "required_children": [],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1
+            },
+            "prime": true,
+            "q": 3,
+            "s": 1,
+            "w": 2
+          }
+        },
+        {
+          "in_H": true,
+          "p": 7,
+          "required_children": [
+            {
+              "in_H": true,
+              "p": 3,
+              "required_children": [],
+              "signature": {
+                "admitted": true,
+                "order_factors": {
+                  "2": 1
+                },
+                "prime": true,
+                "q": 3,
+                "s": 1,
+                "w": 2
+              }
+            }
+          ],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "2": 1,
+              "3": 1
+            },
+            "prime": true,
+            "q": 7,
+            "s": 1,
+            "w": 6
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "prime": true,
+        "q": 127,
+        "s": 1,
+        "w": 42
+      }
+    },
+    {
+      "in_H": true,
+      "p": 1303,
+      "required_children": [
+        {
+          "in_H": true,
+          "p": 31,
+          "required_children": [
+            {
+              "in_H": true,
+              "p": 3,
+              "required_children": [],
+              "signature": {
+                "admitted": true,
+                "order_factors": {
+                  "2": 1
+                },
+                "prime": true,
+                "q": 3,
+                "s": 1,
+                "w": 2
+              }
+            }
+          ],
+          "signature": {
+            "admitted": true,
+            "order_factors": {
+              "3": 1
+            },
+            "prime": true,
+            "q": 31,
+            "s": 1,
+            "w": 3
+          }
+        }
+      ],
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "31": 1
+        },
+        "prime": true,
+        "q": 1303,
+        "s": 1,
+        "w": 62
+      }
+    }
+  ],
+  "order_collapse_checks": {
+    "compatible_reuse": {
+      "V_67_1_155_mod_q2": 0,
+      "Y": [
+        7,
+        162
+      ],
+      "ambient_lower_modulus_with_actual_67_row": 3410,
+      "b0": 2177,
+      "b1": 9772,
+      "h": 67,
+      "q": 20771,
+      "r": 16,
+      "resultant_coefficients_equal_mod_q": true,
+      "same_global_paired_state": true,
+      "u": 155
+    },
+    "fixed_triple_order_collapse": [
+      {
+        "M": 1,
+        "V": 31,
+        "Y": [
+          0,
+          1,
+          2
+        ],
+        "complete_factorization": {
+          "31": 1
+        },
+        "difference_gcd": 1,
+        "e": 1,
+        "factor_signatures": [
+          {
+            "admitted": true,
+            "order_factors": {
+              "3": 1
+            },
+            "prime": true,
+            "q": 31,
+            "s": 1,
+            "w": 3
+          }
+        ],
+        "nonregular_paired_candidates": [],
+        "p": 3
+      },
+      {
+        "M": 1,
+        "V": 781,
+        "Y": [
+          0,
+          1,
+          2
+        ],
+        "complete_factorization": {
+          "11": 1,
+          "71": 1
+        },
+        "difference_gcd": 1,
+        "e": 1,
+        "factor_signatures": [
+          {
+            "admitted": true,
+            "order_factors": {
+              "5": 1
+            },
+            "prime": true,
+            "q": 11,
+            "s": 1,
+            "w": 5
+          },
+          {
+            "admitted": true,
+            "order_factors": {
+              "5": 1
+            },
+            "prime": true,
+            "q": 71,
+            "s": 1,
+            "w": 5
+          }
+        ],
+        "nonregular_paired_candidates": [],
+        "p": 5
+      },
+      {
+        "M": 1,
+        "V": 19531,
+        "Y": [
+          0,
+          1,
+          2
+        ],
+        "complete_factorization": {
+          "19531": 1
+        },
+        "difference_gcd": 1,
+        "e": 1,
+        "factor_signatures": [
+          {
+            "admitted": true,
+            "order_factors": {
+              "7": 1
+            },
+            "prime": true,
+            "q": 19531,
+            "s": 1,
+            "w": 7
+          }
+        ],
+        "nonregular_paired_candidates": [],
+        "p": 7
+      }
+    ]
+  },
+  "paired_catalogs": [
+    {
+      "all_difference2_pairs": 5192,
+      "edge_count_histogram": {
+        "0": 127,
+        "1": 24,
+        "2": 3,
+        "3": 1
+      },
+      "fatal_anchor_profile_counts": {
+        "00": 107874189,
+        "01": 107863802,
+        "10": 107863802,
+        "11": 107832648
+      },
+      "full_K2_state_count_via_structured_lifts": 431434441,
+      "global_pair_for_these_two_Y_exists": false,
+      "incompatible_pairs_of_nonempty_lower_classes": 378,
+      "individual_witnesses": [
+        {
+          "Y": 7,
+          "b0": 2177,
+          "b1": 9772,
+          "r_mod_q2": 16,
+          "resultant_zero_mod_q_by_common_root": true,
+          "top_positions": [
+            33,
+            57
+          ]
+        },
+        {
+          "Y": 8,
+          "b0": 1558,
+          "b1": 10238,
+          "r_mod_q2": 17555,
+          "resultant_zero_mod_q_by_common_root": true,
+          "top_positions": [
+            17,
+            54
+          ]
+        }
+      ],
+      "lower_u": 155,
+      "nonempty_lower_classes": 28,
+      "original_h": 67,
+      "same_lower_pair_list_sha256": "51243f6f728177198da4db8ded6c590c808f8965dfbd0f96a786154f949a8493",
+      "same_lower_pairs": 33,
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "5": 1,
+          "31": 1,
+          "67": 1
+        },
+        "prime": true,
+        "q": 20771,
+        "s": 2,
+        "w": 10385
+      }
+    },
+    {
+      "all_difference2_pairs": 40485,
+      "edge_count_histogram": {
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 4,
+        "8": 6,
+        "9": 8,
+        "10": 4,
+        "11": 10,
+        "12": 2,
+        "13": 8,
+        "14": 4,
+        "15": 4,
+        "17": 4
+      },
+      "fatal_anchor_profile_counts": {
+        "00": 3,
+        "01": 80970,
+        "10": 80970,
+        "11": 1639035226
+      },
+      "full_K2_state_count_via_structured_lifts": 1639197169,
+      "global_pair_for_these_two_Y_exists": false,
+      "incompatible_pairs_of_nonempty_lower_classes": 1891,
+      "individual_witnesses": [
+        {
+          "Y": 0,
+          "b0": 3968,
+          "b1": 14260,
+          "r_mod_q2": 25919,
+          "resultant_zero_mod_q_by_common_root": true,
+          "top_positions": [
+            50,
+            547
+          ]
+        },
+        {
+          "Y": 1,
+          "b0": 3039,
+          "b1": 6883,
+          "r_mod_q2": 12459,
+          "resultant_zero_mod_q_by_common_root": true,
+          "top_positions": [
+            427,
+            353
+          ]
+        }
+      ],
+      "lower_u": 62,
+      "nonempty_lower_classes": 62,
+      "original_h": 653,
+      "same_lower_pair_list_sha256": "51c742ca4cbe9e8cc4b0822d6418171ad2d2b627c2a7c15d77854e142bc9b38f",
+      "same_lower_pairs": 652,
+      "signature": {
+        "admitted": true,
+        "order_factors": {
+          "2": 1,
+          "31": 1,
+          "653": 1
+        },
+        "prime": true,
+        "q": 40487,
+        "s": 2,
+        "w": 40486
+      }
+    }
+  ],
+  "regular_width_checks": {
+    "centered_safe_projection_tests": 2040,
+    "direct_normal_form_anchor_cells": 1830700,
+    "mismatches": 0,
+    "scope": "q=3,7,11; K=2,3; all shared residues; E={1}; analytic refinement only",
+    "systems": 1880
+  },
+  "resultant_checks": {
+    "crosscheck": "Bareiss == rational Euclid",
+    "fixed_h_gcds": {
+      "3": {
+        "all_three": 56,
+        "pairwise": {
+          "0,1": 56,
+          "0,2": 728,
+          "1,2": 56
+        }
+      },
+      "5": {
+        "all_three": 3872,
+        "pairwise": {
+          "0,1": 120032,
+          "0,2": 158752,
+          "1,2": 3872
+        }
+      },
+      "7": {
+        "all_three": 3712,
+        "pairwise": {
+          "0,1": 29781376,
+          "0,2": 3712,
+          "1,2": 159616
+        }
+      }
+    },
+    "mismatches": 0,
+    "resultants": {
+      "3": {
+        "0": -728,
+        "1": -3375512,
+        "2": -52734375512
+      },
+      "5": {
+        "0": -54134432,
+        "1": -9536943164096054432,
+        "2": -909494701774881362915039096054432
+      },
+      "7": {
+        "0": -988021837560704,
+        "1": -23968724603566737105769043418703421312,
+        "2": -5449750425630082026159398189690834347434681200981140699668703421312
+      }
+    }
+  },
+  "six_demands": {
+    "mismatches": 0,
+    "split_residual_tables": {
+      "A0": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "A1": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "BOTH": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "EITHER": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "FALSE": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "TRUE": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "top_words": 340,
+    "truth_comparisons": 8160
+  },
+  "sphere_checks": {
+    "actual_centers_mod9": [
+      2,
+      8,
+      5
+    ],
+    "actual_d": [
+      0,
+      2,
+      4
+    ],
+    "constraint_families_checked": 129,
+    "mismatches": 0,
+    "pairwise_legal_residues": [
+      [
+        5
+      ],
+      [
+        8
+      ],
+      [
+        2
+      ]
+    ],
+    "triple_legal_residues": []
+  },
+  "verdict": "PASS; finite computations are not substitutes for the report proofs"
+}
