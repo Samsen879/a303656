@@ -1,0 +1,30 @@
+{
+  "schema": "a303656.order-dag-phase-c.research.v1",
+  "repository": "Samsen879/a303656",
+  "research_base_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+  "research_base_tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6",
+  "total_nonregular_lower_bound": 7,
+  "total_lower_bound_improved": false,
+  "outside_2e9_nonregular_lower_bound": 7,
+  "outside_bound_depends_on_imported_complete_inventory": true,
+  "new_necessary_class": "Seven pure3 roots, pairwise-disjoint admitted regular basins, (2,2,3) frontier",
+  "small_core_extras": "N<=12 -> |H|>=7; |H|=7 -> all H pure3 with seven-origin normal form",
+  "conditional_complete_construction_proved": true,
+  "conditional_root_existence_established": false,
+  "actual_complete_certificate_constructed": false,
+  "reference_primality_certificates": 93,
+  "reference_cyclotomic_values": 20,
+  "reference_seven_terminal_graphs": 2187,
+  "reference_regular_comparisons": 1051299,
+  "regression_tests": 10,
+  "independent_referee_review": false,
+  "proof_assistant_verified": false,
+  "repository_native_integration": false,
+  "range_scan_performed": false,
+  "github_writes": "NONE",
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  }
+}
