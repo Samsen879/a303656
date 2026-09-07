@@ -1,0 +1,50 @@
+{
+  "coalescence": {
+    "certificate_pass": 10125,
+    "coincident_incoming_geometry_cases": 2700,
+    "direct_cells": 1417500,
+    "mismatches": 0,
+    "scope": "Two DISTINCT synthetic root rows coalescing at one relay; target guard charged once",
+    "systems": 13500
+  },
+  "counterexamples": {
+    "fractional_integral_gap": "PASS (abstract)",
+    "interpretation": "Failures of relaxations or proof invariants, NOT an actual complete odd certificate",
+    "nonmatroid_exchange": "PASS (abstract union bundles)",
+    "shared_state_conflict": "PASS (abstract)",
+    "two_adic_no_common_safe": "PASS (actual K2=2 residue1)"
+  },
+  "one_root": {
+    "certificate_fail_but_escape": 7015,
+    "certificate_pass": 18165,
+    "direct_cells": 2646000,
+    "mismatches": 0,
+    "scope": "Synthetic triangular three-coordinate normal forms; no arithmetic realization claimed",
+    "systems": 25200
+  },
+  "unions": {
+    "cases": 552960,
+    "depth_example": {
+      "B": [
+        "C2(0)"
+      ],
+      "D": "S0(0)",
+      "exact_union": "7/9",
+      "first_digit_union": "1"
+    },
+    "exact_pass_mass_fail": 133650,
+    "full_unions": 190026,
+    "mismatches": 0,
+    "overlap_example": {
+      "B": [
+        "C1(1)",
+        "C1(2)"
+      ],
+      "D": "S0(0)",
+      "mass_sum": "4/3",
+      "union": "2/3"
+    },
+    "scope": "All subsets of 12 depth1/2 cylinders, 27 centers, five parity bundles; abstract geometry",
+    "strict_mass_applicable": 229284
+  }
+}

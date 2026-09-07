@@ -1,0 +1,157 @@
+{
+  "boundary": {
+    "all_generated_files_replayed": false,
+    "all_historical_source_code_audited": false,
+    "external_author_referee": false,
+    "full_repository_checkout": false,
+    "proof_assistant_formalization": false,
+    "repository_CI_rerun": false,
+    "repository_native_tests": false
+  },
+  "files": [
+    {
+      "git_blob_recorded": null,
+      "path": "STATUS.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/STATUS.md"
+    },
+    {
+      "git_blob_recorded": null,
+      "path": "docs/THEOREM_INDEX.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/docs/THEOREM_INDEX.md"
+    },
+    {
+      "git_blob_recorded": null,
+      "path": "docs/ROUTE_MAP.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/docs/ROUTE_MAP.md"
+    },
+    {
+      "git_blob_recorded": "5b816092c33ea53078c9422482edd223a13b5bc3",
+      "path": "analysis/c1_two_root_provenance_phase_a/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_two_root_provenance_phase_a/REPORT.md"
+    },
+    {
+      "git_blob_recorded": "4e9b347b861a32cd3e4a7b77c92778f5bcb2d10f",
+      "path": "analysis/c1_two_root_provenance_phase_a/PROOF_AUDIT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_two_root_provenance_phase_a/PROOF_AUDIT.md"
+    },
+    {
+      "git_blob_recorded": "382cc8069efb7f7d1eab9ad8fb92e1cb0ddd1568",
+      "path": "analysis/c1_two_anchor_sync_phase_a/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_two_anchor_sync_phase_a/REPORT.md"
+    },
+    {
+      "git_blob_recorded": "c7c41d7432255b437b3a9fbdcc8d5b4ccc2a080f",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_kraft_hall_phase_a/REPORT.md"
+    },
+    {
+      "git_blob_recorded": "204613f6747d2bfa739ed29907237055ba836f9e",
+      "path": "analysis/c1_unified_endgame_phase_b/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_unified_endgame_phase_b/REPORT.md"
+    },
+    {
+      "git_blob_recorded": "0c70f0f3a3a93b2b02578cb9e819e82250e16e70",
+      "path": "analysis/c1_unified_endgame_phase_b/MASTER_THEOREM.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_unified_endgame_phase_b/MASTER_THEOREM.md"
+    },
+    {
+      "git_blob_recorded": "5ff220336fcabd9b339c3b6b489ef7c0bbcec85a",
+      "path": "analysis/c1_unified_endgame_phase_b/DEFINITIONS.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_unified_endgame_phase_b/DEFINITIONS.md"
+    },
+    {
+      "git_blob_recorded": "be4f72a4d462b541b8ea97a1abcdcb4199ad5830",
+      "path": "analysis/c1_unified_endgame_phase_b/COUNTEREXAMPLES.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_unified_endgame_phase_b/COUNTEREXAMPLES.md"
+    },
+    {
+      "git_blob_recorded": "79205ac5869cd2851927cad20f194363349a6d18",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_pooled_lower_cover_phase_b/REPORT.md"
+    },
+    {
+      "git_blob_recorded": null,
+      "path": "analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md"
+    },
+    {
+      "git_blob_recorded": "d8cecc929f54f9fc512de884553353a927dfc64d",
+      "path": "analysis/c1_blocker_deficient_core_phase_b/REPORT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_blocker_deficient_core_phase_b/REPORT.md"
+    },
+    {
+      "git_blob_recorded": null,
+      "path": "analysis/c1_blocker_deficient_core_phase_b/DEFINITIONS.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_blocker_deficient_core_phase_b/DEFINITIONS.md"
+    },
+    {
+      "git_blob_recorded": "68b44e5dcd3fba93f2a6d5d69ea2187702ee8301",
+      "path": "analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md",
+      "reading": "full mathematical text via ranged connector reads",
+      "ref": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "url": "https://github.com/Samsen879/a303656/blob/71b8d428b32724c37e593bcfd9d5f06a42e72d21/analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md"
+    }
+  ],
+  "github_writes": "NONE",
+  "main_rechecked_at_end": true,
+  "main_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+  "merge_chain": [
+    {
+      "merge": "5b96db5bbe4634364df00dad5e9e0eeedb76ad09",
+      "pr": 17
+    },
+    {
+      "merge": "64d4d498cbc2962923d4e5e0f830187d407773e6",
+      "pr": 20
+    },
+    {
+      "merge": "25a748662623f95ef5095ff4d8287c46982db100",
+      "pr": 18
+    },
+    {
+      "merge": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "pr": 19
+    }
+  ],
+  "note": "Null git_blob_recorded means the blob was not copied into this local registry; the known immutable commit and exact path still bind the source. This is not a whole-tree byte audit.",
+  "precondition": "PASS",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "source_access": "read-only GitHub connector",
+  "status": {
+    "A303656": "UNRESOLVED",
+    "active_promoted_route": "NONE",
+    "project": "PAUSED"
+  },
+  "tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6"
+}
