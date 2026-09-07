@@ -1,0 +1,95 @@
+{
+  "I": [
+    7,
+    31
+  ],
+  "J": [
+    7,
+    43,
+    103
+  ],
+  "augmentations": [
+    {
+      "q": 43,
+      "union": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "q": 103,
+      "union": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "matroid_exchange": "FAIL",
+  "rows": [
+    {
+      "E": [
+        1
+      ],
+      "K": 2,
+      "b": 0,
+      "c": 0,
+      "projection3": 0,
+      "q": 7,
+      "r": 2,
+      "s": 1,
+      "w": 6
+    },
+    {
+      "E": [
+        1
+      ],
+      "K": 2,
+      "b": 1,
+      "c": 0,
+      "projection3": 1,
+      "q": 31,
+      "r": 6,
+      "s": 1,
+      "w": 3
+    },
+    {
+      "E": [
+        1
+      ],
+      "K": 2,
+      "b": 2,
+      "c": 0,
+      "projection3": 2,
+      "q": 43,
+      "r": 26,
+      "s": 1,
+      "w": 42
+    },
+    {
+      "E": [
+        1
+      ],
+      "K": 2,
+      "b": 2,
+      "c": 0,
+      "projection3": 2,
+      "q": 103,
+      "r": 26,
+      "s": 1,
+      "w": 102
+    }
+  ],
+  "scope": "Actual regular-row positive-divisibility guards, single anchor, free coordinate3. NOT nonregular-root completeness.",
+  "submodularity": "PASS",
+  "submodularity_checks": 256,
+  "unionI": [
+    0,
+    1
+  ],
+  "unionJ": [
+    0,
+    2
+  ]
+}

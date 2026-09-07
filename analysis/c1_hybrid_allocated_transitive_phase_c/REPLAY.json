@@ -1,0 +1,30 @@
+{
+  "comparisons": [
+    {
+      "exact_bytes_equal": true,
+      "file": "actual_results.json",
+      "sha256": "b6e459d127034e34490d212e6b170f1251f542f4c0629f7cc0c5c222c187aab1"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "geometry_results.json",
+      "sha256": "c6d171537c695bd9155a644c828093a021b929441cbe89a49b117416cbc79797"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "resource_results.json",
+      "sha256": "45765daca457a3674b6b502bdbb86b6cd30bd02d0ebc859258149285c3f90b1f"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "plan_results.json",
+      "sha256": "f7c48e8385931f2b8c106c7ee855613f913e2f90dbf5cc6f0d9d24031f9b0265"
+    }
+  ],
+  "github_writes": "NONE",
+  "independent_authors": false,
+  "method": "Fresh recomputation; exact comparison of all four mathematical JSON files",
+  "repository_native_replay": false,
+  "seconds": 2.9200199809997684,
+  "verdict": "PASS"
+}
