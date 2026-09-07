@@ -21,8 +21,8 @@
     },
     {
       "path": "tests/test_integration_scope.py",
-      "sha256": "4e2d5db10d131b11ec18da6a46346a8b7da6b9c2ae46b99911deda8daa78b3cc",
-      "size": 2721
+      "sha256": "a4aa93f501491be6aac4077a6166b8151f1e54529259826d9f83d050d184759d",
+      "size": 3044
     }
   ],
   "research_base": {
