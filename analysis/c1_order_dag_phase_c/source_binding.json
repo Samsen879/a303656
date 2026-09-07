@@ -1,0 +1,69 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+  "main_tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6",
+  "main_rechecked_same_sha": true,
+  "precondition": "PASS",
+  "prs": {
+    "17": {
+      "merged": true,
+      "merge_commit": "5b96db5bbe4634364df00dad5e9e0eeedb76ad09",
+      "merged_at_utc": "2026-09-06T14:12:30Z"
+    },
+    "20": {
+      "merged": true,
+      "merge_commit": "64d4d498cbc2962923d4e5e0f830187d407773e6",
+      "merged_at_utc": "2026-09-06T14:15:57Z"
+    },
+    "18": {
+      "merged": true,
+      "merge_commit": "25a748662623f95ef5095ff4d8287c46982db100",
+      "merged_at_utc": "2026-09-06T14:18:58Z"
+    },
+    "19": {
+      "merged": true,
+      "merge_commit": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+      "merged_at_utc": "2026-09-06T14:21:38Z"
+    }
+  },
+  "reading": {
+    "required_directories": [
+      "analysis/c1_kraft_hall_phase_a/",
+      "analysis/c1_unified_endgame_phase_b/",
+      "analysis/c1_seven_prime_audit_phase_b/",
+      "analysis/c1_pooled_lower_cover_phase_b/",
+      "analysis/c1_blocker_deficient_core_phase_b/"
+    ],
+    "method": "Full merged PR diffs #16, #17, #20, #18, #19; additional pinned load-bearing file reads",
+    "pinned_file_reads": [
+      "STATUS.md",
+      "analysis/c1_unified_endgame_phase_b/MASTER_THEOREM.md",
+      "analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md",
+      "analysis/c1_pooled_lower_cover_phase_b/THEOREM_AUDIT.md",
+      "analysis/c1_seven_prime_audit_phase_b/results/scan_summary.json"
+    ],
+    "local_full_repository_checkout": false,
+    "whole_repository_byte_hash_audit": false
+  },
+  "bounded_inventory": {
+    "source": "analysis/c1_seven_prime_audit_phase_b/results/scan_summary.json",
+    "limit": 2000000000,
+    "hits": [
+      20771,
+      40487,
+      1645333507
+    ],
+    "range_scan_replayed_here": false,
+    "listed_hits_orders_and_absolute_dags_reverified_here": true
+  },
+  "status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "github_writes": "NONE",
+  "repository_native_tests_run": false,
+  "proof_assistant_verification": false,
+  "independent_author_review": false
+}

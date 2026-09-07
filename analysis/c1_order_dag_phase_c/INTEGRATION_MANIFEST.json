@@ -1,0 +1,146 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+    "tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6"
+  },
+  "manifest_self_hash": null,
+  "package": "order_dag",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "4af3c68aedb535e62cb267e28c93ff6b5163056262a32af1a9c9f5ee63d9e466",
+      "size": 2871
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "7119781002f34de7074ecc6f6c2651a83425aa9877a30aeb88444a93ee391dfb",
+      "size": 4614
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "a4aa93f501491be6aac4077a6166b8151f1e54529259826d9f83d050d184759d",
+      "size": 3044
+    }
+  ],
+  "research_base": {
+    "sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+    "tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6"
+  },
+  "schema": "a303656.phase-c-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 16,
+    "committed": false,
+    "internal_checksum_entries": 15,
+    "internal_sha256": "PASS",
+    "located_filename": "A303656_ORDER_DAG_PHASE_C.zip",
+    "outer_sha256": "ede8ef2d99f0568974b0025316ba7d19c7a8714c48a9584e46acba61e855ebd8",
+    "safe_extraction": "PASS",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "abd85a5c80ea078393ea4f5c880a0af32d92c4cab45dc63bae27df6840fc5f83",
+      "size": 2713
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "a27d1d2eb6c5f85a11b3155cb5a4e3be6cb3a4d097b6c4940d54c8403a7224fd",
+      "size": 4209
+    },
+    {
+      "path": "README.md",
+      "sha256": "4ae4ee270fca39068e2a2a2ac982ee0c8a0bc6b04d9db7e4d3a24d95b4e7b006",
+      "size": 1470
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "f705e2e06ad052c9b6329b5cf611e339b4209fb9e229fabfaeb3355acd5aec2b",
+      "size": 15972
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "eff53d15e2caecbabc5651589df56981664ab23765fe9e46b0b4d826130feee0",
+      "size": 1252
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "db6e5a306a72b94ff27308c825d1fc7c6b2f8dbd1ec663eee09a1de760f6d92d",
+      "size": 3060
+    },
+    {
+      "path": "THEOREMS.md",
+      "sha256": "9a771c9454181df57c2185b18a3ccf43c8a6abee6c71e27022479a1453b2d8e7",
+      "size": 30163
+    },
+    {
+      "path": "arithmetic_inputs.json",
+      "sha256": "e1f2f416696e8015633519c95c4a2cc50d524fc884f87ba97e920c5432e0fcef",
+      "size": 15491
+    },
+    {
+      "path": "discover_certificates.py",
+      "sha256": "6311428c86266246b8cf1dc34ebe058f7202141ad4798d57f45246dd9b6e1ab8",
+      "size": 2273
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "1d29f95b7d8e470fd0d38f6128459075835a4a40a00c94d21ef07bf92d6f77b7",
+      "size": 1254
+    },
+    {
+      "path": "reference.py",
+      "sha256": "0dbd1b9ef07c5094a4d67a88a7555adefedb4d9ace2762b21b8aad0196b9c29c",
+      "size": 13387
+    },
+    {
+      "path": "results/reference_results.json",
+      "sha256": "43a2961586df68d57ef509806faf8aa046288b59a82461681c595fe2d4470ef7",
+      "size": 29164
+    },
+    {
+      "path": "results/unit_tests.log",
+      "sha256": "ee44a8440263980c3641ab201ded25cde0d6e14009b53df06dabbc0d0d0edcd2",
+      "size": 1157
+    },
+    {
+      "path": "source_binding.json",
+      "sha256": "403b9750a8dc75bce297f1b77b4271f9f2ebcc1087c591bce59cb97069100d12",
+      "size": 2246
+    },
+    {
+      "path": "test_reference.py",
+      "sha256": "946110c50ff91af6e5c9dff29b90dff6d2bad3fe18240b9043d68daa20ab8b70",
+      "size": 2753
+    },
+    {
+      "path": "verify_bundle.py",
+      "sha256": "b632635a2b3248df56a7c788cd25521521f2b0b622aee640581fbe16261095bb",
+      "size": 2589
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "-B",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      [
+        "{python}",
+        "-B",
+        "verify_bundle.py",
+        "--replay"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}

@@ -1,0 +1,15 @@
+test_bad_generator_rejected (test_reference.ReferenceTests.test_bad_generator_rejected) ... ok
+test_fixture_not_arithmetic_root_realization (test_reference.ReferenceTests.test_fixture_not_arithmetic_root_realization) ... ok
+test_incomplete_factorization_rejected (test_reference.ReferenceTests.test_incomplete_factorization_rejected) ... ok
+test_mixed_depth_two_gateways (test_reference.ReferenceTests.test_mixed_depth_two_gateways) ... ok
+test_no_depth_two_five_frontier_with_seven_leaves (test_reference.ReferenceTests.test_no_depth_two_five_frontier_with_seven_leaves) ... ok
+test_recursive_lucas_certificates (test_reference.ReferenceTests.test_recursive_lucas_certificates) ... ok
+test_seven_frontier (test_reference.ReferenceTests.test_seven_frontier) ... ok
+test_small_circuit_inside_seven (test_reference.ReferenceTests.test_small_circuit_inside_seven) ... ok
+test_three_source_roots (test_reference.ReferenceTests.test_three_source_roots) ... ok
+test_twenty_cyclotomic_products (test_reference.ReferenceTests.test_twenty_cyclotomic_products) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.247s
+
+OK
