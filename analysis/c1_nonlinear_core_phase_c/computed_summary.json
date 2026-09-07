@@ -1,0 +1,10 @@
+{
+  "named_fixtures": 8,
+  "seeded_fixtures": 112,
+  "seeded_complete": 15,
+  "total_subledger_state_checks": 182944,
+  "total_pointwise_subledger_projection_checks": 120176,
+  "full_period_row_anchor_exponent_checks": 2741640,
+  "fixed_prime_order_lifting_checks": 14,
+  "all_shared_triangle_assignments": 2989
+}

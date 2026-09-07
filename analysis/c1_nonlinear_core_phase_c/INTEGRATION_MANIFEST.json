@@ -1,0 +1,132 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+    "tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6"
+  },
+  "manifest_self_hash": null,
+  "package": "nonlinear_core",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "87ac521da66f936473fa51943ef511f68c598bea5e515a122e4cb9b766c1ce3a",
+      "size": 2051
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "7119781002f34de7074ecc6f6c2651a83425aa9877a30aeb88444a93ee391dfb",
+      "size": 4614
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "2fe1a4933261416f36bcb3a9cbb5113734886c520996ebcf8275c1efd9aaf6c6",
+      "size": 2282
+    }
+  ],
+  "research_base": {
+    "sha": "71b8d428b32724c37e593bcfd9d5f06a42e72d21",
+    "tree": "5609e47eed0c058c190ef59c61644e2fd4b8fad6"
+  },
+  "schema": "a303656.phase-c-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 15,
+    "committed": false,
+    "internal_checksum_entries": 14,
+    "internal_sha256": "PASS",
+    "located_filename": "A303656_NONLINEAR_CORE_PHASE_C.zip",
+    "outer_sha256": "95d818ee682d47f2a84201ff733f73a119018bcbf25b431b60d36dd038656f40",
+    "safe_extraction": "PASS",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "d3d4d7e66fe6c56da4bead23ecd22dd14cf68034766b8a08b5a3d0e4b68e27d1",
+      "size": 3530
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "6299f544518d9a10c36074c275c843604f18640dc68d1898d095f4099441e434",
+      "size": 4924
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c19b29b6fa8c0d9bd530e0dbd8098c25f673ca22fec950123a4e58f45d07d71",
+      "size": 2527
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "057e5ecf8d686c93575fa3499b435f9ee1109e9707aff2731d5805990c327091",
+      "size": 33957
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "78b33c1833360f7d7c413fab3baefdeb3262ae5de3675e793973de35ba16ffd9",
+      "size": 1137
+    },
+    {
+      "path": "SOURCE_READING.md",
+      "sha256": "ef74bbcc311d8f23d4978c3285ac2a791fc80e54bd56bf7b583eafe6f81ffb48",
+      "size": 3937
+    },
+    {
+      "path": "authority.json",
+      "sha256": "3014e9981c10d9c805f1a2981ff07aa1635263c298f1ce8a4987a2766ba76b3c",
+      "size": 1082
+    },
+    {
+      "path": "computed_summary.json",
+      "sha256": "8c40fb5aa7664b044e0db1e638deb2e1dc7d7473438788d2700891e09fa70038",
+      "size": 314
+    },
+    {
+      "path": "reference.py",
+      "sha256": "1c659b6013b2020f0bf20d518a9967ed2060085df69ea502107ea3ee0ce4d0f8",
+      "size": 24223
+    },
+    {
+      "path": "results.json",
+      "sha256": "65434c15db219a433c6bd4a939a7a0ac6af5befd5e9329cf45a9af5fcf4561a6",
+      "size": 646096
+    },
+    {
+      "path": "run_log.txt",
+      "sha256": "3dad040f85303d5a378fe4c49f6cf5629e01788a28819d4a8a8975852861c3a4",
+      "size": 721
+    },
+    {
+      "path": "run_metrics.json",
+      "sha256": "686e74055f0c4056644a5d371f9db9d97c8dfe134b9211efebe77b0d222dc22c",
+      "size": 88
+    },
+    {
+      "path": "source_binding.json",
+      "sha256": "b63bd824360317f705ce0c874d3ffd18e3dc1f4d158a7fed861c0df5f41295bc",
+      "size": 7774
+    },
+    {
+      "path": "verification.json",
+      "sha256": "31339f271ba144923e3c11d231fb0a3c2c77c17cbe12ab6ffcece7ccd8765245",
+      "size": 463
+    },
+    {
+      "path": "verify.py",
+      "sha256": "e81b674b21b706ea2d3d26151a4fd1adade9f83e19c6302c52adf33fd0499f7b",
+      "size": 2206
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "verify.py"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}

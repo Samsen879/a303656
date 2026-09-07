@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fresh_isolated_reference_replay": "PASS",
+  "deterministic_files": {
+    "results.json": "65434c15db219a433c6bd4a939a7a0ac6af5befd5e9329cf45a9af5fcf4561a6",
+    "computed_summary.json": "8c40fb5aa7664b044e0db1e638deb2e1dc7d7473438788d2700891e09fa70038"
+  },
+  "reference_sha256": "1c659b6013b2020f0bf20d518a9967ed2060085df69ea502107ea3ee0ce4d0f8",
+  "timings_compared": false,
+  "repository_tests_run": false,
+  "github_writes": "NONE"
+}
