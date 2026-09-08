@@ -1,0 +1,107 @@
+{
+  "authority": {
+    "repository": "Samsen879/a303656",
+    "repository_id": 1333945235,
+    "main": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882",
+    "project": "PAUSED",
+    "active_promoted_route": "NONE",
+    "a303656": "UNRESOLVED",
+    "github_writes_performed": "NONE"
+  },
+  "merged_prs": [
+    {
+      "number": 21,
+      "name": "Hybrid",
+      "merged": true,
+      "base_branch": "main",
+      "merge_commit": "1f4928d6a26fe98d28d576c56cd0f1dfecb13459"
+    },
+    {
+      "number": 22,
+      "name": "Global Shared State",
+      "merged": true,
+      "base_branch": "main",
+      "merge_commit": "509bd064f849ff465e40e9edd7205c89b45a08c7"
+    },
+    {
+      "number": 23,
+      "name": "Nonlinear Core",
+      "merged": true,
+      "base_branch": "main",
+      "merge_commit": "57d19d4d67f18ad38566ac5dafd7c4bf62f8b23c"
+    },
+    {
+      "number": 24,
+      "name": "Order-DAG",
+      "merged": true,
+      "base_branch": "main",
+      "merge_commit": "cc15e53761f0669aefe8d5421c190d0584ebef78"
+    },
+    {
+      "number": 25,
+      "name": "Hybrid scope repair",
+      "merged": true,
+      "base_branch": "main",
+      "merge_commit": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94"
+    }
+  ],
+  "read_files": [
+    {
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "reading": "完整数学正文；主要依赖 §§1–7、12–13"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "reading": "完整报告正文"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/PROOF_AUDIT.md",
+      "reading": "完整审计正文"
+    },
+    {
+      "path": "analysis/c1_blocker_deficient_core_phase_b/DEFINITIONS.md",
+      "reading": "完整定义正文"
+    },
+    {
+      "path": "analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md",
+      "reading": "完整证明/审计正文"
+    },
+    {
+      "path": "analysis/c1_pooled_lower_cover_phase_b/README.md",
+      "reading": "完整"
+    },
+    {
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "reading": "完整报告正文"
+    },
+    {
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "reading": "完整报告正文，含跨次读取的正文续页"
+    },
+    {
+      "path": "analysis/c1_seven_prime_audit_phase_b/README.md",
+      "reading": "完整"
+    },
+    {
+      "path": "analysis/c1_seven_prime_audit_phase_b/SEVEN_PRIME_INDEPENDENT_PROOF.md",
+      "reading": "完整独立重证正文"
+    },
+    {
+      "path": "STATUS.md",
+      "reading": "完整"
+    }
+  ],
+  "read_scope_limit": "Not every auxiliary/generated file in the five requested directories was individually read. No complete local checkout, repository-native replay, or 2e9 scan replay.",
+  "transport": "Read-only GitHub connector; attempted local clone failed DNS. Standalone new arithmetic only.",
+  "external_primary_source": {
+    "url": "https://homes.cerias.purdue.edu/~ssw/cun/pmain126.txt",
+    "use": "Factor-discovery/cross-check hints for selected Phi indices; P labels not accepted as local primality certificates."
+  },
+  "verification_independence": "SymPy/table discovery separated from standard-library integer product, recursive Lucas, exact-order, and direct modular checks. Same author/session; not independent research teams.",
+  "github_writes": "NONE",
+  "final_live_branch_recheck": {
+    "same_sha": true,
+    "same_tree": true
+  }
+}
