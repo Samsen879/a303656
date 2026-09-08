@@ -1,0 +1,46 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+  "main_tree": "5ee6ab9e51f3e6d471991b7407de193d12777882",
+  "github_writes": "NONE",
+  "project": "PAUSED",
+  "active_promoted_route": "NONE",
+  "a303656": "UNRESOLVED",
+  "read_method": "live GitHub GET tools; pinned file reads; PR merged/base/merge metadata",
+  "live_main_rechecked_at_end": true,
+  "merged_prs": [
+    {
+      "number": 21,
+      "merged": true,
+      "merge_sha": "1f4928d6a26fe98d28d576c56cd0f1dfecb13459",
+      "merged_at": "2026-09-07T09:44:28Z"
+    },
+    {
+      "number": 22,
+      "merged": true,
+      "merge_sha": "509bd064f849ff465e40e9edd7205c89b45a08c7",
+      "merged_at": "2026-09-07T09:49:22Z"
+    },
+    {
+      "number": 23,
+      "merged": true,
+      "merge_sha": "57d19d4d67f18ad38566ac5dafd7c4bf62f8b23c",
+      "merged_at": "2026-09-07T09:53:38Z"
+    },
+    {
+      "number": 24,
+      "merged": true,
+      "merge_sha": "cc15e53761f0669aefe8d5421c190d0584ebef78",
+      "merged_at": "2026-09-07T09:57:50Z"
+    },
+    {
+      "number": 25,
+      "merged": true,
+      "merge_sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+      "merged_at": "2026-09-07T12:39:49Z"
+    }
+  ],
+  "repository_native_replay_performed": false,
+  "local_research_only": true
+}

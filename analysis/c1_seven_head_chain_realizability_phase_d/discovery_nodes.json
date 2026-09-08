@@ -1,0 +1,109 @@
+{
+  "3326871479": {
+    "p": 3326871479,
+    "predecessor": 19531,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 7527729714644652785,
+    "p_minus_1_factors": {
+      "2": 1,
+      "7": 1,
+      "23": 3,
+      "19531": 1
+    }
+  },
+  "64993931": {
+    "p": 64993931,
+    "predecessor": 271,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 2962277398610975,
+    "p_minus_1_factors": {
+      "2": 1,
+      "5": 1,
+      "29": 1,
+      "271": 1,
+      "827": 1
+    }
+  },
+  "6653742959": {
+    "p": 6653742959,
+    "predecessor": 3326871479,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 36838438743606931376,
+    "p_minus_1_factors": {
+      "2": 1,
+      "3326871479": 1
+    }
+  },
+  "5109083184043259": {
+    "p": 5109083184043259,
+    "predecessor": 3326871479,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 2121810182061090537925954276337,
+    "p_minus_1_factors": {
+      "2": 1,
+      "7": 1,
+      "43": 1,
+      "2551": 1,
+      "3326871479": 1
+    }
+  },
+  "38678701": {
+    "p": 38678701,
+    "predecessor": 4159,
+    "isprime_discovery": true,
+    "admitted": false,
+    "power_mod_p2": 1220613008554957,
+    "p_minus_1_factors": {
+      "2": 2,
+      "3": 1,
+      "5": 2,
+      "31": 1,
+      "4159": 1
+    }
+  },
+  "112691": {
+    "p": 112691,
+    "predecessor": 191,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 8469742870,
+    "p_minus_1_factors": {
+      "2": 1,
+      "5": 1,
+      "59": 1,
+      "191": 1
+    }
+  },
+  "60426671": {
+    "p": 60426671,
+    "predecessor": 191,
+    "isprime_discovery": true,
+    "admitted": true,
+    "power_mod_p2": 1252666885138245,
+    "p_minus_1_factors": {
+      "2": 1,
+      "5": 1,
+      "17": 1,
+      "191": 1,
+      "1861": 1
+    }
+  },
+  "34795646861": {
+    "p": 34795646861,
+    "predecessor": 6271,
+    "isprime_discovery": true,
+    "admitted": false,
+    "power_mod_p2": 718877983248381048176,
+    "p_minus_1_factors": {
+      "2": 2,
+      "5": 1,
+      "13": 1,
+      "6271": 1,
+      "21341": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "arithmetic_proofs": "PASS",
+  "certified_primes_in_recursive_DAG": 66,
+  "node_records": 33,
+  "complete_first_preimages": [
+    7,
+    19,
+    31
+  ],
+  "partial_factor_families": 16,
+  "actual_local_row_comparisons": 1051305,
+  "conditional_collapsed_classes": 54,
+  "additional_conditional_head_variant_cases": 6480,
+  "recorded_independent_A_B_domains": 14,
+  "huge31_python_replay": "PASS",
+  "finite_terminal_lower_bounds": "PASS",
+  "fresh_all_native_search_replay": "NOT_REQUESTED; recorded A/B domains and hits checked",
+  "full_actual_C1_certificate_verified": false,
+  "all_seven_chains_exist": "OPEN",
+  "github_writes": "NONE",
+  "seconds": 1.8379747590001898
+}

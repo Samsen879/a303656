@@ -1,0 +1,17 @@
+{
+  "exponent": 625552508473588471,
+  "K": 1000000,
+  "upper_q": 1251105016947176942000001,
+  "modular_tests": 60145,
+  "hits": [
+    [
+      215,
+      268987578643643042531
+    ]
+  ],
+  "relay": 268987578643643042531,
+  "relay_K_for_same_q_bound": 2325,
+  "relay_divisor_hits": [],
+  "seconds": 0.7764531309999256,
+  "scope": "Independent Python pow replay for rigorous head31 terminal bound, not all Gamma factors."
+}

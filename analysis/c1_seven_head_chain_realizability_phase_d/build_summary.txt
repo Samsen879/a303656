@@ -1,0 +1,9 @@
+nodes 33 prime_certificates 66 families 19 local_comparisons 1051305 matched_search_domains 14
+{'h': 31, 'w': 3, 'ell': 0, 'center_mod_wh': 0, 'r_mod_h2': 4, 'K': 2, 'E': [1]}
+{'h': 7, 'w': 6, 'ell': 4, 'center_mod_wh': 28, 'r_mod_h2': 33, 'K': 2, 'E': [1]}
+{'h': 19, 'w': 9, 'ell': 2, 'center_mod_wh': 38, 'r_mod_h2': 237, 'K': 2, 'E': [1]}
+{'h': 5167, 'w': 18, 'ell': 14, 'center_mod_wh': 72338, 'r_mod_h2': 26482920, 'K': 2, 'E': [1]}
+{'h': 271, 'w': 27, 'ell': 8, 'center_mod_wh': 2168, 'r_mod_h2': 54317, 'K': 2, 'E': [1]}
+{'h': 4159, 'w': 27, 'ell': 17, 'center_mod_wh': 70703, 'r_mod_h2': 5094267, 'K': 2, 'E': [1]}
+{'h': 31051, 'w': 27, 'ell': 26, 'center_mod_wh': 807326, 'r_mod_h2': 508857581, 'K': 2, 'E': [1]}
+bounds {31: 1251105016947176942000001, 7: 3906200000001, 19: 3820000001, 271: 54200000001, 4159: 831800000001, 5167: 1033400000001, 31051: 6210200000001}

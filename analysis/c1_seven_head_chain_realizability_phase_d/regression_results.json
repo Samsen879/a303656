@@ -1,0 +1,35 @@
+{
+  "mutation_tests": [
+    {
+      "case": "invalid_Lucas_witness",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: Lucas gcd witness"
+    },
+    {
+      "case": "wrong_exact_order",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: order factor product"
+    },
+    {
+      "case": "nonadmitted_promoted",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: node classes"
+    },
+    {
+      "case": "wrong_CRT_head_residue",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: head shared residue"
+    },
+    {
+      "case": "overstated_lower_bound_scope",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: lower-bound scope must not be inflated"
+    },
+    {
+      "case": "invented_complete_certificate",
+      "status": "REJECTED_AS_REQUIRED",
+      "last_error": "ValueError: logical output guards"
+    }
+  ],
+  "passed": 6
+}
