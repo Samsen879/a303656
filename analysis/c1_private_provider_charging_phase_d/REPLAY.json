@@ -1,0 +1,10 @@
+{
+  "assertion_failures": 0,
+  "github_writes": "NONE",
+  "independent_author_verification": false,
+  "proof_assistant_verification": false,
+  "reference_output_byte_identical": true,
+  "repository_ci_replayed": false,
+  "results_sha256": "8919394dc2efff4ca936b9d10e13873d5408de709446f32ebc25744cf93c1867",
+  "standalone_standard_library": true
+}

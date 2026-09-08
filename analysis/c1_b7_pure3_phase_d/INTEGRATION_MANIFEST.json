@@ -1,0 +1,127 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882"
+  },
+  "manifest_self_hash": null,
+  "package": "b7_pure3",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "f3639aebc7c70631a7266a4dd91c559bd03cbd68c66b729c150018b81eb50b65",
+      "size": 1792
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "dfa5cdcc72f95e08e801e9a5a37a01bb27042285d6bd2727ac3f68f70ddc7ca6",
+      "size": 2565
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "514703f30068b81b5b2827521a942e3273ad9b464c3308d838f04a41c37ea72c",
+      "size": 5576
+    }
+  ],
+  "research_base": {
+    "sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882"
+  },
+  "schema": "a303656.phase-d-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 11,
+    "committed": false,
+    "internal_checksum_entries": 10,
+    "internal_sha256": "PASS",
+    "located_filename": "A303656_B7_PURE3_PHASE_D.zip",
+    "outer_sha256": "918eb2d6f42bf7a08ed9ecd2c377eacc250205abf763f568e4912fe1b91e873c",
+    "safe_extraction": "PASS",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "052ebb764ebdcbdff80f44616f47e594022bc032c8ae22e0ff65c78a5a422773",
+      "size": 3831
+    },
+    {
+      "path": "README.md",
+      "sha256": "0a31106c8eabdf7553951de8eb7940ec05b33391994656aca0f4d15f33f365cc",
+      "size": 1552
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "e5e9d534b06921b591bff6c535d4031ef5913a2449b1f35ba44fa29a636866ee",
+      "size": 26219
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "2fa85b86a34180fab53ef96e0d7c99425a5802b9e4c91ef3fdf0d6e329c16b9c",
+      "size": 840
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "2fc5f66f26e64b55411e10114dc577412795cfaedbe351e8f8f44a9c96e82201",
+      "size": 3932
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "f4311ded758209f6524921ce0e49db17e9981549ac669e5f7c5f81aec019ad22",
+      "size": 3450
+    },
+    {
+      "path": "arithmetic_certificates.json",
+      "sha256": "87c16577b7fb81e188a8b7b19de9578ca287d9ff18409a551be79d4770c01e4b",
+      "size": 35017
+    },
+    {
+      "path": "discovery_only_301_602.json",
+      "sha256": "28aba877d602168ce732cc2eba3d3461e24a1db18dd75765f1194dbea1d09f8a",
+      "size": 1013
+    },
+    {
+      "path": "verification_log.txt",
+      "sha256": "d91d5ee70711319aec4df4e17b98833336ad295c5dbe36933c19e18a4ec131a2",
+      "size": 2316
+    },
+    {
+      "path": "verification_results.json",
+      "sha256": "e80255ebd7422540a14ef65987df1041a59ae3c8530924c5ef5080c5dab7bc5e",
+      "size": 1057
+    },
+    {
+      "path": "verify.py",
+      "sha256": "cf509211d8e29fad5009b0d7870bae200e5100463da9df6d33ebfd544f904fd0",
+      "size": 13390
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "-B",
+        "verify.py",
+        "--self-test"
+      ],
+      [
+        "{python}",
+        "-B",
+        "verify.py",
+        "--output",
+        "{tmp}/fresh_results.json"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "json_semantic_comparisons": [
+      {
+        "fresh": "{tmp}/fresh_results.json",
+        "frozen": "verification_results.json"
+      }
+    ],
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}

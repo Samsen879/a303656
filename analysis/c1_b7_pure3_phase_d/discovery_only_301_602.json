@@ -1,0 +1,30 @@
+{
+  "classification": "DISCOVERY ONLY: NOT USED IN CERTIFIED EXCLUSIONS",
+  "reason": "Some prime/cofactor primality certificates were not completed; table P labels and probable-prime tests are not promoted to certified facts.",
+  "products": [
+    {
+      "n": 301,
+      "integer_factors": [
+        "66221",
+        "3595452428681",
+        "453098474981964966729037498128705243871",
+        "1024695328986282069992499825233134533904997483977104628437112381314174950866343474485790683881553166943169107370165052251"
+      ],
+      "product_identity_checked": true,
+      "all_primality_certified": false
+    },
+    {
+      "n": 602,
+      "integer_factors": [
+        "14449",
+        "42743",
+        "176989",
+        "26041733579107",
+        "71398356223351054354479829866663025664388644310993593530081301",
+        "815848665960876101737817318523947330508259341603714676894206499333984664006434088162821"
+      ],
+      "product_identity_checked": true,
+      "all_primality_certified": false
+    }
+  ]
+}
