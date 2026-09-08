@@ -1,0 +1,385 @@
+{
+  "OR_reuse": {
+    "alternative_TRUE_clauses": 8,
+    "classification": "ABSTRACT OR alternatives",
+    "occurrences_per_original": 4,
+    "original_roots": 6
+  },
+  "actual_provider": {
+    "K": 2,
+    "L": 685410,
+    "U": 685410,
+    "accepted": [
+      1
+    ],
+    "ancestry": [
+      "67",
+      "20771"
+    ],
+    "anchor": 1,
+    "checks": {
+      "ancestry_paths": 3,
+      "capacity_checks": 3,
+      "minimal_witnesses": 3,
+      "pointwise_projection_checks": 5299,
+      "private_provider_checks": 3,
+      "support_identity_checks": 3
+    },
+    "classification": "ACTUAL arithmetic, NOT a complete certificate",
+    "collapsed_even_residual": "d=0 mod15; full exponent condition d=0 mod30",
+    "covered_exponents": 326316,
+    "history": [
+      {
+        "after": 3,
+        "before": 4,
+        "coordinate": 67,
+        "nonempty_new_witnesses": 1
+      },
+      {
+        "after": 2,
+        "before": 3,
+        "coordinate": 31,
+        "nonempty_new_witnesses": 1
+      },
+      {
+        "after": 1,
+        "before": 2,
+        "coordinate": 11,
+        "nonempty_new_witnesses": 1
+      },
+      {
+        "after": 0,
+        "before": 1,
+        "coordinate": 5,
+        "nonempty_new_witnesses": 0
+      },
+      {
+        "after": 0,
+        "before": 0,
+        "coordinate": 3,
+        "nonempty_new_witnesses": 0
+      }
+    ],
+    "normal_form_checks": 2741640,
+    "regular_private_provider_at_coordinate11": "67",
+    "residues": {
+      "11": 4,
+      "31": 4,
+      "67": 4,
+      "20771": 20775
+    },
+    "rows": [
+      {
+        "lifting_exponent": 1,
+        "order": 5,
+        "prime": 11
+      },
+      {
+        "lifting_exponent": 1,
+        "order": 3,
+        "prime": 31
+      },
+      {
+        "lifting_exponent": 1,
+        "order": 22,
+        "prime": 67
+      },
+      {
+        "lifting_exponent": 2,
+        "order": 10385,
+        "prime": 20771
+      }
+    ]
+  },
+  "actual_shared_states": {
+    "classification": "ACTUAL imported-state recalibration",
+    "compatible_ordinary_lower_representatives": [
+      7,
+      162
+    ],
+    "incompatible_ordinary_lower_representatives": [
+      7,
+      8
+    ],
+    "prime": 20771,
+    "states": [
+      {
+        "logs": [
+          2177,
+          9772
+        ],
+        "lower_class": 7,
+        "residue": 16,
+        "valuations": [
+          1,
+          1
+        ]
+      },
+      {
+        "logs": [
+          1558,
+          10238
+        ],
+        "lower_class": 8,
+        "residue": 17555,
+        "valuations": [
+          1,
+          1
+        ]
+      }
+    ],
+    "valuation_checks": 4
+  },
+  "assertion_failures": 0,
+  "authority": {
+    "main": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882"
+  },
+  "cartesian_frontier": {
+    "checks": {
+      "ancestry_paths": 123,
+      "capacity_checks": 123,
+      "minimal_witnesses": 19,
+      "pointwise_projection_checks": 19,
+      "private_provider_checks": 123,
+      "support_identity_checks": 19
+    },
+    "classification": "ABSTRACT rigid-only canonical grammar",
+    "enabled_subledger_checks": 8192,
+    "global_frontier_unit_Hall_deficiency": 2,
+    "history": [
+      {
+        "after": 15,
+        "before": 13,
+        "coordinate": 7,
+        "nonempty_new_witnesses": 15
+      },
+      {
+        "after": 3,
+        "before": 15,
+        "coordinate": 5,
+        "nonempty_new_witnesses": 3
+      },
+      {
+        "after": 1,
+        "before": 3,
+        "coordinate": 3,
+        "nonempty_new_witnesses": 1
+      }
+    ],
+    "original_roots": 13,
+    "post_7_indispensable_disjoint_macros": 15,
+    "same_fiber_p5_obligations": 5
+  },
+  "exactly_seven": {
+    "Hall_capacity": 7,
+    "Hall_demand": 7,
+    "actual_nonregular_roots_instantiated": 0,
+    "actual_regular_row_period_checks": 1051305,
+    "classification": "CONDITIONAL upstream nonregular chains; actual regular heads only",
+    "collapsed_classes": 54,
+    "covered_collapsed_classes": 54,
+    "frontier_leaves": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        17
+      ],
+      [
+        3,
+        26
+      ]
+    ],
+    "head_records": [
+      {
+        "CRT_log_representative": 0,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 0,
+        "order": 3,
+        "prime": 31,
+        "residue": 4
+      },
+      {
+        "CRT_log_representative": 28,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 4,
+        "order": 6,
+        "prime": 7,
+        "residue": 33
+      },
+      {
+        "CRT_log_representative": 38,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 2,
+        "order": 9,
+        "prime": 19,
+        "residue": 237
+      },
+      {
+        "CRT_log_representative": 72338,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 14,
+        "order": 18,
+        "prime": 5167,
+        "residue": 26482920
+      },
+      {
+        "CRT_log_representative": 2168,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 8,
+        "order": 27,
+        "prime": 271,
+        "residue": 54317
+      },
+      {
+        "CRT_log_representative": 70703,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 17,
+        "order": 27,
+        "prime": 4159,
+        "residue": 5094267
+      },
+      {
+        "CRT_log_representative": 807326,
+        "center": 0,
+        "lifting_exponent": 1,
+        "log": 26,
+        "order": 27,
+        "prime": 31051,
+        "residue": 508857581
+      }
+    ],
+    "next_odd_coordinate_after_3": null,
+    "origin_capacities": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "row3": {
+      "K": 2,
+      "accepted": [
+        1
+      ],
+      "prime": 3,
+      "residue": 2
+    }
+  },
+  "github_writes": "NONE",
+  "independent_author_checked": false,
+  "proof_assistant_checked": false,
+  "same_origin_fork": {
+    "checks": {
+      "ancestry_paths": 49,
+      "capacity_checks": 49,
+      "minimal_witnesses": 11,
+      "pointwise_projection_checks": 25,
+      "private_provider_checks": 49,
+      "support_identity_checks": 13
+    },
+    "chosen_ancestry_paths": [
+      [
+        "7",
+        "R"
+      ],
+      [
+        "31",
+        "R"
+      ]
+    ],
+    "classification": "ABSTRACT; initial rigid rows not arithmetically instantiated",
+    "existential_unit_Hall_failure_claimed": false,
+    "grid_cells": 651,
+    "history": [
+      {
+        "after": 10,
+        "before": 40,
+        "coordinate": 31,
+        "nonempty_new_witnesses": 8
+      },
+      {
+        "after": 3,
+        "before": 10,
+        "coordinate": 7,
+        "nonempty_new_witnesses": 2
+      },
+      {
+        "after": 1,
+        "before": 3,
+        "coordinate": 3,
+        "nonempty_new_witnesses": 1
+      }
+    ],
+    "regular_helper_roles": 2,
+    "rigid_roots": 38,
+    "shared_root_shadow_width": 2,
+    "unit_capacity_chosen_charge_fails": true
+  },
+  "seeded_models": {
+    "basin_muting_checks": 500,
+    "cases": 500,
+    "checks": {
+      "ancestry_paths": 210,
+      "capacity_checks": 210,
+      "minimal_witnesses": 186,
+      "pointwise_projection_checks": 9500,
+      "private_provider_checks": 210,
+      "support_identity_checks": 1209
+    },
+    "classification": "ABSTRACT, including non-admitted dynamic5",
+    "complete_cases": 23,
+    "seed": 20260907
+  },
+  "shadow_width": {
+    "exhaustive_families": [
+      {
+        "depth": 2,
+        "families": 4096,
+        "prime": 3,
+        "proper_cylinders": 12
+      },
+      {
+        "depth": 1,
+        "families": 32,
+        "prime": 5,
+        "proper_cylinders": 5
+      }
+    ],
+    "state_reselection_negative_control": {
+      "each_fixed_state_capacity": [
+        1,
+        1,
+        1
+      ],
+      "invalid_union_of_states_capacity": 3
+    }
+  }
+}
