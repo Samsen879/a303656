@@ -1,0 +1,110 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "manifest_self_hash": null,
+  "package": "seven_basin_global_shared_state_phase_e",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "159401f6b46cc9652938eed2281c36d751342383a2238c81caff0e6219d20182",
+      "size": 1414
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "ba4974a135d20c178760faabc0873d305f0e41359a150196b960f806033ebde4",
+      "size": 5251
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "13e1e3ac5190e00456e81249f1d2cd829699b7a5ffe3dc7d633e2f9c43ef6e06",
+      "size": 2223
+    }
+  ],
+  "research_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "schema": "a303656.phase-ef-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 8,
+    "committed": false,
+    "located_filename": "A303656_SEVEN_BASIN_GLOBAL_SHARED_STATE_PHASE_E.zip",
+    "outer_sha256": "16970c82ca66048d52d1430828413fd88b567f52bd4a82dd989247cb9328704a",
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_entries": 7,
+    "source_integrity_type": "MANIFEST.json",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "AUTHORITY.json",
+      "sha256": "5fad17f6907f4c86531dbeba40675e67014a159a5062b70c80d68a7d4b2baea6",
+      "size": 1573
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "3092949de20658f1e2ab1a6cea3d756619a219b4bbf3a71dfc132ba300e72dde",
+      "size": 1123
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "0ce0a155df1e48692a68c466cc58a1dc93317691cfb8a47a5e415a088b0fcea2",
+      "size": 3387
+    },
+    {
+      "path": "README.md",
+      "sha256": "4e02415ebb2242e68c618c3cfb5e3f86a842e310736f40a5d81352abe8ccac2f",
+      "size": 1149
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "7960d6f2cbcff93c2bed90dcc015739d51b4f82d62b7a1798a08f81e82d64827",
+      "size": 29504
+    },
+    {
+      "path": "RESULTS.json",
+      "sha256": "17b4c287f6c2a63bd200d186778e54a37faf741676b7b8210f27f6d8eb57fa10",
+      "size": 7661
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "040dfee6fcb8f554d2b545a48b868a0b95a9bb2ee7f7a6c4a9b81b02f796bfd5",
+      "size": 5219
+    },
+    {
+      "path": "reference.py",
+      "sha256": "8ba2787fbd695452965f8b912f9d04ce9a2a7d8e6ec77a7e1ac58254a5c50bd7",
+      "size": 12681
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "-B",
+        "reference.py",
+        "--output",
+        "{tmp}/RESULTS.local.json"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "json_comparisons": [
+      {
+        "actual": "{tmp}/RESULTS.local.json",
+        "expected": "RESULTS.json",
+        "ignore_keys": [
+          "elapsed_seconds"
+        ]
+      }
+    ],
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}
