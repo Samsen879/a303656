@@ -1,0 +1,102 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+  "main_tree": "5ee6ab9e51f3e6d471991b7407de193d12777882",
+  "binding_method": "GitHub connector live branch metadata, pinned raw-file reads and live PR metadata",
+  "end_recheck": {
+    "main_sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "main_tree": "5ee6ab9e51f3e6d471991b7407de193d12777882",
+    "unchanged": true
+  },
+  "required_global_directory_present_in_pinned_main": true,
+  "phase_c_global_pr": {
+    "number": 22,
+    "merged": true,
+    "merged_at": "2026-09-07T09:49:22Z",
+    "merge_commit": "509bd064f849ff465e40e9edd7205c89b45a08c7"
+  },
+  "phase_c_merged_prs": [
+    21,
+    22,
+    23,
+    24
+  ],
+  "repair_pr": {
+    "number": 25,
+    "merged": true,
+    "merged_at": "2026-09-07T12:39:49Z"
+  },
+  "source_files": [
+    {
+      "path": "STATUS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/STATUS.md",
+      "reading_focus": "authority status"
+    },
+    {
+      "path": "analysis/c1_global_shared_state_phase_c/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_global_shared_state_phase_c/REPORT.md",
+      "reading_focus": "main mathematical report"
+    },
+    {
+      "path": "analysis/c1_global_shared_state_phase_c/PROOF_DETAILS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_global_shared_state_phase_c/PROOF_DETAILS.md",
+      "reading_focus": "C1-C9 and Gate B complete mathematical reconstruction"
+    },
+    {
+      "path": "analysis/c1_global_shared_state_phase_c/PROOF_AUDIT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_global_shared_state_phase_c/PROOF_AUDIT.md",
+      "reading_focus": "scope/quantifier audit"
+    },
+    {
+      "path": "analysis/c1_global_shared_state_phase_c/INTEGRATION.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_global_shared_state_phase_c/INTEGRATION.md",
+      "reading_focus": "integration custody and C9 scope"
+    },
+    {
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "reading_focus": "P1-P5, full-depth blockers, joint reverse CRT and scope"
+    },
+    {
+      "path": "analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_pooled_lower_cover_phase_b/DEFINITIONS.md",
+      "reading_focus": "full original-state and six-demand grammar"
+    },
+    {
+      "path": "analysis/c1_two_anchor_sync_phase_a/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_two_anchor_sync_phase_a/REPORT.md",
+      "reading_focus": "S1-S4, original maximal-coordinate obligations, actual split"
+    },
+    {
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "reading_focus": "original paired graph, resultants, finite-support invariant and boundaries"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_order_dag_phase_c/REPORT.md",
+      "reading_focus": "normal-form report; corroborated with full THEOREMS proof text"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "reading_focus": "seven-root normal form, disjoint basins, conditional Theorem12.1"
+    },
+    {
+      "path": "analysis/c1_hybrid_allocated_transitive_phase_c/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_hybrid_allocated_transitive_phase_c/REPORT.md",
+      "reading_focus": "supplementary H theorem and coalescing/tagged release scope"
+    }
+  ],
+  "reading_boundary": "Core mathematical reports/definitions/proofs. Not a claim that every generated catalog, historical implementation, auxiliary file or every byte of the five directories was audited.",
+  "source_files_materialized_as_local_checkout": false,
+  "repository_native_replay": false,
+  "new_prime_scan": false,
+  "github_writes": [],
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  }
+}
