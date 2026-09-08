@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "recursive_Lucas_prime_certificates": 108,
+  "complete_cyclotomic_products": 11,
+  "factor_order_lifting_records": 26,
+  "first_relay_gate": [
+    43,
+    127,
+    379,
+    7603,
+    19531,
+    519499
+  ],
+  "three_vertex_initial_indices": 48,
+  "three_vertex_excluded_indices": [
+    43,
+    86,
+    127,
+    129,
+    258
+  ],
+  "three_vertex_remaining_indices": 43,
+  "r43_remaining_indices": [
+    301,
+    602,
+    903,
+    1806
+  ],
+  "regular_skeleton": {
+    "rows": [
+      7,
+      43
+    ],
+    "full_period": 1806,
+    "anchor": 1,
+    "branch": "d=4 mod 6",
+    "branch_size": 301,
+    "covered_in_branch": 300,
+    "holes": [
+      1204
+    ],
+    "residues": {
+      "7": 33,
+      "43": 1428
+    },
+    "direct_row_comparisons": 3612,
+    "actual_nonregular_root": false,
+    "complete_certificate": false
+  },
+  "P89_regular": true,
+  "prime_order_19531_partial_probe_candidates": 2000,
+  "B7_member_found": false,
+  "B7_empty_proved": false,
+  "total_lower_bound_raised_to_eight": false,
+  "GitHub_writes": "NONE"
+}
