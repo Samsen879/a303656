@@ -1,0 +1,102 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+  "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882",
+  "head_commit_time_utc": "2026-09-07T12:39:49Z",
+  "head_pr": 25,
+  "main_rechecked_unchanged": true,
+  "metadata_method": "GitHub connector GET branch metadata and pinned file reads; blob IDs are connector receipts, not hashes computed from a local checkout.",
+  "required_directory_inclusion_confirmed": [
+    "analysis/c1_nonlinear_core_phase_c/",
+    "analysis/c1_unified_endgame_phase_b/",
+    "analysis/c1_order_dag_phase_c/",
+    "analysis/c1_hereditary_shell_phase_a/",
+    "analysis/c1_contraction_tree_phase_a/",
+    "analysis/c1_hybrid_allocated_transitive_phase_c/"
+  ],
+  "reading_boundary": "Core mathematical files plus README navigation were read. Not every code/generated/auxiliary file in each directory was read or replayed. No full local repository checkout, repository-native tests, or CI replay.",
+  "source_files": [
+    {
+      "key": "S1",
+      "path": "analysis/c1_nonlinear_core_phase_c/REPORT.md",
+      "git_blob": "12c4d99d60524f5775d09ea404e9615d85656c53",
+      "read_scope": "Complete substantive report, including T1-T5 and scope/counterexample sections.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_nonlinear_core_phase_c/REPORT.md"
+    },
+    {
+      "key": "S2",
+      "path": "analysis/c1_unified_endgame_phase_b/MASTER_THEOREM.md",
+      "git_blob": "0c70f0f3a3a93b2b02578cb9e819e82250e16e70",
+      "read_scope": "Full theorem text.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_unified_endgame_phase_b/MASTER_THEOREM.md"
+    },
+    {
+      "key": "S2",
+      "path": "analysis/c1_unified_endgame_phase_b/DEFINITIONS.md",
+      "git_blob": "5ff220336fcabd9b339c3b6b489ef7c0bbcec85a",
+      "read_scope": "Full definitions.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_unified_endgame_phase_b/DEFINITIONS.md"
+    },
+    {
+      "key": "S3",
+      "path": "analysis/c1_hereditary_shell_phase_a/REPORT.md",
+      "git_blob": "260d7160f6b2321cdc6f7f1212986b898461980e",
+      "read_scope": "Full report.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_hereditary_shell_phase_a/REPORT.md"
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_contraction_tree_phase_a/REPORT.md",
+      "git_blob": "1a330e6212248c23831fb2f44a9d90f981ed59d1",
+      "read_scope": "Full report.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_contraction_tree_phase_a/REPORT.md"
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_contraction_tree_phase_a/DEFINITIONS.md",
+      "git_blob": "922d31d72f74a8c81f75b5b3a64902c0ad6a0448",
+      "read_scope": "Full definitions.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_contraction_tree_phase_a/DEFINITIONS.md"
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md",
+      "git_blob": "27cd196104e3c7f566375965ac1b671f6f276111",
+      "read_scope": "Full theorem audit.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_contraction_tree_phase_a/THEOREM_AUDIT.md"
+    },
+    {
+      "key": "S5",
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "git_blob": "0c86de426dc932a13a4d7cccb198e4ef3bd7c811",
+      "read_scope": "Full theorem text, including7.1,7.2,12.1.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_order_dag_phase_c/THEOREMS.md"
+    },
+    {
+      "key": "S6",
+      "path": "analysis/c1_hybrid_allocated_transitive_phase_c/REPORT.md",
+      "git_blob": "71c5cac4ec07e2b387f414c226e72008dec51c79",
+      "read_scope": "Main report/theorem H, proof, interfaces and final sections; not an all-auxiliary-file replay.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_hybrid_allocated_transitive_phase_c/REPORT.md"
+    },
+    {
+      "key": "S7",
+      "path": "analysis/c1_global_shared_state_phase_c/REPORT.md",
+      "git_blob": "9c8847696f63d981fd72279a6646b294fddd550e",
+      "read_scope": "Relevant ranges1-180 and210-525; C2-C5 and state/demand interfaces. Not a full directory audit.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/analysis/c1_global_shared_state_phase_c/REPORT.md"
+    },
+    {
+      "key": "S8",
+      "path": "STATUS.md",
+      "git_blob": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+      "read_scope": "Full pinned STATUS.",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/3fb4b4b4f71018017c7ea014ae7a1380f27b6b94/STATUS.md"
+    }
+  ],
+  "project": "PAUSED",
+  "active_promoted_route": "NONE",
+  "A303656": "UNRESOLVED",
+  "github_writes": "NONE"
+}

@@ -1,0 +1,151 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882"
+  },
+  "manifest_self_hash": null,
+  "package": "two_nonregular_global_shared_state",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "38717aa6b951c41b58061e9f2ab76f7fabb695b43208540a4d337df869d01e9c",
+      "size": 1928
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "19cd98880f37b0f8a06e195ec34949af8b8ad89b0cd985e39a0be50f8ab5c3e9",
+      "size": 2438
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "514703f30068b81b5b2827521a942e3273ad9b464c3308d838f04a41c37ea72c",
+      "size": 5576
+    }
+  ],
+  "research_base": {
+    "sha": "3fb4b4b4f71018017c7ea014ae7a1380f27b6b94",
+    "tree": "5ee6ab9e51f3e6d471991b7407de193d12777882"
+  },
+  "schema": "a303656.phase-d-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 17,
+    "committed": false,
+    "internal_checksum_entries": 16,
+    "internal_sha256": "PASS",
+    "located_filename": "A303656_TWO_NONREGULAR_GLOBAL_SHARED_STATE_PHASE_D.zip",
+    "outer_sha256": "4a7a2c8e9de479267244cc8f8bdfd9ac1f5dc08ab4e9bbf1fd75d16098c64520",
+    "safe_extraction": "PASS",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "0c48d04203fbacb4c9b4866cf18a03622d9072bafbf8f8e46e70aa07157eae43",
+      "size": 1697
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "9aab2b0573773a6578c7d70f03e47a046268211ae28decfaa33353babd3b6454",
+      "size": 4373
+    },
+    {
+      "path": "R67_7.hex",
+      "sha256": "399e6d826d4bdaa0364f74e4c196866a067fc1064319453743cd7c3c0837f510",
+      "size": 18091
+    },
+    {
+      "path": "R67_7_8_gcd.txt",
+      "sha256": "d884fc43742a5c8735afed8ff64c940badf6a79a74d746c4f626a6c39a080a72",
+      "size": 108
+    },
+    {
+      "path": "R67_8.hex",
+      "sha256": "2113fc5aeef95a7b41323c9d5959014cb4d6ede13973e0a82ed975eeb111e096",
+      "size": 20658
+    },
+    {
+      "path": "README.md",
+      "sha256": "74474d501469a314f90061f2bbfec86dc7636a55559b15194e64dd2cb23ab5e6",
+      "size": 2540
+    },
+    {
+      "path": "REPLAY.log",
+      "sha256": "6ff18b2a3a984efee29c2d577319439288e2ef52bf1359df8f62db91d74caabd",
+      "size": 221
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "17ddbc2089b52abfdd2a38724ec6c38e4aadc0015f044e553594dd89cbe56962",
+      "size": 22234
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "98b8ef1c010df0052f82b091087cbd3b5a07b732321cc0563e01f800656087f6",
+      "size": 1305
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "463f88667c6703472c32664bfc95535081bf54f42902d128ec37ab7be7ba47ec",
+      "size": 4965
+    },
+    {
+      "path": "THEOREMS.md",
+      "sha256": "86f74c7cfd0b1a036f2bbd5da0d7f9e88825cc6de4a5614c44ad727fdcacda21",
+      "size": 25492
+    },
+    {
+      "path": "fiber_check.py",
+      "sha256": "15eab8cce7fda2bb85337bc8bb88820ed00c3aba83824516874924a4b2cc01f6",
+      "size": 2063
+    },
+    {
+      "path": "fiber_results.json",
+      "sha256": "240c2a27715889d94093a4a3f99786af0fdca19cb5364b0582bdb284814516df",
+      "size": 2461
+    },
+    {
+      "path": "reference.py",
+      "sha256": "41695fbad1b14b6ddb522e9ffa9c1927c486c0988755ff5961d7d39144f57021",
+      "size": 11644
+    },
+    {
+      "path": "resultant_benchmark.json",
+      "sha256": "a9e4b1687527eaf214aa2f19652474268785e62c59a63fabac4f7a5540080498",
+      "size": 1140
+    },
+    {
+      "path": "resultant_explore.py",
+      "sha256": "6038f89fc95883c16a13effa458723588b48e1f8e8db7ae277347995177d80a5",
+      "size": 1580
+    },
+    {
+      "path": "verified/RESULTS.json",
+      "sha256": "999ef61709b48d597cb5779c0be6fc7b390e7e81c237e90e3f5c3bb2b5c2e125",
+      "size": 6799
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "-B",
+        "reference.py",
+        "--output",
+        "{tmp}/fresh"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "json_semantic_comparisons": [
+      {
+        "fresh": "{tmp}/fresh/RESULTS.json",
+        "frozen": "verified/RESULTS.json"
+      }
+    ],
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}

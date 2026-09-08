@@ -1,0 +1,8 @@
+named_arithmetic: PASS
+two_fiber_collision: PASS
+center_roles: PASS
+terminal_pairs: PASS
+two_root_configuration: PASS
+fractional_regression: PASS
+resultants: PASS
+fresh external-output deterministic JSON comparison: PASS
