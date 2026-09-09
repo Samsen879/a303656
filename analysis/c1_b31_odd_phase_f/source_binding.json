@@ -1,0 +1,55 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha_start": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_sha_end": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "branch_recheck": "UNCHANGED",
+  "phase_e_merged": false,
+  "phase_e_zip_available": false,
+  "phase_e_zip_read_or_hash_verified": false,
+  "missing_requested_sources": [
+    "A303656_SEVEN_BASIN_GLOBAL_SHARED_STATE_PHASE_E(1).zip",
+    "A303656_B7_BRANCHING_PHASE_E(1).zip",
+    "A303656_CYCLOTOMIC_WIEFERICH_TERMINAL_PHASE_E(1).zip"
+  ],
+  "source_role": "Pinned live Phase C/D sources; independent Phase F O31 reconstruction, not source text equivalence to missing Phase E",
+  "sources": [
+    {
+      "path": "STATUS.md",
+      "fixed_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md",
+      "scope": "key mathematical sections read through GitHub connector; not all directory payloads"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "fixed_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "scope": "key mathematical sections read through GitHub connector; not all directory payloads"
+    },
+    {
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "fixed_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/REPORT.md",
+      "scope": "key mathematical sections read through GitHub connector; not all directory payloads"
+    },
+    {
+      "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "fixed_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "scope": "key mathematical sections read through GitHub connector; not all directory payloads"
+    },
+    {
+      "path": "analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "fixed_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "scope": "key mathematical sections read through GitHub connector; not all directory payloads"
+    }
+  ],
+  "repository_checkout": false,
+  "repository_native_tests_replayed": false,
+  "full_2e9_scan_replayed": false,
+  "github_writes": [],
+  "local_python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "local_platform": "Linux-6.18.35-x86_64-with-glibc2.41"
+}
