@@ -1,0 +1,59 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "main_rechecked_unchanged": true,
+  "merged_prs": [
+    {
+      "source": "Global Shared State Phase C",
+      "pr": 22,
+      "merged": true,
+      "merged_at": "2026-09-07T09:49:22Z"
+    },
+    {
+      "source": "Order-DAG Phase C",
+      "pr": 24,
+      "merged": true,
+      "merged_at": "2026-09-07T09:57:50Z"
+    },
+    {
+      "source": "Provider Charging Phase D",
+      "pr": 26,
+      "merged": true,
+      "merged_at": "2026-09-08T03:28:13Z"
+    },
+    {
+      "source": "Two-Nonregular Phase D",
+      "pr": 27,
+      "merged": true,
+      "merged_at": "2026-09-08T03:31:05Z"
+    },
+    {
+      "source": "B7 Phase D",
+      "pr": 28,
+      "merged": true,
+      "merged_at": "2026-09-08T03:33:50Z"
+    },
+    {
+      "source": "Seven-head Chain Phase D",
+      "pr": 29,
+      "merged": true,
+      "merged_at": "2026-09-08T03:37:02Z"
+    }
+  ],
+  "project": "PAUSED",
+  "active_promoted_route": "NONE",
+  "a303656": "UNRESOLVED",
+  "github_writes_performed": [],
+  "new_theorems_independently_peer_reviewed": false,
+  "repository_checkout_acquired": false,
+  "repository_native_tests_run": false,
+  "large_scale_scan_performed": false,
+  "actual_seven_root_ledger_instantiated": false,
+  "source_access": [
+    "connected GitHub GET at pinned main SHA",
+    "full originating PR diffs"
+  ],
+  "fresh_reference": "reference.py, standard library, no repository imports"
+}

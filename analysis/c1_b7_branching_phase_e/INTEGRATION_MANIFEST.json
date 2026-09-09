@@ -1,0 +1,156 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "manifest_self_hash": null,
+  "package": "b7_branching_phase_e",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "4c2a270e00f0cc7565d142b97849e4b00929bea7d0f36d18881217d579dcf666",
+      "size": 1694
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "ba4974a135d20c178760faabc0873d305f0e41359a150196b960f806033ebde4",
+      "size": 5251
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "6ba112730c701170e2d665d017435fcfa2a89a62abda28f3dc75a75c920e20c9",
+      "size": 2149
+    }
+  ],
+  "research_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "schema": "a303656.phase-ef-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 17,
+    "committed": false,
+    "located_filename": "A303656_B7_BRANCHING_PHASE_E.zip",
+    "outer_sha256": "49f0a811921877b7479405716166542918c9330b1c7848e0a9db2dd7b1f8a316",
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_entries": 16,
+    "source_integrity_type": "SHA256SUMS.txt",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "ACTUAL_REGULAR_CERTIFICATES.json",
+      "sha256": "92234b1bfde0805910a157d05ebed43eb922077eafcedc5761a2b0fdee9f43ce",
+      "size": 5414
+    },
+    {
+      "path": "C4_FORK_120.json",
+      "sha256": "c707f5131b35b0f03b38ad92bf6c96409fdd7f8da07e1a03f7be6c661a708c32",
+      "size": 2839
+    },
+    {
+      "path": "C4_FORK_120.txt",
+      "sha256": "3ebc5a3455ecb9c9e31a8aebafdaf3dc956ae5e3a3dba8a61518173966e5376f",
+      "size": 1086
+    },
+    {
+      "path": "COMPUTATION_SPEC.md",
+      "sha256": "0c1f585c77482eac23108bd356e94a6d38c5d40ea5ca997b171caec4e12aa4e6",
+      "size": 3124
+    },
+    {
+      "path": "DISCOVERY_ONLY.json",
+      "sha256": "d8e126f26bf912d8e263e692a66811b9146a1e5d9e84a4abb75ceaf3317866c5",
+      "size": 714
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "9ead6144b05d128181cd93b5a15f3bea2aad72d9abbdd014143d9ff34d003663",
+      "size": 5349
+    },
+    {
+      "path": "README.md",
+      "sha256": "ca7cea9aad39f46ec85d35e8305473df3ade654d3ef105b2a9eee5b0a8176b19",
+      "size": 2087
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "5cc6c434479bcdba8e2d07e314fae96ae19b15350195c82a692007d173e99df6",
+      "size": 18098
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "1e0871151d2e529ce8d65c2d4708b12a52ad8b4577e3f78b438696ed8e4a58b5",
+      "size": 1330
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "40d56936cb999cd965402228a8e975bcb83e0a7d00e4d917c6488d13da55a3b1",
+      "size": 4437
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "f00b3430e8e475c7f2aa419c0e135541947f4db8fe104fc666a08a879a92b454",
+      "size": 5843
+    },
+    {
+      "path": "THEOREMS.md",
+      "sha256": "0664a68099461e1caa15d91e4a68d93a27a42cf13f6aed9b47db486723e04385",
+      "size": 23506
+    },
+    {
+      "path": "reference.py",
+      "sha256": "2ade1a7df1bfa0bc20d4148e4ff3b53f71f11556ee198b3dcb428b2f719483d9",
+      "size": 19934
+    },
+    {
+      "path": "results.json",
+      "sha256": "d31267ec5b7807d494e06b9779dba6ba88db46b823caabb455e45e50f4a023c9",
+      "size": 21576
+    },
+    {
+      "path": "verification_log.txt",
+      "sha256": "6fb4687eb4af204b1c5d164c5b969f0e6296c1bfe61c7599d31a5b95f2dc09eb",
+      "size": 520
+    },
+    {
+      "path": "verification_results.json",
+      "sha256": "c38b16e77e94e85add849dd61ed5ce957da235d5e54b7a8d250a4805a11c9d3b",
+      "size": 641
+    },
+    {
+      "path": "verify_bundle.py",
+      "sha256": "c0cd3a04018daf2ce621b48361164d26129b3edd7d783bcc06dfb2ac7d656a49",
+      "size": 2099
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "sha256sum",
+        "-c",
+        "SHA256SUMS.txt"
+      ],
+      [
+        "{python}",
+        "-B",
+        "verify_bundle.py"
+      ],
+      [
+        "{python}",
+        "-B",
+        "verify_bundle.py",
+        "--replay"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "json_comparisons": [],
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}

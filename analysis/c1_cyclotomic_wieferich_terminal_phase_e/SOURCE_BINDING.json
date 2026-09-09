@@ -1,0 +1,134 @@
+{
+  "schema": "A303656_PHASE_E_SOURCE_BINDING_V1",
+  "date_utc": "2026-09-08",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "authority_read_method": "GitHub connector GET only",
+  "start_end_main_unchanged": true,
+  "main_commit_time_utc": "2026-09-08T03:37:01Z",
+  "merged_prs": [
+    {
+      "pr": 26,
+      "merge_commit": "07a6f5fb2059b1dfc6be7cc6d1325cd65b49ae41",
+      "merged": true
+    },
+    {
+      "pr": 27,
+      "merge_commit": "a8e72c805c6a36d3e215507a4fcaad271147ce7e",
+      "merged": true
+    },
+    {
+      "pr": 28,
+      "merge_commit": "8dcb744641a46b41597681b4eaddfd7b427d7280",
+      "merged": true
+    },
+    {
+      "pr": 29,
+      "merge_commit": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+      "merged": true
+    }
+  ],
+  "source_documents": [
+    {
+      "key": "S0",
+      "path": "STATUS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Project status; no authority change."
+    },
+    {
+      "key": "S1",
+      "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Basal B7, relays, 48-index three-vertex family and inherited exclusions."
+    },
+    {
+      "key": "S2",
+      "path": "analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Literal prime-order chain scope, conditional construction, known examples."
+    },
+    {
+      "key": "S3a",
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/REPORT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Normal form, full closure and source arithmetic."
+    },
+    {
+      "key": "S3b",
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Theorems 7.1, 7.2, 12.1 and their surrounding proofs."
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "KH-4 finite support invariant; congruences and conditional/heuristic boundaries."
+    },
+    {
+      "key": "S5",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "P4/P5; squarefree order-closed conditional seed and pooled/BOTH distinction."
+    },
+    {
+      "key": "S6",
+      "path": "analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "reading": "core mathematical content read through connector",
+      "use": "Self-audit; derivative, gateway, family scope and source-reading boundaries."
+    }
+  ],
+  "external_primary_sources": [
+    {
+      "key": "P1",
+      "authors": "Stéphane Louboutin",
+      "title": "Resultants of cyclotomic polynomials",
+      "publication": "Publ. Math. Debrecen 50/1-2 (1997), 75-77",
+      "doi": "10.5486/PMD.1997.1721",
+      "url": "https://publi.math.unideb.hu/paper/348/download/10_5486_PMD_1997_1721.pdf",
+      "scope": "Apostol-Diederichsen resultant theorem; PDF first page screenshot inspected."
+    },
+    {
+      "key": "P2",
+      "authors": "Yuchen Ding",
+      "title": "Non-Wieferich primes under the abc conjecture",
+      "publication": "C. R. Acad. Sci. Paris, Ser. I 357 (2019), 483-486",
+      "doi": "10.1016/j.crma.2019.05.007",
+      "url": "https://www.numdam.org/item/10.1016/j.crma.2019.05.007.pdf",
+      "scope": "Theorem 1.1, abc formulation and powerful-part notation; PDF second page screenshot inspected."
+    },
+    {
+      "key": "P3",
+      "authors": "Nicholas M. Katz",
+      "title": "Wieferich Past and Future",
+      "url": "https://web.math.princeton.edu/~nmk/wieferich42.pdf",
+      "scope": "Section 2 Fermat quotient model; PDF second page screenshot inspected. Historical inventory not treated as current."
+    }
+  ],
+  "reading_gate": {
+    "all_files_in_five_requested_directories_read": false,
+    "status": "PARTIAL: core mathematical reading, not entire-directory file-by-file reading",
+    "all_auxiliary_logs_and_generated_data_read": false,
+    "source_file_bytes_downloaded_and_hashed": false,
+    "full_local_checkout": false,
+    "repository_native_test_replay": false,
+    "prime_inventory_2e9_replay": false,
+    "remote_writes": false
+  },
+  "network_attempts": "Container outbound GitHub access failed; source reading used the working GitHub connector. No remote writes.",
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  }
+}

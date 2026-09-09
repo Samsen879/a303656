@@ -1,0 +1,13 @@
+{
+  "suite": "cofactors-b",
+  "prime_certificate_nodes": 341,
+  "certificate_types": {
+    "trial": 101,
+    "pocklington": 104,
+    "ec": 136
+  },
+  "cofactors_b": {
+    "composite_cofactors_checked": 2
+  },
+  "PASS": true
+}
