@@ -1,0 +1,40 @@
+{
+  "scope": "Local new artifacts only; not a repository source-hash replay",
+  "files": [
+    {
+      "path": "AUTHORITY.json",
+      "bytes": 1573,
+      "sha256": "5fad17f6907f4c86531dbeba40675e67014a159a5062b70c80d68a7d4b2baea6"
+    },
+    {
+      "path": "PROOF_AUDIT.md",
+      "bytes": 3387,
+      "sha256": "0ce0a155df1e48692a68c466cc58a1dc93317691cfb8a47a5e415a088b0fcea2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1149,
+      "sha256": "4e02415ebb2242e68c618c3cfb5e3f86a842e310736f40a5d81352abe8ccac2f"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 29504,
+      "sha256": "7960d6f2cbcff93c2bed90dcc015739d51b4f82d62b7a1798a08f81e82d64827"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 7661,
+      "sha256": "17b4c287f6c2a63bd200d186778e54a37faf741676b7b8210f27f6d8eb57fa10"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 5219,
+      "sha256": "040dfee6fcb8f554d2b545a48b868a0b95a9bb2ee7f7a6c4a9b81b02f796bfd5"
+    },
+    {
+      "path": "reference.py",
+      "bytes": 12681,
+      "sha256": "8ba2787fbd695452965f8b912f9d04ce9a2a7d8e6ec77a7e1ac58254a5c50bd7"
+    }
+  ]
+}

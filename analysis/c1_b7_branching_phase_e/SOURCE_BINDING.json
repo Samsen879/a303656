@@ -1,0 +1,128 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "head_commit_time_utc": "2026-09-08T03:37:01Z",
+  "live_main_end_recheck": "UNCHANGED",
+  "access": "GitHub connector, GET-only pinned reads",
+  "phase_d_prs": [
+    {
+      "number": 26,
+      "merged": true,
+      "merge_commit_sha": "07a6f5fb2059b1dfc6be7cc6d1325cd65b49ae41"
+    },
+    {
+      "number": 27,
+      "merged": true,
+      "merge_commit_sha": "a8e72c805c6a36d3e215507a4fcaad271147ce7e"
+    },
+    {
+      "number": 28,
+      "merged": true,
+      "merge_commit_sha": "8dcb744641a46b41597681b4eaddfd7b427d7280"
+    },
+    {
+      "number": 29,
+      "merged": true,
+      "merge_commit_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "path": "STATUS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md",
+      "read_scope": "complete core mathematical text",
+      "use": "frozen project status"
+    },
+    {
+      "id": "S2",
+      "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "intrinsic basal B7; first relay; 48-index gate; prior height recursion; arbitrary branching filling"
+    },
+    {
+      "id": "S3",
+      "path": "analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "gateway and arithmetic-certification scope guards"
+    },
+    {
+      "id": "S4",
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "read_scope": "complete core mathematical text",
+      "use": "exactly-seven normal form; disjoint basins; conditional chains"
+    },
+    {
+      "id": "S5",
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/REPORT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "order-DAG research report"
+    },
+    {
+      "id": "S6",
+      "path": "analysis/c1_private_provider_charging_phase_d/THEOREMS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_private_provider_charging_phase_d/THEOREMS.md",
+      "read_scope": "complete core mathematical text",
+      "use": "ancestry; active basin confinement; unit-capacity equality scope"
+    },
+    {
+      "id": "S7",
+      "path": "analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "provider counterexamples and state scope"
+    },
+    {
+      "id": "S8",
+      "path": "analysis/c1_blocker_deficient_core_phase_b/DEFINITIONS.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_blocker_deficient_core_phase_b/DEFINITIONS.md",
+      "read_scope": "complete core mathematical text",
+      "use": "absolute vs panel-relative closure and original-row semantics"
+    },
+    {
+      "id": "S9",
+      "path": "analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_blocker_deficient_core_phase_b/THEOREM_AUDIT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "transitive guard/Hall and six-root proof"
+    },
+    {
+      "id": "S10",
+      "path": "analysis/c1_blocker_deficient_core_phase_b/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_blocker_deficient_core_phase_b/REPORT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "blocker report and counting scope"
+    },
+    {
+      "id": "S11",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "read_scope": "complete core mathematical text",
+      "use": "square-hit exact-order invariant; finite support and original-resource scope"
+    },
+    {
+      "id": "S12",
+      "path": "analysis/c1_b7_pure3_phase_d/discovery_only_301_602.json",
+      "pinned_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/discovery_only_301_602.json",
+      "read_scope": "complete discovery JSON",
+      "use": "discovery provenance for candidate 42743; no blanket factorization promotion"
+    }
+  ],
+  "reading_limit": "Listed core texts were read; not every generated data/code/integration file in the five directories was read.",
+  "repository_replay_performed": false,
+  "full_local_checkout_obtained": false,
+  "historical_prime_inventory_replayed": false,
+  "GitHub_writes": [],
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "proof_status": "same-session proposed proofs and self-audit; not independently refereed or formally verified"
+}
