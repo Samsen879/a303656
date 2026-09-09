@@ -1,0 +1,6657 @@
+[
+  {
+    "R": [
+      7
+    ],
+    "A": [
+      7
+    ],
+    "J": [
+      7,
+      14,
+      21,
+      42
+    ],
+    "complexity": 1,
+    "W_symbolic": {
+      "cyclotomic_index": 7,
+      "base": 5,
+      "substitution_exponent": 6
+    },
+    "normalizer": 7,
+    "all_proper_good_substates": [],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 29,
+        "exponent": 1,
+        "unique_index": 14,
+        "admitted": false
+      },
+      {
+        "prime": 43,
+        "exponent": 1,
+        "unique_index": 42,
+        "admitted": true
+      },
+      {
+        "prime": 127,
+        "exponent": 1,
+        "unique_index": 42,
+        "admitted": true
+      },
+      {
+        "prime": 379,
+        "exponent": 1,
+        "unique_index": 21,
+        "admitted": true
+      },
+      {
+        "prime": 449,
+        "exponent": 1,
+        "unique_index": 14,
+        "admitted": false
+      },
+      {
+        "prime": 7603,
+        "exponent": 1,
+        "unique_index": 42,
+        "admitted": true
+      },
+      {
+        "prime": 19531,
+        "exponent": 1,
+        "unique_index": 7,
+        "admitted": true
+      },
+      {
+        "prime": 519499,
+        "exponent": 1,
+        "unique_index": 21,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "COMPLETE; all primes certified by sieve",
+    "Z_numeric": {
+      "bit_length": 81,
+      "sha256_big_endian_unsigned": "0176164d6ca29590f35b6d87a86d27f8791799c35ccd7e8a3525d1ee2628babf"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 1,
+      "sha256_big_endian_unsigned": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+    }
+  },
+  {
+    "R": [
+      7,
+      43
+    ],
+    "A": [
+      43
+    ],
+    "J": [
+      43,
+      86,
+      129,
+      258,
+      301,
+      602,
+      903,
+      1806
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 43,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 43,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 1549,
+        "exponent": 1,
+        "unique_index": 86,
+        "admitted": false
+      },
+      {
+        "prime": 9547,
+        "exponent": 1,
+        "unique_index": 86,
+        "admitted": true
+      },
+      {
+        "prime": 14449,
+        "exponent": 1,
+        "unique_index": 602,
+        "admitted": false
+      },
+      {
+        "prime": 42743,
+        "exponent": 1,
+        "unique_index": 602,
+        "admitted": true
+      },
+      {
+        "prime": 66221,
+        "exponent": 1,
+        "unique_index": 301,
+        "admitted": false
+      },
+      {
+        "prime": 176989,
+        "exponent": 1,
+        "unique_index": 602,
+        "admitted": false
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 4091,
+      "sha256_big_endian_unsigned": "b7aa6bd3afee0d30fa6372ca219cc312835230f3f0bde550e20df41bb2d5d07a"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 4004,
+      "sha256_big_endian_unsigned": "cf366aff3590d803385d0f495f47fa3bd3f3abbd29788018d585c2b8c70fbdb0"
+    }
+  },
+  {
+    "R": [
+      7,
+      127
+    ],
+    "A": [
+      127
+    ],
+    "J": [
+      127,
+      254,
+      381,
+      762,
+      889,
+      1778,
+      2667,
+      5334
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 127,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 127,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 509,
+        "exponent": 1,
+        "unique_index": 254,
+        "admitted": false
+      },
+      {
+        "prime": 2287,
+        "exponent": 1,
+        "unique_index": 254,
+        "admitted": true
+      },
+      {
+        "prime": 23623,
+        "exponent": 1,
+        "unique_index": 762,
+        "admitted": true
+      },
+      {
+        "prime": 133351,
+        "exponent": 1,
+        "unique_index": 2667,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 12281,
+      "sha256_big_endian_unsigned": "ddae02b5ea9263f394e38b9d90e528989fd77099307d9d9ad0285bb668981c9c"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 12229,
+      "sha256_big_endian_unsigned": "b4b1f9d543d4b360da3a3be1bbed454ec8638f90a499125b8d2ec3fe5eb7e14e"
+    }
+  },
+  {
+    "R": [
+      7,
+      379
+    ],
+    "A": [
+      379
+    ],
+    "J": [
+      379,
+      758,
+      1137,
+      2274,
+      2653,
+      5306,
+      7959,
+      15918
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 379,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 379,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 4549,
+        "exponent": 1,
+        "unique_index": 758,
+        "admitted": false
+      },
+      {
+        "prime": 6823,
+        "exponent": 1,
+        "unique_index": 2274,
+        "admitted": true
+      },
+      {
+        "prime": 15919,
+        "exponent": 1,
+        "unique_index": 379,
+        "admitted": true
+      },
+      {
+        "prime": 19709,
+        "exponent": 1,
+        "unique_index": 379,
+        "admitted": false
+      },
+      {
+        "prime": 111427,
+        "exponent": 1,
+        "unique_index": 15918,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 36855,
+      "sha256_big_endian_unsigned": "057e3bb163ba1aaa287d1a7828386363d191c8196a71f15624132def1a80720b"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 36785,
+      "sha256_big_endian_unsigned": "811f9d5b1b4f51d6bccd334d568663f5ec830cd0fcc3350c81049bec6146361a"
+    }
+  },
+  {
+    "R": [
+      7,
+      7603
+    ],
+    "A": [
+      7603
+    ],
+    "J": [
+      7603,
+      15206,
+      22809,
+      45618,
+      53221,
+      106442,
+      159663,
+      319326
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 7603,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 7603,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 319327,
+        "exponent": 1,
+        "unique_index": 106442,
+        "admitted": true
+      },
+      {
+        "prime": 760301,
+        "exponent": 1,
+        "unique_index": 7603,
+        "admitted": false
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 741342,
+      "sha256_big_endian_unsigned": "e34fe3e4dc2f3001f316a62cb5f34fb57098dfdc87df068b1fc63fe0beb121d7"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 741304,
+      "sha256_big_endian_unsigned": "eb032095037f43b17ebef3807a7926ce5c99de568a4d20718947effd7c1aad27"
+    }
+  },
+  {
+    "R": [
+      7,
+      19531
+    ],
+    "A": [
+      19531
+    ],
+    "J": [
+      19531,
+      39062,
+      58593,
+      117186,
+      136717,
+      273434,
+      410151,
+      820302
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 19531,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 19531,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 546869,
+        "exponent": 1,
+        "unique_index": 136717,
+        "admitted": false
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 1904571,
+      "sha256_big_endian_unsigned": "53a3f91c067fa134602eb9df95b7da6721872d1e658b9205d1ce610ee96ff21b"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 1904552,
+      "sha256_big_endian_unsigned": "340848ab38a2c50e0252e1310a5a87adc2d743367ba66525440b3fc8b995a764"
+    }
+  },
+  {
+    "R": [
+      7,
+      519499
+    ],
+    "A": [
+      519499
+    ],
+    "J": [
+      519499,
+      1038998,
+      1558497,
+      3116994,
+      3636493,
+      7272986,
+      10909479,
+      21818958
+    ],
+    "complexity": 2,
+    "W_symbolic": {
+      "cyclotomic_index": 519499,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 519499,
+    "all_proper_good_substates": [
+      [
+        7
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127
+    ],
+    "A": [
+      43,
+      127
+    ],
+    "J": [
+      5461,
+      10922,
+      16383,
+      32766,
+      38227,
+      76454,
+      114681,
+      229362
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 5461,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 152909,
+        "exponent": 1,
+        "unique_index": 76454,
+        "admitted": false
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 516082,
+      "sha256_big_endian_unsigned": "28ff037c04212b867cac67337ed888ffaf82a5d346f34b4e77662de281211a3c"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 516064,
+      "sha256_big_endian_unsigned": "cb9d4ff26d57eec805b35ae3a7c0625055f7798e63460bf6cdf0f4c97898368b"
+    }
+  },
+  {
+    "R": [
+      7,
+      43,
+      379
+    ],
+    "A": [
+      43,
+      379
+    ],
+    "J": [
+      16297,
+      32594,
+      48891,
+      97782,
+      114079,
+      228158,
+      342237,
+      684474
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 16297,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "PARTIAL; unresolved cofactor not tested squarefree",
+    "Z_numeric": {
+      "bit_length": 1548244,
+      "sha256_big_endian_unsigned": "301be394501fd89e61eaeedb63c2d219b775143b07f455b82535d5a3ba85b457"
+    },
+    "unresolved_cofactor": {
+      "bit_length": 1548244,
+      "sha256_big_endian_unsigned": "301be394501fd89e61eaeedb63c2d219b775143b07f455b82535d5a3ba85b457"
+    }
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603
+    ],
+    "A": [
+      43,
+      7603
+    ],
+    "J": [
+      326929,
+      653858,
+      980787,
+      1961574,
+      2288503,
+      4577006,
+      6865509,
+      13731018
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 326929,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      9547
+    ],
+    "A": [
+      9547
+    ],
+    "J": [
+      9547,
+      19094,
+      28641,
+      57282,
+      66829,
+      133658,
+      200487,
+      400974,
+      410521,
+      821042,
+      1231563,
+      2463126,
+      2873647,
+      5747294,
+      8620941,
+      17241882
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 9547,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 9547,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 38189,
+        "exponent": 1,
+        "unique_index": 19094,
+        "admitted": false
+      },
+      {
+        "prime": 57283,
+        "exponent": 1,
+        "unique_index": 19094,
+        "admitted": true
+      },
+      {
+        "prime": 572821,
+        "exponent": 1,
+        "unique_index": 28641,
+        "admitted": false
+      },
+      {
+        "prime": 801949,
+        "exponent": 1,
+        "unique_index": 133658,
+        "admitted": false
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      19531
+    ],
+    "A": [
+      43,
+      19531
+    ],
+    "J": [
+      839833,
+      1679666,
+      2519499,
+      5038998,
+      5878831,
+      11757662,
+      17636493,
+      35272986
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 839833,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      42743
+    ],
+    "A": [
+      42743
+    ],
+    "J": [
+      42743,
+      85486,
+      128229,
+      256458,
+      299201,
+      598402,
+      897603,
+      1795206,
+      1837949,
+      3675898,
+      5513847,
+      11027694,
+      12865643,
+      25731286,
+      38596929,
+      77193858
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 42743,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 42743,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 85487,
+        "exponent": 1,
+        "unique_index": 85486,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      519499
+    ],
+    "A": [
+      43,
+      519499
+    ],
+    "J": [
+      22338457,
+      44676914,
+      67015371,
+      134030742,
+      156369199,
+      312738398,
+      469107597,
+      938215194
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 22338457,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379
+    ],
+    "A": [
+      127,
+      379
+    ],
+    "J": [
+      48133,
+      96266,
+      144399,
+      288798,
+      336931,
+      673862,
+      1010793,
+      2021586
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 48133,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287
+    ],
+    "A": [
+      2287
+    ],
+    "J": [
+      2287,
+      4574,
+      6861,
+      13722,
+      16009,
+      32018,
+      48027,
+      96054,
+      290449,
+      580898,
+      871347,
+      1742694,
+      2033143,
+      4066286,
+      6099429,
+      12198858
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 2287,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 2287,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 13723,
+        "exponent": 1,
+        "unique_index": 13722,
+        "admitted": true
+      },
+      {
+        "prime": 672379,
+        "exponent": 1,
+        "unique_index": 48027,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603
+    ],
+    "A": [
+      127,
+      7603
+    ],
+    "J": [
+      965581,
+      1931162,
+      2896743,
+      5793486,
+      6759067,
+      13518134,
+      20277201,
+      40554402
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 965581,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      19531
+    ],
+    "A": [
+      127,
+      19531
+    ],
+    "J": [
+      2480437,
+      4960874,
+      7441311,
+      14882622,
+      17363059,
+      34726118,
+      52089177,
+      104178354
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 2480437,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      23623
+    ],
+    "A": [
+      23623
+    ],
+    "J": [
+      23623,
+      47246,
+      70869,
+      141738,
+      165361,
+      330722,
+      496083,
+      992166,
+      3000121,
+      6000242,
+      9000363,
+      18000726,
+      21000847,
+      42001694,
+      63002541,
+      126005082
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 23623,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 23623,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      133351
+    ],
+    "A": [
+      133351
+    ],
+    "J": [
+      133351,
+      266702,
+      400053,
+      800106,
+      933457,
+      1866914,
+      2800371,
+      5600742,
+      16935577,
+      33871154,
+      50806731,
+      101613462,
+      118549039,
+      237098078,
+      355647117,
+      711294234
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 133351,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 133351,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      519499
+    ],
+    "A": [
+      127,
+      519499
+    ],
+    "J": [
+      65976373,
+      131952746,
+      197929119,
+      395858238,
+      461834611,
+      923669222,
+      1385503833,
+      2771007666
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 65976373,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823
+    ],
+    "A": [
+      6823
+    ],
+    "J": [
+      6823,
+      13646,
+      20469,
+      40938,
+      47761,
+      95522,
+      143283,
+      286566,
+      2585917,
+      5171834,
+      7757751,
+      15515502,
+      18101419,
+      36202838,
+      54304257,
+      108608514
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 6823,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 6823,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 40939,
+        "exponent": 1,
+        "unique_index": 6823,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603
+    ],
+    "A": [
+      379,
+      7603
+    ],
+    "J": [
+      2881537,
+      5763074,
+      8644611,
+      17289222,
+      20170759,
+      40341518,
+      60512277,
+      121024554
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 2881537,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919
+    ],
+    "A": [
+      15919
+    ],
+    "J": [
+      15919,
+      31838,
+      47757,
+      95514,
+      111433,
+      222866,
+      334299,
+      668598,
+      6033301,
+      12066602,
+      18099903,
+      36199806,
+      42233107,
+      84466214,
+      126699321,
+      253398642
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 15919,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 15919,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 286543,
+        "exponent": 1,
+        "unique_index": 95514,
+        "admitted": true
+      },
+      {
+        "prime": 668599,
+        "exponent": 1,
+        "unique_index": 334299,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      19531
+    ],
+    "A": [
+      379,
+      19531
+    ],
+    "J": [
+      7402249,
+      14804498,
+      22206747,
+      44413494,
+      51815743,
+      103631486,
+      155447229,
+      310894458
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 7402249,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      111427
+    ],
+    "A": [
+      111427
+    ],
+    "J": [
+      111427,
+      222854,
+      334281,
+      668562,
+      779989,
+      1559978,
+      2339967,
+      4679934,
+      42230833,
+      84461666,
+      126692499,
+      253384998,
+      295615831,
+      591231662,
+      886847493,
+      1773694986
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 111427,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 111427,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      519499
+    ],
+    "A": [
+      379,
+      519499
+    ],
+    "J": [
+      196890121,
+      393780242,
+      590670363,
+      1181340726,
+      1378230847,
+      2756461694,
+      4134692541,
+      8269385082
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 196890121,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      19531
+    ],
+    "A": [
+      7603,
+      19531
+    ],
+    "J": [
+      148494193,
+      296988386,
+      445482579,
+      890965158,
+      1039459351,
+      2078918702,
+      3118378053,
+      6236756106
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 148494193,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      319327
+    ],
+    "A": [
+      319327
+    ],
+    "J": [
+      319327,
+      638654,
+      957981,
+      1915962,
+      2235289,
+      4470578,
+      6705867,
+      13411734,
+      2427843181,
+      4855686362,
+      7283529543,
+      14567059086,
+      16994902267,
+      33989804534,
+      50984706801,
+      101969413602
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 319327,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 319327,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      519499
+    ],
+    "A": [
+      7603,
+      519499
+    ],
+    "J": [
+      3949750897,
+      7899501794,
+      11849252691,
+      23698505382,
+      27648256279,
+      55296512558,
+      82944768837,
+      165889537674
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 3949750897,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      19531,
+      519499
+    ],
+    "A": [
+      19531,
+      519499
+    ],
+    "J": [
+      10146334969,
+      20292669938,
+      30439004907,
+      60878009814,
+      71024344783,
+      142048689566,
+      213073034349,
+      426146068698
+    ],
+    "complexity": 3,
+    "W_symbolic": {
+      "cyclotomic_index": 10146334969,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      379
+    ],
+    "A": [
+      43,
+      127,
+      379
+    ],
+    "J": [
+      2069719,
+      4139438,
+      6209157,
+      12418314,
+      14488033,
+      28976066,
+      43464099,
+      86928198
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 2069719,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      2287
+    ],
+    "A": [
+      43,
+      2287
+    ],
+    "J": [
+      98341,
+      196682,
+      295023,
+      590046,
+      688387,
+      1376774,
+      2065161,
+      4130322,
+      12489307,
+      24978614,
+      37467921,
+      74935842,
+      87425149,
+      174850298,
+      262275447,
+      524550894
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 98341,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        127,
+        2287
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      7603
+    ],
+    "A": [
+      43,
+      127,
+      7603
+    ],
+    "J": [
+      41519983,
+      83039966,
+      124559949,
+      249119898,
+      290639881,
+      581279762,
+      871919643,
+      1743839286
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 41519983,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        127,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      9547
+    ],
+    "A": [
+      127,
+      9547
+    ],
+    "J": [
+      1212469,
+      2424938,
+      3637407,
+      7274814,
+      8487283,
+      16974566,
+      25461849,
+      50923698,
+      52136167,
+      104272334,
+      156408501,
+      312817002,
+      364953169,
+      729906338,
+      1094859507,
+      2189719014
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1212469,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        9547
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      19531
+    ],
+    "A": [
+      43,
+      127,
+      19531
+    ],
+    "J": [
+      106658791,
+      213317582,
+      319976373,
+      639952746,
+      746611537,
+      1493223074,
+      2239834611,
+      4479669222
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 106658791,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        19531
+      ],
+      [
+        7,
+        127,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      23623
+    ],
+    "A": [
+      43,
+      23623
+    ],
+    "J": [
+      1015789,
+      2031578,
+      3047367,
+      6094734,
+      7110523,
+      14221046,
+      21331569,
+      42663138,
+      129005203,
+      258010406,
+      387015609,
+      774031218,
+      903036421,
+      1806072842,
+      2709109263,
+      5418218526
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1015789,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        127,
+        23623
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      42743
+    ],
+    "A": [
+      127,
+      42743
+    ],
+    "J": [
+      5428361,
+      10856722,
+      16285083,
+      32570166,
+      37998527,
+      75997054,
+      113995581,
+      227991162,
+      233419523,
+      466839046,
+      700258569,
+      1400517138,
+      1633936661,
+      3267873322,
+      4901809983,
+      9803619966
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 5428361,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      133351
+    ],
+    "A": [
+      43,
+      133351
+    ],
+    "J": [
+      5734093,
+      11468186,
+      17202279,
+      34404558,
+      40138651,
+      80277302,
+      120415953,
+      240831906,
+      728229811,
+      1456459622,
+      2184689433,
+      4369378866,
+      5097608677,
+      10195217354,
+      15292826031,
+      30585652062
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 5734093,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      127,
+      519499
+    ],
+    "A": [
+      43,
+      127,
+      519499
+    ],
+    "J": [
+      2836984039,
+      5673968078,
+      8510952117,
+      17021904234,
+      19858888273,
+      39717776546,
+      59576664819,
+      119153329638
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 2836984039,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        127
+      ],
+      [
+        7,
+        43,
+        519499
+      ],
+      [
+        7,
+        127,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      6823
+    ],
+    "A": [
+      43,
+      6823
+    ],
+    "J": [
+      293389,
+      586778,
+      880167,
+      1760334,
+      2053723,
+      4107446,
+      6161169,
+      12322338,
+      111194431,
+      222388862,
+      333583293,
+      667166586,
+      778361017,
+      1556722034,
+      2335083051,
+      4670166102
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 293389,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        379,
+        6823
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      7603
+    ],
+    "A": [
+      43,
+      379,
+      7603
+    ],
+    "J": [
+      123906091,
+      247812182,
+      371718273,
+      743436546,
+      867342637,
+      1734685274,
+      2602027911,
+      5204055822
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 123906091,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        379,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      9547
+    ],
+    "A": [
+      379,
+      9547
+    ],
+    "J": [
+      3618313,
+      7236626,
+      10854939,
+      21709878,
+      25328191,
+      50656382,
+      75984573,
+      151969146,
+      155587459,
+      311174918,
+      466762377,
+      933524754,
+      1089112213,
+      2178224426,
+      3267336639,
+      6534673278
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 3618313,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        43,
+        9547
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      15919
+    ],
+    "A": [
+      43,
+      15919
+    ],
+    "J": [
+      684517,
+      1369034,
+      2053551,
+      4107102,
+      4791619,
+      9583238,
+      14374857,
+      28749714,
+      259431943,
+      518863886,
+      778295829,
+      1556591658,
+      1816023601,
+      3632047202,
+      5448070803,
+      10896141606
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 684517,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      19531
+    ],
+    "A": [
+      43,
+      379,
+      19531
+    ],
+    "J": [
+      318296707,
+      636593414,
+      954890121,
+      1909780242,
+      2228076949,
+      4456153898,
+      6684230847,
+      13368461694
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 318296707,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        43,
+        19531
+      ],
+      [
+        7,
+        379,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      42743
+    ],
+    "A": [
+      379,
+      42743
+    ],
+    "J": [
+      16199597,
+      32399194,
+      48598791,
+      97197582,
+      113397179,
+      226794358,
+      340191537,
+      680383074,
+      696582671,
+      1393165342,
+      2089748013,
+      4179496026,
+      4876078697,
+      9752157394,
+      14628236091,
+      29256472182
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 16199597,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      111427
+    ],
+    "A": [
+      43,
+      111427
+    ],
+    "J": [
+      4791361,
+      9582722,
+      14374083,
+      28748166,
+      33539527,
+      67079054,
+      100618581,
+      201237162,
+      1815925819,
+      3631851638,
+      5447777457,
+      10895554914,
+      12711480733,
+      25422961466,
+      38134442199,
+      76268884398
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 4791361,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      379,
+      519499
+    ],
+    "A": [
+      43,
+      379,
+      519499
+    ],
+    "J": [
+      8466275203,
+      16932550406,
+      25398825609,
+      50797651218,
+      59263926421,
+      118527852842,
+      177791779263,
+      355583558526
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 8466275203,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        379
+      ],
+      [
+        7,
+        43,
+        519499
+      ],
+      [
+        7,
+        379,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603,
+      9547
+    ],
+    "A": [
+      7603,
+      9547
+    ],
+    "J": [
+      72585841,
+      145171682,
+      217757523,
+      435515046,
+      508100887,
+      1016201774,
+      1524302661,
+      3048605322,
+      3121191163,
+      6242382326,
+      9363573489,
+      18727146978,
+      21848338141,
+      43696676282,
+      65545014423,
+      131090028846
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 72585841,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        43,
+        9547
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603,
+      19531
+    ],
+    "A": [
+      43,
+      7603,
+      19531
+    ],
+    "J": [
+      6385250299,
+      12770500598,
+      19155750897,
+      38311501794,
+      44696752093,
+      89393504186,
+      134090256279,
+      268180512558
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 6385250299,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        43,
+        19531
+      ],
+      [
+        7,
+        7603,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603,
+      42743
+    ],
+    "A": [
+      7603,
+      42743
+    ],
+    "J": [
+      324975029,
+      649950058,
+      974925087,
+      1949850174,
+      2274825203,
+      4549650406,
+      6824475609,
+      13648951218,
+      13973926247,
+      27947852494,
+      41921778741,
+      83843557482,
+      97817483729,
+      195634967458,
+      293452451187,
+      586904902374
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 324975029,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603,
+      319327
+    ],
+    "A": [
+      43,
+      319327
+    ],
+    "J": [
+      13731061,
+      27462122,
+      41193183,
+      82386366,
+      96117427,
+      192234854,
+      288352281,
+      576704562,
+      104397256783,
+      208794513566,
+      313191770349,
+      626383540698,
+      730780797481,
+      1461561594962,
+      2192342392443,
+      4384684784886
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 13731061,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        7603,
+        319327
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      7603,
+      519499
+    ],
+    "A": [
+      43,
+      7603,
+      519499
+    ],
+    "J": [
+      169839288571,
+      339678577142,
+      509517865713,
+      1019035731426,
+      1188875019997,
+      2377750039994,
+      3566625059991,
+      7133250119982
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 169839288571,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        7603
+      ],
+      [
+        7,
+        43,
+        519499
+      ],
+      [
+        7,
+        7603,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      9547,
+      19531
+    ],
+    "A": [
+      9547,
+      19531
+    ],
+    "J": [
+      186462457,
+      372924914,
+      559387371,
+      1118774742,
+      1305237199,
+      2610474398,
+      3915711597,
+      7831423194,
+      8017885651,
+      16035771302,
+      24053656953,
+      48107313906,
+      56125199557,
+      112250399114,
+      168375598671,
+      336751197342
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 186462457,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        43,
+        9547
+      ],
+      [
+        7,
+        43,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      9547,
+      42743
+    ],
+    "A": [
+      9547,
+      42743
+    ],
+    "J": [
+      408067421,
+      816134842,
+      1224202263,
+      2448404526,
+      2856471947,
+      5712943894,
+      8569415841,
+      17138831682,
+      17546899103,
+      35093798206,
+      52640697309,
+      105281394618,
+      122828293721,
+      245656587442,
+      368484881163,
+      736969762326
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 408067421,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        43,
+        9547
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      9547,
+      57283
+    ],
+    "A": [
+      57283
+    ],
+    "J": [
+      57283,
+      114566,
+      171849,
+      343698,
+      400981,
+      801962,
+      1202943,
+      2405886,
+      2463169,
+      4926338,
+      7389507,
+      14779014,
+      17242183,
+      34484366,
+      51726549,
+      103453098,
+      546880801,
+      1093761602,
+      1640642403,
+      3281284806,
+      3828165607,
+      7656331214,
+      11484496821,
+      22968993642,
+      23515874443,
+      47031748886,
+      70547623329,
+      141095246658,
+      164611121101,
+      329222242202,
+      493833363303,
+      987666726606
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 57283,
+      "base": 5,
+      "substitution_exponent": 17241882
+    },
+    "normalizer": 57283,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        43,
+        9547
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      9547,
+      519499
+    ],
+    "A": [
+      9547,
+      519499
+    ],
+    "J": [
+      4959656953,
+      9919313906,
+      14878970859,
+      29757941718,
+      34717598671,
+      69435197342,
+      104152796013,
+      208305592026,
+      213265248979,
+      426530497958,
+      639795746937,
+      1279591493874,
+      1492856742853,
+      2985713485706,
+      4478570228559,
+      8957140457118
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 4959656953,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        9547
+      ],
+      [
+        7,
+        43,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      19531,
+      42743
+    ],
+    "A": [
+      19531,
+      42743
+    ],
+    "J": [
+      834813533,
+      1669627066,
+      2504440599,
+      5008881198,
+      5843694731,
+      11687389462,
+      17531084193,
+      35062168386,
+      35896981919,
+      71793963838,
+      107690945757,
+      215381891514,
+      251278873433,
+      502557746866,
+      753836620299,
+      1507673240598
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 834813533,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        43,
+        19531
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      19531,
+      519499
+    ],
+    "A": [
+      43,
+      19531,
+      519499
+    ],
+    "J": [
+      436292403667,
+      872584807334,
+      1308877211001,
+      2617754422002,
+      3054046825669,
+      6108093651338,
+      9162140477007,
+      18324280954014
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 436292403667,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        19531
+      ],
+      [
+        7,
+        43,
+        519499
+      ],
+      [
+        7,
+        19531,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      42743,
+      85487
+    ],
+    "A": [
+      85487
+    ],
+    "J": [
+      85487,
+      170974,
+      256461,
+      512922,
+      598409,
+      1196818,
+      1795227,
+      3590454,
+      3675941,
+      7351882,
+      11027823,
+      22055646,
+      25731587,
+      51463174,
+      77194761,
+      154389522,
+      3653970841,
+      7307941682,
+      10961912523,
+      21923825046,
+      25577795887,
+      51155591774,
+      76733387661,
+      153466775322,
+      157120746163,
+      314241492326,
+      471362238489,
+      942724476978,
+      1099845223141,
+      2199690446282,
+      3299535669423,
+      6599071338846
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 85487,
+      "base": 5,
+      "substitution_exponent": 77193858
+    },
+    "normalizer": 85487,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        43,
+        42743
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      43,
+      42743,
+      519499
+    ],
+    "A": [
+      42743,
+      519499
+    ],
+    "J": [
+      22204945757,
+      44409891514,
+      66614837271,
+      133229674542,
+      155434620299,
+      310869240598,
+      466303860897,
+      932607721794,
+      954812667551,
+      1909625335102,
+      2864438002653,
+      5728876005306,
+      6683688672857,
+      13367377345714,
+      20051066018571,
+      40102132037142
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 22204945757,
+      "base": 5,
+      "substitution_exponent": 1806
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        43,
+        42743
+      ],
+      [
+        7,
+        43,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      2287
+    ],
+    "A": [
+      379,
+      2287
+    ],
+    "J": [
+      866773,
+      1733546,
+      2600319,
+      5200638,
+      6067411,
+      12134822,
+      18202233,
+      36404466,
+      110080171,
+      220160342,
+      330240513,
+      660481026,
+      770561197,
+      1541122394,
+      2311683591,
+      4623367182
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 866773,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        2287
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      6823
+    ],
+    "A": [
+      127,
+      6823
+    ],
+    "J": [
+      866521,
+      1733042,
+      2599563,
+      5199126,
+      6065647,
+      12131294,
+      18196941,
+      36393882,
+      328411459,
+      656822918,
+      985234377,
+      1970468754,
+      2298880213,
+      4597760426,
+      6896640639,
+      13793281278
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 866521,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        379,
+        6823
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      7603
+    ],
+    "A": [
+      127,
+      379,
+      7603
+    ],
+    "J": [
+      365955199,
+      731910398,
+      1097865597,
+      2195731194,
+      2561686393,
+      5123372786,
+      7685059179,
+      15370118358
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 365955199,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        379,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      15919
+    ],
+    "A": [
+      127,
+      15919
+    ],
+    "J": [
+      2021713,
+      4043426,
+      6065139,
+      12130278,
+      14151991,
+      28303982,
+      42455973,
+      84911946,
+      766229227,
+      1532458454,
+      2298687681,
+      4597375362,
+      5363604589,
+      10727209178,
+      16090813767,
+      32181627534
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 2021713,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      19531
+    ],
+    "A": [
+      127,
+      379,
+      19531
+    ],
+    "J": [
+      940085623,
+      1880171246,
+      2820256869,
+      5640513738,
+      6580599361,
+      13161198722,
+      19741798083,
+      39483596166
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 940085623,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        19531
+      ],
+      [
+        7,
+        379,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      23623
+    ],
+    "A": [
+      379,
+      23623
+    ],
+    "J": [
+      8953117,
+      17906234,
+      26859351,
+      53718702,
+      62671819,
+      125343638,
+      188015457,
+      376030914,
+      1137045859,
+      2274091718,
+      3411137577,
+      6822275154,
+      7959321013,
+      15918642026,
+      23877963039,
+      47755926078
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 8953117,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        23623
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      111427
+    ],
+    "A": [
+      127,
+      111427
+    ],
+    "J": [
+      14151229,
+      28302458,
+      42453687,
+      84907374,
+      99058603,
+      198117206,
+      297175809,
+      594351618,
+      5363315791,
+      10726631582,
+      16089947373,
+      32179894746,
+      37543210537,
+      75086421074,
+      112629631611,
+      225259263222
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 14151229,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      133351
+    ],
+    "A": [
+      379,
+      133351
+    ],
+    "J": [
+      50540029,
+      101080058,
+      151620087,
+      303240174,
+      353780203,
+      707560406,
+      1061340609,
+      2122681218,
+      6418583683,
+      12837167366,
+      19255751049,
+      38511502098,
+      44930085781,
+      89860171562,
+      134790257343,
+      269580514686
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 50540029,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      379,
+      519499
+    ],
+    "A": [
+      127,
+      379,
+      519499
+    ],
+    "J": [
+      25005045367,
+      50010090734,
+      75015136101,
+      150030272202,
+      175035317569,
+      350070635138,
+      525105952707,
+      1050211905414
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 25005045367,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        379
+      ],
+      [
+        7,
+        127,
+        519499
+      ],
+      [
+        7,
+        379,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      7603
+    ],
+    "A": [
+      2287,
+      7603
+    ],
+    "J": [
+      17388061,
+      34776122,
+      52164183,
+      104328366,
+      121716427,
+      243432854,
+      365149281,
+      730298562,
+      2208283747,
+      4416567494,
+      6624851241,
+      13249702482,
+      15457986229,
+      30915972458,
+      46373958687,
+      92747917374
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 17388061,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        127,
+        2287
+      ],
+      [
+        7,
+        127,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      13723
+    ],
+    "A": [
+      13723
+    ],
+    "J": [
+      13723,
+      27446,
+      41169,
+      82338,
+      96061,
+      192122,
+      288183,
+      576366,
+      1742821,
+      3485642,
+      5228463,
+      10456926,
+      12199747,
+      24399494,
+      31384501,
+      36599241,
+      62769002,
+      73198482,
+      94153503,
+      188307006,
+      219691507,
+      439383014,
+      659074521,
+      1318149042,
+      3985831627,
+      7971663254,
+      11957494881,
+      23914989762,
+      27900821389,
+      55801642778,
+      83702464167,
+      167404928334
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 13723,
+      "base": 5,
+      "substitution_exponent": 12198858
+    },
+    "normalizer": 13723,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        127,
+        2287
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 82339,
+        "exponent": 1,
+        "unique_index": 13723,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      19531
+    ],
+    "A": [
+      2287,
+      19531
+    ],
+    "J": [
+      44667397,
+      89334794,
+      134002191,
+      268004382,
+      312671779,
+      625343558,
+      938015337,
+      1876030674,
+      5672759419,
+      11345518838,
+      17018278257,
+      34036556514,
+      39709315933,
+      79418631866,
+      119127947799,
+      238255895598
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 44667397,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        127,
+        2287
+      ],
+      [
+        7,
+        127,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      23623
+    ],
+    "A": [
+      2287,
+      23623
+    ],
+    "J": [
+      54025801,
+      108051602,
+      162077403,
+      324154806,
+      378180607,
+      756361214,
+      1134541821,
+      2269083642,
+      6861276727,
+      13722553454,
+      20583830181,
+      41167660362,
+      48028937089,
+      96057874178,
+      144086811267,
+      288173622534
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 54025801,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        127,
+        2287
+      ],
+      [
+        7,
+        127,
+        23623
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      133351
+    ],
+    "A": [
+      2287,
+      133351
+    ],
+    "J": [
+      304973737,
+      609947474,
+      914921211,
+      1829842422,
+      2134816159,
+      4269632318,
+      6404448477,
+      12808896954,
+      38731664599,
+      77463329198,
+      116194993797,
+      232389987594,
+      271121652193,
+      542243304386,
+      813364956579,
+      1626729913158
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 304973737,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        127,
+        2287
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      519499
+    ],
+    "A": [
+      2287,
+      519499
+    ],
+    "J": [
+      1188094213,
+      2376188426,
+      3564282639,
+      7128565278,
+      8316659491,
+      16633318982,
+      24949978473,
+      49899956946,
+      150887965051,
+      301775930102,
+      452663895153,
+      905327790306,
+      1056215755357,
+      2112431510714,
+      3168647266071,
+      6337294532142
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1188094213,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        2287
+      ],
+      [
+        7,
+        127,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      2287,
+      672379
+    ],
+    "A": [
+      672379
+    ],
+    "J": [
+      672379,
+      1344758,
+      2017137,
+      4034274,
+      4706653,
+      9413306,
+      14119959,
+      28239918,
+      85392133,
+      170784266,
+      256176399,
+      512352798,
+      597744931,
+      1195489862,
+      1537730773,
+      1793234793,
+      3075461546,
+      3586469586,
+      4613192319,
+      9226384638,
+      10764115411,
+      21528230822,
+      32292346233,
+      64584692466,
+      195291808171,
+      390583616342,
+      585875424513,
+      1171750849026,
+      1367042657197,
+      2734085314394,
+      4101127971591,
+      8202255943182
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 672379,
+      "base": 5,
+      "substitution_exponent": 12198858
+    },
+    "normalizer": 672379,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        127,
+        2287
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603,
+      19531
+    ],
+    "A": [
+      127,
+      7603,
+      19531
+    ],
+    "J": [
+      18858762511,
+      37717525022,
+      56576287533,
+      113152575066,
+      132011337577,
+      264022675154,
+      396034012731,
+      792068025462
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 18858762511,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        127,
+        19531
+      ],
+      [
+        7,
+        7603,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603,
+      23623
+    ],
+    "A": [
+      7603,
+      23623
+    ],
+    "J": [
+      179605669,
+      359211338,
+      538817007,
+      1077634014,
+      1257239683,
+      2514479366,
+      3771719049,
+      7543438098,
+      22809919963,
+      45619839926,
+      68429759889,
+      136859519778,
+      159669439741,
+      319338879482,
+      479008319223,
+      958016638446
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 179605669,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        127,
+        23623
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603,
+      133351
+    ],
+    "A": [
+      7603,
+      133351
+    ],
+    "J": [
+      1013867653,
+      2027735306,
+      3041602959,
+      6083205918,
+      7097073571,
+      14194147142,
+      21291220713,
+      42582441426,
+      128761191931,
+      257522383862,
+      386283575793,
+      772567151586,
+      901328343517,
+      1802656687034,
+      2703985030551,
+      5407970061102
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1013867653,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603,
+      319327
+    ],
+    "A": [
+      127,
+      319327
+    ],
+    "J": [
+      40554529,
+      81109058,
+      121663587,
+      243327174,
+      283881703,
+      567763406,
+      851645109,
+      1703290218,
+      308336083987,
+      616672167974,
+      925008251961,
+      1850016503922,
+      2158352587909,
+      4316705175818,
+      6475057763727,
+      12950115527454
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 40554529,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        7603,
+        319327
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      7603,
+      519499
+    ],
+    "A": [
+      127,
+      7603,
+      519499
+    ],
+    "J": [
+      501618363919,
+      1003236727838,
+      1504855091757,
+      3009710183514,
+      3511328547433,
+      7022657094866,
+      10533985642299,
+      21067971284598
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 501618363919,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        7603
+      ],
+      [
+        7,
+        127,
+        519499
+      ],
+      [
+        7,
+        7603,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      19531,
+      23623
+    ],
+    "A": [
+      19531,
+      23623
+    ],
+    "J": [
+      461380813,
+      922761626,
+      1384142439,
+      2768284878,
+      3229665691,
+      6459331382,
+      9688997073,
+      19377994146,
+      58595363251,
+      117190726502,
+      175786089753,
+      351572179506,
+      410167542757,
+      820335085514,
+      1230502628271,
+      2461005256542
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 461380813,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        127,
+        19531
+      ],
+      [
+        7,
+        127,
+        23623
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      19531,
+      133351
+    ],
+    "A": [
+      19531,
+      133351
+    ],
+    "J": [
+      2604478381,
+      5208956762,
+      7813435143,
+      15626870286,
+      18231348667,
+      36462697334,
+      54694046001,
+      109388092002,
+      330768754387,
+      661537508774,
+      992306263161,
+      1984612526322,
+      2315381280709,
+      4630762561418,
+      6946143842127,
+      13892287684254
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 2604478381,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        127,
+        19531
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      19531,
+      519499
+    ],
+    "A": [
+      127,
+      19531,
+      519499
+    ],
+    "J": [
+      1288584541063,
+      2577169082126,
+      3865753623189,
+      7731507246378,
+      9020091787441,
+      18040183574882,
+      27060275362323,
+      54120550724646
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1288584541063,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        19531
+      ],
+      [
+        7,
+        127,
+        519499
+      ],
+      [
+        7,
+        19531,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      23623,
+      133351
+    ],
+    "A": [
+      23623,
+      133351
+    ],
+    "J": [
+      3150150673,
+      6300301346,
+      9450452019,
+      18900904038,
+      22051054711,
+      44102109422,
+      66153164133,
+      132306328266,
+      400069135471,
+      800138270942,
+      1200207406413,
+      2400414812826,
+      2800483948297,
+      5600967896594,
+      8401451844891,
+      16802903689782
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 3150150673,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        127,
+        23623
+      ],
+      [
+        7,
+        127,
+        133351
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      23623,
+      519499
+    ],
+    "A": [
+      23623,
+      519499
+    ],
+    "J": [
+      12272124877,
+      24544249754,
+      36816374631,
+      73632749262,
+      85904874139,
+      171809748278,
+      257714622417,
+      515429244834,
+      1558559859379,
+      3117119718758,
+      4675679578137,
+      9351359156274,
+      10909919015653,
+      21819838031306,
+      32729757046959,
+      65459514093918
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 12272124877,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        23623
+      ],
+      [
+        7,
+        127,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      127,
+      133351,
+      519499
+    ],
+    "A": [
+      133351,
+      519499
+    ],
+    "J": [
+      69275711149,
+      138551422298,
+      207827133447,
+      415654266894,
+      484929978043,
+      969859956086,
+      1454789934129,
+      2909579868258,
+      8798015315923,
+      17596030631846,
+      26394045947769,
+      52788091895538,
+      61586107211461,
+      123172214422922,
+      184758321634383,
+      369516643268766
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 69275711149,
+      "base": 5,
+      "substitution_exponent": 5334
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        127
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        127,
+        133351
+      ],
+      [
+        7,
+        127,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      7603
+    ],
+    "A": [
+      6823,
+      7603
+    ],
+    "J": [
+      51875269,
+      103750538,
+      155625807,
+      311251614,
+      363126883,
+      726253766,
+      1089380649,
+      2178761298,
+      19660726951,
+      39321453902,
+      58982180853,
+      117964361706,
+      137625088657,
+      275250177314,
+      412875265971,
+      825750531942
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 51875269,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        379,
+        6823
+      ],
+      [
+        7,
+        379,
+        7603
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      15919
+    ],
+    "A": [
+      6823,
+      15919
+    ],
+    "J": [
+      108615337,
+      217230674,
+      325846011,
+      651692022,
+      760307359,
+      1520614718,
+      2280922077,
+      4561844154,
+      41165212723,
+      82330425446,
+      123495638169,
+      246991276338,
+      288156489061,
+      576312978122,
+      864469467183,
+      1728938934366
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 108615337,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        6823
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      19531
+    ],
+    "A": [
+      6823,
+      19531
+    ],
+    "J": [
+      133260013,
+      266520026,
+      399780039,
+      799560078,
+      932820091,
+      1865640182,
+      2798460273,
+      5596920546,
+      50505544927,
+      101011089854,
+      151516634781,
+      303033269562,
+      353538814489,
+      707077628978,
+      1060616443467,
+      2121232886934
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 133260013,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        379,
+        6823
+      ],
+      [
+        7,
+        379,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      40939
+    ],
+    "A": [
+      40939
+    ],
+    "J": [
+      40939,
+      81878,
+      122817,
+      245634,
+      286573,
+      573146,
+      859719,
+      1719438,
+      15515881,
+      31031762,
+      46547643,
+      93095286,
+      108611167,
+      217222334,
+      279326797,
+      325833501,
+      558653594,
+      651667002,
+      837980391,
+      1675960782,
+      1955287579,
+      3910575158,
+      5865862737,
+      11731725474,
+      105864856063,
+      211729712126,
+      317594568189,
+      635189136378,
+      741053992441,
+      1482107984882,
+      2223161977323,
+      4446323954646
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 40939,
+      "base": 5,
+      "substitution_exponent": 108608514
+    },
+    "normalizer": 40939,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        6823
+      ]
+    ],
+    "primitive_factorization_through_bound": [
+      {
+        "prime": 736903,
+        "exponent": 1,
+        "unique_index": 81878,
+        "admitted": true
+      }
+    ],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      111427
+    ],
+    "A": [
+      6823,
+      111427
+    ],
+    "J": [
+      760266421,
+      1520532842,
+      2280799263,
+      4561598526,
+      5321864947,
+      10643729894,
+      15965594841,
+      31931189682,
+      288140973559,
+      576281947118,
+      864422920677,
+      1728845841354,
+      2016986814913,
+      4033973629826,
+      6050960444739,
+      12101920889478
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 760266421,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        6823
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      6823,
+      519499
+    ],
+    "A": [
+      6823,
+      519499
+    ],
+    "J": [
+      3544541677,
+      7089083354,
+      10633625031,
+      21267250062,
+      24811791739,
+      49623583478,
+      74435375217,
+      148870750434,
+      1343381295583,
+      2686762591166,
+      4030143886749,
+      8060287773498,
+      9403669069081,
+      18807338138162,
+      28211007207243,
+      56422014414486
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 3544541677,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        379,
+        6823
+      ],
+      [
+        7,
+        379,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603,
+      15919
+    ],
+    "A": [
+      7603,
+      15919
+    ],
+    "J": [
+      121032157,
+      242064314,
+      363096471,
+      726192942,
+      847225099,
+      1694450198,
+      2541675297,
+      5083350594,
+      45871187503,
+      91742375006,
+      137613562509,
+      275227125018,
+      321098312521,
+      642196625042,
+      963294937563,
+      1926589875126
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 121032157,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        379,
+        7603
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603,
+      19531
+    ],
+    "A": [
+      379,
+      7603,
+      19531
+    ],
+    "J": [
+      56279299147,
+      112558598294,
+      168837897441,
+      337675794882,
+      393955094029,
+      787910188058,
+      1181865282087,
+      2363730564174
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 56279299147,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        379,
+        7603
+      ],
+      [
+        7,
+        379,
+        19531
+      ],
+      [
+        7,
+        7603,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603,
+      111427
+    ],
+    "A": [
+      7603,
+      111427
+    ],
+    "J": [
+      847179481,
+      1694358962,
+      2541538443,
+      5083076886,
+      5930256367,
+      11860512734,
+      17790769101,
+      35581538202,
+      321081023299,
+      642162046598,
+      963243069897,
+      1926486139794,
+      2247567163093,
+      4495134326186,
+      6742701489279,
+      13485402978558
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 847179481,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        379,
+        7603
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603,
+      319327
+    ],
+    "A": [
+      379,
+      319327
+    ],
+    "J": [
+      121024933,
+      242049866,
+      363074799,
+      726149598,
+      847174531,
+      1694349062,
+      2541523593,
+      5083047186,
+      920152565599,
+      1840305131198,
+      2760457696797,
+      5520915393594,
+      6441067959193,
+      12882135918386,
+      19323203877579,
+      38646407755158
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 121024933,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        379,
+        7603
+      ],
+      [
+        7,
+        7603,
+        319327
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      7603,
+      519499
+    ],
+    "A": [
+      379,
+      7603,
+      519499
+    ],
+    "J": [
+      1496955589963,
+      2993911179926,
+      4490866769889,
+      8981733539778,
+      10478689129741,
+      20957378259482,
+      31436067389223,
+      62872134778446
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1496955589963,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        379,
+        7603
+      ],
+      [
+        7,
+        379,
+        519499
+      ],
+      [
+        7,
+        7603,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919,
+      19531
+    ],
+    "A": [
+      15919,
+      19531
+    ],
+    "J": [
+      310913989,
+      621827978,
+      932741967,
+      1865483934,
+      2176397923,
+      4352795846,
+      6529193769,
+      13058387538,
+      117836401831,
+      235672803662,
+      353509205493,
+      707018410986,
+      824854812817,
+      1649709625634,
+      2474564438451,
+      4949128876902
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 310913989,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        379,
+        15919
+      ],
+      [
+        7,
+        379,
+        19531
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919,
+      111427
+    ],
+    "A": [
+      15919,
+      111427
+    ],
+    "J": [
+      1773806413,
+      3547612826,
+      5321419239,
+      10642838478,
+      12416644891,
+      24833289782,
+      37249934673,
+      74499869346,
+      672272630527,
+      1344545261054,
+      2016817891581,
+      4033635783162,
+      4705908413689,
+      9411816827378,
+      14117725241067,
+      28235450482134
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 1773806413,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        15919
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919,
+      286543
+    ],
+    "A": [
+      286543
+    ],
+    "J": [
+      286543,
+      573086,
+      859629,
+      1719258,
+      2005801,
+      4011602,
+      6017403,
+      12034806,
+      108599797,
+      217199594,
+      325799391,
+      651598782,
+      760198579,
+      1520397158,
+      2280595737,
+      4561191474,
+      4561478017,
+      9122956034,
+      13684434051,
+      27368868102,
+      31930346119,
+      63860692238,
+      95791038357,
+      191582076714,
+      1728800168443,
+      3457600336886,
+      5186400505329,
+      10372801010658,
+      12101601179101,
+      24203202358202,
+      36304803537303,
+      72609607074606
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 286543,
+      "base": 5,
+      "substitution_exponent": 253398642
+    },
+    "normalizer": 286543,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919,
+      519499
+    ],
+    "A": [
+      15919,
+      519499
+    ],
+    "J": [
+      8269904581,
+      16539809162,
+      24809713743,
+      49619427486,
+      57889332067,
+      115778664134,
+      173667996201,
+      347335992402,
+      3134293836199,
+      6268587672398,
+      9402881508597,
+      18805763017194,
+      21940056853393,
+      43880113706786,
+      65820170560179,
+      131640341120358
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 8269904581,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        379,
+        15919
+      ],
+      [
+        7,
+        379,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      15919,
+      668599
+    ],
+    "A": [
+      668599
+    ],
+    "J": [
+      668599,
+      1337198,
+      2005797,
+      4011594,
+      4680193,
+      9360386,
+      14040579,
+      28081158,
+      253399021,
+      506798042,
+      760197063,
+      1520394126,
+      1773793147,
+      3547586294,
+      5321379441,
+      10642758882,
+      10643427481,
+      21286854962,
+      31930282443,
+      63860564886,
+      74503992367,
+      149007984734,
+      223511977101,
+      447023954202,
+      4033859015299,
+      8067718030598,
+      12101577045897,
+      24203154091794,
+      28237013107093,
+      56474026214186,
+      84711039321279,
+      169422078642558
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 668599,
+      "base": 5,
+      "substitution_exponent": 253398642
+    },
+    "normalizer": 668599,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        379,
+        15919
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      19531,
+      111427
+    ],
+    "A": [
+      19531,
+      111427
+    ],
+    "J": [
+      2176280737,
+      4352561474,
+      6528842211,
+      13057684422,
+      15233965159,
+      30467930318,
+      45701895477,
+      91403790954,
+      824810399323,
+      1649620798646,
+      2474431197969,
+      4948862395938,
+      5773672795261,
+      11547345590522,
+      17321018385783,
+      34642036771566
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 2176280737,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        379,
+        19531
+      ],
+      [
+        7,
+        379,
+        111427
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      19531,
+      519499
+    ],
+    "A": [
+      379,
+      19531,
+      519499
+    ],
+    "J": [
+      3845460953251,
+      7690921906502,
+      11536382859753,
+      23072765719506,
+      26918226672757,
+      53836453345514,
+      80754680018271,
+      161509360036542
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 3845460953251,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        379,
+        19531
+      ],
+      [
+        7,
+        379,
+        519499
+      ],
+      [
+        7,
+        19531,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      379,
+      111427,
+      519499
+    ],
+    "A": [
+      111427,
+      519499
+    ],
+    "J": [
+      57886215073,
+      115772430146,
+      173658645219,
+      347317290438,
+      405203505511,
+      810407011022,
+      1215610516533,
+      2431221033066,
+      21938875512667,
+      43877751025334,
+      65816626538001,
+      131633253076002,
+      153572128588669,
+      307144257177338,
+      460716385766007,
+      921432771532014
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 57886215073,
+      "base": 5,
+      "substitution_exponent": 15918
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        379
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        379,
+        111427
+      ],
+      [
+        7,
+        379,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      19531,
+      319327
+    ],
+    "A": [
+      19531,
+      319327
+    ],
+    "J": [
+      6236775637,
+      12473551274,
+      18710326911,
+      37420653822,
+      43657429459,
+      87314858918,
+      130972288377,
+      261944576754,
+      47418205168111,
+      94836410336222,
+      142254615504333,
+      284509231008666,
+      331927436176777,
+      663854872353554,
+      995782308530331,
+      1991564617060662
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 6236775637,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        7603,
+        19531
+      ],
+      [
+        7,
+        7603,
+        319327
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      19531,
+      519499
+    ],
+    "A": [
+      7603,
+      19531,
+      519499
+    ],
+    "J": [
+      77142584769307,
+      154285169538614,
+      231427754307921,
+      462855508615842,
+      539998093385149,
+      1079996186770298,
+      1619994280155447,
+      3239988560310894
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 77142584769307,
+      "base": 5,
+      "substitution_exponent": 42
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        19531
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        7603,
+        19531
+      ],
+      [
+        7,
+        7603,
+        519499
+      ],
+      [
+        7,
+        19531,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  },
+  {
+    "R": [
+      7,
+      7603,
+      319327,
+      519499
+    ],
+    "A": [
+      319327,
+      519499
+    ],
+    "J": [
+      165890057173,
+      331780114346,
+      497670171519,
+      995340343038,
+      1161230400211,
+      2322460800422,
+      3483691200633,
+      6967382401266,
+      1261262104686319,
+      2522524209372638,
+      3783786314058957,
+      7567572628117914,
+      8828834732804233,
+      17657669465608466,
+      26486504198412699,
+      52973008396825398
+    ],
+    "complexity": 4,
+    "W_symbolic": {
+      "cyclotomic_index": 165890057173,
+      "base": 5,
+      "substitution_exponent": 319326
+    },
+    "normalizer": 1,
+    "all_proper_good_substates": [
+      [
+        7
+      ],
+      [
+        7,
+        7603
+      ],
+      [
+        7,
+        519499
+      ],
+      [
+        7,
+        7603,
+        319327
+      ],
+      [
+        7,
+        7603,
+        519499
+      ]
+    ],
+    "primitive_factorization_through_bound": [],
+    "primitive_square_hits_through_bound": [],
+    "full_factorization_status": "NOT_COMPLETED; no squarefree conclusion"
+  }
+]
