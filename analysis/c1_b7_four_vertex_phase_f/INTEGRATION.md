@@ -12,9 +12,9 @@ Repository: `Samsen879/a303656` (ID `1333945235`). Research and integration base
 
 The producer session did not have the requested Phase E source package available. The independent reconstruction and source-gap statements are preserved unchanged. The integration layer reconciled fork/serial classification, first-relay set, and fixed-state critical-integer interface against E1 Draft PR #30, with E2 #31 and E4 #33 as supporting dependencies. `FOUR_VERTEX_CLASSIFICATION_RECONCILIATION: PASS`. E1 owns the geometry classification; this package adds explicit aggregates, the full fork arithmetic table, partial certified serial materialization, and bounded factor/probe evidence.
 
-Local dependency reconciliation: PASS. Repository dependency status: PENDING_MERGE. `merge_blocked=true`.
+Local dependency reconciliation: PASS. Repository dependency status: BOUND_TO_MERGED_REPOSITORY. `merge_blocked=false`.
 
-**MERGE STATUS: BLOCKED UNTIL THE REQUIRED PHASE E PRS ARE MERGED, THIS BRANCH IS REFRESHED ON NEW MAIN, AND STRICT DEPENDENCY REPLAY PASSES.** The future gate is `python3 -B verify_integration.py --require-merged-dependencies` after rebinding to Phase-E-complete main and setting `BOUND_TO_MERGED_REPOSITORY`.
+The required Phase E PRs are merged and this branch is refreshed on Phase-E-complete main. `python3 -B verify_integration.py --require-merged-dependencies` is the mandatory merge gate.
 
 ## What is proved and not proved
 

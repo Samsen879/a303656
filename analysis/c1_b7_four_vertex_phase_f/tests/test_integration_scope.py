@@ -32,8 +32,8 @@ class IntegrationScopeTests(unittest.TestCase):
     def test_dependency_is_fail_closed(self):
         self.assertTrue(self.binding["producer_source_gap"]["preserved"])
         self.assertEqual(self.binding["local_dependency_reconciliation"], "PASS")
-        self.assertEqual(self.binding["repository_dependency_status"], "PENDING_MERGE")
-        self.assertTrue(self.binding["merge_blocked"])
+        self.assertEqual(self.binding["repository_dependency_status"], "BOUND_TO_MERGED_REPOSITORY")
+        self.assertFalse(self.binding["merge_blocked"])
 
     def test_transport_and_binary_policy(self):
         self.assertFalse(self.manifest["source_archive"]["committed"])
