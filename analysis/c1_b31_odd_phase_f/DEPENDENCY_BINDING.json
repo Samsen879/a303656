@@ -1,0 +1,34 @@
+{
+  "schema": "a303656.phase-f-dependency-binding",
+  "version": 1,
+  "phase_f_package": "b31_odd_phase_f",
+  "producer_source_gap": {
+    "preserved": true,
+    "claim": "Phase E ZIP unavailable; O31 independently reconstructed from Phase C/D",
+    "producer_files_unchanged": ["README.md", "REPORT.md", "source_binding.json"]
+  },
+  "local_dependency_reconciliation": "PASS",
+  "reconciliation_receipts": {
+    "O31_SOURCE_RECONCILIATION": "PASS",
+    "scope": "Prescribed actual exactly-seven arithmetic normal form, with legal K/E choosable; not an arbitrary frozen seven-root ledger",
+    "authority_split": "O31 belongs to E3; B31 arithmetic classification belongs to F1"
+  },
+  "dependencies": [
+    {
+      "package": "seven_basin_global_shared_state_phase_e",
+      "role": "hard",
+      "phase_e_outer_sha256": "16970c82ca66048d52d1430828413fd88b567f52bd4a82dd989247cb9328704a",
+      "phase_e_destination_directory": "analysis/c1_seven_basin_global_shared_state_phase_e",
+      "phase_e_draft_pr_number": 32,
+      "phase_e_draft_pr_head_sha": "9eb0f3a40e7aafba28932297dd212bbb629a9ecb",
+      "relevant_source_payload_files": [
+        {"path": "REPORT.md", "size": 29504, "sha256": "7960d6f2cbcff93c2bed90dcc015739d51b4f82d62b7a1798a08f81e82d64827"},
+        {"path": "PROOF_AUDIT.md", "size": 3387, "sha256": "0ce0a155df1e48692a68c466cc58a1dc93317691cfb8a47a5e415a088b0fcea2"},
+        {"path": "MANIFEST.json", "size": 1123, "sha256": "3092949de20658f1e2ab1a6cea3d756619a219b4bbf3a71dfc132ba300e72dde"}
+      ],
+      "local_cross_binding_result": "PASS"
+    }
+  ],
+  "repository_dependency_status": "PENDING_MERGE",
+  "merge_blocked": true
+}
