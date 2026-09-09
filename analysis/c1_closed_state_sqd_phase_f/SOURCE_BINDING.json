@@ -1,0 +1,47 @@
+{
+  "repository": "Samsen879/a303656",
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "head_description": "Merge PR #29: seven-head chain realizability, Phase D",
+  "head_commit_time_utc": "2026-09-08T03:37:01Z",
+  "authority_read_method": "GitHub connector GET/fetch_file; no GitHub writes",
+  "source_alignment_status": "PHASE_E_SOURCE_MISSING; independent Phase-D-based reconstruction only",
+  "sources": [
+    {
+      "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "blob_sha": "32327b1f799748101febb8222494eed2cf3cda70",
+      "read_scope": "Core definition and first-relay/cyclotomic/three-vertex sections; definitive pinned excerpts 1-190 and 180-290",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/REPORT.md"
+    },
+    {
+      "path": "analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "blob_sha": "da6c7b743fd6995895b6ad53f79197b1a6ad0767",
+      "read_scope": "Lines 1-245, including scoped ancestry/capacity and exactly-seven equality",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_private_provider_charging_phase_d/REPORT.md"
+    },
+    {
+      "path": "STATUS.md",
+      "blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+      "read_scope": "Status and scope guards",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md"
+    }
+  ],
+  "required_bundle_unavailable": "A303656_B7_BRANCHING_PHASE_E(1).zip",
+  "other_unavailable_bundles": [
+    "A303656_B7_THREE_VERTEX_PHASE_E(1).zip",
+    "A303656_CYCLOTOMIC_WIEFERICH_TERMINAL_PHASE_E(1).zip"
+  ],
+  "not_claimed": [
+    "Full Phase-E source audit",
+    "Original source-byte local hash replay",
+    "Repository-native test replay",
+    "Independent-author proof audit",
+    "Formal proof-assistant verification",
+    "Full factorization of all enumerated Z_R",
+    "Actual base-5 B7 counterexample"
+  ],
+  "project_status": "PAUSED",
+  "active_promoted_route": "NONE",
+  "a303656": "UNRESOLVED",
+  "github_writes_performed": "NONE"
+}

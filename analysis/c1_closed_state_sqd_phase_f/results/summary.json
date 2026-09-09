@@ -1,0 +1,57 @@
+{
+  "definition_basis": "Independent exact-closure reconstruction from pinned Phase-D basal B7; Phase E bundle unavailable",
+  "vertex_bound_inclusive": 1000000,
+  "prime_search_bound_inclusive": 1000000,
+  "good_regular_vertices": 25,
+  "good_regular_vertices_with_closure_size_at_most_four": 23,
+  "state_counts_by_size": {
+    "1": 1,
+    "2": 6,
+    "3": 24,
+    "4": 79
+  },
+  "states_total": 110,
+  "distinct_indices": 1532,
+  "index_ownership_collisions": 0,
+  "numeric_state_count": 8,
+  "numeric_pairwise_coprimality_checks": 28,
+  "numeric_raw_deletion_gcd_checks": 11,
+  "numeric_cumulative_partition_checks": 8,
+  "fully_factored_states": [
+    [
+      7
+    ]
+  ],
+  "admitted_nonregular_primes_through_bound": [
+    {
+      "q": 20771,
+      "order": 10385,
+      "order_factorization": {
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "B7_rejection_reasons": [
+        "bad proper descendant 5",
+        "bad proper descendant 31",
+        "bad proper descendant 67"
+      ]
+    },
+    {
+      "q": 40487,
+      "order": 40486,
+      "order_factorization": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "B7_rejection_reasons": [
+        "bad proper descendant 31",
+        "bad proper descendant 653"
+      ]
+    }
+  ],
+  "base5_admitted_square_hits_on_enumerated_states_through_bound": 0,
+  "important_boundary": "Zero bounded hits is NOT a global no-hit or squarefree certificate.",
+  "runtime_seconds": 13.1695
+}

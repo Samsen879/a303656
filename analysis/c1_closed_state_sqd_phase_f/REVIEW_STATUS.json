@@ -1,0 +1,33 @@
+{
+  "unconditional_results_under_explicit_definitions": [
+    "Unique minimal generating antichain",
+    "Exact root iff",
+    "Primitive normalization",
+    "Distinct-state normalized coprimality",
+    "Exact raw deletion gcd",
+    "Cumulative ambient factorization",
+    "Non-strict canonicalization"
+  ],
+  "strict_sqd_strong_same_root_transition": "IMPOSSIBLE ON ANY ACTUAL EXACT-STATE WITNESS",
+  "strict_sqd_root": "UNRESOLVED",
+  "strict_sqd_cost": "UNRESOLVED",
+  "certificate_specific_strict_sqd": "NOT_PROVED",
+  "base5_universal_naive_sqd_false": "NOT_CERTIFIED: antecedent existence not supplied",
+  "actual_base5_b7_counterexample_found": false,
+  "minimal_b7_three_vertex_proved": false,
+  "general_b7_reduced_to_three_vertex": false,
+  "different_base_strong_counterexample": {
+    "base": 3589,
+    "q": 863,
+    "R": [
+      7,
+      43,
+      431
+    ]
+  },
+  "source_reconstruction": "INDEPENDENT PHASE-D RECONSTRUCTION; PHASE E ORIGINAL UNAVAILABLE",
+  "project": "PAUSED",
+  "active_promoted_route": "NONE",
+  "A303656": "UNRESOLVED",
+  "github_writes": []
+}
