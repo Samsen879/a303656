@@ -1,0 +1,17 @@
+{
+  "project": "PAUSED",
+  "active_promoted_route": "NONE",
+  "A303656": "UNRESOLVED",
+  "903_closed": false,
+  "1806_closed": false,
+  "r43_three_vertex_family_empty_proved": false,
+  "new_prime_factor_C1806": "147304138944416276237689",
+  "new_prime_status": "PROVED",
+  "new_prime_multiplicity": 1,
+  "residuals": [
+    "C903.txt",
+    "R1806_after_new_factor.txt"
+  ],
+  "success_level": "one-sided certified cofactor reduction; not full A/B/C/D",
+  "github_writes_performed": "NONE"
+}

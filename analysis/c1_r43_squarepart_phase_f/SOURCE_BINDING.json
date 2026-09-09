@@ -1,0 +1,25 @@
+{
+  "repository": "Samsen879/a303656",
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "tree_sha": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "read_date": "2026-09-08",
+  "authority_channel": "GitHub connector, read-only",
+  "phase_e_required_zip_files": {
+    "A303656_B7_THREE_VERTEX_PHASE_E(1).zip": "NOT_AVAILABLE",
+    "A303656_CYCLOTOMIC_WIEFERICH_TERMINAL_PHASE_E(1).zip": "NOT_AVAILABLE"
+  },
+  "phase_e_integer_byte_identity": "NOT_VERIFIED",
+  "phase_e_historical_factorization_budget": "UNKNOWN",
+  "main_remaining_r43_indices_from_phase_d": [
+    301,
+    602,
+    903,
+    1806
+  ],
+  "user_supplied_phase_e_reduction": [
+    903,
+    1806
+  ],
+  "user_supplied_phase_e_reduction_verified": false,
+  "github_writes_performed": "NONE"
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.13.5",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "g++": "g++ (Debian 14.2.0-19) 14.2.0",
+  "sympy_ecm_source_sha256": "ce0fc684bd174b21b965549d1afdd871e0a0b8f66b15a4be842faf5ea3953864",
+  "factoring_backend": "custom C++ GMP reference port, NOT GMP-ECM software",
+  "gmpy2_available": false,
+  "pari_available": false
+}
