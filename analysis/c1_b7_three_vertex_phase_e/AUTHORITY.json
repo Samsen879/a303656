@@ -1,0 +1,43 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha_start": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_sha_end": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "main_tree_start": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "main_tree_end": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5",
+  "live_branch_url": "https://api.github.com/repos/Samsen879/a303656/branches/main",
+  "status_url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md",
+  "status_blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+  "precondition": "PASS",
+  "PRs": [
+    {
+      "number": 26,
+      "topic": "private-provider charging",
+      "merged": true,
+      "merge_sha": "07a6f5fb2059b1dfc6be7cc6d1325cd65b49ae41"
+    },
+    {
+      "number": 27,
+      "topic": "two-nonregular global state",
+      "merged": true,
+      "merge_sha": "a8e72c805c6a36d3e215507a4fcaad271147ce7e"
+    },
+    {
+      "number": 28,
+      "topic": "B7 pure-3",
+      "merged": true,
+      "merge_sha": "8dcb744641a46b41597681b4eaddfd7b427d7280"
+    },
+    {
+      "number": 29,
+      "topic": "seven-head chain realizability",
+      "merged": true,
+      "merge_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd"
+    }
+  ],
+  "PROJECT": "PAUSED",
+  "ACTIVE PROMOTED ROUTE": "NONE",
+  "A303656": "UNRESOLVED",
+  "GITHUB WRITES PERFORMED": "NONE",
+  "receipt_type": "Transcription of live read-only GitHub connector receipts, not a raw HTTP archive."
+}

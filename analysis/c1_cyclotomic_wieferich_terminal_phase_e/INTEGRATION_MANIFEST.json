@@ -1,0 +1,124 @@
+{
+  "generated_binaries_committed": false,
+  "integration_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "manifest_self_hash": null,
+  "package": "cyclotomic_wieferich_terminal_phase_e",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "repository_native_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "23a29d7d10eed10eade366b6a4ef2499719e79524b2eba9476a21a1dc5b5dc8c",
+      "size": 23
+    },
+    {
+      "path": "INTEGRATION.md",
+      "sha256": "d2e081850e36f5539a0b88b238ed7bcf144cfadc57ea8df6975651b3c74b2e4b",
+      "size": 1885
+    },
+    {
+      "path": "verify_integration.py",
+      "sha256": "ba4974a135d20c178760faabc0873d305f0e41359a150196b960f806033ebde4",
+      "size": 5251
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "sha256": "0a9235a32314197a63fe600ffe93452f25cf24c43086a0b296274e007fab3ac4",
+      "size": 2169
+    }
+  ],
+  "research_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "schema": "a303656.phase-ef-repository-integration",
+  "source_archive": {
+    "archive_payload_count": 9,
+    "committed": false,
+    "located_filename": "A303656_CYCLOTOMIC_WIEFERICH_TERMINAL_PHASE_E.zip",
+    "outer_sha256": "b829b97178aed9be4feecca150cc22b2fc865d84a769d3c9552aa768af72b903",
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_entries": 8,
+    "source_integrity_type": "SHA256SUMS",
+    "source_replay": "PASS"
+  },
+  "source_payload": [
+    {
+      "path": "PROOF_AUDIT.md",
+      "sha256": "4da90f471c7c89bf1d40b159f7b746bc11459828d996614756a8f8616794982c",
+      "size": 4489
+    },
+    {
+      "path": "README.md",
+      "sha256": "4d99e39b5d8430cea5c9f21fc4cc15f81dff6ed5d997b442ab555dd398eaf1d8",
+      "size": 2548
+    },
+    {
+      "path": "REPLAY_RECEIPT.json",
+      "sha256": "71e761cb2bb479f52d2531516b7dcff43e1966f835de75cf0c80fa0229efe063",
+      "size": 1435
+    },
+    {
+      "path": "REPORT.md",
+      "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9",
+      "size": 26616
+    },
+    {
+      "path": "SHA256SUMS",
+      "sha256": "7a20e973c1e26d145b093e2c63ee1dd0c16420679011ff69de7c7df38a6f4bf6",
+      "size": 638
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "75339df44a19bfcd5f73c7ad56b7023adf9e4be4ef928e886af37cb64a6a8fed",
+      "size": 3990
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "sha256": "7a050aa0fb98a48b4ee496d0aa1caa49eea2d14704cffda06ded1c14131e5e1a",
+      "size": 5839
+    },
+    {
+      "path": "evidence.json",
+      "sha256": "aef5325c411e330b72858c2797df17a2058f8c2fc7ac1802eaa4d392057f9dcd",
+      "size": 22991
+    },
+    {
+      "path": "verify.py",
+      "sha256": "b69be01361adcf57e485394878190a272b9d1542525477f513b4519deaeb9f56",
+      "size": 16234
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "sha256sum",
+        "-c",
+        "SHA256SUMS"
+      ],
+      [
+        "{python}",
+        "-B",
+        "verify.py",
+        "--self-test",
+        "--output",
+        "{tmp}/fresh_evidence.json"
+      ]
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "json_comparisons": [
+      {
+        "actual": "{tmp}/fresh_evidence.json",
+        "expected": "evidence.json",
+        "ignore_keys": []
+      }
+    ],
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "version": 1
+}
