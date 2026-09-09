@@ -1,0 +1,28 @@
+{
+  "classification": "DISCOVERY ONLY; NO ABSENCE OR GLOBAL EXCLUSION CLAIM",
+  "objective": "find an actual regular branching relay at two theorem-selected fork indices",
+  "domain": "n in {5461,10922}; q=1+k*n; 1<=k<=40000; q=3 mod4",
+  "use": "candidate 6717031 subsequently certified in the independent reference-check path",
+  "note": "not an independent author/software stack; probe not run by sealed replay",
+  "checks": [
+    {
+      "n": 5461,
+      "last_k": 40000,
+      "tests": 10000
+    },
+    {
+      "n": 10922,
+      "last_k": 40000,
+      "tests": 20000
+    }
+  ],
+  "found": [
+    {
+      "p": 6717031,
+      "n": 5461,
+      "k": 1230,
+      "lift": 5828690216189,
+      "s1": true
+    }
+  ]
+}

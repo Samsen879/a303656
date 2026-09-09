@@ -1,0 +1,92 @@
+{
+  "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "entries": [
+    {
+      "id": "S1",
+      "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/REPORT.md",
+      "scope": "Full mathematical report; intrinsic B7, D1-D5, 48-index gate, arbitrary-branching filling."
+    },
+    {
+      "id": "S2",
+      "path": "analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/PROOF_AUDIT.md",
+      "scope": "Full audit."
+    },
+    {
+      "id": "S3",
+      "path": "analysis/c1_b7_pure3_phase_d/discovery_only_301_602.json",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/discovery_only_301_602.json",
+      "scope": "Full factor/cofactor discovery data; not trusted as primality proof."
+    },
+    {
+      "id": "S4",
+      "path": "analysis/c1_b7_pure3_phase_d/SOURCES.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_b7_pure3_phase_d/SOURCES.md",
+      "scope": "Full source/scope map."
+    },
+    {
+      "id": "S5",
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "scope": "Full mathematical text, including exactly-seven implications, Theorems7.1/7.2/12.1."
+    },
+    {
+      "id": "S6",
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/REPORT.md",
+      "scope": "Full report including separately fetched overlapping continuation intervals; load-bearing THEOREMS.md separately read in full."
+    },
+    {
+      "id": "S7",
+      "path": "analysis/c1_order_dag_phase_c/PROOF_AUDIT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_order_dag_phase_c/PROOF_AUDIT.md",
+      "scope": "Full proof audit."
+    },
+    {
+      "id": "S8",
+      "path": "analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md",
+      "scope": "Full report; literal prime-order scope, regular factor3326871479, conditional certificate limits."
+    },
+    {
+      "id": "S9",
+      "path": "analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_pooled_lower_cover_phase_b/REPORT.md",
+      "scope": "Full report in chunks; truncated P2/P4 proof intervals fetched separately."
+    },
+    {
+      "id": "S10",
+      "path": "analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/analysis/c1_kraft_hall_phase_a/REPORT.md",
+      "scope": "Full report in four chunks; order, valuation, resource and resultant scope."
+    },
+    {
+      "id": "S11",
+      "path": "STATUS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/fd59aad038a09f2fc6df7039111408fa231c27dd/STATUS.md",
+      "scope": "Full live-status file at fixed SHA, checked again at end."
+    }
+  ],
+  "entire_five_directories_read_file_by_file": false,
+  "full_repository_checkout": false,
+  "repository_native_tests_replayed": false,
+  "external_sources": [
+    {
+      "id": "X1",
+      "url": "https://homes.cerias.purdue.edu/~ssw/cun/pmain126.txt",
+      "role": "Cunningham primary discovery hints; no P/PRP tag treated as certificate."
+    },
+    {
+      "id": "X2",
+      "url": "https://homes.cerias.purdue.edu/~ssw/cun/index",
+      "role": "Primary table version/index, main table dated2026-01-05."
+    },
+    {
+      "id": "X3",
+      "url": "https://www.lix.polytechnique.fr/~morain/Prgms/ecpp.english.html",
+      "role": "Primary author explanation of certificate/proof separation. This package does not run that ECPP software."
+    }
+  ],
+  "independence": "Different discovery and verification implementations in one research session; no independent-author or proof-assistant certification."
+}
