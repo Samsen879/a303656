@@ -1,0 +1,1013 @@
+{
+  "status": "PASS",
+  "scope": "finite exact reference only; no global B7 exclusion",
+  "first_relay_complete_products_replayed": 4,
+  "actual_regular_prime_records": [
+    {
+      "p": 7,
+      "order": 6,
+      "order_factors": {
+        "2": 1,
+        "3": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 2,
+      "exact_order_drop_residues": {
+        "2": 6,
+        "3": 4
+      },
+      "pow_5_order_mod_p_squared": 43,
+      "lifting_coefficient": 6,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 43,
+      "order": 42,
+      "order_factors": {
+        "2": 1,
+        "3": 1,
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 6,
+      "exact_order_drop_residues": {
+        "2": 42,
+        "3": 36,
+        "7": 16
+      },
+      "pow_5_order_mod_p_squared": 1807,
+      "lifting_coefficient": 42,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 127,
+      "order": 42,
+      "order_factors": {
+        "2": 1,
+        "3": 1,
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 11,
+      "exact_order_drop_residues": {
+        "2": 126,
+        "3": 19,
+        "7": 4
+      },
+      "pow_5_order_mod_p_squared": 15495,
+      "lifting_coefficient": 122,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 379,
+      "order": 21,
+      "order_factors": {
+        "3": 1,
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 19,
+      "exact_order_drop_residues": {
+        "3": 51,
+        "7": 125
+      },
+      "pow_5_order_mod_p_squared": 18951,
+      "lifting_coefficient": 50,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 7603,
+      "order": 42,
+      "order_factors": {
+        "2": 1,
+        "3": 1,
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 87,
+      "exact_order_drop_residues": {
+        "2": 7602,
+        "3": 2094,
+        "7": 419
+      },
+      "pow_5_order_mod_p_squared": 19623344,
+      "lifting_coefficient": 2581,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 9547,
+      "order": 86,
+      "order_factors": {
+        "2": 1,
+        "43": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 97,
+      "exact_order_drop_residues": {
+        "2": 9546,
+        "43": 25
+      },
+      "pow_5_order_mod_p_squared": 65578344,
+      "lifting_coefficient": 6869,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 19531,
+      "order": 7,
+      "order_factors": {
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 139,
+      "exact_order_drop_residues": {
+        "7": 5
+      },
+      "pow_5_order_mod_p_squared": 78125,
+      "lifting_coefficient": 4,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 42743,
+      "order": 602,
+      "order_factors": {
+        "2": 1,
+        "7": 1,
+        "43": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 206,
+      "exact_order_drop_residues": {
+        "2": 42742,
+        "7": 9814,
+        "43": 28940
+      },
+      "pow_5_order_mod_p_squared": 1230955658,
+      "lifting_coefficient": 28799,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 519499,
+      "order": 21,
+      "order_factors": {
+        "3": 1,
+        "7": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 720,
+      "exact_order_drop_residues": {
+        "3": 78125,
+        "7": 125
+      },
+      "pow_5_order_mod_p_squared": 230471575359,
+      "lifting_coefficient": 443642,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 6717031,
+      "order": 5461,
+      "order_factors": {
+        "43": 1,
+        "127": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 2591,
+      "exact_order_drop_residues": {
+        "43": 6238090,
+        "127": 3428912
+      },
+      "pow_5_order_mod_p_squared": 5828690216189,
+      "lifting_coefficient": 867748,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 18471511,
+      "order": 129,
+      "order_factors": {
+        "3": 1,
+        "43": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 4297,
+      "exact_order_drop_residues": {
+        "3": 16800299,
+        "43": 125
+      },
+      "pow_5_order_mod_p_squared": 201991551181323,
+      "lifting_coefficient": 10935302,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 558801427,
+      "order": 258,
+      "order_factors": {
+        "2": 1,
+        "3": 1,
+        "43": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 23638,
+      "exact_order_drop_residues": {
+        "2": 558801426,
+        "3": 541209974,
+        "43": 15625
+      },
+      "pow_5_order_mod_p_squared": 127620134973779863,
+      "lifting_coefficient": 228381906,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    },
+    {
+      "p": 7866608083,
+      "order": 86,
+      "order_factors": {
+        "2": 1,
+        "43": 1
+      },
+      "primality_method": "complete odd trial division through isqrt(p)",
+      "trial_bound": 88693,
+      "exact_order_drop_residues": {
+        "2": 7866608082,
+        "43": 25
+      },
+      "pow_5_order_mod_p_squared": 54907102646640314612,
+      "lifting_coefficient": 6979768417,
+      "s": 1,
+      "classification": "ACTUAL REGULAR PRIME"
+    }
+  ],
+  "diamond_full_p_minus_1_Lucas_certificate": {
+    "p": 6717031,
+    "base": 3,
+    "complete_p_minus_1_factors": [
+      2,
+      3,
+      5,
+      41,
+      43,
+      127
+    ],
+    "full_power_mod_p": 1,
+    "order_drop_residues": {
+      "2": 6717030,
+      "3": 6506909,
+      "5": 4842725,
+      "41": 3767324,
+      "43": 3916997,
+      "127": 58529
+    },
+    "gcd_drop_minus_1_with_p": {
+      "2": 1,
+      "3": 1,
+      "5": 1,
+      "41": 1,
+      "43": 1,
+      "127": 1
+    },
+    "scope": "independent arithmetic method, not independent author or software stack"
+  },
+  "C3_indices": [
+    43,
+    86,
+    127,
+    129,
+    254,
+    258,
+    301,
+    379,
+    381,
+    602,
+    758,
+    762,
+    889,
+    903,
+    1137,
+    1778,
+    1806,
+    2274,
+    2653,
+    2667,
+    5306,
+    5334,
+    7603,
+    7959,
+    15206,
+    15918,
+    19531,
+    22809,
+    39062,
+    45618,
+    53221,
+    58593,
+    106442,
+    117186,
+    136717,
+    159663,
+    273434,
+    319326,
+    410151,
+    519499,
+    820302,
+    1038998,
+    1558497,
+    3116994,
+    3636493,
+    7272986,
+    10909479,
+    21818958
+  ],
+  "C4_fork_pair_records": [
+    {
+      "r": 43,
+      "s": 127,
+      "indices": [
+        5461,
+        10922,
+        16383,
+        32766,
+        38227,
+        76454,
+        114681,
+        229362
+      ]
+    },
+    {
+      "r": 43,
+      "s": 379,
+      "indices": [
+        16297,
+        32594,
+        48891,
+        97782,
+        114079,
+        228158,
+        342237,
+        684474
+      ]
+    },
+    {
+      "r": 43,
+      "s": 7603,
+      "indices": [
+        326929,
+        653858,
+        980787,
+        1961574,
+        2288503,
+        4577006,
+        6865509,
+        13731018
+      ]
+    },
+    {
+      "r": 43,
+      "s": 19531,
+      "indices": [
+        839833,
+        1679666,
+        2519499,
+        5038998,
+        5878831,
+        11757662,
+        17636493,
+        35272986
+      ]
+    },
+    {
+      "r": 43,
+      "s": 519499,
+      "indices": [
+        22338457,
+        44676914,
+        67015371,
+        134030742,
+        156369199,
+        312738398,
+        469107597,
+        938215194
+      ]
+    },
+    {
+      "r": 127,
+      "s": 379,
+      "indices": [
+        48133,
+        96266,
+        144399,
+        288798,
+        336931,
+        673862,
+        1010793,
+        2021586
+      ]
+    },
+    {
+      "r": 127,
+      "s": 7603,
+      "indices": [
+        965581,
+        1931162,
+        2896743,
+        5793486,
+        6759067,
+        13518134,
+        20277201,
+        40554402
+      ]
+    },
+    {
+      "r": 127,
+      "s": 19531,
+      "indices": [
+        2480437,
+        4960874,
+        7441311,
+        14882622,
+        17363059,
+        34726118,
+        52089177,
+        104178354
+      ]
+    },
+    {
+      "r": 127,
+      "s": 519499,
+      "indices": [
+        65976373,
+        131952746,
+        197929119,
+        395858238,
+        461834611,
+        923669222,
+        1385503833,
+        2771007666
+      ]
+    },
+    {
+      "r": 379,
+      "s": 7603,
+      "indices": [
+        2881537,
+        5763074,
+        8644611,
+        17289222,
+        20170759,
+        40341518,
+        60512277,
+        121024554
+      ]
+    },
+    {
+      "r": 379,
+      "s": 19531,
+      "indices": [
+        7402249,
+        14804498,
+        22206747,
+        44413494,
+        51815743,
+        103631486,
+        155447229,
+        310894458
+      ]
+    },
+    {
+      "r": 379,
+      "s": 519499,
+      "indices": [
+        196890121,
+        393780242,
+        590670363,
+        1181340726,
+        1378230847,
+        2756461694,
+        4134692541,
+        8269385082
+      ]
+    },
+    {
+      "r": 7603,
+      "s": 19531,
+      "indices": [
+        148494193,
+        296988386,
+        445482579,
+        890965158,
+        1039459351,
+        2078918702,
+        3118378053,
+        6236756106
+      ]
+    },
+    {
+      "r": 7603,
+      "s": 519499,
+      "indices": [
+        3949750897,
+        7899501794,
+        11849252691,
+        23698505382,
+        27648256279,
+        55296512558,
+        82944768837,
+        165889537674
+      ]
+    },
+    {
+      "r": 19531,
+      "s": 519499,
+      "indices": [
+        10146334969,
+        20292669938,
+        30439004907,
+        60878009814,
+        71024344783,
+        142048689566,
+        213073034349,
+        426146068698
+      ]
+    }
+  ],
+  "C4_fork_indices": [
+    5461,
+    10922,
+    16297,
+    16383,
+    32594,
+    32766,
+    38227,
+    48133,
+    48891,
+    76454,
+    96266,
+    97782,
+    114079,
+    114681,
+    144399,
+    228158,
+    229362,
+    288798,
+    326929,
+    336931,
+    342237,
+    653858,
+    673862,
+    684474,
+    839833,
+    965581,
+    980787,
+    1010793,
+    1679666,
+    1931162,
+    1961574,
+    2021586,
+    2288503,
+    2480437,
+    2519499,
+    2881537,
+    2896743,
+    4577006,
+    4960874,
+    5038998,
+    5763074,
+    5793486,
+    5878831,
+    6759067,
+    6865509,
+    7402249,
+    7441311,
+    8644611,
+    11757662,
+    13518134,
+    13731018,
+    14804498,
+    14882622,
+    17289222,
+    17363059,
+    17636493,
+    20170759,
+    20277201,
+    22206747,
+    22338457,
+    34726118,
+    35272986,
+    40341518,
+    40554402,
+    44413494,
+    44676914,
+    51815743,
+    52089177,
+    60512277,
+    65976373,
+    67015371,
+    103631486,
+    104178354,
+    121024554,
+    131952746,
+    134030742,
+    148494193,
+    155447229,
+    156369199,
+    196890121,
+    197929119,
+    296988386,
+    310894458,
+    312738398,
+    393780242,
+    395858238,
+    445482579,
+    461834611,
+    469107597,
+    590670363,
+    890965158,
+    923669222,
+    938215194,
+    1039459351,
+    1181340726,
+    1378230847,
+    1385503833,
+    2078918702,
+    2756461694,
+    2771007666,
+    3118378053,
+    3949750897,
+    4134692541,
+    6236756106,
+    7899501794,
+    8269385082,
+    10146334969,
+    11849252691,
+    20292669938,
+    23698505382,
+    27648256279,
+    30439004907,
+    55296512558,
+    60878009814,
+    71024344783,
+    82944768837,
+    142048689566,
+    165889537674,
+    213073034349,
+    426146068698
+  ],
+  "C4_fork_count": 120,
+  "C4_serial_schema": "for r in A7; s regular admitted primitive divisor of Phi_(m*r)(5), m in {1,2,3,6,7,14,21,42}; terminal n = delta*7^e*r^f*s, delta|6, e,f in {0,1}",
+  "C4_serial_complete_factor_sets_materialized": false,
+  "C4_serial_actual_examples": [
+    {
+      "first_relay": 43,
+      "second_regular_relay": 9547,
+      "second_relay_order": 86,
+      "terminal_indices": [
+        9547,
+        19094,
+        28641,
+        57282,
+        66829,
+        133658,
+        200487,
+        400974,
+        410521,
+        821042,
+        1231563,
+        2463126,
+        2873647,
+        5747294,
+        8620941,
+        17241882
+      ],
+      "classification": "EXPLICIT REGULAR-STATE INSTANCE; square hits not decided"
+    },
+    {
+      "first_relay": 43,
+      "second_regular_relay": 42743,
+      "second_relay_order": 602,
+      "terminal_indices": [
+        42743,
+        85486,
+        128229,
+        256458,
+        299201,
+        598402,
+        897603,
+        1795206,
+        1837949,
+        3675898,
+        5513847,
+        11027694,
+        12865643,
+        25731286,
+        38596929,
+        77193858
+      ],
+      "classification": "EXPLICIT REGULAR-STATE INSTANCE; square hits not decided"
+    },
+    {
+      "first_relay": 43,
+      "second_regular_relay": 18471511,
+      "second_relay_order": 129,
+      "terminal_indices": [
+        18471511,
+        36943022,
+        55414533,
+        110829066,
+        129300577,
+        258601154,
+        387901731,
+        775803462,
+        794274973,
+        1588549946,
+        2382824919,
+        4765649838,
+        5559924811,
+        11119849622,
+        16679774433,
+        33359548866
+      ],
+      "classification": "EXPLICIT REGULAR-STATE INSTANCE; square hits not decided"
+    },
+    {
+      "first_relay": 43,
+      "second_regular_relay": 558801427,
+      "second_relay_order": 258,
+      "terminal_indices": [
+        558801427,
+        1117602854,
+        1676404281,
+        3352808562,
+        3911609989,
+        7823219978,
+        11734829967,
+        23469659934,
+        24028461361,
+        48056922722,
+        72085384083,
+        144170768166,
+        168199229527,
+        336398459054,
+        504597688581,
+        1009195377162
+      ],
+      "classification": "EXPLICIT REGULAR-STATE INSTANCE; square hits not decided"
+    },
+    {
+      "first_relay": 43,
+      "second_regular_relay": 7866608083,
+      "second_relay_order": 86,
+      "terminal_indices": [
+        7866608083,
+        15733216166,
+        23599824249,
+        47199648498,
+        55066256581,
+        110132513162,
+        165198769743,
+        330397539486,
+        338264147569,
+        676528295138,
+        1014792442707,
+        2029584885414,
+        2367849032983,
+        4735698065966,
+        7103547098949,
+        14207094197898
+      ],
+      "classification": "EXPLICIT REGULAR-STATE INSTANCE; square hits not decided"
+    }
+  ],
+  "C5_diamond_regular_state_terminal_indices": [
+    6717031,
+    13434062,
+    20151093,
+    40302186,
+    47019217,
+    94038434,
+    141057651,
+    282115302,
+    288832333,
+    577664666,
+    853062937,
+    866496999,
+    1706125874,
+    1732993998,
+    2021826331,
+    2559188811,
+    4043652662,
+    5118377622,
+    5971440559,
+    6065478993,
+    11942881118,
+    12130957986,
+    17914321677,
+    35828643354,
+    36681706291,
+    73363412582,
+    110045118873,
+    220090237746,
+    256771944037,
+    513543888074,
+    770315832111,
+    1540631664222
+  ],
+  "critical_integer_identity_checks": [
+    {
+      "regular_state": [
+        7
+      ],
+      "maximal_generators": [
+        7
+      ],
+      "a": 7,
+      "b": 6,
+      "imprimitive_factor_removed": 7,
+      "number_of_expanded_indices": 4,
+      "identity": "Phi_a(5^b) = product_{n in J(R)} Phi_n(5)",
+      "primitive_integer_bit_length": 81,
+      "primitive_integer_sha256_big_endian_unsigned": "0176164d6ca29590f35b6d87a86d27f8791799c35ccd7e8a3525d1ee2628babf",
+      "small_prime_cleanup_checks": 4,
+      "selected_actual_prime_valuations": {},
+      "complete_factorization_claimed": false
+    },
+    {
+      "regular_state": [
+        7,
+        43
+      ],
+      "maximal_generators": [
+        43
+      ],
+      "a": 43,
+      "b": 42,
+      "imprimitive_factor_removed": 43,
+      "number_of_expanded_indices": 8,
+      "identity": "Phi_a(5^b) = product_{n in J(R)} Phi_n(5)",
+      "primitive_integer_bit_length": 4091,
+      "primitive_integer_sha256_big_endian_unsigned": "b7aa6bd3afee0d30fa6372ca219cc312835230f3f0bde550e20df41bb2d5d07a",
+      "small_prime_cleanup_checks": 14,
+      "selected_actual_prime_valuations": {
+        "42743": 1
+      },
+      "complete_factorization_claimed": false
+    },
+    {
+      "regular_state": [
+        7,
+        43,
+        127
+      ],
+      "maximal_generators": [
+        43,
+        127
+      ],
+      "a": 5461,
+      "b": 42,
+      "imprimitive_factor_removed": 1,
+      "number_of_expanded_indices": 8,
+      "identity": "Phi_a(5^b) = product_{n in J(R)} Phi_n(5)",
+      "primitive_integer_bit_length": 516082,
+      "primitive_integer_sha256_big_endian_unsigned": "28ff037c04212b867cac67337ed888ffaf82a5d346f34b4e77662de281211a3c",
+      "small_prime_cleanup_checks": 31,
+      "selected_actual_prime_valuations": {
+        "6717031": 1
+      },
+      "complete_factorization_claimed": false
+    }
+  ],
+  "abstract_dag_enumeration": [
+    {
+      "vertices_including_formal_root": 2,
+      "regular_support_dags": 1,
+      "root_support_comparisons": 1,
+      "accepted_full_basin_support_dags": 1,
+      "accepted_by_formula": 1,
+      "regular_state_maximal_width_histogram": {
+        "1": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    },
+    {
+      "vertices_including_formal_root": 3,
+      "regular_support_dags": 1,
+      "root_support_comparisons": 3,
+      "accepted_full_basin_support_dags": 2,
+      "accepted_by_formula": 2,
+      "regular_state_maximal_width_histogram": {
+        "1": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    },
+    {
+      "vertices_including_formal_root": 4,
+      "regular_support_dags": 3,
+      "root_support_comparisons": 21,
+      "accepted_full_basin_support_dags": 10,
+      "accepted_by_formula": 10,
+      "regular_state_maximal_width_histogram": {
+        "1": 2,
+        "2": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    },
+    {
+      "vertices_including_formal_root": 5,
+      "regular_support_dags": 21,
+      "root_support_comparisons": 315,
+      "accepted_full_basin_support_dags": 122,
+      "accepted_by_formula": 122,
+      "regular_state_maximal_width_histogram": {
+        "1": 10,
+        "2": 10,
+        "3": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    },
+    {
+      "vertices_including_formal_root": 6,
+      "regular_support_dags": 315,
+      "root_support_comparisons": 9765,
+      "accepted_full_basin_support_dags": 3346,
+      "accepted_by_formula": 3346,
+      "regular_state_maximal_width_histogram": {
+        "1": 122,
+        "2": 156,
+        "3": 36,
+        "4": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    },
+    {
+      "vertices_including_formal_root": 7,
+      "regular_support_dags": 9765,
+      "root_support_comparisons": 615195,
+      "accepted_full_basin_support_dags": 196082,
+      "accepted_by_formula": 196082,
+      "regular_state_maximal_width_histogram": {
+        "1": 3346,
+        "2": 4766,
+        "3": 1536,
+        "4": 116,
+        "5": 1
+      },
+      "classification": "ABSTRACT SORTED SUPPORT DAGS; arithmetic labels not instantiated"
+    }
+  ],
+  "actual_regular_fork_mask": {
+    "classification": "ACTUAL REGULAR PARTIAL SYSTEM, NOT A COMPLETE CERTIFICATE",
+    "rows": [
+      7,
+      43,
+      127
+    ],
+    "anchor": 1,
+    "K": 2,
+    "E": [
+      1
+    ],
+    "a": 152908,
+    "residues_mod_prime_squared": {
+      "7": 33,
+      "43": 1428,
+      "127": 11159
+    },
+    "coarse_U_without_a_nonregular_root": 42,
+    "full_period_L": 229362,
+    "branch": "d = 4 mod 6",
+    "branch_exponents": 38227,
+    "covered_branch_exponents": 38226,
+    "holes": [
+      152908
+    ],
+    "direct_row_comparisons": 114681,
+    "warning": "U != L for this partial system; a hypothetical root was NOT added"
+  },
+  "negative_regressions": [
+    "42743 does not have compressed order 86",
+    "6717031 does not have order 43",
+    "6717031 does not have order 127",
+    "composite label rejected",
+    "imprimitive 7 cannot have order 42",
+    "nonclosed basin rejected",
+    "actual regular diamond explicitly fails B7 nonregularity",
+    "both possible diamond spine multipliers lie outside the proposed eight",
+    "omitting a mandatory fork maximum rejected",
+    "shared 7 counted once by closure union",
+    "naive additive size is 5 but exact terminal basin cost is 4",
+    "actual regular 31 rejected as an extra basal gateway",
+    "squarefree-order violation rejected",
+    "unadmitted prime factor cannot serve as an admitted relay"
+  ],
+  "B7_member_found": false,
+  "B7_empty_proved": false,
+  "global_finite_critical_family_proved": false,
+  "all_GitHub_writes": []
+}
