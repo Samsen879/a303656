@@ -1,0 +1,17 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "REPORT.md": "3c541501e8c9408416d0ef5c1a49b1a641d0e7e6c2fdd88e70d2370ebf8bdf3b",
+    "README.md": "d8309e0284d6734a4e652daf006928902f651601a16fe98f3140c6dbcb105f53",
+    "verify_sqd.py": "8963c76f474e8614052686f1840258b4357cf8c5426cab841e9977df4bb952e1",
+    "SOURCE_BINDING.json": "0c5fcbbae8212b7ae0409137c49c2d20c6f995cf056e9e7547f741e035780705",
+    "REVIEW_STATUS.json": "f8d88820fdd01bd57ef270c704427f573da3982922d35275fd4ea577d1c75997",
+    "results/abstract_marked_model.json": "6bfc6404e86a949b9f98dbc963d5c4ae524ab258f4dae905a061ed0c4d8fff42",
+    "results/states.json": "12454365b6139ff0a937070c7e56127fc8f375458ae2db2358c8d27636f5cc19",
+    "results/summary.json": "3e5249cea9ff838d9a87194d5e3eabcd4b8eff1e88972a7dce9d9bc8cc2b2ca0",
+    "results/toy_cyclotomic_critical.json": "b00c885e26a42ac49a50c10f70b571790a5b04f999ea4ca271cf05480c0a1300",
+    "results/toy_same_root.json": "61cf466b1fe0cccf6c8ae554a8a708e099fbf9555c2f2a11f8c3e4896e91f727",
+    "results/vertices.json": "776eddc6ff2ec1bac45cc4aa03850aaf98d5121cef9e21a9190cb29b61e12a2f"
+  },
+  "manifest_self_hash_excluded": true
+}

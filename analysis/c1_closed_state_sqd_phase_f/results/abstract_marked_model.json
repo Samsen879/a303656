@@ -1,0 +1,16 @@
+{
+  "label": "ABSTRACT MARKED-INDEX MODEL; NO ACTUAL BASE-5 ROOT CLAIMED",
+  "R": [
+    7,
+    43,
+    127
+  ],
+  "A": [
+    43,
+    127
+  ],
+  "marked_index": 5461,
+  "all_other_indices_unmarked": true,
+  "no_actual_q_assigned": true,
+  "purpose": "closure geometry and index localization alone cannot imply a different-root transfer"
+}

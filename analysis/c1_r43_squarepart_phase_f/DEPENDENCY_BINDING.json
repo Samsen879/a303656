@@ -1,0 +1,58 @@
+{
+  "schema": "a303656.phase-f-dependency-binding",
+  "version": 1,
+  "phase_f_package": "r43_squarepart_phase_f",
+  "producer_source_gap": {
+    "preserved": true,
+    "claim": "Requested Phase E source bundles were unavailable to the producer session",
+    "producer_files_unchanged": ["README.md", "REPORT.md", "SOURCE_BINDING.json", "STATUS.json"]
+  },
+  "local_dependency_reconciliation": "PASS",
+  "reconciliation_receipts": {
+    "C903_BYTE_IDENTITY": "PASS",
+    "C1806_BYTE_IDENTITY": "PASS",
+    "C903": {
+      "phase_e_path": "cofactors/C_903.txt",
+      "phase_f_path": "C903.txt",
+      "sha256": "07dff3e4b33a6e893c24f83f07dbac243b48c25b3f48b334c821035064804e7b",
+      "byte_identity": "PASS"
+    },
+    "C1806": {
+      "phase_e_path": "cofactors/C_1806.txt",
+      "phase_f_path": "C1806.txt",
+      "sha256": "39cbbcdb3b186c1672471af958ec63bd5f91967b8bd7d7c37857a11f79a4eb44",
+      "byte_identity": "PASS"
+    }
+  },
+  "dependencies": [
+    {
+      "package": "b7_three_vertex_phase_e",
+      "role": "hard",
+      "phase_e_outer_sha256": "3ae71d5474a25a7951eca8586b683f8debdd80d38b0167912e08e3f9aab940e7",
+      "phase_e_destination_directory": "analysis/c1_b7_three_vertex_phase_e",
+      "phase_e_draft_pr_number": 31,
+      "phase_e_draft_pr_head_sha": "155b5cda307ebb48201786d3ffb6c034e7a7e224",
+      "relevant_source_payload_files": [
+        {"path": "cofactors/C_903.txt", "size": 334, "sha256": "07dff3e4b33a6e893c24f83f07dbac243b48c25b3f48b334c821035064804e7b"},
+        {"path": "cofactors/C_1806.txt", "size": 338, "sha256": "39cbbcdb3b186c1672471af958ec63bd5f91967b8bd7d7c37857a11f79a4eb44"},
+        {"path": "REPORT.md", "size": 24065, "sha256": "8a75afa6d7caf7dd8118de221ea0328a213508fc85a7339e0fe5a2eb6ba08a07"}
+      ],
+      "local_cross_binding_result": "PASS"
+    },
+    {
+      "package": "cyclotomic_wieferich_terminal_phase_e",
+      "role": "hard",
+      "phase_e_outer_sha256": "b829b97178aed9be4feecca150cc22b2fc865d84a769d3c9552aa768af72b903",
+      "phase_e_destination_directory": "analysis/c1_cyclotomic_wieferich_terminal_phase_e",
+      "phase_e_draft_pr_number": 33,
+      "phase_e_draft_pr_head_sha": "3b401e7926b005cf452b96f4860a8640657499f9",
+      "relevant_source_payload_files": [
+        {"path": "REPORT.md", "size": 26616, "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9"},
+        {"path": "evidence.json", "size": 22991, "sha256": "aef5325c411e330b72858c2797df17a2058f8c2fc7ac1802eaa4d392057f9dcd"}
+      ],
+      "local_cross_binding_result": "PASS"
+    }
+  ],
+  "repository_dependency_status": "BOUND_TO_MERGED_REPOSITORY",
+  "merge_blocked": false
+}

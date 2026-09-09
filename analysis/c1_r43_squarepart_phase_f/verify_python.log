@@ -1,0 +1,8 @@
+PASS: neighbor exact partial products; small-prime trial proofs (no residual prime claim)
+PASS: arithmetic; signed/product identities; exact order; multiplicities; composite/nonsquare witnesses; 34 Lucas prime nodes
+REJECTED mutation: prime witness
+REJECTED mutation: prime predecessor exponent
+REJECTED mutation: false repeated prime
+REJECTED mutation: residual mutation
+REJECTED mutation: false PRP
+REJECTED mutation: missing exact-order test

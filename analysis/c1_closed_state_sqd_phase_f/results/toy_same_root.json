@@ -1,0 +1,44 @@
+{
+  "label": "ACTUAL ARITHMETIC AT DIFFERENT BASE; NOT A BASE-5 COUNTEREXAMPLE",
+  "base": 3589,
+  "q": 863,
+  "order": 862,
+  "q_square_modular_residue": 1,
+  "R": [
+    7,
+    43,
+    431
+  ],
+  "order_drop_checks": {
+    "2": 862,
+    "431": 646
+  },
+  "regular_vertices": [
+    {
+      "p": 7,
+      "order": 6,
+      "mod_p_squared": 22
+    },
+    {
+      "p": 43,
+      "order": 42,
+      "mod_p_squared": 173
+    },
+    {
+      "p": 431,
+      "order": 86,
+      "mod_p_squared": 116802
+    }
+  ],
+  "proper_closed_substates": [
+    [
+      7
+    ],
+    [
+      7,
+      43
+    ]
+  ],
+  "SQD_strong_same_root": "IMPOSSIBLE by exact order, even above the two-vertex stop",
+  "SQD_root_different_root": "NOT DECIDED; proper-state squarefreeness not certified"
+}
