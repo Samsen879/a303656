@@ -31,7 +31,7 @@
       "phase_e_outer_sha256": "3ae71d5474a25a7951eca8586b683f8debdd80d38b0167912e08e3f9aab940e7",
       "phase_e_destination_directory": "analysis/c1_b7_three_vertex_phase_e",
       "phase_e_draft_pr_number": 31,
-      "phase_e_draft_pr_head_sha": "6eb347fa7e1e61c764219bbd1bea1b27981e92dd",
+      "phase_e_draft_pr_head_sha": "155b5cda307ebb48201786d3ffb6c034e7a7e224",
       "relevant_source_payload_files": [
         {"path": "cofactors/C_903.txt", "size": 334, "sha256": "07dff3e4b33a6e893c24f83f07dbac243b48c25b3f48b334c821035064804e7b"},
         {"path": "cofactors/C_1806.txt", "size": 338, "sha256": "39cbbcdb3b186c1672471af958ec63bd5f91967b8bd7d7c37857a11f79a4eb44"},
@@ -45,7 +45,7 @@
       "phase_e_outer_sha256": "b829b97178aed9be4feecca150cc22b2fc865d84a769d3c9552aa768af72b903",
       "phase_e_destination_directory": "analysis/c1_cyclotomic_wieferich_terminal_phase_e",
       "phase_e_draft_pr_number": 33,
-      "phase_e_draft_pr_head_sha": "a892f705f43f7c2090c25291944fb6581e4cb5e1",
+      "phase_e_draft_pr_head_sha": "3b401e7926b005cf452b96f4860a8640657499f9",
       "relevant_source_payload_files": [
         {"path": "REPORT.md", "size": 26616, "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9"},
         {"path": "evidence.json", "size": 22991, "sha256": "aef5325c411e330b72858c2797df17a2058f8c2fc7ac1802eaa4d392057f9dcd"}
@@ -53,6 +53,6 @@
       "local_cross_binding_result": "PASS"
     }
   ],
-  "repository_dependency_status": "PENDING_MERGE",
-  "merge_blocked": true
+  "repository_dependency_status": "BOUND_TO_MERGED_REPOSITORY",
+  "merge_blocked": false
 }

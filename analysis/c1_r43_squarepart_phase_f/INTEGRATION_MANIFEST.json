@@ -363,18 +363,18 @@
     },
     {
       "path": "DEPENDENCY_BINDING.json",
-      "size": 2633,
-      "sha256": "cec4080d81dbc5ccc80832e6213066ceb1e2640af746d6d456b6661ccea17d06"
+      "size": 2647,
+      "sha256": "dc58f7d165aefd059bedf5878f0a5d01dcc606ac160a7c53a041b7e38597daaa"
     },
     {
       "path": "INTEGRATION.md",
-      "size": 2702,
-      "sha256": "ec848dd2e67baae15ebba352b0ca144f1b09e44c9ed60fc8e8db7f8728451101"
+      "size": 2590,
+      "sha256": "38402096f165bd7441897eee87978a9e953baad36bc8e214693a1217d7db419e"
     },
     {
       "path": "tests/test_integration_scope.py",
-      "size": 2921,
-      "sha256": "fc9b0e3c58e5b360f1c9a6c398183d825878ea539cfa585d5364147b1e922172"
+      "size": 2935,
+      "sha256": "e5edd570909b2047cdc165cd3667e594b0963f292dae5be3461747b2dd31dfb7"
     },
     {
       "path": "verify_integration.py",
