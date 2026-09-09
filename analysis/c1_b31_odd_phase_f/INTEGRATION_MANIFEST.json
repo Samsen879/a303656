@@ -68,13 +68,13 @@
   "repository_native_files": [
     {
       "path": "INTEGRATION.md",
-      "size": 2375,
-      "sha256": "1e4f6b5b8e8a0a95dfd7d656e28f103f07dde9c7368ed01888362be39130cdeb"
+      "size": 2232,
+      "sha256": "238bf25d4c8e6a72d60e373096a1d9a785d889a5a3a95a014aab900c959cf7c7"
     },
     {
       "path": "DEPENDENCY_BINDING.json",
-      "size": 1658,
-      "sha256": "0de9a8613929b6b1bba433f93060bada9d6c9e847bc67401f61643ab6d40b05f"
+      "size": 1672,
+      "sha256": "436d1f4841455eabb5fb8c952bacd6e3f1f99da1385fbc0a67bbb1c36034871f"
     },
     {
       "path": "verify_integration.py",
@@ -83,8 +83,8 @@
     },
     {
       "path": "tests/test_integration_scope.py",
-      "size": 2691,
-      "sha256": "f1628cd377f6cedec6a3eeab320d7027bd8bb3bacb0466bd9f7c838255bfe262"
+      "size": 2705,
+      "sha256": "e2c77cd7377429a44a5b3606bbeace9b26b870dd3d8980c3442ff823c1e66fb8"
     }
   ],
   "source_replay": {

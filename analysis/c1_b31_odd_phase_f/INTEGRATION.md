@@ -12,9 +12,9 @@ Repository: `Samsen879/a303656` (ID `1333945235`). Research and integration base
 
 The producer session did not have the requested Phase E source package available. The producer source artifact and its historical source-gap statements are preserved unchanged. Repository integration independently reconciled its O31 interface against authenticated local Phase E Seven-Basin source from Draft PR #32. O31 remains E3 authority; this package owns the B31 arithmetic classification. `O31_SOURCE_RECONCILIATION: PASS`.
 
-Local dependency reconciliation: PASS. Repository dependency status: PENDING_MERGE. `merge_blocked=true`.
+Local dependency reconciliation: PASS. Repository dependency status: BOUND_TO_MERGED_REPOSITORY. `merge_blocked=false`.
 
-**MERGE STATUS: BLOCKED UNTIL THE REQUIRED PHASE E PR IS MERGED, THIS BRANCH IS REFRESHED ON NEW MAIN, AND STRICT DEPENDENCY REPLAY PASSES.** Before any future merge, update this branch onto Phase-E-complete main, change the receipt to `BOUND_TO_MERGED_REPOSITORY`, and run `python3 -B verify_integration.py --require-merged-dependencies`.
+The required Phase E PR is merged and this branch is refreshed on Phase-E-complete main. `python3 -B verify_integration.py --require-merged-dependencies` is the mandatory merge gate.
 
 ## What is proved and not proved
 
