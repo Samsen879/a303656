@@ -1,0 +1,1307 @@
+[
+  {
+    "n": 43,
+    "q": "1644512641",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 43,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "47477430226862534",
+    "lifting_coefficient": "28870213",
+    "order_drop_residues": {
+      "43": "5"
+    }
+  },
+  {
+    "n": 43,
+    "q": "172827552198815888791",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 43,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1136868377216160297393798828125",
+    "lifting_coefficient": "6578050564",
+    "order_drop_residues": {
+      "43": "5"
+    }
+  },
+  {
+    "n": 86,
+    "q": "1549",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 86,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1411140",
+    "lifting_coefficient": "911",
+    "order_drop_residues": {
+      "2": "1548",
+      "43": "25"
+    }
+  },
+  {
+    "n": 86,
+    "q": "9547",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 86,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "65578344",
+    "lifting_coefficient": "6869",
+    "order_drop_residues": {
+      "2": "9546",
+      "43": "25"
+    }
+  },
+  {
+    "n": 86,
+    "q": "7866608083",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 86,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "54907102646640314612",
+    "lifting_coefficient": "6979768417",
+    "order_drop_residues": {
+      "2": "7866608082",
+      "43": "25"
+    }
+  },
+  {
+    "n": 86,
+    "q": "1628744948329",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 86,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "52076985671152441566054",
+    "lifting_coefficient": "31973689757",
+    "order_drop_residues": {
+      "2": "1628744948328",
+      "43": "25"
+    }
+  },
+  {
+    "n": 127,
+    "q": "14693679385278593849609206715278070972733319459651094018859396328480215743184089660644531",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 127,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "58774717541114375398436826861112283890933277838604376075437585313920862972736358642578125",
+    "lifting_coefficient": "4",
+    "order_drop_residues": {
+      "127": "5"
+    }
+  },
+  {
+    "n": 129,
+    "q": "18471511",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 129,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "201991551181323",
+    "lifting_coefficient": "10935302",
+    "order_drop_residues": {
+      "3": "16800299",
+      "43": "125"
+    }
+  },
+  {
+    "n": 129,
+    "q": "43955934961951833386625799",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 129,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "607240602822294137457319867131539371349661705856092",
+    "lifting_coefficient": "13814757969496504861156109",
+    "order_drop_residues": {
+      "3": "36031295200030515495788588",
+      "43": "125"
+    }
+  },
+  {
+    "n": 129,
+    "q": "51349797354047205216257689",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 129,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1043009581990132630308382719550058097200420172650975",
+    "lifting_coefficient": "20311853906623574809991566",
+    "order_drop_residues": {
+      "3": "35213594909221111069851354",
+      "43": "125"
+    }
+  },
+  {
+    "n": 254,
+    "q": "509",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 254,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "59554",
+    "lifting_coefficient": "117",
+    "order_drop_residues": {
+      "2": "508",
+      "127": "25"
+    }
+  },
+  {
+    "n": 254,
+    "q": "2287",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 254,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "4475660",
+    "lifting_coefficient": "1957",
+    "order_drop_residues": {
+      "2": "2286",
+      "127": "25"
+    }
+  },
+  {
+    "n": 254,
+    "q": "2735581",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 254,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "6792518748107",
+    "lifting_coefficient": "2483026",
+    "order_drop_residues": {
+      "2": "2735580",
+      "127": "25"
+    }
+  },
+  {
+    "n": 254,
+    "q": "3076137716865400512817630590222174947182195052472086065321936995866231846027",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 254,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "9462623253121878970597027824260564356633700817313117243201075989696684642134324647891143594761437777431258050607603112377348180385101803328626950528478",
+    "lifting_coefficient": "3076137716865400512817630590222174947182195052472086065321936957652911799351",
+    "order_drop_residues": {
+      "2": "3076137716865400512817630590222174947182195052472086065321936995866231846026",
+      "127": "25"
+    }
+  },
+  {
+    "n": 258,
+    "q": "327845761",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 258,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "70969975733304393",
+    "lifting_coefficient": "216473672",
+    "order_drop_residues": {
+      "2": "327845760",
+      "3": "198784389",
+      "43": "15625"
+    }
+  },
+  {
+    "n": 258,
+    "q": "558801427",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 258,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "127620134973779863",
+    "lifting_coefficient": "228381906",
+    "order_drop_residues": {
+      "2": "558801426",
+      "3": "541209974",
+      "43": "15625"
+    }
+  },
+  {
+    "n": 258,
+    "q": "1420986601",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 258,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "526705739762821804",
+    "lifting_coefficient": "370662003",
+    "order_drop_residues": {
+      "2": "1420986600",
+      "3": "980998832",
+      "43": "15625"
+    }
+  },
+  {
+    "n": 258,
+    "q": "236419892853700126919767791480523",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 258,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "41343556412594025612344437870751027668532220748909060704448489357",
+    "lifting_coefficient": "174873425047096123598364461127972",
+    "order_drop_residues": {
+      "2": "236419892853700126919767791480522",
+      "3": "1136868377216160297393798828124",
+      "43": "15625"
+    }
+  },
+  {
+    "n": 301,
+    "q": "66221",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 301,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1486197904",
+    "lifting_coefficient": "22443",
+    "order_drop_residues": {
+      "7": "60757",
+      "43": "11904"
+    }
+  },
+  {
+    "n": 301,
+    "q": "3595452428681",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 301,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "9611910772639491893054871",
+    "lifting_coefficient": "2673352231270",
+    "order_drop_residues": {
+      "7": "643534913384",
+      "43": "78125"
+    }
+  },
+  {
+    "n": 301,
+    "q": "453098474981964966729037498128705243871",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 301,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "89411542374594162902722989323689459212593577086588795456262773788541950350667",
+    "lifting_coefficient": "197333576057948728501913638147647110646",
+    "order_drop_residues": {
+      "7": "1136868377216160297393798828125",
+      "43": "78125"
+    }
+  },
+  {
+    "n": 301,
+    "q": "1024695328986282069992499825233134533904997483977104628437112381314174950866343474485790683881553166943169107370165052251",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 301,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "2454546732648863276547885977493137821487607756249724782555774558593552627360857928230048942018665976138591785782565939256583959305212359451403757412054481726126552732229930964269470905492198653519153594970703125",
+    "lifting_coefficient": "2395391745444096869550999752814131554093700842306337009446293847911059853607581422800224124",
+    "order_drop_residues": {
+      "7": "1136868377216160297393798828125",
+      "43": "78125"
+    }
+  },
+  {
+    "n": 379,
+    "q": "15919",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 379,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "145006172",
+    "lifting_coefficient": "9109",
+    "order_drop_residues": {
+      "379": "5"
+    }
+  },
+  {
+    "n": 379,
+    "q": "19709",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 379,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "171468301",
+    "lifting_coefficient": "8700",
+    "order_drop_residues": {
+      "379": "5"
+    }
+  },
+  {
+    "n": 379,
+    "q": "154593500445308877590595293456916511",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 379,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "9431658550225675660064837117511516372782747919706100790129542494533365",
+    "lifting_coefficient": "61009411929076208970400665691626124",
+    "order_drop_residues": {
+      "379": "5"
+    }
+  },
+  {
+    "n": 379,
+    "q": "41860079499485222307790780950329804339254636245435997529042203803559017464055721228065828012877736510442196227999749027441133636793780515165996915707368994923112234114211497494818757357039023864566980225773307642997757251",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 379,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "8121413879410077514476878578657739349835580319043505861139393027966325433245758316583703772978509715934926691384802866709126628295819605448898260344563775291003892799154224214024508226138380181891049046978498275364424951083992809675038415662129409611225128173828125",
+    "lifting_coefficient": "194013341028412314755142423064558993904179124",
+    "order_drop_residues": {
+      "379": "5"
+    }
+  },
+  {
+    "n": 381,
+    "q": "17365824770202511",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 381,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "40351506330185164034804508917986",
+    "lifting_coefficient": "2323615887189135",
+    "order_drop_residues": {
+      "3": "4329627248663395",
+      "127": "125"
+    }
+  },
+  {
+    "n": 381,
+    "q": "2146271536375625882474712607488854837881",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 381,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1825871972667649486552271194902581507076025993476873975591352968505227057199847",
+    "lifting_coefficient": "850718066993037623689023175781922543766",
+    "order_drop_residues": {
+      "3": "1993669585423119050890551739272487924223",
+      "127": "125"
+    }
+  },
+  {
+    "n": 381,
+    "q": "12882995722731844746940951540119250212241259630747509",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 381,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1451952711991090952219406101087256401862563158531267980593482924416965458353342360351131428445986928882",
+    "lifting_coefficient": "112703034545695227424281407989094103278700616605709",
+    "order_drop_residues": {
+      "3": "11467209033503928280015431007003124137606358846113394",
+      "127": "125"
+    }
+  },
+  {
+    "n": 381,
+    "q": "232071850047734595810657641340191685995462669499867768115441253013859",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 381,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "51674970047214138586228295035826606102587847357768737606557055378447562440336921474505032320696344324944857223376217847930605414387984253",
+    "lifting_coefficient": "222667979923395157855678733736728683000982217043987182722986092351828",
+    "order_drop_residues": {
+      "3": "213152321376328890775333109128996988116715820219857002870648907465141",
+      "127": "125"
+    }
+  },
+  {
+    "n": 602,
+    "q": "14449",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "193891132",
+    "lifting_coefficient": "13419",
+    "order_drop_residues": {
+      "2": "14448",
+      "7": "14385",
+      "43": "12392"
+    }
+  },
+  {
+    "n": 602,
+    "q": "42743",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1230955658",
+    "lifting_coefficient": "28799",
+    "order_drop_residues": {
+      "2": "42742",
+      "7": "9814",
+      "43": "28940"
+    }
+  },
+  {
+    "n": 602,
+    "q": "176989",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "12650288776",
+    "lifting_coefficient": "71475",
+    "order_drop_residues": {
+      "2": "176988",
+      "7": "148072",
+      "43": "49960"
+    }
+  },
+  {
+    "n": 602,
+    "q": "26041733579107",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "553035632881437464830924037",
+    "lifting_coefficient": "21236513736748",
+    "order_drop_residues": {
+      "2": "26041733579106",
+      "7": "1005541855597",
+      "43": "6103515625"
+    }
+  },
+  {
+    "n": 602,
+    "q": "71398356223351054354479829866663025664388644310993593530081301",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1459300038943949421256266588663981643324155567541582860630973338696577342381706972218702985978622469375820843988141007262252",
+    "lifting_coefficient": "20438846440370581067863668285454234167425949993341580421445951",
+    "order_drop_residues": {
+      "2": "71398356223351054354479829866663025664388644310993593530081300",
+      "7": "1292469707114105741986576081359316958696581423282623291015625",
+      "43": "6103515625"
+    }
+  },
+  {
+    "n": 602,
+    "q": "815848665960876101737817318523947330508259341603714676894206499333984664006434088162821",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 602,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "130227666002497293148337413744196641582460346364256710441572203998715764730660320571397978854528442431551433840131192599197110293617040621245460646253524323586048558245453595",
+    "lifting_coefficient": "159622331243405306979170603897222164810500044632524070900850022453917849456734284252114",
+    "order_drop_residues": {
+      "2": "815848665960876101737817318523947330508259341603714676894206499333984664006434088162820",
+      "7": "1292469707114105741986576081359316958696581423282623291015625",
+      "43": "6103515625"
+    }
+  },
+  {
+    "n": 758,
+    "q": "4549",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 758,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "6095661",
+    "lifting_coefficient": "1340",
+    "order_drop_residues": {
+      "2": "4548",
+      "379": "25"
+    }
+  },
+  {
+    "n": 758,
+    "q": "37850067509",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 758,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "766957680234010219041",
+    "lifting_coefficient": "20263046560",
+    "order_drop_residues": {
+      "2": "37850067508",
+      "379": "25"
+    }
+  },
+  {
+    "n": 758,
+    "q": "1343210014472411202426336065918923",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 758,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "463936440556156769110795918813612152941549728078050618344764896963",
+    "lifting_coefficient": "345393821932144155665298585663494",
+    "order_drop_residues": {
+      "2": "1343210014472411202426336065918922",
+      "379": "25"
+    }
+  },
+  {
+    "n": 758,
+    "q": "5852667834365265642377407987102078112780734782396261068400422031577661759789757267376446582248467291768158865972429662727624006457139348054081628782862674240955984786641570754883282726024586372368002670342607737181047",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 758,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "34253720779413808508148625018315419396006434863157622543967741021895786903808986023643168430568494517772189695594000595117378691089821690179478304984201964617107766927037117979859581388933689778196234095164145939949443977141447022484949852668173455743380593867443558792230235919468976477081755592436291954209179555137727110457743818319079551389157179999298207527050626173903928467325384024140921701006853159590941548074924697708359958",
+    "lifting_coefficient": "5852667834365265642377407987102078112780734782396261068400422031577661759789757267376446582248467291768158865972429662727624006457139348054081628782862674240955984786638795468771290053117929210719896427027110508792531",
+    "order_drop_residues": {
+      "2": "5852667834365265642377407987102078112780734782396261068400422031577661759789757267376446582248467291768158865972429662727624006457139348054081628782862674240955984786641570754883282726024586372368002670342607737181046",
+      "379": "25"
+    }
+  },
+  {
+    "n": 762,
+    "q": "23623",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "424410819",
+    "lifting_coefficient": "17966",
+    "order_drop_residues": {
+      "2": "23622",
+      "3": "18390",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 762,
+    "q": "88128349",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "2352601787144425",
+    "lifting_coefficient": "26695176",
+    "order_drop_residues": {
+      "2": "88128348",
+      "3": "53836539",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 762,
+    "q": "2906725201",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "7727817997425937843",
+    "lifting_coefficient": "2658599442",
+    "order_drop_residues": {
+      "2": "2906725200",
+      "3": "2629417485",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 762,
+    "q": "967413475393459207",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "433112746890795597250755056382886460",
+    "lifting_coefficient": "447701792364059437",
+    "order_drop_residues": {
+      "2": "967413475393459206",
+      "3": "274347231522921435",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 762,
+    "q": "560679020564216733169",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "300236629928628559577719476997812798154304",
+    "lifting_coefficient": "535487540850908829487",
+    "order_drop_residues": {
+      "2": "560679020564216733168",
+      "3": "218461983116436653537",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 762,
+    "q": "50116497076043011292644300325792931605363741164567945635824747420212771457187363742792084016298108729590292265691341",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 762,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1894633950156999285323389147161189840995531925999607460732154326909595541360931673935880008628270950879556763849371220675790002396950897280076288161380681809913156883555398258796911841347822208527175426915894364787023844321122085314",
+    "lifting_coefficient": "37804596504065795469520797204110604580683563091714366239915758827943726761367176820747900219673029762736358234346693",
+    "order_drop_residues": {
+      "2": "50116497076043011292644300325792931605363741164567945635824747420212771457187363742792084016298108729590292265691340",
+      "3": "58774717541114375398436826861112283890933277838604376075437585313920862972736358642578124",
+      "127": "15625"
+    }
+  },
+  {
+    "n": 903,
+    "q": "149930509",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 903,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "14113431093273351",
+    "lifting_coefficient": "94133150",
+    "order_drop_residues": {
+      "3": "58500951",
+      "7": "149715193",
+      "43": "116476142"
+    }
+  },
+  {
+    "n": 903,
+    "q": "1562986310551",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 903,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "2062342137767519722156832",
+    "lifting_coefficient": "1319488292281",
+    "order_drop_residues": {
+      "3": "1486599500658",
+      "7": "696560587345",
+      "43": "126333485070"
+    }
+  },
+  {
+    "n": 1778,
+    "q": "4283203",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 1778,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "3227264964411",
+    "lifting_coefficient": "753470",
+    "order_drop_residues": {
+      "2": "4283202",
+      "7": "1963061",
+      "127": "4234553"
+    }
+  },
+  {
+    "n": 1806,
+    "q": "43",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 42,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1807",
+    "lifting_coefficient": "42",
+    "order_drop_residues": {
+      "2": "42",
+      "3": "36",
+      "7": "16"
+    }
+  },
+  {
+    "n": 1806,
+    "q": "246201060546547",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 1806,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "30354628014443708360737128724",
+    "lifting_coefficient": "123292027853409",
+    "order_drop_residues": {
+      "2": "246201060546546",
+      "3": "118327848264554",
+      "7": "88604313855050",
+      "43": "87873412422628"
+    }
+  },
+  {
+    "n": 2274,
+    "q": "6823",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 2274,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "33917134",
+    "lifting_coefficient": "4971",
+    "order_drop_residues": {
+      "2": "6822",
+      "3": "4137",
+      "379": "1979"
+    }
+  },
+  {
+    "n": 2667,
+    "q": "133351",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 2667,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "4093608999",
+    "lifting_coefficient": "30698",
+    "order_drop_residues": {
+      "3": "35792",
+      "7": "36999",
+      "127": "50033"
+    }
+  },
+  {
+    "n": 5306,
+    "q": "2642389",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 5306,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "6014880650257",
+    "lifting_coefficient": "2276304",
+    "order_drop_residues": {
+      "2": "2642388",
+      "7": "458969",
+      "379": "2239424"
+    }
+  },
+  {
+    "n": 5334,
+    "q": "127",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 42,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "15495",
+    "lifting_coefficient": "122",
+    "order_drop_residues": {
+      "2": "126",
+      "3": "19",
+      "7": "4"
+    }
+  },
+  {
+    "n": 7603,
+    "q": "760301",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 7603,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "517628126821",
+    "lifting_coefficient": "680820",
+    "order_drop_residues": {
+      "7603": "5"
+    }
+  },
+  {
+    "n": 7603,
+    "q": "1262099",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 7603,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "400883029569",
+    "lifting_coefficient": "317632",
+    "order_drop_residues": {
+      "7603": "5"
+    }
+  },
+  {
+    "n": 7959,
+    "q": "379",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 21,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "18951",
+    "lifting_coefficient": "50",
+    "order_drop_residues": {
+      "3": "51",
+      "7": "125"
+    }
+  },
+  {
+    "n": 7959,
+    "q": "7401871",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 7959,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "20577697305358",
+    "lifting_coefficient": "2780067",
+    "order_drop_residues": {
+      "3": "40077",
+      "7": "1034022",
+      "379": "5203410"
+    }
+  },
+  {
+    "n": 15918,
+    "q": "111427",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 15918,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "10088043446",
+    "lifting_coefficient": "90535",
+    "order_drop_residues": {
+      "2": "111426",
+      "3": "105811",
+      "7": "33453",
+      "379": "71710"
+    }
+  },
+  {
+    "n": 19531,
+    "q": "3326871479",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 19531,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "7527729714644652785",
+    "lifting_coefficient": "2262705296",
+    "order_drop_residues": {
+      "19531": "5"
+    }
+  },
+  {
+    "n": 39062,
+    "q": "11835787",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 39062,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "13390535980321",
+    "lifting_coefficient": "1131360",
+    "order_drop_residues": {
+      "2": "11835786",
+      "19531": "25"
+    }
+  },
+  {
+    "n": 106442,
+    "q": "319327",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 106442,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "8813425201",
+    "lifting_coefficient": "27600",
+    "order_drop_residues": {
+      "2": "319326",
+      "7": "281298",
+      "7603": "218674"
+    }
+  },
+  {
+    "n": 117186,
+    "q": "42304147",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 117186,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1144891809800010",
+    "lifting_coefficient": "27063347",
+    "order_drop_residues": {
+      "2": "42304146",
+      "3": "18545540",
+      "19531": "15625"
+    }
+  },
+  {
+    "n": 136717,
+    "q": "19531",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 7,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "78125",
+    "lifting_coefficient": "4",
+    "order_drop_residues": {
+      "7": "5"
+    }
+  },
+  {
+    "n": 136717,
+    "q": "546869",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 136717,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "200995138523",
+    "lifting_coefficient": "367538",
+    "order_drop_residues": {
+      "7": "39482",
+      "19531": "78125"
+    }
+  },
+  {
+    "n": 159663,
+    "q": "1596631",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 159663,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "2291092039975",
+    "lifting_coefficient": "1434954",
+    "order_drop_residues": {
+      "3": "349367",
+      "7": "1173766",
+      "7603": "237062"
+    }
+  },
+  {
+    "n": 159663,
+    "q": "72806329",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 159663,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "3319333367179476",
+    "lifting_coefficient": "45591275",
+    "order_drop_residues": {
+      "3": "64134830",
+      "7": "52741630",
+      "7603": "42307486"
+    }
+  },
+  {
+    "n": 319326,
+    "q": "7603",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 42,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "19623344",
+    "lifting_coefficient": "2581",
+    "order_drop_residues": {
+      "2": "7602",
+      "3": "2094",
+      "7": "419"
+    }
+  },
+  {
+    "n": 319326,
+    "q": "188721667",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 319326,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "23967242371704278",
+    "lifting_coefficient": "126997831",
+    "order_drop_residues": {
+      "2": "188721666",
+      "3": "107520990",
+      "7": "185663316",
+      "7603": "176210924"
+    }
+  },
+  {
+    "n": 820302,
+    "q": "3281209",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 820302,
+    "q_mod_4": 1,
+    "admitted": false,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "9340109072906",
+    "lifting_coefficient": "2846545",
+    "order_drop_residues": {
+      "2": "3281208",
+      "3": "1750650",
+      "7": "1624970",
+      "19531": "661707"
+    }
+  },
+  {
+    "n": 3636493,
+    "q": "36364931",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 3636493,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "1173278133784001",
+    "lifting_coefficient": "32264000",
+    "order_drop_residues": {
+      "7": "15082490",
+      "519499": "78125"
+    }
+  },
+  {
+    "n": 10909479,
+    "q": "519499",
+    "proven_prime": true,
+    "primitive": false,
+    "exact_order": 21,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "230471575359",
+    "lifting_coefficient": "443642",
+    "order_drop_residues": {
+      "3": "78125",
+      "7": "125"
+    }
+  },
+  {
+    "n": 10909479,
+    "q": "327284371",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 10909479,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "9052962257153496",
+    "lifting_coefficient": "27660845",
+    "order_drop_residues": {
+      "3": "240441617",
+      "7": "221604011",
+      "519499": "193874675"
+    }
+  },
+  {
+    "n": 21818958,
+    "q": "45536165347",
+    "proven_prime": true,
+    "primitive": true,
+    "exact_order": 21818958,
+    "q_mod_4": 3,
+    "admitted": true,
+    "valuation_in_Phi": 1,
+    "s_q": 1,
+    "mod_q_squared": "742698912488136630556",
+    "lifting_coefficient": "16310089065",
+    "order_drop_residues": {
+      "2": "45536165346",
+      "3": "13773285897",
+      "7": "29880825102",
+      "519499": "37437312629"
+    }
+  }
+]

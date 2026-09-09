@@ -1,0 +1,56 @@
+{
+  "suite": "core",
+  "prime_certificate_nodes": 341,
+  "certificate_types": {
+    "trial": 101,
+    "pocklington": 104,
+    "ec": 136
+  },
+  "indices": 48,
+  "closed": 12,
+  "new": 7,
+  "open": 36,
+  "factor_records": 75,
+  "complete_squarefree_products": 12,
+  "first_relay_products": 4,
+  "relay_primes": 6,
+  "derivative_gcds": 4,
+  "nonregular_control": 20771,
+  "small_relay_primes_checked": 173,
+  "small_regular_B7_compatible": [
+    7,
+    43,
+    127,
+    379,
+    2287
+  ],
+  "B7_root_order_lower_bound": 889,
+  "four_vertex_root_order_lower_bound": 2287,
+  "low_order_survivors": [
+    889,
+    903,
+    1137,
+    1778,
+    1806,
+    2274
+  ],
+  "negative_tests_rejected": 15,
+  "tests": [
+    "composite trial leaf",
+    "EC point mutation",
+    "EC Hasse threshold",
+    "singular EC curve",
+    "EC cyclic child",
+    "Pocklington witness mutation",
+    "wrong exact order",
+    "regular promoted nonregular",
+    "wrong admission",
+    "imprimitive promoted primitive",
+    "wrong Phi multiplicity",
+    "lost exact-order drop test",
+    "omitted product factor",
+    "unproved cofactor squarefreeness",
+    "all48 overpromotion"
+  ],
+  "PASS": true
+}

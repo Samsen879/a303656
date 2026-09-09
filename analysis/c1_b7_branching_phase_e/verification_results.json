@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "fresh_replay": "4 deterministic outputs BYTE_IDENTICAL",
+  "reference_summary": {
+    "status": "PASS",
+    "certified_actual_regular_primes": 13,
+    "C4_fork_count": 120,
+    "critical_integer_identity_checks": 3,
+    "DAG_support_comparisons": 625300,
+    "DAG_accepted_counts": [
+      1,
+      2,
+      10,
+      122,
+      3346,
+      196082
+    ],
+    "mask_comparisons": 114681,
+    "negative_regressions": 14,
+    "nonclaims": "no B7 member; no B7 emptiness; no global finite family"
+  },
+  "repository_native_replay": false,
+  "independent_author_review": false,
+  "proof_assistant_formalization": false
+}
