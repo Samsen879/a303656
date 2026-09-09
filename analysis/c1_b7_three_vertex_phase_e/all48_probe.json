@@ -1,0 +1,579 @@
+[
+  {
+    "r": 43,
+    "n": 43,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 43,
+    "n": 86,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "1549",
+        "k": 18,
+        "q_mod_4": 1,
+        "exact_order": 86,
+        "s": 1
+      },
+      {
+        "q": "9547",
+        "k": 111,
+        "q_mod_4": 3,
+        "exact_order": 86,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 43,
+    "n": 129,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 43,
+    "n": 258,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 43,
+    "n": 301,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "66221",
+        "k": 220,
+        "q_mod_4": 1,
+        "exact_order": 301,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 43,
+    "n": 602,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "14449",
+        "k": 24,
+        "q_mod_4": 1,
+        "exact_order": 602,
+        "s": 1
+      },
+      {
+        "q": "42743",
+        "k": 71,
+        "q_mod_4": 3,
+        "exact_order": 602,
+        "s": 1
+      },
+      {
+        "q": "176989",
+        "k": 294,
+        "q_mod_4": 1,
+        "exact_order": 602,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 43,
+    "n": 903,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 43,
+    "n": 1806,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 127,
+    "n": 127,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 127,
+    "n": 254,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "509",
+        "k": 2,
+        "q_mod_4": 1,
+        "exact_order": 254,
+        "s": 1
+      },
+      {
+        "q": "2287",
+        "k": 9,
+        "q_mod_4": 3,
+        "exact_order": 254,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 127,
+    "n": 381,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 127,
+    "n": 762,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "23623",
+        "k": 31,
+        "q_mod_4": 3,
+        "exact_order": 762,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 127,
+    "n": 889,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 127,
+    "n": 1778,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "4283203",
+        "k": 2409,
+        "q_mod_4": 3,
+        "exact_order": 1778,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 127,
+    "n": 2667,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "133351",
+        "k": 50,
+        "q_mod_4": 3,
+        "exact_order": 2667,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 127,
+    "n": 5334,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 379,
+    "n": 379,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "15919",
+        "k": 42,
+        "q_mod_4": 3,
+        "exact_order": 379,
+        "s": 1
+      },
+      {
+        "q": "19709",
+        "k": 52,
+        "q_mod_4": 1,
+        "exact_order": 379,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 379,
+    "n": 758,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "4549",
+        "k": 6,
+        "q_mod_4": 1,
+        "exact_order": 758,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 379,
+    "n": 1137,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 379,
+    "n": 2274,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "6823",
+        "k": 3,
+        "q_mod_4": 3,
+        "exact_order": 2274,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 379,
+    "n": 2653,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 379,
+    "n": 5306,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "2642389",
+        "k": 498,
+        "q_mod_4": 1,
+        "exact_order": 5306,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 379,
+    "n": 7959,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "7401871",
+        "k": 930,
+        "q_mod_4": 3,
+        "exact_order": 7959,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 379,
+    "n": 15918,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "111427",
+        "k": 7,
+        "q_mod_4": 3,
+        "exact_order": 15918,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 7603,
+    "n": 7603,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "760301",
+        "k": 100,
+        "q_mod_4": 1,
+        "exact_order": 7603,
+        "s": 1
+      },
+      {
+        "q": "1262099",
+        "k": 166,
+        "q_mod_4": 3,
+        "exact_order": 7603,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 7603,
+    "n": 15206,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 7603,
+    "n": 22809,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 7603,
+    "n": 45618,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 7603,
+    "n": 53221,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 7603,
+    "n": 106442,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "319327",
+        "k": 3,
+        "q_mod_4": 3,
+        "exact_order": 106442,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 7603,
+    "n": 159663,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "1596631",
+        "k": 10,
+        "q_mod_4": 3,
+        "exact_order": 159663,
+        "s": 1
+      },
+      {
+        "q": "72806329",
+        "k": 456,
+        "q_mod_4": 1,
+        "exact_order": 159663,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 7603,
+    "n": 319326,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "188721667",
+        "k": 591,
+        "q_mod_4": 3,
+        "exact_order": 319326,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 19531,
+    "n": 19531,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 19531,
+    "n": 39062,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "11835787",
+        "k": 303,
+        "q_mod_4": 3,
+        "exact_order": 39062,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 19531,
+    "n": 58593,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 19531,
+    "n": 117186,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "42304147",
+        "k": 361,
+        "q_mod_4": 3,
+        "exact_order": 117186,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 19531,
+    "n": 136717,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "546869",
+        "k": 4,
+        "q_mod_4": 1,
+        "exact_order": 136717,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 19531,
+    "n": 273434,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 19531,
+    "n": 410151,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 19531,
+    "n": 820302,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "3281209",
+        "k": 4,
+        "q_mod_4": 1,
+        "exact_order": 820302,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 519499,
+    "n": 519499,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 519499,
+    "n": 1038998,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 519499,
+    "n": 1558497,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": []
+  },
+  {
+    "r": 519499,
+    "n": 3116994,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 519499,
+    "n": 3636493,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "36364931",
+        "k": 10,
+        "q_mod_4": 3,
+        "exact_order": 3636493,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 519499,
+    "n": 7272986,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": []
+  },
+  {
+    "r": 519499,
+    "n": 10909479,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 4000,
+    "prime_hits": [
+      {
+        "q": "327284371",
+        "k": 30,
+        "q_mod_4": 3,
+        "exact_order": 10909479,
+        "s": 1
+      }
+    ]
+  },
+  {
+    "r": 519499,
+    "n": 21818958,
+    "k_max": 10000,
+    "tested_odd_not5_candidates": 8000,
+    "prime_hits": [
+      {
+        "q": "45536165347",
+        "k": 2087,
+        "q_mod_4": 3,
+        "exact_order": 21818958,
+        "s": 1
+      }
+    ]
+  }
+]

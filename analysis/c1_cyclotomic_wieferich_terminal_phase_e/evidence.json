@@ -1,0 +1,1156 @@
+{
+  "schema": "A303656_C1_TERMINAL_PHASE_E_REFERENCE_V1",
+  "status": "PASS",
+  "authority": {
+    "repository": "Samsen879/a303656",
+    "main_sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "main_tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "multiplier_divisors_42": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    14,
+    21,
+    42
+  ],
+  "relays": [
+    43,
+    127,
+    379,
+    7603,
+    19531,
+    519499
+  ],
+  "first_layer_complete_factor_occurrences": [
+    {
+      "index": 7,
+      "p": 19531,
+      "order": 7,
+      "admitted": true
+    },
+    {
+      "index": 14,
+      "p": 29,
+      "order": 14,
+      "admitted": false
+    },
+    {
+      "index": 14,
+      "p": 449,
+      "order": 14,
+      "admitted": false
+    },
+    {
+      "index": 21,
+      "p": 379,
+      "order": 21,
+      "admitted": true
+    },
+    {
+      "index": 21,
+      "p": 519499,
+      "order": 21,
+      "admitted": true
+    },
+    {
+      "index": 42,
+      "p": 7,
+      "order": 6,
+      "admitted": true
+    },
+    {
+      "index": 42,
+      "p": 43,
+      "order": 42,
+      "admitted": true
+    },
+    {
+      "index": 42,
+      "p": 127,
+      "order": 42,
+      "admitted": true
+    },
+    {
+      "index": 42,
+      "p": 7603,
+      "order": 42,
+      "admitted": true
+    }
+  ],
+  "family_rows": [
+    {
+      "r": 43,
+      "order": 42,
+      "relay_record": {
+        "base": 5,
+        "q": 43,
+        "order": 42,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "order_drop_residues": {
+          "2": 42,
+          "3": 36,
+          "7": 16
+        },
+        "s": 1,
+        "next_lift_coefficient": 42,
+        "fermat_quotient": 42,
+        "admitted": true
+      },
+      "H_42": 42,
+      "aggregate_kappa": 22,
+      "cases": [
+        {
+          "d": 1,
+          "n": 43,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 1334,
+          "kappa": 31
+        },
+        {
+          "d": 2,
+          "n": 86,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 1506,
+          "kappa": 35
+        },
+        {
+          "d": 3,
+          "n": 129,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 44,
+          "kappa": 1
+        },
+        {
+          "d": 6,
+          "n": 258,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 173,
+          "kappa": 4
+        },
+        {
+          "d": 7,
+          "n": 301,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 259,
+          "kappa": 6
+        },
+        {
+          "d": 14,
+          "n": 602,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 1463,
+          "kappa": 34
+        },
+        {
+          "d": 21,
+          "n": 903,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 689,
+          "kappa": 16
+        },
+        {
+          "d": 42,
+          "n": 1806,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 1033,
+          "kappa": 24
+        }
+      ]
+    },
+    {
+      "r": 127,
+      "order": 42,
+      "relay_record": {
+        "base": 5,
+        "q": 127,
+        "order": 42,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 2,
+          "7": 1
+        },
+        "order_drop_residues": {
+          "2": 126,
+          "3": 19,
+          "7": 4
+        },
+        "s": 1,
+        "next_lift_coefficient": 122,
+        "fermat_quotient": 112,
+        "admitted": true
+      },
+      "H_42": 122,
+      "aggregate_kappa": 66,
+      "cases": [
+        {
+          "d": 1,
+          "n": 127,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 1652,
+          "kappa": 13
+        },
+        {
+          "d": 2,
+          "n": 254,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 6478,
+          "kappa": 51
+        },
+        {
+          "d": 3,
+          "n": 381,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 10669,
+          "kappa": 84
+        },
+        {
+          "d": 6,
+          "n": 762,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 14352,
+          "kappa": 113
+        },
+        {
+          "d": 7,
+          "n": 889,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 9780,
+          "kappa": 77
+        },
+        {
+          "d": 14,
+          "n": 1778,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 13082,
+          "kappa": 103
+        },
+        {
+          "d": 21,
+          "n": 2667,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 14352,
+          "kappa": 113
+        },
+        {
+          "d": 42,
+          "n": 5334,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 2541,
+          "kappa": 20
+        }
+      ]
+    },
+    {
+      "r": 379,
+      "order": 21,
+      "relay_record": {
+        "base": 5,
+        "q": 379,
+        "order": 21,
+        "order_factors": {
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 3,
+          "7": 1
+        },
+        "order_drop_residues": {
+          "3": 51,
+          "7": 125
+        },
+        "s": 1,
+        "next_lift_coefficient": 50,
+        "fermat_quotient": 142,
+        "admitted": true
+      },
+      "H_42": 100,
+      "aggregate_kappa": 329,
+      "cases": [
+        {
+          "d": 1,
+          "n": 379,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 139094,
+          "kappa": 367
+        },
+        {
+          "d": 2,
+          "n": 758,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 140610,
+          "kappa": 371
+        },
+        {
+          "d": 3,
+          "n": 1137,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 35248,
+          "kappa": 93
+        },
+        {
+          "d": 6,
+          "n": 2274,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 74285,
+          "kappa": 196
+        },
+        {
+          "d": 7,
+          "n": 2653,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 141747,
+          "kappa": 374
+        },
+        {
+          "d": 14,
+          "n": 5306,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 57609,
+          "kappa": 152
+        },
+        {
+          "d": 21,
+          "n": 7959,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 105363,
+          "kappa": 278
+        },
+        {
+          "d": 42,
+          "n": 15918,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 5307,
+          "kappa": 14
+        }
+      ]
+    },
+    {
+      "r": 7603,
+      "order": 42,
+      "relay_record": {
+        "base": 5,
+        "q": 7603,
+        "order": 42,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1,
+          "181": 1
+        },
+        "order_drop_residues": {
+          "2": 7602,
+          "3": 2094,
+          "7": 419
+        },
+        "s": 1,
+        "next_lift_coefficient": 2581,
+        "fermat_quotient": 3378,
+        "admitted": true
+      },
+      "H_42": 2581,
+      "aggregate_kappa": 2511,
+      "cases": [
+        {
+          "d": 1,
+          "n": 7603,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 3200864,
+          "kappa": 421
+        },
+        {
+          "d": 2,
+          "n": 15206,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 21402446,
+          "kappa": 2815
+        },
+        {
+          "d": 3,
+          "n": 22809,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 51160588,
+          "kappa": 6729
+        },
+        {
+          "d": 6,
+          "n": 45618,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 22003083,
+          "kappa": 2894
+        },
+        {
+          "d": 7,
+          "n": 53221,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 24283983,
+          "kappa": 3194
+        },
+        {
+          "d": 14,
+          "n": 106442,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 31484024,
+          "kappa": 4141
+        },
+        {
+          "d": 21,
+          "n": 159663,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 17608549,
+          "kappa": 2316
+        },
+        {
+          "d": 42,
+          "n": 319326,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 21364431,
+          "kappa": 2810
+        }
+      ]
+    },
+    {
+      "r": 19531,
+      "order": 7,
+      "relay_record": {
+        "base": 5,
+        "q": 19531,
+        "order": 7,
+        "order_factors": {
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 2,
+          "5": 1,
+          "7": 1,
+          "31": 1
+        },
+        "order_drop_residues": {
+          "7": 5
+        },
+        "s": 1,
+        "next_lift_coefficient": 4,
+        "fermat_quotient": 11160,
+        "admitted": true
+      },
+      "H_42": 24,
+      "aggregate_kappa": 19519,
+      "cases": [
+        {
+          "d": 1,
+          "n": 19531,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 272457451,
+          "kappa": 13950
+        },
+        {
+          "d": 2,
+          "n": 39062,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 181638301,
+          "kappa": 9300
+        },
+        {
+          "d": 3,
+          "n": 58593,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 5253840,
+          "kappa": 269
+        },
+        {
+          "d": 6,
+          "n": 117186,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 358081355,
+          "kappa": 18334
+        },
+        {
+          "d": 7,
+          "n": 136717,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 108963450,
+          "kappa": 5579
+        },
+        {
+          "d": 14,
+          "n": 273434,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 199782600,
+          "kappa": 10229
+        },
+        {
+          "d": 21,
+          "n": 410151,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 376127999,
+          "kappa": 19258
+        },
+        {
+          "d": 42,
+          "n": 820302,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 23300484,
+          "kappa": 1193
+        }
+      ]
+    },
+    {
+      "r": 519499,
+      "order": 21,
+      "relay_record": {
+        "base": 5,
+        "q": 519499,
+        "order": 21,
+        "order_factors": {
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 2,
+          "7": 2,
+          "19": 1,
+          "31": 1
+        },
+        "order_drop_residues": {
+          "3": 78125,
+          "7": 125
+        },
+        "s": 1,
+        "next_lift_coefficient": 443642,
+        "fermat_quotient": 399421,
+        "admitted": true
+      },
+      "H_42": 367785,
+      "aggregate_kappa": 75857,
+      "cases": [
+        {
+          "d": 1,
+          "n": 519499,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 56964104349,
+          "kappa": 109652
+        },
+        {
+          "d": 2,
+          "n": 1038998,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 217895543567,
+          "kappa": 419434
+        },
+        {
+          "d": 3,
+          "n": 1558497,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 54734934140,
+          "kappa": 105361
+        },
+        {
+          "d": 6,
+          "n": 3116994,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 136206923312,
+          "kappa": 262189
+        },
+        {
+          "d": 7,
+          "n": 3636493,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 134056716951,
+          "kappa": 258050
+        },
+        {
+          "d": 14,
+          "n": 7272986,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 224870856640,
+          "kappa": 432861
+        },
+        {
+          "d": 21,
+          "n": 10909479,
+          "index_prime_exponent": 1,
+          "C_mod_r2": 178766878887,
+          "kappa": 344114
+        },
+        {
+          "d": 42,
+          "n": 21818958,
+          "index_prime_exponent": 0,
+          "C_mod_r2": 115428521809,
+          "kappa": 222192
+        }
+      ]
+    }
+  ],
+  "pairwise_index_checks": 1128,
+  "known_nonregular_sanity": [
+    {
+      "base": 5,
+      "q": 20771,
+      "order": 10385,
+      "order_factors": {
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "q_minus_1_factors": {
+        "2": 1,
+        "5": 1,
+        "31": 1,
+        "67": 1
+      },
+      "order_drop_residues": {
+        "5": 12936,
+        "31": 3587,
+        "67": 7867
+      },
+      "s": 2,
+      "next_lift_coefficient": 10626,
+      "fermat_quotient": 0,
+      "admitted": true,
+      "terminals": [
+        3,
+        5
+      ],
+      "admitted_closure": [
+        {
+          "base": 5,
+          "q": 11,
+          "order": 5,
+          "order_factors": {
+            "5": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "5": 1
+          },
+          "order_drop_residues": {
+            "5": 5
+          },
+          "s": 1,
+          "next_lift_coefficient": 9,
+          "fermat_quotient": 7,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 31,
+          "order": 3,
+          "order_factors": {
+            "3": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "order_drop_residues": {
+            "3": 5
+          },
+          "s": 1,
+          "next_lift_coefficient": 4,
+          "fermat_quotient": 9,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 67,
+          "order": 22,
+          "order_factors": {
+            "2": 1,
+            "11": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "3": 1,
+            "11": 1
+          },
+          "order_drop_residues": {
+            "2": 66,
+            "11": 25
+          },
+          "s": 1,
+          "next_lift_coefficient": 29,
+          "fermat_quotient": 20,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 20771,
+          "order": 10385,
+          "order_factors": {
+            "5": 1,
+            "31": 1,
+            "67": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "5": 1,
+            "31": 1,
+            "67": 1
+          },
+          "order_drop_residues": {
+            "5": 12936,
+            "31": 3587,
+            "67": 7867
+          },
+          "s": 2,
+          "next_lift_coefficient": 10626,
+          "fermat_quotient": 0,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "base": 5,
+      "q": 40487,
+      "order": 40486,
+      "order_factors": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "q_minus_1_factors": {
+        "2": 1,
+        "31": 1,
+        "653": 1
+      },
+      "order_drop_residues": {
+        "2": 40486,
+        "31": 32940,
+        "653": 4413
+      },
+      "s": 2,
+      "next_lift_coefficient": 12312,
+      "fermat_quotient": 0,
+      "admitted": true,
+      "terminals": [
+        3,
+        653
+      ],
+      "admitted_closure": [
+        {
+          "base": 5,
+          "q": 31,
+          "order": 3,
+          "order_factors": {
+            "3": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "3": 1,
+            "5": 1
+          },
+          "order_drop_residues": {
+            "3": 5
+          },
+          "s": 1,
+          "next_lift_coefficient": 4,
+          "fermat_quotient": 9,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 40487,
+          "order": 40486,
+          "order_factors": {
+            "2": 1,
+            "31": 1,
+            "653": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "31": 1,
+            "653": 1
+          },
+          "order_drop_residues": {
+            "2": 40486,
+            "31": 32940,
+            "653": 4413
+          },
+          "s": 2,
+          "next_lift_coefficient": 12312,
+          "fermat_quotient": 0,
+          "admitted": true
+        }
+      ]
+    },
+    {
+      "base": 5,
+      "q": 1645333507,
+      "order": 1645333506,
+      "order_factors": {
+        "2": 1,
+        "3": 3,
+        "30469139": 1
+      },
+      "q_minus_1_factors": {
+        "2": 1,
+        "3": 3,
+        "30469139": 1
+      },
+      "order_drop_residues": {
+        "2": 1645333506,
+        "3": 87169718,
+        "30469139": 100010278
+      },
+      "s": 2,
+      "next_lift_coefficient": 1624266569,
+      "fermat_quotient": 0,
+      "admitted": true,
+      "terminals": [
+        3,
+        761,
+        1429
+      ],
+      "admitted_closure": [
+        {
+          "base": 5,
+          "q": 1523,
+          "order": 1522,
+          "order_factors": {
+            "2": 1,
+            "761": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "761": 1
+          },
+          "order_drop_residues": {
+            "2": 1522,
+            "761": 25
+          },
+          "s": 1,
+          "next_lift_coefficient": 93,
+          "fermat_quotient": 93,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 30469139,
+          "order": 2176367,
+          "order_factors": {
+            "1429": 1,
+            "1523": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "7": 1,
+            "1429": 1,
+            "1523": 1
+          },
+          "order_drop_residues": {
+            "1429": 22780410,
+            "1523": 29333899
+          },
+          "s": 1,
+          "next_lift_coefficient": 26663658,
+          "fermat_quotient": 7661544,
+          "admitted": true
+        },
+        {
+          "base": 5,
+          "q": 1645333507,
+          "order": 1645333506,
+          "order_factors": {
+            "2": 1,
+            "3": 3,
+            "30469139": 1
+          },
+          "q_minus_1_factors": {
+            "2": 1,
+            "3": 3,
+            "30469139": 1
+          },
+          "order_drop_residues": {
+            "2": 1645333506,
+            "3": 87169718,
+            "30469139": 100010278
+          },
+          "s": 2,
+          "next_lift_coefficient": 1624266569,
+          "fermat_quotient": 0,
+          "admitted": true
+        }
+      ]
+    }
+  ],
+  "hensel_checks": [
+    {
+      "q": 3,
+      "n": 2,
+      "phi_mod_q2": 6,
+      "derivative_mod_q": 1,
+      "Q": 2,
+      "hensel_digit": 1,
+      "omega_mod_q2": 8
+    },
+    {
+      "q": 7,
+      "n": 6,
+      "phi_mod_q2": 21,
+      "derivative_mod_q": 2,
+      "Q": 6,
+      "hensel_digit": 2,
+      "omega_mod_q2": 19
+    },
+    {
+      "q": 43,
+      "n": 42,
+      "phi_mod_q2": 1118,
+      "derivative_mod_q": 31,
+      "Q": 42,
+      "hensel_digit": 38,
+      "omega_mod_q2": 1639
+    },
+    {
+      "q": 127,
+      "n": 42,
+      "phi_mod_q2": 11430,
+      "derivative_mod_q": 52,
+      "Q": 112,
+      "hensel_digit": 52,
+      "omega_mod_q2": 6609
+    },
+    {
+      "q": 379,
+      "n": 21,
+      "phi_mod_q2": 101951,
+      "derivative_mod_q": 203,
+      "Q": 142,
+      "hensel_digit": 331,
+      "omega_mod_q2": 125454
+    },
+    {
+      "q": 7603,
+      "n": 42,
+      "phi_mod_q2": 1611836,
+      "derivative_mod_q": 2167,
+      "Q": 3378,
+      "hensel_digit": 1684,
+      "omega_mod_q2": 12803457
+    },
+    {
+      "q": 19531,
+      "n": 7,
+      "phi_mod_q2": 19531,
+      "derivative_mod_q": 2930,
+      "Q": 11160,
+      "hensel_digit": 16738,
+      "omega_mod_q2": 326909883
+    },
+    {
+      "q": 519499,
+      "n": 21,
+      "phi_mod_q2": 196890121,
+      "derivative_mod_q": 368500,
+      "Q": 399421,
+      "hensel_digit": 438608,
+      "omega_mod_q2": 227856417397
+    },
+    {
+      "q": 20771,
+      "n": 10385,
+      "phi_mod_q2": 0,
+      "derivative_mod_q": 8871,
+      "Q": 0,
+      "hensel_digit": 0,
+      "omega_mod_q2": 5
+    },
+    {
+      "q": 40487,
+      "n": 40486,
+      "phi_mod_q2": 0,
+      "derivative_mod_q": 23849,
+      "Q": 0,
+      "hensel_digit": 0,
+      "omega_mod_q2": 5
+    },
+    {
+      "q": 1645333507,
+      "n": 1645333506,
+      "phi_mod_q2": 0,
+      "derivative_mod_q": 560336615,
+      "Q": 0,
+      "hensel_digit": 0,
+      "omega_mod_q2": 5
+    }
+  ],
+  "unique_lift_enumerations": [
+    {
+      "q": 7,
+      "digits_checked": 7,
+      "hits": [
+        2
+      ]
+    },
+    {
+      "q": 43,
+      "digits_checked": 43,
+      "hits": [
+        38
+      ]
+    }
+  ],
+  "variable_base_countermodel": {
+    "base": 2882381,
+    "NOT_BASE_FIVE": true,
+    "rows": [
+      {
+        "base": 2882381,
+        "q": 3,
+        "order": 2,
+        "order_factors": {
+          "2": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1
+        },
+        "order_drop_residues": {
+          "2": 2
+        },
+        "s": 1,
+        "next_lift_coefficient": 2,
+        "fermat_quotient": 2,
+        "admitted": true
+      },
+      {
+        "base": 2882381,
+        "q": 7,
+        "order": 6,
+        "order_factors": {
+          "2": 1,
+          "3": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 1
+        },
+        "order_drop_residues": {
+          "2": 6,
+          "3": 4
+        },
+        "s": 1,
+        "next_lift_coefficient": 6,
+        "fermat_quotient": 6,
+        "admitted": true
+      },
+      {
+        "base": 2882381,
+        "q": 43,
+        "order": 42,
+        "order_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "q_minus_1_factors": {
+          "2": 1,
+          "3": 1,
+          "7": 1
+        },
+        "order_drop_residues": {
+          "2": 42,
+          "3": 36,
+          "7": 16
+        },
+        "s": 2,
+        "next_lift_coefficient": 27,
+        "fermat_quotient": 0,
+        "admitted": true
+      }
+    ]
+  },
+  "small_valuation_regressions": {
+    "indices": 60,
+    "valuation_equalities": 480
+  },
+  "rejected_mutations": 6,
+  "inherited_phase_d_exclusions_NOT_REPROVED": [
+    43,
+    86,
+    127,
+    129,
+    258
+  ],
+  "new_excluded_indices": [],
+  "remaining_three_vertex_indices": [
+    301,
+    602,
+    903,
+    1806,
+    254,
+    381,
+    762,
+    889,
+    1778,
+    2667,
+    5334,
+    379,
+    758,
+    1137,
+    2274,
+    2653,
+    5306,
+    7959,
+    15918,
+    7603,
+    15206,
+    22809,
+    45618,
+    53221,
+    106442,
+    159663,
+    319326,
+    19531,
+    39062,
+    58593,
+    117186,
+    136717,
+    273434,
+    410151,
+    820302,
+    519499,
+    1038998,
+    1558497,
+    3116994,
+    3636493,
+    7272986,
+    10909479,
+    21818958
+  ],
+  "claims": {
+    "any_new_complete_B7_family_dead": false,
+    "B7_empty_proved": false,
+    "new_terminal_pruning": false,
+    "general_B7_height_bounded": false,
+    "full_repository_replay": false,
+    "all_files_in_requested_directories_read": false,
+    "github_writes": false
+  }
+}
