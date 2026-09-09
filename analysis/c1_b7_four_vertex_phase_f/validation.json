@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": [
+    "215 recursive primality certificates PASS",
+    "six first relays and squarefree base Z7 PASS",
+    "28 actual regular serial relays PASS",
+    "120 fork + 448 certified serial indices; disjointness and order loss PASS",
+    "43 certified aggregate sizes; three materialized fork hashes PASS",
+    "independent short relay search for three globally smallest serial states PASS",
+    "90 admitted terminal prime factors, exact order and valuation one PASS",
+    "selected p-1 factors and unresolved exact cofactors PASS",
+    "all three full bounded C++ probe replays PASS (same implementation)",
+    "GMP p-1 full replay PASS (same implementation)"
+  ],
+  "seconds": 21.37349,
+  "limits": [
+    "Phase E original ZIP was not available",
+    "not a complete enumeration of S_r",
+    "no whole state closed",
+    "same-implementation replay is not independent coverage validation",
+    "standalone verification is not repository-native testing"
+  ]
+}

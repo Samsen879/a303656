@@ -1,0 +1,59 @@
+{
+  "schema": "a303656.phase-f-dependency-binding",
+  "version": 1,
+  "phase_f_package": "b7_four_vertex_phase_f",
+  "producer_source_gap": {
+    "preserved": true,
+    "claim": "Phase E original ZIP was not available; classification independently reconstructed",
+    "producer_files_unchanged": ["README.md", "REPORT.md", "SOURCE_BINDING.json"]
+  },
+  "local_dependency_reconciliation": "PASS",
+  "reconciliation_receipts": {
+    "FOUR_VERTEX_CLASSIFICATION_RECONCILIATION": "PASS",
+    "interfaces": ["fork classification", "serial classification", "first-relay set", "fixed-state critical integer"],
+    "authority_split": "E1 owns four-vertex geometry; F4 owns aggregate arithmetic and bounded materialization"
+  },
+  "dependencies": [
+    {
+      "package": "b7_branching_phase_e",
+      "role": "hard",
+      "phase_e_outer_sha256": "49f0a811921877b7479405716166542918c9330b1c7848e0a9db2dd7b1f8a316",
+      "phase_e_destination_directory": "analysis/c1_b7_branching_phase_e",
+      "phase_e_draft_pr_number": 30,
+      "phase_e_draft_pr_head_sha": "06b9ef6b24cff3b125b1ff2c0c937c1fa4f82511",
+      "relevant_source_payload_files": [
+        {"path": "THEOREMS.md", "size": 23506, "sha256": "0664a68099461e1caa15d91e4a68d93a27a42cf13f6aed9b47db486723e04385"},
+        {"path": "REPORT.md", "size": 18098, "sha256": "5cc6c434479bcdba8e2d07e314fae96ae19b15350195c82a692007d173e99df6"},
+        {"path": "C4_FORK_120.txt", "size": 1086, "sha256": "3ebc5a3455ecb9c9e31a8aebafdaf3dc956ae5e3a3dba8a61518173966e5376f"}
+      ],
+      "local_cross_binding_result": "PASS"
+    },
+    {
+      "package": "b7_three_vertex_phase_e",
+      "role": "supporting",
+      "phase_e_outer_sha256": "3ae71d5474a25a7951eca8586b683f8debdd80d38b0167912e08e3f9aab940e7",
+      "phase_e_destination_directory": "analysis/c1_b7_three_vertex_phase_e",
+      "phase_e_draft_pr_number": 31,
+      "phase_e_draft_pr_head_sha": "6eb347fa7e1e61c764219bbd1bea1b27981e92dd",
+      "relevant_source_payload_files": [
+        {"path": "REPORT.md", "size": 24065, "sha256": "8a75afa6d7caf7dd8118de221ea0328a213508fc85a7339e0fe5a2eb6ba08a07"}
+      ],
+      "local_cross_binding_result": "PASS"
+    },
+    {
+      "package": "cyclotomic_wieferich_terminal_phase_e",
+      "role": "supporting",
+      "phase_e_outer_sha256": "b829b97178aed9be4feecca150cc22b2fc865d84a769d3c9552aa768af72b903",
+      "phase_e_destination_directory": "analysis/c1_cyclotomic_wieferich_terminal_phase_e",
+      "phase_e_draft_pr_number": 33,
+      "phase_e_draft_pr_head_sha": "a892f705f43f7c2090c25291944fb6581e4cb5e1",
+      "relevant_source_payload_files": [
+        {"path": "REPORT.md", "size": 26616, "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9"},
+        {"path": "PROOF_AUDIT.md", "size": 4489, "sha256": "4da90f471c7c89bf1d40b159f7b746bc11459828d996614756a8f8616794982c"}
+      ],
+      "local_cross_binding_result": "PASS"
+    }
+  ],
+  "repository_dependency_status": "PENDING_MERGE",
+  "merge_blocked": true
+}

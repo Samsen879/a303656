@@ -1,0 +1,16 @@
+fork,43,127,progression_candidates,45779161
+fork,43,379,progression_candidates,15340247
+fork,43,7603,progression_candidates,764692
+fork,43,19531,progression_candidates,297678
+fork,43,519499,progression_candidates,11191
+fork,127,379,progression_candidates,5193942
+fork,127,7603,progression_candidates,258911
+fork,127,19531,progression_candidates,100789
+fork,127,519499,progression_candidates,3789
+fork,379,7603,progression_candidates,86759
+fork,379,19531,progression_candidates,33774
+fork,379,519499,progression_candidates,1270
+fork,7603,19531,progression_candidates,1684
+fork,7603,519499,progression_candidates,63
+fork,19531,519499,progression_candidates,25
+elapsed=2.67

@@ -1,0 +1,29 @@
+[
+  {
+    "r": 43,
+    "s": 127,
+    "bit_length": 516082,
+    "bytes": 64511,
+    "sha256_big_endian": "28ff037c04212b867cac67337ed888ffaf82a5d346f34b4e77662de281211a3c",
+    "digits": 155356,
+    "seconds": 0.015314
+  },
+  {
+    "r": 43,
+    "s": 379,
+    "bit_length": 1548244,
+    "bytes": 193531,
+    "sha256_big_endian": "301be394501fd89e61eaeedb63c2d219b775143b07f455b82535d5a3ba85b457",
+    "digits": 466068,
+    "seconds": 0.078821
+  },
+  {
+    "r": 127,
+    "s": 379,
+    "bit_length": 4644730,
+    "bytes": 580592,
+    "sha256_big_endian": "b3912f22c640e360d9347b9d0a940ff6f0b93660190b6e45983d0ae2811607b6",
+    "digits": 1398203,
+    "seconds": 0.360667
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 9547,
+    "n": 86,
+    "lifting_coefficient": 6869,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 42743,
+    "n": 602,
+    "lifting_coefficient": 28799,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 18471511,
+    "n": 129,
+    "lifting_coefficient": 10935302,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 558801427,
+    "n": 258,
+    "lifting_coefficient": 228381906,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 7866608083,
+    "n": 86,
+    "lifting_coefficient": 6979768417,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 26041733579107,
+    "n": 602,
+    "lifting_coefficient": 21236513736748,
+    "square_hit": false,
+    "source": "fixed-SHA Phase D; fresh Pocklington proof"
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 172827552198815888791,
+    "n": 43,
+    "lifting_coefficient": 6578050564,
+    "square_hit": false,
+    "source": "fixed-SHA Phase D; fresh Pocklington proof"
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 43955934961951833386625799,
+    "n": 129,
+    "lifting_coefficient": 13814757969496504861156109,
+    "square_hit": false,
+    "source": "fixed-SHA Phase D; fresh Pocklington proof"
+  },
+  {
+    "shape": "relay",
+    "r": 43,
+    "s": 0,
+    "p": 236419892853700126919767791480523,
+    "n": 258,
+    "lifting_coefficient": 174873425047096123598364461127972,
+    "square_hit": false,
+    "source": "fixed-SHA Phase D; fresh Pocklington proof"
+  },
+  {
+    "shape": "relay",
+    "r": 127,
+    "s": 0,
+    "p": 2287,
+    "n": 254,
+    "lifting_coefficient": 1957,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 127,
+    "s": 0,
+    "p": 23623,
+    "n": 762,
+    "lifting_coefficient": 17966,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 127,
+    "s": 0,
+    "p": 133351,
+    "n": 2667,
+    "lifting_coefficient": 30698,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 127,
+    "s": 0,
+    "p": 4283203,
+    "n": 1778,
+    "lifting_coefficient": 753470,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 127,
+    "s": 0,
+    "p": 14693679385278593849609206715278070972733319459651094018859396328480215743184089660644531,
+    "n": 127,
+    "lifting_coefficient": 4,
+    "square_hit": false,
+    "source": "fixed-SHA Phase D; fresh Pocklington proof"
+  },
+  {
+    "shape": "relay",
+    "r": 379,
+    "s": 0,
+    "p": 6823,
+    "n": 2274,
+    "lifting_coefficient": 4971,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 379,
+    "s": 0,
+    "p": 15919,
+    "n": 379,
+    "lifting_coefficient": 9109,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 379,
+    "s": 0,
+    "p": 111427,
+    "n": 15918,
+    "lifting_coefficient": 90535,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 379,
+    "s": 0,
+    "p": 7401871,
+    "n": 7959,
+    "lifting_coefficient": 2780067,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 7603,
+    "s": 0,
+    "p": 319327,
+    "n": 106442,
+    "lifting_coefficient": 27600,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 7603,
+    "s": 0,
+    "p": 1262099,
+    "n": 7603,
+    "lifting_coefficient": 317632,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 7603,
+    "s": 0,
+    "p": 1596631,
+    "n": 159663,
+    "lifting_coefficient": 1434954,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 7603,
+    "s": 0,
+    "p": 188721667,
+    "n": 319326,
+    "lifting_coefficient": 126997831,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 7603,
+    "s": 0,
+    "p": 648003691,
+    "n": 22809,
+    "lifting_coefficient": 317869461,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 19531,
+    "s": 0,
+    "p": 11835787,
+    "n": 39062,
+    "lifting_coefficient": 1131360,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 19531,
+    "s": 0,
+    "p": 42304147,
+    "n": 117186,
+    "lifting_coefficient": 27063347,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 19531,
+    "s": 0,
+    "p": 3326871479,
+    "n": 19531,
+    "lifting_coefficient": 2262705296,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 519499,
+    "s": 0,
+    "p": 36364931,
+    "n": 3636493,
+    "lifting_coefficient": 32264000,
+    "square_hit": false
+  },
+  {
+    "shape": "relay",
+    "r": 519499,
+    "s": 0,
+    "p": 327284371,
+    "n": 10909479,
+    "lifting_coefficient": 27660845,
+    "square_hit": false
+  }
+]

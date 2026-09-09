@@ -1,0 +1,2095 @@
+{
+  "9547": {
+    "kind": "trial"
+  },
+  "71": {
+    "kind": "trial"
+  },
+  "43": {
+    "kind": "trial"
+  },
+  "42743": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "71",
+        1,
+        2
+      ],
+      [
+        "43",
+        1,
+        2
+      ]
+    ]
+  },
+  "37": {
+    "kind": "trial"
+  },
+  "18471511": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "43",
+        2,
+        2
+      ],
+      [
+        "37",
+        1,
+        2
+      ]
+    ]
+  },
+  "47": {
+    "kind": "trial"
+  },
+  "5": {
+    "kind": "trial"
+  },
+  "16921": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "47",
+        1,
+        2
+      ],
+      [
+        "5",
+        1,
+        2
+      ]
+    ]
+  },
+  "270737": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "16921",
+        1,
+        2
+      ]
+    ]
+  },
+  "2165897": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "270737",
+        1,
+        2
+      ]
+    ]
+  },
+  "558801427": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2165897",
+        1,
+        2
+      ]
+    ]
+  },
+  "353": {
+    "kind": "trial"
+  },
+  "61": {
+    "kind": "trial"
+  },
+  "30490729": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "353",
+        1,
+        2
+      ],
+      [
+        "61",
+        1,
+        2
+      ]
+    ]
+  },
+  "7866608083": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "30490729",
+        1,
+        2
+      ]
+    ]
+  },
+  "2287": {
+    "kind": "trial"
+  },
+  "127": {
+    "kind": "trial"
+  },
+  "31": {
+    "kind": "trial"
+  },
+  "23623": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "31",
+        1,
+        2
+      ]
+    ]
+  },
+  "7": {
+    "kind": "trial"
+  },
+  "133351": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "7",
+        1,
+        3
+      ]
+    ]
+  },
+  "73": {
+    "kind": "trial"
+  },
+  "4283203": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "73",
+        1,
+        2
+      ]
+    ]
+  },
+  "6823": {
+    "kind": "trial"
+  },
+  "379": {
+    "kind": "trial"
+  },
+  "15919": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "111427": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "7401871": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "31",
+        1,
+        2
+      ]
+    ]
+  },
+  "7603": {
+    "kind": "trial"
+  },
+  "319327": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "1262099": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "1596631": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "197": {
+    "kind": "trial"
+  },
+  "188721667": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ],
+      [
+        "197",
+        1,
+        2
+      ]
+    ]
+  },
+  "947": {
+    "kind": "trial"
+  },
+  "648003691": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ],
+      [
+        "947",
+        1,
+        2
+      ]
+    ]
+  },
+  "19531": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "31",
+        1,
+        2
+      ],
+      [
+        "7",
+        1,
+        2
+      ]
+    ]
+  },
+  "11835787": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19531",
+        1,
+        2
+      ]
+    ]
+  },
+  "42304147": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19531",
+        1,
+        2
+      ]
+    ]
+  },
+  "23": {
+    "kind": "trial"
+  },
+  "3326871479": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19531",
+        1,
+        2
+      ],
+      [
+        "23",
+        3,
+        2
+      ]
+    ]
+  },
+  "19": {
+    "kind": "trial"
+  },
+  "519499": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "31",
+        1,
+        2
+      ],
+      [
+        "19",
+        1,
+        2
+      ],
+      [
+        "7",
+        2,
+        2
+      ]
+    ]
+  },
+  "36364931": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "327284371": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "1013": {
+    "kind": "trial"
+  },
+  "223": {
+    "kind": "trial"
+  },
+  "978594469": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1013",
+        1,
+        2
+      ],
+      [
+        "223",
+        1,
+        2
+      ]
+    ]
+  },
+  "9001": {
+    "kind": "trial"
+  },
+  "810091": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "9001",
+        1,
+        2
+      ]
+    ]
+  },
+  "172827552198815888791": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "978594469",
+        1,
+        2
+      ],
+      [
+        "810091",
+        1,
+        2
+      ]
+    ]
+  },
+  "179": {
+    "kind": "trial"
+  },
+  "31147": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "179",
+        1,
+        2
+      ]
+    ]
+  },
+  "5003": {
+    "kind": "trial"
+  },
+  "15894500983": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "31147",
+        1,
+        2
+      ],
+      [
+        "5003",
+        1,
+        2
+      ]
+    ]
+  },
+  "2879": {
+    "kind": "trial"
+  },
+  "59": {
+    "kind": "trial"
+  },
+  "19024433": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2879",
+        1,
+        2
+      ],
+      [
+        "59",
+        1,
+        2
+      ]
+    ]
+  },
+  "43955934961951833386625799": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15894500983",
+        1,
+        2
+      ],
+      [
+        "19024433",
+        1,
+        2
+      ]
+    ]
+  },
+  "997": {
+    "kind": "trial"
+  },
+  "5393245579": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "997",
+        1,
+        2
+      ],
+      [
+        "59",
+        2,
+        2
+      ]
+    ]
+  },
+  "145947654116470169": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "5393245579",
+        1,
+        2
+      ]
+    ]
+  },
+  "236419892853700126919767791480523": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "145947654116470169",
+        1,
+        2
+      ]
+    ]
+  },
+  "719": {
+    "kind": "trial"
+  },
+  "35951": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "719",
+        1,
+        2
+      ]
+    ]
+  },
+  "89": {
+    "kind": "trial"
+  },
+  "23792163643711": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "35951",
+        1,
+        2
+      ],
+      [
+        "89",
+        1,
+        2
+      ],
+      [
+        "37",
+        1,
+        2
+      ]
+    ]
+  },
+  "3": {
+    "kind": "trial"
+  },
+  "2": {
+    "kind": "trial"
+  },
+  "12289": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3",
+        1,
+        2
+      ],
+      [
+        "2",
+        12,
+        11
+      ]
+    ]
+  },
+  "1093": {
+    "kind": "trial"
+  },
+  "1692416503": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "12289",
+        1,
+        2
+      ],
+      [
+        "1093",
+        1,
+        2
+      ]
+    ]
+  },
+  "107": {
+    "kind": "trial"
+  },
+  "24132781": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "179",
+        1,
+        2
+      ],
+      [
+        "107",
+        1,
+        2
+      ]
+    ]
+  },
+  "1009": {
+    "kind": "trial"
+  },
+  "17": {
+    "kind": "trial"
+  },
+  "2161279": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1009",
+        1,
+        2
+      ],
+      [
+        "17",
+        1,
+        2
+      ]
+    ]
+  },
+  "269": {
+    "kind": "trial"
+  },
+  "406729": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "269",
+        1,
+        2
+      ],
+      [
+        "7",
+        1,
+        2
+      ]
+    ]
+  },
+  "14693679385278593849609206715278070972733319459651094018859396328480215743184089660644531": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "23792163643711",
+        1,
+        2
+      ],
+      [
+        "1692416503",
+        1,
+        2
+      ],
+      [
+        "24132781",
+        1,
+        2
+      ],
+      [
+        "2161279",
+        1,
+        2
+      ],
+      [
+        "519499",
+        1,
+        2
+      ],
+      [
+        "406729",
+        1,
+        2
+      ]
+    ]
+  },
+  "2731": {
+    "kind": "trial"
+  },
+  "98317": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2731",
+        1,
+        2
+      ]
+    ]
+  },
+  "228881977": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "98317",
+        1,
+        2
+      ]
+    ]
+  },
+  "26041733579107": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "228881977",
+        1,
+        2
+      ]
+    ]
+  },
+  "6717031": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "43",
+        1,
+        2
+      ]
+    ]
+  },
+  "401": {
+    "kind": "trial"
+  },
+  "24061": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "401",
+        1,
+        2
+      ]
+    ]
+  },
+  "5518679083": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "24061",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "4391": {
+    "kind": "trial"
+  },
+  "11078413963": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "4391",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "2053423": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "43",
+        1,
+        2
+      ]
+    ]
+  },
+  "393572551": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "43",
+        1,
+        2
+      ],
+      [
+        "23",
+        1,
+        2
+      ]
+    ]
+  },
+  "2081": {
+    "kind": "trial"
+  },
+  "474796799": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2081",
+        1,
+        2
+      ],
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "3557": {
+    "kind": "trial"
+  },
+  "557": {
+    "kind": "trial"
+  },
+  "968652448591": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3557",
+        1,
+        2
+      ],
+      [
+        "557",
+        1,
+        2
+      ]
+    ]
+  },
+  "7192439": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "4691": {
+    "kind": "trial"
+  },
+  "178259": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "4691",
+        1,
+        2
+      ]
+    ]
+  },
+  "116556073223": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "178259",
+        1,
+        2
+      ],
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "2687": {
+    "kind": "trial"
+  },
+  "37619": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2687",
+        1,
+        2
+      ]
+    ]
+  },
+  "442311486779": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "37619",
+        1,
+        2
+      ],
+      [
+        "19531",
+        1,
+        2
+      ]
+    ]
+  },
+  "39092299751": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "81624721879": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "208223359": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "271": {
+    "kind": "trial"
+  },
+  "23557541659": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "271",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "113": {
+    "kind": "trial"
+  },
+  "91079": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "113",
+        1,
+        2
+      ],
+      [
+        "31",
+        1,
+        2
+      ]
+    ]
+  },
+  "26303433043": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "91079",
+        1,
+        2
+      ],
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "929": {
+    "kind": "trial"
+  },
+  "46951334851": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "929",
+        1,
+        2
+      ],
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "203924792303": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "379",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "61",
+        1,
+        2
+      ]
+    ]
+  },
+  "40554403": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "469272367": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "5479": {
+    "kind": "trial"
+  },
+  "158712548971": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7603",
+        1,
+        2
+      ],
+      [
+        "5479",
+        1,
+        2
+      ]
+    ]
+  },
+  "1223": {
+    "kind": "trial"
+  },
+  "18201446707": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19531",
+        1,
+        2
+      ],
+      [
+        "1223",
+        1,
+        2
+      ]
+    ]
+  },
+  "1979291191": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "109": {
+    "kind": "trial"
+  },
+  "19403": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "109",
+        1,
+        2
+      ],
+      [
+        "89",
+        1,
+        2
+      ]
+    ]
+  },
+  "335462774467": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19403",
+        1,
+        2
+      ],
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "250891827607": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19531",
+        1,
+        2
+      ],
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "13782308471": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "79937389127": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "124040776231": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ]
+    ]
+  },
+  "782050677607": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "519499",
+        1,
+        2
+      ],
+      [
+        "7603",
+        1,
+        2
+      ]
+    ]
+  },
+  "57283": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "9547",
+        1,
+        2
+      ]
+    ]
+  },
+  "181": {
+    "kind": "trial"
+  },
+  "93312379": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "9547",
+        1,
+        2
+      ],
+      [
+        "181",
+        1,
+        2
+      ]
+    ]
+  },
+  "85487": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ]
+    ]
+  },
+  "3675899": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ]
+    ]
+  },
+  "229": {
+    "kind": "trial"
+  },
+  "9102976711": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ],
+      [
+        "229",
+        1,
+        2
+      ]
+    ]
+  },
+  "20610760087": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ],
+      [
+        "89",
+        1,
+        2
+      ]
+    ]
+  },
+  "22772188111": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ],
+      [
+        "59",
+        1,
+        2
+      ]
+    ]
+  },
+  "37123": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "269",
+        1,
+        2
+      ]
+    ]
+  },
+  "257053239019": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ],
+      [
+        "37123",
+        1,
+        2
+      ]
+    ]
+  },
+  "1187": {
+    "kind": "trial"
+  },
+  "379606310563": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42743",
+        1,
+        2
+      ],
+      [
+        "1187",
+        1,
+        2
+      ]
+    ]
+  },
+  "110829067": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "18471511",
+        1,
+        2
+      ]
+    ]
+  },
+  "31807941943": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "18471511",
+        1,
+        2
+      ]
+    ]
+  },
+  "81016047247": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "18471511",
+        1,
+        2
+      ]
+    ]
+  },
+  "233516842063": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "18471511",
+        1,
+        2
+      ]
+    ]
+  },
+  "855711218587": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "18471511",
+        1,
+        2
+      ]
+    ]
+  },
+  "30175277059": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "558801427",
+        1,
+        2
+      ]
+    ]
+  },
+  "320752019099": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "558801427",
+        1,
+        2
+      ]
+    ]
+  },
+  "550662565811": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7866608083",
+        1,
+        2
+      ]
+    ]
+  },
+  "13723": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ]
+    ]
+  },
+  "672379": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ]
+    ]
+  },
+  "12198859": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "29": {
+    "kind": "trial"
+  },
+  "15519583": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ],
+      [
+        "29",
+        1,
+        2
+      ]
+    ]
+  },
+  "6719": {
+    "kind": "trial"
+  },
+  "215128943": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "6719",
+        1,
+        2
+      ],
+      [
+        "2287",
+        1,
+        2
+      ]
+    ]
+  },
+  "413018479": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "18000727": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "23623",
+        1,
+        2
+      ]
+    ]
+  },
+  "126005083": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "23623",
+        1,
+        2
+      ]
+    ]
+  },
+  "13986564103": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "23623",
+        1,
+        2
+      ],
+      [
+        "127",
+        1,
+        2
+      ]
+    ]
+  },
+  "5600743": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "133351",
+        1,
+        2
+      ]
+    ]
+  },
+  "2188289911": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "133351",
+        1,
+        2
+      ]
+    ]
+  },
+  "137": {
+    "kind": "trial"
+  },
+  "32482436687": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "133351",
+        1,
+        2
+      ],
+      [
+        "137",
+        1,
+        2
+      ]
+    ]
+  },
+  "811": {
+    "kind": "trial"
+  },
+  "34823546843": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "133351",
+        1,
+        2
+      ],
+      [
+        "811",
+        1,
+        2
+      ]
+    ]
+  },
+  "311": {
+    "kind": "trial"
+  },
+  "663637520323": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "133351",
+        1,
+        2
+      ],
+      [
+        "311",
+        1,
+        2
+      ]
+    ]
+  },
+  "16319003431": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "4283203",
+        1,
+        2
+      ]
+    ]
+  },
+  "40939": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "6823",
+        1,
+        2
+      ]
+    ]
+  },
+  "170670523": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "6823",
+        1,
+        2
+      ],
+      [
+        "379",
+        1,
+        2
+      ]
+    ]
+  },
+  "4999": {
+    "kind": "trial"
+  },
+  "19997": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "4999",
+        1,
+        2
+      ]
+    ]
+  },
+  "103421164499": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "19997",
+        1,
+        2
+      ],
+      [
+        "6823",
+        1,
+        2
+      ]
+    ]
+  },
+  "286543": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ]
+    ]
+  },
+  "668599": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ]
+    ]
+  },
+  "1496387": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ]
+    ]
+  },
+  "30532643": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ]
+    ]
+  },
+  "353688343": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ],
+      [
+        "23",
+        2,
+        2
+      ]
+    ]
+  },
+  "2281": {
+    "kind": "trial"
+  },
+  "247715272459": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "15919",
+        1,
+        2
+      ],
+      [
+        "2281",
+        1,
+        2
+      ]
+    ]
+  },
+  "167": {
+    "kind": "trial"
+  },
+  "11": {
+    "kind": "trial"
+  },
+  "44089": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "167",
+        1,
+        2
+      ],
+      [
+        "11",
+        1,
+        2
+      ]
+    ]
+  },
+  "989612435311": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "44089",
+        1,
+        2
+      ],
+      [
+        "15919",
+        1,
+        2
+      ]
+    ]
+  },
+  "422308331": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "111427",
+        1,
+        2
+      ]
+    ]
+  },
+  "310878583": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7401871",
+        1,
+        2
+      ]
+    ]
+  },
+  "24559407979": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7401871",
+        1,
+        2
+      ]
+    ]
+  },
+  "33885765439": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "7401871",
+        1,
+        2
+      ]
+    ]
+  },
+  "9579811": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "319327",
+        1,
+        2
+      ]
+    ]
+  },
+  "469410691": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "319327",
+        1,
+        2
+      ]
+    ]
+  },
+  "1753105231": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "319327",
+        1,
+        2
+      ]
+    ]
+  },
+  "3785302259": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "319327",
+        1,
+        2
+      ]
+    ]
+  },
+  "2524199": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1262099",
+        1,
+        2
+      ]
+    ]
+  },
+  "5671872907": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1262099",
+        1,
+        2
+      ]
+    ]
+  },
+  "3196455263": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1596631",
+        1,
+        2
+      ]
+    ]
+  },
+  "123767641859": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "1596631",
+        1,
+        2
+      ]
+    ]
+  },
+  "781161943": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "11835787",
+        1,
+        2
+      ]
+    ]
+  },
+  "3621750823": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "11835787",
+        1,
+        2
+      ]
+    ]
+  },
+  "264739351927": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "42304147",
+        1,
+        2
+      ]
+    ]
+  },
+  "6653742959": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3326871479",
+        1,
+        2
+      ]
+    ]
+  },
+  "46576200707": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3326871479",
+        1,
+        2
+      ]
+    ]
+  },
+  "59883686623": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3326871479",
+        1,
+        2
+      ]
+    ]
+  },
+  "139728602119": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "3326871479",
+        1,
+        2
+      ]
+    ]
+  },
+  "12291346679": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "36364931",
+        1,
+        2
+      ]
+    ]
+  },
+  "139": {
+    "kind": "trial"
+  },
+  "119527769": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ],
+      [
+        "139",
+        1,
+        2
+      ]
+    ]
+  },
+  "67": {
+    "kind": "trial"
+  },
+  "128712361": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "2287",
+        1,
+        2
+      ],
+      [
+        "67",
+        1,
+        2
+      ]
+    ]
+  },
+  "5197": {
+    "kind": "trial"
+  },
+  "69316463449": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "5197",
+        1,
+        2
+      ],
+      [
+        "2287",
+        1,
+        2
+      ]
+    ]
+  },
+  "3211069": {
+    "kind": "pocklington",
+    "factors_witnesses": [
+      [
+        "127",
+        1,
+        2
+      ],
+      [
+        "43",
+        1,
+        2
+      ]
+    ]
+  }
+}
