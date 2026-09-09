@@ -1,0 +1,170 @@
+{
+  "schema": "a303656.phase-ef-repository-integration",
+  "version": 1,
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "package": "closed_state_sqd_phase_f",
+  "research_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "integration_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "source_archive": {
+    "located_filename": "A303656_CLOSED_STATE_SQD_PHASE_F.zip",
+    "outer_sha256": "144cd916f6c6f2e3f5b04921ee4deadd98504c82e3d9a58a7f98c2df4a28345b",
+    "archive_payload_count": 12,
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_type": "MANIFEST.json",
+    "source_integrity_entries": 11,
+    "source_replay": "PASS",
+    "committed": false
+  },
+  "source_payload": [
+    {
+      "path": "MANIFEST.json",
+      "size": 1144,
+      "sha256": "bd8461bc75ddf26c6a50a60d5b15fbebe4f3b1f78249c8bd60dd1830f930f4ac"
+    },
+    {
+      "path": "README.md",
+      "size": 1692,
+      "sha256": "d8309e0284d6734a4e652daf006928902f651601a16fe98f3140c6dbcb105f53"
+    },
+    {
+      "path": "REPORT.md",
+      "size": 24511,
+      "sha256": "3c541501e8c9408416d0ef5c1a49b1a641d0e7e6c2fdd88e70d2370ebf8bdf3b"
+    },
+    {
+      "path": "REVIEW_STATUS.json",
+      "size": 1080,
+      "sha256": "f8d88820fdd01bd57ef270c704427f573da3982922d35275fd4ea577d1c75997"
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "size": 2197,
+      "sha256": "0c5fcbbae8212b7ae0409137c49c2d20c6f995cf056e9e7547f741e035780705"
+    },
+    {
+      "path": "results/abstract_marked_model.json",
+      "size": 338,
+      "sha256": "6bfc6404e86a949b9f98dbc963d5c4ae524ab258f4dae905a061ed0c4d8fff42"
+    },
+    {
+      "path": "results/states.json",
+      "size": 109533,
+      "sha256": "12454365b6139ff0a937070c7e56127fc8f375458ae2db2358c8d27636f5cc19"
+    },
+    {
+      "path": "results/summary.json",
+      "size": 1469,
+      "sha256": "3e5249cea9ff838d9a87194d5e3eabcd4b8eff1e88972a7dce9d9bc8cc2b2ca0"
+    },
+    {
+      "path": "results/toy_cyclotomic_critical.json",
+      "size": 466,
+      "sha256": "b00c885e26a42ac49a50c10f70b571790a5b04f999ea4ca271cf05480c0a1300"
+    },
+    {
+      "path": "results/toy_same_root.json",
+      "size": 767,
+      "sha256": "61cf466b1fe0cccf6c8ae554a8a708e099fbf9555c2f2a11f8c3e4896e91f727"
+    },
+    {
+      "path": "results/vertices.json",
+      "size": 3292,
+      "sha256": "776eddc6ff2ec1bac45cc4aa03850aaf98d5121cef9e21a9190cb29b61e12a2f"
+    },
+    {
+      "path": "verify_sqd.py",
+      "size": 14060,
+      "sha256": "8963c76f474e8614052686f1840258b4357cf8c5426cab841e9977df4bb952e1"
+    }
+  ],
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "size": 2459,
+      "sha256": "78ae504f563fc8e953c313e8fde62f8985bac14814afb25e92ee98ec30ac491c"
+    },
+    {
+      "path": "DEPENDENCY_BINDING.json",
+      "size": 3332,
+      "sha256": "da974594fb7f1d7b033a2cdde34b77419a96cf20fe6a8b3a97443a63eea031c8"
+    },
+    {
+      "path": "verify_integration.py",
+      "size": 9894,
+      "sha256": "26ef79996746a55686a1cb021b19d651511d66893b2d26a16e21ee8f7e480574"
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "size": 2858,
+      "sha256": "73f72c63ef2377520de6f725cf0b2485d0d79e2297847d60c0fd1ef1f8ed06bf"
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "{python}",
+        "-B",
+        "verify_sqd.py",
+        "--out",
+        "{tmp}/replay_results"
+      ]
+    ],
+    "json_comparisons": [
+      {
+        "expected": "results/abstract_marked_model.json",
+        "actual": "{tmp}/replay_results/abstract_marked_model.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      },
+      {
+        "expected": "results/states.json",
+        "actual": "{tmp}/replay_results/states.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      },
+      {
+        "expected": "results/summary.json",
+        "actual": "{tmp}/replay_results/summary.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      },
+      {
+        "expected": "results/toy_cyclotomic_critical.json",
+        "actual": "{tmp}/replay_results/toy_cyclotomic_critical.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      },
+      {
+        "expected": "results/toy_same_root.json",
+        "actual": "{tmp}/replay_results/toy_same_root.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      },
+      {
+        "expected": "results/vertices.json",
+        "actual": "{tmp}/replay_results/vertices.json",
+        "ignore_keys": [
+          "runtime_seconds"
+        ]
+      }
+    ],
+    "isolation": "copy only source_payload to a temporary directory",
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "generated_binaries_committed": false,
+  "manifest_self_hash": null
+}
