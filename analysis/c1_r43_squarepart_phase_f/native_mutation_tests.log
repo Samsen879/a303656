@@ -1,0 +1,3 @@
+REJECTED factor_input: FAIL integer reconstruction
+REJECTED cofactor_input: FAIL fresh split
+REJECTED Lucas_witness: FAIL prime Fermat

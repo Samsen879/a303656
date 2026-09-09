@@ -1,0 +1,9 @@
+PM1 base 2 B1 1000000 stage1_gcd 1
+B2 10000000 stage2_gcd 1
+SECONDS 2.05047
+PM1 base 3 B1 1000000 stage1_gcd 1
+B2 10000000 stage2_gcd 1
+SECONDS 1.99884
+PM1 base 7 B1 1000000 stage1_gcd 1
+B2 10000000 stage2_gcd 1
+SECONDS 2.04753
