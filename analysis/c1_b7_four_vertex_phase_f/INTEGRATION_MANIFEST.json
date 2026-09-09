@@ -1,0 +1,230 @@
+{
+  "schema": "a303656.phase-ef-repository-integration",
+  "version": 1,
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "package": "b7_four_vertex_phase_f",
+  "research_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "integration_base": {
+    "sha": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+    "tree": "afd34fc936f83867758c827bfcd8b7b9d9b8d5b5"
+  },
+  "source_archive": {
+    "located_filename": "A303656_B7_FOUR_VERTEX_PHASE_F.zip",
+    "outer_sha256": "0494af95826e91e498ba833b4b27aea8b95875edf43b4105e7a6bb62ce0c54e1",
+    "archive_payload_count": 31,
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_type": "SHA256SUMS.txt",
+    "source_integrity_entries": 30,
+    "source_replay": "PASS",
+    "committed": false
+  },
+  "source_payload": [
+    {
+      "path": "README.md",
+      "size": 2666,
+      "sha256": "7b14f3464db40f654007b5d2b1ec3d3f7509695f4ee9b0dc2f126b63b80a22de"
+    },
+    {
+      "path": "REPORT.md",
+      "size": 21374,
+      "sha256": "ce52d9cf992784cef91698249c6ffb4eb2ad3de7d780ca3a6f41aff6e0f75a2d"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "size": 2483,
+      "sha256": "48508cff2c0195be1f925b0b72067a91d5e30e2179b7d8291b1bb18148543c61"
+    },
+    {
+      "path": "SOURCE_BINDING.json",
+      "size": 2594,
+      "sha256": "d16da8bedf479ee2a6062b1e182f90ee1fa09a7c83e8ef2e1c79bde2a42e386f"
+    },
+    {
+      "path": "build_results.py",
+      "size": 9773,
+      "sha256": "2cf58e7a48698d55d06202fcea57d6e3e44a0959d99f9ee1c1c30d4a4a725b33"
+    },
+    {
+      "path": "fork_factors.csv",
+      "size": 2086,
+      "sha256": "3f56e77e4c081cfd6f66556554fb94e74ab0e9ccc7027dbbca7598ac3879fead"
+    },
+    {
+      "path": "fork_factors.json",
+      "size": 5806,
+      "sha256": "e1e0bb57f88bb27cfc43ee6ab1d1e79adf166c7986ca15b2f8f69d73c6f356b3"
+    },
+    {
+      "path": "fork_probe_1e12.csv",
+      "size": 933,
+      "sha256": "7d4cb2b2abc04135947792d966c0733fac18eeeee27622494e1bd728b2221ea6"
+    },
+    {
+      "path": "fork_probe_1e12.log",
+      "size": 671,
+      "sha256": "86e949151689f6ee249f77f39a8993a897cbd70b909af1e89e3a93c24c1b0609"
+    },
+    {
+      "path": "indices.csv",
+      "size": 31637,
+      "sha256": "4cc41e4f1dfbb248a465bd4da597449980a2c9064f085a912c20b107b9ad1209"
+    },
+    {
+      "path": "indices.json",
+      "size": 117852,
+      "sha256": "fef6f2424e48caab11fcb43342c31e006557ec9e461624579e9f220e2e63b050"
+    },
+    {
+      "path": "materialized_aggregates.json",
+      "size": 672,
+      "sha256": "e0623f598fcb9db05d0be13347e81a07fb5c690d2d178e6ae9960831bd994745"
+    },
+    {
+      "path": "pminus1_lab.cpp",
+      "size": 1524,
+      "sha256": "d50a6492c79ccdeb7e09c5a0a5197c25ba3e624424870cefd34b639775c06908"
+    },
+    {
+      "path": "pminus1_lab.log",
+      "size": 426,
+      "sha256": "d86fe7255778ca9f180c379a34a56dc9643d6fe2fccf2a313677fb4c5249cdcd"
+    },
+    {
+      "path": "pminus1_results.json",
+      "size": 2763,
+      "sha256": "8dd6254761c45616371625a796f1bff933b89ce2b9f073b472550ef7f0493831"
+    },
+    {
+      "path": "pminus1_runtime.log",
+      "size": 13,
+      "sha256": "e5862ab38948c7eb717f54bdd86bf5c960bc2dd7ca74ae29b12cac74c62000ac"
+    },
+    {
+      "path": "prime_certificates.json",
+      "size": 27114,
+      "sha256": "bc8853fc56da55676b02aa723dfe9c6d014b6cbc9f33ce4d94f2daa22ba65477"
+    },
+    {
+      "path": "probe.cpp",
+      "size": 1944,
+      "sha256": "f584573c9c22b519ba3d03ccf9230319e46de0298b24f348df88ac4e064534d7"
+    },
+    {
+      "path": "relay_probe_1e10.csv",
+      "size": 596,
+      "sha256": "83df96d14a50c6d7c675ba93181e10e1a61be70611e6fb87ee9a5fe1f8a800c3"
+    },
+    {
+      "path": "relay_probe_1e10.log",
+      "size": 273,
+      "sha256": "fcd5b3746113eda1aa242f65f2c3012888553f8b32b2fb868599f4b489d1d00e"
+    },
+    {
+      "path": "relays.csv",
+      "size": 1611,
+      "sha256": "2f6e7e3c089462ab12cdc3b5acb1f90366ce25f82c2e0c5a2cdf417e45cbfdad"
+    },
+    {
+      "path": "relays.json",
+      "size": 4703,
+      "sha256": "416f1b5ae76beb0c5003afae267dbc12d317fcf5bef6d347307bd253258f3602"
+    },
+    {
+      "path": "serial_factors.csv",
+      "size": 4637,
+      "sha256": "9e358fa42ca9616ab8065b527eec82b2ab47c78da9bc4ac72f139cf810875a05"
+    },
+    {
+      "path": "serial_factors.json",
+      "size": 12947,
+      "sha256": "d010e05191de0fac7a9b50dde214e3f4e6dbd71050a790ae342a0b9cd946c6e4"
+    },
+    {
+      "path": "serial_probe_1e12.csv",
+      "size": 2314,
+      "sha256": "632cf4ee121c8682a4c56677f4321a6a6509b0808cbef7eb512c591ed16f49b9"
+    },
+    {
+      "path": "serial_probe_1e12.log",
+      "size": 1139,
+      "sha256": "4ee86408a1d1da8f1ca8a3592380c0373ab32e7c2452846400dbcb2fc2411aa5"
+    },
+    {
+      "path": "states.csv",
+      "size": 5458,
+      "sha256": "641535205f2dfa8714a809b87d31926ea20e28d0eb7be76db9d9a6892e93a4a6"
+    },
+    {
+      "path": "states.json",
+      "size": 13530,
+      "sha256": "0c112012cb1ff16a636171628c22aa117f874be85c73d10f9509c5cc50fc17cd"
+    },
+    {
+      "path": "summary.json",
+      "size": 1627,
+      "sha256": "b109d0e081cd279b1376fb5ec56d17a764b7fc20baa513045ea659f0fe81c6e5"
+    },
+    {
+      "path": "validation.json",
+      "size": 990,
+      "sha256": "e473ec0850dcdcba8075aabb042b39be3bd00048521f4a1cb5ee56f9d2c179fb"
+    },
+    {
+      "path": "verify.py",
+      "size": 10665,
+      "sha256": "7e654a7ba65aaf586a1b1f0a21adfd5c17607a06a88c54a0c34505e77cfa4815"
+    }
+  ],
+  "repository_native_files": [
+    {
+      "path": "INTEGRATION.md",
+      "size": 2743,
+      "sha256": "4a9861772e9395a9839c2a8830905bb0cd222d070eb1f751b182036b9a2479e6"
+    },
+    {
+      "path": "DEPENDENCY_BINDING.json",
+      "size": 3013,
+      "sha256": "870ac39cea5f2ae5bc2aadb104767d70f4d0148de69effaedde6c08d80628731"
+    },
+    {
+      "path": "verify_integration.py",
+      "size": 9894,
+      "sha256": "26ef79996746a55686a1cb021b19d651511d66893b2d26a16e21ee8f7e480574"
+    },
+    {
+      "path": "tests/test_integration_scope.py",
+      "size": 2777,
+      "sha256": "c3574a6fa987a1604241f0f0e065f61684c22200a94fd718fe41be1f26b859bf"
+    }
+  ],
+  "source_replay": {
+    "commands": [
+      [
+        "sha256sum",
+        "-c",
+        "SHA256SUMS.txt"
+      ],
+      [
+        "{python}",
+        "verify.py"
+      ],
+      [
+        "{python}",
+        "verify.py",
+        "--replay-probes",
+        "--replay-pminus1"
+      ]
+    ],
+    "json_comparisons": [],
+    "isolation": "copy only source_payload to a temporary directory",
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "generated_binaries_committed": false,
+  "manifest_self_hash": null
+}

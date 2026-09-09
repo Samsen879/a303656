@@ -1,0 +1,63 @@
+{
+  "fork_states": 15,
+  "fork_raw_indices": 120,
+  "fork_distinct_indices": 120,
+  "certified_serial_states": 28,
+  "certified_serial_indices": 448,
+  "certified_total_indices": 568,
+  "serial_states_by_r": {
+    "43": 9,
+    "127": 5,
+    "379": 4,
+    "7603": 5,
+    "19531": 3,
+    "519499": 2
+  },
+  "complete_serial_census": false,
+  "relay_discovery_bound": 10000000000,
+  "fork_terminal_probe_bound": 1000000000000,
+  "serial_terminal_probe_bound": 1000000000000,
+  "admitted_fork_prime_factors": 28,
+  "admitted_serial_prime_factors": 62,
+  "square_hits": 0,
+  "closed_four_vertex_states": 0,
+  "success_level": "D (independent reconstruction; Phase E source absent)",
+  "smallest_serial_states": [
+    {
+      "shape": "serial",
+      "r": 127,
+      "s": 2287,
+      "order_s": 254,
+      "terminal_index_count": 16,
+      "aggregate_digits": 8522905,
+      "M": 12198858,
+      "expression": "(5^12198858-1)/(2287*(5^5334-1))",
+      "closure_status": "OPEN",
+      "imprimitive_factor": 2287
+    },
+    {
+      "shape": "serial",
+      "r": 43,
+      "s": 9547,
+      "order_s": 86,
+      "terminal_index_count": 16,
+      "aggregate_digits": 12050293,
+      "M": 17241882,
+      "expression": "(5^17241882-1)/(9547*(5^1806-1))",
+      "closure_status": "OPEN",
+      "imprimitive_factor": 9547
+    },
+    {
+      "shape": "serial",
+      "r": 43,
+      "s": 42743,
+      "order_s": 602,
+      "terminal_index_count": 16,
+      "aggregate_digits": 53954925,
+      "M": 77193858,
+      "expression": "(5^77193858-1)/(42743*(5^1806-1))",
+      "closure_status": "OPEN",
+      "imprimitive_factor": 42743
+    }
+  ]
+}

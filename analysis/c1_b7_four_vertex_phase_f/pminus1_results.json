@@ -1,0 +1,120 @@
+[
+  {
+    "n": 2287,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [],
+    "residual_bits": 5309,
+    "residual_sha256_big_endian": "39171b3fc4c0a2c986d119f6637c6a00d60a787b899595cb802a017a2445ee3b",
+    "residual_expression": "Phi_2287(5)/1",
+    "complete_factorization": false,
+    "square_part_certified": false
+  },
+  {
+    "n": 4574,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [
+      {
+        "p": 119527769,
+        "valuation": 1,
+        "p_mod_4": 1,
+        "exact_order": 4574
+      },
+      {
+        "p": 128712361,
+        "valuation": 1,
+        "p_mod_4": 1,
+        "exact_order": 4574
+      }
+    ],
+    "residual_bits": 5254,
+    "residual_sha256_big_endian": "998a9b272f89ffc1926f7896e3ff49ee1b34df4c9dbee12aacbd9f501e75e22a",
+    "residual_expression": "Phi_4574(5)/15384701353052609",
+    "complete_factorization": false,
+    "square_part_certified": false
+  },
+  {
+    "n": 5461,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [
+      {
+        "p": 6717031,
+        "valuation": 1,
+        "p_mod_4": 3,
+        "exact_order": 5461
+      }
+    ],
+    "residual_bits": 12265,
+    "residual_sha256_big_endian": "27ee66c4827327279b22fb3a1e82c3883e40240d57b4a5f4c96b7f429d5022a9",
+    "residual_expression": "Phi_5461(5)/6717031",
+    "complete_factorization": false,
+    "square_part_certified": false
+  },
+  {
+    "n": 6861,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [
+      {
+        "p": 69316463449,
+        "valuation": 1,
+        "p_mod_4": 1,
+        "exact_order": 6861
+      }
+    ],
+    "residual_bits": 10580,
+    "residual_sha256_big_endian": "8fa73514689f05ed3157d6fba180c4c33e0cdd0b199429bdb6f32be9a52fca1b",
+    "residual_expression": "Phi_6861(5)/69316463449",
+    "complete_factorization": false,
+    "square_part_certified": false
+  },
+  {
+    "n": 10922,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [
+      {
+        "p": 3211069,
+        "valuation": 1,
+        "p_mod_4": 1,
+        "exact_order": 10922
+      }
+    ],
+    "residual_bits": 12267,
+    "residual_sha256_big_endian": "ed7a2abfa75b03a81dfc4a5b18da7071a0d04c9a472bbcdae9b906bf0c623bd0",
+    "residual_expression": "Phi_10922(5)/3211069",
+    "complete_factorization": false,
+    "square_part_certified": false
+  },
+  {
+    "n": 16383,
+    "B1": 10000,
+    "bases": [
+      2,
+      3
+    ],
+    "certified_factors": [],
+    "residual_bits": 24576,
+    "residual_sha256_big_endian": "02771c3c979eae001709e660edc2b7672bad0b38692898be9e467344494d2aff",
+    "residual_expression": "Phi_16383(5)/1",
+    "complete_factorization": false,
+    "square_part_certified": false
+  }
+]
