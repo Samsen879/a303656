@@ -1,0 +1,48 @@
+{
+  "status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "scope": "admitted original-row finite C=1 formal class",
+  "source_gap": "No Phase E ZIP available; O31 independently reconstructed from pinned C/D",
+  "new_mathematical_results": [
+    "precise intrinsic all-odd 31-basin definition excluding terminal3 from D(q)",
+    "O31 necessity and fixed-state opposite-parity criterion: independent reconstruction",
+    "conditional global CRT completion for actual seven-basin arithmetic data with all-odd31",
+    "unbounded exact first-relay classification",
+    "all two-vertex B31^odd basins excluded",
+    "exact eight-index three-vertex equivalence",
+    "exact arbitrary-branching primitive-part critical integer criterion",
+    "exhaustive finite-branching recursive good-state enumeration",
+    "empty B31^odd implies infinite regular all-odd prime-order extensions",
+    "N=7 and complete implies at least17 original odd rows, at least10 regular"
+  ],
+  "first_relay_set": [
+    "878851",
+    "625552508473588471"
+  ],
+  "actual_nonregular_member": "NOT_FOUND",
+  "class_emptiness": "NOT_PROVED",
+  "three_vertex_arithmetic_closure": "NOT_PROVED",
+  "four_vertex_arithmetic_closure": "NOT_PROVED",
+  "exactly_seven_impossibility": "NOT_PROVED",
+  "N_ge_8": "NOT_PROVED",
+  "global_finite_critical_family": "NOT_PROVED",
+  "recursive_closed_state_critical_family": "PROVED_IN_REPORT_NOT_FORMALIZED",
+  "success_level": "E plus exact recursive closed-state reduction; not global-finite B",
+  "next_single_target": {
+    "state": [
+      "31",
+      "878851"
+    ],
+    "orders": [
+      "878851",
+      "2636553",
+      "27244381",
+      "81733143"
+    ],
+    "goal": "Unbounded admitted primitive square-divisor classification; start with n=878851, not a larger general q-scan"
+  },
+  "github_writes_performed": "NONE"
+}

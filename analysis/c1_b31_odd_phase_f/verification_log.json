@@ -1,0 +1,9 @@
+{
+  "prime_certificates": 66,
+  "rows": 37,
+  "probe_candidates": 160000,
+  "probe_prime_hits": 3,
+  "mutation_tests_rejected": 9,
+  "status": "PASS",
+  "proof_scope": "finite evidence only; infinite statements use REPORT.md"
+}
