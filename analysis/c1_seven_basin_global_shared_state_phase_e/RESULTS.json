@@ -1,0 +1,360 @@
+{
+  "all_checks_passed": true,
+  "authority_main": "fd59aad038a09f2fc6df7039111408fa231c27dd",
+  "actual_seven_root_ledger_found": false,
+  "A303656_solved": false,
+  "source_code_sha256": "8ba2787fbd695452965f8b912f9d04ce9a2a7d8e6ec77a7e1ac58254a5c50bd7",
+  "elapsed_seconds": 0.3282,
+  "checks": {
+    "arithmetic": {
+      "pass": true,
+      "rows": [
+        {
+          "p": 3,
+          "w": 2,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 7,
+          "w": 6,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 31,
+          "w": 3,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 19,
+          "w": 9,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 5167,
+          "w": 18,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 163,
+          "w": 54,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 271,
+          "w": 27,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 487,
+          "w": 54,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 4159,
+          "w": 27,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 31051,
+          "w": 27,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 16018507,
+          "w": 54,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 43,
+          "w": 42,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 127,
+          "w": 42,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 1303,
+          "w": 62,
+          "s": 1,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 20771,
+          "w": 10385,
+          "s": 2,
+          "prime_proof": "complete trial division"
+        },
+        {
+          "p": 40487,
+          "w": 40486,
+          "s": 2,
+          "prime_proof": "complete trial division"
+        }
+      ]
+    },
+    "frontier_and_literal_model": {
+      "pass": true,
+      "conditional_assignments": 120,
+      "conditional_exponent_cases": 6480,
+      "cumulative_even_cells": [
+        9,
+        18,
+        21,
+        24,
+        25,
+        26,
+        27
+      ],
+      "literal_H0_head_states": [
+        {
+          "p": 31,
+          "ell": 0,
+          "r_mod_p2": 4
+        },
+        {
+          "p": 7,
+          "ell": 4,
+          "r_mod_p2": 33
+        },
+        {
+          "p": 19,
+          "ell": 2,
+          "r_mod_p2": 237
+        },
+        {
+          "p": 5167,
+          "ell": 14,
+          "r_mod_p2": 26482920
+        },
+        {
+          "p": 271,
+          "ell": 8,
+          "r_mod_p2": 54317
+        },
+        {
+          "p": 4159,
+          "ell": 17,
+          "r_mod_p2": 5094267
+        },
+        {
+          "p": 31051,
+          "ell": 26,
+          "r_mod_p2": 508857581
+        }
+      ],
+      "scope": "conditional guard/profile checks, NOT actual terminal roots"
+    },
+    "regular_skeletons": {
+      "pass": true,
+      "B7_regular_skeletons": [
+        {
+          "regular_rows": [
+            7,
+            43
+          ],
+          "a": 1204,
+          "L": 1806,
+          "guard_cells": 301,
+          "covered_cells": 300,
+          "holes": [
+            1204
+          ],
+          "states": {
+            "7": 33,
+            "43": 1428
+          }
+        },
+        {
+          "regular_rows": [
+            7,
+            43,
+            127
+          ],
+          "a": 152908,
+          "L": 229362,
+          "guard_cells": 38227,
+          "covered_cells": 38226,
+          "holes": [
+            152908
+          ],
+          "states": {
+            "7": 33,
+            "43": 1428,
+            "127": 11159
+          }
+        }
+      ],
+      "31_even_relay_skeleton": {
+        "R": [
+          31,
+          1303
+        ],
+        "L": 242358,
+        "parity_counts": {
+          "0": {
+            "cells": 40393,
+            "uncovered": 1
+          },
+          "1": {
+            "cells": 40393,
+            "uncovered": 1303
+          }
+        }
+      },
+      "scope": "actual regular-row skeletons; all nonregular terminal positions remain OPEN"
+    },
+    "actual_shared_31_collision": {
+      "pass": true,
+      "fixed_hits": {
+        "0": [
+          0
+        ],
+        "437511": [
+          1
+        ]
+      },
+      "histogram": {
+        "2": 899,
+        "60": 58,
+        "61": 4
+      },
+      "states_checked": 961,
+      "exponent_cells": 62,
+      "max_covered": 61,
+      "scope": "actual shared-row collision; violates seven-basin vertex disjointness"
+    },
+    "actual_three_way_MUS": {
+      "pass": true,
+      "prime": 3,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "states_checked": 9,
+      "anchor": 0,
+      "exponents": [
+        0,
+        2,
+        4
+      ],
+      "allowed_actual_residues": [
+        [
+          5,
+          8
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "pair_intersections": [
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          2
+        ]
+      ],
+      "triple_intersection": [],
+      "opposite_parity_version": {
+        "anchor": 1,
+        "exponents": [
+          3,
+          1,
+          5
+        ],
+        "missing_cylinders": [
+          "d=0 mod3, odd",
+          "d=1 mod3, odd",
+          "d=5 mod9, odd"
+        ],
+        "allowed_actual_residues": [
+          [
+            5,
+            8
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            8
+          ]
+        ]
+      },
+      "scope": "actual row3 MUS; basin-derived necessity is conditional on parity-defective 31 closure, not an instantiated seven-root ledger"
+    },
+    "opposite_parity_row3": {
+      "pass": true,
+      "checks": [
+        {
+          "K": 2,
+          "states_and_E_tested": 6,
+          "passing_states_and_E": 1,
+          "all_passing_centers_mod3": 0
+        },
+        {
+          "K": 3,
+          "states_and_E_tested": 18,
+          "passing_states_and_E": 3,
+          "all_passing_centers_mod3": 0
+        },
+        {
+          "K": 4,
+          "states_and_E_tested": 162,
+          "passing_states_and_E": 18,
+          "all_passing_centers_mod3": 0
+        },
+        {
+          "K": 5,
+          "states_and_E_tested": 486,
+          "passing_states_and_E": 54,
+          "all_passing_centers_mod3": 0
+        }
+      ],
+      "scope": "bounded check of local row3 lemma; unbounded argument is in REPORT.md"
+    },
+    "typed_profiles": {
+      "pass": true,
+      "associativity_cases": 3375,
+      "typed_BOTH_separator_cells": 54,
+      "EITHER_not_BOTH_actual_mask_profile": [
+        1,
+        2
+      ],
+      "scope": "exact profile algebra; conditional lower-envelope A1-projection sufficiency check, not instantiated full-root masks"
+    },
+    "source_resultant_gcd_gate": {
+      "pass": true,
+      "gcd": 432821,
+      "remaining_primes": [
+        269,
+        1609
+      ],
+      "scope": "recomputed gcd from SOURCE resultant factorization, not a new resultant computation"
+    }
+  }
+}
