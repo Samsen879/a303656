@@ -1,0 +1,28 @@
+{
+  "schema": "A303656_PHASE_E_LOCAL_REPLAY_RECEIPT_V1",
+  "timestamp_utc": "2026-09-08T04:19:31.990215+00:00",
+  "python_version": "3.13.5",
+  "runs": [
+    {
+      "name": "fresh_standard",
+      "python_optimization": false,
+      "exit_code": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 5.65175,
+      "stdout": "PASS: 48 two-route residue cases; 1128 structural index-pair checks;\n3 mandatory nonregular controls and closures; 11 Hensel identities;\n50 lift digits; 480 valuation checks; 6 rejected mutations.\nNew B7 excluded indices: NONE. GitHub writes: NONE.\nEvidence: <fresh_output>\n"
+    },
+    {
+      "name": "fresh_optimized",
+      "python_optimization": true,
+      "exit_code": 0,
+      "byte_identical": true,
+      "elapsed_seconds": 7.351395,
+      "stdout": "PASS: 48 two-route residue cases; 1128 structural index-pair checks;\n3 mandatory nonregular controls and closures; 11 Hensel identities;\n50 lift digits; 480 valuation checks; 6 rejected mutations.\nNew B7 excluded indices: NONE. GitHub writes: NONE.\nEvidence: <fresh_output>\n"
+    }
+  ],
+  "verify_py_sha256": "b69be01361adcf57e485394878190a272b9d1542525477f513b4519deaeb9f56",
+  "evidence_json_sha256": "aef5325c411e330b72858c2797df17a2058f8c2fc7ac1802eaa4d392057f9dcd",
+  "scope": "Local standalone replay only. Not repository-native, not independent-author proof review.",
+  "new_excluded_indices": [],
+  "github_writes": "NONE"
+}
