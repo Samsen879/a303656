@@ -12,9 +12,9 @@ Repository: `Samsen879/a303656` (ID `1333945235`). Research and integration base
 
 The producer session did not have the requested Phase E source package available. Its Phase-D-based reconstruction and source-gap statements remain unchanged. The integration layer reconciled `good state R`, closure, `A(R)`, `J(R)`, `W_R`, `Z_R`, and primitive normalization against E1 Draft PR #30; E2 #31 and E4 #33 are supporting dependencies. E1 owns closed-state theory. F2 adds distinct-state normalized coprimality, raw deletion gcd structure, ambient `V_B` factorization, the no-migration theorem, and the SQD route audit.
 
-Local dependency reconciliation: PASS. Repository dependency status: PENDING_MERGE. `merge_blocked=true`.
+Local dependency reconciliation: PASS. Repository dependency status: BOUND_TO_MERGED_REPOSITORY. `merge_blocked=false`.
 
-**MERGE STATUS: BLOCKED UNTIL THE REQUIRED PHASE E PRS ARE MERGED, THIS BRANCH IS REFRESHED ON NEW MAIN, AND STRICT DEPENDENCY REPLAY PASSES.** The future gate is `python3 -B verify_integration.py --require-merged-dependencies` after rebinding to Phase-E-complete main and setting `BOUND_TO_MERGED_REPOSITORY`.
+The required Phase E PRs are merged and this branch is refreshed on Phase-E-complete main. `python3 -B verify_integration.py --require-merged-dependencies` is the mandatory merge gate.
 
 ## What is proved and not proved
 
