@@ -1,0 +1,312 @@
+{
+  "status": "PASS",
+  "lucas_primes_certified": 45,
+  "row_records_checked": 27,
+  "countermodels": [
+    {
+      "name": "odd_antichain_prime_base_same_first_order_as_5",
+      "root": "878851",
+      "vertices": 2,
+      "maximal_generators": 1,
+      "symbol_product": -1,
+      "tame_tests": 8,
+      "exact_root_valuation": 2,
+      "base_prime_certified": true
+    },
+    {
+      "name": "odd_antichain_prime_base_also_preserves_mod8",
+      "root": "878851",
+      "vertices": 2,
+      "maximal_generators": 1,
+      "symbol_product": -1,
+      "tame_tests": 8,
+      "exact_root_valuation": 2,
+      "base_prime_certified": true
+    },
+    {
+      "name": "even_antichain_preserves_actual_base5_proper_fork",
+      "root": "269386049336015633650142291",
+      "vertices": 4,
+      "maximal_generators": 2,
+      "symbol_product": 1,
+      "tame_tests": 10,
+      "exact_root_valuation": 2,
+      "base_prime_certified": false
+    },
+    {
+      "name": "three_generator_fork_variable_base",
+      "root": "603442975211",
+      "vertices": 5,
+      "maximal_generators": 3,
+      "symbol_product": -1,
+      "tame_tests": 11,
+      "exact_root_valuation": 2,
+      "base_prime_certified": false
+    },
+    {
+      "name": "transitive_edge_same_first_order_as_5",
+      "root": "490398859",
+      "vertices": 3,
+      "maximal_generators": 1,
+      "symbol_product": -1,
+      "tame_tests": 9,
+      "exact_root_valuation": 2,
+      "base_prime_certified": false
+    }
+  ],
+  "actual_base5_member_found": false,
+  "critical_mod8": {
+    "status": "PASS",
+    "actual_closed_substates": 15,
+    "actual_state_records": [
+      {
+        "R": [
+          "31"
+        ],
+        "A": [
+          "31"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851"
+        ],
+        "A": [
+          "878851"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859"
+        ],
+        "A": [
+          "490398859"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "48486209671"
+        ],
+        "A": [
+          "48486209671"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859",
+          "48486209671"
+        ],
+        "A": [
+          "490398859",
+          "48486209671"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "625552508473588471"
+        ],
+        "A": [
+          "625552508473588471"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "625552508473588471"
+        ],
+        "A": [
+          "878851",
+          "625552508473588471"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859",
+          "625552508473588471"
+        ],
+        "A": [
+          "490398859",
+          "625552508473588471"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "48486209671",
+          "625552508473588471"
+        ],
+        "A": [
+          "48486209671",
+          "625552508473588471"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859",
+          "48486209671",
+          "625552508473588471"
+        ],
+        "A": [
+          "490398859",
+          "48486209671",
+          "625552508473588471"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "625552508473588471",
+          "268987578643643042531"
+        ],
+        "A": [
+          "268987578643643042531"
+        ],
+        "Z_mod8": 5
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "625552508473588471",
+          "268987578643643042531"
+        ],
+        "A": [
+          "878851",
+          "268987578643643042531"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859",
+          "625552508473588471",
+          "268987578643643042531"
+        ],
+        "A": [
+          "490398859",
+          "268987578643643042531"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "48486209671",
+          "625552508473588471",
+          "268987578643643042531"
+        ],
+        "A": [
+          "48486209671",
+          "268987578643643042531"
+        ],
+        "Z_mod8": 1
+      },
+      {
+        "R": [
+          "31",
+          "878851",
+          "490398859",
+          "48486209671",
+          "625552508473588471",
+          "268987578643643042531"
+        ],
+        "A": [
+          "490398859",
+          "48486209671",
+          "268987578643643042531"
+        ],
+        "Z_mod8": 1
+      }
+    ],
+    "generic_mod8_checks": 280,
+    "actual_base5_admitted_triangle_product": -1
+  },
+  "abstract_dags": {
+    "status": "PASS",
+    "records": [
+      {
+        "vertices": 2,
+        "accepted_root_closed_dags": 1,
+        "maximal_width_distribution": {
+          "1": 1
+        }
+      },
+      {
+        "vertices": 3,
+        "accepted_root_closed_dags": 2,
+        "maximal_width_distribution": {
+          "1": 2
+        }
+      },
+      {
+        "vertices": 4,
+        "accepted_root_closed_dags": 10,
+        "maximal_width_distribution": {
+          "1": 8,
+          "2": 2
+        }
+      },
+      {
+        "vertices": 5,
+        "accepted_root_closed_dags": 122,
+        "maximal_width_distribution": {
+          "1": 80,
+          "2": 40,
+          "3": 2
+        }
+      },
+      {
+        "vertices": 6,
+        "accepted_root_closed_dags": 3346,
+        "maximal_width_distribution": {
+          "1": 1952,
+          "2": 1248,
+          "3": 144,
+          "4": 2
+        }
+      }
+    ]
+  },
+  "corruptions_rejected": [
+    "fake_base5_member",
+    "replace_variable_base_with_5",
+    "wrong_root_valuation",
+    "wrong_lift_coefficient",
+    "drop_maximal_generator",
+    "wrong_edge_sign",
+    "missing_head_state",
+    "bad_Lucas_witness",
+    "incomplete_pminus1",
+    "false_prime_base_flag",
+    "terminal3_in_all_odd_rows",
+    "corrupt_exact_order"
+  ],
+  "scope": "Finite evidence only; no infinite theorem formalization, no base-5 emptiness, no N>=8."
+}

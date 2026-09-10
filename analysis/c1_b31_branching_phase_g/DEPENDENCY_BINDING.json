@@ -1,0 +1,37 @@
+{
+  "schema": "a303656.phase-g-dependency-binding.v1",
+  "repository": "Samsen879/a303656",
+  "integration_base": {
+    "sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+    "tree": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06"
+  },
+  "status": "BOUND_TO_MERGED_REPOSITORY",
+  "repository_source_wins": true,
+  "dependencies": [
+    {
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "sha256": "f705e2e06ad052c9b6329b5cf611e339b4209fb9e229fabfaeb3355acd5aec2b",
+      "role": "order-DAG and maximal-generator authority"
+    },
+    {
+      "path": "analysis/c1_b7_branching_phase_e/THEOREMS.md",
+      "sha256": "0664a68099461e1caa15d91e4a68d93a27a42cf13f6aed9b47db486723e04385",
+      "role": "branching and gateway comparison boundary"
+    },
+    {
+      "path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md",
+      "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9",
+      "role": "fixed-base q-primary terminal lifting authority"
+    },
+    {
+      "path": "analysis/c1_b31_odd_phase_f/REPORT.md",
+      "sha256": "96d214f87fb5693e9794915f16e3882ce7485693c426a24e1c644709787cdb48",
+      "role": "Phase F Theorems F2/F4 and infinite regular extension compatibility"
+    },
+    {
+      "path": "analysis/c1_closed_state_sqd_phase_f/REPORT.md",
+      "sha256": "3c541501e8c9408416d0ef5c1a49b1a641d0e7e6c2fdd88e70d2370ebf8bdf3b",
+      "role": "exact-state and no-migration boundary"
+    }
+  ]
+}

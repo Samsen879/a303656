@@ -1,0 +1,38 @@
+{
+  "schema": "a303656.phase-g-repository-integration.v1",
+  "package": "b31_branching_phase_g",
+  "source_archive": {
+    "located_filename": "A303656_B31_BRANCHING_PHASE_G.zip",
+    "outer_sha256": "70257fc23dea17a752569ce88c170684cc7b6785d6213fca5e955d5c192c8b92",
+    "internal_root": "A303656_B31_BRANCHING_PHASE_G",
+    "archive_members": 16,
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_entries": 15,
+    "committed": false
+  },
+  "producer_manifest": "SHA256SUMS.txt",
+  "producer_payload_files": 16,
+  "repository_native_files": [
+    "INTEGRATION.md",
+    "DEPENDENCY_BINDING.json",
+    "INTEGRATION_MANIFEST.json",
+    "verify_integration.py",
+    "tests/test_integration_scope.py"
+  ],
+  "source_replay": {
+    "commands": [
+      ["{python}", "-B", "verify.py", "--output", "{tmp}/normal.json"],
+      ["{python}", "-O", "-B", "verify.py", "--output", "{tmp}/optimized.json"]
+    ],
+    "expected_corruptions_rejected": 12,
+    "result": "PASS"
+  },
+  "discovery_replay": {
+    "command": ["{python}", "-B", "replay_discovery.py", "--output", "{tmp}/discovery.json"],
+    "comparison": "count and hits only; timing and hand-authored scope wrapper excluded",
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "generated_binaries_committed": false
+}

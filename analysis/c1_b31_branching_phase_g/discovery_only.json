@@ -1,0 +1,20 @@
+{
+  "count": 80000,
+  "seconds": 0.9898803234100342,
+  "hits": [],
+  "status": "DISCOVERY_ONLY_NO_EXCLUSION",
+  "description": "Bounded modular probe for a base-5 regular or nonregular terminal above the actual two-relay fork; no survivors in this finite domain.",
+  "R": [
+    "31",
+    "878851",
+    "625552508473588471"
+  ],
+  "indices": "n = c * 878851 * 625552508473588471, c in {1,3,31,93}",
+  "candidate_domain": "q = 1+2*k*n, odd 1<=k<=100000, q mod20 in {11,19}",
+  "filters": "pow(5,n,q)==1, then pow(5,n/p,q)!=1 for each prime p|n",
+  "primality_screen": "No candidate survived modular filters, so no primality conclusion is used.",
+  "is_full_factorization": false,
+  "is_unbounded_order_exclusion": false,
+  "is_squarefree_certificate": false,
+  "timing_is_environment_specific": true
+}

@@ -1,0 +1,83 @@
+{
+  "schema": "a303656-b31-branching-phase-g-results-v1",
+  "success_level": "E_NARROW_ROUTE_PRUNING",
+  "status": "SUBSTANTIVE_PARTIAL_RESULT_NOT_CLOSURE",
+  "theorems": [
+    {
+      "id": "G1",
+      "result": "Global edge/maximal-generator reciprocity signs agree, both antichain parities survive this argument.",
+      "category": "specified_route_pruning",
+      "inherits": "Phase F single-edge observation"
+    },
+    {
+      "id": "G2",
+      "result": "Prime-to-q power residuacity modulo q^h is determined modulo q; q-primary test reads original lifting.",
+      "category": "specified_route_pruning",
+      "scope": "rational local unit-group power predicates; not all higher reciprocity"
+    },
+    {
+      "id": "G3",
+      "result": "Preserve actual base-5 lower state and terminal first-order data while switching terminal lifting at variable prime bases.",
+      "category": "prior_CRT_mechanism_refined",
+      "inherits": "Cyclotomic Phase E E8 and Hensel"
+    },
+    {
+      "id": "G4",
+      "result": "Any permitted finite order-DAG and compatible pair signs, with root nonregular/proper regular marks, has a variable prime-base realization, optionally anchored in actual base-5 proper data.",
+      "category": "base_uniform_route_pruning",
+      "scope": "does not realize all DAGs at literal base5"
+    },
+    {
+      "id": "G5",
+      "result": "Z31(R)=Phi_alpha(5^beta)/d and Z31 mod8 is5 for one maximal generator,1 for at leasttwo.",
+      "category": "additional_congruence_not_significant_terminal_restriction",
+      "aggregation_inherits": "B7 Phase E E3.1 adapted 6 to3"
+    }
+  ],
+  "claims": {
+    "B31_odd_empty_proved": false,
+    "actual_base5_B31_odd_member_certified": false,
+    "global_finite_critical_family_proved": false,
+    "significant_new_base5_terminal_restriction": false,
+    "exactly_seven_killed": false,
+    "N_ge_8_proved": false,
+    "A303656_solved": false,
+    "new_base5_terminal_indices_excluded": [],
+    "regular_tree_finite_claimed": false,
+    "all_higher_reciprocity_routes_impossible_claimed": false,
+    "variable_base_models_are_base5_members": false
+  },
+  "finite_evidence": {
+    "recursive_lucas_primes": 45,
+    "exact_order_lifting_row_records": 27,
+    "inherited_base5_regular_vertices_recertified": 6,
+    "variable_base_models": 5,
+    "certified_prime_bases": 2,
+    "maximal_generator_widths_realized": [
+      1,
+      2,
+      3
+    ],
+    "tame_representative_tests": 46,
+    "actual_closed_substates_mod8_checked": 15,
+    "generic_algebraic_mod8_checks": 280,
+    "abstract_admitted_subgraph_counts_2_to_6_vertices": [
+      1,
+      2,
+      10,
+      122,
+      3346
+    ],
+    "corruption_tests": 12,
+    "discovery_modular_candidates": 80000,
+    "discovery_used_as_unbounded_exclusion": false
+  },
+  "reading_completeness": "CORE_REPORTS_THEOREMS_AND_INTEGRATION_NOTES_READ; ALL_AUXILIARY_DIRECTORY_FILES_NOT_FULLY_READ",
+  "proof_assistant_formalization": false,
+  "independent_author_review": false,
+  "fully_independent_software_stacks": false,
+  "github_writes_performed": "NONE",
+  "project_status": "PAUSED",
+  "active_promoted_route": "NONE",
+  "A303656_status": "UNRESOLVED"
+}
