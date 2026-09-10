@@ -1,0 +1,565 @@
+{
+  "aggregate_r_adic_regressions": [
+    {
+      "H": 482192,
+      "Z_mod_r2": 560491619506,
+      "kappa": 637755,
+      "new_individual_q_obstruction": false,
+      "r": 878851
+    },
+    {
+      "H": 22332,
+      "Z_mod_r2": 391315940857591990892846959775250656,
+      "kappa": 625552508473577305,
+      "new_individual_q_obstruction": false,
+      "r": 625552508473588471
+    }
+  ],
+  "auxiliary_Fermat_quotients": {
+    "20771": {
+      "3": 16725,
+      "31": 4907,
+      "5": 0,
+      "67": 3395
+    },
+    "490398859": {
+      "3": 21026881,
+      "31": 182795056,
+      "5": 117924304,
+      "878851": 279869015
+    }
+  },
+  "indices": [
+    878851,
+    2636553,
+    27244381,
+    81733143,
+    625552508473588471,
+    1876657525420765413,
+    19392127762681242601,
+    58176383288043727803
+  ],
+  "mutation_tests": {
+    "corrupted_Lucas_witness_rejected": true,
+    "incomplete_factorization_rejected": true,
+    "nonunit_denominator_rejected": true,
+    "variable_base_not_substituted_for_5": true,
+    "wrong_order_rejected": true
+  },
+  "nonclaims": {
+    "GitHub_writes": "NONE",
+    "any_target_index_closed": false,
+    "base5_B31_member_found": false,
+    "general_prime_scan": false,
+    "independent_author_or_software_stack": false,
+    "large_target_integer_constructed": false,
+    "n878851_closed": false,
+    "new_stricter_terminal_prime_class": false,
+    "old_k_scan_replayed": false,
+    "unbounded_theorems_formalized": false
+  },
+  "polynomial_composition_regressions": [
+    {
+      "d": 1,
+      "degree": 1,
+      "passed": true,
+      "r": 2
+    },
+    {
+      "d": 3,
+      "degree": 3,
+      "passed": true,
+      "r": 2
+    },
+    {
+      "d": 31,
+      "degree": 31,
+      "passed": true,
+      "r": 2
+    },
+    {
+      "d": 93,
+      "degree": 93,
+      "passed": true,
+      "r": 2
+    },
+    {
+      "d": 1,
+      "degree": 6,
+      "passed": true,
+      "r": 7
+    },
+    {
+      "d": 3,
+      "degree": 18,
+      "passed": true,
+      "r": 7
+    },
+    {
+      "d": 31,
+      "degree": 186,
+      "passed": true,
+      "r": 7
+    },
+    {
+      "d": 93,
+      "degree": 558,
+      "passed": true,
+      "r": 7
+    }
+  ],
+  "prime_certificates_verified": 57,
+  "published_bound": {
+    "B": 970453984500000,
+    "corresponding_q_not_asserted_prime": 970453989512699,
+    "full_search_replayed": false,
+    "inherited_exhaustiveness_only": true,
+    "known_odd_solutions_verified": [
+      {
+        "mod4": 3,
+        "order": 10385,
+        "order_factorization": {
+          "31": 1,
+          "5": 1,
+          "67": 1
+        },
+        "q": 20771,
+        "s": 2,
+        "second_lift": 10626,
+        "target_index": false
+      },
+      {
+        "mod4": 3,
+        "order": 40486,
+        "order_factorization": {
+          "2": 1,
+          "31": 1,
+          "653": 1
+        },
+        "q": 40487,
+        "s": 2,
+        "second_lift": 12312,
+        "target_index": false
+      },
+      {
+        "mod4": 1,
+        "order": 13367790,
+        "order_factorization": {
+          "148531": 1,
+          "2": 1,
+          "3": 2,
+          "5": 1
+        },
+        "q": 53471161,
+        "s": 2,
+        "second_lift": 13827246,
+        "target_index": false
+      },
+      {
+        "mod4": 3,
+        "order": 1645333506,
+        "order_factorization": {
+          "2": 1,
+          "3": 3,
+          "30469139": 1
+        },
+        "q": 1645333507,
+        "s": 2,
+        "second_lift": 1624266569,
+        "target_index": false
+      },
+      {
+        "mod4": 1,
+        "order": 6692367336,
+        "order_factorization": {
+          "2": 3,
+          "278848639": 1,
+          "3": 1
+        },
+        "q": 6692367337,
+        "s": 2,
+        "second_lift": 3166166055,
+        "target_index": false
+      },
+      {
+        "mod4": 1,
+        "order": 11796759175,
+        "order_factorization": {
+          "1974353": 1,
+          "239": 1,
+          "5": 2
+        },
+        "q": 188748146801,
+        "s": 2,
+        "second_lift": 139395554518,
+        "target_index": false
+      }
+    ],
+    "n878851_min_k_after_bound_and_old_congruences": 552115199
+  },
+  "ramified_positive_control": {
+    "Phi5_5T2_factors": [
+      [
+        1,
+        -5,
+        15,
+        -25,
+        25
+      ],
+      [
+        1,
+        5,
+        15,
+        25,
+        25
+      ]
+    ],
+    "n": 5
+  },
+  "reciprocity_regressions": [
+    {
+      "D": -878851,
+      "D_symbol": 1,
+      "edge_symbols": {
+        "878851": -1
+      },
+      "m": 1,
+      "n": 878851
+    },
+    {
+      "D": 2636553,
+      "D_symbol": 1,
+      "edge_symbols": {
+        "3": -1,
+        "878851": -1
+      },
+      "m": 3,
+      "n": 2636553
+    },
+    {
+      "D": 27244381,
+      "D_symbol": 1,
+      "edge_symbols": {
+        "31": -1,
+        "878851": -1
+      },
+      "m": 31,
+      "n": 27244381
+    },
+    {
+      "D": -81733143,
+      "D_symbol": 1,
+      "edge_symbols": {
+        "3": -1,
+        "31": -1,
+        "878851": -1
+      },
+      "m": 93,
+      "n": 81733143
+    }
+  ],
+  "regular_small_index_models": [
+    {
+      "base": 426,
+      "m": 1,
+      "n": 7,
+      "q": 1303,
+      "s": 1,
+      "transfer_valuations": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "base": 1016,
+      "m": 3,
+      "n": 21,
+      "q": 1303,
+      "s": 1,
+      "transfer_valuations": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "base": 1051,
+      "m": 31,
+      "n": 217,
+      "q": 1303,
+      "s": 1,
+      "transfer_valuations": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "base": 36,
+      "m": 93,
+      "n": 651,
+      "q": 1303,
+      "s": 1,
+      "transfer_valuations": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "schema": "A303656-phase-G-reference-v1",
+  "small_square_hit": {
+    "Phi": 931,
+    "base": 30,
+    "derivative_mod_q": 5,
+    "factors": {
+      "19": 1,
+      "7": 2
+    },
+    "p": 3,
+    "q": 7
+  },
+  "source_first_relay_products": {
+    "Phi31": 1164153218269348144531,
+    "Phi93": 699485272571293183230764923557158439390121,
+    "factors31": [
+      1861,
+      625552508473588471
+    ],
+    "factors93": [
+      31,
+      148429,
+      878851,
+      172974812463239310024750410929
+    ]
+  },
+  "source_regular_rows": [
+    {
+      "base": 5,
+      "lift_mod_prime": 4,
+      "order": 3,
+      "prime": 31,
+      "s": 1
+    },
+    {
+      "base": 5,
+      "lift_mod_prime": 482192,
+      "order": 93,
+      "prime": 878851,
+      "s": 1
+    },
+    {
+      "base": 5,
+      "lift_mod_prime": 7444,
+      "order": 31,
+      "prime": 625552508473588471,
+      "s": 1
+    },
+    {
+      "base": 5,
+      "lift_mod_prime": 183120337,
+      "order": 81733143,
+      "prime": 490398859,
+      "s": 1
+    }
+  ],
+  "variable_base_models": [
+    {
+      "base": 70602295045730533920731272137800405,
+      "base_is_5": false,
+      "interpretation": "VARIABLE-BASE ANALOGUE ONLY; NOT a base-5 B31 member; E8 CRT specialization",
+      "lower_orders": {
+        "31": 3,
+        "878851": 93
+      },
+      "lower_s": {
+        "31": 1,
+        "878851": 1
+      },
+      "multiplier": 1,
+      "multiplier_transfer": [
+        {
+          "d": 1,
+          "residue_mod_q3": 35144266724623372114283331,
+          "valuation": 2
+        },
+        {
+          "d": 3,
+          "residue_mod_q3": 70987783756846058846750976,
+          "valuation": 2
+        },
+        {
+          "d": 31,
+          "residue_mod_q3": 67849901867387617101816604,
+          "valuation": 2
+        },
+        {
+          "d": 93,
+          "residue_mod_q3": 53483848964160726207274231,
+          "valuation": 2
+        }
+      ],
+      "n": 878851,
+      "phi_residue_mod_q3": 35144266724623372114283331,
+      "power_quotient": 0,
+      "preserved_modulus": 668030666465844900,
+      "proper_admitted_closure": [
+        31,
+        878851
+      ],
+      "q": 490398859,
+      "r": 878851,
+      "root_s": 2,
+      "v5_base": 1
+    },
+    {
+      "base": 3328861110890542104637883579835605,
+      "base_is_5": false,
+      "interpretation": "VARIABLE-BASE ANALOGUE ONLY; NOT a base-5 B31 member; E8 CRT specialization",
+      "lower_orders": {
+        "31": 3,
+        "878851": 93
+      },
+      "lower_s": {
+        "31": 1,
+        "878851": 1
+      },
+      "multiplier": 3,
+      "multiplier_transfer": [
+        {
+          "d": 1,
+          "residue_mod_q3": 31534925613873580825318934,
+          "valuation": 0
+        },
+        {
+          "d": 3,
+          "residue_mod_q3": 116248454981239884947963646,
+          "valuation": 2
+        },
+        {
+          "d": 31,
+          "residue_mod_q3": 1723261155130449328019699,
+          "valuation": 0
+        },
+        {
+          "d": 93,
+          "residue_mod_q3": 30216875127356067911703813,
+          "valuation": 2
+        }
+      ],
+      "n": 2636553,
+      "phi_residue_mod_q3": 7219767350142721367890021,
+      "power_quotient": 0,
+      "preserved_modulus": 668030666465844900,
+      "proper_admitted_closure": [
+        31,
+        878851
+      ],
+      "q": 490398859,
+      "r": 878851,
+      "root_s": 2,
+      "v5_base": 1
+    },
+    {
+      "base": 106502391624211553419360119810724505,
+      "base_is_5": false,
+      "interpretation": "VARIABLE-BASE ANALOGUE ONLY; NOT a base-5 B31 member; E8 CRT specialization",
+      "lower_orders": {
+        "31": 3,
+        "878851": 93
+      },
+      "lower_s": {
+        "31": 1,
+        "878851": 1
+      },
+      "multiplier": 31,
+      "multiplier_transfer": [
+        {
+          "d": 1,
+          "residue_mod_q3": 35452800600439909807593376,
+          "valuation": 0
+        },
+        {
+          "d": 3,
+          "residue_mod_q3": 17706046869058784830696780,
+          "valuation": 0
+        },
+        {
+          "d": 31,
+          "residue_mod_q3": 58693956297826124325614086,
+          "valuation": 2
+        },
+        {
+          "d": 93,
+          "residue_mod_q3": 5336244163148784629418712,
+          "valuation": 2
+        }
+      ],
+      "n": 27244381,
+      "phi_residue_mod_q3": 50401504873234489344228594,
+      "power_quotient": 0,
+      "preserved_modulus": 668030666465844900,
+      "proper_admitted_closure": [
+        31,
+        878851
+      ],
+      "q": 490398859,
+      "r": 878851,
+      "root_s": 2,
+      "v5_base": 1
+    },
+    {
+      "base": 101668995081320798945080086074262905,
+      "base_is_5": false,
+      "interpretation": "VARIABLE-BASE ANALOGUE ONLY; NOT a base-5 B31 member; E8 CRT specialization",
+      "lower_orders": {
+        "31": 3,
+        "878851": 93
+      },
+      "lower_s": {
+        "31": 1,
+        "878851": 1
+      },
+      "multiplier": 93,
+      "multiplier_transfer": [
+        {
+          "d": 1,
+          "residue_mod_q3": 70189995859673709923633876,
+          "valuation": 0
+        },
+        {
+          "d": 3,
+          "residue_mod_q3": 113102547407994915327869614,
+          "valuation": 0
+        },
+        {
+          "d": 31,
+          "residue_mod_q3": 47743330599855036570312940,
+          "valuation": 0
+        },
+        {
+          "d": 93,
+          "residue_mod_q3": 36456219183528808785215798,
+          "valuation": 2
+        }
+      ],
+      "n": 81733143,
+      "phi_residue_mod_q3": 13155258431349838278316817,
+      "power_quotient": 0,
+      "preserved_modulus": 668030666465844900,
+      "proper_admitted_closure": [
+        31,
+        878851
+      ],
+      "q": 490398859,
+      "r": 878851,
+      "root_s": 2,
+      "v5_base": 1
+    }
+  ]
+}

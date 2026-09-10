@@ -1,0 +1,80 @@
+{
+  "schema": "a303656.phase-g-squarehit-source-consolidation.v1",
+  "archives": [
+    {
+      "id": "N-v1",
+      "filename": "A303656_B31_N878851_PHASE_G.zip",
+      "sha256": "dc8798f4c361f2a87ca2c14f7f686363cbedabebeb10be7e6a00a911132db129",
+      "internal_root": "A303656_B31_N878851_PHASE_G",
+      "members": 5,
+      "disposition": "superseded_narrow_source_receipt_not_committed"
+    },
+    {
+      "id": "N-v2",
+      "filename": "A303656_B31_N878851_PHASE_G(1).zip",
+      "sha256": "c348b1ec241bf6c39ee08bbf6991cb7d33e6de4c558fcdb20602bb7b9c072b81",
+      "internal_root": "A303656_B31_N878851_PHASE_G",
+      "members": 12,
+      "disposition": "canonical_shared_core_and_task_wrapper"
+    },
+    {
+      "id": "E-v1",
+      "filename": "A303656_B31_EIGHT_INDEX_PHASE_G.zip",
+      "sha256": "7ec42c3f04da000d764fc7e171b32c13fee4acf96d8a25c89b1b42f2606e3e9f",
+      "internal_root": "A303656_B31_EIGHT_INDEX_PHASE_G",
+      "members": 5,
+      "disposition": "superseded_narrow_source_receipt_not_committed"
+    },
+    {
+      "id": "E-v2",
+      "filename": "A303656_B31_EIGHT_INDEX_PHASE_G(1).zip",
+      "sha256": "fe8db9e5c4eda31095d482586f62d38a5f6ea3e90a9257a30d346a7b535763e7",
+      "internal_root": "A303656_B31_EIGHT_INDEX_PHASE_G",
+      "members": 12,
+      "disposition": "canonical_shared_core_and_task_wrapper"
+    },
+    {
+      "id": "E-v2-duplicate",
+      "filename": "A303656_B31_EIGHT_INDEX_PHASE_G(1) (1).zip",
+      "sha256": "fe8db9e5c4eda31095d482586f62d38a5f6ea3e90a9257a30d346a7b535763e7",
+      "internal_root": "A303656_B31_EIGHT_INDEX_PHASE_G",
+      "members": 12,
+      "disposition": "exact_duplicate_receipt_only",
+      "duplicate_of": "E-v2"
+    }
+  ],
+  "shared_cores": [
+    {
+      "sources": ["N-v1", "E-v1"],
+      "classification": "same_earlier_producer_core_different_task_wrappers",
+      "byte_identical_files": {
+        "reference.py": "c949e525f50ca10024a4e63d9cd22d43fe6d2e999f49e2b488863f00b7d61839",
+        "certificates/evidence.json": "fc4e747cd8a7068fd283341dcc443ea977ed7747084ab5e619d0a6abf680a4df"
+      }
+    },
+    {
+      "sources": ["N-v2", "E-v2"],
+      "classification": "same_canonical_producer_core_different_task_wrappers",
+      "byte_identical_files": {
+        "AUTHORITY.json": "c1d6df849f48c9d993a56d6f2771f1e4237ba7a5a3baa79673c1b5007320af9e",
+        "PROOFS.md": "6ee060e45fcb26b5d758c175e7622ba42ed794764fd4ae16c8948cdd7ffe9f52",
+        "README.md": "d07f10f61be768c08728805f866c4214c2e6685839b7188e13cea367e6d99dd3",
+        "SOURCE_BINDING.json": "2f736d6fac89d74d1abc4806801d6a8d4e99414876883639821b89cf38ade64f",
+        "certificates.json": "ef2a87029caca57c0826f52478dff9778095dfa304427567989da08e9af421af",
+        "evidence.json": "2a96e415f1cb5acb944aa280eaa1a05ceabb270993874771cca1a4cd38bab4ee",
+        "generate_certificates.py": "853c65a47c3a5e85a6652e1b13792a6922a51f6e673b246166e98471646f36b6",
+        "reference.py": "de5846753df2b29201158bbcf4212ddaac56b4e9ebc48736df48f041c12a42ea"
+      },
+      "task_specific_files": ["REPORT.md", "results.json", "verification_log.json", "SHA256SUMS.txt"]
+    }
+  ],
+  "canonical_theorem_sources": {
+    "power_substitution_dependence": ["producer_core/PROOFS.md:G0-G1", "producer_core/reference.py"],
+    "five_adic_irreducibility": ["producer_core/PROOFS.md:G2", "producer_core/reference.py"],
+    "standard_aurifeuilian_criterion_inapplicability": ["E-v1:REPORT.md:G5", "repository INTEGRATION.md literature reconciliation"],
+    "published_base5_wieferich_bounded_gate": ["producer_core/PROOFS.md:G5", "producer_core/evidence.json", "Dorais-Klyve 2011 Article 11.9.2"],
+    "exact_eight_index_three_vertex_equivalence": ["analysis/c1_b31_odd_phase_f/REPORT.md:F3-F4"]
+  },
+  "independent_implementations_claimed": 0,
+  "transport_archives_committed": false
+}

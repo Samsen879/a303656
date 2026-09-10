@@ -1,0 +1,58 @@
+{
+  "task": 2,
+  "success_level": "D_SCOPED_ROUTE_PRUNING_ONLY",
+  "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+  "new_unbounded_results": [
+    {
+      "id": "G1",
+      "claim": "One-parameter second-order dependence for d|93 cyclotomic compositions",
+      "does_not_prove_square_hit_absence": true
+    },
+    {
+      "id": "G2",
+      "claim": "Irreducibility of Phi_n(5*T^2) for every target n; complete irreducible factorization of the natural four-index polynomial wrapper",
+      "does_not_prove_square_hit_absence": true
+    }
+  ],
+  "inherited_specializations": [
+    "primitive valuation and normalized aggregate",
+    "E8 CRT mechanism specialized to four exact target orders",
+    "published base-5 bounded search"
+  ],
+  "target_indices": [
+    878851,
+    2636553,
+    27244381,
+    81733143,
+    625552508473588471,
+    1876657525420765413,
+    19392127762681242601,
+    58176383288043727803
+  ],
+  "new_excluded_indices": [],
+  "closed_four_index_families": [],
+  "n878851_closed": false,
+  "minimal_state_closed": false,
+  "actual_base5_B31_odd_member": false,
+  "B31_odd_three_vertex_empty_proved": false,
+  "B31_odd_empty_proved": false,
+  "exactly_seven_killed": false,
+  "N_ge_8_proved": false,
+  "new_stricter_terminal_prime_class": false,
+  "A303656": "UNRESOLVED",
+  "github_writes_performed": "NONE",
+  "published_bound": 970453984500000,
+  "published_exhaustive_search_replayed": false,
+  "reference": {
+    "recursive_prime_certificates": 57,
+    "exact_target_variable_base_countermodels": 4,
+    "actual_base5_target_countermodels": 0,
+    "wrong_input_rejections": 4,
+    "base_alias_regression": 1,
+    "old_k_scan_repeated": false,
+    "target_q_scan_extended": false,
+    "largest_aggregate_modulus_bits": 394
+  },
+  "full_required_directory_auxiliary_read_completed": false,
+  "next_single_target": "Sound independently replayable admitted-square-part certificate interface for Phi_878851(5), first validated on small positive/negative controls. No computation promotion."
+}
