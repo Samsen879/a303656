@@ -1,0 +1,78 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+  "main_tree": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06",
+  "observed_via": "GitHub connector GET branches/main and get_users_recent_prs_in_repo",
+  "observation_date": "2026-09-09",
+  "final_main_recheck": "UNCHANGED: independently re-read branches/main after research; same SHA and tree",
+  "status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "A303656": "UNRESOLVED",
+    "LARGE_SCALE_COMPUTATION": "NOT AUTHORIZED"
+  },
+  "pull_requests": [
+    {
+      "number": 30,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:30:50Z",
+      "url": "https://github.com/Samsen879/a303656/pull/30"
+    },
+    {
+      "number": 31,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:34:19Z",
+      "url": "https://github.com/Samsen879/a303656/pull/31"
+    },
+    {
+      "number": 32,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:37:24Z",
+      "url": "https://github.com/Samsen879/a303656/pull/32"
+    },
+    {
+      "number": 33,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:39:59Z",
+      "url": "https://github.com/Samsen879/a303656/pull/33"
+    },
+    {
+      "number": 34,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:48:09Z",
+      "url": "https://github.com/Samsen879/a303656/pull/34"
+    },
+    {
+      "number": 35,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:50:46Z",
+      "url": "https://github.com/Samsen879/a303656/pull/35"
+    },
+    {
+      "number": 36,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:54:02Z",
+      "url": "https://github.com/Samsen879/a303656/pull/36"
+    },
+    {
+      "number": 37,
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-09-09T07:59:43Z",
+      "url": "https://github.com/Samsen879/a303656/pull/37"
+    }
+  ],
+  "github_writes_performed": "NONE",
+  "local_repository_checkout": false,
+  "raw_source_byte_hash_replay": false,
+  "repository_native_tests_replayed": false,
+  "receipt_note": "This is a structured session observation, not a raw API-response capture or repository-native proof receipt."
+}

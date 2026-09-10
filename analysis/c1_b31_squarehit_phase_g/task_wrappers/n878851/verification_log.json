@@ -1,0 +1,25 @@
+{
+  "same_session_same_software_stack": true,
+  "repository_tests": "NOT RUN",
+  "source_hash_replay": "NOT RUN",
+  "runs": [
+    {
+      "mode": "normal Python",
+      "temporary_copy": true,
+      "returncode": 0,
+      "elapsed_seconds": 0.7028776259999177,
+      "stdout": "PASS: 57 recursive Lucas certificates; four exact-target variable-base models; no target scan.\nEvidence SHA256: 2a96e415f1cb5acb944aa280eaa1a05ceabb270993874771cca1a4cd38bab4ee\n",
+      "stderr": "",
+      "evidence_byte_identical": true
+    },
+    {
+      "mode": "optimized Python",
+      "temporary_copy": true,
+      "returncode": 0,
+      "elapsed_seconds": 2.4983001890000196,
+      "stdout": "PASS: 57 recursive Lucas certificates; four exact-target variable-base models; no target scan.\nEvidence SHA256: 2a96e415f1cb5acb944aa280eaa1a05ceabb270993874771cca1a4cd38bab4ee\n",
+      "stderr": "",
+      "evidence_byte_identical": true
+    }
+  ]
+}

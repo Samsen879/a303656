@@ -1,0 +1,19 @@
+{
+  "schema": "a303656.phase-g-dependency-binding.v1",
+  "repository": "Samsen879/a303656",
+  "integration_base": {
+    "sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+    "tree": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06"
+  },
+  "status": "BOUND_TO_MERGED_REPOSITORY",
+  "repository_source_wins": true,
+  "dependencies": [
+    {"path": "analysis/c1_order_dag_phase_c/REPORT.md", "sha256": "f705e2e06ad052c9b6329b5cf611e339b4209fb9e229fabfaeb3355acd5aec2b", "role": "order-DAG authority"},
+    {"path": "analysis/c1_private_provider_charging_phase_d/REPORT.md", "sha256": "c123e25a92157597dd69935f011d5d44c12fedbdc97e68362e260009c4d5eb7c", "role": "provider/charging boundary"},
+    {"path": "analysis/c1_b7_branching_phase_e/THEOREMS.md", "sha256": "0664a68099461e1caa15d91e4a68d93a27a42cf13f6aed9b47db486723e04385", "role": "branching comparison boundary"},
+    {"path": "analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md", "sha256": "7960d6f2cbcff93c2bed90dcc015739d51b4f82d62b7a1798a08f81e82d64827", "role": "global shared-state boundary"},
+    {"path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md", "sha256": "075a91b5cfea89b13123499695839efe9b7b16d6df4daef1203a8d59349988a9", "role": "primitive valuation and fixed-base terminal lifting"},
+    {"path": "analysis/c1_b31_odd_phase_f/REPORT.md", "sha256": "96d214f87fb5693e9794915f16e3882ce7485693c426a24e1c644709787cdb48", "role": "owner of exact eight-index three-vertex equivalence and F2/F4"},
+    {"path": "analysis/c1_closed_state_sqd_phase_f/REPORT.md", "sha256": "3c541501e8c9408416d0ef5c1a49b1a641d0e7e6c2fdd88e70d2370ebf8bdf3b", "role": "exact-state coprimality and no-migration"}
+  ]
+}

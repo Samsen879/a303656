@@ -1,0 +1,34 @@
+{
+  "schema": "a303656.phase-g-repository-integration.v1",
+  "package": "b31_squarehit_phase_g",
+  "integration_base": {
+    "sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+    "tree": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06"
+  },
+  "canonical_archives": ["N-v2", "E-v2"],
+  "exact_duplicate_archives": ["E-v2-duplicate"],
+  "superseded_archive_receipts": ["N-v1", "E-v1"],
+  "canonical_shared_core_files": 8,
+  "task_specific_payload_files": 6,
+  "preserved_source_manifests": 2,
+  "repository_native_files": [
+    "SOURCE_CUSTODY.md",
+    "SOURCE_CONSOLIDATION.json",
+    "INTEGRATION.md",
+    "DEPENDENCY_BINDING.json",
+    "INTEGRATION_MANIFEST.json",
+    "verify_integration.py",
+    "tests/test_integration_scope.py"
+  ],
+  "source_replay": {
+    "commands": [
+      ["{python}", "-B", "reference.py", "--self-test", "--output", "{tmp}/normal.json"],
+      ["{python}", "-O", "-B", "reference.py", "--self-test", "--output", "{tmp}/optimized.json"]
+    ],
+    "expected_prime_certificates": 57,
+    "expected_variable_base_models": 4,
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "generated_binaries_committed": false
+}

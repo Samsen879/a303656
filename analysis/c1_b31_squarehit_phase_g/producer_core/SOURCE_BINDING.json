@@ -1,0 +1,105 @@
+{
+  "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+  "source_files_read": [
+    {
+      "path": "STATUS.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/STATUS.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_b31_odd_phase_f/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b31_odd_phase_f/REPORT.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_b31_odd_phase_f/INTEGRATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b31_odd_phase_f/INTEGRATION.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/INTEGRATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_cyclotomic_wieferich_terminal_phase_e/INTEGRATION.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_seven_basin_global_shared_state_phase_e/INTEGRATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_seven_basin_global_shared_state_phase_e/INTEGRATION.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_closed_state_sqd_phase_f/REPORT.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_closed_state_sqd_phase_f/REPORT.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    },
+    {
+      "path": "analysis/c1_closed_state_sqd_phase_f/INTEGRATION.md",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_closed_state_sqd_phase_f/INTEGRATION.md",
+      "scope": "core report / integration scope read via GitHub connector"
+    }
+  ],
+  "directory_inventory_read": [
+    "analysis/c1_b31_odd_phase_f"
+  ],
+  "full_required_directories_every_auxiliary_file_read": false,
+  "full_source_directory_read_requirement": "NOT FULLY COMPLETED: core reports and integration scope were read; not every auxiliary script, data file, manifest and log.",
+  "source_hashes_independently_verified": false,
+  "source_read_limits": [
+    "Container network raw-byte retrieval failed DNS; connector reads succeeded.",
+    "No full checkout and no source runner / historical scan replay.",
+    "Producer reports preserve historical missing-Phase-E statements; current merged INTEGRATION.md resolves those interfaces.",
+    "Integration PASS statements are source-reported, not rerun in this session."
+  ],
+  "source_theorems_reconstructed": [
+    "B31 F1 first relays",
+    "B31 F3 eight-index iff",
+    "B31 F4 exact closed-state iff",
+    "Wieferich E1/E2 valuation and primitive lifting",
+    "Seven-Basin O31 whole-basin and actual-normal-form scope",
+    "SQD exact-state no-migration boundary"
+  ],
+  "task_attachment": {
+    "filename": "Pasted markdown(20260909-091425).md",
+    "sha256": "3422e409f031d253fba96909b2feb0fad454300b220d8859e2e8f2efcc9407c7"
+  },
+  "literature": [
+    {
+      "id": "L1",
+      "authors": "Francois G. Dorais; Dominic Klyve",
+      "title": "A Wieferich Prime Search up to 6.7 x 10^15",
+      "journal": "Journal of Integer Sequences 14 (2011), Article 11.9.2",
+      "published": "2011-10-16",
+      "html": "https://cs.uwaterloo.ca/journals/JIS/VOL14/Klyve/klyve3.html",
+      "pdf": "https://cs.uwaterloo.ca/journals/JIS/VOL14/Klyve/klyve3.pdf",
+      "scope_used": "page 7, section 4.1: bases 3,5,7 exhaustive search through primorial(29)*150000 inclusive; PDF page screenshot inspected",
+      "full_search_replayed": false
+    },
+    {
+      "id": "L2",
+      "title": "OEIS A123692",
+      "url": "https://oeis.org/A123692",
+      "accessed": "2026-09-09",
+      "scope_used": "six listed odd base-5 Wieferich primes; individually recertified here"
+    },
+    {
+      "id": "L3",
+      "authors": "Richard P. Brent",
+      "title": "On computing factors of cyclotomic polynomials",
+      "journal": "Mathematics of Computation 61 (1993), 131-149; technical report 1992; arXiv archive 2010",
+      "url": "https://maths-people.anu.edu.au/brent/pub/pub135.html",
+      "arxiv": "https://arxiv.org/abs/1004.5466",
+      "scope_used": "Gauss/Aurifeuillean polynomial identities and applicability context; G2 has its own complete proof",
+      "pdf_access_note": "ArXiv PDF parsed; screenshot attempts failed. Author-hosted HTML identities independently accessed."
+    }
+  ],
+  "literature_search_boundary": "No applicable unconditional fixed-base-5 prescribed-order exclusion was obtained from sources inspected. This is not an exhaustive theorem-nonexistence claim."
+}
