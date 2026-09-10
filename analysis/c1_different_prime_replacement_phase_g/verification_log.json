@@ -1,0 +1,11 @@
+{
+  "schema": "a303656.phase-g.verification-log.v1",
+  "python": "3.13.5",
+  "standalone_replay": "PASS",
+  "implementation": "same-session standard-library Python verifier",
+  "independent_author_or_stack": false,
+  "actual_endpoint_arithmetic_checks": 0,
+  "frozen_results_sha256": "0b1770c27121f8a8e6b0837c77ab4db2ec9dbf5f04616df4253368ec5fc96cd9",
+  "frozen_finite_model_data_sha256": "13247884f542dbb21814ff4a87d91d5f98eaba0e81feb7b2b7fad08242666e1c",
+  "scope": "Mathematical and semantic finite checks; not endpoint realization or full repository replay"
+}

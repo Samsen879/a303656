@@ -1,0 +1,143 @@
+{
+  "schema": "a303656-b31-branching-phase-g-source-binding-v1",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "initial_live_bind": {
+    "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+    "tree_sha": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06",
+    "commit_time_utc": "2026-09-09T07:59:42Z",
+    "head_description": "Merge PR #37: Phase F four-vertex B7 fork-serial arithmetic",
+    "mechanism": "GitHub connector GET branches/main"
+  },
+  "final_live_recheck": {
+    "performed": true,
+    "access_date": "2026-09-09",
+    "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+    "tree_sha": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06",
+    "unchanged_from_initial_bind": true,
+    "mechanism": "GitHub connector GET branches/main",
+    "response_receipt": "turn27file0"
+  },
+  "access_mode": "READ ONLY",
+  "github_writes_performed": "NONE",
+  "status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE PROMOTED ROUTE": "NONE",
+    "LARGE-SCALE COMPUTATION": "NOT AUTHORIZED",
+    "A303656": "UNRESOLVED"
+  },
+  "status_source": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/STATUS.md",
+  "read_scope": {
+    "all_four_core_reports": "READ_IN_FULL_IN_LINE_RANGE_CALLS",
+    "b7_formal_theorems": "READ_IN_FULL",
+    "all_four_integration_notes": "READ_IN_FULL",
+    "every_auxiliary_file_in_all_four_directories": "NOT_COMPLETED",
+    "directory_level_full_read_requirement": "PARTIALLY_COMPLETED_NOT_FULL_PASS",
+    "repository_native_tests": "NOT_RUN",
+    "repository_full_checkout": "NOT_OBTAINED",
+    "source_bytes_hashes_independently_recomputed": false,
+    "source_blob_hash_origin": "GitHub connector response metadata, not independently rehashed local bytes"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "path": "analysis/c1_b31_odd_phase_f/REPORT.md",
+      "connector_reported_git_blob_sha": "eb0777a6593ab72711187d0c57403d7784dba79a",
+      "use": "F2, F4, definition, F1 and inherited actual regular rows",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b31_odd_phase_f/REPORT.md"
+    },
+    {
+      "id": "S2",
+      "path": "analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md",
+      "connector_reported_git_blob_sha": "d85dca43ca3184ffe5f26534673e2ea037ea9e42",
+      "use": "O31 necessity, parity deletion, conditional state compatibility",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md"
+    },
+    {
+      "id": "S3",
+      "path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md",
+      "connector_reported_git_blob_sha": "c40be944fb3958afbe93417e04cdbea88ef92eda",
+      "use": "valuation theorem, lifting formulas, prior E8 variable-base CRT no-go",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_cyclotomic_wieferich_terminal_phase_e/REPORT.md"
+    },
+    {
+      "id": "S4a",
+      "path": "analysis/c1_b7_branching_phase_e/REPORT.md",
+      "connector_reported_git_blob_sha": "790e231ae40865cfd09aef8b2432338920c110da",
+      "use": "closed states, entire closure, no finite-depth inference",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/REPORT.md"
+    },
+    {
+      "id": "S4b",
+      "path": "analysis/c1_b7_branching_phase_e/THEOREMS.md",
+      "connector_reported_git_blob_sha": "cd57a36f00ff8dcb63bc7efebf979097b6f6e9af",
+      "use": "E3.1 aggregate formula and exact imprimitive cleanup",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/THEOREMS.md"
+    },
+    {
+      "id": "S5a",
+      "path": "analysis/c1_b31_odd_phase_f/INTEGRATION.md",
+      "connector_reported_git_blob_sha": "e85f7c8af5209df24ca8f2fb78e2d110c2ea7c31",
+      "use": "O31 source-gap reconciliation PASS; dependencies bound to merged repository",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b31_odd_phase_f/INTEGRATION.md"
+    },
+    {
+      "id": "S5b",
+      "path": "analysis/c1_seven_basin_global_shared_state_phase_e/INTEGRATION.md",
+      "connector_reported_git_blob_sha": "4df84cc279bac1cb0fc8e449021bfa00d4be6db1",
+      "use": "O31 authority, normal-form scope",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_seven_basin_global_shared_state_phase_e/INTEGRATION.md"
+    },
+    {
+      "id": "S5c",
+      "path": "analysis/c1_cyclotomic_wieferich_terminal_phase_e/INTEGRATION.md",
+      "connector_reported_git_blob_sha": "ff886018acad89bd32d1d7eacc37e1e4bab24d01",
+      "use": "accepted valuation/negative-route scope and explicit nonclaims",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_cyclotomic_wieferich_terminal_phase_e/INTEGRATION.md"
+    },
+    {
+      "id": "S5d",
+      "path": "analysis/c1_b7_branching_phase_e/INTEGRATION.md",
+      "connector_reported_git_blob_sha": "7e587ced84640399aa43f4d6e212883783d645c3",
+      "use": "closed-state authority and no global finite family",
+      "read": "FULL_CORE_DOCUMENT",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/INTEGRATION.md"
+    }
+  ],
+  "source_integration_reconciliation": {
+    "b31_producer_historical_phase_e_source_gap": true,
+    "subsequent_repository_O31_reconciliation": "PASS_REPORTED_BY_INTEGRATION_NOTE",
+    "merged_dependency_binding": "BOUND_TO_MERGED_REPOSITORY_REPORTED_BY_INTEGRATION_NOTE",
+    "replayed_by_this_session": false
+  },
+  "new_proof_status": "Human-readable deductions and self-audit; not proof-assistant formalization or independent-author review",
+  "inherited_numeric_recertification": "The six base-5 regular vertices actually used were certified by this package standalone Lucas/order/lifting replay.",
+  "external_primary_sources": [
+    {
+      "id": "P1",
+      "name": "Mathlib quadratic reciprocity formal theorem documentation",
+      "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LegendreSymbol/QuadraticReciprocity.html",
+      "access": "web search HTML, 2026-09-09"
+    },
+    {
+      "id": "P2",
+      "name": "Mathlib Dirichlet primes in arithmetic progressions formal theorem documentation",
+      "url": "https://leanprover-community.github.io/mathlib4_docs/Mathlib/NumberTheory/LSeries/PrimesInAP.html",
+      "access": "web search HTML, 2026-09-09"
+    },
+    {
+      "id": "P3",
+      "name": "Robert Y. Lewis, A formal proof of Hensel's lemma over the p-adic integers, arXiv:1909.11342",
+      "url": "https://arxiv.org/html/1909.11342v1",
+      "access": "HTML version and abstract; no PDF analyzed"
+    }
+  ]
+}

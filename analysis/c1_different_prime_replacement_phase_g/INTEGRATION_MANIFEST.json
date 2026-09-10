@@ -1,0 +1,30 @@
+{
+  "schema": "a303656.phase-g-repository-integration.v1",
+  "package": "different_prime_replacement_phase_g",
+  "source_archive": {
+    "located_filename": "A303656_DIFFERENT_PRIME_REPLACEMENT_PHASE_G.zip",
+    "outer_sha256": "9bd8afb6cda33bae6e6d066f4bda33f2b10a9a67b8fe89fcbaa1ce0167f206b5",
+    "internal_root": "A303656_DIFFERENT_PRIME_REPLACEMENT_PHASE_G",
+    "archive_members": 14,
+    "safe_extraction": "PASS",
+    "source_integrity": "PASS",
+    "source_integrity_entries": 13,
+    "committed": false
+  },
+  "producer_manifest": "SHA256SUMS.txt",
+  "producer_payload_files": 14,
+  "repository_native_files": [
+    "INTEGRATION.md",
+    "DEPENDENCY_BINDING.json",
+    "INTEGRATION_MANIFEST.json",
+    "verify_integration.py",
+    "tests/test_integration_scope.py"
+  ],
+  "source_replay": {
+    "command": ["{python}", "-B", "verify.py", "--check-hashes", "--out", "{tmp}/results.json"],
+    "expected_negative_controls": 12,
+    "result": "PASS"
+  },
+  "transport_archives_committed": false,
+  "generated_binaries_committed": false
+}
