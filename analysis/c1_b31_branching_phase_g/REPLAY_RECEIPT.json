@@ -1,0 +1,41 @@
+{
+  "schema": "a303656-b31-phase-g-replay-receipt-v1",
+  "status": "PASS",
+  "python_version": "3.13.5",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "scientific_payload_hashes": {
+    "verify.py": "9b0df3ee98eeb7a489c4ed4bbbd327eda7d5cc4a8ea2b63ceb5eaa62391442c9",
+    "evidence.json": "701dd79a5528715048ca87ff65bd8ef4edc259acbf5701c742a0bb5130a8c73e",
+    "verification_log.json": "eb75a1c471e2367d7540aec087a011c88e9ee51d08c5d5eebdabb98eb0848035"
+  },
+  "ordinary_replay": "PASS_BYTE_IDENTICAL_TO_VERIFICATION_LOG",
+  "python_optimized_replay": "PASS_BYTE_IDENTICAL_TO_ORDINARY",
+  "fresh_archive_extraction_optimized_replay": "PASS_JSON_IDENTICAL_TO_CANONICAL",
+  "fresh_output_sha256": "eb75a1c471e2367d7540aec087a011c88e9ee51d08c5d5eebdabb98eb0848035",
+  "optional_sympy_generator_regeneration": "PASS_EVIDENCE_JSON_SEMANTIC_EQUALITY_AND_FULL_STANDARDLIB_REVERIFICATION",
+  "optional_discovery_replay": {
+    "status": "PASS",
+    "candidates": 80000,
+    "hits": [],
+    "timing_ignored": true,
+    "unbounded_conclusion_used": false
+  },
+  "corruption_tests_rejected": [
+    "fake_base5_member",
+    "replace_variable_base_with_5",
+    "wrong_root_valuation",
+    "wrong_lift_coefficient",
+    "drop_maximal_generator",
+    "wrong_edge_sign",
+    "missing_head_state",
+    "bad_Lucas_witness",
+    "incomplete_pminus1",
+    "false_prime_base_flag",
+    "terminal3_in_all_odd_rows",
+    "corrupt_exact_order"
+  ],
+  "all_auxiliary_source_files_read": false,
+  "repository_native_tests_run": false,
+  "github_writes_performed": "NONE",
+  "receipt_scope": "Records actual local runs. Source producer/native test results are not represented as runs of this session. Universal theorem proofs are not machine-verified by this replay."
+}
