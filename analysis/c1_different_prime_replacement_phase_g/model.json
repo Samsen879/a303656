@@ -1,0 +1,648 @@
+{
+  "schema": "a303656.phase-g.structural-countermodel.v1",
+  "semantics": "FINITE ORDER/PROVENANCE/TYPED-MASK REDUCT; NOT AN ARITHMETIC CERTIFICATE",
+  "source_commit": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+  "cost": "number of proper regular admitted descendants",
+  "stopping_threshold": 2,
+  "roots": [
+    "Q_O31",
+    "Q_B7",
+    "Q_H19",
+    "Q_H5167",
+    "Q_H271",
+    "Q_H4159",
+    "Q_H31051"
+  ],
+  "basins": [
+    {
+      "id": "O31",
+      "root": "Q_O31",
+      "head": 31,
+      "depth": 1,
+      "leaf": 0,
+      "regular_primes": [
+        31,
+        878851,
+        625552508473588471
+      ],
+      "state_cost": 3,
+      "full_basin_vertex_count": 4,
+      "maximal_generators": [
+        878851,
+        625552508473588471
+      ],
+      "a": 0,
+      "a_modulus": 102256745258161036446788706,
+      "O31_all_odd": true
+    },
+    {
+      "id": "B7",
+      "root": "Q_B7",
+      "head": 7,
+      "depth": 1,
+      "leaf": 1,
+      "regular_primes": [
+        7,
+        43,
+        127,
+        6717031
+      ],
+      "state_cost": 4,
+      "full_basin_vertex_count": 5,
+      "maximal_generators": [
+        6717031
+      ],
+      "a": 1027087776148,
+      "a_modulus": 1540631664222,
+      "O31_all_odd": false
+    },
+    {
+      "id": "H19",
+      "root": "Q_H19",
+      "head": 19,
+      "depth": 2,
+      "leaf": 2,
+      "regular_primes": [
+        19,
+        191,
+        6271
+      ],
+      "state_cost": 3,
+      "full_basin_vertex_count": 4,
+      "maximal_generators": [
+        191,
+        6271
+      ],
+      "a": 91029836,
+      "a_modulus": 409634262,
+      "O31_all_odd": true
+    },
+    {
+      "id": "H5167",
+      "root": "Q_H5167",
+      "head": 5167,
+      "depth": 2,
+      "leaf": 5,
+      "regular_primes": [
+        5167
+      ],
+      "state_cost": 1,
+      "full_basin_vertex_count": 2,
+      "maximal_generators": [
+        5167
+      ],
+      "a": 72338,
+      "a_modulus": 93006,
+      "O31_all_odd": false
+    },
+    {
+      "id": "H271",
+      "root": "Q_H271",
+      "head": 271,
+      "depth": 3,
+      "leaf": 8,
+      "regular_primes": [
+        271
+      ],
+      "state_cost": 1,
+      "full_basin_vertex_count": 2,
+      "maximal_generators": [
+        271
+      ],
+      "a": 2168,
+      "a_modulus": 14634,
+      "O31_all_odd": true
+    },
+    {
+      "id": "H4159",
+      "root": "Q_H4159",
+      "head": 4159,
+      "depth": 3,
+      "leaf": 17,
+      "regular_primes": [
+        4159
+      ],
+      "state_cost": 1,
+      "full_basin_vertex_count": 2,
+      "maximal_generators": [
+        4159
+      ],
+      "a": 182996,
+      "a_modulus": 224586,
+      "O31_all_odd": true
+    },
+    {
+      "id": "H31051",
+      "root": "Q_H31051",
+      "head": 31051,
+      "depth": 3,
+      "leaf": 26,
+      "regular_primes": [
+        31051
+      ],
+      "state_cost": 1,
+      "full_basin_vertex_count": 2,
+      "maximal_generators": [
+        31051
+      ],
+      "a": 807326,
+      "a_modulus": 1676754,
+      "O31_all_odd": true
+    }
+  ],
+  "rows": {
+    "p31": {
+      "id": "p31",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "O31",
+      "p": 31,
+      "w": 3,
+      "w_factorization": {
+        "3": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 0,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "p878851": {
+      "id": "p878851",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "O31",
+      "p": 878851,
+      "w": 93,
+      "w_factorization": {
+        "3": 1,
+        "31": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 0,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "p625552508473588471": {
+      "id": "p625552508473588471",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "O31",
+      "p": 625552508473588471,
+      "w": 31,
+      "w_factorization": {
+        "31": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 0,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "Q_O31": {
+      "id": "Q_O31",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "O31",
+      "w": 549767447624521701326821,
+      "w_factorization": {
+        "878851": 1,
+        "625552508473588471": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 549767447624521701326821,
+        "ord_Q_5": 549767447624521701326821,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p7": {
+      "id": "p7",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "B7",
+      "p": 7,
+      "w": 6,
+      "w_factorization": {
+        "2": 1,
+        "3": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 1027087776148,
+      "r_mod_p2": 33,
+      "center_own_digit": 0
+    },
+    "p43": {
+      "id": "p43",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "B7",
+      "p": 43,
+      "w": 42,
+      "w_factorization": {
+        "2": 1,
+        "3": 1,
+        "7": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 1027087776148,
+      "r_mod_p2": 1428,
+      "center_own_digit": 0
+    },
+    "p127": {
+      "id": "p127",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "B7",
+      "p": 127,
+      "w": 42,
+      "w_factorization": {
+        "2": 1,
+        "3": 1,
+        "7": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 1027087776148,
+      "r_mod_p2": 11159,
+      "center_own_digit": 0
+    },
+    "p6717031": {
+      "id": "p6717031",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "B7",
+      "p": 6717031,
+      "w": 5461,
+      "w_factorization": {
+        "43": 1,
+        "127": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 1027087776148,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "Q_B7": {
+      "id": "Q_B7",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "B7",
+      "w": 6717031,
+      "w_factorization": {
+        "6717031": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 6717031,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p19": {
+      "id": "p19",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H19",
+      "p": 19,
+      "w": 9,
+      "w_factorization": {
+        "3": 2
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 91029836,
+      "r_mod_p2": 237,
+      "center_own_digit": 0
+    },
+    "p191": {
+      "id": "p191",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H19",
+      "p": 191,
+      "w": 19,
+      "w_factorization": {
+        "19": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 91029836,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "p6271": {
+      "id": "p6271",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H19",
+      "p": 6271,
+      "w": 19,
+      "w_factorization": {
+        "19": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 91029836,
+      "r_mod_p2": 4,
+      "center_own_digit": 0
+    },
+    "Q_H19": {
+      "id": "Q_H19",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "H19",
+      "w": 1197761,
+      "w_factorization": {
+        "191": 1,
+        "6271": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 1197761,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p5167": {
+      "id": "p5167",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H5167",
+      "p": 5167,
+      "w": 18,
+      "w_factorization": {
+        "2": 1,
+        "3": 2
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 72338,
+      "r_mod_p2": 26482920,
+      "center_own_digit": 0
+    },
+    "Q_H5167": {
+      "id": "Q_H5167",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "H5167",
+      "w": 5167,
+      "w_factorization": {
+        "5167": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 5167,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p271": {
+      "id": "p271",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H271",
+      "p": 271,
+      "w": 27,
+      "w_factorization": {
+        "3": 3
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 2168,
+      "r_mod_p2": 54317,
+      "center_own_digit": 0
+    },
+    "Q_H271": {
+      "id": "Q_H271",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "H271",
+      "w": 271,
+      "w_factorization": {
+        "271": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 271,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p4159": {
+      "id": "p4159",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H4159",
+      "p": 4159,
+      "w": 27,
+      "w_factorization": {
+        "3": 3
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 182996,
+      "r_mod_p2": 5094267,
+      "center_own_digit": 0
+    },
+    "Q_H4159": {
+      "id": "Q_H4159",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "H4159",
+      "w": 4159,
+      "w_factorization": {
+        "4159": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 4159,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    },
+    "p31051": {
+      "id": "p31051",
+      "kind": "ACTUAL_REGULAR_ORIGINAL_ROW",
+      "basin": "H31051",
+      "p": 31051,
+      "w": 27,
+      "w_factorization": {
+        "3": 3
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "a": 807326,
+      "r_mod_p2": 508857581,
+      "center_own_digit": 0
+    },
+    "Q_H31051": {
+      "id": "Q_H31051",
+      "kind": "FORMAL_ORIGINAL_NONREGULAR_ORIGIN",
+      "basin": "H31051",
+      "w": 31051,
+      "w_factorization": {
+        "31051": 1
+      },
+      "K": 2,
+      "E": [
+        1
+      ],
+      "declared_s_lower_bound": 2,
+      "fixed_state_term": "r_Q = Q + 4 (mod Q^2)",
+      "A1_rigid_log": 0,
+      "actual_prime_instantiated": false,
+      "integer_order_label_only": true,
+      "required_if_instantiated": {
+        "Q_mod_4": 3,
+        "Q_greater_than": 2000000000,
+        "ord_Q_5": 31051,
+        "pow_5_w_mod_Q2": 1
+      },
+      "A0_term": "Q + 3 - 5^d (mod Q^2); not assigned an independent local state"
+    }
+  },
+  "special_rows": {
+    "2": {
+      "K": 2,
+      "r_mod_4": 1,
+      "A0_rejected": true,
+      "A1_rejected": false
+    },
+    "3": {
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r_mod_9": 2
+    }
+  },
+  "global_state": {
+    "frozen": true,
+    "c_star": 1,
+    "selected_parity": 0,
+    "separator_modulus": 54,
+    "original_abstract_period_L": 972474174935979229045369043188156605406538345755292777537766,
+    "original_abstract_U": 972474174935979229045369043188156605406538345755292777537766,
+    "retained_under_deletion": true,
+    "actual_regular_subledger_CRT_residue": 6208256319064808515016935000843733573391635599357215677524823349768967973164989194636547159193087150178298795516875045,
+    "actual_regular_subledger_CRT_modulus": 11675382974289055952718040182759373431854691567587114864748242617608083261392175379387390083958522334262386176809336676,
+    "formal_extension": "ONE CRT vector: the above actual residue equations plus r_Q=Q+4 mod Q^2 for seven distinct hypothetical Q. Not a numerically instantiated full CRT residue.",
+    "same_state_for_all_d_and_both_anchors": true
+  },
+  "B7_registry": {
+    "certified_regular_vertex_universe": [
+      7,
+      43,
+      127,
+      379,
+      7603,
+      19531,
+      519499,
+      6717031
+    ],
+    "actual_ledger_B7_state": [
+      7,
+      43,
+      127,
+      6717031
+    ],
+    "formal_hit_relation": [
+      {
+        "origin": "Q_B7",
+        "exact_state": [
+          7,
+          43,
+          127,
+          6717031
+        ],
+        "exact_order": 6717031,
+        "multiplicity": 2
+      }
+    ],
+    "state_exclusivity_guard": "an original origin has exactly one exact order and exactly one proper descendant state; no divisibility mark is transported to another state",
+    "unlisted_real_world_primes": "NOT ENUMERATED; no claim about their actual square hits"
+  },
+  "nonclaims": {
+    "arithmetic_endpoint_existence": false,
+    "arithmetic_counterexample": false,
+    "B7_empty": false,
+    "exactly_seven_excluded": false,
+    "N_ge_8_proved": false,
+    "full_repository_directory_read_or_replay": false,
+    "github_writes": "NONE"
+  }
+}

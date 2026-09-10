@@ -1,0 +1,169 @@
+{
+  "schema": "a303656.phase-g.source-binding.v1",
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "c6ca0dc061783ab993be6fa077c8f66cd730e28c",
+  "main_tree": "57ecf1ce3dc7760c6622bb79aca60d1bf2ba0b06",
+  "head_description": "Merge PR #37, four-vertex B7 Phase F",
+  "head_commit_time": "2026-09-09T07:59:42Z",
+  "live_bind_and_final_recheck": "UNCHANGED; GitHub branches/main read twice",
+  "github_access": "READ ONLY",
+  "github_writes": "NONE",
+  "prs": [
+    {
+      "number": 26,
+      "merged": true,
+      "merge_commit_sha": "07a6f5fb2059b1dfc6be7cc6d1325cd65b49ae41",
+      "merged_at": "2026-09-08T03:28:13Z",
+      "verification": "GitHub.get_pr_info read",
+      "url": "https://github.com/Samsen879/a303656/pull/26"
+    },
+    {
+      "number": 30,
+      "merged": true,
+      "merge_commit_sha": "783c3eb4fd547837abb8809d0d8ea35397e4aa96",
+      "merged_at": "2026-09-09T07:30:50Z",
+      "verification": "GitHub.get_pr_info read",
+      "url": "https://github.com/Samsen879/a303656/pull/30"
+    },
+    {
+      "number": 32,
+      "merged": true,
+      "merge_commit_sha": "61ef14a15879a964b47fd8eee98b8b1a20855e43",
+      "merged_at": "2026-09-09T07:37:24Z",
+      "verification": "GitHub.get_pr_info read",
+      "url": "https://github.com/Samsen879/a303656/pull/32"
+    },
+    {
+      "number": 35,
+      "merged": true,
+      "merge_commit_sha": "e2c4dcdba4a176a8a3c864881ceb28116fb01f68",
+      "merged_at": "2026-09-09T07:50:46Z",
+      "verification": "GitHub.get_pr_info read",
+      "url": "https://github.com/Samsen879/a303656/pull/35"
+    }
+  ],
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "read_method": "Connected GitHub fetch_file at immutable commit, overlapping line ranges for long core texts; branch/PR GET for metadata",
+  "blob_hash_evidence": "Git blob IDs returned by connector metadata; NOT independently recomputed from full local source bytes",
+  "upstream_source_archives_downloaded": false,
+  "upstream_manifest_replay_performed": false,
+  "all_files_in_required_directories_read": false,
+  "repository_native_tests_replayed": false,
+  "full_local_checkout_obtained": false,
+  "not_completed": [
+    "Full per-file reading of auxiliary code, generated data and history under all five requested directories",
+    "Full source-bundle hash verification",
+    "Repository-native test replay and CI",
+    "Historical large factorization/inventory replays"
+  ],
+  "authority_scope": "The finite countermodel covers the explicit structural reduct A1-A10, not all arithmetic realization axioms or the entire repository theory",
+  "files": [
+    {
+      "key": "S1",
+      "path": "STATUS.md",
+      "git_blob_sha": "2ba295c0ada0d19b4e7f7d7871312d0696a785d2",
+      "read_scope": "full",
+      "load_bearing_use": "PAUSED/NONE/UNRESOLVED; no large computation authorization",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/STATUS.md"
+    },
+    {
+      "key": "S2",
+      "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+      "git_blob_sha": "0c86de426dc932a13a4d7cccb198e4ef3bd7c811",
+      "read_scope": "full mathematical text",
+      "load_bearing_use": "Theorems7.1-7.2: seven-origin normal form, disjoint full basins, proper regular descendants; Theorem12.1 conditional completion; inventory corollary scoped",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_order_dag_phase_c/THEOREMS.md"
+    },
+    {
+      "key": "S2R",
+      "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+      "git_blob_sha": "b5af58bdef3624042a43072aede255d9d4f400ea",
+      "read_scope": "full report via overlapping ranges",
+      "load_bearing_use": "Chinese explanation of source normal form and nonclaims",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_order_dag_phase_c/REPORT.md"
+    },
+    {
+      "key": "S3",
+      "path": "analysis/c1_b7_branching_phase_e/THEOREMS.md",
+      "git_blob_sha": "cd57a36f00ff8dcb63bc7efebf979097b6f6e9af",
+      "read_scope": "full mathematical text",
+      "load_bearing_use": "E1 exact support closure; E2 maximal antichain; E3/E3.1 exact square-hit iff; E6 actual regular diamond; E8 scope",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/THEOREMS.md"
+    },
+    {
+      "key": "S3R",
+      "path": "analysis/c1_b7_branching_phase_e/REPORT.md",
+      "git_blob_sha": "790e231ae40865cfd09aef8b2432338920c110da",
+      "read_scope": "full report via overlapping ranges",
+      "load_bearing_use": "Closed-state, finite-size and provider interfaces",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/REPORT.md"
+    },
+    {
+      "key": "S3A",
+      "path": "analysis/c1_b7_branching_phase_e/PROOF_AUDIT.md",
+      "git_blob_sha": "02bff9f2d44313f3bd7efe858049a06f561640cd",
+      "read_scope": "full",
+      "load_bearing_use": "Regular vs nonregular, exact states vs ambient, abstract model vs arithmetic, read/replay boundaries",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b7_branching_phase_e/PROOF_AUDIT.md"
+    },
+    {
+      "key": "S4",
+      "path": "analysis/c1_closed_state_sqd_phase_f/REPORT.md",
+      "git_blob_sha": "c4643ec5ce8c2e52e01e6a62bfa347b99b8da640",
+      "read_scope": "full report via overlapping ranges",
+      "load_bearing_use": "F4 exact-root iff; F6 coprimality/no migration; stopping rule; certificate-specific successor-domain gap",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_closed_state_sqd_phase_f/REPORT.md"
+    },
+    {
+      "key": "S4B",
+      "path": "analysis/c1_closed_state_sqd_phase_f/DEPENDENCY_BINDING.json",
+      "git_blob_sha": "6da0bd3b5ad49f247783a4989841b70f784728d0",
+      "read_scope": "full",
+      "load_bearing_use": "Merged reconciliation of exact symbols with PhaseE; BOUND_TO_MERGED_REPOSITORY",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_closed_state_sqd_phase_f/DEPENDENCY_BINDING.json"
+    },
+    {
+      "key": "S5",
+      "path": "analysis/c1_private_provider_charging_phase_d/THEOREMS.md",
+      "git_blob_sha": "005b893f25d19695eb77adbf0cbbbf09efb56597",
+      "read_scope": "full mathematical text",
+      "load_bearing_use": "D1 center ancestry; D2 support confinement; D3/D4 frozen simultaneous width; D5 equality7=7",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_private_provider_charging_phase_d/THEOREMS.md"
+    },
+    {
+      "key": "S5R",
+      "path": "analysis/c1_private_provider_charging_phase_d/REPORT.md",
+      "git_blob_sha": "da6c7b743fd6995895b6ad53f79197b1a6ad0767",
+      "read_scope": "full report via overlapping ranges",
+      "load_bearing_use": "Provider witness, hybrid release and common-state distinctions; model scope",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_private_provider_charging_phase_d/REPORT.md"
+    },
+    {
+      "key": "S6",
+      "path": "analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md",
+      "git_blob_sha": "d85dca43ca3184ffe5f26534673e2ea037ea9e42",
+      "read_scope": "full mathematical report via overlapping ranges",
+      "load_bearing_use": "E1 arbitrary-basin filling; E2 one-state CRT; E3 parity persistence; E4 O31; E5 full BOTH sufficiency for actual prescribed arithmetic basins allowing legal K/E",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md"
+    },
+    {
+      "key": "S7",
+      "path": "analysis/c1_b31_odd_phase_f/REPORT.md",
+      "git_blob_sha": "eb0777a6593ab72711187d0c57403d7784dba79a",
+      "read_scope": "partial: opening verdict and normal-form/O31 reconstruction, requested lines1-190 (long output truncated)",
+      "load_bearing_use": "First-relay summary used only as provenance for chosen actual regular labels; fresh certificates supplied in this package",
+      "url": "https://github.com/Samsen879/a303656/blob/c6ca0dc061783ab993be6fa077c8f66cd730e28c/analysis/c1_b31_odd_phase_f/REPORT.md"
+    }
+  ],
+  "new_computation": {
+    "type": "standalone finite structural/event-algebra verification and certificates for fixed actual regular labels",
+    "actual_formal_endpoint_checks": 0,
+    "large_computation": false,
+    "independent_author_or_software_stack_claim": false
+  }
+}
