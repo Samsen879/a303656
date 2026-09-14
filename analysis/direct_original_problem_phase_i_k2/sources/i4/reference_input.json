@@ -1,0 +1,8765 @@
+{
+  "source_zip_sha256": "3befe3e5f1cc92e757da748d80ffbeefaf1ac5b9bf6641eecb783fc7e3b0d293",
+  "scope": "Only existing extremal-panel bulk A23 rows; no new full scan",
+  "targets": [
+    {
+      "n": 2,
+      "bulk_active": 0,
+      "rows": []
+    },
+    {
+      "n": 3,
+      "bulk_active": 0,
+      "rows": []
+    },
+    {
+      "n": 5,
+      "bulk_active": 1,
+      "rows": []
+    },
+    {
+      "n": 25,
+      "bulk_active": 4,
+      "rows": [
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 17,
+          "factors": [
+            [
+              17,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 560,
+      "bulk_active": 20,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 554,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              277,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 434,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 2,
+          "residual": 532,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 0,
+          "residual": 532,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1370,
+      "bulk_active": 24,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 1364,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 1360,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              17,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 1288,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1489,
+      "bulk_active": 24,
+      "rows": [
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 1481,
+          "factors": [
+            [
+              1481,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 1361,
+          "factors": [
+            [
+              1361,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 1457,
+          "factors": [
+            [
+              31,
+              1
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 1337,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              191,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 1241,
+          "factors": [
+            [
+              17,
+              1
+            ],
+            [
+              73,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 1121,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              59,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1568,
+      "bulk_active": 24,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 1562,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              71,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 1442,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 2,
+          "residual": 1540,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 1440,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 0,
+          "residual": 1540,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 2,
+          "residual": 1300,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              13,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 1705,
+      "bulk_active": 24,
+      "rows": [
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 1697,
+          "factors": [
+            [
+              1697,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 1577,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 1673,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              239,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 1553,
+          "factors": [
+            [
+              1553,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 1457,
+          "factors": [
+            [
+              31,
+              1
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 1337,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              191,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1825,
+      "bulk_active": 24,
+      "rows": [
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 1817,
+          "factors": [
+            [
+              23,
+              1
+            ],
+            [
+              79,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 1697,
+          "factors": [
+            [
+              1697,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 1793,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              163,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 2,
+          "residual": 1773,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              197,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 1673,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              239,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 1577,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 2,
+          "residual": 1557,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              173,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 1457,
+          "factors": [
+            [
+              31,
+              1
+            ],
+            [
+              47,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 13501,
+      "bulk_active": 48,
+      "rows": [
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 13493,
+          "factors": [
+            [
+              103,
+              1
+            ],
+            [
+              131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 13373,
+          "factors": [
+            [
+              43,
+              1
+            ],
+            [
+              311,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 5,
+          "residual": 10373,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              41,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 13469,
+          "factors": [
+            [
+              13469,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 13349,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              1907,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 10349,
+          "factors": [
+            [
+              79,
+              1
+            ],
+            [
+              131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 13253,
+          "factors": [
+            [
+              29,
+              1
+            ],
+            [
+              457,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 13133,
+          "factors": [
+            [
+              23,
+              1
+            ],
+            [
+              571,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 5,
+          "residual": 10133,
+          "factors": [
+            [
+              10133,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 7,
+          "d": 1,
+          "residual": 11309,
+          "factors": [
+            [
+              43,
+              1
+            ],
+            [
+              263,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 3,
+          "residual": 11189,
+          "factors": [
+            [
+              67,
+              1
+            ],
+            [
+              167,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 5,
+          "residual": 8189,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              431,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 33670,
+      "bulk_active": 54,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 33668,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              443,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 33544,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              599,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 4,
+          "residual": 33044,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              751,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 30544,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 30536,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 1,
+          "residual": 32936,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              179,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 3,
+          "residual": 26984,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3373,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 50110,
+      "bulk_active": 54,
+      "rows": [
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 50084,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              659,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 49984,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              71,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 46984,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              839,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 4,
+          "residual": 49482,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2749,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 1,
+          "residual": 50024,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              37,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 3,
+          "residual": 49256,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 3,
+          "residual": 43424,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              59,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 5,
+          "residual": 40424,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              163,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 64204,
+      "bulk_active": 63,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 64202,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              683,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 64178,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              32089,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 4,
+          "residual": 63578,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              383,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 6,
+          "residual": 48578,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              227,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 64196,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1459,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 5,
+          "residual": 61076,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              15269,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 2,
+          "d": 2,
+          "residual": 64170,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 64052,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              239,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 63956,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              271,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 5,
+          "residual": 60836,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              227,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 3,
+          "residual": 61892,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              15473,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 76562,
+      "bulk_active": 63,
+      "rows": [
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 76436,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              97,
+              1
+            ],
+            [
+              197,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 76554,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4253,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 76552,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1367,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 76456,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              503,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 75856,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              431,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 75808,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 75208,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              79,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 54376,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              971,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 108862,
+      "bulk_active": 70,
+      "rows": [
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 108836,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 105736,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              13217,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 6,
+          "residual": 93236,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              163,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 4,
+          "residual": 108234,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              859,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 105728,
+          "factors": [
+            [
+              2,
+              8
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              59,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 1,
+          "residual": 108776,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              13597,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 3,
+          "residual": 108008,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              587,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 3,
+          "residual": 102176,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 5,
+          "residual": 99176,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 188018,
+      "bulk_active": 70,
+      "rows": [
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 187892,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              439,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 188010,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              2089,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 188008,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              331,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 2,
+          "residual": 187984,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              379,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 187936,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              839,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 187912,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              283,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 186664,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              23333,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 6,
+          "residual": 171664,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              10729,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 8,
+          "d": 0,
+          "residual": 181456,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1031,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 165832,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              1091,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 323858,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 323856,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              173,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 323732,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              80933,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 245732,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              2671,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 323848,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5783,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 320724,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              151,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 6,
+          "residual": 308224,
+          "factors": [
+            [
+              2,
+              10
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              43,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 323752,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              283,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 323152,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              1063,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 323104,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              439,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 322504,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              443,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 316672,
+          "factors": [
+            [
+              2,
+              8
+            ],
+            [
+              1237,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 301672,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5387,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 264808,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              419,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 2,
+          "residual": 264784,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              67,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 358990,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 358984,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              1951,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 358964,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              2087,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 358864,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              2039,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 6,
+          "residual": 343364,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              12263,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 280864,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 4,
+          "residual": 358362,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              463,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 1,
+          "residual": 358976,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              79,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 3,
+          "residual": 358856,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              1447,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 355856,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              967,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 5,
+          "residual": 355784,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              311,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 7,
+          "residual": 280784,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              109,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 5,
+          "residual": 355136,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              179,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 7,
+          "residual": 280136,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              2
+            ],
+            [
+              97,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 8,
+          "d": 1,
+          "residual": 352424,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              44053,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 1,
+          "residual": 299936,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              103,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 3,
+          "residual": 299816,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              3407,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 372026,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 372020,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              89,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 368900,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              31,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 6,
+          "residual": 356392,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              44549,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 368874,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 371944,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              2447,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 371920,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4649,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 371272,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              4219,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 364840,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1303,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 349840,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              4373,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 312976,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              631,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 4,
+          "residual": 312352,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              227,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 297352,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              109,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 376346,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 376340,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              607,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 373220,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              18661,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 376336,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              547,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 4,
+          "residual": 375712,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              199,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 6,
+          "residual": 360712,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              4099,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 376264,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6719,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 0,
+          "residual": 375616,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              5869,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 375592,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              353,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 374992,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              1019,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 369160,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              839,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 4,
+          "residual": 316672,
+          "factors": [
+            [
+              2,
+              8
+            ],
+            [
+              1237,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 301672,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              5387,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 382418,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 382292,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              3083,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 304292,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              127,
+              1
+            ],
+            [
+              599,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 382410,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              607,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 382408,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              3677,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 382312,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              6827,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 381712,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23857,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 381064,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              109,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 360232,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              1217,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 323368,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              487,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 2,
+          "residual": 323344,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              2887,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 307744,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              163,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 410258,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 410256,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              37,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 410132,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              102533,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 332132,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              1931,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 410248,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              2699,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 407124,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              263,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 407106,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              359,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 410176,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              29,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 410152,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              167,
+              1
+            ],
+            [
+              307,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 409552,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              179,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 409504,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              191,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 408904,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              647,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 403072,
+          "factors": [
+            [
+              2,
+              7
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              67,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 388072,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              179,
+              1
+            ],
+            [
+              271,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 351208,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              307,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 2,
+          "residual": 351184,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              467,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 530230,
+      "bulk_active": 88,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 530228,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              1867,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 4,
+          "residual": 529604,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              4271,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 452104,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              1823,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 6,
+          "residual": 514602,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              113,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 1,
+          "residual": 530216,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              191,
+              1
+            ],
+            [
+              347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 4,
+          "residual": 529578,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              467,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 3,
+          "residual": 530024,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              317,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 5,
+          "residual": 526376,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              3463,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 1,
+          "residual": 523664,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              1423,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 7,
+          "residual": 445544,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              61,
+              1
+            ],
+            [
+              83,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 1,
+          "residual": 471176,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              58897,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 3,
+          "residual": 471056,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              499,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 902101,
+      "bulk_active": 96,
+      "rows": [
+        {
+          "c": 1,
+          "d": 0,
+          "residual": 902097,
+          "factors": [
+            [
+              3,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              43,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 902093,
+          "factors": [
+            [
+              191,
+              1
+            ],
+            [
+              4723,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 901973,
+          "factors": [
+            [
+              901973,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 5,
+          "residual": 898973,
+          "factors": [
+            [
+              83,
+              1
+            ],
+            [
+              10831,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 6,
+          "residual": 886473,
+          "factors": [
+            [
+              3,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              14071,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 7,
+          "residual": 823973,
+          "factors": [
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              2551,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 902069,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              4157,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 3,
+          "residual": 901949,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              1283,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 4,
+          "residual": 901449,
+          "factors": [
+            [
+              3,
+              4
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              359,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 898949,
+          "factors": [
+            [
+              827,
+              1
+            ],
+            [
+              1087,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 7,
+          "residual": 823949,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              3797,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 1,
+          "residual": 901853,
+          "factors": [
+            [
+              23,
+              1
+            ],
+            [
+              113,
+              1
+            ],
+            [
+              347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 901733,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              128819,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 5,
+          "residual": 898733,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              81703,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 7,
+          "residual": 823733,
+          "factors": [
+            [
+              79,
+              1
+            ],
+            [
+              10427,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 1,
+          "residual": 899909,
+          "factors": [
+            [
+              41,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              467,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 3,
+          "residual": 899789,
+          "factors": [
+            [
+              11,
+              1
+            ],
+            [
+              81799,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 5,
+          "residual": 896789,
+          "factors": [
+            [
+              151,
+              1
+            ],
+            [
+              5939,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 7,
+          "residual": 821789,
+          "factors": [
+            [
+              179,
+              1
+            ],
+            [
+              4591,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 1,
+          "residual": 882413,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              3407,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 3,
+          "residual": 882293,
+          "factors": [
+            [
+              151,
+              1
+            ],
+            [
+              5843,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 5,
+          "residual": 879293,
+          "factors": [
+            [
+              293,
+              1
+            ],
+            [
+              3001,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 9,
+          "d": 7,
+          "residual": 804293,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              89,
+              1
+            ],
+            [
+              1291,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 1,
+          "residual": 724949,
+          "factors": [
+            [
+              724949,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 11,
+          "d": 3,
+          "residual": 724829,
+          "factors": [
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              6091,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 5,
+          "residual": 721829,
+          "factors": [
+            [
+              19,
+              1
+            ],
+            [
+              37991,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 7,
+          "residual": 646829,
+          "factors": [
+            [
+              23,
+              1
+            ],
+            [
+              28123,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1134800,
+      "bulk_active": 96,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 1134794,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              29863,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 1134674,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              12071,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 1131674,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              13159,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 1056674,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              479,
+              1
+            ],
+            [
+              1103,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 1,
+          "residual": 1134792,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              15761,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 2,
+          "residual": 1134772,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              1187,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 6,
+          "residual": 1119172,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              3371,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 3,
+          "residual": 1134666,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              2
+            ],
+            [
+              373,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 0,
+          "residual": 1134772,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              1187,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 4,
+          "residual": 1134148,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              14923,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 2,
+          "residual": 1134532,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              40519,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 6,
+          "residual": 1118932,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              467,
+              1
+            ],
+            [
+              599,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 0,
+          "residual": 1132612,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              947,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 4,
+          "residual": 1131988,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              1979,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 2,
+          "residual": 1115092,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              25343,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 6,
+          "residual": 1099492,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              37,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 0,
+          "residual": 957652,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              7723,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 4,
+          "residual": 957028,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              3571,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 1480036,
+      "bulk_active": 96,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 1480034,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              499,
+              1
+            ],
+            [
+              1483,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 1480010,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              21143,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 4,
+          "residual": 1479410,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              619,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 6,
+          "residual": 1464410,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              6367,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 1479908,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              419,
+              1
+            ],
+            [
+              883,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 7,
+          "residual": 1401908,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              5231,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 4,
+          "residual": 1479402,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              82189,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 1480004,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              16087,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 1476884,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              251,
+              1
+            ],
+            [
+              1471,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 1479668,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              369917,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 7,
+          "residual": 1401668,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              18443,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 1,
+          "residual": 1477844,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              211,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 5,
+          "residual": 1474724,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              127,
+              1
+            ],
+            [
+              2903,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 3,
+          "residual": 1460228,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              431,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 7,
+          "residual": 1382228,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              157,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 1,
+          "residual": 1302884,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              29611,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 5,
+          "residual": 1299764,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              324941,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 2565074,
+      "bulk_active": 117,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 2565072,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              379,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 2564948,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              2683,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 2486948,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              761,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 2564946,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              223,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 2565064,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              10343,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 2561940,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              331,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 8,
+          "residual": 2174440,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              54361,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 2564968,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              281,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 2564368,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              1931,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 8,
+          "residual": 2174368,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              571,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 5,
+          "residual": 2561706,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              251,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 2563720,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              599,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 2542888,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              6763,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 8,
+          "residual": 2167888,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              137,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 2506024,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              16487,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 2,
+          "residual": 2506000,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              179,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 2490400,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              283,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 8,
+          "residual": 2115400,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              1511,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 2,
+          "residual": 2033608,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              787,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 8,
+          "residual": 1643008,
+          "factors": [
+            [
+              2,
+              9
+            ],
+            [
+              3209,
+              1
+            ]
+          ],
+          "success": true
+        }
+      ]
+    },
+    {
+      "n": 4370116,
+      "bulk_active": 117,
+      "rows": [
+        {
+          "c": 0,
+          "d": 0,
+          "residual": 4370114,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              2347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 2,
+          "residual": 4370090,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              10163,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 4,
+          "residual": 4369490,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              5531,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 6,
+          "residual": 4354490,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              62207,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 8,
+          "residual": 3979490,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              8467,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 3,
+          "residual": 4369988,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              156071,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 7,
+          "residual": 4291988,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              1072997,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 2,
+          "d": 4,
+          "residual": 4369482,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              263,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 1,
+          "residual": 4370084,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              10607,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 5,
+          "residual": 4366964,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              6781,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 3,
+          "residual": 4369748,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              179,
+              1
+            ],
+            [
+              359,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 7,
+          "residual": 4291748,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              1072937,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 7,
+          "d": 1,
+          "residual": 4367924,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              2683,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 5,
+          "residual": 4364804,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              13147,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 3,
+          "residual": 4350308,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              10559,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 7,
+          "residual": 4272308,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              421,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 1,
+          "residual": 4192964,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              22303,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 5,
+          "residual": 4189844,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              13259,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 4386818,
+      "bulk_active": 117,
+      "rows": [
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 4386692,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              1096673,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 4308692,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              4507,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 4,
+          "residual": 4386184,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              49843,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 4383684,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              263,
+              1
+            ],
+            [
+              463,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 4,
+          "residual": 4386112,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              3607,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 6,
+          "residual": 4371112,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              227,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 8,
+          "residual": 3996112,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              10859,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 0,
+          "residual": 4386088,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              167,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 4386064,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              467,
+              1
+            ],
+            [
+              587,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 6,
+          "residual": 4370464,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              109,
+              1
+            ],
+            [
+              179,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 8,
+          "residual": 3995464,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              45403,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 2,
+          "residual": 4380232,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              547529,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 8,
+          "d": 8,
+          "residual": 3989632,
+          "factors": [
+            [
+              2,
+              7
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              439,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 2,
+          "residual": 4327744,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              3559,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 4,
+          "residual": 4327144,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              127,
+              1
+            ],
+            [
+              4259,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 4312144,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              181,
+              1
+            ],
+            [
+              1489,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 12,
+          "d": 0,
+          "residual": 3855376,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              1187,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 4,
+          "residual": 3854752,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              233,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 6,
+          "residual": 3839752,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              68567,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 5972960,
+      "bulk_active": 117,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 5972954,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              113,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 5972834,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              426631,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 5969834,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              149,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 5894834,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              5701,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 2,
+          "residual": 5972932,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              213319,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 6,
+          "residual": 5957332,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              449,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 5969826,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              61,
+              1
+            ],
+            [
+              5437,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 0,
+          "residual": 5972932,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              213319,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 4,
+          "residual": 5972308,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              78583,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 8,
+          "residual": 5582308,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              1395577,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 2,
+          "residual": 5972692,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              135743,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 6,
+          "residual": 5957092,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              887,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 0,
+          "residual": 5970772,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              22279,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 4,
+          "residual": 5970148,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              109,
+              1
+            ],
+            [
+              13693,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 7,
+          "d": 8,
+          "residual": 5580148,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              617,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 2,
+          "residual": 5953252,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              127,
+              1
+            ],
+            [
+              11719,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 6,
+          "residual": 5937652,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              11161,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 0,
+          "residual": 5795812,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              157,
+              1
+            ],
+            [
+              839,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 4,
+          "residual": 5795188,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              139,
+              1
+            ],
+            [
+              1489,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 8,
+          "residual": 5405188,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              28751,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 7117544,
+      "bulk_active": 126,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 7117538,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              114799,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 7117418,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              113,
+              1
+            ],
+            [
+              409,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 7114418,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              307,
+              1
+            ],
+            [
+              11587,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 7039418,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              113539,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 0,
+          "residual": 7117540,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              167,
+              1
+            ],
+            [
+              2131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 4,
+          "residual": 7116916,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              24373,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 1,
+          "d": 8,
+          "residual": 6726916,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              4903,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 7114410,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              137,
+              1
+            ],
+            [
+              577,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 3,
+          "d": 2,
+          "residual": 7117492,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              17,
+              2
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              131,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 6,
+          "residual": 7101892,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              253639,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 0,
+          "residual": 7117300,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              691,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 4,
+          "residual": 7116676,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              14951,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 5,
+          "d": 8,
+          "residual": 6726676,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              152879,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 2,
+          "residual": 7115332,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              254119,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 6,
+          "residual": 7099732,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              77171,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 0,
+          "residual": 7097860,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              419,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 4,
+          "residual": 7097236,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              41263,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 8,
+          "residual": 6707236,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              863,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 2,
+          "residual": 6940372,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              40351,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 6,
+          "residual": 6924772,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              659,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 13,
+          "d": 0,
+          "residual": 5523220,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              12007,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 13,
+          "d": 4,
+          "residual": 5522596,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              73,
+              1
+            ],
+            [
+              18913,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 13,
+          "d": 8,
+          "residual": 5132596,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              183307,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 8658272,
+      "bulk_active": 140,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 8658266,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              821,
+              1
+            ],
+            [
+              5273,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 8658146,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              618439,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 8655146,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              239,
+              1
+            ],
+            [
+              953,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 8580146,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              227,
+              1
+            ],
+            [
+              18899,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 9,
+          "residual": 6705146,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              409,
+              1
+            ],
+            [
+              1171,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 2,
+          "residual": 8658244,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              309223,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 6,
+          "residual": 8642644,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              113719,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 8655138,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              15511,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 0,
+          "residual": 8658244,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              309223,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 4,
+          "residual": 8657620,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              10067,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 3,
+          "d": 8,
+          "residual": 8267620,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              157,
+              1
+            ],
+            [
+              2633,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 2,
+          "residual": 8658004,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              2164501,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 5,
+          "d": 6,
+          "residual": 8642404,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              71,
+              1
+            ],
+            [
+              30431,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 0,
+          "residual": 8656084,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              1123,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 4,
+          "residual": 8655460,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              39343,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 7,
+          "d": 8,
+          "residual": 8265460,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              1373,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 2,
+          "residual": 8638564,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              196331,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 9,
+          "d": 6,
+          "residual": 8622964,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              223,
+              1
+            ],
+            [
+              1381,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 0,
+          "residual": 8481124,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              79,
+              1
+            ],
+            [
+              26839,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 4,
+          "residual": 8480500,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              2423,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 11,
+          "d": 8,
+          "residual": 8090500,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              1471,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 13,
+          "d": 2,
+          "residual": 7063924,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              252283,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 13,
+          "d": 6,
+          "residual": 7048324,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              131,
+              1
+            ],
+            [
+              13451,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 9481394,
+      "bulk_active": 140,
+      "rows": [
+        {
+          "c": 0,
+          "d": 3,
+          "residual": 9481268,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              2370317,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 0,
+          "d": 7,
+          "residual": 9403268,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              41,
+              1
+            ],
+            [
+              8191,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 9,
+          "residual": 7528266,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              83,
+              1
+            ],
+            [
+              5039,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 0,
+          "residual": 9481384,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              661,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 2,
+          "residual": 9481360,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              16931,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 5,
+          "residual": 9478260,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              4787,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 6,
+          "residual": 9465760,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              883,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 8,
+          "residual": 9090760,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              32467,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 9481288,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              38231,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 8,
+          "residual": 9090688,
+          "factors": [
+            [
+              2,
+              7
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              79,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 4,
+          "residual": 9480040,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              347,
+              1
+            ],
+            [
+              683,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 6,
+          "residual": 9465040,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              479,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 0,
+          "residual": 9474832,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              463,
+              1
+            ],
+            [
+              1279,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 9474208,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              107,
+              1
+            ],
+            [
+              2767,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 9459208,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              6323,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 9422344,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              67,
+              1
+            ],
+            [
+              17579,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 9406720,
+          "factors": [
+            [
+              2,
+              8
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7349,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 10,
+          "d": 8,
+          "residual": 9031720,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              43,
+              1
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              89,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 2,
+          "residual": 8949928,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              47,
+              1
+            ],
+            [
+              1831,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 4,
+          "residual": 8949328,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              18043,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    },
+    {
+      "n": 9585722,
+      "bulk_active": 140,
+      "rows": [
+        {
+          "c": 0,
+          "d": 1,
+          "residual": 9585716,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              342347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 5,
+          "residual": 9582596,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              77279,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 0,
+          "d": 9,
+          "residual": 7632596,
+          "factors": [
+            [
+              2,
+              2
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              82963,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 1,
+          "d": 9,
+          "residual": 7632594,
+          "factors": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              59,
+              1
+            ],
+            [
+              7187,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 6,
+          "residual": 9570088,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              108751,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 2,
+          "d": 8,
+          "residual": 9195088,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              29,
+              1
+            ],
+            [
+              149,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 4,
+          "d": 0,
+          "residual": 9585640,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              239641,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 2,
+          "residual": 9585616,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              137,
+              1
+            ],
+            [
+              4373,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 4,
+          "d": 8,
+          "residual": 9195016,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              11159,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 6,
+          "d": 2,
+          "residual": 9584968,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              63059,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 2,
+          "residual": 9579136,
+          "factors": [
+            [
+              2,
+              7
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              10691,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 4,
+          "residual": 9578536,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              89,
+              1
+            ],
+            [
+              1223,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 8,
+          "d": 6,
+          "residual": 9563536,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              193,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 0,
+          "residual": 9526672,
+          "factors": [
+            [
+              2,
+              4
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              19207,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 4,
+          "residual": 9526048,
+          "factors": [
+            [
+              2,
+              5
+            ],
+            [
+              7,
+              1
+            ],
+            [
+              23,
+              1
+            ],
+            [
+              43,
+              2
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 10,
+          "d": 6,
+          "residual": 9511048,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              31,
+              1
+            ],
+            [
+              38351,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 0,
+          "residual": 9054280,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              226357,
+              1
+            ]
+          ],
+          "success": true
+        },
+        {
+          "c": 12,
+          "d": 6,
+          "residual": 9038656,
+          "factors": [
+            [
+              2,
+              6
+            ],
+            [
+              11,
+              1
+            ],
+            [
+              37,
+              1
+            ],
+            [
+              347,
+              1
+            ]
+          ],
+          "success": false
+        },
+        {
+          "c": 12,
+          "d": 8,
+          "residual": 8663656,
+          "factors": [
+            [
+              2,
+              3
+            ],
+            [
+              463,
+              1
+            ],
+            [
+              2339,
+              1
+            ]
+          ],
+          "success": false
+        }
+      ]
+    }
+  ]
+}

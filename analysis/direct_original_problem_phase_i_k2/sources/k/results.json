@@ -1,0 +1,75 @@
+{
+  "authority_commit": "fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38",
+  "authority_tree": "325265d83abae42acadc59f8107d88d1375085be",
+  "why560": "PARTIALLY EXPLAINED: proved minimizing core, extra 5/mod9 specificity not explained",
+  "exact_local_minimizer_classification": true,
+  "representation_inverse_proved": false,
+  "counterexample_forced_into_finite_family": false,
+  "second_stage_completion_proved": false,
+  "local_G_inverse_proved": true,
+  "full_level_B_claimed": false,
+  "level": "local-minimizer theorem component of B; full pilot coupling unavailable; not A, C or full D",
+  "rho237_minimum": "21/128",
+  "rho23711_minimum": "1869/12800",
+  "coarse_hard_band": {
+    "hard_mod24": [
+      2,
+      4,
+      8,
+      22
+    ],
+    "maximum_rho237_inside": "161/768",
+    "minimum_rho237_outside": "23/96",
+    "maximum_rho23711_inside": "161/768",
+    "minimum_rho23711_outside": "2047/9600",
+    "rho23711_gap": "23/6400",
+    "separating_threshold": "8119/38400",
+    "scope": "local-density band, not an inverse theorem for R"
+  },
+  "minimizers_mod1848": [
+    238,
+    392,
+    406,
+    560,
+    574,
+    728,
+    910,
+    1064,
+    1414,
+    1568
+  ],
+  "lifts_minimizing_560": [
+    560,
+    8120,
+    18200,
+    20720,
+    23240
+  ],
+  "uniform_G_error_exponent": "9/5",
+  "finite_G_fixed_period_claimed": false,
+  "original_n_inverse_route": "CONTINUE EXPLORATORY",
+  "new_original_n_window_scans": 0,
+  "point_targets_verified": [
+    100235446,
+    10000011172,
+    10000072156,
+    10000079932,
+    1000000244380,
+    1000000205302
+  ],
+  "more_large_computation": "NO",
+  "codex_needed_next": "NO",
+  "A303656": "UNRESOLVED",
+  "github_writes_performed": "NONE",
+  "prime_receipt": {
+    "targets": 6,
+    "grid_rows": 2081,
+    "distinct_prime_factors": 2549,
+    "largest_prime_factor": 500000122123,
+    "trial_divisibility_checks": 6549273,
+    "primality_method": "exhaustive trial division by all primes <= sqrt(p)",
+    "complete_grid_coverage_verified": true,
+    "factor_products_verified": true
+  },
+  "proof_scope": "self-contained derivations, not externally refereed or merged authority"
+}

@@ -3,6 +3,7 @@
 ```text
 PROJECT: PAUSED
 ACTIVE PROMOTED ROUTE: NONE
+DIRECT ORIGINAL-n PROGRAM: PAUSED
 LOW-COST GENERIC THEOREM HUNTS: NOT ACTIVE
 TARGETED RESTART: ONLY ON EXPLICIT RESTART GATE
 LARGE-SCALE COMPUTATION: NOT AUTHORIZED
@@ -38,3 +39,11 @@ There is **no general proof** and **no certified counterexample**.
 
 - N-004's `O(sqrt(X) log X)` scale is specific to the audited absolute-minor-spectrum / F3 localization mechanism; it is not a universal threshold for all future exceptional-set inverse methods.
 - N-009 establishes arbitrarily large Helly obstructions on finite active-shift restrictions of arbitrarily large size; it does not prove unbounded Helly number for the complete `D(n)` actual-mask family.
+
+## Direct original-n route audit
+
+The [Phase I–K2 consolidation](analysis/direct_original_problem_phase_i_k2/README.md)
+preserves rigorous small-prime local structure and scope-qualified completion
+obstructions. Large-prime completion and ML-K2 remain unproved. The program is
+**PAUSED**, not proved impossible; local survivors do not imply representations.
+No active route is promoted and no additional computation is authorized.

@@ -1,0 +1,49 @@
+{
+  "n": 3920,
+  "n_mod24": 8,
+  "tiers": [
+    "A",
+    "C"
+  ],
+  "stored_R": 3,
+  "min_successful_residual_ratio": {
+    "numerator": 794,
+    "denominator": 3920
+  },
+  "source": "I2 per_n_metrics.npz / source named extremals",
+  "C": 6,
+  "D": 4,
+  "A23_size": 7,
+  "successful_bulk_pairs": 0,
+  "D1": {
+    "lower": "0.69673474731634801393435252397964443164335109130918471051674832077505478492773182287996780474664",
+    "upper": "0.69673474731634801393435252397964443164335109130918471051674832077505478492773184501858348553075"
+  },
+  "D2": {
+    "lower": "1.9108618693919204320899142174972588665523261018969192559572851002025336258888040916142572784408",
+    "upper": "1.9108618693919204320899142174972588665523261018969192559572851002025336258888041379999282286552"
+  },
+  "rho_interval": {
+    "lower": "2.7425959115030410022904339817517838419262592404326497066020930195064404984468151854666615820987",
+    "upper": "2.7425959115030410022904339817517838419262592404326497066020930195064404984468153457080703192028"
+  },
+  "precision": 80,
+  "method": "mpmath.iv directed real interval arithmetic; exact dyadic endpoints outward serialized",
+  "status": "EVALUATED",
+  "rho_estimate": 2.742595911503041,
+  "literal_bases": [
+    3,
+    5
+  ],
+  "bulk_rule": "3^c <= n//4 and 5^d <= n//4",
+  "L2": "oddpart(m) mod4 ==1",
+  "L3": "v3(m) even",
+  "original_representation": {
+    "a": 13,
+    "b": 25,
+    "c": 0,
+    "d": 5,
+    "residual": 794
+  },
+  "finite_vs_eventual_nonclaim": "A finite violation refutes the tested inequality at n, not the existential eventual threshold quantifier by itself."
+}
