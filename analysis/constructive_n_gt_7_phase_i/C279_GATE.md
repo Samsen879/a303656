@@ -1,4 +1,11 @@
-# C279 bounded gate — OPEN
+# C279 — historical bounded OPEN; subsequent exact closure
+
+Historical bounded gate outcome: OPEN. The paragraphs below preserve that
+earlier evidence state, not current arithmetic uncertainty. Subsequent exact
+arithmetic closure: Sq(279)=EMPTY; frozen I7 gate |Sq(279)|>=3=FALSE;
+frozen I7 architecture=CLOSED. See [later proof](c279_closure/PROOF.md).
+Closure is from complete factorization into distinct certified primes of
+valuation1, not from unsuccessful search. General N=9/N>7 remain UNRESOLVED.
 
 `C279=Phi_279(5)` is exactly
 
@@ -19,6 +26,6 @@ wall receipt was unavailable after runtime recovery. Only target identity,
 empty certified ledger and OPEN mass arithmetic are promoted as replayable
 finite evidence. No new factor attack was performed during integration.
 
-I7 remains uninstantiated/open; general N=9 UNRESOLVED; general N>7 NOT KILLED;
+At that historical gate I7 remained uninstantiated/open; general N=9 UNRESOLVED; general N>7 NOT KILLED;
 A303656 UNRESOLVED; Ultra NOT JUSTIFIED. No actual complete certificate exists
 in this evidence package. Reproduction replays arithmetic, not search logs.

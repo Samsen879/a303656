@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline custody, exact finite BOTH/mutation and OPEN target replay."""
+"""Offline historical BOTH/OPEN replay plus current certified I7 closure."""
 import hashlib,json,os,shutil,subprocess,sys,tempfile
 from pathlib import Path
 P=Path(__file__).resolve().parent
@@ -16,5 +16,10 @@ def main():
             r=json.loads(out.read_text());require(r['status']=='PASS' and len(r['mutations'])==19 and all(m['rejected'] for m in r['mutations']),'semantic controls')
             require(r['actual']['cells']==27648 and r['actual_complete_certificate'] is False,'actual scope')
         subprocess.run([sys.executable,'-B',str(P/'reference/c279/verify_factors.py')],env=env,check=True,stdout=subprocess.PIPE,text=True)
-    print(json.dumps({'status':'PASS','actual_partial_cells':27648,'semantic_mutations':19,'normal':'PASS','optimized':'PASS','C279':'OPEN','certified_square_hits':0,'A303656':'UNRESOLVED'}))
+    for script in ['verify.py','independent_verify.py']:
+        replay=subprocess.run([sys.executable,'-B',str(P/'c279_closure'/script)],env=env,check=True,stdout=subprocess.PIPE,text=True)
+        require('Sq279_cardinality: 0' in replay.stdout and 'Frozen_I7_architecture: CLOSED' in replay.stdout,'current closure replay')
+    for filename,phrase in [('README.md','ARCHITECTURE: CLOSED'),('ARCHITECTURE.md','CLOSED BY'),('INSTANTIATION_GATES.md','|Sq(279)|=0'),('C279_GATE.md','frozen I7 architecture=CLOSED')]:
+        require(phrase in (P/filename).read_text(),'stale current I7 status')
+    print(json.dumps({'status':'PASS','actual_partial_cells':27648,'semantic_mutations':19,'normal':'PASS','optimized':'PASS','historical_C279':'OPEN','C279':'CLOSURE_CERTIFIED','Sq279_cardinality':0,'frozen_I7':'CLOSED','A303656':'UNRESOLVED'}))
 if __name__=='__main__':main()

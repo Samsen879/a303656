@@ -1,9 +1,12 @@
-# Frozen sufficient arithmetic gates — unknown
+# Frozen arithmetic gates — I7 conjunction false
 
 Source I7's iff concerns instantiation of THIS architecture only, not all N=9
 certificates. It requires `|Sq(279)|>=3` and `|Sq(t)|>=1` for each
-`t in {903,191,5167,271,4159,31051}`. These sufficient instantiation gates are
-NOT known to hold. All nine terminal primes must be distinct. Exact differing
+`t in {903,191,5167,271,4159,31051}`. Subsequent exact certification proves
+`|Sq(279)|=0`; the necessary/sufficient instantiation conjunction for THIS
+frozen I7 is false, and I7 is CLOSED. See `c279_closure/PROOF.md`.
+The other six gates are not evaluated by this closure task and remain unknown.
+All nine terminal primes must be distinct. Exact differing
 orders separate families; the three order279 slots need explicit distinctness.
 
 Sq(t) consists of admitted primitive square-divisor primes of Phi_t(5):
