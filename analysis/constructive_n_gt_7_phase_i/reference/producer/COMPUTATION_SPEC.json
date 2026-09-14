@@ -1,0 +1,64 @@
+{
+  "N": 9,
+  "architecture_id": "I7-three-order279-roots",
+  "first_target": "targets/phi_279.txt",
+  "targets": [
+    {
+      "n": 279,
+      "decimal_digits": 126,
+      "required_distinct_admitted_square_hits": 3,
+      "file": "targets/phi_279.txt"
+    },
+    {
+      "n": 903,
+      "decimal_digits": 353,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_903.txt"
+    },
+    {
+      "n": 191,
+      "decimal_digits": 133,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_191.txt"
+    },
+    {
+      "n": 5167,
+      "decimal_digits": 3611,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_5167.txt"
+    },
+    {
+      "n": 271,
+      "decimal_digits": 189,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_271.txt"
+    },
+    {
+      "n": 4159,
+      "decimal_digits": 2907,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_4159.txt"
+    },
+    {
+      "n": 31051,
+      "decimal_digits": 21704,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_31051.txt"
+    }
+  ],
+  "K": 2,
+  "E": [
+    1
+  ],
+  "anchor_demand": "BOTH",
+  "root_distinctness": "all9 slots must be distinct actual primes; exact orders separate different target families",
+  "first_target_time_budget_seconds": 600,
+  "benchmark_is_proposed_not_executed": true,
+  "prime_bound_dependency": 970453984500000,
+  "global_prime_scan_authorized": false,
+  "N8_huge_target_materialization_authorized": false,
+  "GitHub_writes_authorized": false,
+  "terminal_primality_certificate_required": true,
+  "unknown_cofactor_default_status": "OPEN",
+  "scope": "frozen architecture only; no global N9 equivalence"
+}

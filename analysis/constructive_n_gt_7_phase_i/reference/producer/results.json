@@ -1,0 +1,108 @@
+{
+  "success_level_unqualified": "C",
+  "additional_result": "architecture-specific finite reduction for N=9; not a global completeness classification",
+  "actual_complete_certificate": false,
+  "A303656": "UNRESOLVED",
+  "github_writes_performed": "NONE",
+  "actual_nonregular_origins": [
+    20771,
+    40487,
+    1645333507
+  ],
+  "actual_original_odd_rows": 9,
+  "actual_original_rows_including_two_adic": 10,
+  "N_actual": 3,
+  "actual_quotient_cells": 27648,
+  "actual_quotient_cells_passing_BOTH": 24042,
+  "actual_quotient_cells_failing_BOTH": 3606,
+  "boundary_quotient_cells": 864,
+  "whole_private_fiber_covered_cells": 436,
+  "pointwise_full_period_covered_residues": 152281951636647374375913036,
+  "L": 203274592016383218610421010,
+  "pointwise_density": "3745609922730854/4999852712108265",
+  "whole_private_fiber_boundary_density": "70350547813/191731659390",
+  "conditional_architecture_checks": [
+    {
+      "N": 8,
+      "formal_guard_cells": 110592,
+      "conditional_BOTH_mask_identity": true,
+      "actual_terminal_primes_verified": 0,
+      "actual_complete_certificate": false
+    },
+    {
+      "N": 9,
+      "formal_guard_cells": 27648,
+      "conditional_BOTH_mask_identity": true,
+      "actual_terminal_primes_verified": 0,
+      "actual_complete_certificate": false
+    }
+  ],
+  "targets": [
+    {
+      "n": 279,
+      "decimal_digits": 126,
+      "required_distinct_admitted_square_hits": 3,
+      "file": "targets/phi_279.txt"
+    },
+    {
+      "n": 903,
+      "decimal_digits": 353,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_903.txt"
+    },
+    {
+      "n": 191,
+      "decimal_digits": 133,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_191.txt"
+    },
+    {
+      "n": 5167,
+      "decimal_digits": 3611,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_5167.txt"
+    },
+    {
+      "n": 271,
+      "decimal_digits": 189,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_271.txt"
+    },
+    {
+      "n": 4159,
+      "decimal_digits": 2907,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_4159.txt"
+    },
+    {
+      "n": 31051,
+      "decimal_digits": 21704,
+      "required_distinct_admitted_square_hits": 1,
+      "file": "targets/phi_31051.txt"
+    }
+  ],
+  "phi279_composite_certificate": {
+    "base": 2,
+    "pow_base_Cminus1_mod_C": 248848732748836034723750245947367602121055815425481023951445826709605713130263976505943956305858036489740899603882476395790141
+  },
+  "phi279_small_factor_trial_limit": 10000,
+  "phi279_no_small_factor_up_to_limit": true,
+  "phi279_squarepart_status": "UNRESOLVED",
+  "published_bound_dependency": 970453984500000,
+  "published_bound_search_rerun": false,
+  "mass_gate_minimum_for_three_unlisted_square_hits": 835313855169571565458517686502549146705055118045184864107619606229313501399426473907000001,
+  "terminal_peeling_of_actual_inventory": {
+    "remaining": [],
+    "history": [
+      {
+        "current_count": 3,
+        "removed": [
+          "1645333507",
+          "20771",
+          "40487"
+        ]
+      }
+    ]
+  },
+  "reference_runtime_seconds": 0.944773
+}

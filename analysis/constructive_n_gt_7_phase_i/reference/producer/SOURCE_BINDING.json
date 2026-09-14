@@ -1,0 +1,144 @@
+{
+  "repository": "Samsen879/a303656",
+  "repository_id": 1333945235,
+  "main_sha": "fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38",
+  "main_tree": "325265d83abae42acadc59f8107d88d1375085be",
+  "access_date": "2026-09-10",
+  "read_method": "connected GitHub GET/fetch and read-only PR metadata; not public web substitution",
+  "final_live_main_recheck": "UNCHANGED",
+  "required_merged_prs": [
+    {
+      "number": 38,
+      "merged": true,
+      "merged_at": "2026-09-10T10:24:47Z"
+    },
+    {
+      "number": 39,
+      "merged": true,
+      "merged_at": "2026-09-10T10:27:32Z"
+    },
+    {
+      "number": 40,
+      "merged": true,
+      "merged_at": "2026-09-10T10:31:59Z"
+    }
+  ],
+  "project_status": {
+    "PROJECT": "PAUSED",
+    "ACTIVE_PROMOTED_ROUTE": "NONE",
+    "A303656": "UNRESOLVED"
+  },
+  "sources": {
+    "S1": [
+      {
+        "path": "analysis/c1_order_dag_phase_c/THEOREMS.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_order_dag_phase_c/THEOREMS.md"
+      },
+      {
+        "path": "analysis/c1_order_dag_phase_c/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_order_dag_phase_c/REPORT.md"
+      }
+    ],
+    "S2": [
+      {
+        "path": "analysis/c1_private_provider_charging_phase_d/THEOREMS.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_private_provider_charging_phase_d/THEOREMS.md"
+      }
+    ],
+    "S3": [
+      {
+        "path": "analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_seven_head_chain_realizability_phase_d/REPORT.md"
+      }
+    ],
+    "S4": [
+      {
+        "path": "analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_seven_basin_global_shared_state_phase_e/REPORT.md"
+      }
+    ],
+    "S5": [
+      {
+        "path": "analysis/c1_b7_pure3_phase_d/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_b7_pure3_phase_d/REPORT.md"
+      }
+    ],
+    "S6": [
+      {
+        "path": "analysis/c1_b7_branching_phase_e/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_b7_branching_phase_e/REPORT.md"
+      }
+    ],
+    "S7": [
+      {
+        "path": "analysis/c1_b31_odd_phase_f/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_b31_odd_phase_f/REPORT.md"
+      }
+    ],
+    "S8": [
+      {
+        "path": "analysis/c1_different_prime_replacement_phase_g/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_different_prime_replacement_phase_g/REPORT.md"
+      }
+    ],
+    "S9": [
+      {
+        "path": "analysis/c1_global_shared_state_phase_c/REPORT.md",
+        "pinned_url": "https://github.com/Samsen879/a303656/blob/fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38/analysis/c1_global_shared_state_phase_c/REPORT.md"
+      }
+    ]
+  },
+  "other_read_paths": [
+    "STATUS.md",
+    "README.md"
+  ],
+  "reading_scope": "Core definitions, proof statements, substantive displayed proofs and reports in the eight requested directories, plus global-state semantics. Long-response passages were expanded where used. Not a claim that every auxiliary file, generated record, full historical log or directory byte was read.",
+  "source_custody_scope": "Pinned commit/path identities; original source files are not bundled and their payload SHA256 hashes were not independently acquired. No fabricated local-checkout receipt.",
+  "not_performed": [
+    "GitHub writes of any kind",
+    "repository-native test/CI replay",
+    "historical q<=2e9 exhaustive scan",
+    "historical published-bound exhaustive scan",
+    "complete local repository checkout",
+    "complete classification of all N8/N9 arithmetic states",
+    "large target factorization or general Wieferich scan"
+  ],
+  "external_primary_sources": [
+    {
+      "id": "E1",
+      "title": "A123692: primes p such that p^2 divides 5^(p-1)-1",
+      "url": "https://oeis.org/A123692",
+      "access_date": "2026-09-10",
+      "observed_terms": [
+        2,
+        20771,
+        40487,
+        53471161,
+        1645333507,
+        6692367337,
+        188748146801
+      ],
+      "scope": "Current database entry, not a statement that no larger prime exists"
+    },
+    {
+      "id": "E2",
+      "authors": [
+        "François G. Dorais",
+        "Dominic Klyve"
+      ],
+      "title": "A Wieferich Prime Search up to 6.7 × 10^15",
+      "journal": "Journal of Integer Sequences 14 (2011), Article 11.9.2",
+      "url": "https://cs.uwaterloo.ca/journals/JIS/VOL14/Klyve/klyve3.pdf",
+      "relevant_section": "4.1, printed page7 / PDF zero-index page6",
+      "pdf_screenshot_checked": true,
+      "base5_inclusive_bound": 970453984500000,
+      "bound_formula": "(2*3*5*7*11*13*17*19*23*29)*150000",
+      "historical_scan_rerun": false,
+      "scope": "Base5 uses section4.1 bound, NOT the larger base2 bound in the paper title"
+    }
+  ],
+  "new_evidence": "New standard-library arithmetic, actual global CRT ledger, exact quotient, original-provider receipts, second implementation and mutation checks. Conditional terminal slots never counted as actual primes.",
+  "github_writes_performed": "NONE",
+  "final_ref_recheck_endpoint": "https://api.github.com/repos/Samsen879/a303656/git/ref/heads/main",
+  "final_ref_sha": "fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38"
+}

@@ -1,0 +1,790 @@
+[
+  {
+    "N": 8,
+    "actual_complete_certificate": false,
+    "conditional_only": true,
+    "scope": "IFF for instantiating THIS frozen architecture, not all N certificates",
+    "regular_rows": [
+      {
+        "p": 31,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 4,
+        "w": 3,
+        "log_c1": 0,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 1303,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 4,
+        "w": 62,
+        "log_c1": 0,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 258065887,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 2,
+        "w": 186,
+        "log_c1": 93,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 7,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 33,
+        "w": 6,
+        "log_c1": 4,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 43,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 1428,
+        "w": 42,
+        "log_c1": 28,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 19,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 237,
+        "w": 9,
+        "log_c1": 2,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 191,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 4,
+        "w": 19,
+        "log_c1": 0,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 5167,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 26482920,
+        "w": 18,
+        "log_c1": 14,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 271,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 54317,
+        "w": 27,
+        "log_c1": 8,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 4159,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 5094267,
+        "w": 27,
+        "log_c1": 17,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 31051,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 508857581,
+        "w": 27,
+        "log_c1": 26,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      }
+    ],
+    "terminal_slots": [
+      {
+        "slot_id": "31-even",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 1303,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31,
+          1303
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 0,
+        "canonical_a_modulus": 242358,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 1,
+          "residue": 0
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "31-odd",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 258065887,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31,
+          258065887
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 24000127491,
+        "canonical_a_modulus": 48000254982,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 1,
+          "residue": 0
+        },
+        "designated_parity": 1
+      },
+      {
+        "slot_id": "B7",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 903,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          7,
+          43
+        ],
+        "root_log_c1": 301,
+        "canonical_a": 1204,
+        "canonical_a_modulus": 1806,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 1,
+          "residue": 1
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H19",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 191,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          19,
+          191
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 36290,
+        "canonical_a_modulus": 65322,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 2
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H5167",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 5167,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          5167
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 72338,
+        "canonical_a_modulus": 93006,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 5
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H271",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 271,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          271
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 2168,
+        "canonical_a_modulus": 14634,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 8
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H4159",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 4159,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          4159
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 182996,
+        "canonical_a_modulus": 224586,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 17
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H31051",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 31051,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31051
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 807326,
+        "canonical_a_modulus": 1676754,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 26
+        },
+        "designated_parity": 0
+      }
+    ],
+    "private_primes": [
+      7,
+      19,
+      31,
+      43,
+      191,
+      271,
+      1303,
+      4159,
+      5167,
+      31051,
+      258065887
+    ],
+    "square_hit_demands": [
+      {
+        "n": 191,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 271,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 903,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 1303,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 4159,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 5167,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 31051,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 258065887,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      }
+    ],
+    "root_in_B31_odd_required": false,
+    "conditional_odd_row_count": 20,
+    "materialize_largest_target": false
+  },
+  {
+    "N": 9,
+    "actual_complete_certificate": false,
+    "conditional_only": true,
+    "scope": "IFF for instantiating THIS frozen architecture, not all N certificates",
+    "regular_rows": [
+      {
+        "p": 31,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 4,
+        "w": 3,
+        "log_c1": 0,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 7,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 33,
+        "w": 6,
+        "log_c1": 4,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 43,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 1428,
+        "w": 42,
+        "log_c1": 28,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 19,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 237,
+        "w": 9,
+        "log_c1": 2,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 191,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 4,
+        "w": 19,
+        "log_c1": 0,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 5167,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 26482920,
+        "w": 18,
+        "log_c1": 14,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 271,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 54317,
+        "w": 27,
+        "log_c1": 8,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 4159,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 5094267,
+        "w": 27,
+        "log_c1": 17,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      },
+      {
+        "p": 31051,
+        "K": 2,
+        "E": [
+          1
+        ],
+        "r": 508857581,
+        "w": 27,
+        "log_c1": 26,
+        "center_c1": 0,
+        "s": 1,
+        "original_row": true
+      }
+    ],
+    "terminal_slots": [
+      {
+        "slot_id": "31-split-0",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 279,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 0,
+        "canonical_a_modulus": 558,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 0
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "31-split-1",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 279,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31
+        ],
+        "root_log_c1": 93,
+        "canonical_a": 372,
+        "canonical_a_modulus": 558,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 3
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "31-split-2",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 279,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31
+        ],
+        "root_log_c1": 186,
+        "canonical_a": 186,
+        "canonical_a_modulus": 558,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 6
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "B7",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 903,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          7,
+          43
+        ],
+        "root_log_c1": 301,
+        "canonical_a": 1204,
+        "canonical_a_modulus": 1806,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 1,
+          "residue": 1
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H19",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 191,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          19,
+          191
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 36290,
+        "canonical_a_modulus": 65322,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 2
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H5167",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 5167,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          5167
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 72338,
+        "canonical_a_modulus": 93006,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 2,
+          "residue": 5
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H271",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 271,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          271
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 2168,
+        "canonical_a_modulus": 14634,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 8
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H4159",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 4159,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          4159
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 182996,
+        "canonical_a_modulus": 224586,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 17
+        },
+        "designated_parity": 0
+      },
+      {
+        "slot_id": "H31051",
+        "entry_type": "UNINSTANTIATED_TERMINAL_SLOT",
+        "original_row": false,
+        "prime_value": null,
+        "required_exact_order": 31051,
+        "required_s_min": 2,
+        "required_prime_congruence": [
+          4,
+          3
+        ],
+        "regular_support": [
+          31051
+        ],
+        "root_log_c1": 0,
+        "canonical_a": 807326,
+        "canonical_a_modulus": 1676754,
+        "local_residue_recipe": "(3 + pow(5, a, q*q) + q) % (q*q)",
+        "designated_even_leaf": {
+          "depth": 3,
+          "residue": 26
+        },
+        "designated_parity": 0
+      }
+    ],
+    "private_primes": [
+      7,
+      19,
+      31,
+      43,
+      191,
+      271,
+      4159,
+      5167,
+      31051
+    ],
+    "square_hit_demands": [
+      {
+        "n": 191,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 271,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 279,
+        "distinct_admitted_primitive_square_divisors_required": 3
+      },
+      {
+        "n": 903,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 4159,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 5167,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      },
+      {
+        "n": 31051,
+        "distinct_admitted_primitive_square_divisors_required": 1
+      }
+    ],
+    "root_in_B31_odd_required": false,
+    "conditional_odd_row_count": 19,
+    "materialize_largest_target": true
+  }
+]
