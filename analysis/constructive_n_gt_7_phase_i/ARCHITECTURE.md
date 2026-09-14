@@ -8,6 +8,11 @@ unknown fixed-base necessity argument. Eight terminals remain uninstantiated.
 
 Source I7 freezes the N=9 ternary frontier `(1,5,3)`:
 
+Current arithmetic status: this frozen I7 architecture is CLOSED BY
+Sq(279)=empty; see [exact closure proof](c279_closure/PROOF.md). The formal
+schema is retained unchanged as historical structural evidence. General N=9
+and general N>7 remain UNRESOLVED; no active architecture is promoted.
+
 - depth1: `1 mod3`;
 - depth2: `0,3,6,2,5 mod9`;
 - depth3: `8,17,26 mod27`.

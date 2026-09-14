@@ -1,0 +1,59 @@
+{
+  "archive": "A303656_N0_C279_closure.zip",
+  "sha256": "47eab66e1a31e9f15349e21086275a15902a04fccf9179cda95acc66867d91ce",
+  "safe_list": "PASS",
+  "internal_manifest": "NOT PRESENT",
+  "files": [
+    {
+      "path": "A303656_N0_C279_closure/PROOF.md",
+      "bytes": 4464,
+      "sha256": "bae752b2ae35d3eb5f80f96b616559db4f3eaf4b813666af14afd1ccbe5875fe"
+    },
+    {
+      "path": "A303656_N0_C279_closure/certificate.json",
+      "bytes": 3016,
+      "sha256": "cbea670f55001afeb8f6adf6005e127a905bb3d8d7ab7413d553b79a9156c2a3"
+    },
+    {
+      "path": "A303656_N0_C279_closure/mutation_receipt.json",
+      "bytes": 72,
+      "sha256": "2b9353a7382105a80953cfc8339a433b747a6cfd52e405673b5dbd4e28743d63"
+    },
+    {
+      "path": "A303656_N0_C279_closure/receipt.json",
+      "bytes": 417,
+      "sha256": "225b9873bb6fa8ffab6aaee9790f2c625a0c28ae05eebeb82aaf603db922a3f2"
+    },
+    {
+      "path": "A303656_N0_C279_closure/verify.py",
+      "bytes": 4101,
+      "sha256": "dc9767c6b33f5ab5b3f54c3b3dcb9d0a226a454d3d73560769c5b7e45a0ec0e7"
+    }
+  ],
+  "base_main_sha": "7945045af0ef48bdff7dc04249ca7fcf7bafdc80",
+  "base_main_tree": "0ac75f0aa7e3fa2f66160d7bf05065ef328d222c",
+  "date": "2026-09-14",
+  "producer_replay": "PASS",
+  "independent_checker_A": "PASS",
+  "independent_checker_B": "PASS",
+  "Gate_A": "C279_CLOSURE_CERTIFIED",
+  "internal_manifest_note": "Absent; integration hashes all five original members, no producer manifest claim.",
+  "Cunningham_provenance": "CHECKED",
+  "selected_source": {
+    "certificate.json": "PRIMALITY_CERTIFICATE.json (byte-identical)"
+  },
+  "selected_sha256": {
+    "PRIMALITY_CERTIFICATE.json": "cbea670f55001afeb8f6adf6005e127a905bb3d8d7ab7413d553b79a9156c2a3",
+    "verify.py": "bbd483d738e7b5db39460bca45d71d1c5c7cccae32147b99a2a9bc05208bb87a",
+    "independent_verify.py": "75e4a30cb7cf1a34bdec013e54a6ea40d55b3d91b1f88a276b99e8ae6fdad109",
+    "closure_result.json": "81b066d9f0a5e8ddc931ecdb0dd73aa60ae2acbcd68ef6211625fa1fc77564af"
+  },
+  "integration_replay": "PASS",
+  "integration_mutations": {
+    "factor": "REJECTED",
+    "witness": "REJECTED",
+    "exponent": "REJECTED",
+    "cubic_bound": "REJECTED"
+  },
+  "source_unchanged": "PASS"
+}
