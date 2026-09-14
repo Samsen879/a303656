@@ -1,0 +1,429 @@
+[
+  {
+    "source_id": "I2",
+    "source_relative_path": "DIRECT_THEOREMS.md",
+    "repository_relative_path": "sources/i2/DIRECT_THEOREMS.md",
+    "sha256": "85b06bdb9d9d772c35a266c549af08719eeec1baa98806bc27fa8c83fa7a0729",
+    "bytes": 12189
+  },
+  {
+    "source_id": "I2",
+    "source_relative_path": "LITERATURE.md",
+    "repository_relative_path": "sources/i2/LITERATURE.md",
+    "sha256": "a3ec15ee1e8b58bb9e01aae403ec03aa0ddf5b56def4a4df5c7572eb36331705",
+    "bytes": 8851
+  },
+  {
+    "source_id": "I2",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "sources/i2/results.json",
+    "sha256": "27c13771feb66cabb0c68b092a6d56a5d2b3f932ab90b77de38f7c1c1d9cb819",
+    "bytes": 1910376
+  },
+  {
+    "source_id": "I2",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "sources/i2/reference.py",
+    "sha256": "a4ee57e1103ef0de561eaf4685134a854a31795068369a4de0a1f1bdbb070050",
+    "bytes": 16009
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "POINTWISE_THEOREMS.md",
+    "repository_relative_path": "sources/i4/POINTWISE_THEOREMS.md",
+    "sha256": "ed41cbd793d7bb4ddb082dc84096d3cbc28bb5051fccb2016ce03f9ed0a3516b",
+    "bytes": 12529
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "SIEVE_MODEL.md",
+    "repository_relative_path": "sources/i4/SIEVE_MODEL.md",
+    "sha256": "5a97a886cc2c1bb004f3a1c952642c97f8e5a7efa9c5640f55cef5452aaf1a60",
+    "bytes": 4808
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "DIVISOR_SWITCH.md",
+    "repository_relative_path": "sources/i4/DIVISOR_SWITCH.md",
+    "sha256": "00646e648981853556458a2298db9ef5a573dfd722fbaaf852f38aaeaea6b891",
+    "bytes": 5417
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "COUNTEREXAMPLES.md",
+    "repository_relative_path": "sources/i4/COUNTEREXAMPLES.md",
+    "sha256": "d2170ab9860d50d55e2468f1200d351c1d874534eeb123db00ccc75ec239add1",
+    "bytes": 6311
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "LITERATURE.md",
+    "repository_relative_path": "sources/i4/LITERATURE.md",
+    "sha256": "b602f85e711766495d095cafd3dda99b0d7b1f7e3e9da9b02b187f5405de4f9e",
+    "bytes": 7967
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "sources/i4/results.json",
+    "sha256": "2006d50d56c7656bd4851611513091fcfaebc84fa8bfb1989e7461afc788a768",
+    "bytes": 6429
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "reference_input.json",
+    "repository_relative_path": "sources/i4/reference_input.json",
+    "sha256": "af8ac4d23d012bcd8ed9bf950feb97421596b4237082aa4c4dcca7dde7404c6d",
+    "bytes": 147529
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "benchmark_results.json",
+    "repository_relative_path": "sources/i4/benchmark_results.json",
+    "sha256": "2309dff31ac3dd6ce955387692dffe681098cf9d7393cbc9281ac768f4f1ed42",
+    "bytes": 39768
+  },
+  {
+    "source_id": "I4",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "sources/i4/reference.py",
+    "sha256": "f8bd94c3aed2c442f270880c27cee5b57f2046ed4e2a828536266e87f30d7acf",
+    "bytes": 12541
+  },
+  {
+    "source_id": "J",
+    "source_relative_path": "MINORANTS.md",
+    "repository_relative_path": "sources/j/MINORANTS.md",
+    "sha256": "dab67948703f175e5267a82f732a94a843dd548c78f9d64ab53c36b304915448",
+    "bytes": 4795
+  },
+  {
+    "source_id": "J",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "sources/j/reference.py",
+    "sha256": "ed531c3e7e2ba00e94928ef1c9b82639cd5422f99562cf7b703364c90eb91f04",
+    "bytes": 8781
+  },
+  {
+    "source_id": "J",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "sources/j/results.json",
+    "sha256": "f2e4aa2210fb512854e1d2defee0486bbab3414f4a2c9a36e84e66498315b017",
+    "bytes": 82247
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "LOCAL_MODEL.md",
+    "repository_relative_path": "sources/k/LOCAL_MODEL.md",
+    "sha256": "276c97d63541585279c8db61c64997bfa9a6f2fe197796bfceea4c5322fc8e98",
+    "bytes": 15194
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "INVERSE_THEOREMS.md",
+    "repository_relative_path": "sources/k/INVERSE_THEOREMS.md",
+    "sha256": "e38d42502ea9383afb710a246742dae78281aac8c196de055a36de13111ced1f",
+    "bytes": 6374
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "WHY_560.md",
+    "repository_relative_path": "sources/k/WHY_560.md",
+    "sha256": "6fc007b33911178fe3cdd7dd3b30a78ac3c9da8e6e913ad4af827578a29e73df",
+    "bytes": 7824
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "LITERATURE.md",
+    "repository_relative_path": "sources/k/LITERATURE.md",
+    "sha256": "eb92da1a51aa79206408dbb35ba549535069a8634b0ace63ca603ab6b7e01653",
+    "bytes": 1799
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "local_oracle.py",
+    "repository_relative_path": "sources/k/local_oracle.py",
+    "sha256": "6ac65ff47df42df7fcb6dded2b0624e05af22ce5cf8b5c057e3ed1e18d6596ce",
+    "bytes": 2712
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "sources/k/reference.py",
+    "sha256": "79ec926bb2109434e940f569b784bb98f45afa7485d44b0f0e423c3a4e0f686a",
+    "bytes": 16487
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "LOCAL_ORACLE.json",
+    "repository_relative_path": "sources/k/LOCAL_ORACLE.json",
+    "sha256": "a0c95142bc8bd27d2ece4d4b48018a8dd8f836b61dae88b9efbfd336be15b4d4",
+    "bytes": 7406
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "POINT_CERTIFICATES.json",
+    "repository_relative_path": "sources/k/POINT_CERTIFICATES.json",
+    "sha256": "7848a32b6d6d529650ee1d8762413056ca233b79f0cc1815432c4c82cca30d07",
+    "bytes": 816758
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "RESIDUE_CLASSES.json",
+    "repository_relative_path": "sources/k/RESIDUE_CLASSES.json",
+    "sha256": "302a3ccbf14d2339f491571507c6111defb68915502214d7f916723431737b35",
+    "bytes": 120344
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "ORBITS.json",
+    "repository_relative_path": "sources/k/ORBITS.json",
+    "sha256": "b5f8787043253af4738494adff43d8bce400737a0f337f1fc2f4a39a3b804a8a",
+    "bytes": 206691
+  },
+  {
+    "source_id": "K",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "sources/k/results.json",
+    "sha256": "7fade6ab8e5198f37919928ede916e505fd3adbc9a75e58543554db799082667",
+    "bytes": 2132
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "LEAST_BAD_PRIME.md",
+    "repository_relative_path": "sources/k2/LEAST_BAD_PRIME.md",
+    "sha256": "96aabc4af5d24729c2deafa4846db14188d43444e674216eb364470da7b8e00a",
+    "bytes": 4201
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "SPARSE_GRID_BOUNDS.md",
+    "repository_relative_path": "sources/k2/SPARSE_GRID_BOUNDS.md",
+    "sha256": "975194ac7cfe55c69ad8d134672886ce51770cd32bc6199c273c8e5088e25a66",
+    "bytes": 6290
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "LARGE_PRIME_DECOMPOSITION.md",
+    "repository_relative_path": "sources/k2/LARGE_PRIME_DECOMPOSITION.md",
+    "sha256": "25d03c374fbba09a35dc36a75939c5ab74e0954fe915d53186c211882c74b6b3",
+    "bytes": 4621
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "PAIR_COMPLETION.md",
+    "repository_relative_path": "sources/k2/PAIR_COMPLETION.md",
+    "sha256": "369141f221af2501c8540e38ef2aab58282817d6cab14107baf872f529be7ed7",
+    "bytes": 3848
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "MISSING_LEMMA.md",
+    "repository_relative_path": "sources/k2/MISSING_LEMMA.md",
+    "sha256": "ab88f855a28bc9a301f01a230efc4f50adab916d4d80794b29b24f6442e04ddb",
+    "bytes": 2781
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "COUNTEREXAMPLES.md",
+    "repository_relative_path": "sources/k2/COUNTEREXAMPLES.md",
+    "sha256": "719273008e45b3fa7eee362c89477cdf74b193c142353a0af8b427683cd89a87",
+    "bytes": 1543
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "LITERATURE.md",
+    "repository_relative_path": "sources/k2/LITERATURE.md",
+    "sha256": "ed6f2cc45fa8cb3de3407cc879647ac9b2e3d17ab33426d312eadc7a5bbeb0d0",
+    "bytes": 4213
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "sources/k2/reference.py",
+    "sha256": "5280a0273215d6f0f11fe0385918cad6eb8dc259c8c5db5511d22bf3004957b3",
+    "bytes": 9233
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "verify.py",
+    "repository_relative_path": "sources/k2/verify.py",
+    "sha256": "9852b37d9cc112b9b51a67c2b82401b994e64d2ad5311bf5708d626408178207",
+    "bytes": 3934
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "FINITE_CERTIFICATES.json",
+    "repository_relative_path": "sources/k2/FINITE_CERTIFICATES.json",
+    "sha256": "d915bcf44477f840ed3453f64bb9c50a9a3e9cfb6c1ef8a8ccd52f24a3450fc9",
+    "bytes": 12394
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "ATOM_GRID.json",
+    "repository_relative_path": "sources/k2/ATOM_GRID.json",
+    "sha256": "5aff62a730ae1c36b40f1ebc92e5af131716da6fd21c5ca6c6da0aeb49fc297c",
+    "bytes": 98781
+  },
+  {
+    "source_id": "K2",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "sources/k2/results.json",
+    "sha256": "2324e0b7e116d193d0a297c83e9515d9d35b23d066b9c0a64ebbe6e15dba2c84",
+    "bytes": 990
+  },
+  {
+    "source_id": "ML_D2",
+    "source_relative_path": "verify_candidate.py",
+    "repository_relative_path": "finite/ml_d2/verify_candidate.py",
+    "sha256": "be1a04d4a877e38bc6164b8add0f841f0bf18466f97b793895aaa11474b11486",
+    "bytes": 6004
+  },
+  {
+    "source_id": "ML_D2",
+    "source_relative_path": "counterexample_3920.json",
+    "repository_relative_path": "finite/ml_d2/counterexample_3920.json",
+    "sha256": "5cbaca00ff6dcfac345cd066e5d66f04d6cad3ae4e2baeab90f9c7aade390ce7",
+    "bytes": 1611
+  },
+  {
+    "source_id": "ML_D2",
+    "source_relative_path": "counterexample_3920_residuals.json",
+    "repository_relative_path": "finite/ml_d2/counterexample_3920_residuals.json",
+    "sha256": "69c4e56b2459b53401b9cea54d8a598840693c8a2d9d274b994fc940f5d2a5b0",
+    "bytes": 1546
+  },
+  {
+    "source_id": "ML_D2",
+    "source_relative_path": "source_replay.json",
+    "repository_relative_path": "finite/ml_d2/source_replay.json",
+    "sha256": "2309dff31ac3dd6ce955387692dffe681098cf9d7393cbc9281ac768f4f1ed42",
+    "bytes": 39768
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "scanner.cpp",
+    "repository_relative_path": "finite/pilot/scanner.cpp",
+    "sha256": "bf2dda9539009198fa893b607441d2cc910b0361fe884a3f528561345302c8fe",
+    "bytes": 5290
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "reference.cpp",
+    "repository_relative_path": "finite/pilot/reference.cpp",
+    "sha256": "7db263f30e76f84be651c4d6d8c7dea387e48622b994768a7599c12bfffe7014",
+    "bytes": 3639
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "BENCHMARK.md",
+    "repository_relative_path": "finite/pilot/BENCHMARK.md",
+    "sha256": "841f825464c1d9445cbb3b4fac8fa369b0e023c8ff3c9768f3dbcc9ab5a27a2b",
+    "bytes": 1827
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "WINDOWS.json",
+    "repository_relative_path": "finite/pilot/WINDOWS.json",
+    "sha256": "c0aa2d1d76d073964a4a21fa1d0433175ce0517ef30188a16240a0a111b21668",
+    "bytes": 853
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "benchmark_results.json",
+    "repository_relative_path": "finite/pilot/benchmark_results.json",
+    "sha256": "aa8f2b6da1bea7bc4db8b5b70ba36cf0621e20b023275138d59d85608547d380",
+    "bytes": 114366
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "extremals.jsonl",
+    "repository_relative_path": "finite/pilot/extremals.jsonl",
+    "sha256": "1dc6e613ecdf0cf9e5e92bd99553c89ce61cfdaf01e088b0e086e77d81a72f98",
+    "bytes": 1528255
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/BASELINE_REPLAY.json",
+    "repository_relative_path": "finite/pilot/tests/BASELINE_REPLAY.json",
+    "sha256": "53b1650081781df9f245375d0297894fb99ec039ae8ce6ef0b7fe93c85003a9f",
+    "bytes": 2350
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/baseline_reference.jsonl",
+    "repository_relative_path": "finite/pilot/tests/baseline_reference.jsonl",
+    "sha256": "52e2975c6a54273783a3cf76da107bf97790614b8b9636944eff4f6157b9f16b",
+    "bytes": 34436
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_A_VALIDATION.json",
+    "repository_relative_path": "finite/pilot/tests/window_A_VALIDATION.json",
+    "sha256": "b079932defa5cacebd472f32f284c733c8499aad59d060aeb1d9d9c3ad1ffd6b",
+    "bytes": 2100
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_A_selection.json",
+    "repository_relative_path": "finite/pilot/tests/window_A_selection.json",
+    "sha256": "e33aa8dafa0c7d5cf3b12d4db8ca56d7dd9a9480450d85247486e6b6b37a407a",
+    "bytes": 45782
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_B_VALIDATION.json",
+    "repository_relative_path": "finite/pilot/tests/window_B_VALIDATION.json",
+    "sha256": "64fc650c3dedeba56d2bb12bb9ba6f4e2acd669b4a304ec59b5a0de3bdb80ae7",
+    "bytes": 2364
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_B_selection.json",
+    "repository_relative_path": "finite/pilot/tests/window_B_selection.json",
+    "sha256": "f5e4955d124857ee246cdaba9548534e767867ebfe4686d7bc2ba255b5e6c8e0",
+    "bytes": 47774
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_C_VALIDATION.json",
+    "repository_relative_path": "finite/pilot/tests/window_C_VALIDATION.json",
+    "sha256": "336d80f170874229c9f2e544b8562771c12a2391d56c6dd70f1d57af81bf4600",
+    "bytes": 2628
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_C_selection.json",
+    "repository_relative_path": "finite/pilot/tests/window_C_selection.json",
+    "sha256": "fefa47875ab0e258659f5715980890333dee5bd434ed1a2fc29ed72b58b0ef2b",
+    "bytes": 53183
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_A_validation.jsonl",
+    "repository_relative_path": "finite/pilot/tests/window_A_validation.jsonl",
+    "sha256": "47ab6134e390976496b585e20fdfd3d161e27306b467c9f07cad3c0347151ac4",
+    "bytes": 41466
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_B_validation.jsonl",
+    "repository_relative_path": "finite/pilot/tests/window_B_validation.jsonl",
+    "sha256": "c1e5c8c858593b70ab9dc2baab8de6b58a3446eff0718dae43d514e7d0838e05",
+    "bytes": 54523
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "tests/window_C_validation.jsonl",
+    "repository_relative_path": "finite/pilot/tests/window_C_validation.jsonl",
+    "sha256": "8877525c38873c9e10b1f626c3105ec1fcff314eddffe026d31fba3d51ee6e23",
+    "bytes": 69528
+  },
+  {
+    "source_id": "K1",
+    "source_relative_path": "cross_scale_summary.json",
+    "repository_relative_path": "finite/pilot/cross_scale_summary.json",
+    "transformation": "remove R_profile arrays only; original hash bound in source custody",
+    "sha256": "2f9e947e3310d4a1f7c098d54dcb9ddab2910dc37482a057c55a55a398695f8f"
+  }
+]

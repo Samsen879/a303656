@@ -1,0 +1,35 @@
+[
+  {
+    "label": "A",
+    "L": 100000000,
+    "U": 100262144,
+    "status": "COMPLETE",
+    "scan_wall_seconds": 0.369249,
+    "independent_validation": "PASS",
+    "all_saved_extremals_verified": true,
+    "retained": 674,
+    "remaining_budget_seconds": 1461.025253534317
+  },
+  {
+    "label": "B",
+    "L": 10000000000,
+    "U": 10000262144,
+    "status": "COMPLETE",
+    "scan_wall_seconds": 0.967082,
+    "independent_validation": "PASS",
+    "all_saved_extremals_verified": true,
+    "retained": 622,
+    "remaining_budget_seconds": 1452.2346968650818
+  },
+  {
+    "label": "C",
+    "L": 1000000000000,
+    "U": 1000000262144,
+    "status": "COMPLETE",
+    "scan_wall_seconds": 1.88595,
+    "independent_validation": "PASS",
+    "all_saved_extremals_verified": true,
+    "retained": 695,
+    "remaining_budget_seconds": 1418.0541472434998
+  }
+]

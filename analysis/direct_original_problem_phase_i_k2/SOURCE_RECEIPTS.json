@@ -1,0 +1,56 @@
+[
+  {
+    "id": "I2",
+    "filename": "A303656_DIRECT_ADDITIVE_RESET_PHASE_I (1).zip",
+    "archive_sha256": "3befe3e5f1cc92e757da748d80ffbeefaf1ac5b9bf6641eecb783fc7e3b0d293",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "100-prefix producer smoke; stored 1e7 arrays/panel verified separately, no full scan"
+  },
+  {
+    "id": "I4",
+    "filename": "A303656_DIRECT_POINTWISE_PHASE_I.zip",
+    "archive_sha256": "33cbf20164eeaef9a644531164fae1de57a5c378f06c7ef2c733726b0ef2bbe5",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only"
+  },
+  {
+    "id": "J",
+    "filename": "A303656_WITNESS_SENSITIVE_DIRECT_PHASE_J.zip",
+    "archive_sha256": "931f1784db7d2b64288151eb5f95cc7fd4fe1542b62cdb5e0820795f5c1e2c9e",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only"
+  },
+  {
+    "id": "K",
+    "filename": "A303656_EXTREMAL_INVERSE_PHASE_K.zip",
+    "archive_sha256": "2fcc61dc311d857c1e807681af52fae62585baf9d220510f4ee275a614f132c6",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only"
+  },
+  {
+    "id": "K2",
+    "filename": "A303656_LARGE_PRIME_COMPLETION_PHASE_K2.zip",
+    "archive_sha256": "e67076b84838a77285f7751bd9fc17e4b7ef23559d5a32a3d3d1ccf15ff2dfe7",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only"
+  },
+  {
+    "id": "ML_D2",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only",
+    "directory_manifest_sha256": "2acde8022dfebc303f7ca038b7e1d57d77d7b0e0021e91d850f7fd2dd877b167"
+  },
+  {
+    "id": "K1",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "saved arrays, rankings, factor identities only; no new windows",
+    "directory_manifest_sha256": "6855e1e418446d778de6717b4340d4212520a365fd3ea27e1e0a255512d253d5"
+  }
+]

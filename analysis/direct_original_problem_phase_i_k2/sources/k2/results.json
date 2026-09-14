@@ -1,0 +1,27 @@
+{
+  "level": "D_SCOPED_METHOD_OBSTRUCTION",
+  "full_all_known_methods_impossibility_claimed": false,
+  "small_prime_local_layer": "COMPLETE_AS_ACCEPTED_INPUT",
+  "large_prime_completion": "BLOCKED",
+  "uniform_fixed_eta": "DISPROVED",
+  "universal_positivity": "NOT_PROVED",
+  "ML_K2": "UNPROVED",
+  "prime_range_closed_new": null,
+  "elementary_empty_least_prime_range": "p >= sqrt(n)",
+  "individual_prime_capacity": "O(log n + (log n)^2/log p)",
+  "individual_o_G_implies_union_o_G": false,
+  "new_negative_theorems": [
+    "K2-N1_fixed_fraction_impossible",
+    "K2-N2_literal_atomic_capacity_counterexample",
+    "K2-N3a_absolute_integer_remainder_floor",
+    "K2-N3b_least_conditioned_remainder_floor"
+  ],
+  "asymptotic_proofs_are_not_certified_by_finite_tests": true,
+  "historical_novelty_claimed": false,
+  "direct_original_n_program": "PAUSE",
+  "next_task": null,
+  "more_computation": false,
+  "codex_needed": false,
+  "A303656": "UNRESOLVED",
+  "github_writes_performed": 0
+}

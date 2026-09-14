@@ -1,0 +1,427 @@
+{
+  "method": "raw modular power cycles with lower/upper unresolved-valuation masks",
+  "raw_c_representatives": "one per c mod30, chosen >= the 3-adic truncation exponent",
+  "why_30_representatives_suffice": "complete d-cycle translations remove higher c-coordinates; proved in LOCAL_MODEL.md",
+  "records": [
+    {
+      "n_signature": 0,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "1/4",
+      "exact": "25/64",
+      "upper": "5/8",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 2,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "0",
+      "exact": "19313/115200",
+      "upper": "3/8",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 4,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "161/1800",
+      "exact": "28217/172800",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 56,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "23/300",
+      "exact": "973/6400",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 70,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "0",
+      "exact": "973/6400",
+      "upper": "3/8",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 560,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "11/150",
+      "exact": "1869/12800",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 8120,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "11/150",
+      "exact": "1869/12800",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 23240,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "11/150",
+      "exact": "1869/12800",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 28280,
+      "depths": [
+        4,
+        2,
+        1,
+        1
+      ],
+      "prime_powers": [
+        16,
+        9,
+        7,
+        11
+      ],
+      "d_period": 60,
+      "states_enumerated": 1800,
+      "lower": "11/150",
+      "exact": "1869/12800",
+      "upper": "7/24",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 0,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "5/16",
+      "exact": "25/64",
+      "upper": "51/112",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 2,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "143/1350",
+      "exact": "19313/115200",
+      "upper": "637/2640",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 4,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "92/675",
+      "exact": "28217/172800",
+      "upper": "255/1232",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 56,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "667/5400",
+      "exact": "973/6400",
+      "upper": "1207/6160",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 70,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "529/5400",
+      "exact": "973/6400",
+      "upper": "1343/6160",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 560,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "319/2700",
+      "exact": "1869/12800",
+      "upper": "497/2640",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 8120,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "319/2700",
+      "exact": "1869/12800",
+      "upper": "497/2640",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 23240,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "319/2700",
+      "exact": "1869/12800",
+      "upper": "497/2640",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 28280,
+      "depths": [
+        5,
+        3,
+        2,
+        2
+      ],
+      "prime_powers": [
+        32,
+        27,
+        49,
+        121
+      ],
+      "d_period": 27720,
+      "states_enumerated": 831600,
+      "lower": "319/2700",
+      "exact": "1869/12800",
+      "upper": "497/2640",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 4,
+      "depths": [
+        7,
+        4,
+        2,
+        2
+      ],
+      "prime_powers": [
+        128,
+        81,
+        49,
+        121
+      ],
+      "d_period": 332640,
+      "states_enumerated": 9979200,
+      "lower": "3151/21600",
+      "exact": "28217/172800",
+      "upper": "7565/44352",
+      "bracket_passed": true
+    },
+    {
+      "n_signature": 560,
+      "depths": [
+        7,
+        4,
+        2,
+        2
+      ],
+      "prime_powers": [
+        128,
+        81,
+        49,
+        121
+      ],
+      "d_period": 332640,
+      "states_enumerated": 9979200,
+      "lower": "55/432",
+      "exact": "1869/12800",
+      "upper": "14567/95040",
+      "bracket_passed": true
+    }
+  ]
+}

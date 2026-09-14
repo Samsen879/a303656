@@ -1,0 +1,154 @@
+{
+  "task": "I4 — DIRECT POINTWISE LOWER-TAIL ATTACK",
+  "date": "2026-09-10",
+  "attainment": "LEVEL D — conditional reduction only",
+  "status": "UNRESOLVED",
+  "independent_referee_or_formal_verification": false,
+  "literature_priority_claimed": false,
+  "authority": {
+    "repository": "Samsen879/a303656",
+    "main_sha": "fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38",
+    "tree_sha": "325265d83abae42acadc59f8107d88d1375085be",
+    "github_read_files": [
+      "STATUS.md",
+      "docs/THEOREM_INDEX.md"
+    ],
+    "github_writes_performed": "NONE",
+    "source_archive_name": "A303656_DIRECT_ADDITIVE_RESET_PHASE_I(2).zip",
+    "source_outer_sha256": "3befe3e5f1cc92e757da748d80ffbeefaf1ac5b9bf6641eecb783fc7e3b0d293",
+    "expected_outer_sha256_match": true,
+    "integrity_audit": {
+      "outer_sha256": "3befe3e5f1cc92e757da748d80ffbeefaf1ac5b9bf6641eecb783fc7e3b0d293",
+      "manifest_files_verified": [
+        "REPORT.md",
+        "DIRECT_THEOREMS.md",
+        "LITERATURE.md",
+        "SURVIVORS.md",
+        "reference.py",
+        "results.json",
+        "per_n_metrics.npz"
+      ],
+      "all_panel_rows_verified": 2946,
+      "distinct_panel_primes_trial_verified": 1584,
+      "npz_array_byte_hashes_verified": 10,
+      "new_global_scan_performed": false
+    }
+  },
+  "classifications": {
+    "NEW POINTWISE INPUT": "YES",
+    "NEW POINTWISE INPUT SCOPE": "Correlated polylogarithmic divisibility estimate and positive-transform all-failure dilation gap; no uniform norm-count positivity.",
+    "HALF-DIMENSIONAL SIEVE ROUTE": "BLOCKED",
+    "DIVISOR-SWITCH ROUTE": "ADVANCED",
+    "DIVISOR-SWITCH ROUTE SCOPE": "Conditional reduction only; signed fixed-target aggregate unproved.",
+    "ALL SUFFICIENTLY LARGE n": "NOT PROVED",
+    "NEW EXCEPTIONAL-SET STRUCTURE": "NO",
+    "CODEX LARGE COMPUTATION JUSTIFIED": "NO",
+    "A303656": "UNRESOLVED",
+    "GITHUB WRITES PERFORMED": "NONE"
+  },
+  "derived_statements": [
+    {
+      "id": "PW-01",
+      "status": "PROOF PROVIDED",
+      "statement": "For fixed 0<alpha<1/4, sum_{q<=L^alpha,(q,30)=1}|A_q-M Gamma_q| <<_alpha L^(5/3+4alpha/3), uniformly in n.",
+      "scope": "Gamma_q is an explicitly truncated joint-period density ratio, not multiplicative and not asserted to be 1/q."
+    },
+    {
+      "id": "PW-02",
+      "status": "PROOF PROVIDED",
+      "statement": "For a polynomial prime band, sum |N_p-Mg(p)| >= M sum g(p)-M^2/(a n^a), for g=1/p or 1/(p+1).",
+      "scope": "Blocks o(M) absolute errors for these random-integer models, not signed aggregates or all sieve variants."
+    },
+    {
+      "id": "PW-03",
+      "status": "PROOF PROVIDED",
+      "statement": "For odd u=1 mod 4, F_u(s)=u^(s/2) sum_{h|u}chi4(h)h^(-s) is even entire with nonnegative Taylor coefficients, and vanishing order equals the number of odd bad-prime valuations.",
+      "consequence": "All-failing bulk samples satisfy D_n(2/log n) >= (4/sqrt(e))D_n(1/log n)."
+    },
+    {
+      "id": "PW-C01",
+      "status": "CONDITIONAL IMPLICATION PROVED",
+      "statement": "ML-D2 plus I2 implies representation for all sufficiently large n.",
+      "hypothesis_proved": false
+    },
+    {
+      "id": "PW-04",
+      "status": "PROOF PROVIDED",
+      "statement": "The signed minorant (4Z(s)-Z(2s))/3 is at most b(m), with the stated fourth-order error.",
+      "scope": "No positivity of its actual-grid sum proved; tau(oddpart(m)), not tau(m)."
+    },
+    {
+      "id": "AUX-01",
+      "status": "PROOF PROVIDED — AUXILIARY IDENTITY",
+      "statement": "After a y>=n^(1/4) odd-defect cutoff, failing rows have unique two-prime completion m=pqr with b(r)=1.",
+      "scope": "An identity, not a count saving or exceptional-set compression."
+    }
+  ],
+  "single_missing_lemma": {
+    "id": "ML-D2",
+    "status": "UNPROVED",
+    "definition": "D_n(s)=sum_{(c,d) in A23(n)} sum_{h|oddpart(n-3^c-5^d)} chi4(h) h^(-s)",
+    "quantifiers": "There exists N_* such that for every integer n>=N_* on the literal bases (3,5)",
+    "inequality": "D_n(2/log n) <= 2 D_n(1/log n)",
+    "equivalent_signed_target": "sum_{h<=n} chi4(h)(2h^(-1/log n)-h^(-2/log n)) A_h(n) >= 0",
+    "N_star": null,
+    "effective_threshold_claimed": false,
+    "proven_all_failure_threshold": "2.426122638850533694415198139964721813767672541948747822731568634940226",
+    "stronger_than_generic_existence": "Demonstrated by one 576 and forty 1001 at N=1002.",
+    "easier_than_original_problem_claimed": false
+  },
+  "bounded_checks": {
+    "input_targets": 35,
+    "nonempty_bulk_targets": 32,
+    "locally_correct_bulk_rows": 415,
+    "all_panel_ML_D2_checks": "PASS — finite panel only; interval arithmetic",
+    "max_ratio_n": 530230,
+    "max_ratio": "1.60482330219812237104870058301995578884692238453170773183564869587559",
+    "max_ratio_interval": {
+      "lower": "1.6048233021981223710487005830199557888469223845317077318356465503",
+      "upper": "1.6048233021981223710487005830199557888469223845317077318356510619"
+    },
+    "exact_local_moment_tests": 625,
+    "quarter_cutoff_rows_checked": 148,
+    "generic_strictness_test": {
+      "N": 1002,
+      "multiset": "one 576 and forty 1001",
+      "norm_count": 1,
+      "ratio_interval": {
+        "lower": "2.3566623177854104556557068695298122932450153875344685130079529075",
+        "upper": "2.35666231778541045565570686952981229324501538753446851300797251"
+      }
+    },
+    "different_base_test": {
+      "n": 535903,
+      "bulk_pairs": 324,
+      "bulk_local23": 23,
+      "norm_count": 0,
+      "ratio_interval": {
+        "lower": "2.612715572459531320348913221055970923684464378754927580597796374",
+        "upper": "2.6127155724595313203489132210559709236844643787549275805978113093"
+      },
+      "does_not_assert_I2_density_for_base2": true
+    },
+    "new_global_scan_performed": false,
+    "base_3_5_counterexample_found": false
+  },
+  "literature": {
+    "read_primary_sources": [
+      "0705.4573",
+      "1211.1823",
+      "2409.19634",
+      "2604.09448v1",
+      "2504.09954v7",
+      "2512.07336",
+      "1610.01672"
+    ],
+    "radomskii_current_revision": "2026-08-27",
+    "applicable_theorem_solving_fixed_target_lower_tail_found": false,
+    "global_literature_nonexistence_claimed": false
+  },
+  "computation_gate": {
+    "large_computation_authorized": false,
+    "reason": "No proved finite reduction of ML-D2 or all-n positivity. A larger reassurance scan would not settle the analytic gap."
+  }
+}

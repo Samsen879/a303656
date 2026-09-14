@@ -1,0 +1,5917 @@
+{
+  "n": 10002200059,
+  "pairs": [
+    {
+      "c": 0,
+      "d": 0,
+      "m": 10002200057,
+      "factors": {
+        "100003": 1,
+        "100019": 1
+      },
+      "bad_primes": [
+        100003,
+        100019
+      ],
+      "kernel": 10002200057,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 100003
+    },
+    {
+      "c": 0,
+      "d": 1,
+      "m": 10002200053,
+      "factors": {
+        "17": 1,
+        "9043": 1,
+        "65063": 1
+      },
+      "bad_primes": [
+        9043,
+        65063
+      ],
+      "kernel": 588364709,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 9043
+    },
+    {
+      "c": 0,
+      "d": 2,
+      "m": 10002200033,
+      "factors": {
+        "7": 1,
+        "79": 1,
+        "197": 1,
+        "91813": 1
+      },
+      "bad_primes": [
+        7,
+        79
+      ],
+      "kernel": 553,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 0,
+      "d": 3,
+      "m": 10002199933,
+      "factors": {
+        "11": 1,
+        "909290903": 1
+      },
+      "bad_primes": [
+        11,
+        909290903
+      ],
+      "kernel": 10002199933,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 0,
+      "d": 4,
+      "m": 10002199433,
+      "factors": {
+        "691": 1,
+        "14474963": 1
+      },
+      "bad_primes": [
+        691,
+        14474963
+      ],
+      "kernel": 10002199433,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 691
+    },
+    {
+      "c": 0,
+      "d": 5,
+      "m": 10002196933,
+      "factors": {
+        "43": 2,
+        "5409517": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 0,
+      "d": 6,
+      "m": 10002184433,
+      "factors": {
+        "37": 1,
+        "53": 1,
+        "347": 1,
+        "14699": 1
+      },
+      "bad_primes": [
+        347,
+        14699
+      ],
+      "kernel": 5100553,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 347
+    },
+    {
+      "c": 0,
+      "d": 7,
+      "m": 10002121933,
+      "factors": {
+        "91639": 1,
+        "109147": 1
+      },
+      "bad_primes": [
+        91639,
+        109147
+      ],
+      "kernel": 10002121933,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 91639
+    },
+    {
+      "c": 0,
+      "d": 8,
+      "m": 10001809433,
+      "factors": {
+        "7": 1,
+        "11": 1,
+        "129893629": 1
+      },
+      "bad_primes": [
+        7,
+        11
+      ],
+      "kernel": 77,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 0,
+      "d": 9,
+      "m": 10000246933,
+      "factors": {
+        "10000246933": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 0,
+      "d": 10,
+      "m": 9992434433,
+      "factors": {
+        "23": 1,
+        "41": 1,
+        "1499": 1,
+        "7069": 1
+      },
+      "bad_primes": [
+        23,
+        1499
+      ],
+      "kernel": 34477,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 0,
+      "d": 11,
+      "m": 9953371933,
+      "factors": {
+        "51407": 1,
+        "193619": 1
+      },
+      "bad_primes": [
+        51407,
+        193619
+      ],
+      "kernel": 9953371933,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 51407
+    },
+    {
+      "c": 0,
+      "d": 12,
+      "m": 9758059433,
+      "factors": {
+        "787": 1,
+        "1471": 1,
+        "8429": 1
+      },
+      "bad_primes": [
+        787,
+        1471
+      ],
+      "kernel": 1157677,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 787
+    },
+    {
+      "c": 0,
+      "d": 13,
+      "m": 8781496933,
+      "factors": {
+        "11": 1,
+        "4139": 1,
+        "192877": 1
+      },
+      "bad_primes": [
+        11,
+        4139
+      ],
+      "kernel": 45529,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 0,
+      "d": 14,
+      "m": 3898684433,
+      "factors": {
+        "7": 1,
+        "181": 1,
+        "971": 1,
+        "3169": 1
+      },
+      "bad_primes": [
+        7,
+        971
+      ],
+      "kernel": 6797,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 1,
+      "d": 0,
+      "m": 10002200055,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "541": 1,
+        "1069": 1,
+        "1153": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 1,
+      "d": 1,
+      "m": 10002200051,
+      "factors": {
+        "349": 1,
+        "28659599": 1
+      },
+      "bad_primes": [
+        28659599
+      ],
+      "kernel": 28659599,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 28659599
+    },
+    {
+      "c": 1,
+      "d": 2,
+      "m": 10002200031,
+      "factors": {
+        "3": 6,
+        "13720439": 1
+      },
+      "bad_primes": [
+        13720439
+      ],
+      "kernel": 13720439,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 13720439
+    },
+    {
+      "c": 1,
+      "d": 3,
+      "m": 10002199931,
+      "factors": {
+        "45707": 1,
+        "218833": 1
+      },
+      "bad_primes": [
+        45707
+      ],
+      "kernel": 45707,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 45707
+    },
+    {
+      "c": 1,
+      "d": 4,
+      "m": 10002199431,
+      "factors": {
+        "3": 1,
+        "7": 2,
+        "19": 1,
+        "3581167": 1
+      },
+      "bad_primes": [
+        3,
+        19,
+        3581167
+      ],
+      "kernel": 204126519,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 1,
+      "d": 5,
+      "m": 10002196931,
+      "factors": {
+        "14149": 1,
+        "706919": 1
+      },
+      "bad_primes": [
+        706919
+      ],
+      "kernel": 706919,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 706919
+    },
+    {
+      "c": 1,
+      "d": 6,
+      "m": 10002184431,
+      "factors": {
+        "3": 1,
+        "3334061477": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 1,
+      "d": 7,
+      "m": 10002121931,
+      "factors": {
+        "157": 1,
+        "63707783": 1
+      },
+      "bad_primes": [
+        63707783
+      ],
+      "kernel": 63707783,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 63707783
+    },
+    {
+      "c": 1,
+      "d": 8,
+      "m": 10001809431,
+      "factors": {
+        "3": 2,
+        "1111312159": 1
+      },
+      "bad_primes": [
+        1111312159
+      ],
+      "kernel": 1111312159,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1111312159
+    },
+    {
+      "c": 1,
+      "d": 9,
+      "m": 10000246931,
+      "factors": {
+        "10000246931": 1
+      },
+      "bad_primes": [
+        10000246931
+      ],
+      "kernel": 10000246931,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10000246931
+    },
+    {
+      "c": 1,
+      "d": 10,
+      "m": 9992434431,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "475830211": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        475830211
+      ],
+      "kernel": 9992434431,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 1,
+      "d": 11,
+      "m": 9953371931,
+      "factors": {
+        "439": 1,
+        "3323": 1,
+        "6823": 1
+      },
+      "bad_primes": [
+        439,
+        3323,
+        6823
+      ],
+      "kernel": 9953371931,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 439
+    },
+    {
+      "c": 1,
+      "d": 12,
+      "m": 9758059431,
+      "factors": {
+        "3": 1,
+        "73": 1,
+        "661": 1,
+        "67409": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 1,
+      "d": 13,
+      "m": 8781496931,
+      "factors": {
+        "17": 1,
+        "19": 1,
+        "29": 1,
+        "79": 1,
+        "11867": 1
+      },
+      "bad_primes": [
+        19,
+        79,
+        11867
+      ],
+      "kernel": 17812367,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 1,
+      "d": 14,
+      "m": 3898684431,
+      "factors": {
+        "3": 2,
+        "97": 1,
+        "641": 1,
+        "6967": 1
+      },
+      "bad_primes": [
+        6967
+      ],
+      "kernel": 6967,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 6967
+    },
+    {
+      "c": 2,
+      "d": 0,
+      "m": 10002200049,
+      "factors": {
+        "3": 2,
+        "23": 1,
+        "47": 1,
+        "1028081": 1
+      },
+      "bad_primes": [
+        23,
+        47
+      ],
+      "kernel": 1081,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 2,
+      "d": 1,
+      "m": 10002200045,
+      "factors": {
+        "5": 1,
+        "223": 1,
+        "8970583": 1
+      },
+      "bad_primes": [
+        223,
+        8970583
+      ],
+      "kernel": 2000440009,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 223
+    },
+    {
+      "c": 2,
+      "d": 2,
+      "m": 10002200025,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "133362667": 1
+      },
+      "bad_primes": [
+        3,
+        133362667
+      ],
+      "kernel": 400088001,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 2,
+      "d": 3,
+      "m": 10002199925,
+      "factors": {
+        "5": 2,
+        "19": 2,
+        "277": 1,
+        "4001": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 2,
+      "d": 4,
+      "m": 10002199425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "787": 1,
+        "169457": 1
+      },
+      "bad_primes": [
+        3,
+        787
+      ],
+      "kernel": 2361,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 2,
+      "d": 5,
+      "m": 10002196925,
+      "factors": {
+        "5": 2,
+        "7": 1,
+        "17": 1,
+        "347": 1,
+        "9689": 1
+      },
+      "bad_primes": [
+        7,
+        347
+      ],
+      "kernel": 2429,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 2,
+      "d": 6,
+      "m": 10002184425,
+      "factors": {
+        "3": 3,
+        "5": 2,
+        "73": 1,
+        "202987": 1
+      },
+      "bad_primes": [
+        3,
+        202987
+      ],
+      "kernel": 608961,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 2,
+      "d": 7,
+      "m": 10002121925,
+      "factors": {
+        "5": 2,
+        "107": 1,
+        "3739111": 1
+      },
+      "bad_primes": [
+        107,
+        3739111
+      ],
+      "kernel": 400084877,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 107
+    },
+    {
+      "c": 2,
+      "d": 8,
+      "m": 10001809425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "239": 1,
+        "557981": 1
+      },
+      "bad_primes": [
+        3,
+        239
+      ],
+      "kernel": 717,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 2,
+      "d": 9,
+      "m": 10000246925,
+      "factors": {
+        "5": 2,
+        "89": 1,
+        "499": 1,
+        "9007": 1
+      },
+      "bad_primes": [
+        499,
+        9007
+      ],
+      "kernel": 4494493,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 499
+    },
+    {
+      "c": 2,
+      "d": 10,
+      "m": 9992434425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "133232459": 1
+      },
+      "bad_primes": [
+        3,
+        133232459
+      ],
+      "kernel": 399697377,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 2,
+      "d": 11,
+      "m": 9953371925,
+      "factors": {
+        "5": 2,
+        "7": 1,
+        "6367": 1,
+        "8933": 1
+      },
+      "bad_primes": [
+        7,
+        6367
+      ],
+      "kernel": 44569,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 2,
+      "d": 12,
+      "m": 9758059425,
+      "factors": {
+        "3": 2,
+        "5": 2,
+        "19": 1,
+        "2282587": 1
+      },
+      "bad_primes": [
+        19,
+        2282587
+      ],
+      "kernel": 43369153,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 2,
+      "d": 13,
+      "m": 8781496925,
+      "factors": {
+        "5": 2,
+        "351259877": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 2,
+      "d": 14,
+      "m": 3898684425,
+      "factors": {
+        "3": 1,
+        "5": 2,
+        "389": 1,
+        "133631": 1
+      },
+      "bad_primes": [
+        3,
+        133631
+      ],
+      "kernel": 400893,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 3,
+      "d": 0,
+      "m": 10002200031,
+      "factors": {
+        "3": 6,
+        "13720439": 1
+      },
+      "bad_primes": [
+        13720439
+      ],
+      "kernel": 13720439,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 13720439
+    },
+    {
+      "c": 3,
+      "d": 1,
+      "m": 10002200027,
+      "factors": {
+        "109": 1,
+        "2087": 1,
+        "43969": 1
+      },
+      "bad_primes": [
+        2087
+      ],
+      "kernel": 2087,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 2087
+    },
+    {
+      "c": 3,
+      "d": 2,
+      "m": 10002200007,
+      "factors": {
+        "3": 1,
+        "43013": 1,
+        "77513": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 3,
+      "d": 3,
+      "m": 10002199907,
+      "factors": {
+        "7": 1,
+        "1428885701": 1
+      },
+      "bad_primes": [
+        7
+      ],
+      "kernel": 7,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 3,
+      "d": 4,
+      "m": 10002199407,
+      "factors": {
+        "3": 1,
+        "17": 1,
+        "89": 1,
+        "113": 1,
+        "19501": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 3,
+      "d": 5,
+      "m": 10002196907,
+      "factors": {
+        "67": 1,
+        "7583": 1,
+        "19687": 1
+      },
+      "bad_primes": [
+        67,
+        7583,
+        19687
+      ],
+      "kernel": 10002196907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 67
+    },
+    {
+      "c": 3,
+      "d": 6,
+      "m": 10002184407,
+      "factors": {
+        "3": 2,
+        "1111353823": 1
+      },
+      "bad_primes": [
+        1111353823
+      ],
+      "kernel": 1111353823,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1111353823
+    },
+    {
+      "c": 3,
+      "d": 7,
+      "m": 10002121907,
+      "factors": {
+        "1123": 1,
+        "1291": 1,
+        "6899": 1
+      },
+      "bad_primes": [
+        1123,
+        1291,
+        6899
+      ],
+      "kernel": 10002121907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1123
+    },
+    {
+      "c": 3,
+      "d": 8,
+      "m": 10001809407,
+      "factors": {
+        "3": 1,
+        "421": 1,
+        "7919089": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 3,
+      "d": 9,
+      "m": 10000246907,
+      "factors": {
+        "7": 1,
+        "15887": 1,
+        "89923": 1
+      },
+      "bad_primes": [
+        7,
+        15887,
+        89923
+      ],
+      "kernel": 10000246907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 3,
+      "d": 10,
+      "m": 9992434407,
+      "factors": {
+        "3": 1,
+        "3330811469": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 3,
+      "d": 11,
+      "m": 9953371907,
+      "factors": {
+        "9953371907": 1
+      },
+      "bad_primes": [
+        9953371907
+      ],
+      "kernel": 9953371907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9953371907
+    },
+    {
+      "c": 3,
+      "d": 12,
+      "m": 9758059407,
+      "factors": {
+        "3": 2,
+        "61": 1,
+        "137": 2,
+        "947": 1
+      },
+      "bad_primes": [
+        947
+      ],
+      "kernel": 947,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 947
+    },
+    {
+      "c": 3,
+      "d": 13,
+      "m": 8781496907,
+      "factors": {
+        "8781496907": 1
+      },
+      "bad_primes": [
+        8781496907
+      ],
+      "kernel": 8781496907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 8781496907
+    },
+    {
+      "c": 3,
+      "d": 14,
+      "m": 3898684407,
+      "factors": {
+        "3": 1,
+        "1299561469": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 0,
+      "m": 10002199977,
+      "factors": {
+        "3": 3,
+        "7": 1,
+        "11": 1,
+        "41": 1,
+        "271": 1,
+        "433": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        11,
+        271
+      ],
+      "kernel": 62601,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 1,
+      "m": 10002199973,
+      "factors": {
+        "37": 1,
+        "2803": 1,
+        "96443": 1
+      },
+      "bad_primes": [
+        2803,
+        96443
+      ],
+      "kernel": 270329729,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 2803
+    },
+    {
+      "c": 4,
+      "d": 2,
+      "m": 10002199953,
+      "factors": {
+        "3": 1,
+        "10391": 1,
+        "320861": 1
+      },
+      "bad_primes": [
+        3,
+        10391
+      ],
+      "kernel": 31173,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 3,
+      "m": 10002199853,
+      "factors": {
+        "2683": 1,
+        "3727991": 1
+      },
+      "bad_primes": [
+        2683,
+        3727991
+      ],
+      "kernel": 10002199853,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 2683
+    },
+    {
+      "c": 4,
+      "d": 4,
+      "m": 10002199353,
+      "factors": {
+        "3": 1,
+        "349": 1,
+        "2473": 1,
+        "3863": 1
+      },
+      "bad_primes": [
+        3,
+        3863
+      ],
+      "kernel": 11589,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 5,
+      "m": 10002196853,
+      "factors": {
+        "11": 1,
+        "47": 1,
+        "19346609": 1
+      },
+      "bad_primes": [
+        11,
+        47
+      ],
+      "kernel": 517,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 4,
+      "d": 6,
+      "m": 10002184353,
+      "factors": {
+        "3": 2,
+        "7": 1,
+        "158764831": 1
+      },
+      "bad_primes": [
+        7,
+        158764831
+      ],
+      "kernel": 1111353817,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 4,
+      "d": 7,
+      "m": 10002121853,
+      "factors": {
+        "17": 1,
+        "588360109": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 4,
+      "d": 8,
+      "m": 10001809353,
+      "factors": {
+        "3": 1,
+        "3333936451": 1
+      },
+      "bad_primes": [
+        3,
+        3333936451
+      ],
+      "kernel": 10001809353,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 9,
+      "m": 10000246853,
+      "factors": {
+        "61": 1,
+        "8647": 1,
+        "18959": 1
+      },
+      "bad_primes": [
+        8647,
+        18959
+      ],
+      "kernel": 163938473,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 8647
+    },
+    {
+      "c": 4,
+      "d": 10,
+      "m": 9992434353,
+      "factors": {
+        "3": 1,
+        "11": 1,
+        "991": 1,
+        "305551": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        991,
+        305551
+      ],
+      "kernel": 9992434353,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 4,
+      "d": 11,
+      "m": 9953371853,
+      "factors": {
+        "163": 1,
+        "61063631": 1
+      },
+      "bad_primes": [
+        163,
+        61063631
+      ],
+      "kernel": 9953371853,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 163
+    },
+    {
+      "c": 4,
+      "d": 12,
+      "m": 9758059353,
+      "factors": {
+        "3": 2,
+        "7": 1,
+        "1789": 1,
+        "86579": 1
+      },
+      "bad_primes": [
+        7,
+        86579
+      ],
+      "kernel": 606053,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 4,
+      "d": 13,
+      "m": 8781496853,
+      "factors": {
+        "23": 1,
+        "103": 1,
+        "3706837": 1
+      },
+      "bad_primes": [
+        23,
+        103
+      ],
+      "kernel": 2369,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 4,
+      "d": 14,
+      "m": 3898684353,
+      "factors": {
+        "3": 1,
+        "24103": 1,
+        "53917": 1
+      },
+      "bad_primes": [
+        3,
+        24103
+      ],
+      "kernel": 72309,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 0,
+      "m": 10002199815,
+      "factors": {
+        "3": 3,
+        "5": 1,
+        "17": 1,
+        "4358257": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 1,
+      "m": 10002199811,
+      "factors": {
+        "19": 1,
+        "526431569": 1
+      },
+      "bad_primes": [
+        19
+      ],
+      "kernel": 19,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 5,
+      "d": 2,
+      "m": 10002199791,
+      "factors": {
+        "3": 1,
+        "30139": 1,
+        "110623": 1
+      },
+      "bad_primes": [
+        3,
+        30139,
+        110623
+      ],
+      "kernel": 10002199791,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 3,
+      "m": 10002199691,
+      "factors": {
+        "11": 1,
+        "12589": 1,
+        "72229": 1
+      },
+      "bad_primes": [
+        11
+      ],
+      "kernel": 11,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 5,
+      "d": 4,
+      "m": 10002199191,
+      "factors": {
+        "3": 1,
+        "257": 1,
+        "829": 1,
+        "15649": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 5,
+      "m": 10002196691,
+      "factors": {
+        "23": 1,
+        "641": 1,
+        "678437": 1
+      },
+      "bad_primes": [
+        23
+      ],
+      "kernel": 23,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 5,
+      "d": 6,
+      "m": 10002184191,
+      "factors": {
+        "3": 2,
+        "2621": 1,
+        "424019": 1
+      },
+      "bad_primes": [
+        424019
+      ],
+      "kernel": 424019,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 424019
+    },
+    {
+      "c": 5,
+      "d": 7,
+      "m": 10002121691,
+      "factors": {
+        "1667": 1,
+        "6000073": 1
+      },
+      "bad_primes": [
+        1667
+      ],
+      "kernel": 1667,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1667
+    },
+    {
+      "c": 5,
+      "d": 8,
+      "m": 10001809191,
+      "factors": {
+        "3": 1,
+        "11": 1,
+        "167": 1,
+        "179": 1,
+        "10139": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        167,
+        179,
+        10139
+      ],
+      "kernel": 10001809191,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 9,
+      "m": 10000246691,
+      "factors": {
+        "131": 2,
+        "582731": 1
+      },
+      "bad_primes": [
+        582731
+      ],
+      "kernel": 582731,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 582731
+    },
+    {
+      "c": 5,
+      "d": 10,
+      "m": 9992434191,
+      "factors": {
+        "3": 1,
+        "19": 1,
+        "7621": 1,
+        "23003": 1
+      },
+      "bad_primes": [
+        3,
+        19,
+        23003
+      ],
+      "kernel": 1311171,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 5,
+      "d": 11,
+      "m": 9953371691,
+      "factors": {
+        "9953371691": 1
+      },
+      "bad_primes": [
+        9953371691
+      ],
+      "kernel": 9953371691,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9953371691
+    },
+    {
+      "c": 5,
+      "d": 12,
+      "m": 9758059191,
+      "factors": {
+        "3": 2,
+        "1084228799": 1
+      },
+      "bad_primes": [
+        1084228799
+      ],
+      "kernel": 1084228799,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1084228799
+    },
+    {
+      "c": 5,
+      "d": 13,
+      "m": 8781496691,
+      "factors": {
+        "11": 1,
+        "233": 1,
+        "829": 1,
+        "4133": 1
+      },
+      "bad_primes": [
+        11
+      ],
+      "kernel": 11,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 5,
+      "d": 14,
+      "m": 3898684191,
+      "factors": {
+        "3": 1,
+        "37": 1,
+        "35123281": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 0,
+      "m": 10002199329,
+      "factors": {
+        "3": 3,
+        "97": 1,
+        "431": 1,
+        "8861": 1
+      },
+      "bad_primes": [
+        3,
+        431
+      ],
+      "kernel": 1293,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 1,
+      "m": 10002199325,
+      "factors": {
+        "5": 2,
+        "29": 1,
+        "127": 1,
+        "108631": 1
+      },
+      "bad_primes": [
+        127,
+        108631
+      ],
+      "kernel": 13796137,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 127
+    },
+    {
+      "c": 6,
+      "d": 2,
+      "m": 10002199305,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "17": 1,
+        "2161": 1,
+        "2593": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 3,
+      "m": 10002199205,
+      "factors": {
+        "5": 1,
+        "2000439841": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 6,
+      "d": 4,
+      "m": 10002198705,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "977": 1,
+        "682511": 1
+      },
+      "bad_primes": [
+        3,
+        682511
+      ],
+      "kernel": 2047533,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 5,
+      "m": 10002196205,
+      "factors": {
+        "5": 1,
+        "41": 1,
+        "48791201": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 6,
+      "d": 6,
+      "m": 10002183705,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "9371": 1,
+        "23719": 1
+      },
+      "bad_primes": [
+        9371,
+        23719
+      ],
+      "kernel": 222270749,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 9371
+    },
+    {
+      "c": 6,
+      "d": 7,
+      "m": 10002121205,
+      "factors": {
+        "5": 1,
+        "23": 1,
+        "86974967": 1
+      },
+      "bad_primes": [
+        23,
+        86974967
+      ],
+      "kernel": 2000424241,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 6,
+      "d": 8,
+      "m": 10001808705,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 2,
+        "269": 1,
+        "50587": 1
+      },
+      "bad_primes": [
+        3,
+        50587
+      ],
+      "kernel": 151761,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 9,
+      "m": 10000246205,
+      "factors": {
+        "5": 1,
+        "79": 1,
+        "1993": 1,
+        "12703": 1
+      },
+      "bad_primes": [
+        79,
+        12703
+      ],
+      "kernel": 1003537,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 79
+    },
+    {
+      "c": 6,
+      "d": 10,
+      "m": 9992433705,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "53": 1,
+        "257": 1,
+        "48907": 1
+      },
+      "bad_primes": [
+        3,
+        48907
+      ],
+      "kernel": 146721,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 6,
+      "d": 11,
+      "m": 9953371205,
+      "factors": {
+        "5": 1,
+        "83": 1,
+        "23984027": 1
+      },
+      "bad_primes": [
+        83,
+        23984027
+      ],
+      "kernel": 1990674241,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 83
+    },
+    {
+      "c": 6,
+      "d": 12,
+      "m": 9758058705,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "216845749": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 6,
+      "d": 13,
+      "m": 8781496205,
+      "factors": {
+        "5": 1,
+        "229": 1,
+        "7669429": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 6,
+      "d": 14,
+      "m": 3898683705,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "37130321": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 0,
+      "m": 10002197871,
+      "factors": {
+        "3": 3,
+        "151": 1,
+        "911": 1,
+        "2693": 1
+      },
+      "bad_primes": [
+        3,
+        151,
+        911
+      ],
+      "kernel": 412683,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 1,
+      "m": 10002197867,
+      "factors": {
+        "10002197867": 1
+      },
+      "bad_primes": [
+        10002197867
+      ],
+      "kernel": 10002197867,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10002197867
+    },
+    {
+      "c": 7,
+      "d": 2,
+      "m": 10002197847,
+      "factors": {
+        "3": 1,
+        "109": 1,
+        "2273": 1,
+        "13457": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 3,
+      "m": 10002197747,
+      "factors": {
+        "10002197747": 1
+      },
+      "bad_primes": [
+        10002197747
+      ],
+      "kernel": 10002197747,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10002197747
+    },
+    {
+      "c": 7,
+      "d": 4,
+      "m": 10002197247,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "739": 1,
+        "644513": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        739
+      ],
+      "kernel": 15519,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 5,
+      "m": 10002194747,
+      "factors": {
+        "449": 1,
+        "733": 1,
+        "30391": 1
+      },
+      "bad_primes": [
+        30391
+      ],
+      "kernel": 30391,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 30391
+    },
+    {
+      "c": 7,
+      "d": 6,
+      "m": 10002182247,
+      "factors": {
+        "3": 2,
+        "23": 1,
+        "48319721": 1
+      },
+      "bad_primes": [
+        23
+      ],
+      "kernel": 23,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 7,
+      "d": 7,
+      "m": 10002119747,
+      "factors": {
+        "73": 1,
+        "617": 1,
+        "222067": 1
+      },
+      "bad_primes": [
+        222067
+      ],
+      "kernel": 222067,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 222067
+    },
+    {
+      "c": 7,
+      "d": 8,
+      "m": 10001807247,
+      "factors": {
+        "3": 1,
+        "3333935749": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 9,
+      "m": 10000244747,
+      "factors": {
+        "17": 2,
+        "34602923": 1
+      },
+      "bad_primes": [
+        34602923
+      ],
+      "kernel": 34602923,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 34602923
+    },
+    {
+      "c": 7,
+      "d": 10,
+      "m": 9992432247,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "523": 1,
+        "909809": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        523
+      ],
+      "kernel": 10983,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 7,
+      "d": 11,
+      "m": 9953369747,
+      "factors": {
+        "1613": 1,
+        "6170719": 1
+      },
+      "bad_primes": [
+        6170719
+      ],
+      "kernel": 6170719,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 6170719
+    },
+    {
+      "c": 7,
+      "d": 12,
+      "m": 9758057247,
+      "factors": {
+        "3": 2,
+        "577": 1,
+        "1879079": 1
+      },
+      "bad_primes": [
+        1879079
+      ],
+      "kernel": 1879079,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1879079
+    },
+    {
+      "c": 7,
+      "d": 13,
+      "m": 8781494747,
+      "factors": {
+        "8781494747": 1
+      },
+      "bad_primes": [
+        8781494747
+      ],
+      "kernel": 8781494747,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 8781494747
+    },
+    {
+      "c": 7,
+      "d": 14,
+      "m": 3898682247,
+      "factors": {
+        "3": 1,
+        "43": 1,
+        "157": 1,
+        "192499": 1
+      },
+      "bad_primes": [
+        3,
+        43,
+        192499
+      ],
+      "kernel": 24832371,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 0,
+      "m": 10002193497,
+      "factors": {
+        "3": 3,
+        "18917": 1,
+        "19583": 1
+      },
+      "bad_primes": [
+        3,
+        19583
+      ],
+      "kernel": 58749,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 1,
+      "m": 10002193493,
+      "factors": {
+        "31": 1,
+        "43": 1,
+        "7503521": 1
+      },
+      "bad_primes": [
+        31,
+        43
+      ],
+      "kernel": 1333,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 8,
+      "d": 2,
+      "m": 10002193473,
+      "factors": {
+        "3": 1,
+        "271": 1,
+        "12302821": 1
+      },
+      "bad_primes": [
+        3,
+        271
+      ],
+      "kernel": 813,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 3,
+      "m": 10002193373,
+      "factors": {
+        "71": 1,
+        "140875963": 1
+      },
+      "bad_primes": [
+        71,
+        140875963
+      ],
+      "kernel": 10002193373,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 71
+    },
+    {
+      "c": 8,
+      "d": 4,
+      "m": 10002192873,
+      "factors": {
+        "3": 1,
+        "23": 2,
+        "31": 1,
+        "203309": 1
+      },
+      "bad_primes": [
+        3,
+        31
+      ],
+      "kernel": 93,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 5,
+      "m": 10002190373,
+      "factors": {
+        "7": 1,
+        "2633": 1,
+        "542683": 1
+      },
+      "bad_primes": [
+        7,
+        542683
+      ],
+      "kernel": 3798781,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 8,
+      "d": 6,
+      "m": 10002177873,
+      "factors": {
+        "3": 2,
+        "1111353097": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 8,
+      "d": 7,
+      "m": 10002115373,
+      "factors": {
+        "31": 1,
+        "163": 1,
+        "1979441": 1
+      },
+      "bad_primes": [
+        31,
+        163
+      ],
+      "kernel": 5053,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 8,
+      "d": 8,
+      "m": 10001802873,
+      "factors": {
+        "3": 1,
+        "71": 1,
+        "46956821": 1
+      },
+      "bad_primes": [
+        3,
+        71
+      ],
+      "kernel": 213,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 9,
+      "m": 10000240373,
+      "factors": {
+        "67": 1,
+        "149257319": 1
+      },
+      "bad_primes": [
+        67,
+        149257319
+      ],
+      "kernel": 10000240373,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 67
+    },
+    {
+      "c": 8,
+      "d": 10,
+      "m": 9992427873,
+      "factors": {
+        "3": 1,
+        "31": 1,
+        "41": 1,
+        "61": 1,
+        "42961": 1
+      },
+      "bad_primes": [
+        3,
+        31
+      ],
+      "kernel": 93,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 8,
+      "d": 11,
+      "m": 9953365373,
+      "factors": {
+        "7": 1,
+        "571": 1,
+        "2490209": 1
+      },
+      "bad_primes": [
+        7,
+        571
+      ],
+      "kernel": 3997,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 8,
+      "d": 12,
+      "m": 9758052873,
+      "factors": {
+        "3": 2,
+        "3359": 1,
+        "322783": 1
+      },
+      "bad_primes": [
+        3359,
+        322783
+      ],
+      "kernel": 1084228097,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 3359
+    },
+    {
+      "c": 8,
+      "d": 13,
+      "m": 8781490373,
+      "factors": {
+        "31": 1,
+        "71": 1,
+        "149": 1,
+        "26777": 1
+      },
+      "bad_primes": [
+        31,
+        71
+      ],
+      "kernel": 2201,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 8,
+      "d": 14,
+      "m": 3898677873,
+      "factors": {
+        "3": 1,
+        "331": 1,
+        "523": 1,
+        "7507": 1
+      },
+      "bad_primes": [
+        3,
+        331,
+        523,
+        7507
+      ],
+      "kernel": 3898677873,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 0,
+      "m": 10002180375,
+      "factors": {
+        "3": 3,
+        "5": 3,
+        "11": 1,
+        "269419": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        269419
+      ],
+      "kernel": 8890827,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 1,
+      "m": 10002180371,
+      "factors": {
+        "1301": 1,
+        "7688071": 1
+      },
+      "bad_primes": [
+        7688071
+      ],
+      "kernel": 7688071,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7688071
+    },
+    {
+      "c": 9,
+      "d": 2,
+      "m": 10002180351,
+      "factors": {
+        "3": 1,
+        "83": 1,
+        "40169399": 1
+      },
+      "bad_primes": [
+        3,
+        83,
+        40169399
+      ],
+      "kernel": 10002180351,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 3,
+      "m": 10002180251,
+      "factors": {
+        "7": 1,
+        "131": 1,
+        "10907503": 1
+      },
+      "bad_primes": [
+        7,
+        131,
+        10907503
+      ],
+      "kernel": 10002180251,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 9,
+      "d": 4,
+      "m": 10002179751,
+      "factors": {
+        "3": 1,
+        "151": 1,
+        "1451": 1,
+        "15217": 1
+      },
+      "bad_primes": [
+        3,
+        151,
+        1451
+      ],
+      "kernel": 657303,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 5,
+      "m": 10002177251,
+      "factors": {
+        "11": 1,
+        "103": 1,
+        "379": 1,
+        "23293": 1
+      },
+      "bad_primes": [
+        11,
+        103,
+        379
+      ],
+      "kernel": 429407,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 9,
+      "d": 6,
+      "m": 10002164751,
+      "factors": {
+        "3": 2,
+        "1111351639": 1
+      },
+      "bad_primes": [
+        1111351639
+      ],
+      "kernel": 1111351639,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1111351639
+    },
+    {
+      "c": 9,
+      "d": 7,
+      "m": 10002102251,
+      "factors": {
+        "32969": 1,
+        "303379": 1
+      },
+      "bad_primes": [
+        303379
+      ],
+      "kernel": 303379,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 303379
+    },
+    {
+      "c": 9,
+      "d": 8,
+      "m": 10001789751,
+      "factors": {
+        "3": 1,
+        "109": 1,
+        "30586513": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 9,
+      "m": 10000227251,
+      "factors": {
+        "7": 1,
+        "101": 1,
+        "14144593": 1
+      },
+      "bad_primes": [
+        7
+      ],
+      "kernel": 7,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 9,
+      "d": 10,
+      "m": 9992414751,
+      "factors": {
+        "3": 1,
+        "11": 1,
+        "17": 1,
+        "17811791": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        17811791
+      ],
+      "kernel": 587789103,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 9,
+      "d": 11,
+      "m": 9953352251,
+      "factors": {
+        "619": 1,
+        "1021": 1,
+        "15749": 1
+      },
+      "bad_primes": [
+        619
+      ],
+      "kernel": 619,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 619
+    },
+    {
+      "c": 9,
+      "d": 12,
+      "m": 9758039751,
+      "factors": {
+        "3": 2,
+        "43": 1,
+        "1231": 1,
+        "20483": 1
+      },
+      "bad_primes": [
+        43,
+        1231,
+        20483
+      ],
+      "kernel": 1084226639,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 43
+    },
+    {
+      "c": 9,
+      "d": 13,
+      "m": 8781477251,
+      "factors": {
+        "37": 1,
+        "237337223": 1
+      },
+      "bad_primes": [
+        237337223
+      ],
+      "kernel": 237337223,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 237337223
+    },
+    {
+      "c": 9,
+      "d": 14,
+      "m": 3898664751,
+      "factors": {
+        "3": 1,
+        "1299554917": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 0,
+      "m": 10002141009,
+      "factors": {
+        "3": 3,
+        "7": 1,
+        "83": 1,
+        "637607": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        83,
+        637607
+      ],
+      "kernel": 1111349001,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 1,
+      "m": 10002141005,
+      "factors": {
+        "5": 1,
+        "4289": 1,
+        "466409": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 10,
+      "d": 2,
+      "m": 10002140985,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "23": 1,
+        "199": 1,
+        "145687": 1
+      },
+      "bad_primes": [
+        3,
+        23,
+        199,
+        145687
+      ],
+      "kernel": 2000428197,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 3,
+      "m": 10002140885,
+      "factors": {
+        "5": 1,
+        "11": 1,
+        "11411": 1,
+        "15937": 1
+      },
+      "bad_primes": [
+        11,
+        11411
+      ],
+      "kernel": 125521,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 10,
+      "d": 4,
+      "m": 10002140385,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "443": 1,
+        "463": 1,
+        "3251": 1
+      },
+      "bad_primes": [
+        3,
+        443,
+        463,
+        3251
+      ],
+      "kernel": 2000428077,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 5,
+      "m": 10002137885,
+      "factors": {
+        "5": 1,
+        "701": 1,
+        "2853677": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 10,
+      "d": 6,
+      "m": 10002125385,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "7": 1,
+        "157": 1,
+        "263": 1,
+        "769": 1
+      },
+      "bad_primes": [
+        7,
+        263
+      ],
+      "kernel": 1841,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 10,
+      "d": 7,
+      "m": 10002062885,
+      "factors": {
+        "5": 1,
+        "2000412577": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 10,
+      "d": 8,
+      "m": 10001750385,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "11": 1,
+        "19": 1,
+        "1153": 1,
+        "2767": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        19,
+        2767
+      ],
+      "kernel": 1734909,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 9,
+      "m": 10000187885,
+      "factors": {
+        "5": 1,
+        "29": 1,
+        "47": 1,
+        "193": 1,
+        "7603": 1
+      },
+      "bad_primes": [
+        47,
+        7603
+      ],
+      "kernel": 357341,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 47
+    },
+    {
+      "c": 10,
+      "d": 10,
+      "m": 9992375385,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "1429": 1,
+        "466171": 1
+      },
+      "bad_primes": [
+        3,
+        466171
+      ],
+      "kernel": 1398513,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 10,
+      "d": 11,
+      "m": 9953312885,
+      "factors": {
+        "5": 1,
+        "4127": 1,
+        "482351": 1
+      },
+      "bad_primes": [
+        4127,
+        482351
+      ],
+      "kernel": 1990662577,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 4127
+    },
+    {
+      "c": 10,
+      "d": 12,
+      "m": 9758000385,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "7": 2,
+        "4425397": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 10,
+      "d": 13,
+      "m": 8781437885,
+      "factors": {
+        "5": 1,
+        "11": 1,
+        "8849": 1,
+        "18043": 1
+      },
+      "bad_primes": [
+        11,
+        18043
+      ],
+      "kernel": 198473,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 10,
+      "d": 14,
+      "m": 3898625385,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "17": 1,
+        "229": 1,
+        "66763": 1
+      },
+      "bad_primes": [
+        3,
+        66763
+      ],
+      "kernel": 200289,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 0,
+      "m": 10002022911,
+      "factors": {
+        "3": 3,
+        "4637": 1,
+        "79889": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 1,
+      "m": 10002022907,
+      "factors": {
+        "6679": 1,
+        "1497533": 1
+      },
+      "bad_primes": [
+        6679
+      ],
+      "kernel": 6679,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 6679
+    },
+    {
+      "c": 11,
+      "d": 2,
+      "m": 10002022887,
+      "factors": {
+        "3": 1,
+        "1091": 1,
+        "3055919": 1
+      },
+      "bad_primes": [
+        3,
+        1091,
+        3055919
+      ],
+      "kernel": 10002022887,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 3,
+      "m": 10002022787,
+      "factors": {
+        "10002022787": 1
+      },
+      "bad_primes": [
+        10002022787
+      ],
+      "kernel": 10002022787,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10002022787
+    },
+    {
+      "c": 11,
+      "d": 4,
+      "m": 10002022287,
+      "factors": {
+        "3": 1,
+        "127": 1,
+        "26252027": 1
+      },
+      "bad_primes": [
+        3,
+        127,
+        26252027
+      ],
+      "kernel": 10002022287,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 5,
+      "m": 10002019787,
+      "factors": {
+        "10002019787": 1
+      },
+      "bad_primes": [
+        10002019787
+      ],
+      "kernel": 10002019787,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10002019787
+    },
+    {
+      "c": 11,
+      "d": 6,
+      "m": 10002007287,
+      "factors": {
+        "3": 2,
+        "29": 1,
+        "38321867": 1
+      },
+      "bad_primes": [
+        38321867
+      ],
+      "kernel": 38321867,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 38321867
+    },
+    {
+      "c": 11,
+      "d": 7,
+      "m": 10001944787,
+      "factors": {
+        "12841": 1,
+        "778907": 1
+      },
+      "bad_primes": [
+        778907
+      ],
+      "kernel": 778907,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 778907
+    },
+    {
+      "c": 11,
+      "d": 8,
+      "m": 10001632287,
+      "factors": {
+        "3": 1,
+        "17": 1,
+        "223": 1,
+        "593": 1,
+        "1483": 1
+      },
+      "bad_primes": [
+        3,
+        223,
+        1483
+      ],
+      "kernel": 992127,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 9,
+      "m": 10000069787,
+      "factors": {
+        "6101": 1,
+        "1639087": 1
+      },
+      "bad_primes": [
+        1639087
+      ],
+      "kernel": 1639087,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1639087
+    },
+    {
+      "c": 11,
+      "d": 10,
+      "m": 9992257287,
+      "factors": {
+        "3": 1,
+        "23": 1,
+        "59": 1,
+        "277": 1,
+        "8861": 1
+      },
+      "bad_primes": [
+        3,
+        23,
+        59
+      ],
+      "kernel": 4071,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 11,
+      "d": 11,
+      "m": 9953194787,
+      "factors": {
+        "8233": 1,
+        "1208939": 1
+      },
+      "bad_primes": [
+        1208939
+      ],
+      "kernel": 1208939,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1208939
+    },
+    {
+      "c": 11,
+      "d": 12,
+      "m": 9757882287,
+      "factors": {
+        "3": 2,
+        "151": 1,
+        "7180193": 1
+      },
+      "bad_primes": [
+        151
+      ],
+      "kernel": 151,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 151
+    },
+    {
+      "c": 11,
+      "d": 13,
+      "m": 8781319787,
+      "factors": {
+        "53": 1,
+        "1787": 1,
+        "92717": 1
+      },
+      "bad_primes": [
+        1787
+      ],
+      "kernel": 1787,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1787
+    },
+    {
+      "c": 11,
+      "d": 14,
+      "m": 3898507287,
+      "factors": {
+        "3": 1,
+        "7351": 1,
+        "176779": 1
+      },
+      "bad_primes": [
+        3,
+        7351,
+        176779
+      ],
+      "kernel": 3898507287,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 0,
+      "m": 10001668617,
+      "factors": {
+        "3": 3,
+        "41": 1,
+        "401": 1,
+        "22531": 1
+      },
+      "bad_primes": [
+        3,
+        22531
+      ],
+      "kernel": 67593,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 1,
+      "m": 10001668613,
+      "factors": {
+        "59": 1,
+        "169519807": 1
+      },
+      "bad_primes": [
+        59,
+        169519807
+      ],
+      "kernel": 10001668613,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 59
+    },
+    {
+      "c": 12,
+      "d": 2,
+      "m": 10001668593,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "13381": 1,
+        "35593": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 3,
+      "m": 10001668493,
+      "factors": {
+        "10001668493": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 12,
+      "d": 4,
+      "m": 10001667993,
+      "factors": {
+        "3": 1,
+        "3333889331": 1
+      },
+      "bad_primes": [
+        3,
+        3333889331
+      ],
+      "kernel": 10001667993,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 5,
+      "m": 10001665493,
+      "factors": {
+        "19": 1,
+        "29": 1,
+        "163": 1,
+        "193": 1,
+        "577": 1
+      },
+      "bad_primes": [
+        19,
+        163
+      ],
+      "kernel": 3097,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 12,
+      "d": 6,
+      "m": 10001652993,
+      "factors": {
+        "3": 2,
+        "17": 1,
+        "2063": 1,
+        "31687": 1
+      },
+      "bad_primes": [
+        2063,
+        31687
+      ],
+      "kernel": 65370281,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 2063
+    },
+    {
+      "c": 12,
+      "d": 7,
+      "m": 10001590493,
+      "factors": {
+        "10001590493": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 12,
+      "d": 8,
+      "m": 10001277993,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "349": 1,
+        "1364617": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 9,
+      "m": 9999715493,
+      "factors": {
+        "9999715493": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 12,
+      "d": 10,
+      "m": 9991902993,
+      "factors": {
+        "3": 1,
+        "151": 1,
+        "22057181": 1
+      },
+      "bad_primes": [
+        3,
+        151
+      ],
+      "kernel": 453,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 12,
+      "d": 11,
+      "m": 9952840493,
+      "factors": {
+        "37": 1,
+        "4019": 1,
+        "66931": 1
+      },
+      "bad_primes": [
+        4019,
+        66931
+      ],
+      "kernel": 268995689,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 4019
+    },
+    {
+      "c": 12,
+      "d": 12,
+      "m": 9757527993,
+      "factors": {
+        "3": 2,
+        "337": 1,
+        "3217121": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 12,
+      "d": 13,
+      "m": 8780965493,
+      "factors": {
+        "8780965493": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 12,
+      "d": 14,
+      "m": 3898152993,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "19": 1,
+        "9769807": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        19,
+        9769807
+      ],
+      "kernel": 3898152993,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 0,
+      "m": 10000605735,
+      "factors": {
+        "3": 3,
+        "5": 1,
+        "23": 1,
+        "31": 1,
+        "107": 1,
+        "971": 1
+      },
+      "bad_primes": [
+        3,
+        23,
+        31,
+        107,
+        971
+      ],
+      "kernel": 222235683,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 1,
+      "m": 10000605731,
+      "factors": {
+        "10000605731": 1
+      },
+      "bad_primes": [
+        10000605731
+      ],
+      "kernel": 10000605731,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10000605731
+    },
+    {
+      "c": 13,
+      "d": 2,
+      "m": 10000605711,
+      "factors": {
+        "3": 1,
+        "19": 1,
+        "175449223": 1
+      },
+      "bad_primes": [
+        3,
+        19,
+        175449223
+      ],
+      "kernel": 10000605711,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 3,
+      "m": 10000605611,
+      "factors": {
+        "31": 1,
+        "322600181": 1
+      },
+      "bad_primes": [
+        31
+      ],
+      "kernel": 31,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 13,
+      "d": 4,
+      "m": 10000605111,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "476219291": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        476219291
+      ],
+      "kernel": 10000605111,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 5,
+      "m": 10000602611,
+      "factors": {
+        "10000602611": 1
+      },
+      "bad_primes": [
+        10000602611
+      ],
+      "kernel": 10000602611,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 10000602611
+    },
+    {
+      "c": 13,
+      "d": 6,
+      "m": 10000590111,
+      "factors": {
+        "3": 2,
+        "31": 1,
+        "47": 1,
+        "762647": 1
+      },
+      "bad_primes": [
+        31,
+        47,
+        762647
+      ],
+      "kernel": 1111176679,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 13,
+      "d": 7,
+      "m": 10000527611,
+      "factors": {
+        "6961": 1,
+        "1436651": 1
+      },
+      "bad_primes": [
+        1436651
+      ],
+      "kernel": 1436651,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1436651
+    },
+    {
+      "c": 13,
+      "d": 8,
+      "m": 10000215111,
+      "factors": {
+        "3": 1,
+        "293": 1,
+        "11376809": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 9,
+      "m": 9998652611,
+      "factors": {
+        "31": 1,
+        "503": 1,
+        "641227": 1
+      },
+      "bad_primes": [
+        31,
+        503,
+        641227
+      ],
+      "kernel": 9998652611,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 13,
+      "d": 10,
+      "m": 9990840111,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "475754291": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        475754291
+      ],
+      "kernel": 9990840111,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 13,
+      "d": 11,
+      "m": 9951777611,
+      "factors": {
+        "17": 1,
+        "19": 2,
+        "359": 1,
+        "4517": 1
+      },
+      "bad_primes": [
+        359
+      ],
+      "kernel": 359,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 359
+    },
+    {
+      "c": 13,
+      "d": 12,
+      "m": 9756465111,
+      "factors": {
+        "3": 2,
+        "31": 1,
+        "61": 1,
+        "73": 1,
+        "7853": 1
+      },
+      "bad_primes": [
+        31
+      ],
+      "kernel": 31,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 31
+    },
+    {
+      "c": 13,
+      "d": 13,
+      "m": 8779902611,
+      "factors": {
+        "347": 1,
+        "1123": 1,
+        "22531": 1
+      },
+      "bad_primes": [
+        347,
+        1123,
+        22531
+      ],
+      "kernel": 8779902611,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 347
+    },
+    {
+      "c": 13,
+      "d": 14,
+      "m": 3897090111,
+      "factors": {
+        "3": 1,
+        "1299030037": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 0,
+      "m": 9997417089,
+      "factors": {
+        "3": 3,
+        "11": 1,
+        "389": 1,
+        "86533": 1
+      },
+      "bad_primes": [
+        3,
+        11
+      ],
+      "kernel": 33,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 1,
+      "m": 9997417085,
+      "factors": {
+        "5": 1,
+        "1999483417": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 14,
+      "d": 2,
+      "m": 9997417065,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "666494471": 1
+      },
+      "bad_primes": [
+        3,
+        666494471
+      ],
+      "kernel": 1999483413,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 3,
+      "m": 9997416965,
+      "factors": {
+        "5": 1,
+        "8971": 1,
+        "222883": 1
+      },
+      "bad_primes": [
+        8971,
+        222883
+      ],
+      "kernel": 1999483393,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 8971
+    },
+    {
+      "c": 14,
+      "d": 4,
+      "m": 9997416465,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "37": 1,
+        "577": 1,
+        "31219": 1
+      },
+      "bad_primes": [
+        3,
+        31219
+      ],
+      "kernel": 93657,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 5,
+      "m": 9997413965,
+      "factors": {
+        "5": 1,
+        "7": 1,
+        "11": 1,
+        "41": 1,
+        "127": 1,
+        "4987": 1
+      },
+      "bad_primes": [
+        7,
+        11,
+        127,
+        4987
+      ],
+      "kernel": 48767873,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 14,
+      "d": 6,
+      "m": 9997401465,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "73": 1,
+        "3043349": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 14,
+      "d": 7,
+      "m": 9997338965,
+      "factors": {
+        "5": 1,
+        "19": 1,
+        "43": 1,
+        "2447329": 1
+      },
+      "bad_primes": [
+        19,
+        43
+      ],
+      "kernel": 817,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 14,
+      "d": 8,
+      "m": 9997026465,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "666468431": 1
+      },
+      "bad_primes": [
+        3,
+        666468431
+      ],
+      "kernel": 1999405293,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 9,
+      "m": 9995463965,
+      "factors": {
+        "5": 1,
+        "61": 1,
+        "4597": 1,
+        "7129": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 14,
+      "d": 10,
+      "m": 9987651465,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "11": 1,
+        "5749": 1,
+        "10529": 1
+      },
+      "bad_primes": [
+        3,
+        11
+      ],
+      "kernel": 33,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 14,
+      "d": 11,
+      "m": 9948588965,
+      "factors": {
+        "5": 1,
+        "7": 1,
+        "284245399": 1
+      },
+      "bad_primes": [
+        7,
+        284245399
+      ],
+      "kernel": 1989717793,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 14,
+      "d": 12,
+      "m": 9753276465,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "17": 1,
+        "83": 1,
+        "153607": 1
+      },
+      "bad_primes": [
+        83,
+        153607
+      ],
+      "kernel": 12749381,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 83
+    },
+    {
+      "c": 14,
+      "d": 13,
+      "m": 8776713965,
+      "factors": {
+        "5": 1,
+        "47": 1,
+        "1583": 1,
+        "23593": 1
+      },
+      "bad_primes": [
+        47,
+        1583
+      ],
+      "kernel": 74401,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 47
+    },
+    {
+      "c": 14,
+      "d": 14,
+      "m": 3893901465,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "113": 1,
+        "439": 1,
+        "5233": 1
+      },
+      "bad_primes": [
+        3,
+        439
+      ],
+      "kernel": 1317,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 0,
+      "m": 9987851151,
+      "factors": {
+        "3": 3,
+        "37": 1,
+        "137": 1,
+        "72977": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 1,
+      "m": 9987851147,
+      "factors": {
+        "311": 1,
+        "1861": 1,
+        "17257": 1
+      },
+      "bad_primes": [
+        311
+      ],
+      "kernel": 311,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 311
+    },
+    {
+      "c": 15,
+      "d": 2,
+      "m": 9987851127,
+      "factors": {
+        "3": 1,
+        "3329283709": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 3,
+      "m": 9987851027,
+      "factors": {
+        "7": 1,
+        "11": 1,
+        "9907": 1,
+        "13093": 1
+      },
+      "bad_primes": [
+        7,
+        11,
+        9907
+      ],
+      "kernel": 762839,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 15,
+      "d": 4,
+      "m": 9987850527,
+      "factors": {
+        "3": 1,
+        "271": 1,
+        "883": 1,
+        "13913": 1
+      },
+      "bad_primes": [
+        3,
+        271,
+        883
+      ],
+      "kernel": 717879,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 5,
+      "m": 9987848027,
+      "factors": {
+        "9987848027": 1
+      },
+      "bad_primes": [
+        9987848027
+      ],
+      "kernel": 9987848027,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9987848027
+    },
+    {
+      "c": 15,
+      "d": 6,
+      "m": 9987835527,
+      "factors": {
+        "3": 2,
+        "809": 1,
+        "1371767": 1
+      },
+      "bad_primes": [
+        1371767
+      ],
+      "kernel": 1371767,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 1371767
+    },
+    {
+      "c": 15,
+      "d": 7,
+      "m": 9987773027,
+      "factors": {
+        "659": 1,
+        "15155953": 1
+      },
+      "bad_primes": [
+        659
+      ],
+      "kernel": 659,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 659
+    },
+    {
+      "c": 15,
+      "d": 8,
+      "m": 9987460527,
+      "factors": {
+        "3": 1,
+        "11": 1,
+        "11093": 1,
+        "27283": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        27283
+      ],
+      "kernel": 900339,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 9,
+      "m": 9985898027,
+      "factors": {
+        "7": 1,
+        "113": 1,
+        "139": 1,
+        "90823": 1
+      },
+      "bad_primes": [
+        7,
+        139,
+        90823
+      ],
+      "kernel": 88370779,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 15,
+      "d": 10,
+      "m": 9978085527,
+      "factors": {
+        "3": 1,
+        "52733": 1,
+        "63073": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 15,
+      "d": 11,
+      "m": 9939023027,
+      "factors": {
+        "94561": 1,
+        "105107": 1
+      },
+      "bad_primes": [
+        105107
+      ],
+      "kernel": 105107,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 105107
+    },
+    {
+      "c": 15,
+      "d": 12,
+      "m": 9743710527,
+      "factors": {
+        "3": 2,
+        "263": 1,
+        "431": 1,
+        "9551": 1
+      },
+      "bad_primes": [
+        263,
+        431,
+        9551
+      ],
+      "kernel": 1082634503,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 263
+    },
+    {
+      "c": 15,
+      "d": 13,
+      "m": 8767148027,
+      "factors": {
+        "11": 1,
+        "23": 1,
+        "34652759": 1
+      },
+      "bad_primes": [
+        11,
+        23,
+        34652759
+      ],
+      "kernel": 8767148027,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 15,
+      "d": 14,
+      "m": 3884335527,
+      "factors": {
+        "3": 1,
+        "8581": 1,
+        "150889": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 0,
+      "m": 9959153337,
+      "factors": {
+        "3": 3,
+        "7": 1,
+        "1213": 1,
+        "43441": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 1,
+      "m": 9959153333,
+      "factors": {
+        "17": 1,
+        "11117": 1,
+        "52697": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 16,
+      "d": 2,
+      "m": 9959153313,
+      "factors": {
+        "3": 1,
+        "47": 1,
+        "4957": 1,
+        "14249": 1
+      },
+      "bad_primes": [
+        3,
+        47
+      ],
+      "kernel": 141,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 3,
+      "m": 9959153213,
+      "factors": {
+        "59": 1,
+        "137": 1,
+        "383": 1,
+        "3217": 1
+      },
+      "bad_primes": [
+        59,
+        383
+      ],
+      "kernel": 22597,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 59
+    },
+    {
+      "c": 16,
+      "d": 4,
+      "m": 9959152713,
+      "factors": {
+        "3": 1,
+        "5119": 1,
+        "648509": 1
+      },
+      "bad_primes": [
+        3,
+        5119
+      ],
+      "kernel": 15357,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 5,
+      "m": 9959150213,
+      "factors": {
+        "23": 1,
+        "12899": 1,
+        "33569": 1
+      },
+      "bad_primes": [
+        23,
+        12899
+      ],
+      "kernel": 296677,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 16,
+      "d": 6,
+      "m": 9959137713,
+      "factors": {
+        "3": 2,
+        "7": 1,
+        "83": 1,
+        "1904597": 1
+      },
+      "bad_primes": [
+        7,
+        83
+      ],
+      "kernel": 581,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 16,
+      "d": 7,
+      "m": 9959075213,
+      "factors": {
+        "9959075213": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 16,
+      "d": 8,
+      "m": 9958762713,
+      "factors": {
+        "3": 1,
+        "37": 1,
+        "89718583": 1
+      },
+      "bad_primes": [
+        3,
+        89718583
+      ],
+      "kernel": 269155749,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 9,
+      "m": 9957200213,
+      "factors": {
+        "9957200213": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 16,
+      "d": 10,
+      "m": 9949387713,
+      "factors": {
+        "3": 1,
+        "41": 1,
+        "80889331": 1
+      },
+      "bad_primes": [
+        3,
+        80889331
+      ],
+      "kernel": 242667993,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 16,
+      "d": 11,
+      "m": 9910325213,
+      "factors": {
+        "9910325213": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 16,
+      "d": 12,
+      "m": 9715012713,
+      "factors": {
+        "3": 2,
+        "7": 1,
+        "109": 1,
+        "311": 1,
+        "4549": 1
+      },
+      "bad_primes": [
+        7,
+        311
+      ],
+      "kernel": 2177,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 16,
+      "d": 13,
+      "m": 8738450213,
+      "factors": {
+        "107": 1,
+        "317": 1,
+        "257627": 1
+      },
+      "bad_primes": [
+        107,
+        257627
+      ],
+      "kernel": 27566089,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 107
+    },
+    {
+      "c": 16,
+      "d": 14,
+      "m": 3855637713,
+      "factors": {
+        "3": 1,
+        "1285212571": 1
+      },
+      "bad_primes": [
+        3,
+        1285212571
+      ],
+      "kernel": 3855637713,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 0,
+      "m": 9873059895,
+      "factors": {
+        "3": 3,
+        "5": 1,
+        "2179": 1,
+        "33563": 1
+      },
+      "bad_primes": [
+        3,
+        2179,
+        33563
+      ],
+      "kernel": 219401331,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 1,
+      "m": 9873059891,
+      "factors": {
+        "21589": 1,
+        "457319": 1
+      },
+      "bad_primes": [
+        457319
+      ],
+      "kernel": 457319,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 457319
+    },
+    {
+      "c": 17,
+      "d": 2,
+      "m": 9873059871,
+      "factors": {
+        "3": 1,
+        "2281": 1,
+        "1442797": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 3,
+      "m": 9873059771,
+      "factors": {
+        "283": 1,
+        "34887137": 1
+      },
+      "bad_primes": [
+        283
+      ],
+      "kernel": 283,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 283
+    },
+    {
+      "c": 17,
+      "d": 4,
+      "m": 9873059271,
+      "factors": {
+        "3": 1,
+        "1471": 1,
+        "2237267": 1
+      },
+      "bad_primes": [
+        3,
+        1471,
+        2237267
+      ],
+      "kernel": 9873059271,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 5,
+      "m": 9873056771,
+      "factors": {
+        "9873056771": 1
+      },
+      "bad_primes": [
+        9873056771
+      ],
+      "kernel": 9873056771,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9873056771
+    },
+    {
+      "c": 17,
+      "d": 6,
+      "m": 9873044271,
+      "factors": {
+        "3": 2,
+        "19": 1,
+        "6221": 1,
+        "9281": 1
+      },
+      "bad_primes": [
+        19
+      ],
+      "kernel": 19,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 17,
+      "d": 7,
+      "m": 9872981771,
+      "factors": {
+        "23": 1,
+        "743": 1,
+        "577739": 1
+      },
+      "bad_primes": [
+        23,
+        743,
+        577739
+      ],
+      "kernel": 9872981771,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 17,
+      "d": 8,
+      "m": 9872669271,
+      "factors": {
+        "3": 1,
+        "47": 1,
+        "70018931": 1
+      },
+      "bad_primes": [
+        3,
+        47,
+        70018931
+      ],
+      "kernel": 9872669271,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 9,
+      "m": 9871106771,
+      "factors": {
+        "9871106771": 1
+      },
+      "bad_primes": [
+        9871106771
+      ],
+      "kernel": 9871106771,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9871106771
+    },
+    {
+      "c": 17,
+      "d": 10,
+      "m": 9863294271,
+      "factors": {
+        "3": 1,
+        "3287764757": 1
+      },
+      "bad_primes": [
+        3
+      ],
+      "kernel": 3,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 17,
+      "d": 11,
+      "m": 9824231771,
+      "factors": {
+        "9824231771": 1
+      },
+      "bad_primes": [
+        9824231771
+      ],
+      "kernel": 9824231771,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 9824231771
+    },
+    {
+      "c": 17,
+      "d": 12,
+      "m": 9628919271,
+      "factors": {
+        "3": 2,
+        "29": 1,
+        "67": 1,
+        "199": 1,
+        "2767": 1
+      },
+      "bad_primes": [
+        67,
+        199,
+        2767
+      ],
+      "kernel": 36892411,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 67
+    },
+    {
+      "c": 17,
+      "d": 13,
+      "m": 8652356771,
+      "factors": {
+        "17": 1,
+        "508962163": 1
+      },
+      "bad_primes": [
+        508962163
+      ],
+      "kernel": 508962163,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 508962163
+    },
+    {
+      "c": 17,
+      "d": 14,
+      "m": 3769544271,
+      "factors": {
+        "3": 1,
+        "1483": 1,
+        "847279": 1
+      },
+      "bad_primes": [
+        3,
+        1483,
+        847279
+      ],
+      "kernel": 3769544271,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 0,
+      "m": 9614779569,
+      "factors": {
+        "3": 3,
+        "2549": 1,
+        "139703": 1
+      },
+      "bad_primes": [
+        3,
+        139703
+      ],
+      "kernel": 419109,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 1,
+      "m": 9614779565,
+      "factors": {
+        "5": 1,
+        "1922955913": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 18,
+      "d": 2,
+      "m": 9614779545,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "2903": 1,
+        "31543": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        2903,
+        31543
+      ],
+      "kernel": 1922955909,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 3,
+      "m": 9614779445,
+      "factors": {
+        "5": 1,
+        "1922955889": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 18,
+      "d": 4,
+      "m": 9614778945,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "59": 1,
+        "10864157": 1
+      },
+      "bad_primes": [
+        3,
+        59
+      ],
+      "kernel": 177,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 5,
+      "m": 9614776445,
+      "factors": {
+        "5": 1,
+        "17": 1,
+        "113115017": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 18,
+      "d": 6,
+      "m": 9614763945,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "23": 1,
+        "37": 1,
+        "251071": 1
+      },
+      "bad_primes": [
+        23,
+        251071
+      ],
+      "kernel": 5774633,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 23
+    },
+    {
+      "c": 18,
+      "d": 7,
+      "m": 9614701445,
+      "factors": {
+        "5": 1,
+        "443": 1,
+        "647": 1,
+        "6709": 1
+      },
+      "bad_primes": [
+        443,
+        647
+      ],
+      "kernel": 286621,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 443
+    },
+    {
+      "c": 18,
+      "d": 8,
+      "m": 9614388945,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "53": 1,
+        "1727653": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 9,
+      "m": 9612826445,
+      "factors": {
+        "5": 1,
+        "167": 1,
+        "3253": 1,
+        "3539": 1
+      },
+      "bad_primes": [
+        167,
+        3539
+      ],
+      "kernel": 591013,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 167
+    },
+    {
+      "c": 18,
+      "d": 10,
+      "m": 9605013945,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "61": 1,
+        "79": 1,
+        "89": 1,
+        "1493": 1
+      },
+      "bad_primes": [
+        3,
+        79
+      ],
+      "kernel": 237,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 18,
+      "d": 11,
+      "m": 9565951445,
+      "factors": {
+        "5": 1,
+        "103": 1,
+        "18574663": 1
+      },
+      "bad_primes": [
+        103,
+        18574663
+      ],
+      "kernel": 1913190289,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 103
+    },
+    {
+      "c": 18,
+      "d": 12,
+      "m": 9370638945,
+      "factors": {
+        "3": 2,
+        "5": 1,
+        "131": 1,
+        "1589591": 1
+      },
+      "bad_primes": [
+        131,
+        1589591
+      ],
+      "kernel": 208236421,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 131
+    },
+    {
+      "c": 18,
+      "d": 13,
+      "m": 8394076445,
+      "factors": {
+        "5": 1,
+        "5297": 1,
+        "316937": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 18,
+      "d": 14,
+      "m": 3511263945,
+      "factors": {
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "557": 1,
+        "60037": 1
+      },
+      "bad_primes": [
+        3,
+        7
+      ],
+      "kernel": 21,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 0,
+      "m": 8839938591,
+      "factors": {
+        "3": 3,
+        "11": 1,
+        "191": 1,
+        "155833": 1
+      },
+      "bad_primes": [
+        3,
+        11,
+        191
+      ],
+      "kernel": 6303,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 1,
+      "m": 8839938587,
+      "factors": {
+        "8839938587": 1
+      },
+      "bad_primes": [
+        8839938587
+      ],
+      "kernel": 8839938587,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 8839938587
+    },
+    {
+      "c": 19,
+      "d": 2,
+      "m": 8839938567,
+      "factors": {
+        "3": 1,
+        "71": 1,
+        "41502059": 1
+      },
+      "bad_primes": [
+        3,
+        71,
+        41502059
+      ],
+      "kernel": 8839938567,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 3,
+      "m": 8839938467,
+      "factors": {
+        "8839938467": 1
+      },
+      "bad_primes": [
+        8839938467
+      ],
+      "kernel": 8839938467,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 8839938467
+    },
+    {
+      "c": 19,
+      "d": 4,
+      "m": 8839937967,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "17": 1,
+        "19": 1,
+        "23": 1,
+        "56663": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        19,
+        23,
+        56663
+      ],
+      "kernel": 519996351,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 5,
+      "m": 8839935467,
+      "factors": {
+        "11": 1,
+        "803630497": 1
+      },
+      "bad_primes": [
+        11
+      ],
+      "kernel": 11,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 19,
+      "d": 6,
+      "m": 8839922967,
+      "factors": {
+        "3": 2,
+        "23929": 1,
+        "41047": 1
+      },
+      "bad_primes": [
+        41047
+      ],
+      "kernel": 41047,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 41047
+    },
+    {
+      "c": 19,
+      "d": 7,
+      "m": 8839860467,
+      "factors": {
+        "71": 1,
+        "73": 1,
+        "1705549": 1
+      },
+      "bad_primes": [
+        71
+      ],
+      "kernel": 71,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 71
+    },
+    {
+      "c": 19,
+      "d": 8,
+      "m": 8839547967,
+      "factors": {
+        "3": 1,
+        "773": 1,
+        "1283": 1,
+        "2971": 1
+      },
+      "bad_primes": [
+        3,
+        1283,
+        2971
+      ],
+      "kernel": 11435379,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 9,
+      "m": 8837985467,
+      "factors": {
+        "229": 1,
+        "38593823": 1
+      },
+      "bad_primes": [
+        38593823
+      ],
+      "kernel": 38593823,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 38593823
+    },
+    {
+      "c": 19,
+      "d": 10,
+      "m": 8830172967,
+      "factors": {
+        "3": 1,
+        "7": 1,
+        "11": 1,
+        "29": 1,
+        "97": 1,
+        "107": 1,
+        "127": 1
+      },
+      "bad_primes": [
+        3,
+        7,
+        11,
+        107,
+        127
+      ],
+      "kernel": 3139059,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 19,
+      "d": 11,
+      "m": 8791110467,
+      "factors": {
+        "8791110467": 1
+      },
+      "bad_primes": [
+        8791110467
+      ],
+      "kernel": 8791110467,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 8791110467
+    },
+    {
+      "c": 19,
+      "d": 12,
+      "m": 8595797967,
+      "factors": {
+        "3": 2,
+        "71": 1,
+        "13451953": 1
+      },
+      "bad_primes": [
+        71
+      ],
+      "kernel": 71,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 71
+    },
+    {
+      "c": 19,
+      "d": 13,
+      "m": 7619235467,
+      "factors": {
+        "19": 1,
+        "10487": 1,
+        "38239": 1
+      },
+      "bad_primes": [
+        19,
+        10487,
+        38239
+      ],
+      "kernel": 7619235467,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 19
+    },
+    {
+      "c": 19,
+      "d": 14,
+      "m": 2736422967,
+      "factors": {
+        "3": 1,
+        "10651": 1,
+        "85639": 1
+      },
+      "bad_primes": [
+        3,
+        10651,
+        85639
+      ],
+      "kernel": 2736422967,
+      "L2": false,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 0,
+      "m": 6515415657,
+      "factors": {
+        "3": 3,
+        "41": 1,
+        "1303": 1,
+        "4517": 1
+      },
+      "bad_primes": [
+        3,
+        1303
+      ],
+      "kernel": 3909,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 1,
+      "m": 6515415653,
+      "factors": {
+        "6515415653": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 20,
+      "d": 2,
+      "m": 6515415633,
+      "factors": {
+        "3": 1,
+        "2171805211": 1
+      },
+      "bad_primes": [
+        3,
+        2171805211
+      ],
+      "kernel": 6515415633,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 3,
+      "m": 6515415533,
+      "factors": {
+        "11": 1,
+        "19": 1,
+        "31174237": 1
+      },
+      "bad_primes": [
+        11,
+        19
+      ],
+      "kernel": 209,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 20,
+      "d": 4,
+      "m": 6515415033,
+      "factors": {
+        "3": 1,
+        "3559": 1,
+        "610229": 1
+      },
+      "bad_primes": [
+        3,
+        3559
+      ],
+      "kernel": 10677,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 5,
+      "m": 6515412533,
+      "factors": {
+        "7": 1,
+        "930773219": 1
+      },
+      "bad_primes": [
+        7,
+        930773219
+      ],
+      "kernel": 6515412533,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 20,
+      "d": 6,
+      "m": 6515400033,
+      "factors": {
+        "3": 2,
+        "43": 1,
+        "103": 1,
+        "149": 1,
+        "1097": 1
+      },
+      "bad_primes": [
+        43,
+        103
+      ],
+      "kernel": 4429,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 43
+    },
+    {
+      "c": 20,
+      "d": 7,
+      "m": 6515337533,
+      "factors": {
+        "17": 1,
+        "79": 1,
+        "4851331": 1
+      },
+      "bad_primes": [
+        79,
+        4851331
+      ],
+      "kernel": 383255149,
+      "L2": true,
+      "local_G": true,
+      "norm": false,
+      "least_bad": 79
+    },
+    {
+      "c": 20,
+      "d": 8,
+      "m": 6515025033,
+      "factors": {
+        "3": 1,
+        "11": 1,
+        "197425001": 1
+      },
+      "bad_primes": [
+        3,
+        11
+      ],
+      "kernel": 33,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 9,
+      "m": 6513462533,
+      "factors": {
+        "109": 1,
+        "59756537": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 20,
+      "d": 10,
+      "m": 6505650033,
+      "factors": {
+        "3": 1,
+        "373": 1,
+        "5813807": 1
+      },
+      "bad_primes": [
+        3,
+        5813807
+      ],
+      "kernel": 17441421,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    },
+    {
+      "c": 20,
+      "d": 11,
+      "m": 6466587533,
+      "factors": {
+        "7": 1,
+        "29": 1,
+        "151": 1,
+        "210961": 1
+      },
+      "bad_primes": [
+        7,
+        151
+      ],
+      "kernel": 1057,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 7
+    },
+    {
+      "c": 20,
+      "d": 12,
+      "m": 6271275033,
+      "factors": {
+        "3": 2,
+        "19": 2,
+        "1009": 1,
+        "1913": 1
+      },
+      "bad_primes": [],
+      "kernel": 1,
+      "L2": true,
+      "local_G": true,
+      "norm": true,
+      "least_bad": null
+    },
+    {
+      "c": 20,
+      "d": 13,
+      "m": 5294712533,
+      "factors": {
+        "11": 1,
+        "2957": 1,
+        "162779": 1
+      },
+      "bad_primes": [
+        11,
+        162779
+      ],
+      "kernel": 1790569,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 11
+    },
+    {
+      "c": 20,
+      "d": 14,
+      "m": 411900033,
+      "factors": {
+        "3": 1,
+        "83": 1,
+        "1654217": 1
+      },
+      "bad_primes": [
+        3,
+        83
+      ],
+      "kernel": 249,
+      "L2": true,
+      "local_G": false,
+      "norm": false,
+      "least_bad": 3
+    }
+  ]
+}
