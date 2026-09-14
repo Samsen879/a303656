@@ -1,0 +1,115 @@
+[
+  {
+    "source_path": "QUATERNION_REFORMULATION.md",
+    "repository_relative_path": "QUATERNION_REFORMULATION.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "1c736259df78df209a332aa193604749037f53e6994de8166d1188c08767b53f",
+    "bytes": 3572
+  },
+  {
+    "source_path": "NEIGHBOR_OPERATORS.md",
+    "repository_relative_path": "NEIGHBOR_OPERATORS.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "31cef07b4fc15c1de9e5ee59233cb1d150c62d0fc5c42ea10199744cabe652a8",
+    "bytes": 4756
+  },
+  {
+    "source_path": "INTEGRALITY.md",
+    "repository_relative_path": "INTEGRALITY.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "7321985cc60919b02d4b8342c8fa43e670f8d83ae089d2efd884e5a7bb9962a2",
+    "bytes": 2579
+  },
+  {
+    "source_path": "INVARIANTS.md",
+    "repository_relative_path": "INVARIANTS.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "f97eacb7380363f4b6fe0abc385a11818c13a1c4c4946e99e629e44532b402a0",
+    "bytes": 4375
+  },
+  {
+    "source_path": "MATRIX_MODEL.md",
+    "repository_relative_path": "MATRIX_MODEL.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "63e04ffa463ca910ff607999b80894d39bf5916fe4325530a064a9e280fd2474",
+    "bytes": 2333
+  },
+  {
+    "source_path": "MINIMAL_COUNTEREXAMPLE.md",
+    "repository_relative_path": "MINIMAL_COUNTEREXAMPLE.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "53f2ad0666d326eb70e4d02adc9fdc0301dbb6e4531e6e30b68d55aa90e5437b",
+    "bytes": 3454
+  },
+  {
+    "source_path": "COUNTEREXAMPLES.md",
+    "repository_relative_path": "COUNTEREXAMPLES.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "3837cd31ca10bb57b4f7d3f5cae31866b3306644d8c1fad45fe67333a34622f9",
+    "bytes": 4268
+  },
+  {
+    "source_path": "DESCENT_CANDIDATES.md",
+    "repository_relative_path": "DESCENT_CANDIDATES.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "2489020c782eb14132fa55ca97ba2add9966b7b147ec9410b528fe16390f9e39",
+    "bytes": 3686
+  },
+  {
+    "source_path": "LITERATURE.md",
+    "repository_relative_path": "LITERATURE.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "8c10578e0f371d99485a8628a127547fae4a70ee1061a4870cc2af413d1b6a9a",
+    "bytes": 6126
+  },
+  {
+    "source_path": "AUDIT.md",
+    "repository_relative_path": "AUDIT.md",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "e14df3430f21e90201bf8cdc7128a47d2727fb35f3260b0c8334be82cbf4e3ae",
+    "bytes": 2546
+  },
+  {
+    "source_path": "reference.py",
+    "repository_relative_path": "reference/reference.py",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "ee3e8c369bfb571e6c7534b0b2b5d7b432475af077bdbb52e5ef26188d904a15",
+    "bytes": 11389
+  },
+  {
+    "source_path": "independent_audit.py",
+    "repository_relative_path": "reference/independent_audit.py",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "664431ebb69baf149f9e382fcc5cbd040fb8a679a7cf007f82b7500ac4b37226",
+    "bytes": 5970
+  },
+  {
+    "source_path": "bottlenecks.py",
+    "repository_relative_path": "reference/bottlenecks.py",
+    "treatment": "BYTE_IDENTICAL_SOURCE_COPY",
+    "sha256": "2743674462f57a6e5105c38b60f52ebb3edc00d0aafd642c061aa6a5eee17959",
+    "bytes": 1764
+  },
+  {
+    "source_path": "results.json",
+    "source_sha256": "9001be1a011e2cb6aa2daeb9a83338202b519b312b1b00256c517c5ac5174a1c",
+    "repository_relative_path": "results.json",
+    "treatment": "DERIVED_COMPACT_CERTIFICATE",
+    "sha256": "cb9aa28dc2872a92ed7dfcbe79630c0655c265d1ab02ec2526c7f59d300ab39d",
+    "bytes": 114221,
+    "transformation": {
+      "source_panel_count": 43,
+      "committed_norms": [
+        4,
+        9,
+        16,
+        47,
+        64,
+        81,
+        1175
+      ],
+      "treatment": "DERIVED_COMPACT_CERTIFICATE",
+      "rule": "Keep original global fields; filter panels to listed frozen norms and height_counterexamples to81/1175. No arithmetic values altered."
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "artifact_filename": "A303656_GAUSSIAN_HURWITZ_DESCENT_PHASE_M.zip",
+  "archive_sha256": "2388a72d15e5bfd16724fe1bc74039d08127b54f3d39bac9304186a0cd26c632",
+  "safe_list_result": "PASS",
+  "internal_manifest_result": "PASS",
+  "internal_manifest_sha256": "f534f5267b96332c03221ddc3ca08ba7047eed25b3b2cc7cc32a1b4a492d9ffb",
+  "internal_payload_files": 25,
+  "base_main_sha": "ee56c0d38a626b710354cc81406cb48e1255bdc0",
+  "base_main_tree": "7e4924e90e1648101c8aed7b27843c6ba328f160",
+  "integration_date": "2026-09-14",
+  "producer_replays": [
+    {
+      "script": "reference.py",
+      "returncode": 0,
+      "elapsed_seconds": 7.199424612997973,
+      "log_sha256": "6c875f1cc9e6144a783a892058ee147fe15f4d59e9ee9fa6a03121078f235436",
+      "status": "PASS"
+    },
+    {
+      "script": "bottlenecks.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.03244238899787888,
+      "log_sha256": "96561ceaeb348986badae8a85e4efcd09d00ac9b1faebbe70cf1e2d7530cbdb2",
+      "status": "PASS"
+    },
+    {
+      "script": "independent_audit.py",
+      "returncode": 0,
+      "elapsed_seconds": 0.6835210889985319,
+      "log_sha256": "afa663fa13b803005e1a98302e11b09948a79efdf09d4fb98ae0d39a63c01945",
+      "status": "PASS"
+    }
+  ],
+  "producer_replay_scope": "All43 original frozen shells; reference exact JSON equality; bottlenecks exact JSON equality; independent audit PASS. No panel extension.",
+  "independence": "Independent implementation by same producer assistant, not an external referee; no producer operator imports.",
+  "integration_replay_command": "python3 -B analysis/gaussian_hurwitz_descent_phase_m/verify.py",
+  "integration_replay_result": "PASS",
+  "integration_optional_original43_producer_replay_result": "PASS",
+  "integration_replay_scope": "Standard-library reconstruction of144 elements/10368 operators/all625 rank-integrality residues; independent seven-panel graph replay; both1175 products and exact minimax13; separate81 Omega failure; frozen conditional/bounded-lift and family algebra checks. Infinite proofs are not certified by samples.",
+  "omitted": [
+    "original ZIP",
+    "operators.npz (regenerated independently)",
+    "full43 graph dump",
+    "exploratory barriers/minimax dumps",
+    "duplicate producer reports/logs"
+  ]
+}
