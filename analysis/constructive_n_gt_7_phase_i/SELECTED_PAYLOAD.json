@@ -1,0 +1,156 @@
+[
+  {
+    "source_id": "constructive",
+    "source_relative_path": "THEOREMS.md",
+    "repository_relative_path": "reference/producer/THEOREMS.md",
+    "sha256": "cc5e4e5a78de4eaf399d80953086f50d31c60b1f1fa956a3e6aa460b8133c0f8",
+    "bytes": 18301
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "STRUCTURAL_NORMAL_FORMS.md",
+    "repository_relative_path": "reference/producer/STRUCTURAL_NORMAL_FORMS.md",
+    "sha256": "73715c00e3dfb892efb5e9b24c4aba270c7b59f77114e3a2773b27d197228987",
+    "bytes": 8582
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "PROOF_AUDIT.md",
+    "repository_relative_path": "reference/producer/PROOF_AUDIT.md",
+    "sha256": "a0bd047d00eb059b51c1c7dee6b71d750a210b0f31bcba2d8afc36c8ae7dc9b6",
+    "bytes": 5067
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "SOURCE_BINDING.json",
+    "repository_relative_path": "reference/producer/SOURCE_BINDING.json",
+    "sha256": "54de590495d1a06c346c21aaa1693bfa2c82214025e975ac7716270b27f3784a",
+    "bytes": 5882
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "COMPUTATION_SPEC.json",
+    "repository_relative_path": "reference/producer/COMPUTATION_SPEC.json",
+    "sha256": "05b275264b6df8076498daa2f83a4c7c114acf75c06d7fd20fe367a077ce003f",
+    "bytes": 1749
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "ACTUAL_BASIN_LIBRARY.json",
+    "repository_relative_path": "reference/producer/ACTUAL_BASIN_LIBRARY.json",
+    "sha256": "395b15e8ddb3cfe1c3e091900cadee74766f3562b98ed6e13bd3d90841b875ba",
+    "bytes": 12021
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "candidate_ledger.json",
+    "repository_relative_path": "reference/producer/candidate_ledger.json",
+    "sha256": "5f64d780e6d85367ca1f0193d8cbe5d2c2715735a8a48301b61bacf18185ed44",
+    "bytes": 7232
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "conditional_architectures.json",
+    "repository_relative_path": "reference/producer/conditional_architectures.json",
+    "sha256": "dbcf3cc9fcca2f37353543c42c4cf12b8cc2d54697becead052bdc608c4fdbc9",
+    "bytes": 17858
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "LINEAR_RECEIPTS.json",
+    "repository_relative_path": "reference/producer/LINEAR_RECEIPTS.json",
+    "sha256": "895f19b2903fe9abc77d25f65acb291929395df2befc34449b0457d45f6e45e8",
+    "bytes": 4295
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "results.json",
+    "repository_relative_path": "reference/producer/results.json",
+    "sha256": "b7d23a5c6dfba99c3dcc13d0e2cd44de78c869b35d4d3eb773b5823b622a296e",
+    "bytes": 3209
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "reference.py",
+    "repository_relative_path": "reference/producer/reference.py",
+    "sha256": "db7edb24f051d8940ea35934cd8495c7a7bf41808ee849be995ea24a569ee627",
+    "bytes": 17936
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "verifier.py",
+    "repository_relative_path": "reference/producer/verifier.py",
+    "sha256": "ffcf7e22e0055d99cab9c8ee3ffffe9cae0fae9770e8bf77b40c4c6be43fe7dc",
+    "bytes": 19764
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_279.txt",
+    "repository_relative_path": "reference/producer/targets/phi_279.txt",
+    "sha256": "2754f9618901c35bbf9c9ba15f9f29c7c7f3c72facff3a1aab13ab03f97c36f2",
+    "bytes": 127
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_903.txt",
+    "repository_relative_path": "reference/producer/targets/phi_903.txt",
+    "sha256": "b8d5510c24cc2924d28085262bce575b0f6c15c9c278fb5947fd489ad7c4a373",
+    "bytes": 354
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_191.txt",
+    "repository_relative_path": "reference/producer/targets/phi_191.txt",
+    "sha256": "d973396e265c672a3ad26ce91049abb5bdec2fce2e612be07e1612ce64552b02",
+    "bytes": 134
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_5167.txt",
+    "repository_relative_path": "reference/producer/targets/phi_5167.txt",
+    "sha256": "4fd447d4fb2bbb9abb15c370cf42167da8670d816cd5d86b591972044b34d855",
+    "bytes": 3612
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_271.txt",
+    "repository_relative_path": "reference/producer/targets/phi_271.txt",
+    "sha256": "1719dc3cfe0d2598431ef5803fd061d2b63ba0d9887c2972497f923a16369c75",
+    "bytes": 190
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_4159.txt",
+    "repository_relative_path": "reference/producer/targets/phi_4159.txt",
+    "sha256": "dabfb8b2afe62f244ac4618e4399966d7ff82ee7c24724de3858a4ee91c2300b",
+    "bytes": 2908
+  },
+  {
+    "source_id": "constructive",
+    "source_relative_path": "targets/phi_31051.txt",
+    "repository_relative_path": "reference/producer/targets/phi_31051.txt",
+    "sha256": "f34bf5723a216c12f1692591edd732f4ace9bf31b80a9299055c54290f8ea5f7",
+    "bytes": 21705
+  },
+  {
+    "source_id": "C279",
+    "source_relative_path": "C279.txt",
+    "repository_relative_path": "reference/c279/C279.txt",
+    "sha256": "2754f9618901c35bbf9c9ba15f9f29c7c7f3c72facff3a1aab13ab03f97c36f2",
+    "bytes": 127
+  },
+  {
+    "source_id": "C279",
+    "source_relative_path": "factors_279.json",
+    "repository_relative_path": "reference/c279/factors_279.json",
+    "sha256": "69b073449df9336e02cec5193adf48fac9b060d1bbaf953e5b73766d2b1107cc",
+    "bytes": 2452
+  },
+  {
+    "source_id": "C279",
+    "source_relative_path": "verify_factors.py",
+    "repository_relative_path": "reference/c279/verify_factors.py",
+    "sha256": "58555768e9fd1f1038f2423cc2f6cb5c10410de81c51ec464aeb2b54e9b0fa0b",
+    "bytes": 2552
+  }
+]

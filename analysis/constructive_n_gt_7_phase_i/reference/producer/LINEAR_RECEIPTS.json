@@ -1,0 +1,171 @@
+[
+  {
+    "module_id": "q20771",
+    "root": 20771,
+    "steps": [
+      {
+        "eliminate": 67,
+        "incoming_guard_modulus": 10385,
+        "incoming_guard_residue": 0,
+        "private_center": 0,
+        "exact_provider_original_prime": 20771,
+        "center_ancestry_path": [
+          67,
+          20771
+        ],
+        "actual_helper_original_prime": 67,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 3410,
+        "outgoing_guard_residue": 0,
+        "support_before": [
+          20771
+        ],
+        "support_after": [
+          67,
+          20771
+        ]
+      },
+      {
+        "eliminate": 31,
+        "incoming_guard_modulus": 3410,
+        "incoming_guard_residue": 0,
+        "private_center": 0,
+        "exact_provider_original_prime": 20771,
+        "center_ancestry_path": [
+          31,
+          20771
+        ],
+        "actual_helper_original_prime": 31,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 330,
+        "outgoing_guard_residue": 0,
+        "support_before": [
+          67,
+          20771
+        ],
+        "support_after": [
+          31,
+          67,
+          20771
+        ]
+      },
+      {
+        "eliminate": 11,
+        "incoming_guard_modulus": 330,
+        "incoming_guard_residue": 0,
+        "private_center": 0,
+        "exact_provider_original_prime": 67,
+        "center_ancestry_path": [
+          11,
+          67,
+          20771
+        ],
+        "actual_helper_original_prime": 11,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 30,
+        "outgoing_guard_residue": 0,
+        "support_before": [
+          31,
+          67,
+          20771
+        ],
+        "support_after": [
+          11,
+          31,
+          67,
+          20771
+        ]
+      }
+    ],
+    "final_guard_modulus": 30,
+    "final_guard_residue": 0,
+    "claim": "exact single-module whole-private-fiber residual at anchor 1; not TRUE"
+  },
+  {
+    "module_id": "q40487",
+    "root": 40487,
+    "steps": [
+      {
+        "eliminate": 31,
+        "incoming_guard_modulus": 40486,
+        "incoming_guard_residue": 20243,
+        "private_center": 0,
+        "exact_provider_original_prime": 40487,
+        "center_ancestry_path": [
+          31,
+          40487
+        ],
+        "actual_helper_original_prime": 31,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 3918,
+        "outgoing_guard_residue": 1959,
+        "support_before": [
+          40487
+        ],
+        "support_after": [
+          31,
+          40487
+        ]
+      }
+    ],
+    "final_guard_modulus": 3918,
+    "final_guard_residue": 1959,
+    "claim": "exact single-module whole-private-fiber residual at anchor 1; not TRUE"
+  },
+  {
+    "module_id": "q1645333507",
+    "root": 1645333507,
+    "steps": [
+      {
+        "eliminate": 30469139,
+        "incoming_guard_modulus": 1645333506,
+        "incoming_guard_residue": 243753112,
+        "private_center": 0,
+        "exact_provider_original_prime": 1645333507,
+        "center_ancestry_path": [
+          30469139,
+          1645333507
+        ],
+        "actual_helper_original_prime": 30469139,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 117523818,
+        "outgoing_guard_residue": 82701946,
+        "support_before": [
+          1645333507
+        ],
+        "support_after": [
+          30469139,
+          1645333507
+        ]
+      },
+      {
+        "eliminate": 1523,
+        "incoming_guard_modulus": 117523818,
+        "incoming_guard_residue": 82701946,
+        "private_center": 0,
+        "exact_provider_original_prime": 30469139,
+        "center_ancestry_path": [
+          1523,
+          30469139,
+          1645333507
+        ],
+        "actual_helper_original_prime": 1523,
+        "accepted_shell_valuation": 1,
+        "outgoing_guard_modulus": 58723326,
+        "outgoing_guard_residue": 8699752,
+        "support_before": [
+          30469139,
+          1645333507
+        ],
+        "support_after": [
+          1523,
+          30469139,
+          1645333507
+        ]
+      }
+    ],
+    "final_guard_modulus": 58723326,
+    "final_guard_residue": 8699752,
+    "claim": "exact single-module whole-private-fiber residual at anchor 1; not TRUE"
+  }
+]

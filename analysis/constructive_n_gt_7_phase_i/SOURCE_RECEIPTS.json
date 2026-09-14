@@ -1,0 +1,17 @@
+[
+  {
+    "id": "constructive",
+    "filename": "A303656_CONSTRUCTIVE_N_GT_7_PHASE_I.zip",
+    "archive_sha256": "b13386a6a8ba5407b10ede8f6cafd123d1df08a746c50569c40b8e29e8fc22b8",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only"
+  },
+  {
+    "id": "C279",
+    "manifest_result": "PASS",
+    "producer_replay": "PASS",
+    "replay_scope": "producer fixed finite tests only",
+    "directory_manifest_sha256": "91826325fed1e9882d2c1b534802082c6ecbb1dcff8aecb376de02f2fdfbc041"
+  }
+]

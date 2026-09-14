@@ -1,0 +1,62 @@
+{
+  "outcome": "OPEN",
+  "target": {
+    "n": 279,
+    "base": 5,
+    "value": "647310534648447373054716179652933499827507406084233396665155828948791617392664703265092784874951801626592881977085113283203001",
+    "decimal_digits": 126,
+    "bits": 418,
+    "file": "C279.txt",
+    "file_bytes_sha256": "2754f9618901c35bbf9c9ba15f9f29c7c7f3c72facff3a1aab13ab03f97c36f2",
+    "zip_sha256": "b13386a6a8ba5407b10ede8f6cafd123d1df08a746c50569c40b8e29e8fc22b8"
+  },
+  "target_identity": "PASS",
+  "certified_factors": [],
+  "discovery_objects": [],
+  "remaining_cofactor": "647310534648447373054716179652933499827507406084233396665155828948791617392664703265092784874951801626592881977085113283203001",
+  "remaining_cofactor_digits": 126,
+  "remaining_cofactor_bits": 418,
+  "remaining_cofactor_primality_status": "COMPOSITE_FERMAT_BASE_2_WITNESS",
+  "qualifying_distinct_square_hits": [],
+  "factorization_complete": false,
+  "external_bound": {
+    "B": "970453984500000",
+    "qualifying_primes_strictly_exceed_B": true,
+    "dependency": "merged Phase G external exhaustive bound; historical scan not rerun",
+    "main_commit": "fd8aa2d5dd2cff758f2eb021c486ff9e2c3d1f38",
+    "main_tree": "325265d83abae42acadc59f8107d88d1375085be",
+    "authority_path": "analysis/c1_b31_squarehit_phase_g/producer_core/PROOFS.md",
+    "section": "G5",
+    "live_read_date": "2026-09-10",
+    "current_main_reverified_on_recovery": false
+  },
+  "mass_bound": {
+    "k": 0,
+    "remaining_hits_required": 3,
+    "exponent": 6,
+    "threshold": "835313855169571565458517686502549146705055118045184864107619606229313501399426473907000001",
+    "threshold_digits": 90,
+    "R_less_than_threshold": false,
+    "status": "NOT ENOUGH"
+  },
+  "search": {
+    "hard_budget_seconds": 600,
+    "observed_pminus1_completion_elapsed_seconds": 10.943834,
+    "gnu_factor_timeout_configured_seconds": 587.056,
+    "search_wall_seconds": null,
+    "final_stop_receipt": "LOST_AFTER_RUNTIME_RESUMPTION",
+    "budget_compliance_observed": "NOT_ESTABLISHED",
+    "new_search_on_recovery": false,
+    "evidence_origin": "recovered from tool outputs in conversation; original /tmp artifacts and session unavailable"
+  },
+  "scope": {
+    "fixed_I7": "UNRESOLVED",
+    "general_N9": "UNRESOLVED",
+    "general_N_gt_7": "NOT KILLED",
+    "A303656": "UNRESOLVED",
+    "Ultra_justified": "NO",
+    "github_writes": "NONE",
+    "auto_escalation": false,
+    "other_targets_searched": false
+  }
+}

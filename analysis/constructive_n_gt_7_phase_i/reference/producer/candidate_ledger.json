@@ -1,0 +1,381 @@
+{
+  "schema": "a303656-phase-i-actual-partial-v1",
+  "status": "ACTUAL_PARTIAL_NOT_COMPLETE",
+  "N_nonregular_original_rows": 3,
+  "regular_original_odd_rows": 6,
+  "total_original_odd_rows": 9,
+  "total_original_rows_including_two_adic": 10,
+  "anchors": [
+    0,
+    1
+  ],
+  "demand": "BOTH",
+  "local_zero_accepted": false,
+  "actual_complete_certificate": false,
+  "two_adic_row": {
+    "K": 2,
+    "r": 1,
+    "modulus": 4
+  },
+  "odd_rows": [
+    {
+      "row_id": "p3",
+      "p": 3,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 2,
+      "w": 2,
+      "s": 1,
+      "log_c1": 1,
+      "center_c1": 0,
+      "module_membership": [
+        "boundary-row-3"
+      ]
+    },
+    {
+      "row_id": "p11",
+      "p": 11,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 4,
+      "w": 5,
+      "s": 1,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q20771"
+      ]
+    },
+    {
+      "row_id": "p31",
+      "p": 31,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 4,
+      "w": 3,
+      "s": 1,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q20771",
+        "q40487"
+      ]
+    },
+    {
+      "row_id": "p67",
+      "p": 67,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 4,
+      "w": 22,
+      "s": 1,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q20771"
+      ]
+    },
+    {
+      "row_id": "p1523",
+      "p": 1523,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 4,
+      "w": 1522,
+      "s": 1,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q1645333507"
+      ]
+    },
+    {
+      "row_id": "p20771",
+      "p": 20771,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 20775,
+      "w": 10385,
+      "s": 2,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q20771"
+      ]
+    },
+    {
+      "row_id": "p40487",
+      "p": 40487,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 40489,
+      "w": 40486,
+      "s": 2,
+      "log_c1": 20243,
+      "center_c1": 0,
+      "module_membership": [
+        "q40487"
+      ]
+    },
+    {
+      "row_id": "p30469139",
+      "p": 30469139,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 4,
+      "w": 2176367,
+      "s": 1,
+      "log_c1": 0,
+      "center_c1": 0,
+      "module_membership": [
+        "q1645333507"
+      ]
+    },
+    {
+      "row_id": "p1645333507",
+      "p": 1645333507,
+      "entry_type": "ACTUAL_ORIGINAL_PRIME_ROW",
+      "original_row": true,
+      "K": 2,
+      "E": [
+        1
+      ],
+      "r": 1717951254146460500,
+      "w": 1645333506,
+      "s": 2,
+      "log_c1": 243753112,
+      "center_c1": 0,
+      "module_membership": [
+        "q1645333507"
+      ]
+    }
+  ],
+  "global_residue": 32220918265229178385608694934107446876490264440409235028702886363409,
+  "global_modulus": 77470244395607874230827076480868619973135018830963221227104855982436,
+  "U": 203274592016383218610421010,
+  "L": 203274592016383218610421010,
+  "modules": [
+    {
+      "module_id": "q20771",
+      "root": 20771,
+      "actual": true,
+      "vertices": [
+        11,
+        31,
+        67,
+        20771
+      ],
+      "regular_helpers": [
+        11,
+        31,
+        67
+      ],
+      "terminals": [
+        3,
+        5
+      ],
+      "all_orders_odd": false,
+      "boundary_log_modulus": 30,
+      "canonical_a": 0,
+      "canonical_a_modulus": 685410,
+      "local_residues": {
+        "11": 4,
+        "31": 4,
+        "67": 4,
+        "20771": 20775
+      },
+      "whole_private_fiber_profile": [
+        {
+          "modulus": 2,
+          "residue": 0
+        },
+        {
+          "modulus": 3,
+          "residue": 0
+        },
+        {
+          "modulus": 5,
+          "residue": 0
+        }
+      ],
+      "private_centers": {
+        "11": 0,
+        "31": 0,
+        "67": 0
+      },
+      "earliest_terminal_count_eligibility": 5
+    },
+    {
+      "module_id": "q40487",
+      "root": 40487,
+      "actual": true,
+      "vertices": [
+        31,
+        40487
+      ],
+      "regular_helpers": [
+        31
+      ],
+      "terminals": [
+        3,
+        653
+      ],
+      "all_orders_odd": false,
+      "boundary_log_modulus": 3918,
+      "canonical_a": 60729,
+      "canonical_a_modulus": 121458,
+      "local_residues": {
+        "31": 4,
+        "40487": 40489
+      },
+      "whole_private_fiber_profile": [
+        {
+          "modulus": 2,
+          "residue": 1
+        },
+        {
+          "modulus": 3,
+          "residue": 0
+        },
+        {
+          "modulus": 653,
+          "residue": 0
+        }
+      ],
+      "private_centers": {
+        "31": 0
+      },
+      "earliest_terminal_count_eligibility": 653
+    },
+    {
+      "module_id": "q1645333507",
+      "root": 1645333507,
+      "actual": true,
+      "vertices": [
+        1523,
+        30469139,
+        1645333507
+      ],
+      "regular_helpers": [
+        1523,
+        30469139
+      ],
+      "terminals": [
+        3,
+        761,
+        1429
+      ],
+      "all_orders_odd": false,
+      "boundary_log_modulus": 58723326,
+      "canonical_a": 2523172689676394650,
+      "canonical_a_modulus": 2725026504850506222,
+      "local_residues": {
+        "1523": 4,
+        "30469139": 4,
+        "1645333507": 1717951254146460500
+      },
+      "whole_private_fiber_profile": [
+        {
+          "modulus": 2,
+          "residue": 0
+        },
+        {
+          "modulus": 27,
+          "residue": 1
+        },
+        {
+          "modulus": 761,
+          "residue": 0
+        },
+        {
+          "modulus": 1429,
+          "residue": 0
+        }
+      ],
+      "private_centers": {
+        "1523": 0,
+        "30469139": 0
+      },
+      "earliest_terminal_count_eligibility": 1429
+    }
+  ],
+  "boundary_moduli": [
+    2,
+    27,
+    5,
+    653,
+    761,
+    1429
+  ],
+  "private_primes": [
+    11,
+    31,
+    67,
+    1523,
+    30469139
+  ],
+  "escape": {
+    "d": 159686451844602484568520116,
+    "modulus": 203274592016383218610421010,
+    "primary_coordinates": {
+      "2": 0,
+      "27": 2,
+      "5": 1,
+      "653": 1,
+      "761": 1,
+      "1429": 1,
+      "11": 0,
+      "31": 0,
+      "67": 0,
+      "1523": 0,
+      "30469139": 0
+    },
+    "anchor0_covered": true,
+    "anchor1_covered": false,
+    "EITHER": true,
+    "BOTH": false,
+    "local_values_c1_mod_p2": {
+      "3": 1,
+      "11": 95,
+      "31": 441,
+      "67": 0,
+      "1523": 708201,
+      "20771": 128503963,
+      "40487": 1182187563,
+      "30469139": 623979751013759,
+      "1645333507": 1984116218751975359
+    }
+  }
+}
