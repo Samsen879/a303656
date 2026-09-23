@@ -1,0 +1,2818 @@
+{
+  "authority": {
+    "repository": "Samsen879/a303656",
+    "main_sha": "8f17e88e517720f61f3c21d58d91c04cd6fa11b5",
+    "main_tree": "811a274b1f671412305c8565fcd79e9d41c0189b",
+    "access": "read-only",
+    "remote_changes": false
+  },
+  "scope": {
+    "source_interval": [
+      2,
+      5000
+    ],
+    "target_maximum": 25004,
+    "normalization": "0<=x<=y; c,d>=0; every tuple enumerated",
+    "meaning": "structural lifting tests, not a proof from absence of small counterexamples"
+  },
+  "canonical_source_representation_count": 76886,
+  "independent_loop_order_count_check": "PASS",
+  "five_lift_some_source_first_failure": {
+    "0": {
+      "m": 4,
+      "N": 20,
+      "source": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "1": {
+      "m": 20,
+      "N": 101,
+      "source": [
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    "2": {
+      "m": 12,
+      "N": 62,
+      "source": [
+        1,
+        3,
+        0,
+        0
+      ]
+    },
+    "3": {
+      "m": 34,
+      "N": 173,
+      "source": [
+        4,
+        4,
+        0,
+        0
+      ]
+    },
+    "4": {
+      "m": 5,
+      "N": 29,
+      "source": [
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "five_lift_all_source_failure_counts": {
+    "0": 2,
+    "1": 15,
+    "2": 5,
+    "3": 0,
+    "4": 1
+  },
+  "five_lift_all_source_failure_source_m_lists": {
+    "0": [
+      4,
+      380
+    ],
+    "1": [
+      20,
+      335,
+      668,
+      1073,
+      1316,
+      1556,
+      1964,
+      2180,
+      2288,
+      2495,
+      2612,
+      3260,
+      3908,
+      4124,
+      4556
+    ],
+    "2": [
+      16,
+      112,
+      2320,
+      2509,
+      3040
+    ],
+    "3": [],
+    "4": [
+      5
+    ]
+  },
+  "r3_overlap_size_histogram": {
+    "1": 23,
+    "2": 342,
+    "3": 1191,
+    "4": 1558,
+    "5": 1360,
+    "6": 525
+  },
+  "all_H_adversarial_witness_selection_count": 4850,
+  "first_all_H_adversarial_selection": {
+    "N": 32,
+    "H": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      24
+    ],
+    "bad_sources": [
+      [
+        2,
+        5,
+        0,
+        0
+      ],
+      [
+        1,
+        5,
+        1,
+        0
+      ],
+      [
+        0,
+        5,
+        1,
+        0
+      ],
+      [
+        1,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        2,
+        4,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ]
+    ]
+  },
+  "coherent_eight_neighbor_model": {
+    "N_at_t7": 85,
+    "rows": [
+      {
+        "h": 1,
+        "source_at_N85": [
+          7,
+          3,
+          0,
+          2
+        ],
+        "target_residual": 59,
+        "blocker_prime": 59,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 2,
+        "source_at_N85": [
+          7,
+          0,
+          2,
+          2
+        ],
+        "target_residual": 51,
+        "blocker_prime": 3,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 3,
+        "source_at_N85": [
+          7,
+          5,
+          1,
+          1
+        ],
+        "target_residual": 77,
+        "blocker_prime": 7,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 4,
+        "source_at_N85": [
+          7,
+          2,
+          1,
+          2
+        ],
+        "target_residual": 57,
+        "blocker_prime": 3,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 5,
+        "source_at_N85": [
+          7,
+          5,
+          0,
+          1
+        ],
+        "target_residual": 79,
+        "blocker_prime": 79,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 8,
+        "source_at_N85": [
+          7,
+          0,
+          1,
+          2
+        ],
+        "target_residual": 57,
+        "blocker_prime": 3,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 9,
+        "source_at_N85": [
+          7,
+          5,
+          0,
+          0
+        ],
+        "target_residual": 83,
+        "blocker_prime": 83,
+        "blocker_valuation": 1
+      },
+      {
+        "h": 24,
+        "source_at_N85": [
+          7,
+          2,
+          1,
+          1
+        ],
+        "target_residual": 77,
+        "blocker_prime": 7,
+        "blocker_valuation": 1
+      }
+    ],
+    "infinite_t_progression": {
+      "base": 7,
+      "period": 66001374519129
+    },
+    "target_representation": "N=t^2+2^2+3^3+5^1",
+    "scope": "blocks retaining any supplied exponent pair; does NOT block other representations or exponent exchange"
+  },
+  "three_compensation_counterfamilies": [
+    {
+      "r": 0,
+      "x": 7,
+      "y": 7,
+      "d": 1,
+      "T": 309,
+      "all_target_5_exponents": [
+        {
+          "e": 0,
+          "residual": 308,
+          "p": 7,
+          "valuation": 1
+        },
+        {
+          "e": 1,
+          "residual": 304,
+          "p": 19,
+          "valuation": 1
+        },
+        {
+          "e": 2,
+          "residual": 284,
+          "p": 71,
+          "valuation": 1
+        },
+        {
+          "e": 3,
+          "residual": 184,
+          "p": 23,
+          "valuation": 1
+        }
+      ],
+      "family": "m=x^2+y^2+3^c+5^d for arbitrary c>=0"
+    },
+    {
+      "r": 1,
+      "x": 0,
+      "y": 0,
+      "d": 0,
+      "T": 4,
+      "all_target_5_exponents": [
+        {
+          "e": 0,
+          "residual": 3,
+          "p": 3,
+          "valuation": 1
+        }
+      ],
+      "family": "m=x^2+y^2+3^c+5^d for arbitrary c>=0"
+    },
+    {
+      "r": 2,
+      "x": 0,
+      "y": 1,
+      "d": 0,
+      "T": 8,
+      "all_target_5_exponents": [
+        {
+          "e": 0,
+          "residual": 7,
+          "p": 7,
+          "valuation": 1
+        },
+        {
+          "e": 1,
+          "residual": 3,
+          "p": 3,
+          "valuation": 1
+        }
+      ],
+      "family": "m=x^2+y^2+3^c+5^d for arbitrary c>=0"
+    }
+  ],
+  "constructive_congruence_certificate_count": 90,
+  "constructive_congruence_certificates": [
+    {
+      "lambda": 5,
+      "K": 5,
+      "source_x": 23716,
+      "source_y": 48332,
+      "coordinate_period": 53361,
+      "S": 2898430880,
+      "T": 14492154405,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 30
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 26
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 0
+    },
+    {
+      "lambda": 5,
+      "K": 15,
+      "source_x": 128877,
+      "source_y": 2790,
+      "coordinate_period": 131043,
+      "S": 16617065229,
+      "T": 83085326160,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 72
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 218
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 1
+    },
+    {
+      "lambda": 5,
+      "K": 45,
+      "source_x": 21842926833,
+      "source_y": 5494437339,
+      "coordinate_period": 30570890427,
+      "S": 507302294303988810810,
+      "T": 2536511471519944054095,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 22
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 18
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 141
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 1
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 2
+    },
+    {
+      "lambda": 5,
+      "K": 135,
+      "source_x": 19430004447,
+      "source_y": 79482117762,
+      "coordinate_period": 80932853169,
+      "S": 6694932116742875664453,
+      "T": 33474660583714378322400,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 4
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 194
+        },
+        {
+          "C": 2,
+          "p": 23,
+          "required_S_mod_p2": 191
+        },
+        {
+          "C": 3,
+          "p": 31,
+          "required_S_mod_p2": 369
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 3
+    },
+    {
+      "lambda": 5,
+      "K": 405,
+      "source_x": 41692094110610757,
+      "source_y": 56443861394513856,
+      "coordinate_period": 162963236759824809,
+      "S": 4924140200451115825662270140101785,
+      "T": 24620701002255579128311350700509330,
+      "odd_3_valuation": 5,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 48
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 67
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 69
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 458
+        },
+        {
+          "C": 4,
+          "p": 31,
+          "required_S_mod_p2": 518
+        },
+        {
+          "C": 5,
+          "p": 43,
+          "required_S_mod_p2": 346
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 4
+    },
+    {
+      "lambda": 5,
+      "K": 1215,
+      "source_x": 22672803946087548,
+      "source_y": 10845674890674930,
+      "coordinate_period": 54321078919941603,
+      "S": 631684702611939743003207411157204,
+      "T": 3158423513059698715016037055787235,
+      "odd_3_valuation": 5,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 33
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 26
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 268
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 296
+        },
+        {
+          "C": 4,
+          "p": 31,
+          "required_S_mod_p2": 356
+        },
+        {
+          "C": 5,
+          "p": 43,
+          "required_S_mod_p2": 184
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 5
+    },
+    {
+      "lambda": 5,
+      "K": 3645,
+      "source_x": 3417879609194028486654510,
+      "source_y": 1050071493408769838313108,
+      "coordinate_period": 3759331604995616711174883,
+      "S": 12784551164214049055229524386181631822143147959764,
+      "T": 63922755821070245276147621930908159110715739802465,
+      "odd_3_valuation": 7,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 37
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 24
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 143
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 339
+        },
+        {
+          "C": 4,
+          "p": 31,
+          "required_S_mod_p2": 831
+        },
+        {
+          "C": 5,
+          "p": 43,
+          "required_S_mod_p2": 1547
+        },
+        {
+          "C": 6,
+          "p": 47,
+          "required_S_mod_p2": 2077
+        },
+        {
+          "C": 7,
+          "p": 59,
+          "required_S_mod_p2": 2505
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 6
+    },
+    {
+      "lambda": 5,
+      "K": 10935,
+      "source_x": 1457682326609143865161357368,
+      "source_y": 2939208891893596534803469011,
+      "coordinate_period": 4782712042317111111620581041,
+      "S": 10763786675495030410765940672031794868063109039845205545,
+      "T": 53818933377475152053829703360158974340315545199226038660,
+      "odd_3_valuation": 7,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 19,
+          "required_S_mod_p2": 344
+        },
+        {
+          "C": 1,
+          "p": 23,
+          "required_S_mod_p2": 40
+        },
+        {
+          "C": 2,
+          "p": 31,
+          "required_S_mod_p2": 704
+        },
+        {
+          "C": 3,
+          "p": 43,
+          "required_S_mod_p2": 1525
+        },
+        {
+          "C": 4,
+          "p": 47,
+          "required_S_mod_p2": 1373
+        },
+        {
+          "C": 5,
+          "p": 59,
+          "required_S_mod_p2": 3443
+        },
+        {
+          "C": 6,
+          "p": 67,
+          "required_S_mod_p2": 3359
+        },
+        {
+          "C": 7,
+          "p": 71,
+          "required_S_mod_p2": 281
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 7
+    },
+    {
+      "lambda": 5,
+      "K": 32805,
+      "source_x": 11806242275523351114305350193445084,
+      "source_y": 5470320330343379439621013315653189,
+      "coordinate_period": 13163367482540580887402204408104521,
+      "S": 169311761184922895685077844525097344108676080612064611577650249636777,
+      "T": 846558805924614478425389222625486720543380403060323057888251248216690,
+      "odd_3_valuation": 9,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 36
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 158
+        },
+        {
+          "C": 2,
+          "p": 23,
+          "required_S_mod_p2": 5
+        },
+        {
+          "C": 3,
+          "p": 31,
+          "required_S_mod_p2": 562
+        },
+        {
+          "C": 4,
+          "p": 43,
+          "required_S_mod_p2": 490
+        },
+        {
+          "C": 5,
+          "p": 47,
+          "required_S_mod_p2": 124
+        },
+        {
+          "C": 6,
+          "p": 59,
+          "required_S_mod_p2": 1951
+        },
+        {
+          "C": 7,
+          "p": 67,
+          "required_S_mod_p2": 1970
+        },
+        {
+          "C": 8,
+          "p": 71,
+          "required_S_mod_p2": 2831
+        },
+        {
+          "C": 9,
+          "p": 79,
+          "required_S_mod_p2": 1136
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 0,
+      "source_c": 8
+    },
+    {
+      "lambda": 5,
+      "K": 6,
+      "source_x": 3873,
+      "source_y": 249,
+      "coordinate_period": 17787,
+      "S": 15062130,
+      "T": 75310656,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 20
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 50
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 0
+    },
+    {
+      "lambda": 5,
+      "K": 16,
+      "source_x": 0,
+      "source_y": 11240,
+      "coordinate_period": 53361,
+      "S": 126337600,
+      "T": 631688016,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 18
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 48
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 1
+    },
+    {
+      "lambda": 5,
+      "K": 46,
+      "source_x": 47916,
+      "source_y": 7796,
+      "coordinate_period": 53361,
+      "S": 2356720672,
+      "T": 11783603406,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 12
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 42
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 2
+    },
+    {
+      "lambda": 5,
+      "K": 136,
+      "source_x": 29547,
+      "source_y": 30260,
+      "coordinate_period": 53361,
+      "S": 1788692809,
+      "T": 8943464181,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 43
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 24
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 3
+    },
+    {
+      "lambda": 5,
+      "K": 406,
+      "source_x": 32670,
+      "source_y": 16517,
+      "coordinate_period": 53361,
+      "S": 1340140189,
+      "T": 6700701351,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 38
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 91
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 4
+    },
+    {
+      "lambda": 5,
+      "K": 1216,
+      "source_x": 19845,
+      "source_y": 27353,
+      "coordinate_period": 53361,
+      "S": 1142010634,
+      "T": 5710054386,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 23
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 50
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 5
+    },
+    {
+      "lambda": 5,
+      "K": 3646,
+      "source_x": 50094,
+      "source_y": 42095,
+      "coordinate_period": 53361,
+      "S": 4281397861,
+      "T": 21406992951,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 27
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 48
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 6
+    },
+    {
+      "lambda": 5,
+      "K": 10936,
+      "source_x": 0,
+      "source_y": 173,
+      "coordinate_period": 53361,
+      "S": 29929,
+      "T": 160581,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 39
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 42
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 7
+    },
+    {
+      "lambda": 5,
+      "K": 32806,
+      "source_x": 39348,
+      "source_y": 28082,
+      "coordinate_period": 53361,
+      "S": 2336863828,
+      "T": 11684351946,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 26
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 24
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 1,
+      "source_c": 8
+    },
+    {
+      "lambda": 5,
+      "K": 7,
+      "source_x": 27315,
+      "source_y": 34010,
+      "coordinate_period": 53361,
+      "S": 1902789325,
+      "T": 9513946632,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 10
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 74
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 0
+    },
+    {
+      "lambda": 5,
+      "K": 17,
+      "source_x": 30625,
+      "source_y": 8840,
+      "coordinate_period": 53361,
+      "S": 1016036225,
+      "T": 5080181142,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 8
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 72
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 1
+    },
+    {
+      "lambda": 5,
+      "K": 47,
+      "source_x": 49441,
+      "source_y": 13367,
+      "coordinate_period": 159201,
+      "S": 2623089170,
+      "T": 13115445897,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 2
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 356
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 2
+    },
+    {
+      "lambda": 5,
+      "K": 137,
+      "source_x": 5566,
+      "source_y": 51896,
+      "coordinate_period": 53361,
+      "S": 2724175172,
+      "T": 13620875997,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 33
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 48
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 3
+    },
+    {
+      "lambda": 5,
+      "K": 407,
+      "source_x": 185251,
+      "source_y": 233219,
+      "coordinate_period": 393129,
+      "S": 88709034962,
+      "T": 443545175217,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 42
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 284
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 4
+    },
+    {
+      "lambda": 5,
+      "K": 1217,
+      "source_x": 2389,
+      "source_y": 51797,
+      "coordinate_period": 53361,
+      "S": 2688636530,
+      "T": 13443183867,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 13
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 74
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 5
+    },
+    {
+      "lambda": 5,
+      "K": 3647,
+      "source_x": 22639,
+      "source_y": 12107,
+      "coordinate_period": 53361,
+      "S": 659103770,
+      "T": 3295522497,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 17
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 72
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 6
+    },
+    {
+      "lambda": 5,
+      "K": 10937,
+      "source_x": 36652,
+      "source_y": 49475,
+      "coordinate_period": 159201,
+      "S": 3791144729,
+      "T": 18955734582,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 29
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 344
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 7
+    },
+    {
+      "lambda": 5,
+      "K": 32807,
+      "source_x": 41503,
+      "source_y": 42095,
+      "coordinate_period": 53361,
+      "S": 3494488034,
+      "T": 17472472977,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 16
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 48
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 2,
+      "source_c": 8
+    },
+    {
+      "lambda": 5,
+      "K": 8,
+      "source_x": 68002,
+      "source_y": 177986,
+      "coordinate_period": 393129,
+      "S": 36303288200,
+      "T": 181516441008,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 25
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 75
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 0
+    },
+    {
+      "lambda": 5,
+      "K": 18,
+      "source_x": 20637151284,
+      "source_y": 24121676346,
+      "coordinate_period": 30570890427,
+      "S": 1007747282859878760372,
+      "T": 5038736414299393801878,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 47
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 96
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 2
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 218
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 1
+    },
+    {
+      "lambda": 5,
+      "K": 48,
+      "source_x": 12882,
+      "source_y": 6423,
+      "coordinate_period": 17787,
+      "S": 207200853,
+      "T": 1036004313,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 41
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 90
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 2
+    },
+    {
+      "lambda": 5,
+      "K": 138,
+      "source_x": 6909,
+      "source_y": 15495,
+      "coordinate_period": 17787,
+      "S": 287829306,
+      "T": 1439146668,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 23
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 72
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 3
+    },
+    {
+      "lambda": 5,
+      "K": 408,
+      "source_x": 10584,
+      "source_y": 2910,
+      "coordinate_period": 17787,
+      "S": 120489156,
+      "T": 602446188,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 18
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 18
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 4
+    },
+    {
+      "lambda": 5,
+      "K": 1218,
+      "source_x": 12783,
+      "source_y": 2307,
+      "coordinate_period": 17787,
+      "S": 168727338,
+      "T": 843637908,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 3
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 98
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 5
+    },
+    {
+      "lambda": 5,
+      "K": 3648,
+      "source_x": 58806,
+      "source_y": 4344,
+      "coordinate_period": 131043,
+      "S": 3477015972,
+      "T": 17385083508,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 23
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 69
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 6
+    },
+    {
+      "lambda": 5,
+      "K": 10938,
+      "source_x": 10704,
+      "source_y": 16224,
+      "coordinate_period": 17787,
+      "S": 377793792,
+      "T": 1888979898,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 19
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 90
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 7
+    },
+    {
+      "lambda": 5,
+      "K": 32808,
+      "source_x": 1101,
+      "source_y": 249,
+      "coordinate_period": 17787,
+      "S": 1274202,
+      "T": 6403818,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 6
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 72
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 3,
+      "source_c": 8
+    },
+    {
+      "lambda": 5,
+      "K": 19,
+      "source_x": 5292,
+      "source_y": 24329,
+      "coordinate_period": 53361,
+      "S": 619905505,
+      "T": 3099527544,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 37
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 120
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 1
+    },
+    {
+      "lambda": 5,
+      "K": 49,
+      "source_x": 25047,
+      "source_y": 25925,
+      "coordinate_period": 53361,
+      "S": 1299457834,
+      "T": 6497289219,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 31
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 114
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 2
+    },
+    {
+      "lambda": 5,
+      "K": 139,
+      "source_x": 43353,
+      "source_y": 16223,
+      "coordinate_period": 53361,
+      "S": 2142668338,
+      "T": 10713341829,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 13
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 96
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 3
+    },
+    {
+      "lambda": 5,
+      "K": 409,
+      "source_x": 0,
+      "source_y": 12515,
+      "coordinate_period": 53361,
+      "S": 156625225,
+      "T": 783126534,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 8
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 42
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 4
+    },
+    {
+      "lambda": 5,
+      "K": 1219,
+      "source_x": 153549,
+      "source_y": 374018,
+      "coordinate_period": 576081,
+      "S": 163466759725,
+      "T": 817333799844,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 49
+        },
+        {
+          "C": 1,
+          "p": 23,
+          "required_S_mod_p2": 502
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 5
+    },
+    {
+      "lambda": 5,
+      "K": 3649,
+      "source_x": 5292,
+      "source_y": 21425,
+      "coordinate_period": 53361,
+      "S": 487035889,
+      "T": 2435183094,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 46
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 120
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 6
+    },
+    {
+      "lambda": 5,
+      "K": 10939,
+      "source_x": 0,
+      "source_y": 10679,
+      "coordinate_period": 53361,
+      "S": 114041041,
+      "T": 570216144,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 9
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 114
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 7
+    },
+    {
+      "lambda": 5,
+      "K": 32809,
+      "source_x": 41175,
+      "source_y": 16223,
+      "coordinate_period": 53361,
+      "S": 1958566354,
+      "T": 9792864579,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 45
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 96
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0",
+      "r": 4,
+      "source_c": 8
+    },
+    {
+      "lambda": 1,
+      "K": 2,
+      "source_x": 11979,
+      "source_y": 19898,
+      "coordinate_period": 53361,
+      "S": 539426845,
+      "T": 539426847,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 6
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 12
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 4,
+      "source_x": 40327,
+      "source_y": 26507,
+      "coordinate_period": 53361,
+      "S": 2328887978,
+      "T": 2328887982,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 4
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 10
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 5,
+      "source_x": 47916,
+      "source_y": 44888,
+      "coordinate_period": 53361,
+      "S": 4310875600,
+      "T": 4310875605,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 3
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 9
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 6,
+      "source_x": 8967,
+      "source_y": 9447,
+      "coordinate_period": 17787,
+      "S": 169652898,
+      "T": 169652904,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 2
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 8
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 7,
+      "source_x": 19747,
+      "source_y": 49979,
+      "coordinate_period": 53361,
+      "S": 2887844450,
+      "T": 2887844457,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 1
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 7
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 8,
+      "source_x": 52272,
+      "source_y": 45857,
+      "coordinate_period": 393129,
+      "S": 4835226433,
+      "T": 4835226441,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 4
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 14
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 10,
+      "source_x": 20812,
+      "source_y": 3386,
+      "coordinate_period": 53361,
+      "S": 444604340,
+      "T": 444604350,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 47
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 4
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 11,
+      "source_x": 0,
+      "source_y": 38330,
+      "coordinate_period": 53361,
+      "S": 1469188900,
+      "T": 1469188911,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 46
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 3
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 12,
+      "source_x": 11628,
+      "source_y": 6423,
+      "coordinate_period": 17787,
+      "S": 176465313,
+      "T": 176465325,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 45
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 2
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 13,
+      "source_x": 5929,
+      "source_y": 21053,
+      "coordinate_period": 53361,
+      "S": 478381850,
+      "T": 478381863,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 44
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 1
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 14,
+      "source_x": 111132,
+      "source_y": 14090,
+      "coordinate_period": 159201,
+      "S": 12548849524,
+      "T": 12548849538,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 43
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 8
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 15,
+      "source_x": 90972,
+      "source_y": 124518,
+      "coordinate_period": 131043,
+      "S": 23780637108,
+      "T": 23780637123,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 118
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 7
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 16,
+      "source_x": 28072,
+      "source_y": 36803,
+      "coordinate_period": 53361,
+      "S": 2142497993,
+      "T": 2142498009,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 41
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 119
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 17,
+      "source_x": 1674,
+      "source_y": 8237,
+      "coordinate_period": 53361,
+      "S": 70650445,
+      "T": 70650462,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 40
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 118
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 18,
+      "source_x": 15325687566,
+      "source_y": 26400710859,
+      "coordinate_period": 30570890427,
+      "S": 931874233231167522237,
+      "T": 931874233231167522255,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 39
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 117
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 10
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 32
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 19,
+      "source_x": 1849,
+      "source_y": 12107,
+      "coordinate_period": 53361,
+      "S": 149998250,
+      "T": 149998269,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 38
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 116
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 20,
+      "source_x": 0,
+      "source_y": 49760,
+      "coordinate_period": 53361,
+      "S": 2476057600,
+      "T": 2476057620,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 37
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 115
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 21,
+      "source_x": 0,
+      "source_y": 15882,
+      "coordinate_period": 17787,
+      "S": 252237924,
+      "T": 252237945,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 36
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 114
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 22,
+      "source_x": 448063,
+      "source_y": 332210,
+      "coordinate_period": 576081,
+      "S": 311123936069,
+      "T": 311123936091,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 111
+        },
+        {
+          "C": 1,
+          "p": 23,
+          "required_S_mod_p2": 4
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 23,
+      "source_x": 22815,
+      "source_y": 36068,
+      "coordinate_period": 53361,
+      "S": 1821424849,
+      "T": 1821424872,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 34
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 112
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 24,
+      "source_x": 17424,
+      "source_y": 4905,
+      "coordinate_period": 17787,
+      "S": 327654801,
+      "T": 327654825,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 33
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 111
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 25,
+      "source_x": 123823,
+      "source_y": 24050,
+      "coordinate_period": 159201,
+      "S": 15910537829,
+      "T": 15910537854,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 32
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 358
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 26,
+      "source_x": 1233,
+      "source_y": 31952,
+      "coordinate_period": 53361,
+      "S": 1022450593,
+      "T": 1022450619,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 31
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 109
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 28,
+      "source_x": 3577,
+      "source_y": 25661,
+      "coordinate_period": 53361,
+      "S": 671281850,
+      "T": 671281878,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 29
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 107
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 29,
+      "source_x": 182952,
+      "source_y": 157769,
+      "coordinate_period": 393129,
+      "S": 58362491665,
+      "T": 58362491694,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 104
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 354
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 30,
+      "source_x": 2025,
+      "source_y": 249,
+      "coordinate_period": 17787,
+      "S": 4162626,
+      "T": 4162656,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 27
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 105
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 31,
+      "source_x": 15730,
+      "source_y": 12206,
+      "coordinate_period": 53361,
+      "S": 396419336,
+      "T": 396419367,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 26
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 104
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 32,
+      "source_x": 0,
+      "source_y": 50279,
+      "coordinate_period": 53361,
+      "S": 2527977841,
+      "T": 2527977873,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 25
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 103
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 33,
+      "source_x": 17424,
+      "source_y": 9510,
+      "coordinate_period": 17787,
+      "S": 394035876,
+      "T": 394035909,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 24
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 102
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 34,
+      "source_x": 43561,
+      "source_y": 33527,
+      "coordinate_period": 53361,
+      "S": 3021620450,
+      "T": 3021620484,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 23
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 101
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 35,
+      "source_x": 0,
+      "source_y": 53129,
+      "coordinate_period": 53361,
+      "S": 2822690641,
+      "T": 2822690676,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 22
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 100
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 36,
+      "source_x": 298478606745,
+      "source_y": 313382555538,
+      "coordinate_period": 599563789803,
+      "S": 187298104799964013964469,
+      "T": 187298104799964013964505,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 97
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 347
+        },
+        {
+          "C": 2,
+          "p": 23,
+          "required_S_mod_p2": 525
+        },
+        {
+          "C": 3,
+          "p": 31,
+          "required_S_mod_p2": 22
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 37,
+      "source_x": 8185,
+      "source_y": 31952,
+      "coordinate_period": 53361,
+      "S": 1087924529,
+      "T": 1087924566,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 20
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 98
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 38,
+      "source_x": 2178,
+      "source_y": 48221,
+      "coordinate_period": 53361,
+      "S": 2330008525,
+      "T": 2330008563,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 19
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 97
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 39,
+      "source_x": 882,
+      "source_y": 9084,
+      "coordinate_period": 17787,
+      "S": 83296980,
+      "T": 83297019,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 18
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 96
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 40,
+      "source_x": 21463,
+      "source_y": 45623,
+      "coordinate_period": 53361,
+      "S": 2542118498,
+      "T": 2542118538,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 17
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 95
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 41,
+      "source_x": 29547,
+      "source_y": 29894,
+      "coordinate_period": 53361,
+      "S": 1766676445,
+      "T": 1766676486,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 16
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 94
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 42,
+      "source_x": 0,
+      "source_y": 13614,
+      "coordinate_period": 17787,
+      "S": 185340996,
+      "T": 185341038,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 15
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 93
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 43,
+      "source_x": 208297,
+      "source_y": 254594,
+      "coordinate_period": 393129,
+      "S": 108205745045,
+      "T": 108205745088,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 90
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 340
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 44,
+      "source_x": 42471,
+      "source_y": 16517,
+      "coordinate_period": 53361,
+      "S": 2076597130,
+      "T": 2076597174,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 13
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 91
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 45,
+      "source_x": 22079699874,
+      "source_y": 21507914328,
+      "coordinate_period": 30570890427,
+      "S": 950103525266503307460,
+      "T": 950103525266503307505,
+      "odd_3_valuation": 3,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 12
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 90
+        },
+        {
+          "C": 2,
+          "p": 19,
+          "required_S_mod_p2": 344
+        },
+        {
+          "C": 3,
+          "p": 23,
+          "required_S_mod_p2": 5
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 46,
+      "source_x": 41503,
+      "source_y": 11450,
+      "coordinate_period": 53361,
+      "S": 1853601509,
+      "T": 1853601555,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 11
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 89
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 47,
+      "source_x": 63918,
+      "source_y": 153080,
+      "coordinate_period": 159201,
+      "S": 27518997124,
+      "T": 27518997171,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 10
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 336
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 48,
+      "source_x": 6909,
+      "source_y": 4848,
+      "coordinate_period": 17787,
+      "S": 71237385,
+      "T": 71237433,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 9
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 87
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 49,
+      "source_x": 5929,
+      "source_y": 9281,
+      "coordinate_period": 53361,
+      "S": 121290002,
+      "T": 121290051,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 7,
+          "required_S_mod_p2": 8
+        },
+        {
+          "C": 1,
+          "p": 11,
+          "required_S_mod_p2": 86
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    },
+    {
+      "lambda": 1,
+      "K": 50,
+      "source_x": 320607,
+      "source_y": 372929,
+      "coordinate_period": 393129,
+      "S": 241864887490,
+      "T": 241864887540,
+      "odd_3_valuation": 1,
+      "finite_C_blockers": [
+        {
+          "C": 0,
+          "p": 11,
+          "required_S_mod_p2": 83
+        },
+        {
+          "C": 1,
+          "p": 19,
+          "required_S_mod_p2": 333
+        }
+      ],
+      "infinite_tail_reason": "For C>t, v_3(T-3^C)=t whenever the residual is positive.",
+      "infinite_family": "x_j=source_x+coordinate_period*j, y_j=source_y; j>=0"
+    }
+  ],
+  "verification_status": "PASS (finite checks and local certificates only)"
+}

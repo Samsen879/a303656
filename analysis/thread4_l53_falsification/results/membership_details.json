@@ -1,0 +1,5991 @@
+{
+  "candidates": [
+    {
+      "five_m_plus_three": 39815398,
+      "intersection": [],
+      "m": 7963079,
+      "shifted_D_m": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source": {
+        "D": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9
+        ],
+        "m": 7963079,
+        "rows": [
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2654359,
+                    1
+                  ]
+                ],
+                "residual": 7963077,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    318523,
+                    1
+                  ]
+                ],
+                "residual": 7963075,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    169427,
+                    1
+                  ]
+                ],
+                "residual": 7963069,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    911,
+                    1
+                  ]
+                ],
+                "residual": 7963051,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    10067,
+                    1
+                  ]
+                ],
+                "residual": 7962997,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    131,
+                    1
+                  ]
+                ],
+                "residual": 7962835,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    7907,
+                    1
+                  ]
+                ],
+                "residual": 7962349,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    43,
+                    1
+                  ]
+                ],
+                "residual": 7960891,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    359,
+                    1
+                  ],
+                  [
+                    599,
+                    1
+                  ]
+                ],
+                "residual": 7956517,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 7943395,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    79,
+                    1
+                  ]
+                ],
+                "residual": 7904029,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    71,
+                    1
+                  ]
+                ],
+                "residual": 7785931,
+                "three_power": 177147
+              }
+            ],
+            "d": 0,
+            "five_power": 1,
+            "in_T3": true,
+            "residual": 7963078,
+            "witness": {
+              "a": 1446,
+              "b": 2311,
+              "c": 12
+            }
+          },
+          {
+            "attempts_before_success": [],
+            "d": 1,
+            "five_power": 5,
+            "in_T3": true,
+            "residual": 7963074,
+            "witness": {
+              "a": 1172,
+              "b": 2567,
+              "c": 0
+            }
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    59,
+                    1
+                  ],
+                  [
+                    6427,
+                    1
+                  ]
+                ],
+                "residual": 7963053,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    911,
+                    1
+                  ]
+                ],
+                "residual": 7963051,
+                "three_power": 3
+              }
+            ],
+            "d": 2,
+            "five_power": 25,
+            "in_T3": true,
+            "residual": 7963054,
+            "witness": {
+              "a": 166,
+              "b": 2817,
+              "c": 2
+            }
+          },
+          {
+            "d": 3,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    383,
+                    1
+                  ],
+                  [
+                    1223,
+                    1
+                  ]
+                ],
+                "residual": 7962953,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7962951,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 7962945,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    379187,
+                    1
+                  ]
+                ],
+                "residual": 7962927,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2654291,
+                    1
+                  ]
+                ],
+                "residual": 7962873,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7962711,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    106163,
+                    1
+                  ]
+                ],
+                "residual": 7962225,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    103,
+                    1
+                  ],
+                  [
+                    25763,
+                    1
+                  ]
+                ],
+                "residual": 7960767,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2652131,
+                    1
+                  ]
+                ],
+                "residual": 7956393,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    10223,
+                    1
+                  ]
+                ],
+                "residual": 7943271,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 7903905,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    139,
+                    1
+                  ],
+                  [
+                    18671,
+                    1
+                  ]
+                ],
+                "residual": 7785807,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2477171,
+                    1
+                  ]
+                ],
+                "residual": 7431513,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 6368631,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2099,
+                    1
+                  ]
+                ],
+                "residual": 3179985,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 125,
+            "in_T3": false,
+            "residual": 7962954
+          },
+          {
+            "attempts_before_success": [],
+            "d": 4,
+            "five_power": 625,
+            "in_T3": true,
+            "residual": 7962454,
+            "witness": {
+              "a": 402,
+              "b": 2793,
+              "c": 0
+            }
+          },
+          {
+            "d": 5,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    131,
+                    1
+                  ],
+                  [
+                    60763,
+                    1
+                  ]
+                ],
+                "residual": 7959953,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    179,
+                    1
+                  ]
+                ],
+                "residual": 7959951,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 7959945,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7959927,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ]
+                ],
+                "residual": 7959873,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7959711,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    106123,
+                    1
+                  ]
+                ],
+                "residual": 7959225,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7957767,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 7953393,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    139303,
+                    1
+                  ]
+                ],
+                "residual": 7940271,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    443,
+                    1
+                  ]
+                ],
+                "residual": 7900905,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    71,
+                    1
+                  ],
+                  [
+                    599,
+                    1
+                  ]
+                ],
+                "residual": 7782807,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    59,
+                    1
+                  ]
+                ],
+                "residual": 7428513,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 6365631,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    79,
+                    1
+                  ],
+                  [
+                    383,
+                    1
+                  ]
+                ],
+                "residual": 3176985,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 3125,
+            "in_T3": false,
+            "residual": 7959954
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 7947453,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    607,
+                    1
+                  ]
+                ],
+                "residual": 7947451,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    631,
+                    1
+                  ]
+                ],
+                "residual": 7947445,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    7947427,
+                    1
+                  ]
+                ],
+                "residual": 7947427,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    1135339,
+                    1
+                  ]
+                ],
+                "residual": 7947373,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    107,
+                    1
+                  ]
+                ],
+                "residual": 7947211,
+                "three_power": 243
+              }
+            ],
+            "d": 6,
+            "five_power": 15625,
+            "in_T3": true,
+            "residual": 7947454,
+            "witness": {
+              "a": 106,
+              "b": 2817,
+              "c": 6
+            }
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    43,
+                    1
+                  ],
+                  [
+                    787,
+                    1
+                  ]
+                ],
+                "residual": 7884953,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 7884951,
+                "three_power": 3
+              }
+            ],
+            "d": 7,
+            "five_power": 78125,
+            "in_T3": true,
+            "residual": 7884954,
+            "witness": {
+              "a": 9,
+              "b": 2808,
+              "c": 2
+            }
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 7572453,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 7572451,
+                "three_power": 3
+              }
+            ],
+            "d": 8,
+            "five_power": 390625,
+            "in_T3": true,
+            "residual": 7572454,
+            "witness": {
+              "a": 738,
+              "b": 2651,
+              "c": 2
+            }
+          },
+          {
+            "attempts_before_success": [],
+            "d": 9,
+            "five_power": 1953125,
+            "in_T3": true,
+            "residual": 6009954,
+            "witness": {
+              "a": 688,
+              "b": 2353,
+              "c": 0
+            }
+          }
+        ]
+      },
+      "target": {
+        "D": [
+          0,
+          4,
+          6
+        ],
+        "m": 39815398,
+        "rows": [
+          {
+            "attempts_before_success": [],
+            "d": 0,
+            "five_power": 1,
+            "in_T3": true,
+            "residual": 39815397,
+            "witness": {
+              "a": 614,
+              "b": 6280,
+              "c": 0
+            }
+          },
+          {
+            "d": 1,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    1151,
+                    1
+                  ]
+                ],
+                "residual": 39815392,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3981539,
+                    1
+                  ]
+                ],
+                "residual": 39815390,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 39815384,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    19907683,
+                    1
+                  ]
+                ],
+                "residual": 39815366,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    223,
+                    1
+                  ],
+                  [
+                    11159,
+                    1
+                  ]
+                ],
+                "residual": 39815312,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    796303,
+                    1
+                  ]
+                ],
+                "residual": 39815150,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    4339,
+                    1
+                  ]
+                ],
+                "residual": 39814664,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    1759,
+                    1
+                  ]
+                ],
+                "residual": 39813206,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    5227,
+                    1
+                  ]
+                ],
+                "residual": 39808832,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3979571,
+                    1
+                  ]
+                ],
+                "residual": 39795710,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3527,
+                    1
+                  ]
+                ],
+                "residual": 39756344,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 39638246,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    239,
+                    1
+                  ]
+                ],
+                "residual": 39283952,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3822107,
+                    1
+                  ]
+                ],
+                "residual": 38221070,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    67,
+                    1
+                  ]
+                ],
+                "residual": 35032424,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    4243,
+                    1
+                  ]
+                ],
+                "residual": 25466486,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 5,
+            "in_T3": false,
+            "residual": 39815393
+          },
+          {
+            "d": 2,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    8179,
+                    1
+                  ]
+                ],
+                "residual": 39815372,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    63199,
+                    1
+                  ]
+                ],
+                "residual": 39815370,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3317947,
+                    1
+                  ]
+                ],
+                "residual": 39815364,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    227,
+                    1
+                  ]
+                ],
+                "residual": 39815346,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 39815292,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3343,
+                    1
+                  ]
+                ],
+                "residual": 39815130,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3317887,
+                    1
+                  ]
+                ],
+                "residual": 39814644,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    191,
+                    1
+                  ]
+                ],
+                "residual": 39813186,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    70583,
+                    1
+                  ]
+                ],
+                "residual": 39808812,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 39795690,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    59,
+                    1
+                  ]
+                ],
+                "residual": 39756324,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    599,
+                    1
+                  ]
+                ],
+                "residual": 39638226,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 39283932,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 38221050,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 35032404,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    146359,
+                    1
+                  ]
+                ],
+                "residual": 25466466,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 25,
+            "in_T3": false,
+            "residual": 39815373
+          },
+          {
+            "d": 3,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    710987,
+                    1
+                  ]
+                ],
+                "residual": 39815272,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    283,
+                    1
+                  ],
+                  [
+                    1279,
+                    1
+                  ]
+                ],
+                "residual": 39815270,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    30347,
+                    1
+                  ]
+                ],
+                "residual": 39815264,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    19907623,
+                    1
+                  ]
+                ],
+                "residual": 39815246,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    4976899,
+                    1
+                  ]
+                ],
+                "residual": 39815192,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3981503,
+                    1
+                  ]
+                ],
+                "residual": 39815030,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 39814544,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    16411,
+                    1
+                  ]
+                ],
+                "residual": 39813086,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ]
+                ],
+                "residual": 39808712,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    1663,
+                    1
+                  ]
+                ],
+                "residual": 39795590,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    139,
+                    1
+                  ]
+                ],
+                "residual": 39756224,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 39638126,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 39283832,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    14423,
+                    1
+                  ]
+                ],
+                "residual": 38220950,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    6907,
+                    1
+                  ]
+                ],
+                "residual": 35032304,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    12733183,
+                    1
+                  ]
+                ],
+                "residual": 25466366,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 125,
+            "in_T3": false,
+            "residual": 39815273
+          },
+          {
+            "attempts_before_success": [],
+            "d": 4,
+            "five_power": 625,
+            "in_T3": true,
+            "residual": 39814773,
+            "witness": {
+              "a": 2404,
+              "b": 5834,
+              "c": 0
+            }
+          },
+          {
+            "d": 5,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    2488267,
+                    1
+                  ]
+                ],
+                "residual": 39812272,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3981227,
+                    1
+                  ]
+                ],
+                "residual": 39812270,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    216371,
+                    1
+                  ]
+                ],
+                "residual": 39812264,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 39812246,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 39812192,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 39812030,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    4976443,
+                    1
+                  ]
+                ],
+                "residual": 39811544,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    19905043,
+                    1
+                  ]
+                ],
+                "residual": 39810086,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    107,
+                    1
+                  ],
+                  [
+                    23251,
+                    1
+                  ]
+                ],
+                "residual": 39805712,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3979259,
+                    1
+                  ]
+                ],
+                "residual": 39792590,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    709879,
+                    1
+                  ]
+                ],
+                "residual": 39753224,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    1165739,
+                    1
+                  ]
+                ],
+                "residual": 39635126,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    613763,
+                    1
+                  ]
+                ],
+                "residual": 39280832,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    167,
+                    1
+                  ],
+                  [
+                    199,
+                    1
+                  ]
+                ],
+                "residual": 38217950,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    29387,
+                    1
+                  ]
+                ],
+                "residual": 35029304,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    12731683,
+                    1
+                  ]
+                ],
+                "residual": 25463366,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 3125,
+            "in_T3": false,
+            "residual": 39812273
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    9949943,
+                    1
+                  ]
+                ],
+                "residual": 39799772,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1326659,
+                    1
+                  ]
+                ],
+                "residual": 39799770,
+                "three_power": 3
+              }
+            ],
+            "d": 6,
+            "five_power": 15625,
+            "in_T3": true,
+            "residual": 39799773,
+            "witness": {
+              "a": 3108,
+              "b": 5490,
+              "c": 2
+            }
+          },
+          {
+            "d": 7,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    271,
+                    1
+                  ]
+                ],
+                "residual": 39737272,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3973727,
+                    1
+                  ]
+                ],
+                "residual": 39737270,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 39737264,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ],
+                  [
+                    83,
+                    1
+                  ]
+                ],
+                "residual": 39737246,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 39737192,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    67,
+                    1
+                  ],
+                  [
+                    127,
+                    1
+                  ],
+                  [
+                    467,
+                    1
+                  ]
+                ],
+                "residual": 39737030,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 39736544,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    4159,
+                    1
+                  ]
+                ],
+                "residual": 39735086,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    307,
+                    1
+                  ],
+                  [
+                    2311,
+                    1
+                  ]
+                ],
+                "residual": 39730712,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 39717590,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    79,
+                    1
+                  ],
+                  [
+                    31391,
+                    1
+                  ]
+                ],
+                "residual": 39678224,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    14323,
+                    1
+                  ]
+                ],
+                "residual": 39560126,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    503,
+                    1
+                  ],
+                  [
+                    9743,
+                    1
+                  ]
+                ],
+                "residual": 39205832,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    719,
+                    1
+                  ]
+                ],
+                "residual": 38142950,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 34954304,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    11743,
+                    1
+                  ]
+                ],
+                "residual": 25388366,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 78125,
+            "in_T3": false,
+            "residual": 39737273
+          },
+          {
+            "d": 8,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    518747,
+                    1
+                  ]
+                ],
+                "residual": 39424772,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 39424770,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 39424764,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 39424746,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    103,
+                    1
+                  ],
+                  [
+                    167,
+                    1
+                  ],
+                  [
+                    191,
+                    1
+                  ]
+                ],
+                "residual": 39424692,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 39424530,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    298667,
+                    1
+                  ]
+                ],
+                "residual": 39424044,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    599,
+                    1
+                  ],
+                  [
+                    1567,
+                    1
+                  ]
+                ],
+                "residual": 39422586,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3284851,
+                    1
+                  ]
+                ],
+                "residual": 39418212,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    787,
+                    1
+                  ]
+                ],
+                "residual": 39405090,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 39365724,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    59,
+                    1
+                  ],
+                  [
+                    10079,
+                    1
+                  ]
+                ],
+                "residual": 39247626,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2087,
+                    1
+                  ]
+                ],
+                "residual": 38893332,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    5147,
+                    1
+                  ]
+                ],
+                "residual": 37830450,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 34641804,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    4179311,
+                    1
+                  ]
+                ],
+                "residual": 25075866,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 390625,
+            "in_T3": false,
+            "residual": 39424773
+          },
+          {
+            "d": 9,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 37862272,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    92347,
+                    1
+                  ]
+                ],
+                "residual": 37862270,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 37862264,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    547,
+                    1
+                  ]
+                ],
+                "residual": 37862246,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    2366387,
+                    1
+                  ]
+                ],
+                "residual": 37862192,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3786203,
+                    1
+                  ]
+                ],
+                "residual": 37862030,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    676099,
+                    1
+                  ]
+                ],
+                "residual": 37861544,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 37860086,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    1231,
+                    1
+                  ]
+                ],
+                "residual": 37855712,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 37842590,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    2371,
+                    1
+                  ]
+                ],
+                "residual": 37803224,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    30539,
+                    1
+                  ]
+                ],
+                "residual": 37685126,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 37330832,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    725359,
+                    1
+                  ]
+                ],
+                "residual": 36267950,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    283,
+                    1
+                  ]
+                ],
+                "residual": 33079304,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    11756683,
+                    1
+                  ]
+                ],
+                "residual": 23513366,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 1953125,
+            "in_T3": false,
+            "residual": 37862273
+          },
+          {
+            "d": 10,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    203039,
+                    1
+                  ]
+                ],
+                "residual": 30049772,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1001659,
+                    1
+                  ]
+                ],
+                "residual": 30049770,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2504147,
+                    1
+                  ]
+                ],
+                "residual": 30049764,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    5008291,
+                    1
+                  ]
+                ],
+                "residual": 30049746,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 30049692,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 30049530,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 30049044,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    5023,
+                    1
+                  ]
+                ],
+                "residual": 30047586,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    523,
+                    1
+                  ],
+                  [
+                    4787,
+                    1
+                  ]
+                ],
+                "residual": 30043212,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1001003,
+                    1
+                  ]
+                ],
+                "residual": 30030090,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    439,
+                    1
+                  ]
+                ],
+                "residual": 29990724,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    167,
+                    1
+                  ],
+                  [
+                    4259,
+                    1
+                  ]
+                ],
+                "residual": 29872626,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 29518332,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11159,
+                    1
+                  ]
+                ],
+                "residual": 28455450,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2105567,
+                    1
+                  ]
+                ],
+                "residual": 25266804,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    239,
+                    1
+                  ]
+                ],
+                "residual": 15700866,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 9765625,
+            "in_T3": false,
+            "residual": 30049773
+          }
+        ]
+      }
+    },
+    {
+      "five_m_plus_three": 44922133,
+      "intersection": [],
+      "m": 8984426,
+      "shifted_D_m": [
+        2,
+        5,
+        6,
+        8,
+        10
+      ],
+      "source": {
+        "D": [
+          1,
+          4,
+          5,
+          7,
+          9
+        ],
+        "m": 8984426,
+        "rows": [
+          {
+            "d": 0,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    374351,
+                    1
+                  ]
+                ],
+                "residual": 8984424,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    4492211,
+                    1
+                  ]
+                ],
+                "residual": 8984422,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    2111,
+                    1
+                  ]
+                ],
+                "residual": 8984416,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 8984398,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    2887,
+                    1
+                  ]
+                ],
+                "residual": 8984344,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    683,
+                    1
+                  ]
+                ],
+                "residual": 8984182,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    439,
+                    1
+                  ],
+                  [
+                    1279,
+                    1
+                  ]
+                ],
+                "residual": 8983696,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    1439,
+                    1
+                  ]
+                ],
+                "residual": 8982238,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    160319,
+                    1
+                  ]
+                ],
+                "residual": 8977864,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    39667,
+                    1
+                  ]
+                ],
+                "residual": 8964742,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    139459,
+                    1
+                  ]
+                ],
+                "residual": 8925376,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    4403639,
+                    1
+                  ]
+                ],
+                "residual": 8807278,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    1056623,
+                    1
+                  ]
+                ],
+                "residual": 8452984,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    24799,
+                    1
+                  ]
+                ],
+                "residual": 7390102,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 4201456,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 1,
+            "in_T3": false,
+            "residual": 8984425
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ]
+                ],
+                "residual": 8984420,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    83,
+                    1
+                  ]
+                ],
+                "residual": 8984418,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 8984412,
+                "three_power": 9
+              }
+            ],
+            "d": 1,
+            "five_power": 5,
+            "in_T3": true,
+            "residual": 8984421,
+            "witness": {
+              "a": 1425,
+              "b": 2637,
+              "c": 3
+            }
+          },
+          {
+            "d": 2,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7487,
+                    1
+                  ]
+                ],
+                "residual": 8984400,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 8984398,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    787,
+                    1
+                  ],
+                  [
+                    1427,
+                    1
+                  ]
+                ],
+                "residual": 8984392,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 8984374,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    7019,
+                    1
+                  ]
+                ],
+                "residual": 8984320,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    1223,
+                    1
+                  ]
+                ],
+                "residual": 8984158,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    15383,
+                    1
+                  ]
+                ],
+                "residual": 8983672,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    4491107,
+                    1
+                  ]
+                ],
+                "residual": 8982214,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    112223,
+                    1
+                  ]
+                ],
+                "residual": 8977840,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 8964718,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    223,
+                    1
+                  ],
+                  [
+                    5003,
+                    1
+                  ]
+                ],
+                "residual": 8925352,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    4403627,
+                    1
+                  ]
+                ],
+                "residual": 8807254,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 8452960,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3695039,
+                    1
+                  ]
+                ],
+                "residual": 7390078,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    131,
+                    1
+                  ],
+                  [
+                    211,
+                    1
+                  ]
+                ],
+                "residual": 4201432,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 25,
+            "in_T3": false,
+            "residual": 8984401
+          },
+          {
+            "d": 3,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    6911,
+                    1
+                  ]
+                ],
+                "residual": 8984300,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    67,
+                    1
+                  ]
+                ],
+                "residual": 8984298,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    748691,
+                    1
+                  ]
+                ],
+                "residual": 8984292,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    115183,
+                    1
+                  ]
+                ],
+                "residual": 8984274,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    21391,
+                    1
+                  ]
+                ],
+                "residual": 8984220,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    88079,
+                    1
+                  ]
+                ],
+                "residual": 8984058,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    57587,
+                    1
+                  ]
+                ],
+                "residual": 8983572,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1497019,
+                    1
+                  ]
+                ],
+                "residual": 8982114,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 8977740,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    263,
+                    1
+                  ]
+                ],
+                "residual": 8964618,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ]
+                ],
+                "residual": 8925252,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1467859,
+                    1
+                  ]
+                ],
+                "residual": 8807154,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 8452860,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    1231663,
+                    1
+                  ]
+                ],
+                "residual": 7389978,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    350111,
+                    1
+                  ]
+                ],
+                "residual": 4201332,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 125,
+            "in_T3": false,
+            "residual": 8984301
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 8983800,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    4491899,
+                    1
+                  ]
+                ],
+                "residual": 8983798,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    251,
+                    1
+                  ]
+                ],
+                "residual": 8983792,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    4491887,
+                    1
+                  ]
+                ],
+                "residual": 8983774,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    107,
+                    1
+                  ],
+                  [
+                    2099,
+                    1
+                  ]
+                ],
+                "residual": 8983720,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    46307,
+                    1
+                  ]
+                ],
+                "residual": 8983558,
+                "three_power": 243
+              }
+            ],
+            "d": 4,
+            "five_power": 625,
+            "in_T3": true,
+            "residual": 8983801,
+            "witness": {
+              "a": 84,
+              "b": 2996,
+              "c": 6
+            }
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    163,
+                    1
+                  ]
+                ],
+                "residual": 8981300,
+                "three_power": 1
+              }
+            ],
+            "d": 5,
+            "five_power": 3125,
+            "in_T3": true,
+            "residual": 8981301,
+            "witness": {
+              "a": 1983,
+              "b": 2247,
+              "c": 1
+            }
+          },
+          {
+            "d": 6,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 8968800,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 8968798,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 8968792,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    4484387,
+                    1
+                  ]
+                ],
+                "residual": 8968774,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    71,
+                    1
+                  ],
+                  [
+                    1579,
+                    1
+                  ]
+                ],
+                "residual": 8968720,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    139,
+                    1
+                  ]
+                ],
+                "residual": 8968558,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    619,
+                    1
+                  ],
+                  [
+                    1811,
+                    1
+                  ]
+                ],
+                "residual": 8968072,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    4483307,
+                    1
+                  ]
+                ],
+                "residual": 8966614,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 8962240,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    41051,
+                    1
+                  ]
+                ],
+                "residual": 8949118,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    1113719,
+                    1
+                  ]
+                ],
+                "residual": 8909752,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    4395827,
+                    1
+                  ]
+                ],
+                "residual": 8791654,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    105467,
+                    1
+                  ]
+                ],
+                "residual": 8437360,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3687239,
+                    1
+                  ]
+                ],
+                "residual": 7374478,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    74747,
+                    1
+                  ]
+                ],
+                "residual": 4185832,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 15625,
+            "in_T3": false,
+            "residual": 8968801
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 8906300,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3739,
+                    1
+                  ]
+                ],
+                "residual": 8906298,
+                "three_power": 3
+              }
+            ],
+            "d": 7,
+            "five_power": 78125,
+            "in_T3": true,
+            "residual": 8906301,
+            "witness": {
+              "a": 804,
+              "b": 2874,
+              "c": 2
+            }
+          },
+          {
+            "d": 8,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    14323,
+                    1
+                  ]
+                ],
+                "residual": 8593800,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    4296899,
+                    1
+                  ]
+                ],
+                "residual": 8593798,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    67139,
+                    1
+                  ]
+                ],
+                "residual": 8593792,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 8593774,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 8593720,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    70439,
+                    1
+                  ]
+                ],
+                "residual": 8593558,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    537067,
+                    1
+                  ]
+                ],
+                "residual": 8593072,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    739,
+                    1
+                  ]
+                ],
+                "residual": 8591614,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    11299,
+                    1
+                  ]
+                ],
+                "residual": 8587240,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    87491,
+                    1
+                  ]
+                ],
+                "residual": 8574118,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    266711,
+                    1
+                  ]
+                ],
+                "residual": 8534752,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    9719,
+                    1
+                  ]
+                ],
+                "residual": 8416654,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3803,
+                    1
+                  ]
+                ],
+                "residual": 8062360,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    127,
+                    1
+                  ]
+                ],
+                "residual": 6999478,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    43,
+                    1
+                  ],
+                  [
+                    191,
+                    1
+                  ]
+                ],
+                "residual": 3810832,
+                "three_power": 4782969
+              }
+            ],
+            "five_power": 390625,
+            "in_T3": false,
+            "residual": 8593801
+          },
+          {
+            "attempts_before_success": [],
+            "d": 9,
+            "five_power": 1953125,
+            "in_T3": true,
+            "residual": 7031301,
+            "witness": {
+              "a": 368,
+              "b": 2626,
+              "c": 0
+            }
+          }
+        ]
+      },
+      "target": {
+        "D": [
+          0,
+          1,
+          3,
+          7,
+          9
+        ],
+        "m": 44922133,
+        "rows": [
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    107,
+                    1
+                  ],
+                  [
+                    467,
+                    1
+                  ]
+                ],
+                "residual": 44922131,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 44922129,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    4991347,
+                    1
+                  ]
+                ],
+                "residual": 44922123,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    43403,
+                    1
+                  ]
+                ],
+                "residual": 44922105,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    4991339,
+                    1
+                  ]
+                ],
+                "residual": 44922051,
+                "three_power": 81
+              }
+            ],
+            "d": 0,
+            "five_power": 1,
+            "in_T3": true,
+            "residual": 44922132,
+            "witness": {
+              "a": 1167,
+              "b": 6600,
+              "c": 5
+            }
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    131,
+                    1
+                  ]
+                ],
+                "residual": 44922127,
+                "three_power": 1
+              }
+            ],
+            "d": 1,
+            "five_power": 5,
+            "in_T3": true,
+            "residual": 44922128,
+            "witness": {
+              "a": 934,
+              "b": 6637,
+              "c": 1
+            }
+          },
+          {
+            "d": 2,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    6163,
+                    1
+                  ]
+                ],
+                "residual": 44922107,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    43403,
+                    1
+                  ]
+                ],
+                "residual": 44922105,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    788107,
+                    1
+                  ]
+                ],
+                "residual": 44922099,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    491,
+                    1
+                  ]
+                ],
+                "residual": 44922081,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    3671,
+                    1
+                  ],
+                  [
+                    4079,
+                    1
+                  ]
+                ],
+                "residual": 44922027,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    131,
+                    1
+                  ]
+                ],
+                "residual": 44921865,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44921379,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ]
+                ],
+                "residual": 44919921,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    907,
+                    1
+                  ],
+                  [
+                    971,
+                    1
+                  ]
+                ],
+                "residual": 44915547,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    163,
+                    1
+                  ]
+                ],
+                "residual": 44902425,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44863059,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    22031,
+                    1
+                  ]
+                ],
+                "residual": 44744961,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 44390667,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    223,
+                    1
+                  ]
+                ],
+                "residual": 43327785,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    179,
+                    1
+                  ],
+                  [
+                    74747,
+                    1
+                  ]
+                ],
+                "residual": 40139139,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    10191067,
+                    1
+                  ]
+                ],
+                "residual": 30573201,
+                "three_power": 14348907
+              },
+              {
+                "c": 16,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 1875387,
+                "three_power": 43046721
+              }
+            ],
+            "five_power": 25,
+            "in_T3": false,
+            "residual": 44922108
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    79,
+                    1
+                  ],
+                  [
+                    83,
+                    1
+                  ]
+                ],
+                "residual": 44922007,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    283,
+                    1
+                  ],
+                  [
+                    599,
+                    1
+                  ]
+                ],
+                "residual": 44922005,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    44921999,
+                    1
+                  ]
+                ],
+                "residual": 44921999,
+                "three_power": 9
+              }
+            ],
+            "d": 3,
+            "five_power": 125,
+            "in_T3": true,
+            "residual": 44922008,
+            "witness": {
+              "a": 955,
+              "b": 6634,
+              "c": 3
+            }
+          },
+          {
+            "d": 4,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 44921507,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2994767,
+                    1
+                  ]
+                ],
+                "residual": 44921505,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    29303,
+                    1
+                  ]
+                ],
+                "residual": 44921499,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    191,
+                    1
+                  ],
+                  [
+                    7127,
+                    1
+                  ]
+                ],
+                "residual": 44921481,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44921427,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    199,
+                    1
+                  ]
+                ],
+                "residual": 44921265,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44920779,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    79,
+                    1
+                  ]
+                ],
+                "residual": 44919321,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    127,
+                    1
+                  ],
+                  [
+                    1531,
+                    1
+                  ]
+                ],
+                "residual": 44914947,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    598691,
+                    1
+                  ]
+                ],
+                "residual": 44901825,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ],
+                  [
+                    347771,
+                    1
+                  ]
+                ],
+                "residual": 44862459,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    59,
+                    1
+                  ],
+                  [
+                    379,
+                    1
+                  ]
+                ],
+                "residual": 44744361,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    139,
+                    1
+                  ],
+                  [
+                    106451,
+                    1
+                  ]
+                ],
+                "residual": 44390067,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    151,
+                    1
+                  ]
+                ],
+                "residual": 43327185,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    26183,
+                    1
+                  ]
+                ],
+                "residual": 40138539,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    10190867,
+                    1
+                  ]
+                ],
+                "residual": 30572601,
+                "three_power": 14348907
+              },
+              {
+                "c": 16,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 1874787,
+                "three_power": 43046721
+              }
+            ],
+            "five_power": 625,
+            "in_T3": false,
+            "residual": 44921508
+          },
+          {
+            "d": 5,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 44919007,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    79,
+                    1
+                  ],
+                  [
+                    113719,
+                    1
+                  ]
+                ],
+                "residual": 44919005,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    41863,
+                    1
+                  ]
+                ],
+                "residual": 44918999,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    3307,
+                    1
+                  ]
+                ],
+                "residual": 44918981,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    11719,
+                    1
+                  ]
+                ],
+                "residual": 44918927,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    59,
+                    1
+                  ],
+                  [
+                    152267,
+                    1
+                  ]
+                ],
+                "residual": 44918765,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    107,
+                    1
+                  ],
+                  [
+                    59971,
+                    1
+                  ]
+                ],
+                "residual": 44918279,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    167,
+                    1
+                  ],
+                  [
+                    2663,
+                    1
+                  ]
+                ],
+                "residual": 44916821,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 44912447,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    191,
+                    1
+                  ],
+                  [
+                    9403,
+                    1
+                  ]
+                ],
+                "residual": 44899325,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    23,
+                    1
+                  ]
+                ],
+                "residual": 44859959,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    103,
+                    1
+                  ],
+                  [
+                    434387,
+                    1
+                  ]
+                ],
+                "residual": 44741861,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ],
+                  [
+                    67,
+                    1
+                  ],
+                  [
+                    71,
+                    1
+                  ]
+                ],
+                "residual": 44387567,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    347,
+                    1
+                  ],
+                  [
+                    24971,
+                    1
+                  ]
+                ],
+                "residual": 43324685,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    40136039,
+                    1
+                  ]
+                ],
+                "residual": 40136039,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    151,
+                    1
+                  ],
+                  [
+                    443,
+                    1
+                  ]
+                ],
+                "residual": 30570101,
+                "three_power": 14348907
+              },
+              {
+                "c": 16,
+                "odd_3mod4_valuations": [
+                  [
+                    1872287,
+                    1
+                  ]
+                ],
+                "residual": 1872287,
+                "three_power": 43046721
+              }
+            ],
+            "five_power": 3125,
+            "in_T3": false,
+            "residual": 44919008
+          },
+          {
+            "d": 6,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ],
+                  [
+                    499,
+                    1
+                  ],
+                  [
+                    2903,
+                    1
+                  ]
+                ],
+                "residual": 44906507,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 44906505,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 44906499,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    29179,
+                    1
+                  ]
+                ],
+                "residual": 44906481,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    239,
+                    1
+                  ],
+                  [
+                    6959,
+                    1
+                  ]
+                ],
+                "residual": 44906427,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    1151,
+                    1
+                  ]
+                ],
+                "residual": 44906265,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 44905779,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    21599,
+                    1
+                  ]
+                ],
+                "residual": 44904321,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 44899947,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    66499,
+                    1
+                  ]
+                ],
+                "residual": 44886825,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 44847459,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    71,
+                    1
+                  ]
+                ],
+                "residual": 44729361,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    149411,
+                    1
+                  ]
+                ],
+                "residual": 44375067,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    7,
+                    1
+                  ]
+                ],
+                "residual": 43312185,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 40123539,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    1131763,
+                    1
+                  ]
+                ],
+                "residual": 30557601,
+                "three_power": 14348907
+              },
+              {
+                "c": 16,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ]
+                ],
+                "residual": 1859787,
+                "three_power": 43046721
+              }
+            ],
+            "five_power": 15625,
+            "in_T3": false,
+            "residual": 44906508
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    3449539,
+                    1
+                  ]
+                ],
+                "residual": 44844007,
+                "three_power": 1
+              }
+            ],
+            "d": 7,
+            "five_power": 78125,
+            "in_T3": true,
+            "residual": 44844008,
+            "witness": {
+              "a": 1553,
+              "b": 6514,
+              "c": 1
+            }
+          },
+          {
+            "d": 8,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    2131,
+                    1
+                  ]
+                ],
+                "residual": 44531507,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    3
+                  ],
+                  [
+                    329863,
+                    1
+                  ]
+                ],
+                "residual": 44531505,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44531499,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    99623,
+                    1
+                  ]
+                ],
+                "residual": 44531481,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    645383,
+                    1
+                  ]
+                ],
+                "residual": 44531427,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    719,
+                    1
+                  ]
+                ],
+                "residual": 44531265,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44530779,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    362027,
+                    1
+                  ]
+                ],
+                "residual": 44529321,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    107,
+                    1
+                  ],
+                  [
+                    4783,
+                    1
+                  ]
+                ],
+                "residual": 44524947,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    593491,
+                    1
+                  ]
+                ],
+                "residual": 44511825,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 44472459,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    14784787,
+                    1
+                  ]
+                ],
+                "residual": 44354361,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ],
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 44000067,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2207,
+                    1
+                  ]
+                ],
+                "residual": 42937185,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 39748539,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    23,
+                    1
+                  ],
+                  [
+                    47,
+                    1
+                  ],
+                  [
+                    227,
+                    1
+                  ]
+                ],
+                "residual": 30182601,
+                "three_power": 14348907
+              },
+              {
+                "c": 16,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    67,
+                    1
+                  ],
+                  [
+                    83,
+                    1
+                  ]
+                ],
+                "residual": 1484787,
+                "three_power": 43046721
+              }
+            ],
+            "five_power": 390625,
+            "in_T3": false,
+            "residual": 44531508
+          },
+          {
+            "attempts_before_success": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    31,
+                    1
+                  ]
+                ],
+                "residual": 42969007,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    1867,
+                    1
+                  ],
+                  [
+                    4603,
+                    1
+                  ]
+                ],
+                "residual": 42969005,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    394211,
+                    1
+                  ]
+                ],
+                "residual": 42968999,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ],
+                  [
+                    134699,
+                    1
+                  ]
+                ],
+                "residual": 42968981,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    42968927,
+                    1
+                  ]
+                ],
+                "residual": 42968927,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    331,
+                    1
+                  ]
+                ],
+                "residual": 42968765,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    199,
+                    1
+                  ]
+                ],
+                "residual": 42968279,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    131,
+                    1
+                  ],
+                  [
+                    431,
+                    1
+                  ]
+                ],
+                "residual": 42966821,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    11,
+                    1
+                  ]
+                ],
+                "residual": 42962447,
+                "three_power": 6561
+              }
+            ],
+            "d": 9,
+            "five_power": 1953125,
+            "in_T3": true,
+            "residual": 42969008,
+            "witness": {
+              "a": 710,
+              "b": 6515,
+              "c": 9
+            }
+          },
+          {
+            "d": 10,
+            "exhaustive_attempts": [
+              {
+                "c": 0,
+                "odd_3mod4_valuations": [
+                  [
+                    59,
+                    1
+                  ]
+                ],
+                "residual": 35156507,
+                "three_power": 1
+              },
+              {
+                "c": 1,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2343767,
+                    1
+                  ]
+                ],
+                "residual": 35156505,
+                "three_power": 3
+              },
+              {
+                "c": 2,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    43,
+                    1
+                  ]
+                ],
+                "residual": 35156499,
+                "three_power": 9
+              },
+              {
+                "c": 3,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    11718827,
+                    1
+                  ]
+                ],
+                "residual": 35156481,
+                "three_power": 27
+              },
+              {
+                "c": 4,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 35156427,
+                "three_power": 81
+              },
+              {
+                "c": 5,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    80819,
+                    1
+                  ]
+                ],
+                "residual": 35156265,
+                "three_power": 243
+              },
+              {
+                "c": 6,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    179,
+                    1
+                  ],
+                  [
+                    3851,
+                    1
+                  ]
+                ],
+                "residual": 35155779,
+                "three_power": 729
+              },
+              {
+                "c": 7,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    9007,
+                    1
+                  ]
+                ],
+                "residual": 35154321,
+                "three_power": 2187
+              },
+              {
+                "c": 8,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    1673807,
+                    1
+                  ]
+                ],
+                "residual": 35149947,
+                "three_power": 6561
+              },
+              {
+                "c": 9,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    468491,
+                    1
+                  ]
+                ],
+                "residual": 35136825,
+                "three_power": 19683
+              },
+              {
+                "c": 10,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ]
+                ],
+                "residual": 35097459,
+                "three_power": 59049
+              },
+              {
+                "c": 11,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    19,
+                    1
+                  ]
+                ],
+                "residual": 34979361,
+                "three_power": 177147
+              },
+              {
+                "c": 12,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    71,
+                    1
+                  ],
+                  [
+                    1091,
+                    1
+                  ]
+                ],
+                "residual": 34625067,
+                "three_power": 531441
+              },
+              {
+                "c": 13,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    2237479,
+                    1
+                  ]
+                ],
+                "residual": 33562185,
+                "three_power": 1594323
+              },
+              {
+                "c": 14,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    7,
+                    1
+                  ],
+                  [
+                    1446359,
+                    1
+                  ]
+                ],
+                "residual": 30373539,
+                "three_power": 4782969
+              },
+              {
+                "c": 15,
+                "odd_3mod4_valuations": [
+                  [
+                    3,
+                    1
+                  ],
+                  [
+                    503,
+                    1
+                  ]
+                ],
+                "residual": 20807601,
+                "three_power": 14348907
+              }
+            ],
+            "five_power": 9765625,
+            "in_T3": false,
+            "residual": 35156508
+          }
+        ]
+      }
+    }
+  ],
+  "engine": "arithmetic criterion with exact trial-division valuations",
+  "reported_representations": [
+    {
+      "a": 1446,
+      "b": 2311,
+      "c": 12,
+      "d": 0,
+      "n": 7963079,
+      "verified": true
+    },
+    {
+      "a": 614,
+      "b": 6280,
+      "c": 0,
+      "d": 0,
+      "n": 39815398,
+      "verified": true
+    }
+  ]
+}
