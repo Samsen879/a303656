@@ -15,6 +15,7 @@ The repository combines exact finite computations, independently audited structu
 - [Current project status](STATUS.md)
 - [Theorem and conditional-authority index](docs/THEOREM_INDEX.md)
 - [Research route map](docs/ROUTE_MAP.md)
+- [Post-freeze theorem and route index](docs/POST_FREEZE_THEOREM_AND_ROUTE_INDEX.md)
 - [Certified and exact finite computations](docs/FINITE_COMPUTATIONS.md)
 - [Authority tree](docs/AUTHORITY_TREE.md)
 - [Raw/repaired artifact lineage](docs/ARTIFACT_LINEAGE.md)

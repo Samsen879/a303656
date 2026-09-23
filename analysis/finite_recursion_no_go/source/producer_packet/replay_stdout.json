@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "output": "/mnt/data/a303656_thread3/certificate.json",
+  "N": 20000,
+  "matrix_counts": {
+    "3": 0,
+    "5": 16,
+    "9": 8,
+    "15": 0,
+    "25": 24
+  },
+  "positive_identities": 18,
+  "binary_sections": {
+    "even": {
+      "target": "2m",
+      "factor": 1,
+      "checked_m_max": 10000,
+      "auxiliary_hash": "e963a89cc61c10741e3ff8fb82de08674d3f092824268256db34ab1b1c74cfdd"
+    },
+    "1_mod_4": {
+      "target": "4m+1",
+      "factor": 2,
+      "checked_m_max": 4999,
+      "auxiliary_hash": "b29ed83cd103de18201615b3ad814c77eb2b9ccf6c6917238dd99fcedf27cafb"
+    },
+    "3_mod_4": {
+      "target": "4m+3",
+      "factor": 2,
+      "checked_m_max": 4999,
+      "auxiliary_hash": "8597dad740a88f9900632982f2c4cefb3e707e4c5a5e0dde484f83030ea2ad40"
+    },
+    "guards_exhaustive": true,
+    "finite_state_closure_proved": false
+  },
+  "nonlinear_theta": {
+    "identities_checked": 2,
+    "checked_through": 20000,
+    "isolated_coefficient_reconstruction_through": 512,
+    "Phi_hash": "44e324b3cece40c9198af134792cc5c51a64c5d3604014b1fb0107664f38672e",
+    "Psi_hash": "8b70545499394858bb1db6b1ca118f9694c2a4961a07377a1452961a6e1ab4fd",
+    "cancellation_at_2": {
+      "positive_product_coefficient": 1,
+      "removed_convolution_coefficient": 1,
+      "twice_Psi_coefficient": 0
+    },
+    "positivity_preserving": false,
+    "bounded_fanout_coefficient_automaton": false
+  },
+  "rank": 78,
+  "minor_det": 118956141,
+  "forcing_rank": 91,
+  "forcing_minor_det": 398217515,
+  "countermodels": {
+    "narrowed_state_countermodels": [
+      {
+        "n": 5,
+        "fixed_c0_witness": null,
+        "original_witness": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "F_coefficient": 4
+      },
+      {
+        "n": 21,
+        "fixed_c0_witness": null,
+        "original_witness": [
+          1,
+          4,
+          1,
+          0
+        ],
+        "F_coefficient": 16
+      }
+    ],
+    "first_bounded_floor_count_domination_failures": {
+      "3": {
+        "n": 25,
+        "m": 8,
+        "F_n": 8,
+        "F_m": 9
+      },
+      "5": {
+        "n": 98,
+        "m": 19,
+        "F_n": 20,
+        "F_m": 28
+      },
+      "9": {
+        "n": 109,
+        "m": 12,
+        "F_n": 16,
+        "F_m": 20
+      },
+      "15": {
+        "n": 506,
+        "m": 33,
+        "F_n": 36,
+        "F_m": 40
+      },
+      "25": {
+        "n": 382,
+        "m": 15,
+        "F_n": 20,
+        "F_m": 24
+      }
+    }
+  }
+}
