@@ -1,0 +1,11 @@
+{
+  "engine": "direct enumeration of x^2+y^2 support plus bitset shifts by 3^c",
+  "scan_domain": {"minimum": 2, "maximum": 7963079, "predicate": "D(m) nonempty"},
+  "support_limit": 44922133,
+  "tested_representable_sources_through_failure": 7963078,
+  "first_failure": 7963079,
+  "candidates": [
+    {"m": 7963079, "five_m_plus_three": 39815398, "D_m": [0,1,2,4,6,7,8,9], "D_5m3": [0,4,6], "shifted_D_m": [1,2,3,5,7,8,9,10], "intersection": []},
+    {"m": 8984426, "five_m_plus_three": 44922133, "D_m": [1,4,5,7,9], "D_5m3": [0,1,3,7,9], "shifted_D_m": [2,5,6,8,10], "intersection": []}
+  ]
+}

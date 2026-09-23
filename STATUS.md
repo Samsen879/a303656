@@ -12,6 +12,21 @@ A303656: UNRESOLVED
 
 There is **no general proof** and **no certified counterexample**.
 
+## Thread 4 minimal-counterexample transfer audit
+
+The exact [L5,3 falsification certificate](analysis/thread4_l53_falsification/README.md)
+establishes:
+
+```text
+L5,3 TRANSFER LEMMA: CLOSED / FALSE
+MINIMAL-COUNTEREXAMPLE PROGRAM: HEDGE / UNRESOLVED
+```
+
+The first failure is `m=7,963,079`; both it and `5m+3=39,815,398` are
+representable.  This closes only the stated representation-selection transfer
+lemma.  It does not close all 5-adic transfers or the general
+minimal-counterexample program, and it does not change A303656's status.
+
 ## Frozen authority state
 
 - Master Authority V2: `FROZEN`

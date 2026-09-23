@@ -1,0 +1,123 @@
+{
+  "definitions": {
+    "D_m": "{d>=0 : m-5^d in T_3}",
+    "S_2": "{x^2+y^2 : x,y in Z}",
+    "T_3": "S_2 + {3^j : j>=0}",
+    "domain": "integers m>=2 with D(m) nonempty (equivalently representable m)",
+    "statement": "D(m) nonempty implies (D(m)+1) intersect D(5m+3) nonempty"
+  },
+  "engines": {
+    "A": "direct enumeration of two-square support; bitset shifts by powers of 3",
+    "B": "exact trial-division factorization and odd valuations at primes 3 mod 4",
+    "agreement": true,
+    "shared_membership_logic": false
+  },
+  "first_failure": {
+    "D_5m3": [
+      0,
+      4,
+      6
+    ],
+    "D_m": [
+      0,
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9
+    ],
+    "engine_agreement": true,
+    "five_m_plus_three": 39815398,
+    "intersection": [],
+    "m": 7963079,
+    "shifted_D_m": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "first_failure_scan": {
+    "exhaustive": true,
+    "maximum": 7963079,
+    "minimum": 2,
+    "smaller_failure_count": 0,
+    "tested_representable_sources_through_failure": 7963078
+  },
+  "historical_context": {
+    "history_rewritten": false,
+    "packet_failures_in_that_interval": 0,
+    "packet_tested_source_interval": [
+      2,
+      5000
+    ]
+  },
+  "independent_checker_pass": true,
+  "input_hashes": {
+    "criterion_details_json": "a9a8acc176b74ca8b92fe9514916a55d6f1a18804b93c759e75515ea885c6a0a",
+    "support_scan_json": "c870ef43f13a033c0b6ae4f863d223b424bc5a5e6c0e6fca2c4c8419351887a3"
+  },
+  "lemma": "L5,3",
+  "logical_scope": {
+    "certified": "L5,3 is false",
+    "not_certified": [
+      "the minimal-counterexample program is impossible",
+      "all 5-adic transfers are impossible",
+      "all representation-selection lemmas are impossible",
+      "A303656 is false"
+    ]
+  },
+  "representations": [
+    {
+      "a": 1446,
+      "b": 2311,
+      "c": 12,
+      "d": 0,
+      "n": 7963079,
+      "verified": true
+    },
+    {
+      "a": 614,
+      "b": 6280,
+      "c": 0,
+      "d": 0,
+      "n": 39815398,
+      "verified": true
+    }
+  ],
+  "schema": "a303656-l53-falsification-v1",
+  "second_certified_failure": {
+    "D_5m3": [
+      0,
+      1,
+      3,
+      7,
+      9
+    ],
+    "D_m": [
+      1,
+      4,
+      5,
+      7,
+      9
+    ],
+    "engine_agreement": true,
+    "five_m_plus_three": 44922133,
+    "intersection": [],
+    "m": 8984426,
+    "shifted_D_m": [
+      2,
+      5,
+      6,
+      8,
+      10
+    ]
+  },
+  "status": "FALSE"
+}
