@@ -12,6 +12,21 @@ A303656: UNRESOLVED
 
 There is **no general proof** and **no certified counterexample**.
 
+## Post-freeze route-pruning audit
+
+The independently audited [finite rational recursion no-go package](analysis/finite_recursion_no_go/README.md)
+establishes:
+
+```text
+FINITE FIXED-COMPLEXITY RATIONAL RECURSION:
+ROUTE-PRUNED UNDER EXPLICIT HYPOTHESES
+```
+
+Its M/M+ and Q/Q*/Q-dagger conclusions apply only to the exact linear-counting
+and bounded-degree witness-propagating classes stated there.  Boolean decoders,
+unbounded complexity, witness-reselection or multi-witness systems, and other
+out-of-scope recursions remain open.  The frozen authority is unchanged.
+
 ## Frozen authority state
 
 - Master Authority V2: `FROZEN`

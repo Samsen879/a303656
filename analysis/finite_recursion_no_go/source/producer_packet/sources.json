@@ -1,0 +1,85 @@
+{
+  "accessed_utc_date": "2026-09-21",
+  "repository": {
+    "name": "Samsen879/a303656",
+    "commit": "8f17e88e517720f61f3c21d58d91c04cd6fa11b5",
+    "tree": "811a274b1f671412305c8565fcd79e9d41c0189b",
+    "paths_read": [
+      "STATUS.md",
+      "README.md",
+      "docs/THEOREM_INDEX.md",
+      "docs/ROUTE_MAP.md",
+      "docs/AUTHORITY_TREE.md",
+      "docs/ARTIFACT_LINEAGE.md"
+    ],
+    "access_method": "GitHub connector; read-only"
+  },
+  "external_inputs": [
+    {
+      "id": "S1",
+      "title": "NIST DLMF 20.7, equation 20.7.32",
+      "url": "https://dlmf.nist.gov/20.7#E32",
+      "used_for": "Theta modular transformation and radial asymptotic of theta squared."
+    },
+    {
+      "id": "S2",
+      "title": "NIST DLMF 5.2",
+      "url": "https://dlmf.nist.gov/5.2",
+      "used_for": "Gamma meromorphic continuation and absence of zeros."
+    },
+    {
+      "id": "S3",
+      "authors": [
+        "Philippe Flajolet",
+        "Xavier Gourdon",
+        "Philippe Dumas"
+      ],
+      "title": "Mellin transforms and asymptotics: Harmonic sums",
+      "publication": "Theoretical Computer Science 144 (1995), 3–58",
+      "url": "https://specfun.inria.fr/dumas/Publications/FlGoDu95.pdf",
+      "used_for": "Background on harmonic-sum Mellin transforms and log-periodic oscillations. The required periodization is independently derived in the report."
+    },
+    {
+      "id": "S4",
+      "authors": [
+        "Jan-Hendrik Evertse",
+        "Hans Peter Schlickewei",
+        "Wolfgang M. Schmidt"
+      ],
+      "title": "Linear equations in variables which lie in a multiplicative group",
+      "publication": "Annals of Mathematics 155 (2002), 807–836",
+      "url": "https://arxiv.org/html/math/0409604v1",
+      "used_for": "Finite-rank nondegenerate S-unit solutions, including coefficient-independent bounds. Used in Q only, not Q*."
+    },
+    {
+      "id": "S5",
+      "authors": [
+        "Efrat Bank",
+        "Lior Bary-Soroker",
+        "Arno Fehm"
+      ],
+      "title": "Sums of two squares in short intervals in polynomial rings over finite fields",
+      "url": "https://arxiv.org/abs/1509.02013",
+      "used_for": "The introduction recalls classical Landau counting for integer sums of two squares. No finite-field result is substituted for an integer theorem. Used in Q only, not Q*."
+    },
+    {
+      "id": "S6",
+      "authors": [
+        "Frédéric Chyzak",
+        "Bruno Salvy"
+      ],
+      "title": "Non-commutative Elimination in Ore Algebras Proves Multivariate Identities",
+      "publication": "Journal of Symbolic Computation 26 (1998), 187–227",
+      "url": "https://mathexp.eu/chyzak/Publications/ChyzakSalvy-1998-NCE.pdf",
+      "used_for": "Ore/skew-polynomial and skew-fraction background, especially sections 1.2 and 1.5.5. The required common-multiple and matrix arguments are proved in the report."
+    },
+    {
+      "id": "S7",
+      "title": "NIST DLMF 27.13, equation 27.13.7",
+      "url": "https://dlmf.nist.gov/27.13#E7",
+      "used_for": "Independent arithmetic check r2(n)=4*(divisors 1 mod 4 - divisors 3 mod 4)."
+    }
+  ],
+  "novelty": "No literature-first claim. General Mellin and Ore techniques are standard. The report supplies its own adaptations and scoped theorem proofs.",
+  "authority": "Generated research packet; not independently accepted/frozen."
+}
