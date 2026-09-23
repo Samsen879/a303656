@@ -1,0 +1,148 @@
+{
+  "affine_nonzero_defect_search": {
+    "coefficient_bound": 2,
+    "identity_count": 48,
+    "nonzero_eta_count": 0,
+    "pass": true
+  },
+  "affine_tail_bound": {
+    "R_max": 3,
+    "bound": 3,
+    "max_abs_normalized_displacement": "1533/512",
+    "pass": true,
+    "witness_word": [
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ],
+      [
+        2,
+        -3
+      ]
+    ]
+  },
+  "binary_sections": {
+    "all_pass": true,
+    "even": true,
+    "m_max": 1250,
+    "one_mod_4": true,
+    "three_mod_4": true
+  },
+  "catalogue_identities": {
+    "exact_evaluations": 22831,
+    "pass": true
+  },
+  "coefficient_sanity": {
+    "f_0": 0,
+    "f_1": 0,
+    "f_2": 1,
+    "hash": "368cb591cad64f14b3a76b2374a16b4174f3b6f953e28bcc04dae41661a37c99",
+    "pass": true
+  },
+  "implementation": "independent standard-library verifier; packet code not imported",
+  "nonlinear_theta": {
+    "B15": true,
+    "B16": true,
+    "all_pass": true,
+    "checked_through": 5000
+  },
+  "parameters": {
+    "limit": 5000
+  },
+  "positive_grid": {
+    "all_pass": true,
+    "cases": [
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 0,
+        "v": 0
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 0,
+        "v": 1
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 0,
+        "v": 2
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 1,
+        "v": 0
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 1,
+        "v": 1
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 1,
+        "v": 2
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 2,
+        "v": 0
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 2,
+        "v": 1
+      },
+      {
+        "B2_exact_and_nonnegative": true,
+        "B4_exact_and_nonnegative": true,
+        "u": 2,
+        "v": 2
+      }
+    ]
+  },
+  "status": "PASS",
+  "toy_finite_state_reach": {
+    "X": 5000,
+    "density": 0.2866,
+    "distinct_state_norms": 108,
+    "duplicate_multiplier_deduplicated": true,
+    "excluded_K1_cycle_detected": true,
+    "reachable_original_indices": 1433
+  }
+}
