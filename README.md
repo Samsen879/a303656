@@ -17,6 +17,7 @@ The repository combines exact finite computations, independently audited structu
 - [Research route map](docs/ROUTE_MAP.md)
 - [Thread 4 L5,3 exact falsification](analysis/thread4_l53_falsification/README.md)
 - [Post-freeze theorem and route index](docs/POST_FREEZE_THEOREM_AND_ROUTE_INDEX.md)
+- [Full-product multi-source rational fusion no-go](analysis/multisource_rational_fusion_no_go/README.md)
 - [Certified and exact finite computations](docs/FINITE_COMPUTATIONS.md)
 - [Authority tree](docs/AUTHORITY_TREE.md)
 - [Raw/repaired artifact lineage](docs/ARTIFACT_LINEAGE.md)

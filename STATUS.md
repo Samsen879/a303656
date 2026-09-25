@@ -42,6 +42,12 @@ and bounded-degree witness-propagating classes stated there.  Boolean decoders,
 unbounded complexity, witness-reselection or multi-witness systems, and other
 out-of-scope recursions remain open.  The frozen authority is unchanged.
 
+The [MF-R full-product rational fusion theorem](analysis/multisource_rational_fusion_no_go/README.md)
+excludes a new monic linear two-square residual from a rational identity over
+the original `Q`-function field of any fixed finite independent source product.
+It does not exclude arithmetic witness selection or decoders on proper
+compatibility loci.  The general multi-witness route remains open.
+
 ## Frozen authority state
 
 - Master Authority V2: `FROZEN`
