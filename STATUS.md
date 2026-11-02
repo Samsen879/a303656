@@ -1,16 +1,12 @@
 # Project status
 
-```text
-PROJECT: PAUSED
-ACTIVE PROMOTED ROUTE: NONE
-DIRECT ORIGINAL-n PROGRAM: PAUSED
-LOW-COST GENERIC THEOREM HUNTS: NOT ACTIVE
-TARGETED RESTART: ONLY ON EXPLICIT RESTART GATE
-LARGE-SCALE COMPUTATION: NOT AUTHORIZED
-A303656: UNRESOLVED
-```
+**A303656: UNRESOLVED.** There is **no general proof** and **no certified counterexample**.
 
-There is **no general proof** and **no certified counterexample**.
+The project is paused:
+
+- No proof route is currently being pursued, and the direct attack on the original problem (below) is on hold.
+- No further large-scale computation is planned.
+- Work will restart only for a concrete new idea that meets the restart criteria recorded in the frozen archive (`RESTART_GATE`).
 
 ## Thread 4 minimal-counterexample transfer audit
 
@@ -76,4 +72,4 @@ The [Phase I–K2 consolidation](analysis/direct_original_problem_phase_i_k2/REA
 preserves rigorous small-prime local structure and scope-qualified completion
 obstructions. Large-prime completion and ML-K2 remain unproved. The program is
 **PAUSED**, not proved impossible; local survivors do not imply representations.
-No active route is promoted and no additional computation is authorized.
+No route is currently being pursued, and no further computation is planned.
