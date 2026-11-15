@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "certificate_sha256": "03458cf8da297948bc3734ecff8936554f7ce584f123ee77bde577df126490dd",
+  "smooth_orders": 80,
+  "certified_gcd_prime_factors": 60,
+  "complete_inert_candidates": 46,
+  "local_exact_refinements": [
+    11,
+    71,
+    271
+  ],
+  "finite_inequalities": 29,
+  "target_budget": 21,
+  "root_count_corollary": 22,
+  "maxima": {
+    "7": {
+      "M": 7,
+      "t": "base",
+      "budget": "622242277/762048000"
+    },
+    "11": {
+      "M": 11,
+      "t": 11,
+      "budget": "875703733/878169600"
+    },
+    "13": {
+      "M": 13,
+      "t": 13,
+      "budget": "4550743/4612608"
+    },
+    "17": {
+      "M": 17,
+      "t": 17,
+      "budget": "2622994487/2940537600"
+    },
+    "19": {
+      "M": 19,
+      "t": 19,
+      "budget": "13525969/16755200"
+    }
+  },
+  "worst_margin": "2465867/878169600"
+}

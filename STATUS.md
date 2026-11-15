@@ -38,6 +38,26 @@ and bounded-degree witness-propagating classes stated there.  Boolean decoders,
 unbounded complexity, witness-reselection or multi-witness systems, and other
 out-of-scope recursions remain open.  The frozen authority is unchanged.
 
+## Triage wave 2026-11-14 (almost-all route)
+
+The [post-freeze triage package](analysis/triage_wave_2026_11_14/README.md)
+records candidate, AI-refereed A2 and V implications **LP ⇔ POS ⇒ almost-all**.
+Candidate C22 is a negative structural theorem in the eventual-power model,
+with finite budgets machine-checked: any finite zero requires at least 23
+distinct primes `p > 3`, `p ≡ 3 mod 4`, with `p² | q` and
+`3^(p-1) ≡ 5^(p-1) ≡ 1 mod p²`.
+
+The new conditional synthesis, not separately refereed, is: if at most 22
+primes `p ≡ 3 mod 4` satisfy those joint Wieferich congruences, then
+`#{n <= X : R(n)=0} = o(X)`. This is almost-all only; LP remains **OPEN**,
+the hypothesis is not proved, and every-n representability is untouched.
+Full reports A2/R2/V/E2/L were supplied in follow-up uploads and are retained
+with the referee notes, finite certificates and custody hashes. This source
+addition does not upgrade any mathematical claim or evidence label. Review is
+AI-only, with no human mathematical review or formalization. **A303656: UNRESOLVED**; there is
+**no general proof**. This records the supplied triage work without changing
+the project's paused status or the frozen authority.
+
 ## Frozen authority state
 
 - Master Authority V2: `FROZEN`
