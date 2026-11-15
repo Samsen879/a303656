@@ -1,0 +1,507 @@
+A303656 | E2 | Bounded-weight covariance
+研究报告（中文；证明与复核附件见同一研究包）
+
+研究起点：2026-11-14 13:21:49 UTC。
+研究完成记录：2026-11-14 14:21:57 UTC；自起点起实际经过1小时00分08秒。该时段持续用于推导、原文核查、反例测试与交叉复核，没有以空等充数，也没有累计并行子任务时长。此后进行交付整理。
+仓库基线：ba7f028bb7bad69885e34549969059c00487380b。
+
+一、结论与范围
+
+[UNRESOLVED] 本轮没有证明 #{n<=X:R(n)=0}=o(X)，没有证明 Sun 猜想，也没有证明固定权 ν_τ 的完整 parallel-shift asymptotic。未得到可无条件替代已有 positive-density 定理的 exceptional-set 上界。
+
+[PROVED] 本轮得到一族真正 bounded、nonnegative、exact-support 的 X-dependent 权，以及在 primitive residue classes 上、对 |h|<=X^η（η<3/4）uniform 的近似 pair-correlation 公式。相对误差在依次选择参数后可以任意缩小，且保留明确的 h-dependent singular series。固定参数时，误差中仍有一个常数项；本报告不把它改写成固定参数下的 exact asymptotic。
+
+[PROVED NEGATIVE STRUCTURAL THEOREM] N-003 可以从 mod 6 推进到任意固定 W：无论选哪一个固定 W，ν_τ shift sum 减去其最优 W-periodic center 后，归一化方差仍有严格正的 liminf。因此，若目标仍是 relative variance=o(1)，单一固定 W 不够；需要增加局部信息，或使用不属于这个 fixed-periodic centering 范围的主项。
+
+[PROVED NEGATIVE STRUCTURAL THEOREM] 对每个固定 h≠0，“ν_τ 在所有固定 arithmetic progressions 上的 X/logX 级相关极限存在”，等价于对 1_{S2} 的相同断言。有限局部 damping 不能自动使这个 fixed-weight pair problem 变容易。后面的新权明确逃离“权与 X 无关”这一范围。
+
+[CONDITIONAL] （hypothesis：selector abundance） 若能构造覆盖密度趋于 1 的有限 primitive residue branches，并在每一支保留至少 Y^{-1/4} 比例的真实指数 pairs，则上述 bounded engine 和一个 proved multiplicative-order prime-tail bound 推出 almost-all。该 abundance hypothesis 是本轮剩下的具体 arithmetic GAP。
+
+二、沿用的定义与 repository 边界
+
+[PROVED] 全文 S2 包含 0；D(n)、R(n)、H_X 沿用题目定义，H_X 的 shifts 满足 3^c+5^d<=X/2。为使相关文献的 growing-h 范围适用，另取
+
+  A_{X,η}={(c,d)>=0:3^c+5^d<=X^η},  0<η<3/4。
+
+它最终包含于 H_X，且
+
+  |A_{X,η}| ~ η²(logX)²/(log3 log5)。
+
+证明是上下两个 exponent rectangles：上界 3^c,5^d<=X^η；下界各项<=X^η/2。两矩形只差 O(logX) 个 pairs。全部计算保留 exponent-pair multiplicity；本轮不依赖“数值 collisions 只有有限多个”的更强结论。
+
+[PROVED] 已实际读取 repository 的四个指定 core files，及 ν_τ authority package。P-004 只给 bounded exact support 与一阶均值；P-005 的 concentration 假设未证；P-006 的 HC-A 已证；P-007 仍依赖 HC-LT。R-004 的 restart trigger 原文为：
+
+  “A boundary-uniform classwise/W-tricked parallel-shift asymptotic with h-dependent singular series and errors summable against the true structured difference multiplicity.”
+
+R-002 要求真实 structured family 上可求和的 growing-shift signed covariance 或 HC-LT。R-010 要求完整 fixed-core survivor count 的 HC-LT，并独立审计 parity 和 boundary effects。本轮没有宣称完成 HC-LT；得到的是 R-004 分析端的一族可任意提高精度的替代权公式，及其剩余 arithmetic condition。
+
+三、主要正结果：bounded triangular weight
+
+3.1 权的定义
+
+[PROVED] 固定 0<δ<1/12、0<θ<δ，令 z=X^θ、B_θ=2^{2/θ}。对正整数 m，定义 raw detector
+
+  u_{X,θ}(m)
+    = r_2(m)/4 · ∏_{p<=z, p≡1(4)}(v_p(m)+1)^{-1}
+    = 1_{S2}(m) · ∏_{p>z, p≡1(4)}(v_p(m)+1)。
+
+在 m<=3X、X>=3 的窗口中，
+
+  1_{S2}(m) <= u_{X,θ}(m) <= B_θ 1_{S2}(m)。
+
+因为 k+1<=2^k，而大于 X^θ 的 prime factors（含重数）总数不超过 log(3X)/(θlogX)<=2/θ。定义全局权
+
+  w_{X,θ}(0)=1，
+  w_{X,θ}(m)=min(1,u_{X,θ}(m)/B_θ)，m>=1。
+
+则 0<=w<=1，support exactly S2；在使用的窗口内恰有 w=u/B_θ。Landau 一阶定理及上述 pointwise sandwich 立即给出正确的 X/sqrt(logX) 均值阶，常数可依固定 θ。
+
+3.2 相关公式与精确量词
+
+[PROVED] 设 Y>=5 固定，q=∏_{3<=p<=Y}p，为 odd primorial。记 q_3 为 q 的 p≡3(4) 部分，并设
+
+  g_1(q_3)=∏_{p|q_3}(1+1/p)，
+  P(z)=∏_{p<=z,p≡1(4)}(1-1/p)，
+  B_q(h)=∏_{p≡3(4),p∤q}(1-p^{-2})
+          ·∏_{p^b||h,p≡3(4),p∤q}(1+p^{-1}+...+p^{-b})。
+
+固定 η<3/4。设 4|h、0<|h|<=X^η，(α(α+h),q)=1，I、I+h 都在 [X/3,3X] 内，且 |I| 与 X comparable。则
+
+  Σ_{n∈I,n≡α(q),n≡1(4)} u_{X,θ}(n)
+   = π g_1(q_3)|I| P(z)/(8q)
+     ·[1+O(e^{-δ/θ})+O(B_θ sqrt(θ)/Y)+o_{q,θ}(1)]，
+
+  Σ_{n∈I,n≡α(q),n≡1(4)} u_{X,θ}(n)u_{X,θ}(n+h)
+   = π² g_1(q_3)² |I| P(z)² B_q(h)/(16q)
+     ·[1+O(e^{-δ/θ})+O(B_θ² θ/Y)+o_{q,θ,η}(1)]。
+
+两个显式 O 项的常数可以固定为 absolute；δ 及 sieve dimension 预先固定。o 项在规定 h 和 comparable endpoints 上 uniform。w 的公式分别除以 B_θ、B_θ²。
+
+量词顺序不可改变：先选 θ，使 sieve error 小；再选 Y，使 prime-power repair 小；q、Y、θ 固定后，才令 X→∞。这不是 q 随 X 增长的 uniform theorem。可以取
+
+  θ(Y)=min(δ/2,8log2/logY)；
+
+则最终 B_θ=Y^{1/4}，e^{-δ/θ}=Y^{-δ/(8log2)}，B_θ²θ/Y=8log2/(sqrt(Y)logY)，二者均趋于 0；这些分析误差比后面的 (logY)^{-1/2} arithmetic bound 更小。
+
+3.3 第一项文献输入：r_2 的 uniform correlation
+
+[PROVED] 本轮使用 McGrath (2022), Appendix Lemma A.3，及 Kimmel–Kuperberg (2025), Lemma 11 去除 (a,b)=1 的说明。保留 McGrath 的明确限制 0<h<N^{3/4}。所用 hypotheses 为：q,a,b 都 odd squarefree；(α,q)=(α+h,q)=(a,q)=(b,q)=1；4|h；a,b,q 为 N^{O(1)} 大小。结论为
+
+  Σ_{n<=N,n≡α(q),n≡1(4),a|n,b|n+h}r_2(n)r_2(n+h)
+   = π²g_1(q)² N Γ(h,a,b,q)/q
+     +O_ε(q^{1/2}abN^{3/4+ε}+(ab)^{1/2}N^{5/6+ε})。
+
+这里 g_1(d)=∏_{p|d}(1−χ_4(p)/p)，χ_4 是 modulo 4 的非主 Dirichlet character；g_2 multiplicative，split primes 上 g_2(p)=2−1/p。所用 split-supported a,b 的 Γ 为
+
+  Γ(h,a,b,q)=g_2(a)g_2(b)/(ab)
+      ·Σ_{(t,2q)=1} c_t(h)(a,t)(b,t)/[t² Ψ(a,t)Ψ(b,t)]，
+  Ψ(a,t)=g_2((a,t/(a,t)))，
+
+其中 c_t(h) 是 Ramanujan sum。原文的两个 χ_4((a²,t))、χ_4((b²,t)) 因 a,b 只含 split primes 而均等于1。逐 prime factor 的完整计算另见 uniform_hooley_pair.md。若 (a,b)∤h，两边主计数和 Γ 同时为 0。negative h 通过交换两参数处理；一般 I 由两次 prefix formula 相减处理。η<3/4 保证每个 prefix 的限制最终成立。
+
+3.4 正概率空间中的 fractional sieve
+
+[PROVED] 定义 squarefree proxy
+
+  v_{X,θ}(n)=r_2(n)/4 ·∏_{p<=z,p≡1(4)}(1-1_{p|n}/2)。
+
+对每个 p<=z、p≡1 mod4、p∤q 引入两个 independent Bernoulli(1/2) marks，分别作用于 n 与 n+h。若某个被标记坐标被 p 整除，就触发 E_p。给定 n，
+
+  Pr(E_p|n)=(1_{p|n}+1_{p|n+h})/2
+             -1_{p|n,p|n+h}/4。
+
+在有限 product space 上赋 nonnegative weight r_2(n)r_2(n+h)/16；其 sifted mass 恰是 Σv(n)v(n+h)。这里调用的是允许任意 finite index set、nonnegative real weights 的 combinatorial fundamental lemma，未把 random marks 伪装成额外整数同余。
+
+由上述 r_2 定理，每个 squarefree d<=D=X^δ 的 intersection-event mass 是 X_0 g_h(d)+r_d，g_h multiplicative。对 split p，
+
+  p∤h 时 g_h(p)=(2p-1)/(p(p+1))；
+  p|h 时 g_h(p)=3/4·Pr_{r_2-pair}(p|n)。
+
+逐局部计算给出 0<=g_h(p)<=3/p<=3/5。可取固定 sieve dimension κ=3；Mertens product condition 的常数与 h、q 无关。
+
+累计 remainder 有明确界：
+
+  Σ_{d<=D}|r_d|
+    <<_{q,ε} X^{3/4+ε}D³+X^{5/6+ε}D²。
+
+理由是每个 prime 的三项 absolute coefficients 为 1/2、1/2、1/4；ab-weighted sum 为 p+p²/4<=p²，sqrt(ab)-weighted sum 为 sqrt(p)+p/4<=p。因此求和给 D³ 与 D²，不会留下未控制的 3^{ω(d)} 因子。δ<1/12 且 ε 充分小使两项均为 power saving。
+
+Tao (2015), Notes 4, Lemma 17 / Corollary 19 的所用形式是：z=D^{1/s}，0<=g(p)<1，且对 2<=t<=z，
+
+  V(t)<=C(logz/logt)^κ V(z)，V(t)=∏_{p<t}(1-g(p))；
+
+若所有 squarefree d<=D 的 mass 为 X_0g(d)+r_d，则 sifted mass
+
+  =(1+O_{κ,C}(e^{-s}))X_0V(z)
+       +O(Σ_{d<=D,μ²(d)=1}|r_d|)。
+
+这里 s=δ/θ，κ,C 均固定，所以得到需要的 uniform relative error。原文以 p<z 写 sieve product；若 z 恰为 prime，包含或排除这个 endpoint 只改变一个 1+O(1/z) local factor，已并入 uniform o(1)。一坐标版本给第一矩；其 local density 为 1/p-1/(2p²)，remainder 更小。
+
+3.5 split-prime cancellation 与 singular series
+
+[PROVED] 令 b=v_p(h)。未 damp 的 split-prime factor 为
+
+  Γ_p=(1-p^{-2})(1+p^{-1}+...+p^{-b})。
+
+proxy damping 后的 factor J_p 为：
+
+  b=0：J_p=(1-1/p)²+(1-1/p)/p²；
+  b>=1：J_p=(1-1/p)²+5/(4p²)-3/(4p³)
+                     -(1+1/p)/(4p^{b+1})。
+
+所以 J_p/(1-1/p)²=1+O(p^{-2})，常数与 b 无关。q-primitivity 删除 p<=Y 的相关项，余下小 split primes 的总相对误差 O(1/Y)。p>z 且 p|h 的数量不超过 log|h|/logz，因此剩余 split-prime product 为 1+O_{θ,η}(1/z)，uniform in h。primitive q 的 split factors 与 P(z) 中省略的 factors 精确相消，留下 g_1(q_3)；inert factors 正是 B_q(h)。
+
+这个局部计算也可由 Haar integral 验证：split p 的 r_2 因子是 v_p(n)+1；精确 reciprocal damping 消去它后，一阶 local factor 为 1-1/p，二阶为 (1-1/p)²，后者与 h 无关。
+
+3.6 prime-power repair：不能省略的 upper-bound gate
+
+[PROVED] proxy 本身在整个窗口并不具有与 X 无关的简单 bound；必须修正 p² 因子。定义固定 multiplicative f：
+
+  f(2^k)=1；
+  f(p^k)=(k+1)/2，p≡1(4)、k>=1；
+  f(p^{2k})=1、f(p^{2k+1})=0，p≡3(4)。
+
+则 f<=τ，且 v_{X,θ}<=B_θ f。精确 u<=v；在 q-primitive progression 上，u 与 v 只有遇到某个 split p>Y 的平方因子才可能不同。
+
+Henriot 2014 ERRATUM 的 corrected New Theorem 5 允许 k=1,2 个 primitive、irreducible、pairwise coprime polynomials。所用参数为 α=1/2、δ_H=1/4、ε_H=1/2000；degree g=1 或 2，满足 ε_H<α/[50g(g+δ_H^{-1})]；原定理的区间与高度条件为 x^α<y<=x 及 x>=C_0||Q||^{δ_H}。F=f 或 f×f 满足其 coprime growth 条件：
+
+  F(a_1b_1,...,a_kb_k)
+   <=min(2^{Ω(a_1...a_k)},C_ε(a_1...a_k)^ε)F(b_1,...,b_k)
+
+只在 (a_1...a_k,b_1...b_k)=1 的 hypotheses 下使用。这里不使用错误的全局 submultiplicativity；b(p)=0、b(p²)=1 正说明后者不可随便假设。
+
+所推出的具体 AP bounds，uniform for p<=X^{1/8}、p∤q，且两个 residual classes 都是 q-units，为
+
+  Σ_{n∈I,n≡α(q),p²|n} f(n)f(n+h)
+    << g_1(q_3)² J_q(h) X/(q p² logX)，
+
+  Σ_{n∈I,n≡α(q),p²|n} f(n)
+    << g_1(q_3) X/(q p² sqrt(logX))，
+
+  J_q(h)=∏_{ℓ|h,ℓ≡3(4),ℓ∤q}(1+1/ℓ)。
+
+隐常数 independent of q；X 的阈值可以依固定 q。证明的核心如下。令 g_0=(p²,h)，写 n=p²(m_0+qt)。去掉 g_0 后的两形式为
+
+  Q_1(t)=qt+m_0，
+  Q_2(t)=(p²q/g_0)t+(p²m_0+h)/g_0。
+
+若 g_0 含 inert odd valuation，原计数为 0；否则 f(p²m)、f(g_0m) 各只增加绝对常数。两形式 primitive，determinant 为 qh/g_0。区间长度 X/(qp²)>=X^{3/4}/q，theorem height condition 对固定 q 最终成立。
+
+generic split prime 的 positive local sum 为 1+2/ℓ+1/[ℓ(ℓ-1)]；inert prime 为 1+2/[ℓ(ℓ+1)]。若 split roots 在 mod ℓ 重合，Cauchy–Schwarz 把 common-root integral 控制为
+
+  (1-1/ℓ)Σ_{k>=1}ℓ^{-k}((k+1)/2)²=1/ℓ+O(ℓ^{-2})，
+
+与 determinant valuation 无关。ℓ|q 时两形式始终是 units，没有 root；省略的 inert sieve factors 产生 ∏_{ℓ|q_3}(1-1/ℓ)^{-2}，它与 g_1(q_3)² uniform comparable。第一矩同理，但只出现一次该因子。由此保留了必须的 1/q normalization。
+
+对 Y<p<=X^{1/8} 求和得 1/Y。对更大 p，用 f(n)f(n+h)<=X^{o(1)} 及 Σ_{p>X^{1/8}}X/p²<<X^{7/8}，得到 power saving；q 固定后这是所需主尺度的 o 项。最后 J_q(h) 与 B_q(h) uniform comparable，P(X^θ)² asymptotic to absolute positive constant/(θlogX)，所以二阶 repair 的相对误差正是 O(B_θ²θ/Y)，一阶为 O(B_θ sqrtθ/Y)。这完成 3.2 的证明。
+
+3.7 第二个独立证明：summed repair 可完全用 elementary upper sieve
+
+[PROVED] 为减少对 general multiplicative upper-bound theorem 的依赖，本轮又完成一个独立的 summed prime-square repair 证明；它不宣称逐 p 的 AP bound。定义 nonnegative multiplicative k，仅支持 split-prime squarefull factors，k(p)=0、k(p^e)=1/2 (e>=2)。令 K(n)=Σ_{d|n}k(d)，则 f=bK、K<=τ，并且
+
+  Σ_d k(d)/d^σ<∞，任固定 σ>1/2。
+
+取 D_0=X^{1/16}，先截 d,e<=D_0，及 p<=X^{1/8}。条件 d|n、e|n+h、p²|n 若相容，就定义一个 class modulo L=[d,e,p²]；L 的 primes 全为 split，且 L<=X^{3/8}。第6.2节自含 Selberg sieve 可直接作用于 n=r+qLt，给出 Γ(q_3)²J_q(h)X/[qL logX]，其中 Γ(q_3)=∏_{ℓ|q_3}(1-1/ℓ)^{-1} 与 g_1(q_3) uniform comparable。
+
+共同因子的 Euler sum 被精确保留：在 ℓ≠p 处，
+
+  Σ_{i,j>=0}k(ℓ^i)k(ℓ^j)/ℓ^{max(i,j)}
+    =1+Σ_{m>=2}(2m+1)/(4ℓ^m)；
+
+在强制 p² 处，factor 为
+
+  9/(4p²)+Σ_{m>=3}(2m+1)/(4p^m)<<p^{-2}。
+
+因此小 kernel factors 对 p>Y 求和给需要的 1/Y main upper bound。
+
+大 factors 用 Rankin：
+
+  Σ_{d>D_0} k(d)(d,p²)/d << D_0^{-1/4}p^{1/2}。
+
+对 d|n+h、p²|n 的联合 CRT，计数必须用 X/[d,p²]+1；这个 +1 没有被丢弃。Σ_{d<=3X}k(d)<<X^{3/4}，再对 p<=X^{1/8} 求和，+1 总成本 O(X^{7/8})。以 K(n)<=C X^{1/256} 控制另一个 factor，kernel tail 为
+
+  O(X^{1/256}(X^{1-1/64}+X^{7/8}))=O(X^{253/256})。
+
+p>X^{1/8} 部分直接用平方除数计数，给更小的 power saving。于是 summed repair 为
+
+  Σ_{p>Y,p split}Σ_{n∈I,n≡α(q),p²|n}f(n)f(n+h)
+   <<g_1(q_3)²J_q(h)X/(qYlogX)+O(X^{253/256})；
+
+第一矩对应 bound 为 g_1(q_3)X/(qYsqrtlogX)+O(X^{253/256})。常数 absolute，阈值可依固定 q。power-saving 项虽不保留 1/q，但 q 固定后其与 X/(qlogX) 的比为 O(qlogX/X^{3/256})→0。完整版本在 covariance_reduction_notes.md Appendix D；Henriot 证明仍保留为独立交叉核验。
+
+四、真实 exponent differences 的强 arithmetic tail
+
+[PROVED] 若非负 multiplicative g 支持在 (d,5)=1 上，满足 g(p^k)<=A p^{-k} 以及
+
+  Σ_{d|N}g(d)<< (loglog(3N))^κ，
+
+则
+
+  Σ_{P^+(d)>Y} g(d)/ord_d(5)
+    << (logY)^{κ-1}/sqrt(Y)。
+
+这里 ord_1(5)=1。
+
+证明。令 P_T=∏_{1<=j<=T}(5^j-1)。ord_d(5)<=T 蕴含 d|P_T，且 logP_T=O(T²)，因此 A_g(T)=Σ_{ord_d5<=T}g(d)<<log(2T)^κ。由正项 monotone convergence 和 partial summation，
+
+  Σ_d g(d)/max(T,ord_d5)
+    =∫_T^∞ A_g(u)u^{-2}du
+    <<log(2T)^κ/T。
+
+若 p|d，先唯一写 d=p^j e、(p,e)=1，再用 ord_{p^je}5>=max(ord_p5,ord_e5)。此后才去掉 (p,e)=1 的限制扩大正和。prime tail 至多为
+
+  CΣ_{p>Y}(logp)^κ/[p ord_p5]。
+
+对 Z<=p<2Z，order<=T 的 primes 全部整除 P_T，故其数目<<T²/logZ。在 order<=sqrtZ 区间作 dyadic decomposition；order>sqrtZ 用 Chebyshev prime-count bound。两部分共同给
+
+  Σ_{Z<=p<2Z}1/[p ord_p5]<<1/(sqrtZ logZ)。
+
+再对 Z dyadically 求和即得结论。
+
+[PROVED] 对仅含 inert primes 的 g(d)=1/d，Mertens AP 给 κ=1/2，所以
+
+  Σ_{P^+(d)>Y, d inert-supported}1/[d ord_d5]
+    <<1/sqrt(Y logY)。
+
+这是 prime-tail bound，比旧的 modulus-tail O(loglogY/logY) 强，二者不能混用。
+
+[PROVED] 真实 shifts 的 divisibility collision 可以由 Young inequality 控制。在完整 exponent rectangle 上，若 A、B 分别是 3^c、5^d modulo m 的概率分布，
+
+  Pr(m|s-t)=||A*B||_2²<=||B||_2²<=1/ord_m5+1/D，
+
+其中 D 是 d-exponent 行长。A_{X,η} 与该 rectangle 的数量比趋于 1。对本轮实际使用的 inert reciprocal kernel，非零 difference 强制 divisor d<=X^η；Young 的 1/D 误差累计至多
+
+  D^{-1}Σ_{d<=X^η,d inert-supported}1/d
+    <=D^{-1}∏_{p<=X^η,p≡3(4)}(1-1/p)^{-1}
+    <<(logX)^{-1/2}。
+
+其余 modulus tail 由正项 order series 的绝对收敛控制（A_g(T) 的 bound 已证明全和有限）；随后在 q_Y 的应用中，再使用 1/sqrt(YlogY) 的 prime-tail rate。因此可以先截断 d、令 X→∞、再放开 d；绝不把 h=0 代入无限 divisor series。
+
+五、明确的 almost-all 归约
+
+[CONDITIONAL] （hypothesis：以下 finite branch abundance condition） 对每个充分大的 Y，令 q_Y 为 odd primorial。假设存在有限、两两不交的 arithmetic progressions
+
+  C_{Y,j}: n≡n_{Y,j} (mod Q_{Y,j})，
+  Q_{Y,j}=4λ_{Y,j}q_Y，λ_{Y,j}∈S2、λ_{Y,j}>0，
+
+其总密度 Σ_j1/Q_{Y,j}→1。每支选择 A_{X,η} 中满足
+
+  s≡n_{Y,j}-λ_{Y,j} (mod 4λ_{Y,j})，
+  gcd((n_{Y,j}-s)/λ_{Y,j},q_Y)=1
+
+的真实 exponent pairs。其 limiting fraction a_{Y,j} 存在，且假设 a_{Y,j}>=Y^{-1/4}。那么 #{n<=X:R(n)=0}=o(X)。
+
+[PROVED] 下面证明该 implication，不把其 hypothesis 当作已证。
+
+在第 j 支令 T_j=X/λ_{Y,j}，直接使用 w_{T_j,θ}((n-s)/λ_{Y,j})。λ∈S2 保证：若 R(n)=0，此 nonnegative sum 必为 0。所有 Y-dependent 数据先固定，再令 X→∞。residual windows 最终位于 [T_j/3,3T_j]；由于 η<1，|s-t|/λ_{Y,j}<=T_j^η。这样逐字满足 bounded engine 的窗口与 shift hypotheses，无需额外的 growing-modulus uniformity。logT_j=logX+O_j(1)，finite branches 允许取一个共同的 sufficiently-large-X 阈值。
+
+记 μ_{j,d} 为 selected shifts 的 (s-s_0)/λ modulo d 的 limiting distribution，其中所有 s 在 mod λ 上相同，s_0 任取该 residue。令 E_j(d)=Σ_r μ_{j,d}(r)²。则 arithmetic pair mean 为
+
+  K_{Y,j}=B_0(q_Y)
+     Σ_{d inert-supported,(d,q_Y)=1} E_j(d)/d，
+  B_0(q)=∏_{p≡3(4),p∤q}(1-p^{-2})。
+
+绝对收敛由上一节 prime tail 及 fixed positive a_{Y,j} 保证。E_j(d)>=1/d，故 K_{Y,j}>=1，并有精确的 nonnegative excess identity
+
+  K_{Y,j}-1=B_0(q_Y)
+     Σ_{d inert-supported,(d,q_Y)=1}(E_j(d)-1/d)/d。
+
+另一方面，d|(s-t)/λ 蕴含 d|s-t；去掉 selector restriction 至多损失 a_{Y,j}^{-2}。固定 d 后取 X→∞，rectangle bound 给
+
+  E_j(d)<=a_{Y,j}^{-2}/ord_d5。
+
+q_Y 含所有小 primes，所以 d>1 的每项都有 P^+(d)>Y。于是
+
+  0<=K_{Y,j}-1
+    <<a_{Y,j}^{-2}/sqrt(Y logY)
+    <=C/sqrt(logY)。
+
+这个常数不依 j、λ 或 Y。
+
+bounded engine 的 first-moment coefficient 与 pair coefficient 的平方完全匹配：在 branch counting probability 下，第 j 支的 raw u 每 shift 均值为 (π/2)g_1(q_3)P(T_j^θ)，pair 均值为其平方乘 B_q(h)。除以 B_θ 不改变 relative ratio。数值相同的 indexed shifts 至多 O(M_j logX) 对：每个数值 shift 对每个 c 最多一个 d。由 w²<=w 与第一矩公式，每一对在 branch probability 下贡献 O_{Y,j}((logX)^{-1/2})；总和 O_{Y,j}(M_j sqrtlogX)。除以 M_j²/logX，得到 O_{Y,j}((logX)^{-1/2})，因此趋于 0。单用 w<=1 只会得到 O(1)，这里的一阶均值输入不可省略。
+
+最后对任意实随机变量 Z，若 0<E(Z²)<∞，
+
+  Pr(Z=0)<=1-(EZ)²/E(Z²)。
+
+按 branch 应用并求和，得到
+
+  limsup_X X^{-1}#{X<=n<=2X:R(n)=0}
+    <=1-Σ_j1/Q_{Y,j}
+      +O((logY)^{-1/2})
+      +O(e^{-δ/θ(Y)}+B_{θ(Y)}²θ(Y)/Y)。
+
+先 X→∞ 再 Y→∞，hypothesis 使右边趋于 0。dyadic summation 给 up-to-X 结论。更一般，只需 Σ_j Q_{Y,j}^{-1}a_{Y,j}^{-2}=o(sqrt(YlogY))，无需逐支同一 lower bound。
+
+5.1 一个完全明确的 arithmetic sequence
+
+[PROVED] 可以先固定一个 canonical branch scheme，而不把“寻找 branches”留作模糊任务。定义 λ(r)=1（r odd）；λ(r)=18（r≡2,4,8,22 mod24）；其余 even r 取 λ(r)=2。odd classes 用 modulus 4q_Y，普通 even classes 用 8q_Y，四个特殊 classes 用 72q_Y，构成密度精确为1的 disjoint partition。
+
+把这些 branches 共同提升到 modulus Q_Y^*=72q_Y。对每个 r modulo Q_Y^*，用它的 λ(r) 和第五节的两个 congruence conditions，计算 limiting exponent-pair fraction a_Y(r)。这是有限 eventual periods 上的精确有理数，不涉及 n 的 representation search。a_Y 在一个原始 branch 的所有 Q_Y^* lifts 上恒定（λ=1,2,18 分别有18,9,1个 lifts）；实际应用 correlation engine 仍用原 modulus 4λq_Y，共同 modulus 仅用于计数。令
+
+  Δ_Y=(72q_Y)^{-1}#{r mod72q_Y:a_Y(r)<Y^{-1/4}}。
+
+取固定 δ=1/24、η=1/2，并删去上述 low-fraction branches。第五节证明给出无条件的归约不等式：对充分大的 Y，
+
+  limsup_X X^{-1}#{X<=n<=2X:R(n)=0}
+    <=Δ_Y+C/sqrt(logY)，
+
+其中 C 为固定常数。若能证明 Δ_Y→0，就得到 almost-all。这里未证明 Δ_Y→0；若该 canonical scheme 在较大 finite modulus 出现持久 zero branches，需要回到允许更多 norm scales 的一般版本。
+
+[PROVED] 对 q=15，这个 scheme 的正比例性可以直接手算。odd branch：c parity 固定，mod5 最坏保留一个 c mod4，mod3 最坏保留一个 d parity，比例至少1/8。普通 even branch：mod8 固定 c,d parities，mod3 自动 primitive，mod5 最坏保留一个 c mod4，仍至少1/8。四个特殊 classes：取 c>=3；mod9 固定唯一 d mod6，在三个 mod18 lifts 中正好两个使 v_3(n-s)=2；mod5 最坏保留一个 c mod4，比例至少2/(4·18)=1/36。因此 q=15 的 coverage 与正比例性有独立 elementary proof；这依然不给大 Y 的 lower tail。
+
+[UNRESOLVED] GAP：尚未证明上述 quantitative selector abundance。finite local consistency 只给“有解”；最小正比例可能低至很长 exponent periods 的倒数，不能推出 Y^{-1/4}。这一步也不能由 normalized local kernels 的 absolute L² convergence 单独推出。报告没有使用 Round-1 的 f_∞ 或 POS，但仍保留了实际的 arithmetic lower-tail 难题。
+
+六、两个 negative structural results
+
+6.1 任意固定 W 的方差障碍
+
+[PROVED NEGATIVE STRUCTURAL THEOREM] 令 c_τ>0 为 P-004 的一阶均值常数，即 Σ_{m<=x}ν_τ(m)~c_τ x/sqrtlogx；令 M_X=|H_X|，
+
+  V_X(n)=Σ_{(c,d)∈H_X}ν_τ(n-3^c-5^d)，
+  Z_X(n)=V_X(n)/(c_τ M_X/sqrt(logX))，
+
+P_{X,W}Z_X 为每个 residue class 的 empirical mean。对任意固定 W 和任意 p≡3(4)、p∤15W，
+
+  liminf_X X^{-1}Σ_{X<=n<2X}|Z_X(n)-P_{X,W}Z_X(n)|² >=V_p>0。
+
+令 T_p=ord_p3·ord_p5，μ_p(r) 为一个完整 exponent-period rectangle 的 shift distribution。设
+
+  F_p=p atanh(1/p)，A_p=(p-1)(F_p-1)，
+  κ_p=1-A_p，λ_p=(1-1/p)F_p，
+  L_p(r)=(1-κ_p μ_p(r))/λ_p。
+
+由 1<=F_p<=(1-p^{-2})^{-1} 得 κ_p/λ_p>=1。于是 V_p=(κ_p/λ_p)²·p^{-1}Σ_r(μ_p(r)-1/p)²。若 t 为 T_p modulo p 的最小正 residue，
+
+  V_p >= (κ_p/λ_p)² t(p-t)/(p²T_p²)
+      >=1/[p²(p-1)³]。
+
+证明有三个核心点。第一，fixed-p Selberg–Delange / character orthogonality 给 ν_τ 的 conditional local means：非零 residue 为 c_τ/(λ_p sqrtlogX)，零 residue 多一个因子 A_p。prefix endpoints 在 [X/2,2X]，统一用 logX 近似的误差为 O(X/log^{3/2}X)。第二，T_p|(p-1)²，因此 p∤T_p；整数 counts T_pμ_p(r) 不可能全部等于 T_p/p。凸性给上述 quota bound。第三，取 ψ_p(n)=L_p(n modp)-1。对最优 empirical center P_{X,W}Z_X，由 0<=Z_X<=sqrtlogX/c_τ 及 (p,W)=1，CRT counting 误差给
+
+  <P_{X,W}Z_X,ψ_p>=O_{p,W}(sqrtlogX/X)=o(1)。
+
+同时 <Z_X,ψ_p>→V_p、||ψ_p||²→V_p。Cauchy–Schwarz 即得结论。对其他 W-periodic centers 的结论来自 empirical mean 的最佳 L² 投影性质，并非假设任意无界 centers 都与 ψ 渐近正交。
+
+这里没有假设 shifts modulo W 与 modulo p 独立；使用的是整数 n 的 CRT counting measure。最优 empirical center 已被纳入，所以换另一个 fixed-W centering 也不能消除此障碍。
+
+6.2 ν_τ 与 indicator 的 fixed-pair 等价
+
+[PROVED NEGATIVE STRUCTURAL THEOREM] 设 b=1_{S2}。对每个固定 h≠0，以下两个断言等价：
+
+  对所有固定 q,a，(logX/X)Σ_{X<=n<=2X,n≡a(q)}ν_τ(n)ν_τ(n+h) 有有限极限；
+  对所有固定 q,a，把 ν_τ 换成 b 后同样成立。
+
+证明。取 z>=3、even K>=2，令 Q=2^K∏_{p<=z,p≡3(4)}p^K，定义 positive periodic multiplier
+
+  P_{z,K}(n)=∏_{p=2或p<=z,p≡3(4)}(min(v_p(n),K-1)+1)。
+
+则 w_{z,K}=ν_τP_{z,K} 满足 0<=ν_τ<=w_{z,K}<=b，且 support exactly S2。误差仅在某个 p>z 的 inert square divisor，或某个 finite local p^K divisor 出现时产生。
+
+自含的 Selberg upper-sieve 证明给出 uniform bound
+
+  Σ_{n~X,d|n}b(n)b(n+h)<< X J(dh)/(d logX)，
+  d∈S2，d<=X^{1/4}，J(h)=∏_{p|h,p≡3(4)}(1+1/p)。
+
+其构造禁掉 p||n 与 p||n+h 的 classes modulo p²；local density 是 2(p-1)/p²，root collision 时只用 (p-1)/p²。用 D=X^{1/16} 的 Selberg square 与 z=D^{1/64} 的 Rankin truncation，CRT remainder<=D^8=X^{1/2}。完整 quadratic diagonalization 在 covariance_reduction_notes.md Appendix A；也已独立用 Henriot erratum 交叉核对。
+
+由此
+
+  Σ[b(n)b(n+h)-w_{z,K}(n)w_{z,K}(n+h)]
+    <<J(h)X(logX)^{-1}(z^{-1}+2^{-K})+O(X^{7/8})。
+
+固定 z,K 后 periodic multiplier 只是有限多个 AP pair sums 的线性组合；先 X→∞，再 z,K→∞，得到极限存在性转移。反向用 b/P_{z,K} 逼近 ν_τ，误差同界。
+
+[PROVED] 相同归约还适用于 0<=w<=b、exact support 且所有 split primes 上 w(p)=1 的固定 multiplicative 权。因此
+  r_2/(4·2^{Ω_1})
+及 Dirichlet series [ζ(s)L(s,χ_4)]^{1/2} 的 bounded coefficients 都没有自动越过 fixed-pair 难题。Ω_1 必须按重数计数；若误用 distinct ω_1，所得权未必 bounded。
+
+[PROVED] 更一般，任何固定 multiplicative 0<=w<=1、support⊂S2 且均值 asymptotic to C X/sqrtlogX、C>0，都必须满足
+
+  Σ_{p≡1(4)}(1-w(p))/p<∞。
+
+证明是比较 w 与 b 的 Euler products：Abelian partial summation 给其比值在 s↓1 时趋于正有限常数；log 比值为上述负 deficit series 加一个在 s=1 absolutely convergent 的 O(p^{-2s}) remainder。monotone convergence 强制 deficit 可和。这里不声称 converse。
+
+6.3 boundedness 与 support conclusion 的逻辑关系
+
+[PROVED] support conclusion 在逻辑上并不要求权 bounded：若 R(n)=0 必有某个实随机变量 Z(n)=0，且 Z 有非零有限二阶矩，则 Pr(R(n)=0)<=Pr(Z=0)<=1-(EZ)²/E(Z²)。所以 signed Hooley detector 也能使用 relative second-moment argument。boundedness 的价值在于有界支配和 diagonal/tail 控制；它本身不能证明 class means 的 lower-tail bound。
+
+[PROVED] 仅靠前两矩时，上述零事件界已是最优的，即使知道 0<=Z<=M。记 m=EZ>0、s=E(Z²)。令 Z 以概率 m²/s 取 s/m，其余取0；它具有相同两矩并达到等号。由于 s<=Mm，非零值 s/m<=M。因此有界性不能把一个不充分的 relative-moment bound 自动加强成 density one。
+
+七、补充：独立完成的 Hooley uniformity theorem
+
+[PROVED] 本轮还独立证明了 signed Hooley detector 的 growing-shift 公式。它不是 bounded 结果的必要依赖，但提供第二条 analytically exact 的核验路径。固定 odd squarefree q、θ<1/18、η<3/4，令
+
+  ρ_v(n)=r_2(n)Σ_{a|n,a<=v,所有p|a为split}
+           μ(a)/g_2(a)·log(v/a)/logv，v=X^θ。
+
+在与第三节相同的 primitive / mod4 条件下，
+
+  Σρ_v(n)ρ_v(n+h)
+   =64A²g_1(q_3)²|I| B_q(h)G_q(h)/(q logv)
+     +O_q(X[loglog(10+|h|)]^6/log²v)
+     +O_{q,ε}(X^{3/4+4θ+ε}+X^{5/6+3θ+ε})，
+
+  G_q(h)=∏_{p^b||h,p≡1(4),p∤q}
+            [1+(1-p^{1-b}-p^{-b})/(2p-1)²]。
+
+这里 A 是 Landau–Ramanujan constant；q_1=∏_{p|q,p≡1(4)}p；g_2 multiplicative，且 g_2(p)=2-1/p。误差 uniform o_q(X/logX)。核心新整理是把 double Riesz sum 写成两个 single Hooley sums 的 coefficient convolution；剩余 Euler product 的 absolute coefficient norm 为 O((loglogh)^4)，带 log d+log e 的 norm 为 O((loglogh)^5)。截在 d,e<=sqrtv，外侧用该 logarithmic norm，避免未经证明的 two-variable contour uniformity。single-sum 常数 8A/[πg_1(q_1)] 从 McGrath Appendix B.1 与式 (B.5) 重新推出。
+
+[FINITE COMPUTATION] ρ 确实可以为负，附件给出由 rational logarithm interval 算法验证的具体证书。因此报告仅用其 nonzero support implication；不把它称为 nonnegative weight。
+
+八、文献适用性审计
+
+[PROVED] 实际使用并核对原文的文献：
+
+1. McGrath, A variation of the prime k-tuples conjecture with applications to quantum limits, Math. Ann. 384 (2022), 1343–1407. Appendix A.3、B.1、式(B.5)；链接 https://link.springer.com/article/10.1007/s00208-021-02321-4 。
+2. Kimmel–Kuperberg, Positive density for consecutive runs of sums of two squares, JIMJ 24 (2025), Lemmas 10–13. Lemma11 允许 a,b 有公因子；链接 https://www.cambridge.org/core/journals/journal-of-the-institute-of-mathematics-of-jussieu/article/positive-density-for-consecutive-runs-of-sums-of-two-squares/05BEA94BD4A0FC3DCE55B113B4540F22 。
+3. Henriot, Nair–Tenenbaum uniform with respect to the discriminant — ERRATUM, MPCPS 157 (2014), 375–377, DOI 10.1017/S0305004114000280. 必须使用 corrected New Theorem5 与 corrected local congruence count。
+4. Tao, 254A Notes4 (2015), Lemma17/Corollary19. 使用 abstract nonnegative weighted sieve 的精确 product hypothesis，而不是仅写“fundamental lemma 可以处理”。
+5. Granville–Koukoulopoulos, Beyond the LSD method for partial sums of multiplicative functions (2019), Theorem1；用于 fixed-modulus one-point means，https://link.springer.com/article/10.1007/s11139-018-0119-3 。
+6. Languasco–Zaccagnini, On the constant in the Mertens product for arithmetic progressions, arXiv:0706.2807, 式(1)；用于固定 progression 1、3 mod4 的 Mertens products。
+
+[UNRESOLVED] 已检查而未据以填 gap 的文献范围：
+
+• Matthiesen / Loughran–Matthiesen 的 finite-complexity correlation results 要求 nonconstant parts 的相应 independence；n、n+h 是 parallel forms，不能直接套用。
+• Sun–Zhao, arXiv:2609.13894 的 microsquare argument 使用自由 square-shift progression 与特定 Gauss-sum averaging；本轮仅作比对，没有移植成 exponential shifts 的 selector theorem，也未把该 2026 preprint 作为以上正结果的必要输入。
+• Walsh, arXiv:2610.40439v2 (12 Nov 2026), Theorem1.1 处理整数 k,l>=1、fixed h 的 integer-divisor shifted correlation Σ_{n<=X}d_k(n)d_l(n+h)；正文将 S2-indicator correlation 和 growing-h uniformity 留作扩展方向。它不是所需 fractional-divisor / ν_τ theorem。
+
+九、有限核验与反例测试
+
+[FINITE COMPUTATION] 所有程序用于 falsification、constant checks 和有限 arithmetic gates，未延长 A303656 的 n-range search，也不以计算代替 asymptotic proof。
+
+• inert kernel 的 15 个 exact p-adic cylinder cases：p=3,7,11，单独用 valuation parity 及 geometric tail 计算 Haar pair mean；与 B_q 的 normalized local factor 一致。
+• bounded engine 的 12 个 split-prime local cases：p=5,13,17,29，v_p(h)=0,1,2。用 Fraction exact p-adic cylinder sums，零 residue 的高 valuation tail 用闭式 conditional expectation 补齐；独立核对 Γ、Bernoulli event mass、proxy retention、exact cancellation。全部通过。
+• Hooley divisor kernel：直接 rational local-factor double sum 与 gcd-divisor transform 两种算法，18 个 small-v crosschecks 一致至浮点舍入；进一步算至 v=2^20，未发现符号或常数反例。这不是 asymptotic rate 证明。
+• fixed-W obstruction：10 个 inert primes 的 period-count histogram 与独立 additive-difference energy 算法一致。ν 的 V_7=0.000116580578434428020...，V_11=0.001353862273299846544...；一般 theorem 依赖整数 denominator 证明，未依赖此有限表。
+• ν Euler formula 与 signed-ordered geometric r_2 枚举核对 400000 个整数；positive convolution identity 以 exact rational arithmetic 核对 5000 个；periodic-cap pointwise inequalities / exact support 共核对 2000000 项。
+• 自含 Selberg construction：6 组 primitive forms、24 个 p² local counts、6 个 exact quadratic diagonalization 与 6000 个 pointwise square bounds 全部通过。
+• 额外的 15 个 f-local Cauchy、6 个 AP-divisibility sanity cases、50000 个 f=bK 恒等式与 18 个 exact Euler coefficient checks 全部通过；不据有限最大值认定 theorem 的 universal constant。
+
+[PROVED NEGATIVE STRUCTURAL THEOREM] 一个明确的 selector failure：只用 λ=1,2 时，在 n≡2,4,8,22 mod24 的 bulk exponent pairs 上，mod8 条件强制 d parity，使 3|n-s；因此 λ=2 的 q-primitive selector 在这四类的 limiting fraction 为 0。总密度为 1/6。c=0 等 finite initial rows 不改变 limiting fraction。该结论只否定这个固定 selector scheme；λ=18 可以修补这些 small-prime classes。
+
+[FINITE COMPUTATION] 对以下 canonical scheme 作了完整有限-period 审计：odd branches 用 λ=1；其余 even branches 用 λ=2；上述四个 mod24 classes 用 λ=18。q=15、105、1155、15015 时均无 zero selector branch。每个 convolution count 同时由 FFT 和 exact integer Möbius inclusion–exclusion 计算；另对 sample classes 作 direct exponent-cell counting。各 q 的最小 limiting fraction 分别为 1/36、1/54、11/675、11/1350。这些只覆盖 primes<=13，不能推出 Y→∞ 的 abundance hypothesis。进一步用整数不等式 Y·max_count^4<period_pair_count^4 核验：在 Y=5,7,11,13 时每条 branch 的 a_Y 都低于 Y^{-1/4}，故四个 Δ_Y 均等于1。无 zero branch 并不意味着通过本报告的 quantitative lower-tail gate；当前这组有限数据没有给出 nontrivial exceptional-density bound。
+
+十、与已关闭路线的关系和可交接任务
+
+[PROVED] 最近的是 N-003。新 fixed-W theorem 扩大了其否定范围；bounded engine 保留 B_q(h)，并明确采用先 X→∞、再 q=q_Y 扩大的过程，因此不违反该 negative theorem。它不以 globally centered covariance=0 为目标。
+
+[PROVED] N-001 不适用来否定本轮的已证相关公式：这里平均的是真实整数 n，shift multiplicities 也是真实的 3^c+5^d family；没有把 random-CRT L² 当作 adversarial L∞。然而 selector abundance 不能从 random-CRT 数据推断，这条界限仍然保留。
+
+[PROVED] N-004 的 absolute-minor-spectrum / F3 机制没有被调用。关键估计来自 r_2 correlation、positive probability sieve、prime-power upper bounds 与 multiplicative orders；没有声称满足该 closed route 的 Fourier threshold。
+
+[UNRESOLVED] 最值得另一 session 接手的是 selector abundance：先固定上面的 explicit branch system，研究其 a_Y(n) 的 lower tail；若某个 finite modulus 出现 zero branch，记录 exact certificate，再决定是否增加 norm scales。定量目标可以是
+
+  density{branches with a_Y<Y^{-1/4}}→0，
+
+或更一般的 weighted inverse-second-moment condition。必须证明实际 exponent periods 的条件化分布；不能独立随机化各素数的 c,d residues。整个分析端已有可复核 lemma，不需要先扩大 n 的 representation search。
+
+=== RESULT CARD ===
+Lane / variant: E2 — bounded X-dependent weights; fixed-W obstruction; arithmetic selector reduction.
+Headline (one sentence): 已证明一族 bounded exact-support 权的 uniform primitive parallel-shift 近似相关公式，并把 almost-all 归约为尚未证明的 quantitative selector abundance。
+Strongest claim + tag: PROVED — bounded triangular-weight correlation engine with explicit, arbitrarily small relative errors.
+Precise statement of that claim: 固定δ<1/12、θ<δ、η<3/4及odd primorial q_Y，在4|h、0<|h|<=X^η、(α(α+h),q_Y)=1和comparable positive windows内，第3.2节的一、二阶公式成立；relative errors为O(e^{-δ/θ})+O(B_θ²θ/Y)+o_{q_Y,θ}(1)，B_θ=2^{2/θ}，先固定Y,θ再X→∞。全局clipping给0<=w<=1、support exactly S2。
+Where it breaks / GAP (if any): 尚未证明覆盖密度趋1的primitive branches上selected exponent-pair fractions满足a_{Y,j}>=Y^{-1/4}，或等价充分的weighted lower-tail条件；因此未证明almost-all。
+Nearest closed theorem, and why it does not apply: N-003；这里保留h-dependent local kernel并让q_Y在外层极限中增加，没有要求任一固定W的relative variance消失。本轮反而证明了任意固定W均有正方差下界。
+What a verifier should check first (3 items): (1) McGrath/KK的h<N^{3/4}及primitive hypotheses，与D³、D²累计remainder；(2) Henriot erratum下prime-power repair的1/q与g_1(q_3) normalization；(3) prime-tail 1/sqrt(YlogY)和selector normalization a^{-2}，以及先X后Y的量词。
+Suggested next step for another session: 对明确的norm-scale branch system证明或反驳selector lower-tail；可先寻找有限zero-branch certificate，再攻击a_Y<Y^{-1/4}的density，而不重做已封闭的globally centered covariance。
+=== END CARD ===

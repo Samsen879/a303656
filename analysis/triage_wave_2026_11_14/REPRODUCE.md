@@ -28,3 +28,7 @@ Verify integration-file custody from the package directory:
 cd analysis/triage_wave_2026_11_14
 sha256sum -c SHA256SUMS
 ```
+
+The five uploaded full reports are retained as evidence, not executed by the
+replay. Their original PDF/MD/TXT bytes are included in `SHA256SUMS`; receipt
+does not add a mathematical verification or alter the expected replay results.

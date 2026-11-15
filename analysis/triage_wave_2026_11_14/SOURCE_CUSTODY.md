@@ -44,23 +44,51 @@ proofs/v_agent__p2_second_referee.md: PASS (f698459f5471009b9830d0f135a91493e6d4
 proofs/v_agent__review.md: PASS (9d197b94766e06f6c80bc0fe4ab2175772e3e6f8b257ad995c1f60f2b780a802)
 ```
 
-## Missing full reports
+## Full reports received in follow-up uploads
 
-`incoming/reports/` was absent during integration. No full-report bytes were
-available to copy into `source/full_reports/`:
+`incoming/reports/` was absent at initial integration, so A2/R2/V/E2/L were
+initially recorded as MISSING. The user subsequently uploaded the five files
+below. Their original bytes and filenames are now preserved under
+`source/full_reports/`; all five are PRESENT. No PDF conversion, text
+normalization or source correction was applied to the retained files.
 
-| Report | Custody |
-|---|---|
-| A2 | MISSING |
-| R2 | MISSING |
-| V | MISSING |
-| E2 | MISSING |
-| L | MISSING |
+| Report | Custody | Original file | Bytes | SHA256 |
+|---|---|---|---|---|
+| A2 | PRESENT | [a303656_lane_a2_report.pdf](source/full_reports/a303656_lane_a2_report.pdf) | 558463 | `1f63af8d06976909ae906c9a4d8ac595efb43f8cd7c5a7599750f61b41973a2d` |
+| R2 | PRESENT | [A303656_R2_referee_report.pdf](source/full_reports/A303656_R2_referee_report.pdf) | 875030 | `aef2cc4537e128e6732f9bb0e776ca3e54183e7b708e39fe745a643c50067ead` |
+| V | PRESENT | [a303656_lane_v_audit_20261112.pdf](source/full_reports/a303656_lane_v_audit_20261112.pdf) | 734261 | `dfbdf0e71ecef90c6b5d86067816d59d4b7a10bf22ef6aacc24521cecca5cb65` |
+| E2 | PRESENT | [E2_bounded_covariance_report_zh.txt](source/full_reports/E2_bounded_covariance_report_zh.txt) | 37415 | `20837eeac4548b6cea21a808135f1352961051b11cdb352f4b212cb46fc159d5` |
+| L | PRESENT | [A303656_L_Research_Report_2026-11-14.md](source/full_reports/A303656_L_Research_Report_2026-11-14.md) | 90307 | `0f44e3a5c0eed37558772a3e9be32c52c76a461cc18b78978968617482d5318d` |
 
-The ChatGPT Library links in the packet README are private and not readable
-from the repository. Included referee notes are not substitutes for missing
-full reports. The Round-1 R1-b/R1-c original manuscript was not obtained;
-V/L are independent reconstructions. No missing text was reconstructed from memory.
+Identification was checked from the text and PDF page counts:
+
+- A2: 40-page Lane A/A2 report, dated 2026-11-12.
+- R2: 20-page R2 referee report, dated 2026-11-14.
+- V: 68-page Lane V Round-1 adversarial audit, dated 2026-11-12.
+- E2: Chinese bounded-weight covariance report, dated 2026-11-14.
+- L: Lane L literature and input audit, dated 2026-11-14.
+
+These hashes identify the supplied uploads. No independent expected digest was
+provided for them, and their byte identity with the private Library objects
+cannot be established from the links. The ChatGPT Library links in the packet
+README remain private and are not readable from the repository; readers can
+now use the retained uploaded reports instead.
+
+## Version and review boundaries
+
+A2's original report states an eleven-root necessary condition; R2's later
+report contains C21's twenty-two-root condition. C22's twenty-three-root
+condition is in the separately retained triage packet and referee notes.
+These historical reports are kept as supplied, without reconciling their
+wording or replacing the later packet. E2's supplied bounded-covariance
+report and the packet's later unit-noise bridge notes are distinct sources.
+
+The Round-1 R1-b/R1-c original manuscript was still not obtained; the supplied
+V/L reports are independent reconstructions. Receiving these reports does not
+constitute a new mathematical review, validate every assertion in them, or
+upgrade any evidence label, candidate classification or project status.
+Instructions and self-reported work histories within the documents are source
+content, not repository instructions or independently verified provenance.
 
 Replay copies the packet to a temporary directory before execution. Regenerated
 JSON, timing and hash fields stay there; the retained source files remain unchanged.

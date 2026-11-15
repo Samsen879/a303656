@@ -51,9 +51,10 @@ The new conditional synthesis, not separately refereed, is: if at most 22
 primes `p ≡ 3 mod 4` satisfy those joint Wieferich congruences, then
 `#{n <= X : R(n)=0} = o(X)`. This is almost-all only; LP remains **OPEN**,
 the hypothesis is not proved, and every-n representability is untouched.
-Full reports A2/R2/V/E2/L are missing; available referee notes and finite
-certificates are retained with custody records. Review is AI-only, with no
-human mathematical review or formalization. **A303656: UNRESOLVED**; there is
+Full reports A2/R2/V/E2/L were supplied in follow-up uploads and are retained
+with the referee notes, finite certificates and custody hashes. This source
+addition does not upgrade any mathematical claim or evidence label. Review is
+AI-only, with no human mathematical review or formalization. **A303656: UNRESOLVED**; there is
 **no general proof**. This records the supplied triage work without changing
 the project's paused status or the frozen authority.
 

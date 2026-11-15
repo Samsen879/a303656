@@ -7,8 +7,12 @@ and adds isolated arithmetic replay tools; it does not alter frozen authority.
 Proofs were produced and cross-checked by AI models. No human mathematician has reviewed them; nothing is formalized.
 
 The Round-1 R1-b/R1-c original manuscript was not obtained and V/L are
-independent reconstructions. Full reports A2, R2, V, E2 and L are **MISSING**;
-the included referee notes and certificate bytes are the available evidence.
+independent reconstructions. The user subsequently supplied the full reports
+A2, R2, V, E2 and L; all five are now **PRESENT** under
+[`source/full_reports/`](source/full_reports/). They supplement the retained
+referee notes and certificates without upgrading any mathematical status.
+A2's eleven-root and R2/C21's twenty-two-root statements are historical source
+versions; C22's twenty-three-root condition is recorded in the triage packet.
 See [source custody](SOURCE_CUSTODY.md) and the original
 [packet README](source/triage_packet/README.md).
 
@@ -87,7 +91,7 @@ the external exhaustive search. It also checks the base-5 examples 20771,
 ## e) Other lane results: packet-summary scope only
 
 These retain the packet's bridge names and OPEN qualifications; no stronger
-classification is inferred from missing reports.
+classification is inferred from the subsequently supplied reports.
 
 - **E2 unit-noise bridge**: for fixed canonical `λ(x) in {1,2,18}`,
   `lim Δ_Y = Haar(union_Y {a_Y=0})`; thus `Δ_Y → 0` iff all finite canonical
@@ -107,8 +111,8 @@ classification is inferred from missing reports.
   the same zero set a.e. This does not prove unweighted integer SM.
 - **P3 78-consecutive blocks; C1/C2 partial results**: the supplied packet
   README gives no summary or evidence labels for these lanes. They are not
-  reconstructed or assigned a status here; the missing full reports remain
-  a custody gap.
+  reconstructed or assigned a status here. Adding full-report source bytes
+  does not expand this packet-summary-only integration into those lanes.
 
 The packet warns that λ18 conditioning can make the 271 bad mass `1/30`,
 exceeding C21's unconditioned `1/81`: budgets cannot be transplanted directly.

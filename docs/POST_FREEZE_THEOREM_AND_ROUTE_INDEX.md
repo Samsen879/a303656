@@ -17,8 +17,8 @@ Evidence and exact boundaries: [finite recursion no-go audit](../analysis/finite
 
 These entries retain their candidate and AI-only review qualifications; the
 conditional synthesis was not separately refereed. They do not upgrade the
-frozen ledger or establish LP. Full-report custody gaps are recorded in the
-linked package.
+frozen ledger or establish LP. The subsequently supplied A2/R2/V/E2/L reports
+and their version boundaries are recorded in the linked package's custody notes.
 
 | ID | Classification | Name | Scope | Route effect |
 |---|---|---|---|---|
