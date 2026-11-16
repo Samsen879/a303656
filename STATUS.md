@@ -7,6 +7,7 @@ The project is paused:
 - No proof route is currently being pursued, and the direct attack on the original problem (below) is on hold.
 - No further large-scale computation is planned.
 - Work will restart only for a concrete new idea that meets the restart criteria recorded in the frozen archive (`RESTART_GATE`).
+- Two research waves on the almost-all route ran in November 2026 (sections below). They were paused again on 2026-11-16. Where that route stands, where it is stuck and where to restart: [almost-all route handoff](docs/ALMOST_ALL_ROUTE_HANDOFF.md).
 
 ## Thread 4 minimal-counterexample transfer audit
 
@@ -57,6 +58,28 @@ addition does not upgrade any mathematical claim or evidence label. Review is
 AI-only, with no human mathematical review or formalization. **A303656: UNRESOLVED**; there is
 **no general proof**. This records the supplied triage work without changing
 the project's paused status or the frozen authority.
+
+## ACP wave 2026-11-16 (almost-all route)
+
+The [ACP package](analysis/acp_wave2_2026_11_16/README.md) asked whether
+primes `p ≡ 3 mod 4`, treated as if they were joint-nonregular, can cover the
+exponent space and so produce a finite zero. Verdict: **undecided**. Candidate,
+AI-derived results:
+
+- a finite zero exists iff some parity class is covered by inert fibres
+  `{3^α + 5^β ≡ z_p mod p}` (existence-level equivalence);
+- any covering needs at least 147 fibres and a prime with `H_p ≥ 16384`;
+- in the real model a zero needs at least 147 joint-nonregular primes
+  (conditional on C21's rigidity and regular-averaging lemmas; 30 without the
+  LP measures);
+- Proposition H: fractional coverings exist, so no union bound or measure
+  certificate can prove LP. A proof must use integrality.
+
+Raising root thresholds is therefore not a route to LP. The open part of the
+almost-all route is the explicit two-parameter covering question stated in the
+[handoff note](docs/ALMOST_ALL_ROUTE_HANDOFF.md). Review is AI-only; nothing
+is formalized. **A303656: UNRESOLVED**; there is **no general proof**; LP
+remains **OPEN**; every-n representability is untouched.
 
 ## Frozen authority state
 

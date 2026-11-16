@@ -1,0 +1,12 @@
+=== LANE E: almost-all by a route that does not go through f_∞ ===
+{{FOCUS}}
+Goal. Prove #{n <= X : R(n) = 0} = o(X), or any explicit improvement over positive density, by a route independent of (POS). First read docs/THEOREM_INDEX.md entries P-004 to P-007 and docs/ROUTE_MAP.md rows R-002, R-004, R-010, including their exact restart triggers.
+
+Options:
+ (E1) HC-LT. Prove: there exist κ > 0, δ0 > 0 and ρ(δ) → 0 such that for each fixed 0 < δ <= δ0,
+        #{n in [X, 2X] : U_{X,δ}(n) < κ (log X)^{3/2}} <= ρ(δ) X + o_δ(X),
+      where U_{X,δ}(n) = #{(c,d) in H_X : v_p(n − 3^c − 5^d) even for all p <= X^{1−δ}, p ≡ 3 mod 4}. (HC-A is already proved in the repo; HC-A + HC-LT gives almost-all.) U only sieves up to X^{1−δ}, and sieve weights at a lower level have computable shift correlations. Try a semi-linear (dimension 1/2) lower-bound sieve weight, its pair correlations along shift differences, and a second-moment argument. Be precise about the level of distribution you need versus what is provable for averages over n in [X, 2X] with only (log X)^2 shifts.
+ (E2) Bounded-weight covariance (R-004 trigger). ν_τ(m) = r_2(m) / (4τ(m)) is a bounded weight with support exactly S2 and the right mean. Prove the classwise (W-tricked) parallel-shift correlation asymptotic Σ_t ν_τ(t) ν_τ(t + h) with h-dependent singular series and errors summable against the shift-difference multiplicities. Or find a different bounded weight w with support S2, the correct mean, and PROVABLE shift correlations (for example r_2 damped by a function of the number of prime factors ≡ 1 mod 4, or a sieve-type truncation). The reason this matters: the indicator-level conclusion needs a bounded weight; r_2 is unbounded, which is exactly why Round-1 needs (POS).
+ (E3) Radomskii's method. Round-1 cites D. Radomskii, "Variants of Romanoff's theorem", arXiv:2504.09954 (verify the reference and quote the theorem exactly first). Decide whether the method can be pushed from positive density to density 1 for B = {3^c + 5^d}, and what extra input would be needed.
+
+Whatever route you take, say which of N-001, N-003, N-004 it is closest to and why it escapes.

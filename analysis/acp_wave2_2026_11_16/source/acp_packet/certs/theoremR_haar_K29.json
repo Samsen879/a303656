@@ -1,0 +1,56 @@
+{
+ "K": 29,
+ "B": 32768,
+ "mode": "haar",
+ "classes": {
+  "00": {
+   "n_budgets": 69,
+   "worst_budget": 0.697785635421866,
+   "worst_at": [
+    13,
+    13
+   ],
+   "rho_max": 1.0,
+   "tau": 3.0517578125e-05,
+   "status": "PASS",
+   "cross_checked_primes": 0
+  },
+  "01": {
+   "n_budgets": 69,
+   "worst_budget": 0.958371949146847,
+   "worst_at": [
+    17,
+    17
+   ],
+   "rho_max": 1.0,
+   "tau": 3.0517578125e-05,
+   "status": "PASS",
+   "cross_checked_primes": 0
+  },
+  "10": {
+   "n_budgets": 69,
+   "worst_budget": 0.995116314165492,
+   "worst_at": [
+    13,
+    13
+   ],
+   "rho_max": 1.0,
+   "tau": 3.0517578125e-05,
+   "status": "PASS",
+   "cross_checked_primes": 0
+  },
+  "11": {
+   "n_budgets": 69,
+   "worst_budget": 0.822032958140141,
+   "worst_at": [
+    13,
+    13
+   ],
+   "rho_max": 1.0,
+   "tau": 3.0517578125e-05,
+   "status": "PASS",
+   "cross_checked_primes": 0
+  }
+ },
+ "status": "PASS"
+}

@@ -1,0 +1,67 @@
+=== SHARED CONTEXT (identical across parallel sessions) ===
+You are one of several independent research sessions attacking the same open problem in parallel. Other sessions are working on other lanes; stay on yours. Depth on your lane beats breadth.
+
+PROBLEM. Zhi-Wei Sun's conjecture (OEIS A303656; Sun, arXiv:1701.05868, Conj. 4.1(i)): every integer n > 1 can be written as
+  n = a^2 + b^2 + 3^c + 5^d,   a, b, c, d >= 0 integers.
+Status: OPEN. Verified for 1 < n <= 2.4e11 (Jiao-Min Lin, 2022) and for a further 1.6e9 consecutive integers. Sun offers a prize for a proof.
+
+NOTATION (use exactly this).
+  S2 = {m >= 0 : m = a^2 + b^2} (0 is in S2). m in S2 iff every prime p ≡ 3 mod 4 has even v_p(m).
+  D(n) = {(c,d) in Z>=0^2 : 3^c + 5^d <= n},  |D(n)| ~ (log n)^2 / (log 3 · log 5).
+  R(n) = #{(c,d) in D(n) : n − 3^c − 5^d in S2}  (exponent pairs counted with multiplicity; numerical collisions such as 3 + 25 = 27 + 1 are finitely many).
+  Conjecture ⇔ R(n) >= 1 for all n > 1. Heuristic: R(n) is typically of order (log n)^{3/2}.
+
+REPOSITORY (public; read what your lane names): https://github.com/Samsen879/a303656  (commit ba7f028)
+  Core files: STATUS.md, docs/THEOREM_INDEX.md, docs/ROUTE_MAP.md, docs/POST_FREEZE_THEOREM_AND_ROUTE_INDEX.md.
+  If you cannot open it, say so in one line and continue from this context. Never invent its contents.
+
+ALREADY CLOSED — do not re-propose these. Each is closed only at its stated scope; if you think your method escapes one, name the theorem and the exact hypothesis you escape.
+  N-001  random-CRT L2 control does not give adversarial L∞ control (bad-prime second moment).
+  N-002  uniform private-witness suppression is false.
+  N-003  the globally centered ν_τ covariance trigger is false (mod-6 between-class bias).
+  N-004  exceptional-set Fourier / density increment at the audited absolute-minor-spectrum scale.
+  N-005, N-006, N-007  fixed-affine and finite-state affine descent.
+  N-008  canonical one-record charging saturates at O(X).
+  N-009  finite local / profinite consistency + Helly data does not select a single (c,d).
+  N-010  theta-series / divisor-switching / pointwise minor-arc route.
+  PF-N-001..004  finite fixed-complexity rational recursions (linear counting, bounded-degree witness propagation).
+  The L5,3 minimal-counterexample transfer lemma (false at m = 7,963,079).
+  Plain extension of finite search (no theorem-linked threshold).
+
+ROUND-1 RESULTS (another model, 2026-11-11). Treat these as UNAUDITED candidate results.
+  (R1-a) Exact identity. Let G = G23711(n) ⊂ D(n) be the pairs whose residual m = n − 3^c − 5^d is 0 or has oddpart(m) ≡ 1 mod 4 and v_3, v_7, v_11 even; G(n) = |G|. Let N_p^G(n) = # pairs in G with m not in S2 whose LEAST odd-valuation prime ≡ 3 mod 4 is p. Then
+         S(n) := Σ_{19 <= p < √n, p ≡ 3 (4)} N_p^G(n) = G(n) − R(n).
+       Repo input: G(n) >= a0 (log n)^2 eventually, a0 = 1869 / (25600 log3 log5).
+       ML-K2 (the repo's missing lemma) ⇔ R(n) >= G(n)/log n for all large n. Unproved.
+  (R1-b) Weighted L2 approximation. H_X = {(c,d) : 3^c + 5^d <= X/2}, Z_X(n) = |H_X|^{-1} Σ_{(c,d) in H_X} r_2(n − 3^c − 5^d) for X <= n <= 2X.
+       μ_q = limiting distribution of the shifts 3^c + 5^d mod q;  β_q(a) = q^{-1} #{(u,v) mod q : u^2 + v^2 ≡ a};
+       f_q(a) = π Σ_b μ_q(b) β_q(a − b).
+       Claim: along q_j = j!, f_{q_j} → f_∞ in L2(Ẑ) and a.e., ∫ f_∞ dHaar = π, and
+         lim_j limsup_X X^{-1} Σ_{X <= n <= 2X} |Z_X(n) − f_{q_j}(n mod q_j)|^2 = 0.
+       The proof uses Chamizo's asymptotic for Σ_t r_2(t) r_2(t+m) (Mediterr. J. Math. 2022) and a Romanoff-type bound Σ_{(d,5)=1} 1/(d · ord_d(5)) < ∞ to control composite-divisor tails of the singular series over shift differences.
+  (R1-c) Conditional: if (POS)  Haar{x in Ẑ : f_∞(x) = 0} = 0,  then #{n in [X,2X] : R(n) = 0} = o(X), i.e. ALMOST-ALL. (POS) is unproved.
+  (R1-d) Countermodel: positivity of every finite-level conditional mean + uniformly bounded positive moments + L2 convergence do NOT imply a.e. positivity of the limit (binary-block construction on Z_2). So (POS) needs genuinely arithmetic input. Example of a sufficient input: sup_j ∫ (−log f_{q_j})_+ dHaar < ∞.
+  (R1-e) Window no-go: for fixed M, r and A < 1, infinitely many n ≡ r (mod M) have n − 3^c − 5^d not in S2 for ALL 0 <= c, d <= A·sqrt(log n / loglog n) (CRT with one prime p_i ≡ 3 mod 4 per shift and exact valuation 1). This covers only O(log n / loglog n) of the Θ((log n)^2) pairs.
+  (R1-f) Finite data up to 1e7: max S/G = 13/15 at n = 9481394 (G = 15, R = 2). No n with R = 0 or G = 0.
+  Repo counterexample-certificate program (analysis/c1_*): a complete finite "C=1" covering certificate needs >= 7 distinct base-5 NONREGULAR primes q ≡ 3 mod 4 (s_q = v_q(5^{ord_q 5} − 1) >= 2, i.e. base-5 Wieferich-type); combined with the repo's prime inventory to 2e9 the order-DAG thread places >= 7 such admitted primes above 2e9 (see the c1 threads for the exact "admitted" conditions).
+
+RULES.
+  1. Never fabricate a citation, theorem statement, constant or computation. If unsure what a paper says, say so. Quote theorem hypotheses exactly when you rely on them.
+  2. Tag every claim with exactly one label: PROVED | PROVED NEGATIVE STRUCTURAL THEOREM | CONDITIONAL (state the hypothesis) | FINITE COMPUTATION | HEURISTIC | UNRESOLVED. Never present a heuristic as a proof.
+  3. You may run code. Finite computation guides; it never proves. Give the key logic of your code and how you cross-checked it.
+  4. Write proofs for a hostile referee: every limit interchange, every uniformity in q and X, every "for sufficiently large". Where a step is not done, write "GAP:" and state exactly what is missing.
+  5. A clean negative result (a precise no-go with full proof) or a precise reduction to a cleaner statement counts as success. "Nothing new found" is an acceptable outcome; padding is not. Skip governance boilerplate.
+  6. Write the report in Chinese, keeping technical terms in English.
+
+REQUIRED ENDING. Finish your report with this block, filled in, so the parallel sessions can be merged:
+=== RESULT CARD ===
+Lane / variant:
+Headline (one sentence):
+Strongest claim + tag:
+Precise statement of that claim:
+Where it breaks / GAP (if any):
+Nearest closed theorem, and why it does not apply:
+What a verifier should check first (3 items):
+Suggested next step for another session:
+=== END CARD ===
+=== END SHARED CONTEXT ===

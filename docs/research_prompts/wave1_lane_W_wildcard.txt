@@ -1,0 +1,11 @@
+=== LANE W: reformulation wild card ===
+{{FOCUS}}
+Spend the session on ONE reformulation of A303656 (or of (POS), ML-K2, or the almost-all problem) through the assigned seed, and push it until it yields a precise new statement (a theorem, a reduction to a cleaner conjecture, or a no-go) or clearly dies. Vague programs are not acceptable output: if you claim a reduction, state both sides precisely and prove the implication.
+
+Seeds:
+ W1 Gaussian integers. 5^d = N((2+i)^j (2−i)^{d−j}) has r_2(5^d) = 4(d+1) representations, so n − 3^c = |z|^2 + |w|^2 with |w|^2 a power of 5; 3 is inert in Z[i]. Count with Hecke characters or Gaussian lattice geometry.
+ W2 Ergodic / dynamical. Ẑ with x ↦ 3x and x ↦ 5x (Furstenberg ×2×3-type rigidity), skew products; (POS) as a statement about an invariant or quasi-invariant measure.
+ W3 Additive combinatorics. The shift set A = {3^c + 5^d} has tiny additive energy (Sidon-like; repo P-003), and S2 ∩ [1, X] has density about (log X)^{−1/2}. Is A + S2 ⊇ [N0, ∞)? Use energy / structure arguments, transference, or pseudorandom majorants for S2 in the style of Green–Tao.
+ W4 p-adic analysis. For each prime p, (α, β) ↦ v_p(x − 3^α − 5^β) via p-adic logarithms (Strassmann / Skolem-type zero counting for 3^α + 5^β = x in Z_p); obstruction sets as p-adic analytic level sets; Haar measure of their intersections.
+ W5 Linear forms in logarithms (Baker theory). Bound how often n − 3^c − 5^d can be divisible by high powers of a fixed small prime, and use it to control the 2-, 3-, 7-, 11-adic obstructions pointwise.
+ W6 Probabilistic model with dependence. Build an explicit random model capturing the coupling of the residuals through shared prime-order structure; compute P(R(n) = 0) in the model; identify which arithmetic correlation (if any) could make counterexamples plausible, then test that correlation numerically.

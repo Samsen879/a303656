@@ -1,0 +1,5 @@
+class 00: 2301 budgets, worst 0.808940 at [83, 83]  tau=4.151e-04  PASS [6s]
+class 01: 2301 budgets, worst 0.986416 at [83, 83]  tau=4.252e-04  PASS [6s]
+class 10: 2301 budgets, worst 0.922261 at [61, 61]  tau=4.951e-04  PASS [6s]
+class 11: 2301 budgets, worst 0.998929 at [83, 83]  tau=5.403e-04  PASS [6s]
+K = 146 PASS

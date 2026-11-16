@@ -1,0 +1,3 @@
+[PASS] 1-2: 5709 primes certified, orders exact, G = prod p^e  [0s]
+[PASS] 3: brute-force scan of all inert primes p < 110000000: exactly 4160 have H < 32768, all listed [63s]
+[PASS] 4: modular completeness check for cutoff 2048: no unlisted prime divides both products [94s]

@@ -1,0 +1,12 @@
+=== TRACK D2: search for an abstract covering — evidence for (Y), or certificates against it ===
+{{FOCUS}}
+Goal. Find an explicit finite configuration (actual primes p > 3, p ≡ 3 mod 4 treated as joint-nonregular, with targets, parities and any regular or 2-adic conditions) whose bad events cover the exponent space in the ACP. Otherwise, produce machine-checkable certificates that no covering exists within a stated search space. Either outcome feeds D1.
+Ground rules for computation:
+ - Work on the finite exponent quotients determined by the orders involved, with parities fixed as in C21. Decide coverage by exact counting, never by sampling.
+ - Use actual primes with certified primality. Compute ord_p 3 and ord_p 5 exactly, by direct modular iteration or from a verified factorization of p − 1.
+ - Every infeasibility claim needs a certificate: for example a fractional-cover LP dual (a probability measure on the exponent quotient under which the bad events have total mass < 1), or an exhaustive enumeration with a verifier script.
+ - Report solvers and versions, and re-check any covering you find independently by recomputing the membership of every exponent class.
+Variants:
+ (D2a) Catalogue search. Enumerate primes p ≡ 3 mod 4 with H_p <= H for increasing H, by factoring products of 3^{2h} − 1 and 5^{2h} − 1 as C21's catalogue does but with larger bounds. For candidate prime sets, decide coverage of the finite quotient exactly (ILP, SAT or exact cover). Report the smallest coverings found, or fractional lower bounds on how many targets a covering needs, as functions of the order structure.
+ (D2b) The M = t frontier. Attack the first case C22 cannot handle: a fresh M-primary fibre with M = 23 (then 29, 31, …) and t = M active targets with M | L_p. Search for primes p ≡ 1 mod M, p ≡ 3 mod 4, with suitable orders and targets whose bad sets partition or cover the fibre, then check whether the lower fibres can be handled as well. If partitions turn out to be impossible for an arithmetic reason, extract that reason as a lemma for D1.
+If you find a covering: give it completely and verify it independently. Then (i) check directly that its primes are not joint-nonregular (a pow() computation), and (ii) analyze whether the covering pattern extends to infinitely many prime sets (Y-infinite) or is confined to an explicit finite family (Y-finite).

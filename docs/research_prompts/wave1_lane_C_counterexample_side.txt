@@ -1,0 +1,13 @@
+=== LANE C: counterexample side — build one, or bound what covering-type constructions can reach ===
+{{FOCUS}}
+Context. A counterexample n needs every one of the roughly (log n)^2 / (log 3 · log 5) residuals n − 3^c − 5^d to have a prime p ≡ 3 mod 4 to an odd power (or oddpart ≡ 3 mod 4). Designed obstructions (choosing n mod p^k) turn this into a covering problem on the exponent grid, but "odd valuation" rather than mere divisibility creates a p-adic lifting regress unless p is Wieferich-like. Round-1 (R1-e) kills only an A·sqrt(log n / loglog n) square window. The repo's c1 program shows a complete C=1 covering certificate needs >= 7 base-5 nonregular primes ≡ 3 mod 4.
+Read first: analysis/c1_unified_endgame_phase_b/{README.md, MASTER_THEOREM.md}; analysis/c1_order_dag_phase_c/{THEOREMS.md (sections 12–13), REPORT.md}; analysis/c1_kraft_hall_phase_a/REPORT.md; docs/ROUTE_MAP.md row R-020 (CRW).
+
+Tracks:
+ (C1) Covering budget. Let B(C, D) be the minimal log(modulus) of a residue system for n (n mod Q) under which every residual with 0 <= c <= C, 0 <= d <= D fails through a designed odd valuation of a prime ≡ 3 mod 4 or the 2-adic condition. A counterexample of this type needs B(C, D) <= C·log 3 (since n ≈ 3^C).
+   Upper-bound B with explicit constructions that exploit: the 2-adic condition (check that n ≡ 1 mod 4 already kills every even c); the 3-adic structure (c >= 1 and the parity of d; v_3(n − 25^j) = 1 + v_3(j − j0) for n ≡ 1 mod 3); small-order primes (ord_7 3 = ord_7 5 = 6; ord_11 3 = ord_11 5 = 5); Wieferich-type primes (3^5 ≡ 1 mod 121; base-5 Wieferich primes 20771, 40487, 1645333507, all ≡ 3 mod 4 — verify each); "lines" {x + y ≡ n} in <3> × <5> mod p.
+   Lower-bound B by a counting or entropy argument: each prime contributes log p to the budget and kills a computable number of grid points with odd valuation.
+   Goal: prove B(C, D) grows faster than C·log 3 (no counterexample of designed type), or find a construction with B(C, D) <= C·log 3. Either is a real result; state it as a theorem with explicit constants.
+ (C2) The repo's next single target: the class B7 defined in analysis/c1_order_dag_phase_c/THEOREMS.md section 13. Prove B7 is empty (raising the certificate lower bound to >= 8 roots) or produce a certified member with full primality certificates. Keep the exact definitions.
+
+Any claimed counterexample must come with the integer n written in full and, for EVERY (c,d) in D(n), a certified prime p ≡ 3 mod 4 with odd v_p(n − 3^c − 5^d) (or oddpart ≡ 3 mod 4), checked in exact arithmetic. Anything less is a candidate, not a counterexample.

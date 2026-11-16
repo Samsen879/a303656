@@ -1,0 +1,52 @@
+You are working on Zhi-Wei Sun's open conjecture OEIS A303656: every integer n > 1 is a^2 + b^2 + 3^c + 5^d with a, b, c, d >= 0. A previous research wave reduced the "almost all n" version to a local positivity statement (LP), and showed that any local obstruction needs many hypothetical Wieferich-type primes. Your job is to decide whether such an obstruction can be assembled at all. This is a construction-and-search task with exact verification. A clean negative answer, with a certificate, is as valuable as a positive one.
+
+ATTACHMENT: A303656_Triage_Audit_2026-11-14.zip. Unzip it and read, in this order: c21_frozen/PROOF.md, proofs/a2_agent__c22_second_referee.md, proofs/c21_agent__c22_independent_referee.md, proofs/a2_agent__c21_typed_target_invariant.md, proofs/a2_agent__a2_independent_audit.md. Run c21_frozen/verify.py once to confirm your environment reproduces it. Repository for context, if reachable: https://github.com/Samsen879/a303656. If the attachment is missing, stop and say so.
+
+THE MODEL (eventual-power model)
+- E = Ẑ^2 with Haar measure, e = (α, β). T_b(α) ∈ Ẑ has p-adic coordinate b^α for p ≠ b and 0 for p = b. s(e) = T_3(α) + T_5(β).
+- β_{p^k}(y) = local density of u^2 + v^2 ≡ y (mod p^k). For p ≡ 3 mod 4: β_{p^k}(y) = 0 iff v_p(y) is odd and < k.
+- f_q(a) = π · E_e[ Π_{p^k || q} β_{p^k}(a − s(e)) ].  LP: f_q(a) > 0 for all q and a.
+
+WHAT IS ALREADY KNOWN (candidate results from the previous wave, AI-refereed only)
+- LP ⇒ almost all n are representable (via a weighted L2 transfer and a zero-set theorem {f_∞ = 0} = ∪_q {f_q = 0} a.e.).
+- C21/C22: a zero f_q(a) = 0 forces at least 23 distinct primes p > 3, p ≡ 3 mod 4, p^2 | q, that are JOINT-NONREGULAR: 3^{p−1} ≡ 5^{p−1} ≡ 1 (mod p^2). No such prime is known: any one would be a base-3 Wieferich prime, the only known ones are 11 and 1006003 (none else below 9.7e14), and neither is base-5 Wieferich.
+- Mechanism: regular primes never create zeros (averaging over a regular base's p-primary exponent component keeps mass within a factor [1/p, 1 + 1/p]). The prime 3 and the 2-adic condition are absorbed by fixing exponent parities. A joint-nonregular p is rigid (s(e) mod p^2 depends only on e mod (ord_p 3, ord_p 5)), so v_p(a − s(e)) = 1 can hold on whole exponent classes. Positivity at p is guaranteed if s(e) ≢ z_p (mod p).
+- With parities fixed, Pr[s(e) ≡ z (mod p)] <= 1/H_p, where H_p = max(oddpart ord_p 3, oddpart ord_p 5).
+- Induction is on M = the largest odd prime factor of L_p = lcm(ord_p 3, ord_p 5). With t active targets (M | L_p), the fresh M-primary fibre gives each bad event probability <= 1/M, so t < M is automatic. A regular norm prime equal to M becomes an "artificial" unit target. Critical cases t >= M are closed by union-bound budgets over a complete catalogue (odd 19-smooth h < 512). This works up to 22 targets; at 23 targets the case M = t = 23 appears, the union bound gives t/M = 1, and every larger prime M repeats this.
+
+THE QUESTION (Abstract Covering Problem, ACP)
+Take a finite set T of ACTUAL primes p > 3, p ≡ 3 mod 4, and treat them AS IF they were joint-nonregular. Ignore their real Wieferich status; keep the real arithmetic of F_p (orders, discrete logs, the addition table of <3> and <5>). Allow arbitrary targets, regular-prime norm conditions and a 2-adic condition. Can the bad events cover E up to measure zero, i.e. produce a zero of f_q in this pretend model?
+- (N) Never, for any finite T: then LP holds unconditionally and almost-all becomes an unconditional theorem.
+- (Y-finite) Coverings exist, but only with primes from an explicit finite list: check those primes directly with pow(); if none is joint-nonregular, LP still follows.
+- (Y-infinite) Coverings exist for infinitely many prime sets: then LP cannot be proved by local arguments, and the conditional theorem above is essentially the end of this route.
+
+PHASE 1 — Formalize (do not skip)
+1. From PROOF.md, write the ACP as a precise finite combinatorial statement on a finite exponent quotient: the probability space after fixing parities, the bad event for each target, how regular primes and artificial targets enter, and how the 2-adic and prime-3 conditions are handled.
+2. Decide whether "unit-avoidance fails everywhere" is exactly the zero condition, or whether the true condition (v_p(a − s(e)) odd and < k on a full-measure set) is strictly stronger. For example, classes with s(e) ≡ a (mod p^2) still give positivity, and p^3-level behaviour need not be rigid. Use the exact condition in your search.
+3. Implement a reference decision procedure: given a finite configuration, decide coverage exactly by counting over the quotient, never by sampling. Validate it: it must reproduce C21's conclusion on C21's own catalogue, and give correct answers on brute-forceable toy variants (other bases or small orders).
+
+PHASE 2 — Search
+A. Catalogue search. Enumerate actual primes p ≡ 3 mod 4 with small H_p (factor products of 3^{2h} − 1 and 5^{2h} − 1 for growing odd h, going beyond C21's h < 512 / 19-smooth catalogue where feasible). Certify primality, compute orders exactly, and for candidate prime sets decide coverage exactly (ILP, SAT or exact cover is fine). Report the smallest coverings found or, if none, fractional-cover lower bounds: LP duals that certify how many targets, with which order structure, any covering would need.
+B. The M = t frontier. Attack M = 23 (then 29, 31, …) directly: look for t = M primes p ≡ 1 mod M, p ≡ 3 mod 4, with M | L_p, and targets whose bad sets partition or cover a fresh M-primary fibre; then check whether the lower fibres can be handled too. If exact partitions are impossible, find the arithmetic reason.
+
+PHASE 3 — Conclude
+- If you find a covering: give it completely, re-verify it with independent code, check its primes directly for joint-nonregularity, and argue whether the pattern extends to infinitely many prime sets (Y-infinite) or is confined to a finite explicit family (Y-finite).
+- If you find none: state exactly what was searched, give machine-checkable infeasibility certificates, and extract the strongest general lemma your evidence suggests (for example "an exact tiling of a fresh M-fibre by M exponential curves {3^α + 5^β ≡ z mod p} is impossible because …"), with a proof or a precisely marked GAP.
+
+RULES
+- Never fabricate citations, theorem statements or computational results. Quote hypotheses exactly when you rely on a theorem.
+- Tag every claim: PROVED | PROVED NEGATIVE STRUCTURAL THEOREM | CONDITIONAL (state the hypothesis) | FINITE COMPUTATION | HEURISTIC | UNRESOLVED. A finite computation proves only the exact finite statement it exhaustively checked; say what was enumerated.
+- Write proofs for a hostile referee and mark missing steps "GAP:".
+- Package all code, so that every certificate can be replayed with one command.
+- Write the report in Chinese, keeping technical terms in English.
+
+END WITH
+=== RESULT CARD ===
+Headline (one sentence):
+ACP formalization (one paragraph, exact):
+Strongest claim + tag:
+Dichotomy verdict: (N) / (Y-finite) / (Y-infinite) / undecided — reason in one sentence:
+Search space covered and certificates produced:
+What a verifier should check first (3 items):
+Suggested next step:
+=== END CARD ===

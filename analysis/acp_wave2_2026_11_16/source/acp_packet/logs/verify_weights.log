@@ -1,0 +1,3 @@
+[PASS] 90 primes with h3*h5 <= 60000: all four classes recomputed with pow() and Counter
+[PASS] random sample of 40 larger primes recomputed with a plain outer sum
+[PASS] maxN <= min(h3,h5) everywhere; 12 huge primes carry only this trivial bound: [6442591, 6994027, 7477303, 8153731, 9459451, 9792151, 10619071, 29152579, 38900867, 81524647, 103859419, 2094938071]

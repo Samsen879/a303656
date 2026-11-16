@@ -1,0 +1,9 @@
+=== LANE L: literature deep search (use extended web search; verify every statement at the source) ===
+Produce a source table that feeds the other lanes. For each item give: full citation, link, the exact theorem statement with hypotheses, which lane it could feed (A, B, V, E, C, P) and how. Mark anything you could not open in full as "abstract only".
+ 1. Romanoff-type problems with sums of two squares or other half-dimensional sets: n = x^2 + y^2 + 2^k, n = x^2 + y^2 + p^k, positive density / almost-all / exceptional sets. A lead to verify (it may be misremembered): Elsholtz, Luca, Planitzer, "Romanoff's theorem and sums of two squares". Follow citations forward to 2026.
+ 2. Zhi-Wei Sun's papers on mixed sums of squares and powers (arXiv:1701.05868 and related), and any partial results by others on A303656 or close relatives (x^2 + y^2 + 2^c + 3^d, x^2 + y^2 + 3^c, etc.); known counterexamples to analogous conjectures and their mechanism.
+ 3. Almost-all results where the local limit density can vanish: Erdős covering for p + 2^k; criteria for "covering-free" almost-all; anything characterizing almost-all through local densities.
+ 4. Positivity of limits of arithmetic martingales or multiplicative-chaos-type objects on Ẑ; Kesten–Stigum-type theorems in number-theoretic settings; any "positive a.e." theorem for profinite limits of local densities.
+ 5. Pointwise inputs: prime factors of a − b^d (S-unit theory, Stewart-type bounds, gcd bounds of Bugeaud–Corvaja–Zannier type); distribution of 3^c + 5^d mod p (exponential sums over products of two cyclic subgroups); base-3 and base-5 Wieferich primes ≡ 3 mod 4 and the current search limits.
+ 6. Anything from 2024–2026 citing D. Radomskii, "Variants of Romanoff's theorem" (arXiv:2504.09954).
+Do not pad the table: eight verified, relevant entries are worth more than thirty vague ones.
