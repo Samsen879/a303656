@@ -1,0 +1,10 @@
+=== TRIAGE: merge the parallel wave ===
+Below are the RESULT CARDs (and, where available, full reports and REFEREE CARDs) from parallel sessions on lanes A, B, V, E, C, P, L, W.
+ 1. Build a table: lane / variant | headline | tag | referee status | depends on which other result.
+ 2. Find contradictions between sessions (one proves a bound another numerically violates; incompatible definitions of f_q or μ; different readings of the same repo file). Resolve each or mark it OPEN.
+ 3. Dependency check: which claims rely on (R1-b)/(R1-c), or on results from other sessions that are not yet refereed? Propagate every REJECT through the dependency chain.
+ 4. Pick at most 3 results worth promoting (precise statements) and at most 3 sharpened open targets for the next wave, each stated so a fresh session can attack it cold with this shared context.
+ 5. Propose the next-wave allocation (sessions per target) and list the claims that still need a second independent referee.
+ 6. Draft a short update for the repository's STATUS.md. Do not overclaim: A303656 stays UNRESOLVED unless there is a fully refereed proof or a certified counterexample.
+Write in Chinese, technical terms in English. Skip the RESULT CARD.
+--- CARDS / REPORTS (paste below) ---

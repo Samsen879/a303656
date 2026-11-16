@@ -1,0 +1,16 @@
+L4 check M=3: 1124 primes p=1 mod M; max curve size: same coset 2 (bound 2), different cosets 1 (bound 1)
+L4 check M=5: 563 primes p=1 mod M; max curve size: same coset 3 (bound 3), different cosets 2 (bound 2)
+L4 check M=7: 377 primes p=1 mod M; max curve size: same coset 3 (bound 5), different cosets 3 (bound 3)
+L4 check M=11: 224 primes p=1 mod M; max curve size: same coset 6 (bound 9), different cosets 5 (bound 5)
+L4 check M=13: 187 primes p=1 mod M; max curve size: same coset 6 (bound 11), different cosets 4 (bound 6)
+L4 check M=17: 144 primes p=1 mod M; max curve size: same coset 6 (bound 15), different cosets 4 (bound 8)
+L4 check M=19: 120 primes p=1 mod M; max curve size: same coset 6 (bound 17), different cosets 4 (bound 9)
+L4 check M=23: 98 primes p=1 mod M; max curve size: same coset 12 (bound 21), different cosets 11 (bound 11)
+M=23: 201 active inert primes with H<B; type V: 13, type H: 12, both: 176; sum of the M largest 1/H_p = 0.0952; largest type-B curve (z!=0) on a fresh fibre: 12 of 23 points
+M=29: 155 active inert primes with H<B; type V: 3, type H: 12, both: 140; sum of the M largest 1/H_p = 0.0531; largest type-B curve (z!=0) on a fresh fibre: 15 of 29 points
+M=31: 138 active inert primes with H<B; type V: 10, type H: 6, both: 122; sum of the M largest 1/H_p = 0.0264; largest type-B curve (z!=0) on a fresh fibre: 6 of 31 points
+M=37: 118 active inert primes with H<B; type V: 9, type H: 5, both: 104; sum of the M largest 1/H_p = 0.0337; largest type-B curve (z!=0) on a fresh fibre: 9 of 37 points
+M=41: 118 active inert primes with H<B; type V: 9, type H: 8, both: 101; sum of the M largest 1/H_p = 0.0459; largest type-B curve (z!=0) on a fresh fibre: 21 of 41 points
+M=43: 96 active inert primes with H<B; type V: 6, type H: 3, both: 87; sum of the M largest 1/H_p = 0.0211; largest type-B curve (z!=0) on a fresh fibre: 8 of 43 points
+M=47: 92 active inert primes with H<B; type V: 6, type H: 5, both: 81; sum of the M largest 1/H_p = 0.0210; largest type-B curve (z!=0) on a fresh fibre: 15 of 47 points
+local tiling at M=23: 23 type-V primes 5107..345139; exact partition of one fresh fibre: True; cofactors m_p = h3/23 range 3..7401  =>  the tiling survives on a set of lower points of Haar measure <= 1/7401

@@ -1,0 +1,10 @@
+=== REFEREE: independent check of one claimed result ===
+Below is a report from another session that claims a result tagged PROVED, PROVED NEGATIVE STRUCTURAL THEOREM or CONDITIONAL. You did not write it. Your job is to break it.
+ 1. Restate the claimed theorem precisely in your own words. If the statement is ambiguous, list the readings and referee the strongest one the argument actually supports.
+ 2. Rebuild the proof from scratch. Mark every step VERIFIED, FIXABLE (give the fix), FALSE (give a counterexample or the failing inequality) or UNJUSTIFIED (state what is missing).
+ 3. Check every cited theorem at the source: exact hypotheses, uniformity ranges, constants. Flag any citation you cannot verify.
+ 4. Check scope against the repo's closed results: does the argument silently re-enter N-001..N-010 or PF-N-001..004?
+ 5. Test numerically wherever possible (small cases, consistency with the finite data in (R1-f)).
+ 6. Verdict: ACCEPT / ACCEPT WITH CORRECTIONS (give the corrected statement) / REJECT, and name the single most dangerous step.
+Be exact rather than polite. Write in Chinese, technical terms in English. Replace the RESULT CARD with a REFEREE CARD containing: claim, verdict, most dangerous step, corrected statement (if any).
+--- REPORT TO REFEREE (paste below) ---

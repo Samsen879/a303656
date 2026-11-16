@@ -43,6 +43,7 @@ The proofs and route audits were developed with AI models and cross-checked by s
 - [Finite computations](docs/FINITE_COMPUTATIONS.md)
 - [Reproduction guide](REPRODUCE.md)
 - [Post-freeze theorem and route index](docs/POST_FREEZE_THEOREM_AND_ROUTE_INDEX.md)
+- [Almost-all route handoff (November 2026)](docs/ALMOST_ALL_ROUTE_HANDOFF.md): the conditional almost-all theorem, where the route is stuck, and where to restart
 - [Detailed historical report (Chinese)](REPORT_zh.md). Paths it cites at the root now live under [`archive/runs/`](archive/runs/README.md).
 
 ## Quick verification

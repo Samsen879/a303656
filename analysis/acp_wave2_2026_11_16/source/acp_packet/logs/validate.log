@@ -1,0 +1,26 @@
+[PASS] V0 beta_{p^k}(y)=0 rule (p=2; p=3 mod 4; p=1 mod 4) vs brute force 20 prime powers
+[PASS] V0b beta_8 = (1,2,2,0,1,2,0,0) as in PROOF.md 
+[PASS] V1 q=120: min F = 7/15 exactly at residues 50,70,80,100 
+[PASS] V1 q=120: mean F = 1, mean F^2 = 107/96 
+[PASS] V1 q=240,360,600 are pullbacks of q=120 (sampled a) 
+[PASS] V2 2-adic: class c is fully killed iff (a - r_c) mod 8 in {3,6,7}, r=(2,4,6,0); k=3..8, all a 
+[PASS] V2b a odd kills one alpha-parity (2 classes); a even kills exactly one class {0: [(0, 0)], 1: [(0, 0), (0, 1)], 2: [(1, 0)], 3: [(1, 0), (1, 1)], 4: [(0, 1)], 5: [(0, 0), (0, 1)], 6: [(1, 1)], 7: [(1, 0), (1, 1)]}
+[PASS] V3 prime 3: bad set = {beta = b0 mod 2, v_3(beta-b0) even <= k-2}; a = 0 mod 3 gives no zero; k=1..5 
+[PASS] V4 F_q(a) > 0 for all a, q in {7^2,7^3,11^2,19^2,23^2} (real bases 3,5) 
+[PASS] V5 joint-nonregular toy (bases 31,19 at p=7; Wieferich depths w1=2, w2=3): class is bad iff v_7(a - tau) is odd and < min(k, w); k=2,3,4, all a, all 36 tame classes 
+[PASS] V5b pigeonhole (Lemma L1): every z mod 7 has a lift a mod 49 making the WHOLE fibre bad 
+[PASS] V6 toy bases (B,B), B=2*1463^2-1: F_q(a) == 0 exactly for q=1463^2 (definition-level engine) 
+[PASS] V6 the same a without the 19-factor is NOT a zero 
+[PASS] V6b ACP decision procedure reports the same covering (all 4 classes) and the same non-covering 
+[PASS] V7 coverage() == naive pow() enumeration on 40 random target sets 
+[PASS] V8 19-smooth, H<512 sub-catalogue has exactly 46 inert primes (as in C21) (full H<512 catalogue: 108 inert primes)
+[PASS] V8 exact weights of 11, 71, 271 equal 3/25, 4/175, 1/81 
+[PASS] V8 exact weight <= 1/H for all 46 rows 
+[PASS] V8 C21: 29 budgets, all < 1, worst = 875703733/878169600 at (M,t)=(11,11) 
+[PASS] V8 C22: 33 budgets, all < 1, base = 155932663/190512000, worst = 4238011529/4390848000 
+[PASS] V8 same 46 primes and orders as the frozen certificate.json 
+[PASS] V8 all 29 frozen inequalities reproduced 
+[PASS] V9 toy bases (2, b2=1 mod P): Erdos covering {3,5,7,13,17,241} is recognised as a covering {'N1': 24, 'N2': 1, 'cells': 24, 'uncovered': 0}
+[PASS] V9 ... and dropping the prime 241 leaves uncovered classes {'N1': 24, 'N2': 1, 'cells': 24, 'uncovered': 1}
+
+ALL 24 VALIDATION CHECKS PASSED

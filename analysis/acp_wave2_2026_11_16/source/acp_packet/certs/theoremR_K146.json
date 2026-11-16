@@ -1,0 +1,56 @@
+{
+ "K": 146,
+ "B": 32768,
+ "mode": "nu0 x Haar",
+ "classes": {
+  "00": {
+   "n_budgets": 2301,
+   "worst_budget": 0.808939538897722,
+   "worst_at": [
+    83,
+    83
+   ],
+   "rho_max": 13.601507758643017,
+   "tau": 0.000415085075643,
+   "status": "PASS",
+   "cross_checked_primes": 50
+  },
+  "01": {
+   "n_budgets": 2301,
+   "worst_budget": 0.98641575395608,
+   "worst_at": [
+    83,
+    83
+   ],
+   "rho_max": 13.932814179844254,
+   "tau": 0.000425195745235,
+   "status": "PASS",
+   "cross_checked_primes": 50
+  },
+  "10": {
+   "n_budgets": 2301,
+   "worst_budget": 0.922261216015464,
+   "worst_at": [
+    61,
+    61
+   ],
+   "rho_max": 16.22205627794372,
+   "tau": 0.000495057869811,
+   "status": "PASS",
+   "cross_checked_primes": 50
+  },
+  "11": {
+   "n_budgets": 2301,
+   "worst_budget": 0.998929394815141,
+   "worst_at": [
+    83,
+    83
+   ],
+   "rho_max": 17.705798852899427,
+   "tau": 0.000540338099759,
+   "status": "PASS",
+   "cross_checked_primes": 50
+  }
+ },
+ "status": "PASS"
+}

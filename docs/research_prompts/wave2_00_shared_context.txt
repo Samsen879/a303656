@@ -1,0 +1,56 @@
+=== SHARED CONTEXT — WAVE 2 (the dichotomy) ===
+You are one of several independent sessions working in parallel on one sharply defined question. Stay on your assigned track; depth beats breadth.
+
+BACKGROUND. Zhi-Wei Sun's conjecture (OEIS A303656): every integer n > 1 is a^2 + b^2 + 3^c + 5^d with a, b, c, d >= 0. Open; verified for 1 < n <= 2.4e11 plus 1.6e9 further integers.
+Repository: https://github.com/Samsen879/a303656 (main ba7f028; the wave-1 integration may sit on branch sync/triage-2026-11-14).
+ATTACHMENT: the wave-1 triage packet A303656_Triage_Audit_2026-11-14.zip. Read, in this order: c21_frozen/PROOF.md, proofs/a2_agent__c22_second_referee.md, proofs/c21_agent__c22_independent_referee.md, proofs/a2_agent__c21_typed_target_invariant.md, proofs/a2_agent__a2_independent_audit.md, proofs/v_agent__review.md. If the attachment is missing, say so in one line and work from this context; never invent its contents.
+
+THE MODEL (eventual-power model; use this notation).
+  E = Ẑ^2 with Haar measure, e = (α, β). T_b(α) ∈ Ẑ has p-adic coordinate b^α for p ≠ b and 0 for p = b. s(e) = T_3(α) + T_5(β).
+  β_{p^k}(y) = local density of u^2 + v^2 ≡ y (mod p^k). For inert p (p ≡ 3 mod 4) at precision p^k, β_{p^k}(y) = 0 iff v_p(y) is odd and < k.
+  f_q(a) = π E_e[ Π_{p^k || q} β_{p^k}(a − s(e)) ].
+  LP: f_q(a) > 0 for every q and every residue a.
+
+CHAIN FROM WAVE 1 (candidate results, AI-refereed only; finite budgets machine-checked):
+  V:  limsup_X X^{-1} #{n ∈ [X, 2X] : R(n) = 0} <= Haar{f_∞ = 0}, where R(n) counts representations by exponent pairs.
+  A2: {f_∞ = 0} = ∪_q {f_q = 0} a.e. Hence POS ⇔ LP, and LP ⇒ almost-all.
+  C21/C22: a finite zero f_q(a) = 0 forces at least 23 distinct primes p > 3 with p ≡ 3 mod 4, p^2 | q, and JOINT-NONREGULAR: 3^{p−1} ≡ 5^{p−1} ≡ 1 (mod p^2).
+  Facts: such a p is a base-3 Wieferich prime; the only known ones are 11 and 1006003 (no others below 9.7e14, Dorais–Klyve, OEIS A014127), and neither is base-5 Wieferich. No joint-nonregular prime is known.
+  Consequence (CONDITIONAL): if at most 22 joint-nonregular primes ≡ 3 mod 4 exist, then almost all n are representable.
+
+HOW C21/C22 WORK (so you can extend or break them).
+  Regular inert primes (non-Wieferich for at least one of the bases 3, 5) never create a zero by themselves: averaging over that base's p-primary exponent component multiplies the mass by a factor in [1/p, 1 + 1/p] ("regular averaging"). The prime 3 and the 2-adic condition are absorbed by fixing the exponent parities.
+  A joint-nonregular p is rigid: s(e) mod p^2 depends only on e modulo (ord_p 3, ord_p 5), so "v_p(a − s(e)) = 1" can hold on whole exponent classes. A sufficient condition for positivity at p is s(e) ≢ z_p (mod p) ("unit-avoidance target").
+  Per-target bound: with parities fixed, Pr[s(e) ≡ z (mod p)] <= 1/H_p, where H_p = max(oddpart ord_p 3, oddpart ord_p 5). Exact counts give sharper bounds for 11, 71, 271.
+  Induction on M = max odd prime factor of L_p = lcm(ord_p 3, ord_p 5) over the targets: with t active targets (M | L_p), the fresh M-primary exponent fibre gives each bad event probability <= 1/M, so every case with t < M is automatic. A regular norm prime equal to M is converted into a new unit target ("artificial target"); this is why regular primes cannot simply be deleted.
+  Critical cases t >= M are closed by explicit union-bound budgets over a complete catalogue (odd 19-smooth h < 512; every unknown prime has weight <= 1/512). With <= 22 targets only M ∈ {11, 13, 17, 19} are critical, and the worst budget is 4238011529/4390848000 at M = t = 11. With 23 targets the case M = t = 23 appears, where t/M = 1 and the union bound fails; every larger prime M has the same t = M critical case.
+
+THE DICHOTOMY QUESTION.
+  ABSTRACT COVERING PROBLEM (ACP). Take a finite set T of ACTUAL primes p > 3, p ≡ 3 mod 4, and treat them AS IF they were joint-nonregular: their true Wieferich status is ignored, while the arithmetic of F_p (orders, discrete logs, the addition table of <3> and <5>) is real. Allow arbitrary targets, arbitrary regular-prime norm conditions and an arbitrary 2-adic condition. Can the resulting bad events cover E up to measure zero, i.e. produce a zero of f_q in this pretend model?
+  (N) No configuration covers, for any finite T: then LP holds unconditionally, and almost-all becomes an unconditional theorem.
+  (Y-finite) Coverings exist, but every covering uses primes from an explicit finite list: check those primes directly (they are actual primes, so this is a pow() computation); if none is joint-nonregular, LP still follows unconditionally.
+  (Y-infinite) Coverings exist for infinitely many prime sets: then local arguments cannot prove LP, LP genuinely depends on the (unknown) existence of joint-nonregular primes, and the conditional theorem is essentially the final form of this route. The useful output is then a characterization of covering configurations (minimal size, order structure), which sharpens the conditional hypothesis.
+  Before anything else, pin down the exact ACP from c21_frozen/PROOF.md: which events, which conditioning, how regular primes and artificial targets enter, and whether the true zero condition (v_p(a − s(e)) odd and < k on a full-measure set) is stricter than "unit-avoidance fails". State your formalization explicitly. A mis-formalized ACP makes the whole session worthless.
+
+CLOSED ROUTES AND FINITE DATA (for scope checks). The repository's closed results N-001..N-010 and PF-N-001..004 are listed in docs/THEOREM_INDEX.md and docs/POST_FREEZE_THEOREM_AND_ROUTE_INDEX.md. Finite data to 1e7: no n with R(n) = 0; the worst ratio of failing to locally admissible pairs is 13/15 at n = 9481394.
+
+RULES.
+  1. Never fabricate a citation, theorem statement, constant or computation. Quote hypotheses exactly when you rely on a theorem.
+  2. Tag every claim with exactly one label: PROVED | PROVED NEGATIVE STRUCTURAL THEOREM | CONDITIONAL (state the hypothesis) | FINITE COMPUTATION | HEURISTIC | UNRESOLVED.
+  3. Code is allowed and encouraged. Finite computation guides; it proves only an explicitly stated finite statement checked exhaustively, and then you must say exactly what was enumerated and supply a verifier.
+  4. Write for a hostile referee. Mark every missing step "GAP:".
+  5. Negative results and precise reductions count as success. "Nothing new" is acceptable; padding and governance boilerplate are not.
+  6. Write the report in Chinese, keeping technical terms in English.
+
+REQUIRED ENDING:
+=== RESULT CARD ===
+Lane / variant:
+Headline (one sentence):
+Strongest claim + tag:
+Precise statement of that claim:
+Where it breaks / GAP (if any):
+Dichotomy verdict: (N) / (Y-finite) / (Y-infinite) / undecided — with the reason in one sentence:
+What a verifier should check first (3 items):
+Suggested next step for another session:
+=== END CARD ===
+=== END SHARED CONTEXT ===

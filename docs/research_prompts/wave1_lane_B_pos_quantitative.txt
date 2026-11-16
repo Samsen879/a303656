@@ -1,0 +1,15 @@
+=== LANE B: (POS) through quantitative lower bounds and exact numerics of f_q ===
+{{FOCUS}}
+Goal. Decide (POS) quantitatively. Either prove a sufficient bound, for example sup_j ∫ (−log f_{q_j})_+ dHaar < ∞ or sup_j ∫ f_{q_j}^{−s} dHaar < ∞ for some s > 0 (explain precisely why it suffices: Fatou / uniform integrability giving ∫ log f_∞ > −∞, hence f_∞ > 0 a.e.), or produce computational evidence that the mass of f_q drifts toward 0 and explain it arithmetically.
+
+Part 1 — Exact computation. This guides the proof, so do it carefully.
+ Build an exact calculator for f_q(x) for composite q (products of 2^a, 3^b, 5^c, 7, 11, 19, 23, 31, 43, … with growing level), using f_q(x) = π Σ_b μ_q(b) β_q(x − b). Derive μ_q: in the periodic regime (c >= v_3(q), d >= v_5(q)) it is the pushforward of the uniform measure on (c mod L3(q), d mod L5(q)) under (c,d) ↦ 3^c + 5^d mod q; derive L3, L5 and justify periodicity. Cross-check μ_q against brute-force counting over a large box of (c,d) for small q.
+ For a chain q_1 | q_2 | … (8–12 levels), sample x uniformly (or enumerate when feasible) and report: min f_q; quantiles of log f_q; the mean of (−log f_q)_+; the fraction of x with f_q < ε for several ε; and how all of these move as q grows. Use exact rationals or verified precision, and say which.
+ Find the x where f_q is smallest and describe them arithmetically: which primes are responsible, which residue conditions.
+
+Part 2 — Lower bound.
+ Write f_q(x) = π E_{(α,β)}[Π_{p^k || q} β_{p^k}(x − 3^α − 5^β)]. Jensen gives log f_q >= log π + E[log Π β], which is −∞ whenever a factor can vanish, so restrict first: for each x choose a set T(x) of exponents on which all factors at p <= y are positive, bound f_q(x) >= π·Haar(T(x))·inf over T(x), and then bound E_x[−log Haar(T(x))].
+ The probability that a fixed shift is unobstructed at every p ≡ 3 mod 4 below y is of order (log y)^{−1/2}; the question is whether the union over exponents, with the β weights, keeps a non-vanishing mass for almost every x. Quantify with second moments in the exponent variable at fixed x (pair correlation of obstructions at (α,β) and (α',β') given x), using the gcd / order structure; this is where Romanoff-type convergence Σ 1/(d·ord_d) should enter.
+ Be explicit about the regime: primes p <= y with y → ∞ jointly with q; prime powers; the 2-, 3- and 5-adic factors, which behave differently (3^α ≡ 0 in Z_3 and 5^β ≡ 0 in Z_5 in the limit).
+
+Part 3 — If the numerics point to failure. Construct candidate x, or positive-measure sets of x, where f_q → 0 and explain the mechanism. Check whether it amounts to a "profinite covering" (a positive-measure set of x for which μ-almost every shift is locally obstructed) and relate it to the repo's c1 finding that covering certificates need base-5 nonregular primes.

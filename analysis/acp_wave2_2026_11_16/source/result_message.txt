@@ -1,0 +1,51 @@
+三分法的结论是 undecided：没有找到任何 covering，下界大幅抬高，但 (N) 没有证明，而且可以证明现有的 measure 路线证不了它。附件已读完，verify.py 复现为 PASS。
+
+主要结果如下，完整证明与 tag 在 A303656_ACP_REPORT.md，代码和 certificates 在 A303656_ACP_2026-11-16.zip（./run_all.sh 一条命令重放）。
+
+Formalization：joint-nonregular prime 的 bad set 总包含在 fibre {3^α + 5^β ≡ z (mod p)} 里，且选合适的 lift a mod p² 可以让整个 fibre 都是 bad。对固定 (q, a) 真实 zero condition 更强，但存在性上等价，所以搜索用 fibre 是 exact 的。
+Root 下界 23 → 147：f_q(a) = 0 至少需要 147 个 joint-nonregular primes。这一步依赖 C21 的 rigidity 和 regular averaging lemma（只经 AI referee）。不依赖 LP measure 的保守版本是 30。
+Pure model：任何 covering 至少 147 个 fibres，且必含 H_p ≥ 16384 的 prime。这两条不依赖 C21 的 lemmas。
+M = t frontier：fresh M-fibre 被 M 条 curves 精确 tiling，当且仅当它们是同型的 M 条平行直线；z ≠ 0 的 curve 至多 M − 1 点。C22 卡在 23 是因为 catalogue 只到 19-smooth：用 complete catalogue，23 个最大的 active weights 之和只有 0.0952。
+方法的上限：对所有 inert primes 7 ≤ p ≤ 473899，Σ 1/p ≥ 1，fractional covering 存在，所以任何 union bound 或 LP dual 都给不出 certificate。证明 (N) 必须用 integrality。
+一维对照：单条 β-line 可以被 18 个 inert primes 精确覆盖（显式给出），h3 | 315 的 α-line 不能。障碍是二维的。
+
+几点需要留意：
+
+class 11 在 K = 146 的 margin 只有约 1.1·10^{-3}，是整数运算的结果，但对 catalogue 里任何一个 weight 的错误都敏感。
+quick 模式整体重放过一次（约 22 分钟，全部 PASS）；full 模式的各步骤单独跑过，没有作为一条命令整体重放。
+我没有检索文献确认 two-parameter covering 问题的 open 状态，也没有引用任何外部定理。
+全部结论未经人类数学家审阅。
+
+=== RESULT CARD ===
+
+Headline (one sentence): 没有找到 covering；pretend model 中任何 covering 至少需要 147 个 fibres 且必含 H_p ≥ 16384 的 prime，M = t frontier 被 polynomial lemma 化解，但 (N) 仍未证明，而且 measure 方法本身证不了它。
+
+ACP formalization (one paragraph, exact): 固定 parity class c = (c1, c2)（α = c1 + 2a，β = c2 + 2b）。对 inert prime p > 3，F_p^c(z) = {(a, b) ∈ Z/h3(p) × Z/h5(p) : 3^{c1}9^a + 5^{c2}25^b ≡ z (mod p)}。ACP_c(T, z) 问：有限个 distinct inert primes 的 fibres 是否覆盖 Z/lcm h3 × Z/lcm h5。Joint-nonregular（或 pretend）prime 的 bad set ⊆ fibre，选 lift 可使其等于整个 fibre（fibre 至多 p − 1 个 tame classes，lift 有 p 个）。Regular prime 的 bad set 也 ⊆ fibre。2-adic 条件恰好杀死一个 class（a 偶）或一个 α-parity（a 奇），prime 3 只部分影响一个 β-parity。所以 zero ⟹ 某个 class 被 fibres 覆盖；(N) ⟺ 没有 class 可被覆盖。
+
+Strongest claim + tag:
+
+Theorem R(146)，f_q(a) = 0 需要 ≥ 147 个 joint-nonregular primes：CONDITIONAL（C21 的 rigidity 与 regular averaging lemma）+ FINITE COMPUTATION。
+其 Q = ∅ 特例（covering ≥ 147 fibres）与 Theorem A（必含 H_p ≥ 16384）：PROVED + FINITE COMPUTATION。
+Theorem F / Lemma L4（exact tiling ⟹ 同型平行直线）：PROVED。
+Proposition H（measure 方法在 X0 = 473899 失效）：PROVED NEGATIVE STRUCTURAL THEOREM。
+
+Dichotomy verdict: undecided — 证据指向 (N)，但 fractional covering 存在，且一维类比中 covering 真实存在，现有工具排除不了巨大 prime 集上的 integral covering。
+
+Search space covered and certificates produced:
+
+Complete catalogue H_p < 32768：4161 个 inert primes，gcd 构造，brute-force 扫描到 1.1·10^8 加 modular route 复核。
+四个 classes 的 exact fibre statistics。
+Theorem A 的四个 measure certificates，bounds 为 0.683 / 0.773 / 0.745 / 0.787。
+Theorem R 的 4 × 2301 个 exact budgets（K = 146），以及 Haar-only 的 K = 29。
+Lemma L4 对 M ≤ 23、p < 20000 的 brute force；M = 23..47 的 active-prime census；一个显式的 local tiling。
+一维 controls 和 24 项 Phase-1 validation（含 C21 的 29 个、C22 的 33 个 budgets 的复现）。
+
+What a verifier should check first (3 items):
+
+Theorem R 的 direct budget 是否完备：critical cases 是否确为 7 < M ≤ K、M ≤ t ≤ K 加 base；placeholder ρ_max/B 对 catalogue 外的 primes 是否合法；C21 两条 lemma 的原文假设是否被准确使用。
+Catalogue 的 completeness 论证（p | G ⟺ h3, h5 < B）与 verify_catalogue.py 的三条独立路线。
+Lemma L4 的多项式论证（次数 M − 1、对合 T ↦ z − T、same-coset 的系数比较）。
+
+Suggested next step: 不再抬高 K，转向 integrality：把 Theorem F 的递归（tiling 只存在于各 active prime 投影的交集上，lower system 必须覆盖其余部分）尝试做成对 order primes 的 descent，并先证明或否定“type-B curve 至多 (M+1)/2 点”；同时请人类数学家审阅 Theorem R 的归纳和它依赖的 C21 lemmas。
+
+=== END CARD ===

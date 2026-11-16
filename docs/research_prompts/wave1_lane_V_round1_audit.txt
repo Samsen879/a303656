@@ -1,0 +1,18 @@
+=== LANE V: adversarial audit of Round-1, and is (POS) equivalent to almost-all? ===
+You are a hostile referee. Lanes A and B are trying to prove (POS) on the assumption that (R1-b) and (R1-c) are correct. Find out whether that assumption holds, and sharpen the reduction.
+
+Task 1 — Audit (R1-b) line by line. Reconstruct the full proof yourself; do not trust the summary. In particular:
+  - Look up F. Chamizo, "The additive problem for the number of representations as a sum of two squares", Mediterranean J. Math. (2022). Quote the theorem exactly: main term including the 2-adic factor, the error term, and the range of m in which it is uniform.
+  - Check that summing the errors over O((log X)^4) shift pairs and over the dyadic endpoints is legitimate.
+  - The diagonal: Σ_{m <= 2X} r_2(m)^2 ≍ X log X, and the shift-collision multiplicities.
+  - The composite-divisor tail: Σ_{(d,5)=1} 1/(d · ord_d(5)) < ∞; the collision bound 1/ord_{d0}(5) + 1/L_5; the treatment of d > X^δ; the order of limits X → ∞, then δ → 0, then Y → ∞.
+  - Local kernels: (1/p^a) Σ_r β_{p^a}(r) β_{p^a}(r + t) = 1 + Σ_{j <= a} c_{p^j}(t) / p^{2j} for odd p; the 2-adic version; π^2 Π_{p odd} (1 − p^{−2}) = 8.
+  - The martingale property E(f_{q'} | n mod q) = f_q, and lim X^{-1} Σ |Z_X − f_q|^2 = C − ||f_q||_2^2.
+  - Passage from the rectangle of exponents to the curved region H_X.
+  If anything is off, write the corrected statement.
+
+Task 2 — Audit (R1-c) and (R1-e) the same way. They are short; check every inequality, including A < 1, the H + 1 lifts, positivity of residuals, and that equal numerical shifts cause no CRT conflict.
+
+Task 3 — Equivalence. Prove or disprove: if Haar{f_∞ = 0} = η > 0, then a positive proportion (ideally (η − o(1))X) of n in [X, 2X] have R(n) = 0. Note that f_∞(x) = 0 does not obviously force Z_X(n) = 0 for n ≡ x; work out what L2 approximation gives in the lower-bound direction, and whether an indicator-level statement is available. If the equivalence holds, the almost-all problem becomes a purely local problem on Ẑ; state that cleanly. If not, say exactly where it fails.
+
+Task 4 — Framework sanity test. Take Romanoff-type problems where almost-all is known to FAIL (n = p + 2^k, Erdős's covering congruences) and, if you can find one, a problem where it holds. Compute or describe the analogue of f_∞ in each and check that its zero set has positive measure exactly in the failing case. Report whether the framework passes.

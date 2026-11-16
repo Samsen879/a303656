@@ -1,0 +1,67 @@
+== 1. Phase-1 validation suite
+[PASS] V9 ... and dropping the prime 241 leaves uncovered classes {'N1': 24, 'N2': 1, 'cells': 24, 'uncovered': 1}
+
+ALL 24 VALIDATION CHECKS PASSED
+== 3. independent catalogue checks (primality, orders, completeness by brute-force scan and modular route)
+[PASS] 1-2: 5709 primes certified, orders exact, G = prod p^e  [0s]
+[PASS] 3: brute-force scan of all inert primes p < 110000000: exactly 4160 have H < 32768, all listed [63s]
+[PASS] 4: modular completeness check for cutoff 2048: no unlisted prime divides both products [94s]
+== 4. independent recomputation of fibre statistics
+[PASS] 90 primes with h3*h5 <= 60000: all four classes recomputed with pow() and Counter
+[PASS] random sample of 40 larger primes recomputed with a plain outer sum
+[PASS] maxN <= min(h3,h5) everywhere; 12 huge primes carry only this trivial bound: [6442591, 6994027, 7477303, 8153731, 9459451, 9792151, 10619071, 29152579, 38900867, 81524647, 103859419, 2094938071]
+== 5. Theorem A (no covering with all H_p < 16384): exact check of the four measure certificates
+ "status": "PASS",
+ "class": "00",
+ "bound_float": 0.6830095354488684,
+ "status": "PASS",
+ "class": "01",
+ "bound_float": 0.7733404742786756,
+ "status": "PASS",
+ "class": "10",
+ "bound_float": 0.7454219141801036,
+ "status": "PASS",
+ "class": "11",
+ "bound_float": 0.7873886483438896,
+== 6. Theorem R (K-target theorem): exact budgets
+class 00: 69 budgets, worst 0.697786 at [13, 13]  tau=3.052e-05  PASS [0s]
+class 01: 69 budgets, worst 0.958372 at [17, 17]  tau=3.052e-05  PASS [0s]
+class 10: 69 budgets, worst 0.995116 at [13, 13]  tau=3.052e-05  PASS [0s]
+class 11: 69 budgets, worst 0.822033 at [13, 13]  tau=3.052e-05  PASS [0s]
+K = 29 PASS
+class 00: 2301 budgets, worst 0.808940 at [83, 83]  tau=4.151e-04  PASS [6s]
+class 01: 2301 budgets, worst 0.986416 at [83, 83]  tau=4.252e-04  PASS [6s]
+class 10: 2301 budgets, worst 0.922261 at [61, 61]  tau=4.951e-04  PASS [6s]
+class 11: 2301 budgets, worst 0.998929 at [83, 83]  tau=5.403e-04  PASS [6s]
+K = 146 PASS
+== 7. Proposition H (horizon of all measure arguments)
+[PASS] sum of 1/p over the 19789 inert primes 7 <= p <= 473899 is >= 1, and < 1 without p = 473899
+== 8. Phase 2B: M = t frontier (Lemma L4 brute force, census, explicit local tiling)
+L4 check M=3: 1124 primes p=1 mod M; max curve size: same coset 2 (bound 2), different cosets 1 (bound 1)
+L4 check M=5: 563 primes p=1 mod M; max curve size: same coset 3 (bound 3), different cosets 2 (bound 2)
+L4 check M=7: 377 primes p=1 mod M; max curve size: same coset 3 (bound 5), different cosets 3 (bound 3)
+L4 check M=11: 224 primes p=1 mod M; max curve size: same coset 6 (bound 9), different cosets 5 (bound 5)
+L4 check M=13: 187 primes p=1 mod M; max curve size: same coset 6 (bound 11), different cosets 4 (bound 6)
+L4 check M=17: 144 primes p=1 mod M; max curve size: same coset 6 (bound 15), different cosets 4 (bound 8)
+L4 check M=19: 120 primes p=1 mod M; max curve size: same coset 6 (bound 17), different cosets 4 (bound 9)
+L4 check M=23: 98 primes p=1 mod M; max curve size: same coset 12 (bound 21), different cosets 11 (bound 11)
+M=23: 201 active inert primes with H<B; type V: 13, type H: 12, both: 176; sum of the M largest 1/H_p = 0.0952; largest type-B curve (z!=0) on a fresh fibre: 12 of 23 points
+M=29: 155 active inert primes with H<B; type V: 3, type H: 12, both: 140; sum of the M largest 1/H_p = 0.0531; largest type-B curve (z!=0) on a fresh fibre: 15 of 29 points
+M=31: 138 active inert primes with H<B; type V: 10, type H: 6, both: 122; sum of the M largest 1/H_p = 0.0264; largest type-B curve (z!=0) on a fresh fibre: 6 of 31 points
+M=37: 118 active inert primes with H<B; type V: 9, type H: 5, both: 104; sum of the M largest 1/H_p = 0.0337; largest type-B curve (z!=0) on a fresh fibre: 9 of 37 points
+M=41: 118 active inert primes with H<B; type V: 9, type H: 8, both: 101; sum of the M largest 1/H_p = 0.0459; largest type-B curve (z!=0) on a fresh fibre: 21 of 41 points
+M=43: 96 active inert primes with H<B; type V: 6, type H: 3, both: 87; sum of the M largest 1/H_p = 0.0211; largest type-B curve (z!=0) on a fresh fibre: 8 of 43 points
+M=47: 92 active inert primes with H<B; type V: 6, type H: 5, both: 81; sum of the M largest 1/H_p = 0.0210; largest type-B curve (z!=0) on a fresh fibre: 15 of 47 points
+local tiling at M=23: 23 type-V primes 5107..345139; exact partition of one fresh fibre: True; cofactors m_p = h3/23 range 3..7401  =>  the tiling survives on a set of lower points of Haar measure <= 1/7401
+== 9. one-parameter controls (CP-SAT, time-limited instances may report UNKNOWN)
+(a0) base 2, all odd primes with ord_p(2) | 24: [(3, 2), (5, 4), (7, 3), (13, 12), (17, 8), (241, 24)] -> COVERING
+     covering found: [(3, 2, 0), (5, 4, 1), (7, 3, 1), (13, 12, 3), (17, 8, 3), (241, 24, 23)]
+(a) base 2, inert primes p<3e6 with ord_p(2) | 630: 19 primes, sum 1/m = 1.637 -> UNKNOWN(time limit) [60s]
+(a) base 2, inert primes p<3e6 with ord_p(2) | 6930: 31 primes, sum 1/m = 1.870 -> UNKNOWN(time limit) [60s]
+(b) h3-line, N=315: 14 inert primes with h3 | N, sum 1/m = 1.060 -> INFEASIBLE [1s]
+(b) h3-line, N=3465: 28 inert primes with h3 | N, sum 1/m = 1.406 -> UNKNOWN(time limit) [120s]
+(b) h5-line, N=315: 19 inert primes with h5 | N, sum 1/m = 1.749 -> COVERING [0s]
+    covering: [(7, 3, 0), (11, 5, 3), (19, 9, 7), (31, 3, 2), (43, 21, 7), (71, 5, 1), (127, 21, 4), (211, 35, 22), (379, 21, 19), (631, 35, 15), (883, 63, 31), (1171, 45, 34), (5167, 9, 1), (7603, 21, 16), (19531, 7, 6), (23311, 315, 274), (34651, 315, 314), (169831, 45, 20)]
+(b) h5-line, N=3465: 28 inert primes with h5 | N, sum 1/m = 1.986 -> COVERING [1s]
+    covering: [(7, 3, 0), (11, 5, 4), (19, 9, 1), (31, 3, 2), (43, 21, 19), (67, 11, 9), (71, 5, 2), (127, 21, 7), (199, 33, 1), (211, 35, 16), (331, 165, 2), (379, 21, 1), (463, 231, 25), (631, 35, 23), (883, 63, 4), (1171, 45, 5), (2311, 165, 147), (5167, 9, 7), (7603, 21, 10), (19531, 7, 6), (23311, 315, 205), (34651, 315, 295), (42967, 231, 193), (92863, 693, 0), (169831, 45, 40)]
+ALL CERTIFICATES REPLAYED
