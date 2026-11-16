@@ -13,7 +13,7 @@ statements only (packet hashes, the explicit `β`-line covering, the
 Proposition H horizon, Lemma L4 for `M ≤ 13`, `p < 3000`, and the class `(0,0)`
 `z = 0` fibre). They do not verify Theorem A, Theorem R or any analytic argument.
 
-## Producer replay (about 25 minutes on 2 cores)
+## Producer replay (about 25 minutes on 2 cores; replayed at integration, see `results/`)
 
 Requirements: Python 3.9+, `numpy`, `gmpy2`, and `ortools` for the
 one-parameter controls. Copy the packet out of the repository first, so that

@@ -63,8 +63,9 @@ Producer-flagged risks, retained verbatim in substance:
    brute force for `M ≤ 13`, `p < 3000` (observed maxima match the producer's
    table); and the empty `z = 0` fibre in class `(0,0)`. All pass.
 2. **Full replay** of the producer's `run_all.sh` (quick mode, with the frozen
-   C21 comparison) in a fresh environment; the outcome is recorded in
-   [source custody](SOURCE_CUSTODY.md).
+   C21 comparison) in a fresh environment: `ALL CERTIFICATES REPLAYED`, with
+   every value matching the producer report. Details are in
+   [source custody](SOURCE_CUSTODY.md), and the log is in `results/`.
 3. **Two observations not stated in the producer report:**
    - (N) ⇒ LP does not use the C21 lemmas (H1)/(H2): the bad set of every inert
      prime, regular or not, lies in a fibre, so any real zero yields a fibre

@@ -33,13 +33,24 @@ and the 2026-11-14 triage packet as attachment.
    class `(0,0)` has no `z = 0` fibre point).
 2. Producer replay: `run_all.sh` in quick mode, in a temporary copy, with
    `AUDIT` pointing to the 2026-11-14 triage packet, on a fresh Linux
-   environment (Python 3, gmpy2 2.3.2, numpy 2.5.3, ortools). Status at the
-   first commit of this integration: still running. Already PASS: the 24-item
-   Phase-1 validation suite (including the frozen C21 comparison), the
-   independent catalogue checks (5709 primes certified; brute-force scan to
-   `1.1·10^8`; modular completeness route), the independent fibre-statistics
-   recomputation, and the Theorem A certificates for classes `00` (0.6830) and
-   `01` (0.7733). The final result is recorded in a follow-up commit.
+   environment (Python 3, gmpy2 2.3.2, numpy 2.5.3, ortools). Result:
+   **`ALL CERTIFICATES REPLAYED`, exit code 0.** Every value matches the
+   producer report:
+   - 24/24 Phase-1 validation checks, including the frozen C21 comparison;
+   - catalogue: 5709 primes certified, `G = ∏ p^e`; the brute-force scan of
+     inert `p < 1.1·10^8` finds exactly 4160 primes with `H < 32768`, all listed;
+     the modular completeness route passes;
+   - independent fibre-statistics recomputation passes;
+   - Theorem A bounds `0.6830 / 0.7733 / 0.7454 / 0.7874` (classes 00/01/10/11);
+   - Theorem R Haar-only `K = 29`: worst budget `0.995116` (class 10, `(13,13)`);
+     `K = 146`: worst budget `0.998929` (class 11, `(83,83)`);
+   - Proposition H horizon at 473899;
+   - Lemma L4 brute force for `M ≤ 23` and the `M = 23..47` census;
+   - one-parameter controls: the `β`-line coverings for `N = 315` and `N = 3465`
+     are found again, the `α`-line for `N = 315` is again infeasible, and the
+     time-limited instances again report UNKNOWN, as expected.
+   The full log is kept as
+   [`results/producer_replay_quick_2026-11-16.log`](results/producer_replay_quick_2026-11-16.log).
 
 Neither check verifies the analytic parts of the arguments: Lemmas L1–L4,
 Theorem F, the induction behind Theorem R, or C21's (H1)/(H2).
