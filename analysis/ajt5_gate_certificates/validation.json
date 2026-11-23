@@ -1,0 +1,75 @@
+{
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "src/verify_ajt5_reports.py",
+        "analysis/ajt5_exact_audit/results"
+      ],
+      "output": "{\n  \"combined_failure_rows\": 0,\n  \"gate1_rows\": 220,\n  \"gate2_rows\": 2,\n  \"minimum_rows\": 10,\n  \"scope\": \"complete exact certificates for listed masks; exhaustive scan counts and list completeness require native replay\",\n  \"verified_masks\": 418\n}\n",
+      "returncode": 0,
+      "wall_seconds": 0.180483
+    },
+    {
+      "command": [
+        "python3",
+        "src/verify_ajt5_gates.py",
+        "analysis/ajt5_gate_certificates/results"
+      ],
+      "output": "{\n  \"PB2_nonpositive_pairs\": 0,\n  \"critical_pairs\": 534,\n  \"ledger\": {\n    \"alternatives\": 469,\n    \"positive_odd_valuation_blockers\": 424,\n    \"square_witnesses\": 45,\n    \"zero_residual_witnesses\": 0\n  },\n  \"nearest_parity36_pairs\": 530,\n  \"scope\": \"selected exact certificates and independent postprocessing; full coverage requires native replay\",\n  \"selected_masks\": 1080\n}\n",
+      "returncode": 0,
+      "wall_seconds": 0.886561
+    },
+    {
+      "command": [
+        "python3",
+        "tests/ajt5_tests.py"
+      ],
+      "output": "test_boundaries_and_zero_residual (__main__.AJT5Tests.test_boundaries_and_zero_residual) ... ok\ntest_certificate_mutations (__main__.AJT5Tests.test_certificate_mutations) ... ok\ntest_every_abstract_gate_at_small_levels (__main__.AJT5Tests.test_every_abstract_gate_at_small_levels) ... ok\ntest_native_small_brute_and_corrupted_raw_files (__main__.AJT5Tests.test_native_small_brute_and_corrupted_raw_files) ... ok\ntest_report_mutations_without_hash_shortcut (__main__.AJT5Tests.test_report_mutations_without_hash_shortcut) ... ok\ntest_stored_evidence (__main__.AJT5Tests.test_stored_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 4.076s\n\nOK\n",
+      "returncode": 0,
+      "wall_seconds": 4.218436
+    },
+    {
+      "command": [
+        "python3",
+        "tests/ajt5_gate_tests.py"
+      ],
+      "output": "test_abstract_soundness_and_nondominance (__main__.GateTests.test_abstract_soundness_and_nondominance) ... ok\ntest_certificate_mutations_partial_and_scope_routes (__main__.GateTests.test_certificate_mutations_partial_and_scope_routes) ... ok\ntest_lambda_independent_exhaustive_and_single_vertex_deletions (__main__.GateTests.test_lambda_independent_exhaustive_and_single_vertex_deletions) ... ok\ntest_ledger_mutations_and_zero (__main__.GateTests.test_ledger_mutations_and_zero) ... ok\ntest_mod36_positive_residual_classes (__main__.GateTests.test_mod36_positive_residual_classes) ... ok\ntest_native_full_small_domain_and_bad_tables (__main__.GateTests.test_native_full_small_domain_and_bad_tables) ... ok\ntest_stored_evidence_and_semantic_mutations (__main__.GateTests.test_stored_evidence_and_semantic_mutations) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 6.161s\n\nOK\n",
+      "returncode": 0,
+      "wall_seconds": 6.28421
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/verify_public_repository.py"
+      ],
+      "output": "{\n  \"a303656\": \"UNRESOLVED\",\n  \"frozen_authority_sha256\": \"3033149749b1dbfb70ac73190d5323ee1817a219ce07c1e1913d1008c8629d35\",\n  \"generated_docs\": \"PASS\",\n  \"public_private_provenance_boundary\": \"PASS\",\n  \"public_release_receipt\": \"PASS\",\n  \"recursive_authority_validator\": \"PASS\",\n  \"repository_surface\": \"PASS\",\n  \"scope\": \"network-free metadata, custody, ledger, and stored-evidence validation; no multi-billion search rerun\",\n  \"verdict\": \"PASS\"\n}\n",
+      "returncode": 0,
+      "wall_seconds": 3.049222
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/privacy_scan.py",
+        "--reject-domain",
+        "gmail.com"
+      ],
+      "output": "{\n  \"archive_errors\": 0,\n  \"archive_members\": 40162,\n  \"bytes_scanned\": 424515907,\n  \"privacy_findings\": 0,\n  \"regular_files\": 11540,\n  \"streams\": 51702,\n  \"verdict\": \"PASS\"\n}\n",
+      "returncode": 0,
+      "wall_seconds": 25.951673
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "output": "",
+      "returncode": 0,
+      "wall_seconds": 0.038108
+    }
+  ],
+  "r1_checked_head": "9e371d1ef47138de880208eebf4a81e276aa80c1",
+  "scope": "Pre-publication checks of the source hashes bound by the R2 receipt. Final committed SHA and remote CI are recorded in the draft PR.",
+  "source_receipt_sha256": "91c17d6b556afc366ff50e21bb81223b05341ea531a2abf96a1c572274f215d4"
+}
