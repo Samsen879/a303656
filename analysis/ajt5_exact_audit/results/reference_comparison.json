@@ -1,0 +1,96 @@
+{
+  "differences": {
+    "gate2_hard": {
+      "observed": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "reference": [
+        32,
+        4,
+        1,
+        4,
+        6
+      ]
+    }
+  },
+  "observed_counts": {
+    "combined_failures": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gate1_hard": [
+      106,
+      12,
+      43,
+      38,
+      21
+    ],
+    "gate2_hard": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "plus_minima": [
+      4,
+      20,
+      16,
+      7963079,
+      5
+    ],
+    "same_minima": [
+      5,
+      3,
+      2016,
+      16,
+      112
+    ]
+  },
+  "reference_counts": {
+    "combined_failures": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gate1_hard": [
+      106,
+      12,
+      43,
+      38,
+      21
+    ],
+    "gate2_hard": [
+      32,
+      4,
+      1,
+      4,
+      6
+    ],
+    "plus_minima": [
+      4,
+      20,
+      16,
+      7963079,
+      5
+    ],
+    "same_minima": [
+      5,
+      3,
+      2016,
+      16,
+      112
+    ]
+  },
+  "scope": "reference observations, not mathematical axioms; enlargement stopped on discrepancy",
+  "status": "DISCREPANCY"
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "certificates.jsonl": "ee0b203dbf8a610bb91a207530d6a5943ca9853f56e758e072e8b74a1b72e7ac",
+    "execution_logs.json": "73ee5735ed1ae4b54bf15624cca54f36586bd9331539df51d5296db095444327",
+    "failures.csv": "c5595b109a1971bfdfd6f785d92209e88d34a89c059711d4eba0464a94473a8f",
+    "hard_cases.csv": "719f06fec1bf3c269c11053f9492d1ec21a708e3950593392ec0413bebbf36e8",
+    "hard_profile.json": "cad5c4b54a81a5ce6721e1dc1fa4cda41ecf1aaf2af364839947d8255b8c049a",
+    "minima.csv": "981184f92ae2e2544af5364a5a71cdef960c99bcb77875ec203bbb257188d5a3",
+    "probes.csv": "722c3299475aedead057f3baa0e741e3fb3c73051f6ed8d0f4839324d44e2ac0",
+    "reference_comparison.json": "807ef348a90ce55d9491210012430082c288e910b501c1718b1ba4bc4117096a",
+    "replay_receipt.json": "a96d9cc90e698e48ab5fb198c83f336b2d92b69f073aafb64ad31530b404920f",
+    "summary.json": "a90cfe2557b8c5cd4acaa90a225e12230e0ae40b0331933c3b8e9369a8243e07"
+  },
+  "schema": 1
+}

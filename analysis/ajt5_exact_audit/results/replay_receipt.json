@@ -1,0 +1,117 @@
+{
+  "a303656": "UNRESOLVED",
+  "base_commit": "f6fe000b84c349f6a0f2b64dcf47db39bd799c0c",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "full_entrywise_agreement": {
+    "entries_each": 50000005,
+    "tables": [
+      "S2",
+      "T",
+      "D"
+    ]
+  },
+  "logical_cpus": 5,
+  "machine": "x86_64",
+  "max_m": 10000000,
+  "max_n": 50000004,
+  "metrics": {
+    "build_scan": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "/workspace/a303656/src/ajt5_scan.cpp",
+        "-o",
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/scan"
+      ],
+      "max_rss_kib_linux": 117424,
+      "returncode": 0,
+      "system_seconds": 0.396371,
+      "user_seconds": 1.0281,
+      "wall_seconds": 1.425294
+    },
+    "build_valuation": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "/workspace/a303656/src/ajt5_valuation_replay.cpp",
+        "-o",
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/valuation"
+      ],
+      "max_rss_kib_linux": 119328,
+      "returncode": 0,
+      "system_seconds": 0.10563,
+      "user_seconds": 1.194001,
+      "wall_seconds": 1.301274
+    },
+    "certificate_creation_and_check": {
+      "wall_seconds": 0.744282
+    },
+    "scan": {
+      "command": [
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/scan",
+        "10000000",
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/primary"
+      ],
+      "max_rss_kib_linux": 111488,
+      "returncode": 0,
+      "system_seconds": 0.45643999999999996,
+      "user_seconds": 5.428056,
+      "wall_seconds": 5.980929
+    },
+    "valuation": {
+      "command": [
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/valuation",
+        "10000000",
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/primary",
+        "/workspace/a303656/reproduce_work/ajt5-r1-final-evidence/secondary"
+      ],
+      "max_rss_kib_linux": 117632,
+      "returncode": 0,
+      "system_seconds": 0.098475,
+      "user_seconds": 8.08348,
+      "wall_seconds": 8.195735
+    }
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "raw_files": {
+    "masks.u16le": {
+      "bytes": 100000010,
+      "sha256": "9dc4acebb597cf82d5491e9abb992c07f6ac6effe78b64af078ce2e8e20c2dda"
+    },
+    "s2.bits": {
+      "bytes": 6250001,
+      "sha256": "3b71a54894931cd7069c95dffc62097d5ae46b399c77b8b9c81f16c05695532c"
+    },
+    "t.bits": {
+      "bytes": 6250001,
+      "sha256": "b7e1894e70b9dc3f10a141ffafe43d7d22f0f6ea66a55f2dc573d45dc11b9e6a"
+    }
+  },
+  "reference_status": "DISCREPANCY",
+  "schema": 1,
+  "selected_certificate_verification": {
+    "combined_failure_rows": 0,
+    "gate1_rows": 220,
+    "gate2_rows": 2,
+    "minimum_rows": 10,
+    "scope": "complete exact certificates for listed masks; exhaustive scan counts and list completeness require native replay",
+    "verified_masks": 418
+  },
+  "single_thread_per_engine": true,
+  "sources_sha256": {
+    "scripts/run_ajt5_audit.py": "ca8ba792f0c1dcb8cb2c13be79e37e2fe73731f3a12544ae596ba76c872569c3",
+    "src/ajt5_scan.cpp": "d3619a6c76c16fa9633017d5c48e3d0aa5b033f889e299196cfd79cffbd0bb62",
+    "src/ajt5_valuation_replay.cpp": "b14f01c3da9fce24675a4ac8ea8b19488d9a82520340929c5d4e067ca3e26d42",
+    "src/verify_ajt5_reports.py": "7843964ce7bef3f57a220f889acdb5cc17b7c5528c3f54ca7c43e1b3fba331f7"
+  }
+}
