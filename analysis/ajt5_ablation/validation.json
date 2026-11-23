@@ -1,0 +1,152 @@
+{
+  "a303656": "UNRESOLVED",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "src/verify_ajt5_reports.py",
+        "analysis/ajt5_exact_audit/results"
+      ],
+      "returncode": 0,
+      "seconds": 0.359142,
+      "stderr": "",
+      "stdout": "{\n  \"combined_failure_rows\": 0,\n  \"gate1_rows\": 220,\n  \"gate2_rows\": 2,\n  \"minimum_rows\": 10,\n  \"scope\": \"complete exact certificates for listed masks; exhaustive scan counts and list completeness require native replay\",\n  \"verified_masks\": 418\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "src/verify_ajt5_gates.py",
+        "analysis/ajt5_gate_certificates/results"
+      ],
+      "returncode": 0,
+      "seconds": 1.343761,
+      "stderr": "",
+      "stdout": "{\n  \"PB2_nonpositive_pairs\": 0,\n  \"critical_pairs\": 534,\n  \"ledger\": {\n    \"alternatives\": 469,\n    \"positive_odd_valuation_blockers\": 424,\n    \"square_witnesses\": 45,\n    \"zero_residual_witnesses\": 0\n  },\n  \"nearest_parity36_pairs\": 530,\n  \"scope\": \"selected exact certificates and independent postprocessing; full coverage requires native replay\",\n  \"selected_masks\": 1080\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "src/verify_ajt5_ablation.py",
+        "analysis/ajt5_ablation/results"
+      ],
+      "returncode": 0,
+      "seconds": 4.37751,
+      "stderr": "",
+      "stdout": "{\n  \"a303656\": \"UNRESOLVED\",\n  \"comparison\": \"MATCH\",\n  \"keys\": 534,\n  \"states\": 3232,\n  \"states_sha256\": \"16aaeed05628e3d917cf1af7dd3ea3cd495fa4bab99253e327befe1c5f9c0374\"\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tests/ajt5_tests.py"
+      ],
+      "returncode": 0,
+      "seconds": 5.023433,
+      "stderr": "test_boundaries_and_zero_residual (__main__.AJT5Tests.test_boundaries_and_zero_residual) ... ok\ntest_certificate_mutations (__main__.AJT5Tests.test_certificate_mutations) ... ok\ntest_every_abstract_gate_at_small_levels (__main__.AJT5Tests.test_every_abstract_gate_at_small_levels) ... ok\ntest_native_small_brute_and_corrupted_raw_files (__main__.AJT5Tests.test_native_small_brute_and_corrupted_raw_files) ... ok\ntest_report_mutations_without_hash_shortcut (__main__.AJT5Tests.test_report_mutations_without_hash_shortcut) ... ok\ntest_stored_evidence (__main__.AJT5Tests.test_stored_evidence) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 4.819s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tests/ajt5_gate_tests.py"
+      ],
+      "returncode": 0,
+      "seconds": 9.027001,
+      "stderr": "test_abstract_soundness_and_nondominance (__main__.GateTests.test_abstract_soundness_and_nondominance) ... ok\ntest_certificate_mutations_partial_and_scope_routes (__main__.GateTests.test_certificate_mutations_partial_and_scope_routes) ... ok\ntest_lambda_independent_exhaustive_and_single_vertex_deletions (__main__.GateTests.test_lambda_independent_exhaustive_and_single_vertex_deletions) ... ok\ntest_ledger_mutations_and_zero (__main__.GateTests.test_ledger_mutations_and_zero) ... ok\ntest_mod36_positive_residual_classes (__main__.GateTests.test_mod36_positive_residual_classes) ... ok\ntest_native_full_small_domain_and_bad_tables (__main__.GateTests.test_native_full_small_domain_and_bad_tables) ... ok\ntest_stored_evidence_and_semantic_mutations (__main__.GateTests.test_stored_evidence_and_semantic_mutations) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 8.827s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tests/ajt5_ablation_tests.py"
+      ],
+      "returncode": 0,
+      "seconds": 25.260013,
+      "stderr": "test_artifact_tampering_even_with_rehashed_manifest (__main__.AblationTests.test_artifact_tampering_even_with_rehashed_manifest) ... ok\ntest_caps_and_invalid_abstract_masks (__main__.AblationTests.test_caps_and_invalid_abstract_masks) ... ok\ntest_dp_every_tie_against_cartesian_oracle (__main__.AblationTests.test_dp_every_tie_against_cartesian_oracle) ... ok\ntest_fixed_corpus_complete_optimum_replay_and_controls (__main__.AblationTests.test_fixed_corpus_complete_optimum_replay_and_controls) ... ok\ntest_modular_certificate_positive_zero_and_malicious_mutations (__main__.AblationTests.test_modular_certificate_positive_zero_and_malicious_mutations) ... ok\ntest_modular_entire_orbit_and_same_exponent (__main__.AblationTests.test_modular_entire_orbit_and_same_exponent) ... ok\ntest_recovery_soundness_on_abstract_masks (__main__.AblationTests.test_recovery_soundness_on_abstract_masks) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 25.114s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/verify_public_repository.py"
+      ],
+      "returncode": 0,
+      "seconds": 4.857379,
+      "stderr": "",
+      "stdout": "{\n  \"a303656\": \"UNRESOLVED\",\n  \"frozen_authority_sha256\": \"3033149749b1dbfb70ac73190d5323ee1817a219ce07c1e1913d1008c8629d35\",\n  \"generated_docs\": \"PASS\",\n  \"public_private_provenance_boundary\": \"PASS\",\n  \"public_release_receipt\": \"PASS\",\n  \"recursive_authority_validator\": \"PASS\",\n  \"repository_surface\": \"PASS\",\n  \"scope\": \"network-free metadata, custody, ledger, and stored-evidence validation; no multi-billion search rerun\",\n  \"verdict\": \"PASS\"\n}\n"
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/privacy_scan.py",
+        "--reject-domain",
+        "gmail.com"
+      ],
+      "returncode": 0,
+      "seconds": 24.142254,
+      "stderr": "",
+      "stdout": "{\n  \"archive_errors\": 0,\n  \"archive_members\": 40162,\n  \"bytes_scanned\": 424618377,\n  \"privacy_findings\": 0,\n  \"regular_files\": 11553,\n  \"streams\": 51715,\n  \"verdict\": \"PASS\"\n}\n"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "10d9b86b5183aac65e4755d439ea018a17fa00f5",
+        "--",
+        "authority",
+        "analysis/ajt5_exact_audit",
+        "analysis/ajt5_gate_certificates",
+        "src/ajt5_gates.py",
+        "src/verify_ajt5_gates.py",
+        "src/ajt5_gate_scan.cpp",
+        "src/ajt5_scan.cpp",
+        "src/ajt5_valuation_replay.cpp",
+        "src/verify_ajt5_reports.py",
+        "tests/ajt5_tests.py",
+        "tests/ajt5_gate_tests.py",
+        "scripts/run_ajt5_audit.py",
+        "scripts/run_ajt5_gates.py"
+      ],
+      "returncode": 0,
+      "seconds": 0.011762,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "returncode": 0,
+      "seconds": 0.021188,
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-c",
+        "import re,subprocess; assert subprocess.check_output(['git','rev-list','--max-parents=0','HEAD'],text=True).splitlines()==['d8025c7020a1dca25d1fb32f42a1bbd4c072351d']; subprocess.run(['git','merge-base','--is-ancestor','29fee0317b268d2b2747f9564efc445fdd6da7f9','HEAD'],check=True); assert all(re.search(r'(^noreply@github\\.com$|@users\\.noreply\\.github\\.com$)',s) for s in subprocess.check_output(['git','log','29fee0317b268d2b2747f9564efc445fdd6da7f9..HEAD','--format=%ae%n%ce'],text=True).splitlines()); print('Sanitized genesis and post-baseline identities: PASS')"
+      ],
+      "returncode": 0,
+      "seconds": 0.110839,
+      "stderr": "",
+      "stdout": "Sanitized genesis and post-baseline identities: PASS\n"
+    }
+  ],
+  "result": "PASS",
+  "schema": 1,
+  "scope": "quick baseline R1/R2 and complete fixed-corpus R3; no full interval scan repeated",
+  "sources_sha256": {
+    ".github/workflows/verify.yml": "a931b42e4b01faf81239263ffa5b1aab71ffbaed311da28943448364a4ae9f29",
+    "analysis/ajt5_ablation/README.md": "3f0c58d4b4f572313a74c67f8181608b1df008f5256c59459ef4ccfd5c8db66a",
+    "analysis/ajt5_ablation/results/manifest.json": "c1313920663ef270d15655a9a93a83fdd663e47b44ca29d096b3674c5403a494",
+    "scripts/run_ajt5_ablation.py": "8d60a55b8a26315a49033853e0151567809cc180f0c07505be6da46ff43f93d3",
+    "src/ajt5_ablation.py": "bcd1f2cbb45f757036797967a755a991b695f52d8f5545d3f8373d73047737c6",
+    "src/ajt5_modular.py": "28862a253f5a3a59e1333b97ea640dacb693811c270422d0b6e6fc816dbb83ff",
+    "src/verify_ajt5_ablation.py": "170c49a9e844c30963f74e1c0458ba177c441c6b78fdde4700cb0cd85ec4f7af",
+    "tests/ajt5_ablation_tests.py": "39240517a03f1a69091abc722dc30f9d79566589f3d28aa87b33aae2a522caf7"
+  },
+  "tested_parent": "10d9b86b5183aac65e4755d439ea018a17fa00f5"
+}

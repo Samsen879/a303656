@@ -1,0 +1,29 @@
+{
+  "a303656": "UNRESOLVED",
+  "base": "10d9b86b5183aac65e4755d439ea018a17fa00f5",
+  "command": [
+    "python3",
+    "scripts/run_ajt5_ablation.py",
+    "--work-dir",
+    "reproduce_work/r3-release",
+    "--emit-states"
+  ],
+  "generation_seconds": 3.549986,
+  "input_sha256": {
+    "analysis/ajt5_gate_certificates/results/certificates.jsonl": "25cd4230cf7bc6586b0cf6afbe5a8651d19d89266b84d39116158b9475f13a53",
+    "analysis/ajt5_gate_certificates/results/critical.csv": "f1ea69807c1bf72ef3c78bf1489f259423eff3c8aa336cb2a9a3d4377cccf83a",
+    "analysis/ajt5_gate_certificates/results/manifest.json": "c8c8a6b9d911b36d473ee648200d4aed7ef2ef917abd3cc2f2f8f2bcc00892f9",
+    "analysis/ajt5_gate_certificates/results/receipt.json": "91c17d6b556afc366ff50e21bb81223b05341ea531a2abf96a1c572274f215d4"
+  },
+  "python": "3.12.14",
+  "schema": 1,
+  "scope": "fixed 534 R2 PB2 keys plus explicitly named small controls; no scan enlargement",
+  "single_thread": true,
+  "sources_sha256": {
+    "scripts/run_ajt5_ablation.py": "8d60a55b8a26315a49033853e0151567809cc180f0c07505be6da46ff43f93d3",
+    "src/ajt5_ablation.py": "bcd1f2cbb45f757036797967a755a991b695f52d8f5545d3f8373d73047737c6",
+    "src/ajt5_modular.py": "28862a253f5a3a59e1333b97ea640dacb693811c270422d0b6e6fc816dbb83ff",
+    "src/verify_ajt5_ablation.py": "170c49a9e844c30963f74e1c0458ba177c441c6b78fdde4700cb0cd85ec4f7af",
+    "tests/ajt5_ablation_tests.py": "39240517a03f1a69091abc722dc30f9d79566589f3d28aa87b33aae2a522caf7"
+  }
+}

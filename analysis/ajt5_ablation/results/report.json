@@ -1,0 +1,49 @@
+{
+  "a303656": "UNRESOLVED",
+  "all_nonpositive_gate_results": "UNKNOWN; omitted positive bits are not negative facts",
+  "base": "10d9b86b5183aac65e4755d439ea018a17fa00f5",
+  "complement_recovered": 2346,
+  "complement_residual": 24,
+  "corpus": "R2 PB2 margin-one rows; row-local artificial ablation",
+  "deletion_histogram": {
+    "1": 136,
+    "2": 228,
+    "3": 169,
+    "4": 1
+  },
+  "key_classes": {
+    "all_bridge": 166,
+    "all_no_bridge": 160,
+    "mixed": 208
+  },
+  "keys": 534,
+  "maximum_deletion_rows": [
+    {
+      "D": 877,
+      "E": 1073,
+      "F36": 130,
+      "L": 9,
+      "bridges": 90,
+      "deletions": 4,
+      "m": 5644037,
+      "r": 1,
+      "states": 106
+    }
+  ],
+  "no_retained_bridge_states": 862,
+  "optimal_states": 3232,
+  "oracle": "sweep DP versus full Cartesian set enumeration, minimal cost AND every tied mask pair",
+  "residual_keys": [
+    {
+      "m": 5644037,
+      "r": 1,
+      "states": 24
+    }
+  ],
+  "residual_states_sha256": "e0ccd8157ffca3aa36aae9a0b03bfb447c0ac7167db7589dbef4ab86ca437c3e",
+  "residual_weight_recovered": 24,
+  "retained_bridge_states": 2370,
+  "schema": 1,
+  "states_sha256": "16aaeed05628e3d917cf1af7dd3ea3cd495fa4bab99253e327befe1c5f9c0374",
+  "sum_minimal_deletions": 1103
+}
