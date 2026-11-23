@@ -23,6 +23,12 @@ jobs:
         run: python3 tests/ajt5_gate_tests.py
       - name: Check row-local AJT5 ablation and strict child negatives
         run: python3 tests/ajt5_ablation_tests.py
+      - name: Check R4 integer certificates, palette proofs and endpoint
+        run: |
+          (cd analysis/ajt5_integer_certificates && sha256sum -c SHA256SUMS)
+          python3 -O tests/ajt5_integer_tests.py
+          python3 src/verify_ajt5_palette.py
+          python3 scripts/check_ajt5_integer_boundary.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
       - name: Verify sanitized genesis and commit identities
