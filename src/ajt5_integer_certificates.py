@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify submitted evidence for a single integer. No factorization or search required."""
 import argparse
+import errno
 import json
 import sys
 from math import gcd
@@ -227,12 +228,26 @@ def inspect(raw):
         return {"status": "INVALID", "reason": str(exc)}
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
+class CertificateParser(argparse.ArgumentParser):
+    def error(self, message):
+        raise ValueError(message)
+
+
+def main(argv=None):
+    parser = CertificateParser(description=__doc__)
     parser.add_argument("certificate", type=Path)
-    args = parser.parse_args()
-    with args.certificate.open("rb") as handle:
-        outcome = inspect(handle.read(MAX_BYTES + 1))
+    try:
+        args = parser.parse_args(argv)
+        with args.certificate.open("rb") as handle:
+            outcome = inspect(handle.read(MAX_BYTES + 1))
+    except OSError as exc:
+        status = ("UNKNOWN_RESOURCE" if exc.errno in (errno.ENOMEM, errno.EMFILE, errno.ENFILE)
+                  else "INVALID")
+        outcome = {"status": status, "reason": "cannot read certificate: " + (exc.strerror or "I/O error")}
+    except MemoryError:
+        outcome = {"status": "UNKNOWN_RESOURCE", "reason": "insufficient memory to read certificate"}
+    except ValueError as exc:
+        outcome = {"status": "INVALID", "reason": str(exc)}
     print(json.dumps(outcome, sort_keys=True))
     return {"VERIFIED_NO_BRIDGE": 0, "VERIFIED_EMPTY_D": 0, "REFUTED": 1,
             "INVALID": 2, "PARTIAL": 3, "UNKNOWN_RESOURCE": 4}[outcome["status"]]

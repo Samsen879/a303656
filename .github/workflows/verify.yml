@@ -29,6 +29,17 @@ jobs:
           python3 -O tests/ajt5_integer_tests.py
           python3 src/verify_ajt5_palette.py
           python3 scripts/check_ajt5_integer_boundary.py
+      - name: Verify R5 integer proofs, finite endpoints and arithmetic controls
+        working-directory: analysis/ajt5_frontier
+        run: |
+          sha256sum -c SHA256SUMS
+          python3 -O global_verify.py
+          python3 -O empty_verify.py
+          python3 -O finite.py
+          python3 -O low_verify.py
+          python3 -O controls.py
+          python3 -O test_proofs.py
+          python3 -O test_checker_cli.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
       - name: Verify sanitized genesis and commit identities
