@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "PB2_margin1": 534,
+    "PB2_min": 1,
+    "delta36_frozen220": {
+      "1": 9,
+      "2": 37,
+      "3": 122,
+      "4": 50,
+      "5": 2
+    },
+    "lambda_below3": [
+      21,
+      5,
+      7,
+      12,
+      2
+    ],
+    "ledger": {
+      "alternatives": 469,
+      "positive_odd_valuation_blockers": 424,
+      "square_witnesses": 45,
+      "zero_residual_witnesses": 0
+    }
+  },
+  "observed": {
+    "PB2_margin1": 534,
+    "PB2_min": 1,
+    "delta36_frozen220": {
+      "1": 9,
+      "2": 37,
+      "3": 122,
+      "4": 50,
+      "5": 2
+    },
+    "lambda_below3": [
+      21,
+      5,
+      7,
+      12,
+      2
+    ],
+    "ledger": {
+      "alternatives": 469,
+      "positive_odd_valuation_blockers": 424,
+      "square_witnesses": 45,
+      "zero_residual_witnesses": 0
+    }
+  },
+  "status": "MATCH"
+}

@@ -1,0 +1,140 @@
+{
+  "a303656": "UNRESOLVED",
+  "checkout_at_generation": "9e371d1ef47138de880208eebf4a81e276aa80c1",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "cpu_model": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "historical_reason": "NOT_ESTABLISHED",
+  "input_masks": {
+    "bytes": 100000010,
+    "sha256": "9dc4acebb597cf82d5491e9abb992c07f6ac6effe78b64af078ce2e8e20c2dda"
+  },
+  "input_scope": "shared R1 table, freshly rebuilt by two independent native membership engines",
+  "ledger": {
+    "alternatives": 469,
+    "positive_odd_valuation_blockers": 424,
+    "square_witnesses": 45,
+    "zero_residual_witnesses": 0
+  },
+  "metrics": {
+    "build": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "/workspace/a303656/src/ajt5_gate_scan.cpp",
+        "-o",
+        "/workspace/a303656/reproduce_work/r2-final/scan"
+      ],
+      "max_rss_kib_linux": 112968,
+      "returncode": 0,
+      "system_seconds": 0.353738,
+      "user_seconds": 1.427416,
+      "wall_seconds": 1.782823
+    },
+    "scan": {
+      "command": [
+        "/workspace/a303656/reproduce_work/r2-final/scan",
+        "10000000",
+        "/workspace/a303656/reproduce_work/r2-verified-input/primary/masks.u16le",
+        "/workspace/a303656/reproduce_work/r2-final/evidence"
+      ],
+      "max_rss_kib_linux": 112968,
+      "returncode": 0,
+      "system_seconds": 0.136656,
+      "user_seconds": 6.254058,
+      "wall_seconds": 6.407957
+    }
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "postprocessing_scope": "all nonvacuous pairs; fast bit arithmetic and independent literal exponent walk compared at every pair",
+  "python": "3.12.14",
+  "r1_head": "9e371d1ef47138de880208eebf4a81e276aa80c1",
+  "r1_manifest_sha256": "63520f940d8285239a6c96d30b5b4e48ec27ee9b07dc344632663c521f4576f3",
+  "r1_reference_exit": 2,
+  "r1_replay_logs": {
+    "build_scan": "",
+    "build_valuation": "",
+    "scan": "completed 49999995 cases; max_n=50000004\n",
+    "valuation": "independent valuation replay matched all 50000005 S2, T, and D entries; 49999995 cases recounted\n"
+  },
+  "r1_replay_metrics": {
+    "build_scan": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "/workspace/a303656/src/ajt5_scan.cpp",
+        "-o",
+        "/workspace/a303656/reproduce_work/r2-verified-input/scan"
+      ],
+      "max_rss_kib_linux": 117380,
+      "returncode": 0,
+      "system_seconds": 0.338474,
+      "user_seconds": 1.212417,
+      "wall_seconds": 1.553605
+    },
+    "build_valuation": {
+      "command": [
+        "g++",
+        "-std=c++17",
+        "-O3",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "/workspace/a303656/src/ajt5_valuation_replay.cpp",
+        "-o",
+        "/workspace/a303656/reproduce_work/r2-verified-input/valuation"
+      ],
+      "max_rss_kib_linux": 119320,
+      "returncode": 0,
+      "system_seconds": 0.322024,
+      "user_seconds": 1.417614,
+      "wall_seconds": 1.741884
+    },
+    "certificate_creation_and_check": {
+      "wall_seconds": 0.638177
+    },
+    "scan": {
+      "command": [
+        "/workspace/a303656/reproduce_work/r2-verified-input/scan",
+        "10000000",
+        "/workspace/a303656/reproduce_work/r2-verified-input/primary"
+      ],
+      "max_rss_kib_linux": 111616,
+      "returncode": 0,
+      "system_seconds": 0.14757099999999998,
+      "user_seconds": 4.720941,
+      "wall_seconds": 4.875735
+    },
+    "valuation": {
+      "command": [
+        "/workspace/a303656/reproduce_work/r2-verified-input/valuation",
+        "10000000",
+        "/workspace/a303656/reproduce_work/r2-verified-input/primary",
+        "/workspace/a303656/reproduce_work/r2-verified-input/secondary"
+      ],
+      "max_rss_kib_linux": 117632,
+      "returncode": 0,
+      "system_seconds": 0.106121,
+      "user_seconds": 8.977183,
+      "wall_seconds": 9.09161
+    }
+  },
+  "r1_setup_diagnostic": "First local replay completed computations but receipt generation failed: origin/main missing. Ref fetched, then both engines rerun in a fresh directory; no numerical discrepancy.",
+  "schema": 1,
+  "selected_scope": "independent exact arithmetic masks; selected rows only, not full-scan coverage",
+  "single_thread": true,
+  "sources_sha256": {
+    "scripts/run_ajt5_gates.py": "035056e4df957728750fe1150bedc67e6cc84ff3c640814963e136a414aeb9d3",
+    "src/ajt5_gate_scan.cpp": "8a01e9a384dd0773b0e0b00b112e6c4ae2ec50780d0efec675c2fe4902b68654",
+    "src/ajt5_gates.py": "3a2a1112ee6843b1c8bb87975c31ac53e4dabb4c111f097b3cfa3b0e0223cefb",
+    "src/verify_ajt5_gates.py": "5e182c7b51a4c554333a99e8a2bda480e62fa6bc29ccaf16370da40e6c9eaabb",
+    "tests/ajt5_gate_tests.py": "0af41f299c75dccdb1c74f7490731ec3bcf45c7edb7a3d8e7460d2cd9fb266cf"
+  }
+}
