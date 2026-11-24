@@ -1,0 +1,18 @@
+{
+  "commit": "8122d1d9b9d3f6cdcd2c4829bfa5a2965087d5d4",
+  "sha256": {
+    "LICENSE": "03a31682cb6f978e89cdfac36f137a2f30de717bf4b7d5e7789c66b9f5e92fc0",
+    "analysis/ajt5_exact_audit/results/summary.json": "a90cfe2557b8c5cd4acaa90a225e12230e0ae40b0331933c3b8e9369a8243e07",
+    "analysis/ajt5_frontier/global_all15.jsonl.gz": "eddd459ce610e60118b6bc6084ee13f8191ed3a6eaa7c65ea45b2318cf372685",
+    "analysis/ajt5_frontier/global_no3_24.jsonl.gz": "25453d070dae39d8e64f74b4e3b946ad25b54294b2c55ce8c6402509e386bdaa",
+    "analysis/ajt5_frontier/global_p80_control.json": "54f006ebec265cf95df46378c23a5d02fd4d9c64605a804be643f076ebf607f2",
+    "analysis/ajt5_frontier/global_verify.py": "1c3ddc34d9e64deba5803a5993b0f7de3742e073fe18e48c26d831c9f55b3531",
+    "analysis/ajt5_frontier/low_control.json": "e91040cbefeeac7b514800ed0cb023b1fdc73ad052cddce7f9430b0f4be94428",
+    "analysis/ajt5_frontier/low_verify.py": "3e86c6541bd835b2583fdad62503fec66768f616d265d0a448a415cfdc4381e7",
+    "scripts/generate_ajt5_palette_proofs.py": "415cd765c11dffae40157e077cf97049b25a34b6ecd6aac30346f04eb5d49b20",
+    "src/ajt5_integer_certificates.py": "889ab7bfd77dc368a7fbf236324e81ce7bfa38f10ea4197eda2c84a10e1e7c45",
+    "src/ajt5_scan.cpp": "d3619a6c76c16fa9633017d5c48e3d0aa5b033f889e299196cfd79cffbd0bb62",
+    "src/ajt5_valuation_replay.cpp": "b14f01c3da9fce24675a4ac8ea8b19488d9a82520340929c5d4e067ca3e26d42",
+    "src/verify_ajt5_palette.py": "67a9c0a8e3ff6d586b36a1b2d04632f6a5268d7175d18894bc9937d46b94a26a"
+  }
+}

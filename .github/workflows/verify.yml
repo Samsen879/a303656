@@ -40,6 +40,11 @@ jobs:
           python3 -O controls.py
           python3 -O test_proofs.py
           python3 -O test_checker_cli.py
+      - name: Replay the uniform 16-prime exclusion and its integer countercontrol
+        working-directory: analysis/ajt5_budget16
+        run: |
+          sha256sum -c SHA256SUMS
+          python3 -O accept.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
       - name: Verify sanitized genesis and commit identities
