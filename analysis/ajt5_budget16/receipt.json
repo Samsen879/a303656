@@ -1,0 +1,126 @@
+{
+  "adaptive_16": {
+    "result": {
+      "closed_directions": 570,
+      "directions": 1280,
+      "first_strict_parent": 8609970,
+      "inherited_coarse": 1018,
+      "leaves": 7246,
+      "max_normalized_root": 43049845,
+      "min_margin": "2051/500000",
+      "mod27_level_0": 6146,
+      "mod27_level_1": 33,
+      "mod27_level_2": 47,
+      "mod27_level_3": 2,
+      "proof_sha256": "c115aa8aad404ffbb25419ccabef817ad0e0f547393c4df40253d6b2407a9957",
+      "split_mod3_classes": 692
+    },
+    "seconds": 22.755
+  },
+  "adversarial": {
+    "exit": 0,
+    "seconds": 0.468
+  },
+  "control": {
+    "result": {
+      "W1_covered": 107,
+      "bits": 263,
+      "counts": {
+        "child": {
+          "active_atoms": 19038,
+          "columns": 114,
+          "completely_negative_columns": 23,
+          "covered_atoms": 11197
+        },
+        "parent": {
+          "active_atoms": 18758,
+          "columns": 113,
+          "completely_negative_columns": 21,
+          "covered_atoms": 11558
+        }
+      },
+      "first_actual_edge": [
+        0,
+        0
+      ],
+      "first_child_c": 12,
+      "first_parent_c": 1,
+      "first_uncovered_c_by_template_column": {
+        "child": [
+          [
+            0,
+            12
+          ],
+          [
+            1,
+            null
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            null
+          ]
+        ],
+        "parent": [
+          [
+            1,
+            null
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            null
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            5,
+            null
+          ],
+          [
+            7,
+            null
+          ]
+        ]
+      },
+      "palette_size": 16,
+      "surviving_edges": 157,
+      "with_both_witnesses": "REFUTED/1",
+      "with_parent_only": "PARTIAL/3"
+    },
+    "seconds": 0.389
+  },
+  "finite": {
+    "exit": 0,
+    "result": {
+      "D_sha256": "9dc4acebb597cf82d5491e9abb992c07f6ac6effe78b64af078ce2e8e20c2dda",
+      "actual_bridge_misses": 0,
+      "independent_table_entries": 50000005,
+      "pairs": 49999995,
+      "upper_m": 10000000
+    },
+    "seconds": 17.562
+  },
+  "pinned_head": "8122d1d9b9d3f6cdcd2c4829bfa5a2965087d5d4",
+  "verdict": "EXCLUDED_AT_MOST_16_DISTINCT_INERT_PRIMES",
+  "without_3": {
+    "exit": 0,
+    "result": {
+      "branches": 459,
+      "directions": 1280,
+      "leaves": 4407,
+      "min_margin": "1/420",
+      "records": 570,
+      "variant": "no3_24"
+    },
+    "seconds": 14.994
+  }
+}
