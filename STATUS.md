@@ -93,3 +93,14 @@ preserves rigorous small-prime local structure and scope-qualified completion
 obstructions. Large-prime completion and ML-K2 remain unproved. The program is
 **PAUSED**, not proved impossible; local survivors do not imply representations.
 No route is currently being pursued, and no further computation is planned.
+
+## Bounded AJT5 experiment, round 1
+
+The separately authorized [AJT5 exact audit](analysis/ajt5_exact_audit/README.md)
+replays `m=2..10,000,000`, `r=0..4` with two native engines. All 49,999,995
+nonvacuous cases have a combined bridge. The first counting gate leaves 220
+cases; the literal second gate leaves **2**, disagreeing with the supplied
+reference count of 47. Enlargement stopped and the discrepancy is preserved
+with exact selected-mask certificates. This is finite evidence, not a uniform
+AJT5 theorem, a proof of A303656, or a new interval record. The global status
+and frozen authority remain unchanged.

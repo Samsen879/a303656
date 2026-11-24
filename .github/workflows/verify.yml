@@ -17,6 +17,8 @@ jobs:
           fetch-depth: 0
       - name: Verify frozen authority and public repository surface
         run: python3 scripts/verify_public_repository.py
+      - name: Check bounded AJT5 evidence and mutation tests
+        run: python3 tests/ajt5_tests.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
       - name: Verify sanitized genesis and commit identities
