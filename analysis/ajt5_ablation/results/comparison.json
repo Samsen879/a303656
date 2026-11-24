@@ -1,0 +1,83 @@
+{
+  "expected": {
+    "complement_recovered": 2346,
+    "complement_residual": 24,
+    "deletion_histogram": {
+      "1": 136,
+      "2": 228,
+      "3": 169,
+      "4": 1
+    },
+    "key_classes": {
+      "all_bridge": 166,
+      "all_no_bridge": 160,
+      "mixed": 208
+    },
+    "maximum_deletion_rows": [
+      {
+        "D": 877,
+        "E": 1073,
+        "F36": 130,
+        "L": 9,
+        "bridges": 90,
+        "deletions": 4,
+        "m": 5644037,
+        "r": 1,
+        "states": 106
+      }
+    ],
+    "no_retained_bridge_states": 862,
+    "optimal_states": 3232,
+    "residual_keys": [
+      {
+        "m": 5644037,
+        "r": 1,
+        "states": 24
+      }
+    ],
+    "residual_weight_recovered": 24,
+    "retained_bridge_states": 2370,
+    "sum_minimal_deletions": 1103
+  },
+  "observed": {
+    "complement_recovered": 2346,
+    "complement_residual": 24,
+    "deletion_histogram": {
+      "1": 136,
+      "2": 228,
+      "3": 169,
+      "4": 1
+    },
+    "key_classes": {
+      "all_bridge": 166,
+      "all_no_bridge": 160,
+      "mixed": 208
+    },
+    "maximum_deletion_rows": [
+      {
+        "D": 877,
+        "E": 1073,
+        "F36": 130,
+        "L": 9,
+        "bridges": 90,
+        "deletions": 4,
+        "m": 5644037,
+        "r": 1,
+        "states": 106
+      }
+    ],
+    "no_retained_bridge_states": 862,
+    "optimal_states": 3232,
+    "residual_keys": [
+      {
+        "m": 5644037,
+        "r": 1,
+        "states": 24
+      }
+    ],
+    "residual_weight_recovered": 24,
+    "retained_bridge_states": 2370,
+    "sum_minimal_deletions": 1103
+  },
+  "status": "MATCH"
+}

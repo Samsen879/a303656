@@ -21,6 +21,8 @@ jobs:
         run: python3 tests/ajt5_tests.py
       - name: Check AJT5 sufficient gate certificates and adversarial controls
         run: python3 tests/ajt5_gate_tests.py
+      - name: Check row-local AJT5 ablation and strict child negatives
+        run: python3 tests/ajt5_ablation_tests.py
       - name: Reject personal Gmail addresses in files and nested archives
         run: python3 scripts/privacy_scan.py --reject-domain gmail.com
       - name: Verify sanitized genesis and commit identities
