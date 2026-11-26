@@ -96,3 +96,25 @@ Conversely these equations suffice for the two actual residual identities. If th
 Two genuinely joint, coprime observed examples are \(n=1231,Y=5\) with \((a,b,u,v,k)=(2,1,2,1,25)\) and \((w_1,w_2)=(133,229)\), and \(n=536131,Y=19\) with \((6,1,6,5,-3)\) and \((713,937)\). Both parts in each example meet or exceed the individual size cutoff, but their products are respectively \(30457<33649\) and \(668081<(23\cdot31)(43\cdot47)\). Both first labels fail by exact odd valuations (\(133=7\cdot19,\ 713=23\cdot31\)), so the second is certified, also checked by \(229=15^2+2^2,\ 937=24^2+19^2\). Both \(n\) are odd, hence there is no zero label. Changing \(v\) to 7 in the first candidate while fixing its coarse pair makes the two values of \(k\) equal to 25 and \(-8655\); the separately valid divisibilities cannot match a common integer.
 
 For the positive-\(k\) branch in a genuinely joint window \(L\le w_i<U\), we have \(A,B<U\) directly, and \(n=A(w_1+1)+B(w_2+1)-kAB<2U^2\). Thus this branch cannot supply a large \(n\) for a fixed \(U\), and must track the size of the rough-part window as it grows. The negative-\(k\) branch is not ruled out by that argument; these two examples give no growing family.
+
+## Coupled low coordinates raise the finite-panel allowance to ten
+
+The preceding descending graph works for up to **ten** simultaneous base-3/base-5 Wieferich primes, using a joint choice of the coordinates at \(3,5,7\) before treating all larger coordinates. The \(d\bmod18\) and parity constraints stay fixed. This upgrades the finite-panel sufficiency; it does not supply a bound on the actual count of simultaneous primes.
+
+For every row with \(g(q)\in\{3,5,7\}\), the free \(c\)-coordinates in this block range over the entire odd part of its order (the 2-part is at most two). With \(d\) fixed, a hit forbids at most the reciprocal of that odd part. The only possibilities below 21 are 3, 5, 7, 9 and 15: use the prime divisors of \(3^{2m}-1\), and test the exact odd part for these five \(m\). The resulting inert-prime exceptions, including the two full orders, are
+
+| odd part | \(q\) | \((\operatorname{ord}_q3,\operatorname{ord}_q5)\) |
+|---:|---:|---:|
+| 3 | 7 | (6,6) |
+| 5 | 11 | (5,5) |
+| 7 | 547 | (14,546) |
+| 9 | 19 | (18,9) |
+| 15 | 31, 271 | (30,3), (30,27) |
+
+The row 547 points outside the block, since \(13\mid546\). At 11 a sharper bound is \(3/25\), from the complete modulo-11 root table on the two free 5-coordinates. Every root path contributes at most one entry into the joint block; the only possible further internal edge is the single shared \(7\to3\), since 3 and 5 terminate. Thus there are at most eleven rows in the block, whose total forbidden fraction is bounded by
+\[
+ 1/3+3/25+1/9+2/15+6/21=1549/1575<1.
+\]
+This remains an upper bound if some exceptional rows are absent. If an unmarked 7 is to be lifted afterwards, no block row depends on its 7-coordinate, since there is no incoming edge at 7. At all remaining coordinates \(\ell\ge11\) the earlier path count gives loss at most \(10/\ell<1\). The ordinary lifting and positive height threshold then apply.
+
+The difference between fixed and jointly chosen low coordinates is real. For \(q=31,271\), take \(n\equiv6747\bmod201624\), \(c\) even, and \(d\equiv0\bmod54\). The row restrictions depend on \(c\bmod3\) and \(x=c\bmod5\), and are independent of the free \(d\bmod5\). At \(c\equiv1\bmod3\) they forbid \(x=4\) and \(x=0\) respectively, two distinct parallel lines. At \(c\equiv0\) or \(2\bmod3\) both restrictions are empty. Exact modular powering verifies all 30 choices. These are ordinary rows, not examples of simultaneous Wieferich primes.
