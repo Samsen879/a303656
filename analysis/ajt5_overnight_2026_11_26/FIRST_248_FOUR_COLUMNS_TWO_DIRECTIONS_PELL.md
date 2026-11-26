@@ -85,3 +85,25 @@ const v=mul([4n*S*S,1n],a[0]);
 ok(v[1]%3n!==0n&&(v[0]-2n*v[1])%3n===0n);
 
 ~~~
+
+### Fifth-column diagnostic on this exact orbit
+
+The fifth residual of interest has numerator
+\[
+  g(m(s)-5^{20}-1)=s^2-25829822486324997500.
+\]
+Writing the Pell multiplier as \(U+V\sqrt A\) and multiplying the seed \((T,Z)=(B,0)\) gives \(s=S+B(U-1)/(2A)\). In particular there is no term \(WV\) in \(s\); such a term would belong to a different seed. Take \(W\) to be the square root of the reduced denominator of \(a\) above (this denominator is an exact square), \(A=W^2a,\ B=W^2b\).
+
+Reduction gives the following complete local zero tests for the numerator. All entries in the first four numeric columns are residues modulo the stated prime; \(e=B/(2A)\), and \(C=25829822486324997500\).
+
+| \(p\) | \(A\) | \(S\) | \(e\) | \(C\) | \((U,V)\) with \(U^2-AV^2=1,\ (S+e(U-1))^2=C\) |
+|---:|---:|---:|---:|---:|---|
+| 19 | 16 | 1 | 1 | 4 | none |
+| 103 | 7 | 72 | 37 | 25 | \((66,\pm28),(88,\pm49)\) |
+| 419 | 210 | 252 | 9 | 225 | none |
+
+The rows are directly reproducible by testing every pair modulo the respective prime. At 103 the four zero pairs all have 51st power \((-1,0)\) under quadratic-algebra multiplication. But a multiplier with \(U\equiv1\bmod16A,\ V\equiv0\bmod16\), an admissible strengthening of the original preservation modulus, is itself a norm-one square. Indeed \((U+1)/2\) is odd and coprime to \(A\). Its prime valuations are all even by \((U-1)(U+1)=AV^2\) and \(\gcd(U-1,U+1)\mid2\). Write \((U+1)/2=h^2\); then \(h\mid V\), and \(h\) is odd while \(V\) is even. Thus
+\[
+  U+V\sqrt A=(h+(V/(2h))\sqrt A)^2,
+\]
+with integral coefficients and norm one in the parentheses. Every such square has 51st power 1 modulo 103 (the norm-one group has order 102 here; \(7\) is a square modulo 103). It cannot hit any of the four zero pairs. This supplies three local primes that cannot obstruct the fifth residual on this strengthened orbit. It does not imply that the residual is a norm or that a second five-column point exists.
