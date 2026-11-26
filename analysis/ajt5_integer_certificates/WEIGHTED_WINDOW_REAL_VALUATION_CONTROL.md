@@ -45,3 +45,21 @@ For this same \(n\) and blocker 59, fix the anchor \((i,j)=(377,116)\) in ordina
 For any width at least two on both axes, comparing successive cells on each axis modulo 59 forces both steps to be multiples of 29, since both multiplicative orders are 29. Thus both initial coordinates are also multiples of 29, since the specified anchor is in the window. The proof is a small complete enumeration with no bound on the original steps assumed: for \(n\) above, each coordinate alone must have \(9^{29t}<n\) or \(25^{29s}<n\), giving respectively \(0\le t<45,\ 0\le s<31\). For each positive step and each possible location of the anchor \((13,4)\) inside the window, subtract step times location to get the origin, and check positivity at the upper corner and the exact valuation of every cell. The width-10 witness is \(t=10+3u,\ s=2+2v\) for \(0\le u,v<10\). Exactly 192 width-11 windows are active; none has all valuations odd. Similarly with both scaled steps one, 45 width-nine windows are active (four blocked), and 50 width-ten windows are active (none blocked). For the lower-corner test, widths seven and eight have one active window each, and only width seven is blocked. Any larger active blocked window would contain a smaller one through the same anchor.
 
 More generally, if \(q\) is an odd prime not dividing 15 and both ordinary steps are multiples of the corresponding orders, the divided residual modulo \(q\), starting from an activated corner, is affine in the two step counts. If both coefficients are nonzero, an all-\(v_q=1\) rectangle of side lengths \(M,N\) must have \(M+N\le q\): when an axis covers all classes it hits the excluded line, and otherwise the two residue sets of sizes \(M,N\) cannot avoid translating into each other if their sizes sum to more than \(q\). This last bound concerns valuation exactly one, not all odd valuations; the exact width-10 enumeration above tests all odd valuations.
+
+## Growing active windows with one fixed surviving anchor
+
+For each sufficiently large prime \(q\equiv3\bmod4\), let \(D=(q-1)/2,\ X=2^{q^2-1}\), \(W\) be the largest odd integer at most \(\sqrt{q-1}\), and write \(h=9^{377}+25^{116}\). There exists an actual integer \(n=2+u^2+v^2\in[X,2X)\) with the following properties:
+
+1. At the fixed anchor the residual \(n-h\) is positive and is a unit at every prime \(p\equiv3\bmod4,\ p\le\sqrt{\log n}\). The \(\log\) is natural.
+2. Every cell \(0\le i,j<W\) at exponents \((377+Di,116+Dj)\) is strictly active, with residual of exact \(q\)-valuation 1. Here \(q>\sqrt{\log n}\) is outside the observed panel.
+3. The origin remains an explicit true norm. The guaranteed window width satisfies \(W/(\log n)^{1/4}\to(\log2)^{-1/4}\).
+
+Indeed, \(9^D,25^D\equiv1\bmod q\). The \(W^2<q\) offsets have at most \(W^2\) divided shifts \((9^{377+Di}+25^{116+Dj}-h)/q\bmod q\), so choose a missing \(k\bmod q\) and set \(n\equiv h+qk\bmod q^2\). For all sufficiently large \(q\), this is a unit target for the norm \(n-2\), since \(q\nmid h-2\). Every nonzero target modulo \(q\) has a two-square representation by the finite-field norm map, and a coordinate with nonzero derivative lifts it modulo \(q^2\). Separately, for every \(p\equiv3\bmod4,\ p\le\sqrt{\log(2X)}\), prescribe \(u,v\equiv0,0\bmod p\) if \(h\not\equiv2\bmod p\), and \(1,0\bmod p\) otherwise. This enforces \(n-h\not\equiv0\bmod p\). These are independent from \(q\) because \(\sqrt{\log(2X)}=q\sqrt{\log2}<q\).
+
+The common coordinate modulus has logarithm \(O(q\log q)\), even counting all integers in the panel as potential primes. Choose \(u\) between \(\sqrt X\) and \(\sqrt X\) plus one modulus, and \(v\) between zero and one modulus. This has \(X\le n<2X\) for sufficiently large \(q\). Since the maximum exponent is \(O(q^{3/2})\), all cells are active. The omitted \(k\) forces their exact valuation 1, whereas the panel at the anchor only sees units. This growing statement concerns one fixed observed survivor, not a positive density of survivors in the full box.
+
+A finite control for this exact version is \(q=167,\ D=83,\ W=11,\ k=11,\ v=0\), and
+\[
+u=2^{13944}+6532292378186422400920212684040670 .
+\]
+Direct modular exponentiation verifies the panel (through prime 139), the stated height range, and exact valuation 1 on all 121 cells. This control is independent of the earlier \(q=59\) construction.
