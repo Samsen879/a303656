@@ -67,3 +67,20 @@ Expansion gives \(2auv=1\), \(a(u^2+v^2\alpha^2)+b=0\); thus \(a(u+v\alpha)^2+b=
 To reach \(s\), the condition is that \(J R(s)\) be a square, with \(R(s)=\mu^4-N-2\mu\tau s\): this follows by dividing \(s-b\) by \(a\). Near the elliptic identity \(J,\tau\) have pole order two and \(\mu\) has pole order one (the usual pole orders of \(x,y\) are two and three). Consequently \(R(15)/\mu^4\) tends to 1 at each chosen place. The square units contain an open neighborhood of 1, including at 2. Since \(J\) is already a rational square, taking \(Q\) sufficiently close gives the simultaneous local preimages.
 
 For a finite check, take \(Q=6P\) by the ordinary chord-and-tangent law. Its \(\mu\) in lowest terms has denominator divisible by \(4\cdot3\cdot5\cdot359\) and numerator divisible by 43. At 43 the formulas are integral, and for every integer \(s\) we have \(R(s)\equiv-N\bmod43\), a nonsquare unit. Thus this specific globally reducible pullback has no integer anchor preimage, despite substantial denominators at the small primes governing the desired congruence. The obstruction can lie outside a fixed chosen panel.
+
+## An exact numerator test in the first-atom elliptic branch
+
+For the elliptic family used in the preceding local test, the first-atom numerator has an explicit cancellation rule. Put \(p_0=359,\ N=p_0^2+64\), and use the integral curve
+\[
+ Y^2=X(X^2-2p_0^2X+p_0^2N).
+\]
+For \(R=(A/B^2,C/B^3)\), \(B>0,\ \gcd(A,B)=1\), suppose \(A,B\) have opposite parity and \(C\ne0\). Set \(\Delta=A^2-p_0^2NB^4\). The rational parameter \(\mu=(X^2-p_0^2N)/(2p_0Y)\) has absolute reduced numerator
+\[
+ U=\frac{|\Delta|}{p_0^{\,2\mathbf1_{p_0\mid A}}\gcd(A,N)} .
+\]
+
+Indeed, before cancellation the denominator is \(2p_0BC\). The numerator is odd and coprime to \(B\). A common odd prime \(\ell\nmid p_0N\) of \(C,\Delta\) would, on reducing the curve equation and \(\Delta=0\bmod\ell\), force \(A=p_0^2B^2\bmod\ell\), then \(\ell\mid64p_0^2\), impossible. At \(\ell\mid N\) the numerator has valuation exactly one if \(\ell\mid A\) and zero otherwise, using the squarefreeness \(N=5\cdot17\cdot37\cdot41\); in the first case \(C\) also vanishes modulo \(\ell\). At \(p_0\mid A\), write \(A=p_0A_1\). The bracket \(A^2-2p_0^2AB^2+p_0^2NB^4\) has valuation two since \(A_1^2+64B^4\) is a nonzero unit modulo \(p_0\), by inertness. Consequently \(v_{p_0}(A)\) is a positive even integer and the numerator has valuation exactly two, all canceled. If \(p_0\nmid A\) its numerator valuation is zero.
+
+All canceled factors are \(1\bmod4\). When \(B\) is even, \(\Delta\equiv1\bmod4\); otherwise \(A\) is even and \(\Delta\equiv-1\bmod4\). Thus the wrong sign of \(\Delta\) forces \(U\equiv3\bmod4\) and excludes a primitive Gaussian norm. Passing this sign test does not suffice; a reduced odd numerator \(U\) is free of all \(3\bmod4\) primes exactly when it admits a two-square representation with coprime coordinates.
+
+For exact finite controls take \(P=(359^2,8\cdot359^2)\) and \(Q=(134865,2437560)\) on the integral curve. At \(2P\), the reduced numerator is the primitive norm \(23108^2+126825^2\) but \(v_3(\mu)=0\). At \(6P\), the three valuations at \(2,3,359\) are \((-3,-1,-1)\) and \(U\equiv1\bmod4\), yet \(v_{43}(U)=1\). At \(Q-3P\), \(B\) is even and \(\Delta<0\), so its numerator fails by sign alone. These controls are obtained by the rational chord-and-tangent law. They do not yield an anchor with \(W\equiv26\bmod30\).
