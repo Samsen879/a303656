@@ -26,3 +26,12 @@ m-5^d-3^{k+2} &=(4-3q)^2+(7+2q)^2,\\
 Expansion verifies the identities, strict positivity and zero 3-adic valuation. At \(u=1,d=0\) the shared parameter is \(m=438\), with residuals \(410,194,2161,1945\).
 
 The existence of an old bridge and agreement of the two phases at 3 do not guarantee a new bridge at the same height. At \(m=110,d=e=0,r=1\), the phase \(k=2\) gives \(100=10^2\) and \(541=10^2+21^2\); phase \(k+2=4\) gives \(28=4\cdot7\) and \(469=7\cdot67\), which are not norms. All four residuals are positive and none is divisible by 3. Nonempty phase marginals likewise cannot replace a common height: with \(d=0\) and the two parent exponents 2 and 4, the window \(\{170,171\}\) gives parent residuals \((160,88)\) and \((161,89)\) respectively. Exactly 160 and 89 are norms, so the phases have disjoint true parent heights in this window.
+
+## An exact first-height change when the offset classes are retained
+
+For \(m\equiv97\bmod343\), allow the entire menu \(c,f,d\ge0,\ \epsilon\in\{0,1\},\ 0\le r\le4\) and put \(C=3^c+5^d,\ D=3^f+5^{d+\epsilon}-r,\ A=m-C,\ B=5m-D\). Require \(A,B>0,\ v_7(A)=2,\ v_7(B)=0\). First activity means these conditions alone; a first true bridge additionally requires both \(A,B\) to be sums of two squares.
+
+* If the offset classes \(C\equiv48,\ D\equiv68\bmod343\) are retained, first activity and first true bridge both occur at \(m=783\). Below 783 the only candidate heights are \(97,440\). Up to 783 the eligible positive offsets \(48,391,734\) give just one actual \(3,5\) power sum, \(734=3^6+5\). At 783, taking \(D=3^6+25=754\) gives \(A=49=7^2,\ B=3161=5^2+56^2\) with the required exact valuations.
+* If the offset classes are released but the input class and exact valuations are retained, both first heights are \(440\). At 97, \(v_7(A)=2\) and \(0<A<97\) force \(A=49\), so \(C=48\), which is not an actual power sum. At 440 take \(C=3^5+1=244,\ D=1+5=6\). The residuals are \(196=14^2,\ 2194=13^2+45^2\), with the required valuations.
+
+The finite power-sum check here is exhaustive: for a positive parent residual the parent powers are each strictly below 783, so one need only test \(3^0,\ldots,3^6\) and \(5^0,\ldots,5^4\). This control distinguishes the two different congruence interfaces. It does not infer equality of the two first-height notions for other fibers.
