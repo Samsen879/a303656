@@ -55,4 +55,11 @@ assert (5*(h-1)-K, 5*h-K) == (-1, 4)
 r, m = 2, h-1
 assert 5*m+r-5**10-3**19 == 0
 assert m-5**9-1 == 9486**2+11936**2
-print("PASS: 27-prime predecessor, unit-vs-norm contrast, and zero boundary")
+# This singleton control is not a verification of the 29-prime palette.
+k28 = 5**6 + 3**20 - 3
+h28 = 697_360_005
+m29 = 2833994088749110521712524119652283277481020558785077727942371222955180
+assert k28 == 3_486_800_023
+assert (5*(h28-1)-k28, 5*h28-k28) == (-3, 2)
+assert prime(151) and 151 % 4 == 3 and valuation(5*m29-k28, 151) == 1
+print("PASS: 27-prime predecessor, unit-vs-norm contrast, and exact boundary controls")
