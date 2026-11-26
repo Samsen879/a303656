@@ -11,9 +11,11 @@ For integers `m >= 2` and `r = 0,...,4`, pair the nonnegative residuals
 | --- | ---: | --- |
 | 3 allowed | 28 | Budget 27 excluded by independent reconstruction and integer replays. The two reconstructors use different finite-to-tail seams. |
 | 3 excluded | 38 | Budget 37 excluded in a separate reconstruction, with two tail verifiers and a freshly recomputed finite prefix. |
-| 3 allowed, newest candidate | 29 | A cloud run and its own replay report budget 28 excluded. Independent cross-track reconstruction is pending. |
+| 3 allowed, later result | 29 | Budget 28 independently excluded by two research tracks with distinct finite-to-tail verifications. Full proof archives are not yet included here. |
 
 For budget 27, the independent reconstruction reports a common normalized root cap of `1,172,027,091`, with 145,935 digit / closed-mask / mod-27 cases and 132,006 terminal leaves. Its independently enumerated finite-to-tail seam has 2,998 distinct integer/digit pairs. Those numbers describe that reconstruction, not the separate cloud tree.
+
+For budget 28, both research tracks report the final complete frozen reference height \`697,360,005\`. The next row is \`C_3(6,20)\`, whose normalized root is \`3,486,800,023\` and whose residual changes from −3 to +2 across the reference boundary. A separate reconstruction compressed the finite seam to 1,774 distinct integer/digit pairs with explicit square coordinates. Its progress on budget 29 concerns only extensions of preceding 28-prime supports; new inclusion-minimal supports are not excluded.
 
 ## Exact small replay included in this PR
 
@@ -23,7 +25,7 @@ Run:
 python3 analysis/ajt5_overnight_2026_11_26/verify_boundary.py
 ```
 
-The script exhausts all active labels up to a fixed normalized-root cap for one explicit integer, one digit, and one set of 27 primes. At cap `1,172,027,090` the set blocks every pair. At the next root, a pair survives the set, but both residuals still fail the genuine two-square condition, through explicit primes outside the set. A separate exact zero-residual example checks that zero is allowed at the active boundary. This verifies the pointwise controls, **not** the completeness or minimality of the global bounds. The full trees and the separately reported finite family with its first genuine bridge at root `1,220,703,260` are not packaged in this PR.
+The script exhausts all active labels up to a fixed normalized-root cap for one explicit integer, one digit, and one set of 27 primes. At cap `1,172,027,090` the set blocks every pair. At the next root, a pair survives the set, but both residuals still fail the genuine two-square condition, through explicit primes outside the set. A separate exact zero-residual example checks that zero is allowed at the active boundary. This verifies the pointwise controls, **not** the completeness or minimality of the global bounds. It also checks the budget-28 exact activation and the valuation at 151 of one later control row; it does not check a full 29-prime cover. The full trees and the separately reported finite family with its first genuine bridge at root `1,220,703,260` are not packaged in this PR.
 
 ## Direct analytic route (separate model)
 
