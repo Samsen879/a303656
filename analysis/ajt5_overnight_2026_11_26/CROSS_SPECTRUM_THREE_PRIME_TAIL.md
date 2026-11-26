@@ -4,7 +4,7 @@ This extends the local phase calculation in [CROSS_SPECTRUM_JOINT_PHASE_17_97.md
 
 ## A single joint phase average
 
-Take (s=3^{26+120i}+5^{50+120j}) and (t=3^{50+120k}+5^{50+120l}). At the primes (17,97,193), the orders of (3^{120}) are (2,2,2) and those of (5^{120}) are (2,4,8). Thus (i,k) range over two residues and (j,l) over eight in the common period. Write (h=t-s), and check (pmid h) for each of the three primes on that same tuple.
+Take $s=3^{26+120i}+5^{50+120j}$ and $t=3^{50+120k}+5^{50+120l}$. At the primes 17, 97, and 193, the orders of $3^{120}$ are 2, 2, and 2 and those of $5^{120}$ are 2, 4, and 8. Thus $i,k$ range over two residues and $j,l$ over eight in the common period. Write $h=t-s$, and check whether $p$ divides $h$ for each of the three primes on that same tuple.
 
 | Collision bits in order 17, 97, 193 | Count |
 | --- | ---: |
@@ -13,11 +13,11 @@ Take (s=3^{26+120i}+5^{50+120j}) and (t=3^{50+120k}+5^{50+120l}). At the primes 
 | 110 | 16 |
 | 111 | 16 |
 
-With these primes excluded from the coefficients, the normalized two-class residue avoidance factor is (p/(p-1)) on a collision and (1-(p-1)^{-2}) otherwise. Indeed, one forbidden residue on a collision and two otherwise are normalized by ((1-1/p)^2). The average of the joint product is **711514126363/695784701952**. Multiplying the three marginal averages would instead give **10118605453483/9895604649984**, smaller by **6359093117/89060441849856**. In particular, a collision at 193 is strictly nested inside the collision at 17 in this period, and coincides with the collision at 97 in this period.
+With these primes excluded from the coefficients, the normalized two-class residue avoidance factor is $p/(p-1)$ on a collision and $1-(p-1)^{-2}$ otherwise. Indeed, one forbidden residue on a collision and two otherwise are normalized by $(1-1/p)^2$. The average of the joint product is **711514126363/695784701952**. Multiplying the three marginal averages would instead give **10118605453483/9895604649984**, smaller by **6359093117/89060441849856**. In particular, a collision at 193 is strictly nested inside the collision at 17 in this period, and coincides with the collision at 97 in this period.
 
 ## A concrete nonzero separation with a controlled tail
 
-For the toy local product set (y=17). For primes not dividing (672cdot65cdot11), let (	heta=1/(p+1)) at (p>y) allowed split primes (pequiv1mod4), excluding 97 and 193, and let (	heta=0) otherwise. The kernel weights are
+For the toy local product set $y=17$. For primes not dividing $672\cdot65\cdot11$, let $\theta=1/(p+1)$ at allowed split primes $p>y$ with $p\equiv1\pmod{4}$, excluding 97 and 193, and let $\theta=0$ otherwise. The kernel weights are
 ```text
 K_p(1) = (1-theta)^2 p/(p-1)
 K_p(0) = (1-theta)^2 (1-1/(p-1)^2) + 2 theta(1-theta) p/(p-1).
