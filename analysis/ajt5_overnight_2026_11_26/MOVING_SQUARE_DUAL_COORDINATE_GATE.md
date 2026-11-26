@@ -14,7 +14,7 @@ At \(X=2^{58}, C=69/40,\ q=5,\ p=11\), the following directions in the middle ba
 from fractions import Fraction as Q
 from math import gcd
 q,h,k,j,l,m = 5,39,75871,27,58241,121
-S = [3**10+5**2,3**12+5**2,3**12+5**3]
+S = [3**10+5,3**12+5**2,3**12+5**3]
 delta,gamma = S[0]-S[1], S[0]-S[2]
 P,J = h*h+k*k, j*j+l*l
 x,y,D = delta-P, q*q*gamma-J, k*j-h*l
