@@ -1,0 +1,15 @@
+# An unconditional one-modulus upper bound for the same screened prime set
+
+Keep $F(p)=p^2+2188$ and the same set $S$ of prime inputs as in UNBALANCED_INERT_FOURIER_INTERFACE.md. Assume the primes in $S$ are in a fixed progression and an interval $(X,cX)$ with $1<c\le2$, and $F(p)$ has no nonfixed inert prime factor below $z=X^{1/2-\epsilon}$, where $\epsilon>0$ is a fixed small constant. Fixed exceptional primes may be omitted. For fixed $\kappa>0$ and every eligible prime $q$ with $\sqrt X<q\le X^{1-\kappa}$,
+$$
+ \#\{p\in S:q\mid F(p)\}\ll_\kappa \frac{X}{q(\log(X/q))^{3/2}}.
+$$
+Constants can also depend on the fixed progression and omitted primes. The claim does not require a prime distribution theorem above the square-root level.
+
+For a root $a\bmod q$, write $p=a+qj$. This gives an integer interval of length comparable to $N=X/q$. Outside the fixed bad primes and $q$ itself, sieve away the single residue $p=0\bmod\ell$, as well as the two residues of $F(p)=0\bmod\ell$ whenever $\ell$ is inert and has such roots. These conditions are disjoint. The latter prime set consists, up to fixed exceptions, of $\ell\equiv3\bmod4$ with $(-547/\ell)=1$, a union of fixed residue classes of prime density $1/4$. Thus the ordinary local deletion counts on the progression are 1 in general and 3 at these latter primes. Mertens in arithmetic progressions gives a sieve product of size $(\log w)^{-3/2}$ at a small power cutoff $w$ of $N$.
+
+For precision one can use the [Selberg upper sieve](https://ford126.web.illinois.edu/sieve2023.pdf) with weight support $R=N^{1/4}$ and $w=R^{1/u}$ for a sufficiently large fixed $u$. Every residue system for a sieve modulus $d\mid\prod_{\ell<w}\ell$ has count $N\,\nu(d)/d+O(\nu(d))$, with $\nu(d)\le3^{\omega(d)}$, directly in the integer $j$ interval. Squaring the Selberg weight uses only $d\le R^2$ and total error $O(R^2(\log R)^C)$ for a fixed exponent $C$ (the weights have divisor-bounded absolute values). This has a power saving relative to $N$. Since $w<z$ and below the size of the prime inputs, $S$ in this progression is among the sifted integers. There are two root progressions, proving the bound.
+
+Summing over a doubling box $I\subset(Q,2Q]$ in this range gives $O_\kappa(X/(\log X)^{5/2})$ actual hits, since $\sum_{Q<q\le2Q}1/q=O(1/\log Q)$. The center $\sum_{q\in I}2|S|/(q-1)$ has the same upper order by the corresponding dimension-$3/2$ sieve on all input integers. Consequently $|D_I|=O_\kappa(X/(\log X)^{5/2})$. This is a natural-scale bound, not signed cancellation; summing over all $O(\log X)$ boxes leaves the full order of the original candidate set.
+
+There is also an exact restriction in the multiplicative character version. The roots are $\{a,-a\}$, so the coefficient of every odd character is zero. At $q\equiv3\bmod4$ the only nonprincipal real character is odd. Thus an estimate controlling only those real characters would not bound the potentially nonzero nontrivial terms. No lower bound for actual prime-norm bridges follows from this note.
