@@ -47,3 +47,23 @@ y&=-6150534574215264056-34022142478336i,\qquad q=1+8i/359 .
 Then \(2xy=K,\ x^2+y^2q=J\). Take \(h=(T^2-J)/K\) and \(P=T^2-2xT+2x^2-J\). Multiplication gives \(P(T)P(-T)=K^2(h^2-q)\); since \(X+8i+363=-359(h^2-q)\), \(P\mid F\) for the same formulas \(X,W,D,G,F\) above. In particular \(F/P=-359P(-T)(X+8i-363)/(16K^2)\). Direct expansion gives degrees \(8,4,7,6\) for \(W,D,\operatorname{Im}Z,W-\operatorname{Re}Z\), with \(Z=\overline P(F/P)\).
 
 At \(T_0=1069489203513072441433941376198344249\), the exact value \(h(T_0)=336768089847601474780357706171045\) is \(5\bmod10\). Substitution gives integral \(W,G,F\) with \(W\equiv1\bmod30\), so \(j=(W-1821)/5\) is still integral and the same parent and child residual formulas hold. The denominators for \(W,G,Z\) divide \(16K^4\), as seen using the formula for \(F/P\); the normalization \(C=(1+2i)P(T_0)Z/\overline{P(T_0)}\) adds at most \(N(P(T_0))\). Thus \(T=T_0+480K^4N(P(T_0))k\) makes the coordinates of \(G,C\) and \(W\) integer polynomials, all their nonconstant coefficients being divisible by 30. Consequently each integer \(k\) gives the same real label \((2,0;2,3)\) on an integral degree-eight double-moving orbit. The argument rules neither on other rational vertices nor on a degree reduction outside the fixed model.
+
+## Finite prime tests cannot rule out every quadratic pullback
+
+For the second label \((2,0;2,3)\), the stronger integral congruence \(W\equiv26\bmod30\) is still open in degree eight. For every prescribed finite set of rational primes, however, there is a single quadratic pullback that is globally reducible over the Gaussian rationals and that has a local preimage of \(s=15\) at every prime in the set. At that anchor value the original \(W(s)\) is an integer congruent to 26 modulo 30. This result does not give a common rational preimage.
+
+Take \(\delta=8/359,\ N=1+\delta^2\) and use the curve \(E:y^2=x((x-1)^2+\delta^2)\) with \(P=(1,\delta)\). Its good reduction group sizes at \(3,7\) are \(6,10\), respectively, checked by directly counting the points. Prime-to-characteristic torsion injects on reduction, so a rational torsion point has order dividing two; \(P\) has nonzero \(y\), and hence is not torsion. In the product of the finitely many compact groups \(E(\mathbb Q_p)\), nonzero multiples \(Q\) of \(P\) approach the identity simultaneously. For \(Q=(x,y)\), set
+\[
+ J=(y/x)^2,\quad \mu=(x^2-N)/(2y),\quad
+ \tau=-J/4-\delta^2/J .
+\]
+Then \(\mu^2=1+J/4-\delta^2/J\). Choose \(\alpha\) with \(\alpha^2=1+i\delta\), and put
+\[
+ a=-\mu\tau/(2J),\quad b=(\mu^4-N)/(2\mu\tau),\quad
+ u=1+(1-\mu^2+i\delta)/\tau,\quad v=\bar u/\mu .
+\]
+Expansion gives \(2auv=1\), \(a(u^2+v^2\alpha^2)+b=0\); thus \(a(u+v\alpha)^2+b=\alpha\), furnishing a quadratic factor of \((aT^2+b)^2-(1+i\delta)\).
+
+To reach \(s\), the condition is that \(J R(s)\) be a square, with \(R(s)=\mu^4-N-2\mu\tau s\): this follows by dividing \(s-b\) by \(a\). Near the elliptic identity \(J,\tau\) have pole order two and \(\mu\) has pole order one (the usual pole orders of \(x,y\) are two and three). Consequently \(R(15)/\mu^4\) tends to 1 at each chosen place. The square units contain an open neighborhood of 1, including at 2. Since \(J\) is already a rational square, taking \(Q\) sufficiently close gives the simultaneous local preimages.
+
+For a finite check, take \(Q=6P\) by the ordinary chord-and-tangent law. Its \(\mu\) in lowest terms has denominator divisible by \(4\cdot3\cdot5\cdot359\) and numerator divisible by 43. At 43 the formulas are integral, and for every integer \(s\) we have \(R(s)\equiv-N\bmod43\), a nonsquare unit. Thus this specific globally reducible pullback has no integer anchor preimage, despite substantial denominators at the small primes governing the desired congruence. The obstruction can lie outside a fixed chosen panel.
