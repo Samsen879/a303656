@@ -1,0 +1,15 @@
+# Joint full-box bounds for common-anchor outside blockers
+
+In the full active box of ordinary exponents \(3^c+5^d<n\), let \(L=\log n\). A prime blocks a cell if the positive residual has odd valuation at it. Consider primes \(q\equiv3\bmod4\) dividing the *same* anchor residual \(n-4\). Their product divides \(n-4\), so \(\sum_q\log q\le L\). This enables union bounds without any assumption about independence of different primes.
+
+**Moderate band.** Use all such primes with \(L^{3/2}\le q\le3L^{3/2}\) and \(r=\operatorname{ord}_q3,\ s=\operatorname{ord}_q5\) at least \(L^{3/4}/8\). Their joint blocked fraction is \(O(1/\log L)\).
+
+**Large band with no order test.** For \(3/7<\beta<1\), all such primes \(q>\exp(L^\beta)\) together block at most
+\[
+ O\!\left(L^{1-7\beta/3}+L^{-\beta}\right)
+\]
+of the active box, which tends to zero. Both bounds also hold on any fixed positive-proportion subset, with the constant enlarged by the reciprocal of that proportion.
+
+For the proof, ignore the extra requirement of odd valuation for the upper bound and count all hits modulo \(q\). If either order is at least \(L/4\), fixing the other axis leaves \(O(1)\) exponent choices per row or column, so the fraction is \(O(1/L)\). If both orders are smaller, the period \(r\times s\) has \(O((rs)^{1/3})\) hits by [Mit'kin's lemma, stated as Lemma 10 by Shkredov, Solodkova and Vyugin](https://arxiv.org/pdf/1302.3839#page=10). Indeed \(n\equiv4\bmod q\) gives a nonzero target and a single pair of cosets. The size hypotheses are \((rs)^2<q^3\) and \(rs\ge27\); these hold for sufficiently large \(n\) in either band when the two orders are below \(L/4\) (in the large band use the elementary lower bounds \(r\ge\log(q+1)/\log3,\ s\ge\log(q+1)/\log5\)). Packing complete periods with end effects costs only a constant because the ordinary exponent sides are of order \(L\). The resulting per-prime fraction is \(O((rs)^{-2/3})\). In the moderate band \(rs\gg L^{3/2}\) gives \(O(1/L)\) and the common product permits only \(O(L/\log L)\) primes. In the large band \(rs\gg L^{2\beta}\) and there are at most \(L^{1-\beta}\) primes. This yields both terms above. The number of active cells used in the denominator is \(\Theta(L^2)\): all but the last possible exponent on both sides certainly give a positive residual.
+
+For a finite exact check (not in the asymptotic moderate band), take \(n=1165706944821995580\). The factorization of \(n-4\) is \(2^3\cdot7\cdot11\cdot13\cdot19\cdot7661463173813\), the final factor prime \(1\bmod4\) (trial division suffices). The exact outside anchor primes relative to the panel \(q\le\sqrt{\log n}\) are \(7,11,19\). Enumerating the positive cells gives 988 total, 250 modulo-prime union hits, and 220 actual odd-valuation blocks by that union. The panel here consists of 3; requiring even valuation at 3 as well leaves 763 cells. Direct integer division includes the two valuation-three cells at 7 and the one at 11. No claim is made that an unblocked cell is a true norm, nor that unrelated outside primes are controlled.
