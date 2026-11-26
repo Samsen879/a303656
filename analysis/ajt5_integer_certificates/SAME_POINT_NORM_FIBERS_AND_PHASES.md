@@ -35,3 +35,14 @@ For \(m\equiv97\bmod343\), allow the entire menu \(c,f,d\ge0,\ \epsilon\in\{0,1\
 * If the offset classes are released but the input class and exact valuations are retained, both first heights are \(440\). At 97, \(v_7(A)=2\) and \(0<A<97\) force \(A=49\), so \(C=48\), which is not an actual power sum. At 440 take \(C=3^5+1=244,\ D=1+5=6\). The residuals are \(196=14^2,\ 2194=13^2+45^2\), with the required valuations.
 
 The finite power-sum check here is exhaustive: for a positive parent residual the parent powers are each strictly below 783, so one need only test \(3^0,\ldots,3^6\) and \(5^0,\ldots,5^4\). This control distinguishes the two different congruence interfaces. It does not infer equality of the two first-height notions for other fibers.
+
+## A nonempty actual height window can fail every candidate despite finite phase survival
+
+At \(n=81\), consider the phase \(c\equiv1\bmod4,\ d\equiv0\bmod3\). The only nonnegative active exponent pair is \((1,0)\), because \(3^5,5^3>81\). Its actual residual is \(77=7\cdot11\), not a Gaussian norm. Yet for every finite set of inert primes, one can choose exponents in that same phase passing their actual even-valuation tests, if the height restriction is dropped.
+
+Indeed the signed phase point \((c,d)=(1,-3)\) gives the rational norm
+\[
+ 81-3-5^{-3}=\frac{9749}{125}
+   =\left(\frac{219}{25}\right)^2+\left(\frac{28}{25}\right)^2 .
+\]
+The numerator coordinates are coprime. At each inert prime other than 3 this is a unit, because inversion is legal for both bases and a primitive sum of two squares cannot vanish at an inert prime. For any finite panel choose nonnegative \(c,d\) congruent to \(1,-3\) modulo the finitely many multiplicative orders, also retaining the original phase and enough 2-adic precision to keep the residual \(1\bmod4\). Such exponents exist by taking lcm periods separately for the two axes. At 3 the positive \(c\) guarantees that the residual is a unit regardless of \(d\). These conditions describe a cylinder of positive counting density among all exponent pairs. The only actual height candidate nevertheless fails. The unrestricted original integer is representable, e.g. \(81=8^2+3^2+3+5\); the obstruction is to transferring finite phase survival into a fixed height window.
