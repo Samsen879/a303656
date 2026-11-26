@@ -117,3 +117,16 @@ Modulo 131 the residues of \((A,e,S,C)\) are \((69,71,86,44)\); 69 is nonsquare.
 For a given positive \(n\), put \(r=3^{v_3(n)}11^{v_{11}(n)}\). The group over the finite field of order \(131^r\) is cyclic of order \(131^r+1\), since \(r\) is odd and 69 stays nonsquare. For \(\ell=3,11\), lifting the odd power gives \(v_\ell(131^r+1)=1+v_\ell(r)\). Hence \(33\mid(131^r+1)/\gcd(n,131^r+1)\), so \(R\) has an \(n\)-th root in this finite norm-one group. Lift that root multiplicatively to the unramified degree-\(r\) extension of \(\mathbb Q_{131}\). Its \(n\)-th power is exactly \(\tau\). The pulled-back \(f/g\) therefore takes an odd valuation (one) on an open neighborhood of this point. The residue field still has \(-1\) nonsquare; every nonzero sum of two squares there in the local field has even valuation, as the terms of least valuation cannot cancel. Evaluating any proposed rational-function identity at a point of this open neighborhood outside its finitely many poles gives a contradiction.
 
 The least odd finite-field extension degree in which either residual zero has an \(n\)-th root is exactly \(r\), by the same cyclic-group criterion and valuations for every odd degree. This local obstruction says something about rational-function parametrizations, not the number of integer fifth-column witnesses.
+
+### Actual fifth-coordinate line fibers
+
+For an integer line \(a u+b v=c\) with \(D=a^2+b^2>0\), the fifth norm equation \(g(u^2+v^2)=s^2-C\) is exactly equivalent to the following generalized Pell equation **with** its reconstruction conditions:
+\[
+ z^2-gD\,t^2=D^2C+gD c^2,\quad z=Ds,\quad
+ D\mid ac+bt,\quad D\mid bc-at .
+\]
+Here \(t=bu-av\); the two divisibilities recover \(u=(ac+bt)/D,\ v=(bc-at)/D\). In one direction this follows from \(D(u^2+v^2)=c^2+t^2\), and the converse uses the recovered coordinates. When intersecting with the original four-column construction, \(s\) must still be \(S+B(U-1)/(2A)\) from that construction; the new equation alone does not impose this.
+
+For example, fixing the seed's first coordinate \(3294138\) gives \(s^2-270850v^2=28768909323735464900\), with \(s=S,\ v=1354184\) at the seed. The reconstruction conditions genuinely matter: for \((a,b)=(1,2)\) on this same witness, \(c=6002506,\ D=5\), and \(t=5234092\) works but replacing it by \(-5234092\) still solves the Pell equation and fails the divisibilities.
+
+The original \(A\) has \(v_{227}(A)=1\) for the denominator clearer used above, as follows from the stated \(a\) formula. Since \(227\equiv3\bmod4\), both \(g=367^2+369^2\) and \(D\) have even valuation there. Therefore if \(gD\) is nonsquare this second Pell field is distinct from \(\mathbb Q(\sqrt A)\). The field distinction and line reduction do not exclude unrestricted integer fifth coordinates.
