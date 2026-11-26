@@ -13,3 +13,19 @@ Process the remaining \(p\)'s in ascending order. Let \(M_0\) be the accumulated
 Removing powers of two from \(R\) leaves an integer \(1\bmod4\), so the number of its inert primes with odd valuation is even. If it fails the two-square criterion this number is nonzero, hence at least two. The same parity argument thus works for **even** \(n\), not just odd \(n\).
 
 Independent controls for \(Q=\{3,7\}\), \(M=5292\), and \(X=5^{5294}+3^{5294}\): at \(n=X+9\), take \((c,d)=(868,2)\); at \(n=X+22\), take \((c,d)=(2812,17)\). Both have exact \(v_3=v_7=2\), checked modulo \(3^3,7^3\); the residuals are respectively 1 and 2 modulo 8. These are genuine positive integer residuals. The bound is for fixed \(Q\) and does not address simultaneous Wieferich primes or control the joint occurrence of outside blockers.
+
+## Exact lifting when a coarse phase is fixed
+
+Let \(Q'\) omit 3 from the panel; treat the modulo-eight and 3-adic conditions as above. For \(p\in Q'\) and \(b=3,5\), put \(o_{b,p}=\operatorname{ord}_p b\), \(s_{b,p}=v_p(b^{o_{b,p}}-1)\), and take \(L_3=\operatorname{lcm}(2,\{o_{3,p}\})\), \(L_5=\operatorname{lcm}(18,\{o_{5,p}\})\). In a fixed compatible phase \(c\bmod L_3,d\bmod L_5\), define
+\[
+ t_p=\min(s_{3,p}+v_p(L_3),s_{5,p}+v_p(L_5)).
+\]
+All residuals in the phase agree modulo \(p^{t_p}\). The phase can realize even valuations simultaneously at every \(p\in Q'\) if and only if this common residue at each \(p\) is zero or has even valuation. A nonzero residue fixes the valuation. For a zero residue, choose a base attaining the minimum and keep the other base's progression parameter zero modulo \(p^2\). The chosen base's progression generates the full principal moves starting at \(p^{t_p}\), by LTE. It can make the residual \(p^e\bmod p^{e+1}\) with \(e\) the smallest even integer at least \(t_p\). Prescribing the selected base progression parameter modulo \(p^{e+1-t_p}\), at most \(p^2\), suffices; combine the prescriptions across \(p\) by CRT for the two bases separately. Reducing parameters to residues modulo \(\prod p^2\), with an appropriate representative to keep \(c\ge3\), gives a finite height bound for strict activity. This characterizes one phase, not whether a feasible phase always exists.
+
+A phase can be locked even by primes where neither base is Wieferich. For \(Q'=\{7,43\}\), both bases have order 42 modulo 43, so \(L_3=42,L_5=126\). In phase \((0,0)\) both base powers are 1 modulo 49. For \(a=5+12642\cdot3^{42}\), \(n=82+a^2\equiv9\bmod49\); the phase is then uniformly bad at 7 with exact valuation one. The pair \((42,0)\) is active, while the same integer has the true representation \(n=a^2+0^2+3^4+5^0\). This is a genuine phase restriction, not a counterexample to the original conjecture.
+
+## A two-label product test
+
+Take two positive actual residuals \(R_i=n-3^{c_i}-5^{d_i}\). Strip factors \(p\le Y\) and call the resulting positive integers \(w_i\). Assume all stripped inert prime exponents are even, both \(w_i\equiv1\bmod4\), and \(w_1,w_2\) share no inert prime. If \(w_1w_2\) is less than the product of the first four \(3\bmod4\) primes exceeding \(Y\), then one of the original \(R_i\) is a true two-square norm. Indeed, if either remaining factor is not a norm it requires two distinct odd-valuation inert primes, and simultaneous failure would require four distinct ones. Disjointness can be checked without factoring both residuals: any common prime must divide the difference of the two removed power-sums.
+
+For \(n=355,\ Y=7\) take offsets \(2,14\), giving \(w_1=353,\ w_2=341=11\cdot31\). No factor at most 7 was stripped. Both exceed the one-label bound \(11\cdot19\), but their product is \(120373<11\cdot19\cdot23\cdot31\). Here the first residual equals \(17^2+8^2\). The test does not yet provide such a pair for every \(n\).
