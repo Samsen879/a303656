@@ -130,3 +130,22 @@ Here \(t=bu-av\); the two divisibilities recover \(u=(ac+bt)/D,\ v=(bc-at)/D\). 
 For example, fixing the seed's first coordinate \(3294138\) gives \(s^2-270850v^2=28768909323735464900\), with \(s=S,\ v=1354184\) at the seed. The reconstruction conditions genuinely matter: for \((a,b)=(1,2)\) on this same witness, \(c=6002506,\ D=5\), and \(t=5234092\) works but replacing it by \(-5234092\) still solves the Pell equation and fails the divisibilities.
 
 The original \(A\) has \(v_{227}(A)=1\) for the denominator clearer used above, as follows from the stated \(a\) formula. Since \(227\equiv3\bmod4\), both \(g=367^2+369^2\) and \(D\) have even valuation there. Therefore if \(gD\) is nonsquare this second Pell field is distinct from \(\mathbb Q(\sqrt A)\). The field distinction and line reduction do not exclude unrestricted integer fifth coordinates.
+
+### A p-adic obstruction to an integer Gaussian-square displacement
+
+Put \(p=9949\), \(z_0=3294138+1354184i\), and \(\delta=e(U-1)\) as in the original \(y=0\) track. At any nonseed integer Pell multiplier that lies in the norm-one square subgroup modulo \(p\), a fifth integer witness cannot have the form
+\[
+ z=z_0+\lambda\delta(a+bi)^2
+ \quad (a,b,\lambda\in\mathbb Q,\ \lambda\ne0,\ v_p(\lambda)\text{ even}).
+\]
+This permits both the direction and its scalar to vary with the point. It applies to the strengthened preservation orbit above, but not to arbitrary fifth coordinates.
+
+The exact coefficients have \(p\nmid Ag,\ v_p(e)=1,\ e/p\equiv2S/p\equiv3059\bmod p\). Also \(N(z_0)\equiv4491\bmod p\) is nonsquare, and \(A\) is square modulo \(p\). The split norm-one group has order \(p-1=4\cdot2487\); its square subgroup cannot have an element with \(U=0\), since that would have order four. Thus \(v_p(2S+\delta)=1\) by \((2S+\delta)/p\equiv3059U\bmod p\). Meanwhile \(v_p(\delta)\) is odd: it is one if \(U\not\equiv1\bmod p\), and otherwise \((U-1)(U+1)=AV^2\) makes it \(1+2v_p(V)\).
+
+Define \(Q(a,b)=3294138(a^2-b^2)+2\cdot1354184ab\). Nonsquareness of \(N(z_0)\) makes \(Q\) anisotropic modulo \(p\); for \(k=\min(v_p(a),v_p(b))\) and nonzero \((a,b)\) it has valuation \(2k\). The minimum valuation of the two coordinates of \((a+bi)^2\) is also \(2k\), since their reductions cannot both vanish after removing \(p^{2k}\). Integrality of \(z\) therefore forces \(v_p(\lambda\delta)+2k\ge0\), and this value is odd, so it is positive. Expanding the exact norm and dividing by \(\lambda\delta\) gives
+\[
+  2gQ(a,b)+g\lambda\delta(a^2+b^2)^2=(2S+\delta)/\lambda .
+\]
+The left side has valuation \(2k\), as its second term has valuation strictly greater than \(2k\); the right side has odd valuation. This is a contradiction. If \(a=b=0\), the same norm equation already fails since \(\delta(2S+\delta)\ne0\).
+
+The scalar parity condition is genuine. With \(U\equiv1\bmod p\) and \(\lambda=p\), the normalized equation modulo \(p\) has a nonsingular solution \((a,b)=(7191,3)\), of \(a\)-derivative \(9932\bmod p\). This passes the \(p\)-adic test by lifting, without claiming a global fifth point.
