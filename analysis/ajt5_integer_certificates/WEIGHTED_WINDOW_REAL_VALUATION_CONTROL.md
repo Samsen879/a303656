@@ -80,3 +80,22 @@ For an independent exact control at \(q=167\) retain \(D=83,\ W=11,\ k=11\), wit
  v=25480078662247451187,\qquad n=2+u^2+v^2 .
 \]
 The observed threshold is between 77 and 78; all observed inert primes up to 71 divide \(n\). Direct modular exponentiation at all 121 positive cells gives valuation zero for every observed prime and valuation one at 167. This does not preclude representations outside the chosen window.
+
+## Mixed directions: the shortest-relation scale
+
+Still fix the anchor \((377,116)\), use \(D=(q-1)/2\), and put \(X=2^{q^2-1}\). In the following result a window is the image of an integer parameter square under an integer \(2\times2\) matrix with nonzero determinant; it need not be an axis-parallel square in the exponent plane. Work with the affine first-order lift modulo \(q^2\) as above, and let \(F(t,s)=at+bs\bmod q\) be its linear part. If \(F\ne0\), let \(\lambda\) be the shortest nonzero sup-norm length in \(\{(t,s)\in\mathbb Z^2:F(t,s)=0\}\); then \(\lambda\le\lfloor\sqrt q\rfloor\) by pigeonhole. For all sufficiently large admissible \(q\), the maximal mixed square width, allowing the omitted phase to be chosen and requiring all cells active at a height in \([X,2X)\), has order
+\[
+ \Theta(q/\sqrt\lambda).
+\]
+In particular there is an unconditional width \(\Omega(q^{3/4})=\Omega((\log n)^{3/8})\) for this mixed model. If \(F=0\), a nonzero phase gives width \(\Theta(q)\) directly. This is a distinct geometry from the Cartesian cubic-log construction.
+
+For the lower bound choose a shortest relation \(r=(r_1,r_2)\) and \(m=\lceil\sqrt\lambda\rceil\). Construct each row \((u_j,v_j)\) of a matrix \(A\) by taking \(m\le v_j<2m\) with \(v_j\equiv-r_j\bmod m\), then \(u_j=(r_j+(m+1)v_j)/m\). These entries are positive and give \(A(m,-m-1)^T=r\). If the determinant vanishes, add \((m+1,m)\) to a row whose other row has nonzero corresponding \(r_j\); this changes the determinant. In all cases row sums are at most \(8m\). The composed form has coefficients proportional modulo \(q\) to \(m+1,m\), so on a square of width \(W=\lfloor q/(32m)\rfloor\) its image has at most \((2m+1)(W-1)+1<q\) residues. A missing phase is realized by the same square-coordinate CRT: \(n=0\bmod p\) for every observed inert prime, and \(n=h+qk\bmod q^2\) at the blocking prime. The coordinate shifts before multiplying by \(D\) are at most \(q/4\). Hence the ordinary exponents are at most \(q^2/8+377\) and all cells are active at the specified height. Distinct parameter cells give distinct exponent pairs since the determinant is nonzero.
+
+For the upper bound let \(H\) be the largest absolute row sum of the matrix for any such square. Physical activity bounds the coordinate span and gives \(H(W-1)=O(q)\). If the determinant is a multiple of \(q\) then \(H\ge\sqrt q\), already yielding \(W-1=O(\sqrt q)\). Otherwise the kernel lattice for the composed form has shortest length \(\lambda'\ge\lambda/H\). A square of width \(O(q/\lambda')\), with a sufficiently large absolute constant, represents every residue of this form: choose a shortest vector, which is primitive in \(\mathbb Z^2\) since its length is below \(q\); extend it to a lattice basis of determinant \(q\), shortening the second vector by multiples of the first. Its perpendicular component is \(q\) divided by the length of the first and its parallel component can be made at most half that length. A fundamental parallelogram therefore has diameter \(O(q/\lambda')\). Applying this around the center of any such square gives a lattice representative of every coset inside the square. Missing a phase forces \(W-1=O(qH/\lambda)\). Combining the two bounds gives the claimed scale.
+
+An exact control: \(q=167,\ D=83,\ W=15\), matrix with rows \((5,2),(1,2)\), omitted phase \(k=9\), and
+\[
+u=2^{13944}+5478876004446096141820128341025639,\qquad
+v=1621275203427700299744875168658198,\qquad n=2+u^2+v^2 .
+\]
+The composed lift coefficients are \(114,2\bmod167\), giving 93 values. Direct modular powering certifies all 225 cells positive with exact valuation one at 167 and zero at every observed inert prime (the largest is 139). The origin stays a genuine norm. This is a statement about a square of parameters, not a claim that every exponent pair in the enclosing rectangle fails.
