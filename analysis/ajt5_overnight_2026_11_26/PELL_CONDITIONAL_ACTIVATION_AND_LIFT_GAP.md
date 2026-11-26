@@ -17,3 +17,16 @@ There is no positive power obstruction over \(E\) for \(\phi\): for odd prime ex
 For such a place \(M=(q-1)/6\) is coprime to \(6\sigma L\); \(\overline{G^L}\) generates the sixth-power subgroup. Thus \(\beta\) is actually attained by its powers, and shifting any class \(n=a+Lt\) only multiplies the target by \(G^{-a}\) inside this subgroup. This concludes the mod-\(q\) activation result.
 
 For parity, however, put \(h=v_q(\phi^{q-1}-1)\) and \(b=v_q(\beta^{q-1}-1)\) at the same place. The local certificate in [Odd-valuation escapes](../ajt5_integer_certificates/PELL_ODD_VALUATION_ESCAPES_FIXED_MENUS.md) requires \(b\ge h\); if \(b<h\), the activated phase has constant valuation \(b\). The mod-prime density theorem does not bound this bad set. A single prime passing \(b\ge h\) for each fixed \(L\) would suffice to vary the pivot parity in every prescribed class at that \(L\) and, by the existing menu-freezing argument, force a new inert prime. It would not take a positive density of parity-changing primes. No such single-prime supply for arbitrary \(L\) has been proved here.
+
+## Unconditional common-index exclusion at 2731
+
+The prime used in the finite-field argument cannot itself supply a real odd valuation on the constrained integer curve: for all integer \(X,Y\),
+\[
+ X^2-5Y^2=10924,\quad41\mid Y
+ \quad\Longrightarrow\quad2731\nmid X^2+12 .
+\]
+In \(\mathbb Q(\sqrt5)\), 2 is inert and 2731 splits. As \(N(\alpha)=4\cdot2731\), the ideal of any element of norm \(10924\) is the ideal of \(\alpha\) or \(\bar\alpha\): the factor over 2 is forced and the split prime allows one of two choices. Their quotients are norm-one units, so the elements are \(\pm\alpha\phi^{2k}\) or \(\pm\bar\alpha\phi^{2k}\).
+
+Modulo 41 in the branch \(\sqrt5=13\), both seed components equal 10, and the two components of \(\phi^2\) are 8 and its inverse. The order of 8 is 20, so equality of the two components, required by \(41\mid Y\), forces \(10\mid k\). Modulo 2731, for \(\alpha\) use the nonzero branch \(\sqrt5=1220\): \(\alpha=1692,\ \bar\alpha=0,\ \phi^2=1977\) of order 195. Here \(X^2+12=0\) demands \(1977^k=\pm609\), since the two components of \(X+Y\sqrt5\) are one zero and \(2X\). Direct powering gives \(1977^6=609\), and the negative is not in the odd-order subgroup. Thus the phase is \(k=6\bmod195\); for the conjugate seed the phase is \(-6\bmod195\). Neither is compatible with \(5\mid k\).
+
+Without the \(41\) constraint, \((X,Y)=(1151537,514983)\) is an actual integer Pell point with \(v_{2731}(X^2+12)=1\), as direct integer division confirms. It and the original seed give simultaneous solutions to any finite prescribed \(2731\)-power and \(41\)-power conditions by ordinary coordinate CRT, but not an integer point on the exact curve with both properties. The obstruction is the shared unit index.
