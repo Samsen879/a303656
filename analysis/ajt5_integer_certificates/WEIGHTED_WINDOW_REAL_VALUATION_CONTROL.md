@@ -63,3 +63,20 @@ A finite control for this exact version is \(q=167,\ D=83,\ W=11,\ k=11,\ v=0\),
 u=2^{13944}+6532292378186422400920212684040670 .
 \]
 Direct modular exponentiation verifies the panel (through prime 139), the stated height range, and exact valuation 1 on all 121 cells. This control is independent of the earlier \(q=59\) construction.
+
+## Strengthening: every cell passes the observed panel at cubic-log width
+
+The congruence choices in the previous construction can instead force **all** cells in the growing window to be units at every observed inert prime. Simultaneously the height can be decreased to
+\[
+ X=2^{4q\lceil\sqrt q\rceil},\qquad X\le n<2X.
+\]
+Using the same \(D=(q-1)/2\), \(W\) (largest odd integer at most \(\sqrt{q-1}\)), and fixed anchor, we obtain \(W/(\log n)^{1/3}\to(4\log2)^{-1/3}\), for sufficiently large \(q\equiv3\bmod4\). The exact omitted-prime valuation is still one in every cell, and the origin still has a true two-square residual.
+
+Keep the \(q^2\) congruence and omitted phase from above. At every observed \(p\equiv3\bmod4,\ p\le\sqrt{\log(2X)}\), instead prescribe \(u^2+v^2=-2\bmod p\), which has a solution by the surjective finite-field norm map. Now \(n\equiv0\bmod p\). For \(p>5\) the two offsets are nonzero squares, whose sum cannot vanish modulo \(p\) because \(-1\) is nonsquare; at \(p=3\) they are zero and one. Hence each observed valuation is zero in every cell. The observed threshold is \(O(q^{3/4})<q\), and the joint coordinate modulus has logarithm \(O(q^{3/4}\log q)\), so CRT still fits the new height. Strict activity holds since the largest ordinary exponent is bounded by \(q^{3/2}/2+O(1)\), and \(4\log2>(\log25)/2\). The proof does not impose nonzero even valuations at specific observed primes, unlike constructions that also require such lifts.
+
+For an independent exact control at \(q=167\) retain \(D=83,\ W=11,\ k=11\), with \(X=2^{8684}\), and take
+\[
+ u=2^{4342}+28451650812436210842,\qquad
+ v=25480078662247451187,\qquad n=2+u^2+v^2 .
+\]
+The observed threshold is between 77 and 78; all observed inert primes up to 71 divide \(n\). Direct modular exponentiation at all 121 positive cells gives valuation zero for every observed prime and valuation one at 167. This does not preclude representations outside the chosen window.
