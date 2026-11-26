@@ -43,3 +43,21 @@ To prove this, all six signed terms in
  R_1+3^{c_1}+5^{d_1}-R_2-3^{c_2}-5^{d_2}=0
 \]
 belong to one finitely generated rational multiplicative group, since the panel is fixed and the remaining parts are bounded. Partition into minimal vanishing subsums. Within each block, dividing by one signed term reduces the ratio problem to a nondegenerate \(S\)-unit equation; [Evertse–Schlickewei–Schmidt, Theorem 1.1](https://annals.math.princeton.edu/2002/155-3/p04) gives finitely many possible ratio lists. A block containing both a power of 3 and a power of 5 has only finitely many absolute choices, since their ratio uniquely determines those exponents. A block with just one residual and powers of only one base needs both opposite-sign powers of that base: a single power equal to the residual would have stripped part one. The equation with both powers gives a cross-label zero. A block containing both residuals with at most one base leaves two opposite powers of the other base; those alone are distinct, and adding a single odd power of the first base cannot cancel their even difference. With no base terms in the block it would require equal residuals. Finally, a block with no residual and only one base cannot vanish because the corresponding exponents differ. Hence, when no cross-label zero is permitted, every block has both bases, which yields only finitely many six-tuples. This does not give a useful bound for a panel or a stripped-part allowance growing with \(n\).
+
+## A sparse panel that grows unconditionally with height
+
+For an odd prime \(\ell\ge5\), let \(Q_\ell\) consist of all inert primes \(q\) for which \(\operatorname{ord}_q3\) is \(\ell\) or \(2\ell\). There are fewer than \(\ell\) of them: their product divides \(3^{2\ell}-1\), whereas each is at least \(2\ell+1>9\). For \(\ell\equiv3\bmod4\) the panel \(Q_\ell\) is nonempty, since \((3^\ell+1)/4\equiv3\bmod4\) has an inert factor, and its odd prime factors all have order \(2\ell\). The \(Q_\ell\) for distinct \(\ell\) are disjoint.
+
+For each \(n\), retain the above parity test and lift at 3 by fixing \(d\in[0,17]\). Then use only \(c\). Avoid 7, 11 and 43 via one forbidden class respectively modulo 3, 5, 7 (their orders of 3 are 6, 5, 42); if there is a root, its projection modulo the chosen divisor of the order is one forbidden class, and avoiding it is sufficient. For every \(11\le\ell\le Y\) other than 19, avoid all \(q\in Q_\ell\) by the same method, projecting their bad classes modulo \(\ell\). There are fewer than \(\ell\) prohibited classes, and CRT combines the separate coordinates with the fixed parity. At 19 the order of 3 is 18 and \(3^{18}\not\equiv1\bmod19^2\). None of the chosen coordinates is divisible by 19; the current progression times 18 thus allows the exact 19-adic lift to valuation two if needed. Its final period divides
+\[
+ P=227430\prod_{\substack{11\le\ell\le Y\\\ell\ {\rm prime},\ \ell\ne19}}\ell
+   \ \le\ 227430\,4^Y .
+\]
+Here \(227430=\operatorname{lcm}(2,3,5,7,18\cdot19^2)\). The elementary primorial bound follows by induction: primes in \((m+1,2m+1]\) divide \(\binom{2m+1}{m}\le4^m\), and even integers greater than two add no new prime. Choose \(3\le c\le P+2\); positivity follows if \(n>3^{P+2}+5^{17}\). Thus any \(Y\) of order \(\log\log n\) with a constant less than \(1/\log4\) eventually fits the window. This is a sparse family of primes of unbounded size as a panel, not a guarantee for all inert primes below a growing cutoff.
+
+For an exact control, \(Q_{11}=\{23,67,3851\}\), obtained by factoring \(3^{22}-1\) and testing orders. At \(c=6934,d=0\) consider
+\[
+ n_+=3^{6934}+1+(19\cdot31)^2\cdot16993,\qquad
+ n_-=3^{6934}+1+19^2\cdot31\cdot47\cdot41.
+\]
+Both residuals are units at \(7,11,43\) and \(Q_{11}\), and both have exact valuation two at 19. In the first case, after removing \(19^2\) and the split prime 16993, the remaining \(31^2\) is strictly below \(31\cdot47\), the product of the first two untested inert primes. Its parity certifies a true norm, also checked by coordinates \(42997,63612\) for the original remainder. In the second case, removing \(19^2\) and 41 leaves exactly \(31\cdot47\), with both valuations odd. This same-panel control demonstrates why the stopping inequality is strict.
