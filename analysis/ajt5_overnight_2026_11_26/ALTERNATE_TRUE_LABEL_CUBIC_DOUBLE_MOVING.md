@@ -23,7 +23,7 @@ Let \(\delta=4/361,\ q=1+i\delta,\ P=T^2+q\). Here \(8F=(X+4i-L)(X+4i+L)\), with
 \[
  h^2-q=(T^2+q)\big(T^4+(2-q)T^2+(1-q)^2\big)/\delta^2 .
 \]
-This illustrates a transferable sufficiency condition: for a factor \(s^2-q\), \(q=c+i\delta\) with rational \(c,\delta\ne0\) (c may also vanish), the substitution \(s=(T^3+cT)/\delta\) produces \(T^2+q\) as a factor, since mod that factor \(T^2=-q\) and \(T^2+c=-i\delta\). An integral anchor remains a separate requirement.
+This illustrates a transferable sufficiency condition: for a factor \(s^2-q\), \(q=c+i\delta\) with rational \(c,\delta\) and \(\delta\ne0\), the substitution \(s=(T^3+cT)/\delta\) produces \(T^2+q\) as a factor, since mod that factor \(T^2=-q\) and \(T^2+c=-i\delta\). An integral anchor remains a separate requirement.
 
 Swap the proper factor by \(Z=\bar P F/P\). Its norm is \(W^2-B\), and its leading coefficient agrees with W. The expression \(Z=F-2i\delta F/P\) gives \(\deg\Im Z=10\): the leading coefficient of \(F/P\) is real, its degree is 10, and \(\Im F\) has degree 6. The identity \((W-\Re Z)(W+\Re Z)=(\Im Z)^2+B\) then gives real gap degree 8. The parent gap D has degree 6. Both are genuinely nonconstant.
 
