@@ -41,3 +41,19 @@ For the lift at any of these simple roots, choose the sign of \(G^m\) that is 1 
 The six products \(qm\) are pairwise coprime. When \(L\) has at most five distinct prime factors, one product is coprime to \(L\) and both compatibility tests for that pivot are automatic. More generally any compatible pivot suffices: set \(D=\operatorname{lcm}(L,m,\{s^2-1:s\in S\setminus\{q\}\})\) and \(e=v_q(D)\). Use CRT to choose \(n_*\equiv a\bmod L,\ n_*\equiv r\bmod m,\ n_*\equiv\rho\bmod q^e\). Enlarge the step by powers of the old primes to freeze their valuations, without changing its \(q\)-adic valuation \(e\). On the resulting progression one can select \(v_q=e+1\) or \(e+2\); the parity argument above then forces a prime outside \(S\cup\{q\}\).
 
 For example \(a=0,\ L=5083=17\cdot13\cdot23\) excludes the first three pivots but admits 487: \(n=182988\) belongs to this class and \(R_n\equiv467\cdot487\bmod487^2\). Conversely \(a=0,\ L=17\cdot13\cdot23\cdot61\cdot103\cdot173\) excludes every row of the fixed table. This shows a limit of this table, not a counterexample to an arbitrary prescribed-class claim. In fact \(R_0=12794941\) is a prime \(1\bmod4\); for any fixed finite menu of pivot primes \(3\bmod4\), a common period modulo those primes makes the zero class miss all their activations. Arbitrary prescribed classes therefore need a varying pivot or another method.
+
+## Why a genuine pivot need not have a coprime period
+
+A prescribed class can retain a parity-changing pivot even when the pivot's period shares a prime with its modulus. For example the following exact finite local data use the same orbit, the same least signed period \(m\), and the slope of \(R_{r+mt}/q\bmod q\).
+
+| \(q\) | \(m\) | All activated phases \(r\bmod m\) | Slopes, in phase order |
+|---:|---:|---|---|
+| 79 | 13 | 4 | 23 |
+| 103 | 13 | none | none |
+| 1051 | 35 | 28 | 224 |
+| 1423 | 178 | 53, 59 | 172, 1251 |
+| 3727 | 466 | 316 | 1900 |
+
+For replay, compute \(G^j\bmod q\) in the quadratic residue algebra for \(1\le j\le m\) and the residual for \(0\le j<m\); the slopes are \((R_{r+m}-R_r)/q\bmod q\) using the two residues modulo \(q^2\). The same signed binomial lift as above then applies to every listed activated phase.
+
+For \(q=1051\) the order of the activated element \(G^{2r}\) modulo \(q\) is \(m/\gcd(m,r)=5\), even though the signed period is 35. For every \(k\ge1\), phase \(28\bmod35\) is compatible with \(n\equiv0\bmod7^k\), and \(1051\nmid7^k\), so deep valuation and both parities remain possible inside that class. Two controls at \(k=2\) are \(n=126518,126273\), with \(v_{1051}=1,2\) respectively. For any class \(a\bmod2^k\), an odd \(a\) can use phase 53 at 1423 and an even \(a\) can use phase 316 at 3727; again the odd-prime lifting remains free, although the period is even in each case. Thus the parity proof on a prescribed class cannot by itself guarantee that a newly forced prime also has period coprime to the class modulus. Conversely, 79 and 103 show that knowing an exact period alone does not guarantee even one activation of the actual residual.
