@@ -99,3 +99,14 @@ u=2^{13944}+5478876004446096141820128341025639,\qquad
 v=1621275203427700299744875168658198,\qquad n=2+u^2+v^2 .
 \]
 The composed lift coefficients are \(114,2\bmod167\), giving 93 values. Direct modular powering certifies all 225 cells positive with exact valuation one at 167 and zero at every observed inert prime (the largest is 139). The origin stays a genuine norm. This is a statement about a square of parameters, not a claim that every exponent pair in the enclosing rectangle fails.
+
+## A single outside prime is sparse in the full ordinary exponent box
+
+Let \(I=1+\lfloor\log_3 n\rfloor,\ J=1+\lfloor\log_5 n\rfloor\), and count ordinary exponents \(0\le c<I,\ 0\le d<J\), including odd exponents and the active boundary. For \(q\nmid15\), let \(r=\operatorname{ord}_q3,\ s=\operatorname{ord}_q5\), and let \(T_q(n)\) count roots of \(3^c+5^d\equiv n\bmod q\) in one full \(r\)-by-\(s\) period. On any subset of the box, the number of positive residuals with odd \(v_q(n-3^c-5^d)\) is at most
+\[
+ \min\{J\lceil I/r\rceil,\ I\lceil J/s\rceil,\
+       T_q(n)\lceil I/r\rceil\lceil J/s\rceil\}.
+\]
+For fixed \(d\), the equation modulo \(q\) allows at most one residue class of \(c\bmod r\); the symmetric bound and period bound follow the same way. An actual odd valuation must meet that equation. There are at least \((I-1)(J-1)\) positive-residual cells because the corresponding powers are at most \(n/3,n/5\). Finally \(q+1\le3^r\), so \(r\ge\log(q+1)/\log3\). For \(q>\sqrt{\log n}\), all these facts give a uniform \(O_\rho(1/\log\log n)\) upper bound on the odd-valuation fraction in any subset containing at least a fixed fraction \(\rho>0\) of the active box. No such assumption follows merely from calling the subset “the survivors”; the earlier chosen thin grids need not occupy a fixed positive fraction.
+
+For the exact \(q=59\) integer in the first section, the full ordinary active box has 4,562,522 cells. The blocker rejects 79,968 by odd valuation, of which 27 have valuation three. The subbox specified by \(4\cdot3^c,4\cdot5^d\le n\) contains 4,558,176 cells and has the same rejection count. With the observed panel \(p\equiv3\bmod4,\ p\le\sqrt{\log n}\), there are 3,349,436 exact even-valuation survivors, of which 58,669 are rejected at 59. These counts can be reproduced by computing the powers of 3 and 5 below \(n\), using positivity as a monotone end-of-row cutoff, precomputing residues modulo \(p^6\), and using direct integer division if a positive residual is zero modulo \(p^6\). This box-scale result does not bound the effect of an unbounded union of outside primes.
