@@ -32,3 +32,18 @@ Set \(Z=\overline P(F/P)\) and \(C=(1+2i)P(T_0)Z/\overline{P(T_0)}\). Then \(N(C
 | 4 | 634471019058071105066606174917196 | 6812203356564357120 | 12, 6, 10, 8 |
 
 These degrees are obtainable by Gaussian polynomial division followed by ordinary expansion; in particular both normalized differences are nonconstant. For the fixed \(b=2,\rho=-361,m=4\) atom, each of its two Gaussian quadratics is irreducible: the Gaussian norm of the root-square numerator is \((L\pm b)^2+m^2\), strictly between consecutive integer squares. After affine substitution their factors, and hence any conjugate-factor replacement, remain even about the same center. The leading normalized term is real up to a constant phase. After removing that phase the imaginary coordinate has degree at most two, so \(W-\operatorname{Re}Z\) is constant by the norm identity. Thus degree four cannot give two moving normalized differences in the affine-and-factor-conjugation model, and the degree-eight construction is minimal in this particular polynomial composition model. No analogous minimum over all rational parameterizations or all labels is asserted.
+
+## Addendum: degree eight for the second label as well
+
+The second label \(b=4,\rho=-359,m=8\) also has a quadratic pullback with an integral anchor, at a different rational vertex. It can use the original fixed line without the optional \(W\equiv26\bmod30\) refinement. Define
+\[
+\begin{aligned}
+K&=3396423802945926559710546764301829676144,\\
+J&=76273465814291347810541470372466491323521,\\
+x&=-276108016454435220001+1527312164800256i,\\
+y&=-6150534574215264056-34022142478336i,\qquad q=1+8i/359 .
+\end{aligned}
+\]
+Then \(2xy=K,\ x^2+y^2q=J\). Take \(h=(T^2-J)/K\) and \(P=T^2-2xT+2x^2-J\). Multiplication gives \(P(T)P(-T)=K^2(h^2-q)\); since \(X+8i+363=-359(h^2-q)\), \(P\mid F\) for the same formulas \(X,W,D,G,F\) above. In particular \(F/P=-359P(-T)(X+8i-363)/(16K^2)\). Direct expansion gives degrees \(8,4,7,6\) for \(W,D,\operatorname{Im}Z,W-\operatorname{Re}Z\), with \(Z=\overline P(F/P)\).
+
+At \(T_0=1069489203513072441433941376198344249\), the exact value \(h(T_0)=336768089847601474780357706171045\) is \(5\bmod10\). Substitution gives integral \(W,G,F\) with \(W\equiv1\bmod30\), so \(j=(W-1821)/5\) is still integral and the same parent and child residual formulas hold. The denominators for \(W,G,Z\) divide \(16K^4\), as seen using the formula for \(F/P\); the normalization \(C=(1+2i)P(T_0)Z/\overline{P(T_0)}\) adds at most \(N(P(T_0))\). Thus \(T=T_0+480K^4N(P(T_0))k\) makes the coordinates of \(G,C\) and \(W\) integer polynomials, all their nonconstant coefficients being divisible by 30. Consequently each integer \(k\) gives the same real label \((2,0;2,3)\) on an integral degree-eight double-moving orbit. The argument rules neither on other rational vertices nor on a degree reduction outside the fixed model.
