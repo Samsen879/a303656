@@ -20,3 +20,24 @@ Multiplication modulo \(M\) uses \((a,b)(c,d)=(ac+5bd,ad+bc)\bmod M\), with bina
 | 10268743 | 3 | The same old valuations are zero, and \(v_{79}(R_n)=1\). |
 
 The two indices agree modulo 67. In contrast, restricting to \(n=658+17\cdot67^2j\) fixes \(v_{67}=2\) identically by the lifted root criterion. This distinguishes a mod-prime activation from the actual ability to change its valuation parity on a prescribed subprogression.
+
+## Prescribed classes: a uniform result for up to five prime divisors
+
+For every \(L\) with at most five distinct prime factors, every prescribed \(a\bmod L\), and every finite \(S\) as above, a subprogression inside \(n\equiv a\bmod L\) has an odd-valuation prime outside \(S\) at each point.
+
+The following six pivots prove this. Here \(m\) is the first positive exponent with \(G^m=\pm1\bmod q\) in the quadratic residue algebra; \(r\) is an activated class modulo \(m\); and \(\rho\bmod q\) is the first digit of the unique index root for that class. The verification uses the modular multiplication above: check the first \(m\) powers modulo \(q\), evaluate \(R_r\) for \(0\le r<m\), and check that \(R_{r+mt}/q\bmod q\) has nonzero slope and a single root, at \(r+mt\equiv\rho\bmod q\).
+
+| \(q\) | \(m\) | \(r\) | \(\rho\bmod q\) |
+|---:|---:|---:|---:|
+| 67 | 17 | 12 | 55 |
+| 79 | 13 | 4 | 39 |
+| 139 | 23 | 17 | 5 |
+| 487 | 61 | 49 | 293 |
+| 619 | 103 | 7 | 145 |
+| 1039 | 173 | 37, 108 | 346, 607 respectively |
+
+For the lift at any of these simple roots, choose the sign of \(G^m\) that is 1 modulo \(q\); replacing its sign does not change \(R\). Raising this signed unit to \(q^j\) gives the same nonzero derivative coefficient at the next \(q\)-adic digit, as in the proof at 67. Thus to have arbitrarily deep valuations in the prescribed class, the exact compatibility tests are \(a\equiv r\bmod\gcd(L,m)\) and \(a\equiv\rho\bmod q^{v_q(L)}\), where \(\rho\) is the full lifted root.
+
+The six products \(qm\) are pairwise coprime. When \(L\) has at most five distinct prime factors, one product is coprime to \(L\) and both compatibility tests for that pivot are automatic. More generally any compatible pivot suffices: set \(D=\operatorname{lcm}(L,m,\{s^2-1:s\in S\setminus\{q\}\})\) and \(e=v_q(D)\). Use CRT to choose \(n_*\equiv a\bmod L,\ n_*\equiv r\bmod m,\ n_*\equiv\rho\bmod q^e\). Enlarge the step by powers of the old primes to freeze their valuations, without changing its \(q\)-adic valuation \(e\). On the resulting progression one can select \(v_q=e+1\) or \(e+2\); the parity argument above then forces a prime outside \(S\cup\{q\}\).
+
+For example \(a=0,\ L=5083=17\cdot13\cdot23\) excludes the first three pivots but admits 487: \(n=182988\) belongs to this class and \(R_n\equiv467\cdot487\bmod487^2\). Conversely \(a=0,\ L=17\cdot13\cdot23\cdot61\cdot103\cdot173\) excludes every row of the fixed table. This shows a limit of this table, not a counterexample to an arbitrary prescribed-class claim. In fact \(R_0=12794941\) is a prime \(1\bmod4\); for any fixed finite menu of pivot primes \(3\bmod4\), a common period modulo those primes makes the zero class miss all their activations. Arbitrary prescribed classes therefore need a varying pivot or another method.
