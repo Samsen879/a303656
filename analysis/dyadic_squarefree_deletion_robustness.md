@@ -244,3 +244,61 @@ assert all(3**(8*c) >= X >= 3**(4*c) for c in (18, 24))
 assert 5**93 >= X >= 5**62 and 2*min(old, m) >= n
 assert m == 889841198059910972404599**2 + 275335832956678969820835**2
 ```
+
+## Arbitrary fixed moduli: exact local feasibility criterion
+
+For each fixed modulus \(M\) and class \(b\), the deletion-resilient bulk-witness conclusion in the same windows holds on a positive fraction of the class if and only if the following test passes. If it fails, no sufficiently large target in the class has even one in-window witness.
+
+### The finite local test
+
+Ask whether there are **common actual exponent residues** for \(c\ge v_3(M)\) and \(d\ge v_5(M)\) such that \(m_0=b-3^c-5^d\bmod M\) passes the following checks.
+
+- At \(p^e\parallel M\) with \(p\equiv3\bmod4\), either \(m_0\equiv0\bmod p^e\), or its forced valuation below \(e\) is even.
+- At \(2^e\parallel M\), either \(m_0\equiv0\bmod2^e\), or, writing \(v=v_2(m_0)<e\), its odd part is \(1\bmod 2^{\min(2,e-v)}\).
+- At \(p^e\parallel M\) with \(p\equiv1\bmod4\), there is no restriction.
+
+For the odd part, when only one bit is known at 2 the test requires only that bit. The exponent test is finite. Beyond the indicated thresholds the nonunit parts of \(3^c\) and \(5^d\) vanish, and their remaining components are periodic. One must check a common pair of exponent classes across the whole modulus. If the test fails, the two-square valuation conditions rule out every sufficiently large witness in the original windows, since their minimum exponents tend to infinity.
+
+### From feasibility to robust positive proportion
+
+Given a passing pair, refine the **target** class so the residual has an exact valuation at each prime dividing \(M\). At an inert prime where the residual is zero modulo \(p^e\), prescribe the least even valuation at least \(e\). At a split prime with zero residue, prescribe valuation exactly \(e\). At a split prime with a forced nonzero valuation, retain it. At \(2\), refine far enough to fix both the valuation and the odd part modulo \(4\); if \(M\) is odd, prescribe valuation zero and odd part \(1\bmod4\) using a new modulus \(4\). All these choices are compatible with the original class. They prescribe the target residue after adding back the chosen \(3/5\) label.
+
+Let \(D\) be the product of the prescribed prime powers. It is a fixed two-square norm, since its inert exponents are even. Refine modulo one power beyond each prescribed odd-prime valuation, and two powers beyond the prescribed \(2\)-valuation. In the resulting modulus \(M'\), the normalized residual \(u=m/D\) occupies a **reduced** class modulo \(M'/D\) and satisfies \(u\equiv1\bmod4\). Freeze both exponent residues modulo their periods at \(M'\). This leaves \(\asymp\log X\) actual exponents on each axis of the original windows.
+
+The squarefree split-prime construction above applies to this reduced class: if \(A\) is the small-prime product, omit primes dividing the fixed progression modulus and require the unique large prime to be in the prescribed class times \(A^{-1}\). The progression is reduced and has residue \(1\bmod4\). This supplies \(\gg X/\sqrt{\log X}\) such \(u\) with \(X\le Du\le3X/2\). This isolates all forced higher split-prime powers in \(D\) while keeping \(u\) squarefree. The ordinary residual \(Du\) is a two-square norm by multiplication of norms. Adding the actual label gives \(n\in[X,2X]\) and \(Du\ge n/2\) for sufficiently large \(X\). [Draft norm construction](https://github.com/Samsen879/a303656/pull/82/files) · [Williams, *Mertens’ Theorem for Arithmetic Progressions*](https://people.math.carleton.ca/~williams/papers/pdf/057.pdf)
+
+For a label gap \(h\), the odd primitive cores have integer gap \(h/D\). The pair bound at that gap is at most \(O((X/\log X)|h|/\varphi(|h|))\). The varying bases are still fixed powers of \(3\) and \(5\), so the edge second moment is \(O(X(\log X)^3)\) and the summed degree energy is \(O(X(\log X)^2)\). The draft’s deletion and matching argument then gives \(\gg X\) distinct targets in the chosen refinement, each retaining \(\gg(\log X)^{3/2}\) edges and \(\gg\sqrt{\log X}\) edge-disjoint matchings of size \(\gg\log X\) after the permitted deletions. Because \(M'\) is fixed, this is a positive fraction of the original class as well. [Radomskii, Example 2 and Lemma 3.1](https://arxiv.org/html/2504.09954v7) · [Draft matching argument](https://github.com/Samsen879/a303656/pull/82/files)
+
+In particular, **every lift of an already feasible class by arbitrary fixed split-prime powers is feasible**. Keep the old exponent residues and take \(d\) sufficiently large if a power of \(5\) has been added. The new split components need no local test. For a modulus containing a simultaneous-Wieferich candidate, the finite test above is the explicit hypothesis. This result gives no density claim for such primes, no uniform estimate as \(M\) grows, and no pointwise solution of A303656. [Sun, Conjecture 4.1(i)](https://arxiv.org/abs/1701.05868)
+
+### Exact same-target replay
+
+At \(X=10^{10}\), take \(n=10203860018\). The actual label \((5,5)\) gives
+\[
+n-3^5-5^5
+=(18\cdot 5^2\cdot13^3)\cdot10321
+=92499^2+40593^2.
+\]
+Here \(10321\) is a split prime. The coarse modulus is \(216\cdot5^2\cdot13^2\), and the deeper modulus \(216\cdot5^3\cdot13^4\) fixes the exact split valuations \(2,3\). At the same target, the actual label \((3,5)\) leaves a bulk positive residual that is \(42\bmod49\) and fails the two-square test. Independent exact replay:
+
+```python
+from math import gcd, isqrt
+
+X, n = 10**10, 10203860018
+M = 216*5**2*13**2
+refined = 216*5**3*13**4
+D, u = 18*5**2*13**3, 10321
+
+m = n - 3**5 - 5**5
+bad = n - 3**3 - 5**5
+assert (n % M, n % refined) == (79418, 178949018)
+assert m == D*u == 92499**2 + 40593**2
+assert u % 4 == 1 and all(u % j for j in range(2, isqrt(u)+1))
+assert refined % D == 0 and gcd(u, refined//D) == 1
+assert m % 216 == 18
+assert m % 5**2 == 0 and m % 5**3 != 0
+assert m % 13**3 == 0 and m % 13**4 != 0
+assert bad % 49 == 42 and 2*min(m, bad) >= n
+assert X <= n <= 2*X and 5**15 >= X >= 5**10
+assert all(3**(8*c) >= X >= 3**(4*c) for c in (3, 5))
+```
