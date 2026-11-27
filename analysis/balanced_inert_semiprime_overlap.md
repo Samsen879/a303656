@@ -214,3 +214,89 @@ inert = [p for p in range(3, 100, 4)
 assert B == 74 and [p for p in inert if p > B][:2] == [79, 83]
 assert all(61 % p for p in inert if p <= B) and 61 < 79*83
 ```
+## Joint-lattice all-range estimate and the first-occupancy gap
+
+The two prime-square reductions give a joint lattice bound over the **full exponent ranges**. For a lifted balanced pair \(p,q\), put \(H=\log X\) and \(r=\operatorname{ord}_{pq}(9)\). Under the order bounds below, the number of nonidentity catalogue triples is
+\[
+O(Hr+H^{39/20}).
+\]
+Thus \(r\ll H/(\log H)^5\) gives the required logarithmic saving per pair, including triples with \(t\) or \(|k-\ell|\) comparable to \(H\). For \(r\asymp H\), the argument isolates the remaining cost. It comes from counting the **first** solution in each coarse class, while the aggregate cost of additional solutions has a power saving.
+
+### Use both prime squares after fixing the coarse exponents
+
+Take distinct inert primes \(p,q\in[2\sqrt H,3\sqrt H]\), and assume both orders of \(9\) lift. Write \(r_p=\operatorname{ord}_p(9)\), \(r_q=\operatorname{ord}_q(9)\), and assume
+\[
+r_p,r_q\gg H^{1/4}/(\log H)^2,\qquad
+r=\operatorname{lcm}(r_p,r_q)\gg H^{7/20}.
+\]
+The bounds at the primes are the elementary almost-all pair bounds from the preceding reduction. Lifting remains a separate hypothesis.
+
+Consider
+\[
+D=9^k-1-9^t(9^\ell-1),\qquad k,\ell>0,\quad t\ge0,
+\quad \max(k,t+\ell)<N,\quad N\asymp H.
+\]
+First consider \(j=t+\ell-k\bmod r\) with \(9^j-1\) a unit modulo \(pq\). For each \(t_0=t\bmod r\) and \(j\), the coarse equation
+\[
+9^{k_0}(1-9^j)\equiv1-9^{t_0}\pmod{pq}
+\]
+determines at most one \(k_0\bmod r\), hence at most one \(\ell_0\bmod r\).
+
+Now fix an actual \(t\equiv t_0\bmod r\) and write \(k=k_0+rx\), \(\ell=\ell_0+ry\). At each prime \(v=p,q\), write \(9^r=1+v u_v\bmod v^2\). Lifting makes \(u_v\) a unit. Binomial expansion and division by \(v\) give an affine condition with homogeneous part \(x-9^j y\bmod v\). Together the conditions give a coset of the lattice
+\[
+\Lambda_j=\{(x,y):x\equiv9^j y\bmod pq\},
+\]
+of determinant \(pq\asymp H\). All actual exponent restrictions fit inside a box of side \(K=O(H/r)\). This uses the square conditions jointly and keeps the exponent endpoints in the count.
+
+### Average the short-vector cost
+
+If \(\lambda_j\) is the shortest nonzero sup-norm length in \(\Lambda_j\), the box contains
+\[
+O(1+K/\lambda_j+K^2/H)
+\]
+points of any coset. This follows by counting lines parallel to a shortest vector. Their spacing is the determinant divided by its length. [Two-dimensional lattice counting, Appendix A](https://www.sciencedirect.com/science/article/pii/S0022314X25001489)
+
+For \(U<\min(p,q)\), a nonzero vector of length at most \(U\) determines \(9^j\bmod pq\) uniquely: its second coordinate is nonzero and invertible modulo both primes. Hence only \(O(U^2)\) slopes can have \(\lambda_j\le U\). Summing the reciprocal lengths gives \(\sum_{j\bmod r}\lambda_j^{-1}\ll\sqrt r\), including the lengths at least \(\min(p,q)\). There are at most \(r\) coarse values of \(t_0\) and \(O(K)\) lifts of each. The resulting bound is
+\[
+O\!\left(Hr+\frac{H^2}{\sqrt r}+\frac{H^2}{r}\right).
+\]
+If a box has two or more solutions, their difference has length \(O(K)\), so the latter two terms also bound the cost **beyond the first point per occupied box**.
+
+The slopes with \(9^j-1\) a nonunit cost \(O(H^{39/20})\) over the full box. In the linearization in \(9^\ell\), degeneracy at \(p\) forces \(r_p\mid t,k-\ell\). If only one prime is degenerate, the other lifted order gives a power saving. If both coefficients have valuation one at both primes, the count is \(O(H^3/r^3)=O(H^{39/20})\). If both vanish modulo either prime square, their two short-order divisibilities are replaced by divisibility by the lifted order, giving \(O(H^{3/2}(\log H)^4)\). These estimates exclude the identity \(t=0,\ k=\ell\).
+
+The required small joint order and prime-square lifting have not been shown for a sufficiently frequent subfamily at its own second-moment scale. For large joint order, the outstanding estimate is the number of occupied coarse boxes, not their additional lattice points.
+
+### New exact replay
+
+For \(p=19,q=23\), the coarse order is \(r=99\), and the order modulo \(437^2\) is \(43263\). The triple \((4,57,52)\) satisfies the full congruence. Its slope is \(9^{105}\equiv49\bmod437\). The vector \((4,9)\) lies in the homogeneous lattice, giving a second, long-span solution \((400,948,52)\). In contrast, the change \((1,0)\) preserves the coarse congruence but fails the square conditions.
+
+Separately, the same factor gives an actual positive residual at \(n=10121371\). The label \((2,1)\) leaves \(437^2\cdot53=874^2+3059^2\). The screen at \(a=1\) is \(197\), and the stripped cofactor \(53\) is below \(199\cdot211\). The following standard-library replay checks these assertions.
+
+```python
+from math import gcd, isqrt, log
+
+def order(b, m):
+    x, r = b % m, 1
+    while x != 1:
+        x, r = x*b % m, r+1
+    return r
+
+def D(k, ell, t):
+    return 9**k - 1 - 9**t*(9**ell - 1)
+
+s, r = 437, 99
+M = s*s
+assert order(9, s) == r and order(9, M) == r*s
+assert pow(9, 105, s) == 49 and (4 - 49*9) % s == 0
+assert D(4, 57, 52) % M == D(400, 948, 52) % M == 0
+assert D(103, 57, 52) % s == 0 and D(103, 57, 52) % M != 0
+assert gcd((9**4-1)*(9**57-1)*(9**105-1), s) == 1
+
+n = 10121371
+assert n - 3**2 - 5 == M*53 == 874**2 + 3059**2
+B = int(n**0.5 / log(n))
+inert = [p for p in range(3, 220, 4)
+         if all(p % d for d in range(2, isqrt(p) + 1))]
+assert B == 197 and [p for p in inert if p > B][:2] == [199, 211]
+assert all(53 % p for p in inert if p <= B) and 53 < 199*211
+```
