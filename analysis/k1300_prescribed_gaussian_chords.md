@@ -2,7 +2,7 @@
 
 For A303656, two pairs of actual power labels have simultaneous primitive Gaussian chords at one 1301-bit target. This is a finite exact construction, and does not imply an unbounded family, arbitrary-target coverage, or a solution to the conjecture.
 
-Use \(A=9^L,\ B=25^L,\ L=13\), and the two lower offsets \(H=27A+5B,\ J=3A+125B\). These are the sums of the power labels \((2L+3,L+1),(2L+1,L+3)\). The upper endpoints in norm are given by subtracting the offsets \(H-2D=9A+B\) and \(J-2E=A+25B\), with \(D=9A+2B,\ E=A+50B\). The common target \(n=J+2(t^2+c^2)\) has \(c=(E-1)/2\). The two first endpoints have half-norms \(t^2+U\) and \(t^2+V\), with \(U=c^2+(J-H)/2,\ V=U+D\).
+Use \(A=9^L,\ B=25^L,\ L=13\), and the two lower offsets \(H=27A+5B,\ J=3A+125B\). These are the sums of the power labels \((2L+3,2L+1),(2L+1,2L+3)\). The upper endpoints in norm are given by subtracting the offsets \(H-2D=9A+B\) and \(J-2E=A+25B\), with \(D=9A+2B,\ E=A+50B\). The common target \(n=J+2(t^2+c^2)\) has \(c=(E-1)/2\). The two first endpoints have half-norms \(t^2+U\) and \(t^2+V\), with \(U=c^2+(J-H)/2,\ V=U+D\).
 
 For either \(W=U,V\), let \(s=c-64\), \(u=x^2+W-s^2,\ v=2xs,\ G=v-iu,\ Q=u^2+v^2\). If \(2x\) is invertible modulo \(Q\), the congruence
 \[
