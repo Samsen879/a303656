@@ -145,3 +145,115 @@ assert hits(n, exponents(zero, pin=0)) == set(P)
 ```
 
 The growing inconsistency requires the prescribed coarse stratum. The last replay assertion demonstrates why the distinction matters: freeing the center’s pinned digit restores a common hit at the original target. This is separate from the project’s restricted active-shift obstructions and does not bound the ordinary height of the witnesses. [Public theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+## Finite internal pin and a necessary dependency path
+
+Two exact auxiliary rows can pin a center digit **without a prescribed coarse stratum**. I verified a native example at primes \(7,547,883\): the auxiliaries force \((c,d)\equiv(0,33)\pmod{42}\), which makes the center fail. Removing any row restores feasibility at the same target.
+
+I also proved an obstruction for extending the star. A center whose target has valuation one can be relaxed to its prime-level equation unless a chain of actual order divisibilities reaches it from a row with a unit target. I did not establish auxiliary pins for arbitrarily large stars.
+
+## Which auxiliaries can force a lift digit?
+
+For each row prime \(q>5\), write \(L_{q,b}=\operatorname{ord}_{q^2}(b)\) for \(b=3,5\). Use the following set of rows:
+
+1. Start with the rows for which \(q\nmid n\).
+2. Add a row at \(p\) with \(v_p(n)=1\) whenever \(p\mid L_{q,b}\) for some already included row \(q\) and some base \(b\).
+3. Repeat until no row can be added.
+
+**Normalization lemma.** For all rows with \(v_p(n)=1\) outside this set, replace the exact valuation-one condition by its divisibility condition modulo \(p\). This preserves feasibility of the full panel over unrestricted nonnegative exponents. In fact, any solution of the relaxed panel can be converted to an exact solution by setting both exponents’ \(p\)-primary components to zero simultaneously at all the relaxed rows.
+
+To prove it, work modulo the lcm of the full orders in each coordinate. Reset those odd primary components by CRT. Every included row retains both full order residues by construction. At every other row \(q\), the prime-level equation is \(3^c=-5^d\bmod q\). In discrete logs, its right side has order two, so all its odd primary equations are homogeneous. Resetting the selected components to zero preserves these equations.
+
+Once the prime-level match holds, \(-3^c/5^d\bmod q^2\) belongs to the kernel of reduction modulo \(q\). Its value depends only on the \(q\)-primary exponent components. If \(q^2\mid n\), these components were left alone and the exact hit is preserved. At a relaxed row, the reset makes the ratio 1 modulo \(q^2\), so \(3^c+5^d\equiv0\pmod{q^2}\). Since \(v_q(n)=1\), this gives the exact hit.
+
+In particular, adding only auxiliaries whose targets vanish modulo their row primes cannot internalize the star’s nonzero center lift digit. More generally, an auxiliary mechanism that prevents this reset must reach the center from a unit-target row. For distinct odd rows, an order-divisibility step \(q\to p\) requires \(p\mid q-1\), hence \(q\ge2p+1\). A chain of \(j\) steps to center \(p\) must begin at a unit-target prime at least \(2^j(p+1)-1\).
+
+## A native internal pin
+
+Take the target residues
+\[
+n\equiv(14,\ 262793,\ 558102)\pmod{(7^2,\ 547^2,\ 883^2)}.
+\]
+Their least nonnegative CRT representative is \(10{,}538{,}571{,}804{,}544\). The auxiliary targets are units at 547 and 883. The actual orders are:
+
+| Prime | Orders of \(3,5\) modulo \(p\) | Orders modulo \(p^2\) |
+|---:|---:|---:|
+| 7 | \(6,6\) | \(42,42\) |
+| 547 | \(14,546\) | \(7658,298662\) |
+| 883 | \(126,126\) | \(111258,111258\) |
+
+The two auxiliary relations, projected onto \((c\bmod42,d\bmod42)\), intersect in exactly \(\{(0,33)\}\). This internally fixes \((c,d)\equiv(0,5)\pmod7\) and the rest of the center’s order residues. The auxiliary prime-square lifting factors are private, so their prime-level projections are exact. At 7 the full periods are needed: the forced shift is \(14\bmod49\), equal to the target, and the residual is zero modulo 49.
+
+| Row removed | Exact-hit witness \((c,d)\) for the remaining rows |
+|---:|---:|
+| 7 | \((0,75)\) |
+| 547 | \((40,5)\) |
+| 883 | \((36,375)\) |
+
+Changing only the center residue from 14 to 21 gives the positive control \(n=740{,}393{,}232{,}502\), where \((0,75)\) hits all three rows.
+
+This is an unrestricted, deletion-minimal exact-hit obstruction and uses only explicitly verified primes and orders. It does not establish a growing family of internal pins or an ordinary-height bound. It also differs from the public project’s N-009, which concerns restricted active-shift families. [Public theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+
+## Inline exact replay
+
+The standard-library replay uses the full prime-square orders at the center, checks the private lifting conditions at the auxiliaries, and verifies the deletion witnesses and control.
+
+```python
+from itertools import product
+from math import gcd, isqrt, prod
+
+P = (7, 547, 883)
+T = (14, 262793, 558102)
+G = set(product(range(42), repeat=2))
+
+def cycle(q, m):
+    values = [1]
+    while values[-1]*q % m != 1:
+        values.append(values[-1]*q % m)
+    return values
+
+assert all(all(p % d for d in range(2, isqrt(p)+1)) for p in P)
+h = {p: tuple(len(cycle(q,p)) for q in (3,5)) for p in P}
+L = {
+    p: tuple(b*(p if pow(q,b,p*p) != 1 else 1)
+             for q,b in zip((3,5),h[p]))
+    for p in P
+}
+assert list(h.values()) == [(6,6),(14,546),(126,126)]
+assert list(L.values()) == [(42,42),(7658,298662),(111258,111258)]
+for p in P[1:]:
+    assert all(b % p for r in P if r != p for b in L[r])
+    assert any(a != b for a,b in zip(h[p],L[p]))
+for i,p in enumerate(P):
+    for r in P[:i]:
+        assert all(42 % gcd(x,y) == 0 for x,y in zip(L[p],L[r]))
+
+def projected(p, t):
+    u,v = (gcd(42,b) for b in h[p])
+    A,B = (cycle(q,p) for q in (3,5))
+    allowed = {(c % u,d % v) for c,x in enumerate(A)
+               for d,y in enumerate(B) if (x+y-t) % p == 0}
+    return {(c,d) for c,d in G if (c % u,d % v) in allowed}
+
+def hit(n, p, c, d):
+    m = p*p
+    r = (n-pow(3,c,m)-pow(5,d,m)) % m
+    return r != 0 and r % p == 0
+
+def target(residues):
+    M = prod(p*p for p in P)
+    return sum(r*(M//(p*p))*pow(M//(p*p),-1,p*p)
+               for r,p in zip(residues,P)) % M
+
+pin = set.intersection(*(projected(p,t) for p,t in zip(P[1:],T[1:])))
+assert pin == {(0,33)}
+assert not any(hit(T[0],7,c,d) for c,d in pin)
+
+n = target(T)
+assert n == 10538571804544
+for removed,w in zip(P, [(0,75),(40,5),(36,375)]):
+    assert {p for p in P if hit(n,p,*w)} == set(P)-{removed}
+
+control = target((21,*T[1:]))
+assert control == 740393232502
+assert all(hit(control,p,0,75) for p in P)
+```
