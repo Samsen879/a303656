@@ -76,3 +76,77 @@ assert bad > 0 and bad % 19 == 0 and bad % 19**2 == 209
 ```
 
 This is a gap bound for ordinary witnesses. The construction may place different labels at different integers, so it provides neither a positive-fraction estimate nor the robust matchings of PR #86. In the class of a specified target \(T\), it certifies \(N>T\) with \(N-T\) a multiple of \(Q\). The witness is an exact representation of \(N\), and the representability of \(T\) remains open.
+
+## Synchronizing two fixed mixed labels in a compatible class
+
+**Two actual labels can share a target within \(O(\sqrt{QX}+Q)\) above any prescribed height in an explicit class modulo \(Q=27\cdot2^k\).** Both exponent axes change. The class depends on the chosen pair of labels, which stays fixed throughout the height window. The gap is sublinear when \(Q=o(X)\). An exact control below shows that other classes can contain common targets for the very same labels even when this particular progression misses the entire class. This extends the single-witness construction in a different direction. [Draft PR #89](https://github.com/Samsen879/a303656/pull/89)
+
+### A shared progression for two labels
+
+For all sufficiently large \(X\), choose the least \(c,d\) with \(3^c\ge X^{1/8}\) and \(5^d\ge X^{1/3}\). The labels
+\[
+L_0=3^c+5^d,\qquad L_1=3^{c+1}+5^{d+1}
+\]
+both satisfy the original windows \(X^{1/8}\le3^e\le X^{1/4}\) and \(X^{1/3}\le5^f\le X^{1/2}\). In particular \(3^{c+1}\le9X^{1/8}\) and \(5^{d+1}\le25X^{1/3}\).
+
+Put
+\[
+h=\frac{L_1-L_0-2}{4}=\frac{3^c-1}{2}+5^d,\qquad C=L_1+2h^2.
+\]
+For every integer \(z\),
+\[
+\boxed{C+2z^2
+=L_1+(h+z)^2+(h-z)^2
+=L_0+(h+z+1)^2+(h-z+1)^2.}
+\]
+Take absolute values for nonnegative norm coordinates. The identity follows because adding \(1\) to both coordinates increases the norm by \(4h+2=L_1-L_0\). Conversely, any common representation with exactly this signed coordinate shift must have the unshifted coordinates sum to \(2h\), so this mechanism gives exactly the progression \(C+2z^2\).
+
+Since \(C=O(X^{2/3})\), its quadratic term can be rounded at ordinary height. For the class \(b=C\bmod Q\), the exact condition is
+\[
+C+2z^2\equiv C\pmod Q
+\quad\Longleftrightarrow\quad
+P\mid z,\qquad P=9\cdot2^{\lceil(k-1)/2\rceil}\asymp\sqrt Q .
+\]
+For any integer \(T\in[X,2X]\), take the first multiple of \(P\) strictly above \(\sqrt{(T-C)/2}\). Its target \(N\) satisfies
+\[
+0<N-T\le 4P\sqrt{(T-C)/2}+2P^2=O(\sqrt{QX}+Q).
+\]
+Both residuals are at least \(N/2\) for sufficiently large \(X\). For \(Q=o(X)\), consecutive outputs of this progression at height \(\asymp X\) are separated by \(4Pz+2P^2\asymp\sqrt{QX}\). Thus the gap bound has the correct order for this progression itself.
+
+More generally, the exact compatibility test for a class \(b\bmod Q\) is that \(b-C\) be even and \((b-C)/2\) be a square modulo \(Q/2\). If the test passes, a single root class modulo \(Q/2\) gives a gap \(O(Q\sqrt X+Q^2)\) by the same rounding argument. The smaller step in the class \(C\bmod Q\) comes from the divisibility condition on roots of zero.
+
+### Exact positive and control
+
+At \(X=10^{12}\), take the pair \((4,6),(5,7)\), which is in the stated windows, and \(Q=27\cdot2^{12}\). The class \(C\bmod Q\) is \(55522\). The first output above \(10^{12}\) in that class is \(1\,001\,116\,661\,986\).
+
+There is also a common target \(1\,000\,006\,088\,738\) in class \(47138\bmod Q\), obtained by the signed shift \((1,3)\). The entire class is inaccessible to the \((1,1)\) shift, since \(N-C\equiv1\bmod3\) there and \(2z^2\bmod3\) takes only the values \(0,2\). This isolates the obstruction to the fixed coordinate shift.
+
+```python
+from math import isqrt
+
+X = 10**12
+Q, P = 27 * 2**12, 9 * 2**6
+c, d = 4, 6
+L0, L1 = 3**c + 5**d, 3**(c+1) + 5**(d+1)
+h = (L1 - L0 - 2) // 4
+C = L1 + 2*h*h
+
+for e, f in ((c, d), (c+1, d+1)):
+    assert 3**(4*e) <= X <= 3**(8*e)
+    assert 5**(2*f) <= X <= 5**(3*f)
+
+z = P * (isqrt((X-C)//2) // P + 1)
+N = C + 2*z*z
+assert C + 2*(z-P)**2 <= X < N
+assert N == 1001116661986 and N % Q == C % Q == 55522
+assert N == L1 + (h+z)**2 + (h-z)**2
+assert N == L0 + (h+z+1)**2 + (h-z+1)**2
+
+x, y = -945507, 325611
+other = L1 + x*x + y*y
+assert other == L0 + (x+1)**2 + (y+3)**2 == 1000006088738
+assert X < other <= 2*X and other % Q == 47138
+assert (other-C) % 3 == 1
+```
+
+The result is a gap guarantee in a compatible class for a fixed pair. It certifies two representations of the same output \(N>T\). It does not certify the specified integer \(T\), and the progression alone gives no positive-fraction or robust-matching theorem.
