@@ -53,3 +53,62 @@ for residue,(n,edges) in enumerate(data):
             assert any(all(edges[i][j]!=v for i in B) for B in choices)
 print('eight mod-8 squarefree deletion controls passed')
 ~~~
+
+## Refinement to mod 24 and a true squarefree-only ceiling
+
+### Mod-\(24\) refinement and obstruction
+
+A positive squarefree two-square residual is never divisible by \(3\). Since \(c>0\) throughout the windows for large \(X\), a fixed \(d\)-parity therefore excludes \(n\equiv5^d\bmod3\). In the draft’s chosen parity box, this rules out one third of each mod-\(8\) class.
+
+For **even** targets, a squarefree norm residual is always \(2\bmod8\), so the target residue modulo \(8\) forces both label parities, even if the whole window is allowed. The forbidden classes modulo \(24\) are
+\[
+\boxed{2,\ 4,\ 8,\ 22.}
+\]
+This proves the \(5/6+O(1/X)\) ceiling for squarefree residuals in the full windows, before any exponent deletion.
+
+For **odd** targets, the residual can be \(1\) or \(5\bmod8\). Switching between them switches the required \(d\)-parity, so one can avoid the forbidden mod-\(3\) value in every odd mod-\(24\) class. To obtain a positive fraction in each of the resulting 20 classes, fix the admissible parity box and prescribe the residual modulo \(24\). In the draft’s \(Aq\) construction, omit the prime \(3\) and choose \(q\) in the reduced class that gives the required odd residual. For even residuals, apply the same construction to half the residual and multiply by \(2\). The reciprocal-product and fixed-progression estimates keep the same order of magnitude. The energy upper bounds continue to hold on the smaller target class, and the matching proof carries over unchanged. This gives positive-proportion coverage within each admissible class. Density one within those classes and unrestricted A303656 remain open. [Williams, *Mertens’ Theorem for Arithmetic Progressions*](https://people.math.carleton.ca/~williams/papers/pdf/057.pdf) · [Sun, Conjecture 4.1(i)](https://arxiv.org/abs/1701.05868)
+
+### Exact same-target replay in the windows
+
+At \(X=10^{10}\), the actual axes are \(c\in\{3,4,5\}\) and \(d\in\{5,6,7\}\). At \(n=10000000051\equiv19\bmod24\), the original residual-\(1\bmod8\) box has just \((4,6)\), whose residual is divisible by \(3\). The alternative residual-\(5\bmod8\) box gives **two genuine squarefree witnesses at the same target**:
+\[
+\begin{aligned}
+n-3^4-5^5&=11693^2+99314^2,\\
+n-3^4-5^7&=2263^2+99974^2.
+\end{aligned}
+\]
+For the even obstruction, \(1000016\equiv8\bmod24\) at \(X=10^6\) has an ordinary in-window norm residual \(309^2+951^2\) at \((2,3)\). It is divisible by \(9\), as the squarefree obstruction permits. The following standard-library checks verify these in-window controls.
+
+```python
+from math import isqrt
+
+def axes(X):
+    return ([c for c in range(30) if 3**(8*c) >= X >= 3**(4*c)],
+            [d for d in range(30) if 5**(3*d) >= X >= 5**(2*d)])
+
+def squarefree(m):
+    return all(m % (j*j) for j in range(2, isqrt(m) + 1))
+
+def residual(n, c, d):
+    return n - 3**c - 5**d
+
+X, n = 10**10, 10000000051
+C, D = axes(X)
+assert X <= n <= 2*X and n % 24 == 19
+assert (C, D) == ([3, 4, 5], [5, 6, 7])
+assert [(c, d) for c in C for d in D
+        if residual(n, c, d) % 8 == 1] == [(4, 6)]
+assert residual(n, 4, 6) % 3 == 0
+for c, d, x, y in [(4, 5, 11693, 99314), (4, 7, 2263, 99974)]:
+    m = residual(n, c, d)
+    assert c in C and d in D and 2*m >= n
+    assert m == x*x + y*y and m % 8 == 5 and squarefree(m)
+
+X, n = 10**6, 1000016
+C, D = axes(X)
+assert X <= n <= 2*X and n % 24 == 8
+assert [(c, d) for c in C for d in D
+        if residual(n, c, d) % 8 == 2] == [(2, 3)]
+m = residual(n, 2, 3)
+assert 2*m >= n and m == 309**2 + 951**2 and m % 9 == 0
+```
