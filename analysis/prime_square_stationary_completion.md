@@ -161,3 +161,70 @@ for i in range(r):
     assert gcd(shifted, s) == 1
     assert (shifted*L-alpha*L) % R == s*i % R
 ```
+## Single-scale equivalence for the full-log criterion
+
+The Fejér criterion is **necessary and sufficient at one full-log scale**. The longer-distance terms do not require separate estimates. For the balanced lifted layer, the narrow Fourier budget is equivalent to bounding the number of ordered exponent pairs at full-log distance \(H/(\log H)^5\) by \(O(H^2/(\log H)^{10})\). I did not establish that arithmetic bound for the growing moduli.
+
+### A single-scale equivalence
+
+Let \(H=\log X\), \(M=(pq)^2\), \(G=(\mathbb Z/M\mathbb Z)^\times\), and \(\Gamma=\langle9\rangle\) of order \(R\). Use the actual exponent interval \(I\), retaining \(e\) when \(z_e=1-9^e\bmod M\) is a unit. Keep multiplicities. Inside each coset of \(\Gamma\), choose an origin and give \(z_e\) its full log coordinate in \(\mathbb Z/R\mathbb Z\). Define \(C(D)\) to count ordered pairs in the same coset with circular log distance at most \(D\), including the diagonal.
+
+For \(2\le A\le R/4\), let \(\mathcal M(A)\) be the normalized mass of \(|\sum_{e\in I}\chi(z_e)|^2\) over characters with \(\chi(9)=\exp(2\pi i\alpha/R)\) and \(|\alpha|\le A\). Then, with absolute constants,
+\[
+\boxed{\quad \mathcal M(A)\asymp \frac AR\,C(R/A).\quad}
+\]
+
+For the lower bound, average over the extensions of each restriction and use triangular weights of bandwidth \(A\). The resulting Fejér kernel is \(\gg A\) at log distances at most \(R/(10A)\). For the upper bound, twice the triangular weight of bandwidth \(2A\) majorizes the sharp frequency cutoff. Its kernel is \(O(A(1+A|L|_R/R)^{-2})\) at full log difference \(L\). [NIST DLMF, Fejér kernel](https://dlmf.nist.gov/1.15.E15)
+
+The step that closes the comparison is
+\[
+C(kD)\ll(k+1)C(D),\qquad k\ge1.
+\]
+Partition each log circle into arcs of lengths between \(D/2\) and \(D\). If their occupancies are \(n_j\), then \(\sum n_j^2\le C(D)\). A distance at most \(kD\) joins only \(O(k+1)\) neighboring arcs for each arc. Applying \(2n_i n_j\le n_i^2+n_j^2\) proves the bound. It compares the two constant-factor scales in the lower bound and makes the dyadic upper tail summable.
+
+For the lifted balanced layer, \(R\asymp H^2\) and \(A\asymp R(\log H)^5/H\). This gives the stated equivalence. The imprimitive contribution is \(O(\sqrt H)\) by orthogonality modulo \(pq^2\) and \(p^2q\), so the same criterion applies to the doubly primitive mass at the required scale. The comparison itself uses no lifting assumption.
+
+### Order and thinning costs
+
+If \(N\) eligible exponents remain, equality \(z_e=z_f\bmod M\) holds exactly when \(e\equiv f\bmod R\). Consequently,
+\[
+C(0)\ge N^2/R.
+\]
+At the bandwidth above, a family with \(N\asymp H\) and \(R=o((\log H)^{10})\) therefore fails the narrow-mass budget. More generally, if \(N_0\) exponent values lie in log arcs of width \(D\) occupying only \(K\) bins across all cosets, their contribution to \(C(D)\) is at least \(N_0^2/K\). These are full-order and concentration obstructions. In the large-order lifted case, the period bound alone leaves room for the desired spacing.
+
+The comparison also quantifies what a generic thinning argument buys. On the eligible exponents, join two distinct vertices if their full-log distance is at most \(D\) in the same coset. The random-order independent-set argument guarantees a separated subset of size at least \(N^2/C(D)\). At \(N\asymp H\), even the desired bound \(C(D)\ll H^2/(\log H)^{10}\) guarantees only a subset of order \((\log H)^{10}\) by this argument. Keeping all \(5\)-exponents would then retain only a vanishing fraction of the base-\(9\) axis. A thinning proof needs a stronger structural estimate to retain a constant fraction of the witnesses. I did not obtain one. [Repository status](https://github.com/Samsen879/a303656/blob/main/STATUS.md)
+
+### New exact inline replay
+
+The replay checks two actual exponent intervals, with \(e\) corresponding to the label \(3^{2e}+5\). For \(s=437\), the square-modulus period is \(43263\). For \(s=77\), the period is \(105\), and the interval \(1\le e\le420\) repeats each eligible residue four times. The latter gives \(C(0)=896=4\cdot224\) exactly.
+
+```python
+from math import gcd
+
+def replay(s, N, distances):
+    M = s*s
+    logs, x = {}, 1
+    while x not in logs:
+        logs[x] = len(logs)
+        x = x*9 % M
+    R = len(logs)
+
+    values = [(1-pow(9, e, M)) % M for e in range(1, N+1)]
+    units = [z for z in values if gcd(z, s) == 1]
+    pair_logs = []
+    for z in units:
+        for w in units:
+            k = logs.get(z*pow(w, -1, M) % M)
+            if k is not None:
+                pair_logs.append(min(k, R-k))
+    return R, len(units), [
+        sum(k <= D for k in pair_logs) for D in distances
+    ]
+
+assert replay(437, 150, [0, 10, 20, 40, 80]) == (
+    43263, 122, [122, 132, 132, 138, 146]
+)
+assert replay(77, 420, [0, 1, 2, 4, 8]) == (
+    105, 224, [896, 896, 896, 896, 896]
+)
+```
