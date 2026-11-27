@@ -300,3 +300,153 @@ for a,row in enumerate(W):
     assert (T[1]%q,T[2]%r) == (t,u)
     assert w[0]%p*p+w[1]%p == a
 ```
+## All-inert full pins at center 23, preserving all full center residues
+
+**Center 23 has full two-dimensional pin coverage with every row prime \(3\bmod4\).** The guards are 599 and 6211. For each of the \(23^2=529\) digit pairs, I verified one integer target that pins the pair, makes both guards essential, and admits an exact hit at the center. At each such target, **every** full center residue pair that already gives an exact center hit can be preserved when joining the guards.
+
+## Guard coverage and center compatibility
+
+| Row prime | Orders of \(3,5\bmod q\) | Orders modulo \(q^2\) |
+|---:|---:|---:|
+| 23 | \(11,22\) | \(253,506\) |
+| 599 | \(299,299\) | \(179101,179101\) |
+| 6211 | \(230,69\) | \(1428530,428559\) |
+
+The guard-only first moment is at most **\(163/195<1\)** across all 529 pairs. For a desired pair, this moment averages the number of rival pairs in the intersection over the two sets of unit targets that admit the desired pair. The average is computed from the actual power cycles. It certifies a singleton intersection, and the replay also finds one with both individual masks larger than a singleton for every pair.
+
+The separate CRT check is exact: **every pairwise gcd of full orders is 23 in both coordinates**. The guards therefore observe the center’s two 23-primary digits and no other center order digits. After choosing a unit target and one local witness for each guard, I set its prime-square target to the witness shift plus the guard prime. These lifts stay fixed while the center residue pair varies. CRT joins the **full** order residues, so the resulting hits have valuation exactly one at all three primes.
+
+### Why the center has no missing line
+
+Here is the general fact used to check center usability. Fix both \(p\)-primary exponent digits and take a target \(pt\bmod p^2\), with \(t\ne0\bmod p\). At a prime-level match \(3^c+5^d\equiv0\bmod p\), write
+\[
+-3^c/5^d\equiv1+p\lambda\pmod{p^2}.
+\]
+The fixed primary digits determine \(\lambda\). The sum modulo \(p^2\) is then \(-p\lambda5^d\). If \(\lambda=0\), every prime-level match gives an exact hit. Otherwise, at most one value of \(5^d\bmod p\) can cause cancellation. Distinct prime-level matches in the two actual order cycles have distinct \(5^d\) values.
+
+At 23 there are 11 prime-level matches, so each pinned pair has at least 10 exact center residue pairs at the fixed center target \(23\bmod529\). The replay checks the full distribution: **253** digit pairs have 10 exact center residues each, and **276** have 11. It joins all **5,566** full center residue pairs to the already fixed guard targets.
+
+## Fixed-target deletion control
+
+Take
+\[
+n=4\,622\,086\,607\,680\,396,\qquad
+n\equiv(23,601,7259220)\pmod{(23^2,599^2,6211^2)}.
+\]
+The guards pin \((c,d)\equiv(0,0)\pmod{23}\), and \((108129721336,58071887341)\) hits all three rows. At the **same** target, removing either guard permits a different pin while retaining an exact center hit:
+
+| Guard removed | Witness \((c,d)\) | Pair modulo 23 |
+|---:|---:|---:|
+| 599 | \((2025,687)\) | \((1,20)\) |
+| 6211 | \((1012,1111)\) | \((0,7)\) |
+
+This is a finite family at a different center. I did not establish unboundedly many such centers or an ordinary-height bound on the witnesses. The exact bad-prime hits are conditions on the unrestricted exponent panel. [Public project theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+
+## Inline exact replay
+
+The standard-library replay checks primality, all full order overlaps, the exact guard-only first moment, preservation of every exact center residue pair, and both deletion witnesses.
+
+```python
+from collections import Counter
+from fractions import Fraction
+from itertools import product
+from math import gcd, isqrt
+
+p, q, r = 23, 599, 6211
+P = (p, q, r)
+
+def cycle(base, m):
+    a = [1]
+    while a[-1]*base % m != 1:
+        a.append(a[-1]*base % m)
+    return a
+
+assert all(m % 4 == 3 and all(m % d for d in range(2, isqrt(m)+1))
+           for m in P)
+A = {m: tuple(cycle(b,m) for b in (3,5)) for m in P}
+h = {m: tuple(map(len,A[m])) for m in P}
+L = {
+    m: tuple(k*(m if pow(b,k,m*m) != 1 else 1)
+             for b,k in zip((3,5),h[m]))
+    for m in P
+}
+assert list(h.values()) == [(11,22),(299,299),(230,69)]
+assert list(L.values()) == [(253,506),(179101,179101),(1428530,428559)]
+for i,m in enumerate(P):
+    for j in P[:i]:
+        assert tuple(gcd(x,y) for x,y in zip(L[m],L[j])) == (p,p)
+
+def data(m):
+    masks = [set() for _ in range(m)]
+    targets = [{} for _ in range(p*p)]
+    X,Y = A[m]
+    for c,x in enumerate(X):
+        for d,y in enumerate(Y):
+            t = (x+y) % m
+            if t:
+                a = (c % p)*p + d % p
+                masks[t].add(a)
+                targets[a][t] = c,d
+    rivals = [
+        Counter(j for t in row for j in masks[t] if j != i)
+        for i,row in enumerate(targets)
+    ]
+    return targets,masks,rivals
+
+U,M,X = data(q)
+V,N,Y = data(r)
+assert all(U+V)
+scores = [
+    Fraction(sum(v*Y[a][j] for j,v in X[a].items()),
+             len(U[a])*len(V[a]))
+    for a in range(p*p)
+]
+assert max(scores) == Fraction(163,195)
+
+def crt(rows):
+    x,M = 0,1
+    for y,m in rows:
+        g = gcd(M,m)
+        assert (y-x) % g == 0
+        z = m//g
+        x += M*((y-x)//g*pow(M//g,-1,z) % z)
+        M *= z
+    return x % M
+
+def shift(m,c,d):
+    return (pow(3,c,m*m)+pow(5,d,m*m)) % (m*m)
+
+def hit(n,m,c,d):
+    z = (n-shift(m,c,d)) % (m*m)
+    return z != 0 and z % m == 0
+
+center = [[] for _ in range(p*p)]
+for c,d in product(*(range(k) for k in L[p])):
+    if hit(p,p,c,d):
+        center[(c % p)*p+d % p].append((c,d))
+assert Counter(map(len,center)) == {10:253,11:276}
+
+for a in range(p*p):
+    t,u = next((t,u) for t in U[a] for u in V[a]
+               if M[t] & N[u] == {a} and len(M[t]) > 1 and len(N[u]) > 1)
+    C,D = U[a][t],V[a][u]
+    T = (p,(shift(q,*C)+q) % (q*q),(shift(r,*D)+r) % (r*r))
+    assert (T[1] % q,T[2] % r) == (t,u)
+    n = crt(zip(T,(m*m for m in P)))
+    for phase in center[a]:
+        w = tuple(
+            crt(((phase[j],L[p][j]),(C[j],L[q][j]),(D[j],L[r][j])))
+            for j in (0,1)
+        )
+        assert tuple(w[j] % L[p][j] for j in (0,1)) == phase
+        assert (w[0] % p)*p+w[1] % p == a
+        assert all(hit(n,m,*w) for m in P)
+
+n = crt(zip((23,601,7259220),(m*m for m in P)))
+assert n == 4622086607680396
+assert M[601 % q] & N[7259220 % r] == {0}
+assert all(hit(n,m,108129721336,58071887341) for m in P)
+for deleted,w in [(q,(2025,687)),(r,(1012,1111))]:
+    assert (w[0] % p,w[1] % p) != (0,0)
+    assert {m for m in P if hit(n,m,*w)} == set(P)-{deleted}
+```
