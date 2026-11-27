@@ -61,102 +61,92 @@ assert p % 3 == 2 and all(p % d for d in range(2, isqrt(p)+1))
 assert ((5**47 - 3**19)//2) % (p*p) == 83212*p
 ~~~
 
-## Refinement: aggregate many labels on one layer
+## Stronger result: a positive lower density via a weighted lattice sieve
 
-Fix \(A>0\) and \(0<\eta<1/2\). For all sufficiently large odd \(U\), put \(Q=5^{2U}\) and take any set of at least \(\eta U\) odd labels \(V\in[1,U]\). In **each** of the four classes \(69,117,27,99\bmod120\), the construction gives
+**A weighted sieve removes the leading logarithmic loss.** Fix \(0<\eta<1/2\). For every sufficiently large odd \(U\), put \(Q=5^{2U}\) and choose any set of at least \(\eta U\) odd labels \(V\in[1,U]\). The four-square construction gives **\(\gg_\eta Q\) distinct targets on that one layer in each of \(69,117,27,99\bmod120\)**. The proof uses a split-prime sieve on the actual lattice and a bounded weight per label. The key local identity holds even at split primes dividing the lattice target.
+
+### A label weight with a bounded diagonal
+
+Put \(Z=9^V\). For \(L=1,3\), keep the original equations and constraints
 \[
-\boxed{\displaystyle
-\gg_{A,\eta}\frac{Q}{(\log Q)^{2\log 2-1}}\,
-             \exp\!\bigl(A\sqrt{\log\log Q}\bigr)}
+P=n-Q-(4-L)Z=u^2+v^2,\qquad
+S=5Q+LZ-n=x^2+y^2,\qquad
+4\mid v,\quad 2\mid y,\quad 3\nmid uvxy .
 \]
-distinct targets on the same ordinary layer. The constant and threshold can depend on the fixed \(A\). The new input is a Gaussian lower tail for the split-prime count under the actual lattice witness measure. The argument retains a positive fraction of witness weight at a smaller multiplicity cutoff.
+Write \(N=P+S=4Q+(2L-4)Z\). Requiring \(5\mid u,v\) gives classes \(117,99\bmod120\) for \(L=1,3\), respectively. Requiring \(5\mid x,y\) gives \(69,27\bmod120\). In each branch also require that the norm on the scaled side has \(5\)-adic valuation exactly two. The true positive label remains \((2V+1,2U)\) for \(L=1\) and \((2V,2U)\) for \(L=3\).
 
-### The multiplicity cutoff
-
-Fix \(L\in\{1,3\}\), put \(Z=9^V\), \((\alpha,\beta)=(4-L,L)\), and write
+Give each witness weight \(2^{-\Omega_+(P)-\Omega_+(S)}\), where \(\Omega_+\) counts primes \(1\bmod4\) with multiplicity. If \(W_V(n)\) is the resulting weight at one target and label, then
 \[
-P=n-Q-\alpha Z=u^2+v^2,\qquad
-S=5Q+\beta Z-n=x^2+y^2,\qquad
-P+S=N=4Q+(\beta-\alpha)Z .
+0\le W_V(n)\le16.
 \]
-Keep \(4\mid v,\ 2\mid y,\ 3\nmid uvxy\). The restriction \(5\mid u,v\) gives classes \(117,99\bmod120\) for \(L=1,3\), respectively. The restriction \(5\mid x,y\) gives classes \(69,27\bmod120\). The positive labels remain \((c,d)=(2V+1,2U)\) for \(L=1\) and \((2V,2U)\) for \(L=3\).
+Indeed, the unrestricted representation count is \(r_2(P)r_2(S)\), and each split-prime factor satisfies \(e+1\le2^e\). The main step is to prove \(\sum_n W_V(n)\gg Q/\log Q\) uniformly in \(V\) and the branch.
 
-In each branch the lattice has \(\gg Q\) witnesses before the height cut. The real density is \(\pi^2N/200\), and the local densities at \(2,3,5\) are \(1,16/27,4/5\). At \(p\ge7\) the density is \((1-p^{-2})\sum_{i=0}^{v_p(N)}p^{-i}\), giving a main term at least \(N/45\). Restricting to \(Q+3\cdot9^U<n<5Q\) removes \(o(Q)\) witnesses uniformly. Each removed endpoint forces \(P\) or \(S\) to be at most \(3\cdot9^U\), so Cauchy–Schwarz with \(\sum_{m\le N}r_2(m)^4\ll N(1+\log N)^{15}\) gives the error \(O(\sqrt{9^UQ}(1+\log Q)^{15/2})\). Both residuals are nonzero on the lattice. [Siegel’s density formula](https://doi.org/10.2307/1968644) · [Rouse, §§2–3](https://arxiv.org/pdf/1111.0979#page=11)
+### Exact local cancellation and the first moment
 
-Set \(\ell=\log\log Q\), \(y=Q^{1/\ell^{1/4}}\), and count
+At a split prime \(p>5\), a binary norm becomes a product of two variables by an invertible local change of coordinates. Its density at \(t\ne0\) is
 \[
-X=\sum_{\substack{5<p\le y\\p\equiv1\bmod4}}
-       \bigl(\mathbf1_{p\mid P}+\mathbf1_{p\mid S}\bigr).
+d_p(t)=(1-p^{-1})(v_p(t)+1).
 \]
-The congruence counts needed for its moments admit a uniform power saving. At a split prime each binary norm becomes \(ab\) in invertible local coordinates. The event \(p^j\mid ab\) is a union of the homogeneous linear conditions \(p^i\mid a,\ p^{j-i}\mid b\), \(0\le i\le j\). Inclusion–exclusion uses full-rank sublattices. A sublattice of index \(h\) has Gram determinant \(O(h^2)\) and level \(O(h^2)\). Rouse’s general cusp-coefficient bound gives, for example, \(O_\epsilon(Q^{1/2+\epsilon}h^8)\). If a restricted form acquires content \(c\), divide both the form and \(N\) by \(c\) when \(c\mid N\). Otherwise the count is zero. The main term is the original density times the product of the conditional local probabilities, since the real index factor cancels the local change of variables. For any fixed moment order \(k\), all indices are \(y^{O(k)}\), and there are \(y^{O(k)}\) terms. Their total error after normalization is \(Q^{-1/2+\epsilon+o(1)}\). This uses the general cusp bound, which applies even when \(N\) and the level share primes. [Rouse, Theorem 3 and the general coefficient bound in §5](https://arxiv.org/pdf/1802.03437#page=10)
-
-Here is the local calculation behind the limit law. For a split prime \(p>5\), the product of two Haar variables has density \(d_p(t)=(1-1/p)(v_p(t)+1)\) off zero. On the fiber \(P+S=N\), the density in \(P=t\) is proportional to \(d_p(t)d_p(N-t)\). This gives
+Give \(t\) local weight \(\sigma_p(t)\) equal to \(1,1/2,0\) according as \(v_p(t)=0,1,\ge2\). Then \(d_p(t)\sigma_p(t)=(1-p^{-1})\mathbf1_{p^2\nmid t}\). On the fiber \(P+S=N\), the unnormalized weighted density is exactly
 \[
-\Pr(p^j\mid P),\ \Pr(p^j\mid S)\ll(j+1)^2p^{-j}
+\int_{\mathbb Z_p}d_p(t)d_p(N-t)\sigma_p(t)\sigma_p(N-t)\,dt
+=(1-p^{-1})^2\left(1-\frac2{p^2}+\frac{\mathbf1_{p^2\mid N}}{p^2}\right). \tag{1}
 \]
-uniformly in \(N\), by Cauchy–Schwarz on the ball \(p^j\mathbb Z_p\). When \(p\nmid N\), the summand in \(X\) is Bernoulli with probability \(2(2p-1)/(p(p+1))=4/p+O(p^{-2})\). When \(p\mid N\), the two indicators agree and their total mean and variance are \(O(1/p)\). The latter primes change the summed mean and variance by \(O(\log\ell)\), since \(N=O(Q)\).
+Thus even when the two residues coincide modulo \(p\), the first-order term stays \(1-2/p\).
 
-Consequently the independent local model has mean and variance \(2\ell+O(\log\ell)\). Its cumulants of each fixed order \(k\ge3\) are \(O_k(\ell)\), so its normalized moments converge to the normal moments. The congruence estimate transfers every fixed moment to the integer lattice, uniformly over the labels and branches. In particular, for any fixed \(B>0\), a positive fraction of the lattice witnesses have \(X\le2\ell-B\sqrt\ell\).
+Here are the sieve precision and error. For a lattice witness, mark each split \(p\le z,\ p>5\) independently with probability \(1-\sigma_p(P)\sigma_p(S)\). This is a finite weighted sieve sequence: avoidance has weight \(\prod_{p\le z}\sigma_p(P)\sigma_p(S)\), and the count attached to a squarefree \(d\) uses the product of marking probabilities for \(p\mid d\).
 
-The higher prime powers can be removed without losing that fraction. Choose a large fixed \(p_0\) so that the sum of the \(p^2\)-divisibility bounds over \(p>p_0\) is smaller than a quarter of the chosen Gaussian tail. The same sublattice estimate applies simultaneously to the sum over \(p\le y\). At the finitely many smaller split primes, discard sufficiently high fixed exponents. At 5 the scaled side is \(25ab\) and the other side is a unit, so the two free variables on the scaled side are Haar under the local fiber measure. This gives the required fixed cutoff there as well. Finally, primes above \(y\), counted with multiplicity in \(PS\), contribute at most \(\log(PS)/\log y=O(\ell^{1/4})\).
+Each condition \(p^j\mid ab\), for \(j=1,2\), is a union of the \(j+1\) homogeneous sublattices \(p^i\mid a,\ p^{j-i}\mid b\). At a point the admissible \(i\)'s are consecutive, so the union indicator equals the sum of the indicators minus the sum of adjacent intersections. The largest index is \(p^{j+1}\). Since \(\sigma_p(t)=1-\tfrac12\mathbf1_{p\mid t}-\tfrac12\mathbf1_{p^2\mid t}\), the marking probability uses at most \(82\) signed terms of index at most \(p^6\). For \(d\) the index is \(O(d^6)\), and the number of terms is at most \(82^{\omega(d)}\le d^2\).
 
-Writing \(f=r_2/4\), the retained witnesses therefore satisfy
+For a sublattice of index \(h\), the Gram determinant and level are \(O(h^2)\). The general quaternary cusp-coefficient bound gives \(O(Q^{9/16}h^4)\) here. A form with content \(c\) is divided by \(c\) together with \(N\), or contributes zero when \(c\nmid N\). The real index factor cancels the local change of variables in the density main term. The fixed conditions at 3 and 5 use finite inclusion–exclusion. Thus the total error through sieve level \(D=Q^{1/100}\) is
 \[
-\log\!\bigl(16f(P)f(S)\bigr)
-   \le (\log2)X+O_B(1+\ell^{1/4}).
+O\!\left(Q^{9/16}\sum_{d\le D}d^{26}\right)=O(Q^{0.8325}).
 \]
-Choose \(B>A/\log2\). A positive fraction of each branch’s weight then lies at targets whose entire single-label multiplicity is at most
+[Rouse, Theorem 3 and the general (not coprime-level) coefficient bound in §5](https://arxiv.org/pdf/1802.03437#page=10)
+
+The ambient densities at \(2,3,5\) are \(1,16/27,64/125\). At 5 the unscaled side has unit norm, and the two split coordinates on the scaled side must be units, giving \((4/5)^3\). At \(p>5\), the ambient density is \(\beta_p(N)=(1-p^{-2})\sum_{j=0}^{v_p(N)}p^{-j}\), between \(1-p^{-2}\) and \(1+p^{-1}\). Dividing (1) by \(\beta_p(N)\) gives the conditional survival probability, at least \(1-5/p\). The sieve dimension condition holds uniformly, for example with dimension \(10\). The lower-bound fundamental lemma therefore applies with \(z=D^{1/s_0}\) for a sufficiently large **fixed** \(s_0\). Its main term is \(\gg Q/\log z\). Indeed, (1) replaces the ambient factor at each sieved split prime, giving \(\prod_{p\le z,\ p\equiv1(4)}(1-1/p)^2\asymp1/\log z\) up to bounded factors. The unsieved ambient factors have a uniformly positive lower product. [Friedlander–Iwaniec, *Opera de Cribro*, Lemma 6.11](https://bookstore.ams.org/coll-57) · [Weighted formulation, Theorem 2.2](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/superscars-for-arithmetic-point-scatters-ii/3CCB969E058792C1803466AE0EF29136)
+
+On the surviving witnesses, the factor at 5 is \(2^{-2}\), and the number of split prime factors above \(z\), with multiplicity, is at most \(\log(PS)/\log z=O_{s_0}(1)\). Hence the full weight is bounded below by a fixed multiple of the sieve weight. Restricting to \(Q+3\cdot 9^U<n<5Q\) discards at most \(O(\sqrt{9^UQ}(1+\log Q)^{15/2})=o(Q/\log Q)\) even in unweighted witnesses. To see this, one endpoint forces \(P\le3\cdot9^U\), the other forces \(S\le3\cdot9^U\), and Cauchy–Schwarz uses \(\sum_{j\le N}r_2(j)^4\ll N(1+\log N)^{15}\). This proves the first moment at the original ordinary height.
+
+### Cross-label collisions and distinct targets
+
+For \(V\ne W\), the four integer roots are \(Q+(4-L)9^i,\ 5Q+L9^i\) for \(i=V,W\). Let \(\Delta\) be the product of their six differences. An elementary upper sieve detects a necessary condition for all four residuals to be norms. At an inert prime \(p>7\) with \(p\nmid\Delta\), the forbidden exact-valuation-one classes number \(4(p-1)\) modulo \(p^2\). At the remaining primes the product loses at most \(F_C(\Delta)=\prod_{p\mid\Delta}(1+C/p)\). CRT gives remainder \(O(4^{\omega(d)}d)\) at squarefree \(d\), so the upper sieve at the same fixed-power level gives
 \[
-T=(\log Q)^{2\log2}\exp(-A\sqrt\ell).
+\sum_n W_V(n)W_W(n)\ll \frac{Q}{(\log Q)^2}F_C(\Delta).
 \]
-The endpoint exclusion still costs \(o(Q)\).
+The upper sieve uses only nonnegative mass and a necessary inert-prime condition; its remainder through a fixed small power of Q is negligible. See also [Tao–Teräväinen, Lemma 3.2](https://doi.org/10.1112/jlms.12663) for the elementary sieve framework.
 
-### Corrected Henriot audit and aggregation
+The mean of \(F_C(\Delta)\) over the actual label pairs is bounded. For each nonzero difference \(m\), \(\log|m|=O(U)\). Discard its prime factors above \(U^\delta\) at bounded cost. In the remaining divisor expansion with weights \(C^{\omega(d)}/d\), the mean of \(\log d\) is \(O_C(\delta\log U)\). For small fixed \(\delta\), at least half the weight has \(d\le U\). Away from 2 and 3, each divisor condition is \(81^i\equiv a\bmod d\) after fixing the other label when present. This uses \(V=2i+1\) and applies to the mixed differences \(4Q+L9^W-(4-L)9^V\) as well. The average fraction is \(O(1/\operatorname{ord}_d(81)+1/U)\). The order-weighted divisor sum converges by dyadic summation, since all squarefree \(d\) of order at most \(t\) divide \(\prod_{j\le t}(81^j-1)\), whose logarithm is \(O(t^2)\). Hölder then combines the six differences. The sum of the cross-label contributions is \(O(Q)\).
 
-For distinct \(V,W\), the actual monic roots are \(a_i=Q+\alpha9^i,\ b_i=5Q+\beta9^i\) for \(i=V,W\). The same-side differences are \(\alpha(9^W-9^V)\) and \(\beta(9^W-9^V)\). The four mixed differences are \(4Q+\beta9^j-\alpha9^i\), all positive. The polynomial height is \(O(Q^4)\) and its discriminant is nonzero with absolute value \(O(Q^{12})\).
+In one branch let \(R(n)=\sum_VW_V(n)\) and \(H=\sum_nR(n)\). The first moment gives \(H\gg_\eta Q\), and the diagonal and cross bounds give \(\sum_nR(n)^2\le16H+O(Q)\). Therefore \(|\{n:R(n)>0\}|\gg_\eta Q\). On one layer this is a positive proportion of **distinct generated targets**. Taking the largest odd \(U\) with \(5Q\le X\) also gives positive lower density up to \(X\) in each branch, since successive \(Q\)'s have ratio \(625\). Density one and the prescribed-\(n\) conjecture remain open.
 
-Henriot’s corrected **New Theorem 5** applies on the dyadic intervals with interval parameter \(1/2\), height parameter \(1/8\), and growth exponent \(10^{-5}\). For the powers \(f^t\), \(0\le t\le2\), keep \(f^0=\mathbf1_{f>0}\). The bounds \(f(p^j)^t\le(j+1)^2\) and the fixed divisor-function bound give the same growth constants down to \(t=0\). In the corrected congruence count, at a good prime a single positive valuation \(j\) has density \((1-1/p)p^{-j}\). At a bad prime any vector of maximum \(j\) has density at most \(p^{-j}\), including when the correction imposes additional nondivisibility on a zero slot. This gives \(1+O(1/p)\) uniformly in the powers and in the collision depth. The good-prime logarithmic exponent is \(\tfrac12\sum_i2^{t_i}-s\) for \(s\) slots. In particular, four powers equal to one give exponent zero, and the bad factor is at most \((\log\log Q)^C\) from the discriminant size. This uses the upper-bound theorem only. The cutoff itself comes from the lattice distribution, so no moment constant is raised to a power tending to infinity. [Henriot](https://arxiv.org/pdf/1102.1643) · [Corrected theorem](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B0BD208D979495FE06B8192209E710EA/S0305004114000280a.pdf/nair-tenenbaum-uniform-with-respect-to-the-discriminant-erratum.pdf)
+### Independent exact replay
 
-Let \(R(n)\) sum the retained label weights in one branch, \(M\) be the number of labels, and \(H=\sum_nR(n)\gg_A MQ\). The diagonal contributes at most \(TH\). Removing the cutoff for the cross-label upper bound gives
-\[
-\sum_nR(n)^2\le TH+O\!\left(M^2Q(\log\log Q)^C\right).
-\]
-Since \(M\asymp_\eta\log Q\) and \(T\gg_A M(\log\log Q)^C\), Cauchy–Schwarz gives \(\gg H/T\) distinct targets, as claimed.
-
-### Independent exact replay for cross-label collisions and the split-prime law
-
-This verifies the common positive target for `V=1,11`, both non-inclusions with an odd inert valuation, and the finite depth-one local law at `p=41`. The population bound is proved above; it is neither density one nor prescribed-target coverage.
+This checks the weighted identity at an actual split prime at depths 0, 1, and 2, and the four parity branches with the exact extra valuation restriction at 5.
 
 ~~~python
-Q = 5**22
-for n, V, u, v, x, y in (
-    (2384279934231477, 1, 290465, 98860, 75434239, 62018744),
-    (2384279934231477, 11, 175, 80, 92153879, 32316296),
-    (2384279934639477, 1, 272065, 141860, 29965249, 92944784),
-    (2384279934229677, 11, 125, 140, 32194339, 92196556),
+Q, p = 5**22, 41
+m, phi = p*p, p*p-p
+def fiber(t):
+    return m+2*phi if t == 0 else phi*(1+(t%p == 0))
+def twice_weight(t):
+    return 0 if t == 0 else 2-(t%p == 0)
+for V, e in ((1,0), (7,1), (3,2)):
+    N = 4*Q+2*9**V
+    assert N%p**e == 0 and N%p**(e+1)
+    a = [fiber(t)*twice_weight(t) for t in range(m)]
+    assert sum(a[t]*a[(N-t)%m] for t in range(m)) == 4*phi**2*(m-2+(e==2))
+
+for L,r,n,u,v,x,y in (
+    (1,117,2384279934231477,290465,98860,75434239,62018744),
+    (1,69,2384279934201909,120311,282256,93905785,26802100),
+    (3,99,2384279934211059,220055,213820,72333623,65608658),
+    (3,27,2384279934289827,210463,223268,45114335,86610310),
 ):
-    Z = 9**V
-    assert n == Q + 3*Z + u*u + v*v == 5*Q + Z - x*x - y*y
-    assert Q + 3*9**11 < n < 5*Q and n % 120 == 117
-    assert v % 4 == y % 2 == u % 5 == v % 5 == 0
-    assert all(t % 3 for t in (u,v,x,y))
-
-for n, W in ((2384279934639477, 11), (2384279934229677, 1)):
-    P = n-Q-3*9**W
-    assert P > 0 and P % 49 == 7
-assert [j for j in range(1,11) if pow(9,j,25) == 1] == [10]
-
-from collections import Counter
-from fractions import Fraction
-p=41; Q=5**22
-assert [(4*Q+2*9**V)%(p**3) for V in (1,7,3)]==[18732,4633,20172]
-M=p*p
-f=[0]*M
-for x in range(M):
-    g=__import__("math").gcd(x,M)
-    for t in range(0,M,g):f[t]+=g
-N=(4*Q+2*9**7)%M
-assert Fraction(sum(f[t]*f[(N-t)%M] for t in range(0,M,p)),sum(f[t]*f[(N-t)%M] for t in range(M)))==Fraction(4*p,(p+1)**2)
-print("same-layer controls and conditional split-prime law passed")
-
+    P,S = u*u+v*v,x*x+y*y
+    assert n == Q+(4-L)*9+P == 5*Q+L*9-S
+    assert Q+3*9**11 < n < 5*Q and n%120 == r
+    assert v%4 == y%2 == 0 and all(t%3 for t in (u,v,x,y))
+    a,b = (u,v) if r in (117,99) else (x,y)
+    assert a%5 == b%5 == 0 and (a*a+b*b)%125
 ~~~
