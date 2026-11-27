@@ -3,18 +3,18 @@
 For distinct integral targets with the same oriented Gaussian difference and the same sign of the imaginary cross product, let d=2j>0 and set e=U2−U1, b=D1+D2, g=D2−D1, W=ebg. The actual label parameters are U_i=2A_i+3B_i and D_i=A_i+2B_i with A_i=9^r_i, B_i=25^s_i; the critical band restricts A_i≤B_i, B_i^16≤n≤A_i^32 and X≤n<2X.
 
 The oriented difference fixes d, and the Gram identity gives
-[
- x=d(2n-U_1-U_2)-W,qquad y=2h,qquad x^2-dy^2=R=(d+e^2)(d+b^2)(d+g^2).
-]
+```text
+x = d(2n−U₁−U₂)−W,  y = 2h,  x²−dy² = R = (d+e²)(d+b²)(d+g²).
+```
 Between two solutions x,y and x',y' compare their positive larger Pell conjugates. Write eta for their ratio and V=(eta+eta^(-1))/2. If the allocations at split prime p differ by u_p in one component (and by −u_p in its conjugate), put m=prod p^|u_p|. Unique factorization of ideals in the maximal order gives m|R and m eta integral: any negative valuation of eta occurs in one split component and is canceled by the corresponding power of p. Inert and ramified valuations agree, since the norms are fixed. If d is square the two rational factors give the same statement without the field. The rational trace shows 2m(V−1) is an integer.
 
 The exact integral-target congruence contributes new divisibility:
-[
- R(V-1)=x'x-dy'y-Requiv0pmod d
-]
-because both x and x' reduce to −W and R≡W² modulo d. In particular d/gcd(d,R/m) divides 2m(V−1). Distinct targets give V>1 in a fixed sign sector. For d≈J with X≤J≪X²/(log X)^4, the larger conjugate is 4dn(1+o(1)) uniformly: x=2dn(1+o(1)) and R/x²=O(d/X²)=o(1). Hence V−1=O(1). As e,b,g=O(X^1/16), W=O(X^3/16) and gcd(d,R)≤W²; consequently m≫J^5/8. For large J, changing only a set of split prime allocations whose combined available prime power budget is at most J^1/2 cannot take one integral target to a distinct one with the same oriented difference and sign sector.
+```text
+R(V−1) = x′x−dy′y−R ≡ 0 (mod d).
+```
+because both x and x' reduce to −W and R≡W² modulo d. In particular d/gcd(d,R/m) divides 2m(V−1). Distinct targets give V>1 in a fixed sign sector. For d≈J with X≤J≪X²/(log X)^4, the larger conjugate is 4dn(1+o(1)) uniformly: x=2dn(1+o(1)) and R/x²=O(d/X²)=o(1). Hence V−1=O(1). For W≠0, as e,b,g=O(X^1/16), W=O(X^3/16) and gcd(d,R)≤W²; consequently m≫J^5/8. For large J, changing only a set of split prime allocations whose combined available prime power budget is at most J^1/2 cannot take one integral target to a distinct one with the same oriented difference and sign sector.
 
-This rules out close allocation changes; it does not give a uniform bound on all allocations or imply the claimed whole- or partial-moment upper bound by itself. Those estimates additionally require a mixed-weight polynomial sieve and averaged bad-prime control, not asserted here.
+If W=0 the exact divisibility still holds, but the stated power bound does not follow. This rules out close allocation changes in the nondegenerate case; it does not give a uniform bound on all allocations or imply the claimed whole- or partial-moment upper bound by itself. Those estimates additionally require a mixed-weight polynomial sieve and averaged bad-prime control, not asserted here.
 
 ## Independently replayed native control
 
