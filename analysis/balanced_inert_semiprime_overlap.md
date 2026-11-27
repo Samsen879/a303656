@@ -62,3 +62,76 @@ assert pow(3,42,49)==1 and all(pow(3,2+42*i,441)==9 for i in range(10))
 ~~~
 
 The last order identities, with the 3-power transient modulo 9 handled separately, show exact fixed-modulus rank deficiency: all actual labels \(3^{2+42i}+5^{1+42j}\) occupy the same class modulo 441, including exponent boxes with a quadratic number of distinct labels. This fixed example does not prove failure for growing semiprime factors.
+
+## Sharper conditional reduction: joint unit-gap projections
+
+I obtained a conditional reduction for the balanced \(pq\) layer at \(a=1\). On all but \(o(1)\) of the balanced prime pairs, elementary order estimates give the joint order needed to control **nonunit differences**, provided the orders lift at both primes. The remaining estimate is a simultaneous discrete-log test on two exponent gaps. I did not prove the required bound for that test or a density statement about order lifting.
+
+### A joint order bound for almost all pairs
+
+Put \(H=\log X\), \(P=\sqrt H\), and take distinct inert primes \(p,q\in[2P,3P]\). For either \(b=9\) or \(b=5\), write \(r_p=\operatorname{ord}_p(b)\). Then, for all but \(o(1)\) of these pairs,
+\[
+r_p,r_q\ge \frac{P^{1/2}}{(\log P)^2},
+\qquad
+\operatorname{lcm}(r_p,r_q)>P^{7/10}.
+\]
+This assertion concerns orders modulo primes and uses no lifting hypothesis.
+
+For the first inequality, all primes with order at most \(T\) divide \(\prod_{j\le T}(b^j-1)\), whose logarithm is \(O(T^2)\). For the second, fix a prime \(p\) satisfying the first inequality. If the least common multiple is at most \(P^{7/10}\), then \(q\) divides one of \(b^{r_pj}-1\) with \(j\le P^{7/10}/r_p\). The logarithm of their product is \(O(P^{7/5}/r_p)=O(P^{9/10}(\log P)^2)\). It has \(o(P/\log P)\) prime divisors in \([2P,3P]\), uniformly in \(p\). The prime number theorem in the inert progression gives the claimed pair count. [Davenport, *Multiplicative Number Theory*](https://link.springer.com/book/9780387950976)
+
+### Reduce the energy to two unit gaps
+
+Let \(M=(pq)^2\), and use consecutive exponent ranges of length \(\asymp H\) for the actual labels \(9^e+5^d\). For base \(b\), its one-axis difference energy counts
+\[
+b^i(b^k-1)\equiv b^j(b^\ell-1)\pmod M,
+\]
+with the starting exponents and signed gaps in the permitted ranges.
+
+Suppose the order of \(b\) lifts at both primes and the joint order bound above holds. The terms with a nonunit difference cost \(O(H^{59/20})\), as follows.
+
+- If the differences are divisible by just one of \(p,q\), both gaps are multiples of the order at that prime. There are \(O((H/r_p)^2)\) choices for the gaps when that prime is \(p\). For each choice, the order modulo \(q^2\) leaves \(O(H(1+H/(qr_q)))\) starting pairs. This costs \(O(H^{11/4}(\log H)^6)\), with the same estimate after interchanging the primes.
+- If both primes divide the differences exactly once, put \(r=\operatorname{lcm}(r_p,r_q)\). Both gaps are multiples of \(r\), and after division the starting-exponent congruence is modulo \(pq\), with order \(r\). The cost is \(O(H^4/r^3)=O(H^{59/20})\).
+- If either prime square divides the differences, both gaps are multiples of the lifted order at that prime. Counting all starting pairs costs \(O(H^{5/2}(\log H)^4)\). The zero-gap diagonal costs \(O(H^2)\).
+
+For unit differences, define \(A_b(p,q)\) to count ordered signed gap pairs \((k,\ell)\) such that
+\[
+\frac{b^k-1}{b^\ell-1}\equiv b^t\pmod{p^2q^2}
+\]
+for some \(t\) in the actual range of starting-exponent differences. This is a simultaneous projection test. The ratio must lie in the cyclic subgroup at both prime squares, and its two local discrete logs must agree modulo the gcd of the two orders. The resulting CRT class must meet the allowed interval for \(t\).
+
+The lifted order modulo \(M\) exceeds the exponent range, so a qualifying gap pair costs \(O(H)\) starting pairs. Thus the one-axis energy is \(O(H A_b(p,q)+H^{59/20})\).
+
+**Explicit sufficient condition.** Retain \(\asymp H/(\log H)^2\) balanced pairs satisfying the joint order bounds and with **both bases lifting at both primes**. If this retained family satisfies
+\[
+\operatorname{mean}_{p,q} A_9(p,q)\ll H^2/(\log H)^5,
+\]
+then the same-factor contribution meets the second-moment budget. Indeed, Cauchy–Schwarz on the two difference histograms bounds the mixed label energy by the geometric mean of their one-axis energies. The \(5\)-axis has the elementary \(O(H^3)\) bound from injectivity, so the mean mixed energy is \(O(H^3/(\log H)^{5/2})\). Multiplying by the uniform inert sieve correction \(O(\sqrt{\log H})\) gives \(O(H^3/(\log H)^2)\) per factor on average. The sieve bound for two genuine norm cofactors then gives the required aggregate \(O(XH/(\log H)^4)\). The lifted orders also give the shared-prime saving on this retained family. Together with the coprime contribution and the first moment, these hypotheses would give positive-fraction **distinct-target** coverage. They would leave pointwise coverage open. [Tao and Teräväinen, sieve upper bound, Lemma 3.2](https://doi.org/10.1112/jlms.12663) · [Repository status](https://github.com/Samsen879/a303656/blob/main/STATUS.md)
+
+### Independent exact replay
+
+Both marginal discrete logs exist at the two prime squares but disagree modulo the shared order. The same semiprime separately gives a true positive target.
+
+~~~python
+from decimal import Decimal, localcontext
+from math import gcd
+p,q=7,19
+a=9
+M=p*p*q*q
+x=(a-1)*pow(a**7-1,-1,M)%M
+assert x==617 and gcd((a-1)*(a**7-1),M)==1
+def cycle(mod):
+    C=[1]
+    while C[-1]*a%mod != 1:C.append(C[-1]*a%mod)
+    return C
+u,v=cycle(49),cycle(361)
+assert (len(u),len(v))==(21,171)
+i,j=u.index(x%49),v.index(x%361)
+assert (i,j)==(9,64) and (i-j)%gcd(len(u),len(v))!=0
+n=937531
+with localcontext() as ctx:
+    ctx.prec=60
+    y=Decimal(n)
+    assert 70<y.sqrt()/y.ln()<71
+assert n-(3**2+5)==133**2*53==266**2+931**2
+assert 53<71*79 and 53%4==1
+~~~
