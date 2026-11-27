@@ -149,3 +149,154 @@ for removed,w in [(q,(3,66)),(r,(47,86))]:
     assert (w[0] % p,w[1] % p) != (0,0)
     assert {m for m in P if hit(n,m,*w)} == set(P)-{removed}
 ```
+## A center-31 control for hidden CRT constraints
+
+An exact first-moment test certifies full two-dimensional pin coverage while allowing multiple target orbits. It also detects what can go wrong when a center shares extra CRT digits with a guard. In a new native panel at center **31**, the guards alone can pin all \(31^2=961\) digit pairs. Requiring an exact center hit leaves **930** usable pairs with unit guard targets. The missing 31 pairs form the line \(c\equiv3d\pmod{31}\).
+
+I also obtained a cyclotomic sufficient condition for full coverage and a bounded-private-order barrier to using its numerical prime-size cutoff. The results do not establish coverage at unboundedly many native centers.
+
+## An exact test across target orbits
+
+Fix the desired digit pair \(\alpha\). For guard \(i\), let \(T_i(\alpha)\) be the unit targets admitting a chosen local witness for \(\alpha\). This set can be filtered to enforce additional CRT compatibility. For a rival pair \(\beta\ne\alpha\), let \(U_i(\beta)\) contain **all** unit targets admitting \(\beta\), without that filter. Define
+\[
+E_\alpha=
+\sum_{\beta\ne\alpha}
+\frac{|T_1(\alpha)\cap U_1(\beta)|}{|T_1(\alpha)|}
+\frac{|T_2(\alpha)\cap U_2(\beta)|}{|T_2(\alpha)|}.
+\]
+If both target sets are nonempty and \(E_\alpha<1\), some target pair pins \(\alpha\). This is the expected number of surviving rivals when independently drawing targets from the two **actual** finite sets. A nonnegative integer with mean below one is zero for some draw. One can retain target multiplicities when grouping the calculation by multiplicative orbits.
+
+This differs from the random-mask estimate \((m_1-1)(m_2-1)/(p^2-1)\) for independent uniform masks of sizes \(m_1,m_2\) containing \(\alpha\). Native masks can have systematic collisions, and that estimate gives no certificate for them.
+
+The test certifies uniqueness on the queried digit grid. Exact realizability also requires compatible witnesses on **every** shared CRT digit. For independent guards whose full order gcds are confined to the queried grid, CRT supplies the joint witness. With other overlaps, the filtered target sets must enforce a common assignment there, or the witnesses must be joined explicitly. Private prime-square lifts are a separate check.
+
+## Cyclotomic sufficient condition and its limit
+
+Suppose both guard orders are divisible by the center prime \(p\) exactly once. In each guard, choose both power values in the common subgroup of order \(p\). Every digit pair has unique representatives there, and their sum is nonzero for odd \(p\).
+
+Over \(\mathbb C\), a nonzero sum of two unit-circle points determines their unordered pair. Thus, if reduction at the guard prime introduces no new collisions for these targets, the digit mask consists of the desired pair and possibly its swapped pair. In exponent coordinates the swap is
+\[
+J_i(c,d)=(a_i d,a_i^{-1}c).
+\]
+If the two swap coefficients differ, \(J_1(\alpha)=J_2(\alpha)\) only at the origin, where the swap fixes \(\alpha\). The masks therefore intersect in exactly \(\alpha\) for every digit pair.
+
+One sufficient reduction bound is \(q>4^{\varphi(N)}\), where \(N=\operatorname{lcm}(h_3,h_5)\) at that guard. A new collision would make a nonzero difference of two sums of \(N\)-th roots of unity vanish modulo a prime above \(q\). Its nonzero integer norm has magnitude at most \(4^{\varphi(N)}\).
+
+That numerical cutoff **cannot** prove a growing family with bounded private ratios. If \(h_3=pr_3,\ h_5=pr_5\) and \(r_3,r_5\le R\) for fixed \(R\), every candidate guard divides
+\[
+\gcd(3^{pr_3}-1,5^{pr_5}-1).
+\]
+The Bugeaud–Corvaja–Zannier bound gives \(\log q=o(p)\), uniformly over the finitely many ratio pairs. It also bounds the number of candidate guards by \(o(p/\log p)\), since each is at least \(p+1\). Meanwhile \(\varphi(N)\ge p-1\). This rules out reaching the sufficient norm cutoff at large \(p\). It leaves open whether actual candidates avoid enough collisions at smaller sizes. [Bugeaud, Corvaja and Zannier, *An upper bound for the G.C.D. of \(a^n-1\) and \(b^n-1\)*](https://doi.org/10.1007/S00209-002-0449-Z)
+
+## Native test of the additional CRT constraint
+
+Use center \(31\) and guards \(683,1861\). Their prime-level order pairs are \((30,3),(31,682),(310,31)\), respectively. The two guards share exactly \((31,31)\) in their full orders, and their lift factors are private. The guard-only test gives \(\max_\alpha E_\alpha=63/220\) across all 961 pairs.
+
+The center’s prime-level match requires \(c\equiv5\pmod{10}\), a digit also observed by guard 1861. With this digit fixed, the power pair at 1861 is uniquely determined by \((c,d)\bmod31\). Its sum is zero there exactly on \(c\equiv3d\pmod{31}\), so no unit target at that guard can use those pairs with the center. Off the line, the filtered test gives \(\max E_\alpha=6/11\). The replay constructs an exact joint witness for every one of those 930 pairs at the fixed center residue \(31\bmod31^2\).
+
+The row at 1861 is an exact valuation-one guard in this experiment. Since \(1861\equiv1\bmod4\), it is not a bad-prime witness for the two-square criterion. The result concerns unrestricted exponent relations and gives no ordinary-height bound. [Public project theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+
+## Inline replay
+
+The standard-library replay retains the full center condition, uses unfiltered masks for rivals, and verifies the three-row witnesses by direct modular powers.
+
+```python
+from collections import Counter
+from fractions import Fraction
+from math import gcd, isqrt
+
+p,q,r = 31,683,1861
+P = (p,q,r)
+
+def cycle(b,m):
+    a = [1]
+    while a[-1]*b % m != 1:
+        a.append(a[-1]*b % m)
+    return a
+
+assert all(all(m % d for d in range(2,isqrt(m)+1)) for m in P)
+A = {m:tuple(cycle(b,m) for b in (3,5)) for m in P}
+h = {m:tuple(map(len,A[m])) for m in P}
+L = {
+    m:tuple(k*(m if pow(b,k,m*m) != 1 else 1)
+            for b,k in zip((3,5),h[m]))
+    for m in P
+}
+assert list(h.values()) == [(30,3),(31,682),(310,31)]
+assert list(L.values()) == [(930,93),(21173,465806),(576910,57691)]
+assert tuple(gcd(a,b) for a,b in zip(L[q],L[r])) == (p,p)
+for m in (q,r):
+    assert all(k % m for j in P if j != m for k in L[j])
+    assert any(a != b for a,b in zip(h[m],L[m]))
+
+def data(m, filter_center=False):
+    masks = [set() for _ in range(m)]
+    targets = [{} for _ in range(p*p)]
+    for c,x in enumerate(A[m][0]):
+        for d,y in enumerate(A[m][1]):
+            t = (x+y) % m
+            if t:
+                a = c%p*p+d%p
+                masks[t].add(a)
+                if not filter_center or c%10 == 5:
+                    targets[a][t] = c,d
+    rivals = [Counter(j for t in row for j in masks[t] if j != i)
+              for i,row in enumerate(targets)]
+    return targets,masks,rivals
+
+U,M,X = data(q)
+V,N,Y = data(r)
+W,_,Z = data(r,True)
+
+def scores(U,V,X,Y):
+    return [
+        Fraction(sum(v*Y[a][j] for j,v in X[a].items()),
+                 len(U[a])*len(V[a]))
+        for a in range(p*p) if U[a] and V[a]
+    ]
+
+S = scores(U,V,X,Y)
+F = scores(U,W,X,Z)
+assert (len(S),max(S)) == (961,Fraction(63,220))
+assert (len(F),max(F)) == (930,Fraction(6,11))
+assert {divmod(i,p) for i,row in enumerate(W) if not row} == {
+    (3*d % p,d) for d in range(p)
+}
+
+def crt(rows):
+    x,M = 0,1
+    for y,m in rows:
+        g = gcd(m,M)
+        assert (y-x) % g == 0
+        z = m//g
+        x += M*((y-x)//g*pow(M//g,-1,z) % z)
+        M *= z
+    return x % M
+
+def shift(m,c,d):
+    return (pow(3,c,m*m)+pow(5,d,m*m)) % (m*m)
+
+def hit(n,m,c,d):
+    z = (n-shift(m,c,d)) % (m*m)
+    return z != 0 and z % m == 0
+
+for a,row in enumerate(W):
+    if not row:
+        continue
+    t,u = next((t,u) for t in U[a] for u in row if M[t]&N[u] == {a})
+    C,D = U[a][t],row[u]
+    for d0,y in enumerate(A[p][1]):
+        c0 = A[p][0].index(-y % p)
+        assert c0 % 10 == 5
+        w = tuple(crt(((C[j],h[q][j]),(D[j],h[r][j]),(z,h[p][j])))
+                  for j,z in enumerate((c0,d0)))
+        if hit(p,p,*w):
+            break
+    else:
+        raise AssertionError("missing center lift")
+    T = (p,(shift(q,*w)+q) % (q*q),(shift(r,*w)+r) % (r*r))
+    n = crt(zip(T,(m*m for m in P)))
+    assert all(hit(n,m,*w) for m in P)
+    assert (T[1]%q,T[2]%r) == (t,u)
+    assert w[0]%p*p+w[1]%p == a
+```
