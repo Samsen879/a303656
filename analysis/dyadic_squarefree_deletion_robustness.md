@@ -185,3 +185,62 @@ assert 2*m >= n and m % 27 == 18
 assert m == 9*(169**2 + 3329**2) == 507**2 + 9987**2
 assert all((m//9) % (j*j) for j in range(2, isqrt(m//9)+1))
 ```
+## Any fixed admissible inert modulus, via increasing-prime repair
+
+**Increasing-prime repair works for every fixed finite set of inert primes at which at least one of \(3,5\) is non-Wieferich.** It replaces the reciprocal-order condition and preserves the mod-\(216\) choice. For any fixed target modulus supported on \(2,3\) and such inert primes, every target class has a positive fraction of deletion-robust targets in each sufficiently large dyadic interval. The ordinary residual is a squarefree norm times a square multiplier of at most \(9\prod_{p\in S}p^2\). The constants depend on the fixed modulus and prime set. [Draft PR #82](https://github.com/Samsen879/a303656/pull/82/files)
+
+### Increasing-prime repair
+
+Refine the target modulus to a fixed \(M'\) divisible by \(216\) and \(p^3\) for every added inert prime \(p\in S\). Work in one target class \(n\equiv b\bmod M'\). Start with the mod-\(216\) choice of \(c\)-parity and \(d\bmod18\), taking \(c\ge v_3(M')\). This gives the intended \(2\)-valuation and either \(v_3(m)=0\) or \(v_3(m)=2\) for \(m=b-3^c-5^d\).
+
+Process the added primes in increasing order. If \(m\) is a unit at \(p\), retain it. Otherwise choose \(B\in\{3,5\}\) with \(B^{p-1}\not\equiv1\bmod p^2\), and vary just its exponent. Take a step \(T\) that preserves mod \(216\) and all processed prime-power congruences, and is a multiple of \(\operatorname{ord}_p(B)\). Such a \(T\) can be chosen coprime to \(p\): periods at an earlier prime \(q<p\) divide \(q^{j-1}(q-1)\), and the base conditions use only powers of \(2,3\) in the period. Consequently,
+\[
+v_p(B^T-1)=1.
+\]
+Modulo \(p^3\), \(B^T\) generates the full subgroup \(1+p\mathbb Z/p^3\mathbb Z\). As the exponent moves by \(Tz\), \(0\le z<p^2\), the residual runs through every lift of its current value modulo \(p\). Choose the lift \(m\equiv p^2\bmod p^3\), which forces **exactly** \(v_p(m)=2\). Later steps preserve it.
+
+After the last repair, freeze both exponents modulo their periods at the full modulus \(M'\). For base \(3\), use its unit period away from the \(3\)-part and keep \(c\ge v_3(M')\). Every actual label in the resulting box now has the same residual class modulo \(M'\). This final freezing handles prescribed prime powers above \(p^3\) and preserves the **full** target congruence.
+
+### Transfer to the dyadic theorem
+
+Write the residual as \(m=D u\), where
+\[
+D=2^\epsilon\,3^{2\eta}\!\prod_{p\text{ repaired}}p^2,
+\]
+and \(\epsilon,\eta\in\{0,1\}\) come from the mod-\(216\) box. The prescribed class for \(u\bmod M'/D\) is reduced and is \(1\bmod4\). The squarefree split-prime construction supplies \(\gg X/\sqrt{\log X}\) such \(u\) with \(X\le Du\le3X/2\). In the ordinary windows \(X^{1/8}\le3^c\le X^{1/4}\) and \(X^{1/3}\le5^d\le X^{1/2}\), the fixed exponent classes retain \(\asymp\log X\) choices per axis. Adding the actual labels gives targets in \([X,2X]\) with ordinary positive residuals \(m\ge n/2\). [Draft norm construction](https://github.com/Samsen879/a303656/pull/82/files)
+
+For a label gap \(h\), the primitive cofactors have gap \(h/D\), an integer since the full label residues are fixed. The pair bound is at most \(O((X/\log X)|h|/\varphi(|h|))\). The varying bases remain fixed powers of \(3,5\), so the edge second moment remains \(O(X(\log X)^3)\) and the summed degree energy \(O(X(\log X)^2)\). This gives a positive fraction of distinct targets in each refined class with the draft’s deletion and matching conclusion: after any permitted \(\epsilon_0\log X\) exponent deletions, \(\gg(\log X)^{3/2}\) edges and \(\gg\sqrt{\log X}\) edge-disjoint matchings of size \(\gg\log X\). Every original target class has such refinements. [Radomskii, Example 2 and Lemma 3.1](https://arxiv.org/html/2504.09954v7) · [Draft matching proof](https://github.com/Samsen879/a303656/pull/82/files)
+
+If both bases are Wieferich at a prime, this step has a precise limitation. Once both powers are held fixed modulo \(p\) by period increments, they are fixed modulo \(p^2\) as well, so an initial odd valuation \(1\) cannot be repaired within those increments. I make no assertion about how many such primes exist. The result treats each fixed admissible modulus and a positive fraction of its targets. It supplies neither a uniform growing-modulus estimate nor a pointwise representation theorem. [Repository status](https://github.com/Samsen879/a303656/blob/main/STATUS.md)
+
+### A concrete modulus and inline replay
+
+A simpler union bound already works at modulus \(216\cdot7\cdot11\cdot19\cdot23\cdot31\cdot43\cdot47=455358995784\), because the sum of reciprocal orders of \(9\) at those seven primes is below one while holding the 5-exponent fixed. The increasing-prime method needs no reciprocal-order restriction. The replay verifies an eleven-prime set for which the previous reciprocal-order sum already exceeds \(1\), but every prime has a usable base. It also checks an actual same-target repair at \(7\): \(c=18\to24\) with \(d=31\) preserves the mod-\(216\) residual and changes \(v_7(m)\) from \(1\) to \(2\). Both labels lie in the ordinary windows, and the repaired residual is an exact two-square norm.
+
+```python
+from fractions import Fraction
+from math import isqrt, prod
+
+S = (7, 11, 19, 23, 31, 43, 47, 59, 67, 71, 79)
+orders = [next(k for k in range(1, p) if pow(9, k, p) == 1)
+          for p in S]
+assert sum(Fraction(1, k) for k in orders) > 1
+assert all(any(pow(b, p-1, p*p) != 1 for b in (3, 5)) for p in S)
+
+P = (37, 337, 421, 673, 757, 1009, 1093, 1429, 1597,
+     1933, 2017, 2269, 2437, 2521, 2689)
+assert len(set(P)) == len(P)
+assert all(p % 4 == 1 and all(p % j for j in range(2, isqrt(p)+1))
+           for p in P)
+u = prod(P)
+m = 18 * 49 * u
+n = m + 3**24 + 5**31
+old = n - 3**18 - 5**31
+X = n
+
+assert n % 216 == 176 and m % 216 == old % 216 == 18
+assert old % 49 == 42 and m % 343 == 49
+assert all(3**(8*c) >= X >= 3**(4*c) for c in (18, 24))
+assert 5**93 >= X >= 5**62 and 2*min(old, m) >= n
+assert m == 889841198059910972404599**2 + 275335832956678969820835**2
+```
