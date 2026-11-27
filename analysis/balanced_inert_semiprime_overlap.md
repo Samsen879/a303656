@@ -135,3 +135,82 @@ with localcontext() as ctx:
 assert n-(3**2+5)==133**2*53==266**2+931**2
 assert 53<71*79 and 53%4==1
 ~~~
+
+## Joint four-term base-nine catalogue and short-span savings
+
+The base-\(9\) unit-gap test reduces exactly to counting **pairs of prime squares dividing the same four-term integer**. This removes the need to estimate marginal discrete logs separately. It also gives an unconditional saving for every configuration with normalized exponent span at most \(H^{3/5}/(\log H)^{1+\eta}\), where \(H=\log X\) and \(\eta>0\) is fixed. I did not obtain the required bound for the longer configurations or positive-fraction coverage at \(a=1\) without the lifting hypotheses.
+
+### Exact prime-square reduction
+
+For the base-\(9\) axis, count collisions of positive differences \(9^{i+k}-9^i\) and \(9^{j+\ell}-9^j\) in an exponent interval of length \(N\asymp H\). Interchange the two differences if needed so that \(t=j-i\ge0\). Define
+\[
+D(k,\ell,t)=9^k-1-9^t(9^\ell-1),
+\qquad w=\max(k,t+\ell).
+\]
+For inert primes \(p,q\asymp\sqrt H\), the exact simultaneous unit test is
+\[
+p^2q^2\mid D(k,\ell,t),\qquad
+\gcd\!\big((9^k-1)(9^\ell-1),pq\big)=1.
+\]
+For a given triple, there are exactly \(N-w\) starting positions when \(w<N\). The starting-exponent shift disappears because \(9\) is invertible modulo \(p^2q^2\). Negative differences have the reflected histogram, so Cauchy–Schwarz controls opposite-sign collisions from the same positive-difference energy. The zero differences contribute their own diagonal.
+
+For any chosen set of layer primes, let \(r(D)\) count primes in the set whose squares divide \(D\) and which pass the unit test. A nonidentity triple contributes to exactly \(\binom{r(D)}2\) unordered prime pairs. Thus the aggregate positive unit energy is a sum of
+\[
+(N-w)\binom{r(D)}2
+\]
+over this catalogue, with the orientation factor for \(t>0\) and the elementary identity diagonal handled separately. Here \(D=0\) only for \(t=0,\ k=\ell\), by uniqueness of the base-\(9\) digits in \(9^k+9^t=1+9^{t+\ell}\). The reduction uses no order lifting. It counts solutions with the same exponent displacement at both prime squares.
+
+### Short spans fit the second-moment budget
+
+For nonzero \(D\) of span \(w\), \(\log|D|\ll w\). Each counted prime square uses \(\asymp\log H\) of this logarithm, so \(r(D)\ll w/\log H\). There are \(O(W^3)\) triples of span at most \(W\). Their total unweighted contribution across prime pairs is therefore
+\[
+O\!\left(\frac{W^5}{(\log H)^2}\right).
+\]
+At \(W=H^{3/5}/(\log H)^{1+\eta}\), this is \(O(H^3/(\log H)^{7+5\eta})\). Multiplication by at most \(N\) starting positions gives \(O(H^4/(\log H)^{7+5\eta})\) in aggregate one-axis energy, below the \(O(H^4/(\log H)^7)\) budget from the previous reduction.
+
+Three elementary parts of the catalogue also reduce to one order test. For \(t=0\), the congruence tests \(k-\ell\). For \(k=t+\ell\), it tests \(t\). For \(k=\ell\), the factorization \(D=(1-9^t)(9^k-1)\) and the unit condition again reduce it to \(t\). If \(\operatorname{ord}_{p^2q^2}(9)>N\), these parts give only the identity diagonal.
+
+A sufficient remaining estimate is
+\[
+\sum_{\substack{W<w<N\\D\ne0}}
+\binom{r(D)}2\ll \frac{H^3}{(\log H)^7}
+\]
+on a retained family of \(\asymp H/(\log H)^2\) factors. With the previous lifted-order bounds for nonunit differences and shared primes, this would supply the same-factor estimate needed for positive-fraction **distinct-target** coverage. The size argument alone gives only \(O(H^5/(\log H)^2)\) at full span. The missing input is control of *co-occurring square divisors* in the long catalogue. The exact reduction does not settle that estimate or remove the separate shared-prime and nonunit costs for an unlifted family. [Tao and Teräväinen, sieve upper bound, Lemma 3.2](https://doi.org/10.1112/jlms.12663) · [Repository status](https://github.com/Samsen879/a303656/blob/main/STATUS.md)
+
+### New exact control
+
+For \(p=7,\ q=19\), the modulus is \(17689\). The triple \((40,4,9)\) gives a genuine simultaneous **unit** collision
+\[
+9^{40}-1\equiv 9^{13}-9^9\pmod{17689}.
+\]
+In contrast, \((1,10,0)\) passes both tests modulo the primes, with both differences units, but \(D\equiv532=4\cdot7\cdot19\bmod17689\). Both prime valuations are exactly one. This directly checks why ordinary prime divisors cannot substitute for prime squares in the catalogue.
+
+The same factor gives a separate positive certificate at \(n=1079043\), with actual label \((c,d)=(2,1)\):
+\[
+1079043-(3^2+5)=133^2\cdot61=665^2+798^2.
+\]
+The \(a=1\) screen is \(74\), and the stripped cofactor \(61\) is below \(79\cdot83\). The following arithmetic checks replay the exact controls.
+
+```python
+from math import gcd, log, isqrt
+
+def D(k, ell, t):
+    return 9**k - 1 - 9**t * (9**ell - 1)
+
+M = 133**2
+for k, ell in [(40, 4), (1, 10)]:
+    assert gcd((9**k - 1) * (9**ell - 1), M) == 1
+
+assert D(40, 4, 9) % M == 0
+assert D(1, 10, 0) % M == 532
+assert all(D(1, 10, 0) % p == 0 and D(1, 10, 0) % p**2 != 0
+           for p in (7, 19))
+
+n = 1079043
+assert n - 3**2 - 5 == M*61 == 665**2 + 798**2
+B = int(n**0.5 / log(n))
+inert = [p for p in range(3, 100, 4)
+         if all(p % j for j in range(2, isqrt(p) + 1))]
+assert B == 74 and [p for p in inert if p > B][:2] == [79, 83]
+assert all(61 % p for p in inert if p <= B) and 61 < 79*83
+```
