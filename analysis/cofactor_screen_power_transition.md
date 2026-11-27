@@ -30,7 +30,7 @@ O\!\left(\sqrt X\sum_{u\le Y}u^{-1/2}\right)=O(\sqrt{XY}).
 \]
 Each residual and actual label determine one target. There are \(O((\log X)^2)\) labels below \(2X\), so the number of accepted target-label pairs, and therefore of certified targets, is \(O(X^{1/2+\beta}(\log X)^2)=o(X)\). The count includes all positive residuals and uses no assumptions about independence or how the stripping varies with the label. [Davenport, *Multiplicative Number Theory*, Chapters 20–22](https://link.springer.com/book/9780387950976)
 
-**Logarithmic refinement.** An accepted \(u\) is itself a sum of two squares. The Landau bound and partial summation give \(\sum_{u\le Y,\,u\text{ a norm}}u^{-1/2}\ll\sqrt{Y/\log Y}\). This improves the fixed-\(\beta\) upper bound to \(O_\beta(X^{1/2+\beta}(\log X)^{3/2})\). It also gives density zero for the nearer-borderline budget \(B(n)=\lfloor\sqrt n/(\log n)^a\rfloor\) when \(a>3/2\). This count leaves \(0<a\le3/2\) open. [Repository theorem assets, K2-N1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
+**Logarithmic refinement.** An accepted \(u\) is itself a sum of two squares. The Landau bound and partial summation give \(\sum_{u\le Y,\,u\text{ a norm}}u^{-1/2}\ll\sqrt{Y/\log Y}\). This improves the fixed-\(\beta\) upper bound to \(O_\beta(X^{1/2+\beta}(\log X)^{3/2})\). It also gives density zero for the nearer-borderline budget \(B(n)=\lfloor\sqrt n/(\log n)^a\rfloor\) when \(a>3/2\). The refinement below settles sparsity at the endpoint \(a=3/2\); distinct-target behavior for \(0<a<3/2\) is not settled here. [Repository theorem assets, K2-N1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
 
 At \(\beta=1/2\), both \(q_i>\sqrt n\), so \(q_1q_2>n>m\). Every norm therefore passes the height test as well as the local tests. Conversely, every accepted residual is a norm by the parity argument. The project’s P-001 gives positive dyadic coverage at this screen. Its growing count of admissible pairs also ensures positive residuals there, since a zero residual allows at most one \(d\) per \(c\), hence only \(O(\log X)\) zero pairs. [Repository theorem index, P-001](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
 
@@ -80,3 +80,73 @@ assert [u % 4 == 1 and u < q[0]*q[1] for m, u in rows] == [
     True, False, False
 ]
 ```
+## Refinement at logarithmic screens
+
+**The endpoint \(a=3/2\) is sparse.** For the screen \(B(n)=\lfloor\sqrt n/(\log n)^a\rfloor\), the number of accepted target-label pairs with \(X\le n\le2X\) is
+\[
+\Theta_a\!\left(
+\frac{X(\log X)^{3/2-a}}{\sqrt{\log\log X}}
+\right)
+\qquad (0<a\le3/2).
+\]
+The upper bound also bounds the number of distinct targets, giving \(O(X/\sqrt{\log\log X})\) at the endpoint. For the whole displayed range, the matching lower bound holds even with distinct actual labels and targets restricted to \(n\equiv3\pmod4\). It counts incidences, so a positive fraction of distinct targets in that class remains unproved.
+
+### Where the extra saving comes from
+
+For an actual positive residual \(m=n-3^c-5^d\), reject odd valuations at screened primes \(p\equiv3\pmod4\). Strip the full powers of \(2\) and of those primes. The selector accepts the cofactor \(u\) when \(u\equiv1\pmod4\) and \(u<q_1q_2\), where \(q_1,q_2\) are the first two inert primes above the screen. Any remaining obstruction would require two distinct inert primes with odd valuations, whose product is at least \(q_1q_2\). [Repository theorem assets, AUX-01](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
+
+Put \(L=(\log X)^a\). The fixed-progression prime number theorem bounds \(q_1q_2\ll_a X/L^2\) uniformly on the dyadic interval. Every accepted residual has the form
+\[
+m=2^\epsilon s^2u,\qquad \epsilon\in\{0,1\},
+\]
+where every prime divisor of \(s\) is \(3\bmod4\) and \(u\) is a two-square norm. The restriction on \(s\) is essential. Wirsing’s theorem applied to the indicator of integers supported on the primes \(3\bmod4\) gives a count asymptotic to \(C_-t/\sqrt{\log t}\), with \(C_->0\). The same conclusion holds for support on primes \(1\bmod4\). Both applications use prime density \(1/2\) and bounded prime-power values. [Wirsing’s original theorem](https://doi.org/10.1007/BF01351892) · [Davenport, *Multiplicative Number Theory*, Chapters 20–22](https://link.springer.com/book/9780387950976)
+
+For \(s\le L\), multiply the count of eligible \(s\) by the Landau upper bound for norms \(u\ll X/L^2\). For \(L<s\le X^{1/4}\), apply the norm bound at \(2X/s^2\) and use partial summation to bound the sum of \(s^{-2}\) over inert-supported \(s>L\) by \(O(1/(L\sqrt{\log L}))\). For \(s>X^{1/4}\), summing the unrestricted bound \(2X/s^2\) costs \(O(X^{3/4})\). Altogether the number of candidate residual values is
+\[
+O_a\!\left(\frac{X}{L\sqrt{\log X\,\log L}}\right).
+\]
+There are \(O((\log X)^2)\) actual labels below \(2X\), giving the incidence upper bound. In particular, the improvement comes from the prime support of the stripped square factor. No cancellation between labels is needed. [Repository theorem assets, K2-N1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
+
+### Matching incidences in one residue class
+
+Take inert-supported \(s\in[2L,3L]\), and take \(u\) supported on primes \(1\bmod4\) in
+\[
+[X/s^2,\;3X/(2s^2)].
+\]
+These \(u\) are odd primitive two-square norms. In the Gaussian factorization, choosing just one conjugate above each split prime gives a representation with coprime coordinates. The two disjoint prime supports make \(m=s^2u\) determine \(s\) and \(u\) uniquely. The screen eventually contains every prime dividing \(s\), and
+\[
+m\in[X,3X/2],\qquad u\le3X/(8L^2)<q_1q_2
+\]
+uniformly for targets in \([X,2X]\) when \(X\) is large. The two Wirsing counts give \(\asymp_a X/(L\sqrt{\log X\,\log L})\) such residuals. [Wirsing’s original theorem](https://doi.org/10.1007/BF01351892)
+
+Use even \(c\) and all \(d\) with \(3^c,5^d\le X/8\), requiring \(c\ge\lceil2\log_3\log X\rceil\). There are \(\asymp(\log X)^2\) labels, all \(2\bmod4\), and they are distinct. In a collision with \(c<c'\), one would have \(v_3(5^{|d-d'|}-1)=c\). If \(|d-d'|\) is odd the valuation is zero, and otherwise it is \(1+v_3(|d-d'|)\le\log_3\log X+O(1)\), below the chosen \(c\). Adding each label to each constructed residual gives the matching incidence lower bound in \(n\equiv3\pmod4\). A single label already gives \(\gg_a X/(L\sqrt{\log X\,\log L})\) distinct targets in that class. Any stronger coverage claim from this construction needs control of how often different labels certify the same target.
+
+### Cost of excluding small residuals
+
+The project’s actual-label interval bound I2-D1 shows that discarding all \(0\le m\le H\), for \(1\le H\le X/2\), can lose at most
+\[
+O\!\left((H+1)\bigl(1+\log(X/H)\bigr)\right)
+\]
+targets in \([X,2X]\). The bound includes zero residuals and counts a target even if it has another certificate. At \(H=X/(\log X)^{2a}\) the loss is \(O_a(X\log\log X/(\log X)^{2a})=o(X)\), globally and relative to any fixed residue class. The matching incidence construction above uses only \(m\ge X\). [Repository theorem assets, I2-D1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
+
+### Exact endpoint control
+
+At \(a=3/2\) and \(n=1965131\), the unrounded screen lies between \(25.41\) and \(25.42\), so \(B=25\) and \(q_1q_2=31\cdot43=1333\). Both labels clear the screened valuations and strip exactly \(9\).
+
+| Label \((c,d)\) | Residual \(m\) | Cofactor \(u\) | Outcome |
+|---|---:|---:|---|
+| \((4,9)\) | \(11925=30^2+105^2\) | \(1325=5^2\cdot53\) | Accepted |
+| \((2,9)\) | \(11997=9\cdot31\cdot43\) | \(1333\) | Rejected at equality |
+
+~~~python
+from decimal import Decimal, localcontext
+n=1965131
+with localcontext() as ctx:
+    ctx.prec=60
+    x=Decimal(n)
+    unrounded=x.sqrt()/x.ln()**Decimal("1.5")
+    assert Decimal("25.41")<unrounded<Decimal("25.42")
+ex=[screened(n,c,9,25) for c in (4,2)]
+assert ex==[(11925,1325),(11997,1333)]
+assert [norm(m) for m,u in ex]==[True,False]
+~~~
