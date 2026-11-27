@@ -86,3 +86,78 @@ for v in (p, q):
     for u in range(s):
         assert (F(1-pow(9, 1+r*u, v*v), v)-F(1-9, v)) % v == slope(1, v)*u % v
 ```
+## Double orthogonality and a necessary full-log Fejér test
+
+The two character averages can be performed exactly. Averaging over characters with a fixed restriction to the base-\(9\) orbit leaves a joint CRT log. Averaging over restriction indices with fixed lifting digits then leaves a short geometric sum in the **coarse** log. That second average alone still costs \(\Omega(H)\) if the surviving terms are charged by absolute value. A positive-kernel calculation gives a sharper necessary test: the **full** CRT logs must have few close pairs at scale \(H/(\log H)^5\).
+
+### Exact double orthogonality
+
+Put \(H=\log X\), \(s=pq\), \(M=s^2\), \(r=\operatorname{ord}_s(9)\asymp H\), and \(R=sr\). Assume the orders lift at both balanced primes. Write \(\mathrm e(x)=\exp(2\pi i x)\), and use restriction indices \(\chi(9)=\mathrm e(\alpha/R)\). Doubly primitive characters correspond to \(\gcd(\alpha,s)=1\).
+
+For each eligible \(e\bmod r\), set \(z_e=1-9^e\bmod M\), \(\beta_e=9^e/(1-9^e)\bmod s\), and let \(U_e\) be the actual set of integers \(u\) with \(e+ru\) in the exponent interval. If \(a=\alpha\bmod s\), the stationary formula gives
+\[
+S_I(\chi)=\sum_e\chi(z_e)W_e(a),\qquad
+W_e(a)=\sum_{u\in U_e}\mathrm e(-a\beta_e u/s).
+\]
+The two local lifting conditions are both retained in the single residue \(\beta_e\bmod s\).
+
+Let \(\Gamma=\langle9\rangle\bmod M\). Averaging \(|S_I(\chi)|^2\) over the extensions of a fixed \(\alpha\) keeps exactly the pairs with \(z_e/z_f\in\Gamma\). For such a pair let \(L_{ef}\bmod R\) be its full log. Its surviving phase is \(\mathrm e(\alpha L_{ef}/R)\). Writing \(\alpha=a+sb\), the normalized narrow mass is therefore exactly
+\[
+\frac1R\sum_{\substack{a\bmod s\\(a,s)=1}}
+\sum_{z_e/z_f\in\Gamma}
+W_e(a)\overline{W_f(a)}\,\mathrm e(aL_{ef}/R)
+\sum_{\substack{b:\\a+sb\ \text{in the narrow band}}}
+  \mathrm e(bL_{ef}/r).
+\]
+This formula keeps the actual interval through \(U_e\) and the exact band endpoints through the inner sum. In a band made of full digit blocks, expanding \(W_e\overline{W_f}\) also evaluates the \(a\)-sum by inclusion–exclusion over \(p,q\), with phase numerator \(L_{ef}-r(\beta_e u-\beta_f v)\). The lift and interval information survives in that numerator. [Dirichlet character orthogonality](https://kskedlaya.org/ant/chapter-4.html)
+
+### What the second average can and cannot save
+
+Take an interval of length \(\asymp r\) lying inside one coarse period, so that each retained exponent has one lift and \(|W_e(a)|=1\). Let \(B\asymp(\log H)^5\) be the length of the \(b\)-sum. The projection of \(\Gamma\) modulo \(s\) has bounded index, and the lifting hypothesis makes \(\Gamma\) contain the entire reduction kernel. Thus equal coarse cosets already imply a full log exists.
+
+In each coarse coset, partition its log circle into \(O(B)\) arcs of length at most \(r/(100B)\). Pigeonholing gives \(\gg r^2/B\) off-diagonal pairs with \(\|L_{ef}/r\|\le1/(100B)\). For every such pair, the \(b\)-sum has magnitude \(\gg B\). Charging those terms by absolute value after the \(b\)-average therefore costs
+\[
+\gg \frac{\varphi(s)}R\frac{r^2}{B}B\asymp H,
+\]
+above the required \(H/(\log H)^5\). This obstruction comes **after** fixed-restriction orthogonality and the geometric-sum average. It leaves cancellation in the remaining digit phases open.
+
+There is also a positive-kernel test for the actual incomplete interval. Take all eligible actual exponents \(i,j\in I\), including their lifts, and let \(L(i,j)\bmod R\) be the full log of \((1-9^i)/(1-9^j)\) when it exists. With \(A=\lfloor R(\log H)^5/H\rfloor\), triangular weights \(1-|\alpha|/A\) yield the nonnegative Fejér kernel in \(L(i,j)/R\). Every pair with circular log distance at most \(R/(10A)\) contributes \(\gg A/R\) to the weighted normalized mass. Hence the desired narrow-mass estimate **requires**
+\[
+\#\{(i,j)\in I^2:\ L(i,j)\text{ exists and }
+               |L(i,j)|_R\le R/(10A)\}
+\ll \frac{H^2}{(\log H)^{10}}.
+\]
+The imprimitive mass is \(O(\sqrt H)\), so including it in this necessary test does not change the budget. The new counting problem concerns short distances between **full lifted logs** of actual exponent values. Small coarse-log distance is insufficient. I did not establish this count or a supply of lifted prime pairs. [Repository status](https://github.com/Samsen879/a303656/blob/main/STATUS.md)
+
+### New exact character replay
+
+With \(p=19,\ q=23\), take \(e=10,f=16\). The ratio has full log \(39898\bmod43263\) and coarse log \(1\bmod99\). The character
+\[
+\chi(z)=\mathrm e\!\left(7F_{19}(z)/19+12F_{23}(z)/23\right)
+\]
+is primitive at both squares, with restriction index \(\alpha=99\). Its phase on the ratio is \(\mathrm e(131/437)\). Moving \(\alpha\) by \(437\) keeps both digit components and advances the pair phase by just \(\mathrm e(1/99)\). This is an exact example of a slowly rotating term in the \(b\)-average whose full log is far from zero. The integer replay checks these identities.
+
+```python
+from math import gcd
+
+p, q, r = 19, 23, 99
+s, M, R = p*q, (p*q)**2, p*q*r
+
+def F(z, v):
+    return (pow(z, v-1, v*v) - 1) // v % v
+
+z = lambda e: (1-pow(9, e, M)) % M
+a, b = z(10), z(16)
+L = 39898
+assert (a, b) == (118571, 64255) and gcd(a*b, s) == 1
+assert a*pow(b, -1, M) % M == 114503 == pow(9, L, M)
+assert L % r == 1 and L % s == 131
+
+alpha = r*(q*7*F(9, p) + p*12*F(9, q)) % R
+assert alpha == 99
+assert (q*7*(F(a, p)-F(b, p)) + p*12*(F(a, q)-F(b, q))) % s == 131
+for i in range(r):
+    shifted = (alpha+s*i) % R
+    assert gcd(shifted, s) == 1
+    assert (shifted*L-alpha*L) % R == s*i % R
+```
