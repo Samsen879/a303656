@@ -387,3 +387,124 @@ for j in range(19):
     assert lift % q == t and hit(lift,q,c,d)
 assert len(targets) == 19
 ```
+## Private center order: when even a pinned lift digit cannot force failure
+
+**Pinning the center’s \(p\)-digits is insufficient whenever the remaining shared-order constraints leave two or more prime-level matches.** The exact number of remaining matches is a gcd of actual order ratios. This gives a necessary condition on any auxiliaries meant to internalize the star’s pin. In the native four-row star, freeing just the center’s odd private cofactor restores exact hits at the same target, even with both center \(p\)-digits and all leaf order residues held fixed.
+
+## Exact count with the auxiliary residues held fixed
+
+Let \(p>5\) be the center, with \(n\equiv pt\pmod{p^2}\) and \(t\ne0\bmod p\). For \(b=3,5\), write \(h_b=\operatorname{ord}_p(b)\). Let \(A_b\) be the lcm of the full orders at all other rows in that coordinate, together with any prescribed exponent congruence modulus. Put
+\[
+s_b=\gcd(h_b,A_b),\qquad
+G=\gcd(h_3/s_3,h_5/s_5).
+\]
+
+Hold the other rows’ full exponent residues and both center \(p\)-digits fixed. If there is any compatible match modulo \(p\), there are **exactly \(G\)** compatible prime-level center residue pairs and **at least \(G-1\)** exact center residue pairs.
+
+Indeed, the two powers range over cosets of \(\langle3^{s_3}\rangle\) and \(\langle5^{s_5}\rangle\). A prime-level match is an intersection of one coset with the negative of the other. A nonempty intersection is a coset of the intersection subgroup, of size \(G\). Each of its elements gives a distinct value \(y=5^d\bmod p\).
+
+On these matches the ratio \(-3^c/5^d\bmod p^2\) lies in the kernel of reduction modulo \(p\). Its value \(1+p\lambda\) is determined by the fixed \(p\)-digits. The residual is consequently \(p(t+\lambda y)\bmod p^2\). If \(\lambda=0\), all \(G\) matches give valuation one. Otherwise the only possible loss is \(y=-t/\lambda\). CRT joins each surviving center choice while preserving the other rows’ full orders.
+
+**Consequence for internal pins.** If \(G\ge2\), the center’s valuation-one test can be replaced by divisibility modulo \(p\) without changing feasibility, even when the auxiliaries force a nonzero lift digit. The replacement can be made at several qualifying centers: repairing one preserves all other rows’ full residues. At center 23 with the full-order-independent guards, \(s_3=s_5=1\) and \(G=11\), recovering the observed 10 or 11 exact center phases.
+
+To make a star inconsistent through the center’s **exact** test, the auxiliaries must drive \(G\) to 1. For every prime \(\ell\) dividing both \(h_3\) and \(h_5\), at least one coordinate must therefore observe the *entire* \(\ell\)-primary factor of its center order. If an odd factor \(\ell^\nu\) must come from a row \(q\ne\ell\), that row needs \(\ell^\nu\mid q-1\), so \(q\ge2\ell^\nu+1\). A row at \(\ell\) itself can supply at most one factor of \(\ell\) through its prime-square lift. These are necessary order conditions. They give no existence claim for guards with the required masks.
+
+The same count applies to an odd-depth star at target \(p^r t\bmod p^{r+1}\) when the fixed primary residue makes the ratio \(1+p^r\lambda\bmod p^{r+1}\). Use full orders at that depth.
+
+## Native control at the original star target
+
+For \(p=376662287\) and leaves \(376688747,376727627,376857287\), the center’s orders modulo \(p\) are \(188331143\) and \(376662286\). With the edge constraints and the prescribed pins other than the center cofactor, the observed prime-level divisors are \(1001\) and \(2002\). Thus
+\[
+G=188143.
+\]
+The fully pinned star forces the zero edge assignment and makes the center residual zero modulo \(p^2\). Freeing the center cofactor \(188143\) gives a witness with center residual **\(73849289002309293\bmod p^2\)**, a nonzero multiple of \(p\). The target, both center \(p\)-digits, all edge digits, and both full-order residues at each leaf are unchanged.
+
+This is a modular obstruction to an internal-pin strategy. It gives no ordinary-height bound and does not establish an unbounded family of auxiliary guards. [Public project theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+
+## Inline exact replay
+
+The exact `BigInt` replay verifies the full orders, the edge equations that force the zero assignment, and the released-cofactor witness.
+
+```javascript
+const P = [376662287n, 376688747n, 376727627n, 376857287n];
+const E = [7n, 11n, 13n], labels = [E, [7n], [11n], [13n]];
+const [p] = P;
+const prod = xs => xs.reduce((a,b) => a*b, 1n);
+const mod = (x,m) => (x%m+m)%m;
+function check(ok) { if (!ok) throw new Error("failed"); }
+function gcd(a,b) { while (b) [a,b] = [b,a%b]; return a; }
+function lcm(a,b) { return a/gcd(a,b)*b; }
+
+function pow(a,k,m) {
+    let x = 1n;
+    while (k) {
+        if (k%2n) x = x*a%m;
+        a = a*a%m;
+        k /= 2n;
+    }
+    return x;
+}
+function factors(n) {
+    const out = [];
+    for (let d=2n; d*d<=n; d++) {
+        if (n%d) continue;
+        out.push(d);
+        while (n%d===0n) n /= d;
+    }
+    if (n>1n) out.push(n);
+    return out;
+}
+function order(b,q,k) {
+    let h = (q-1n)*q**(k-1n), m = q**k;
+    for (const f of [...factors(q-1n),q])
+        while (h%f===0n && pow(b,h/f,m)===1n) h /= f;
+    return h;
+}
+
+const bases = [3n,5n];
+check(P.every(q => q%4n===3n && factors(q)[0]===q));
+const h = bases.map(b => order(b,p,1n));
+const L = P.map(q => bases.map(b => order(b,q,2n)));
+check(h[0]===188331143n && h[1]===376662286n);
+const privateParts = P.map((q,i) => (q-1n)/(2n*prod(labels[i])));
+const [m] = privateParts;
+const pin = 2n*prod(privateParts.slice(1))*prod(P);
+const s = h.map((v,j) =>
+    gcd(v,L.slice(1).reduce((a,row) => lcm(a,row[j]),pin)));
+check(s[0]===1001n && s[1]===2002n);
+check(m===188143n && gcd(h[0]/s[0],h[1]/s[1])===m);
+
+const n = 352727819669986940083073739939160684805177471250246901660590817660124n;
+const baseline = [
+    25357274721862185257774251608523479342207987229415345217102626772n,
+    25335196724530666447231268180576025359813330744351488268093409461n
+];
+const witness = [
+    37706605928514882187995865712180092310523369337189677964482600488n,
+    47523810574002956644097372397701271341266807018947199141542645613n
+];
+check(n%(p*p)!==0n && n%p===0n);
+for (let i=1; i<P.length; i++) {
+    const q=P[i], ell=E[i-1];
+    const a=pow(5n,(p-1n)/ell,p), b=pow(5n,(q-1n)/ell,q);
+    check(a!==1n && a===pow(3n,(p-1n)/ell,p));
+    check(b!==1n && b*b%q===pow(3n,(q-1n)/ell,q));
+    check(n%(q*q)===q);
+}
+check(L[0].every(x => lcm(pin*m,prod(E))%x===0n));
+
+function residual(q,[c,d]) {
+    return mod(n-pow(3n,c,q*q)-pow(5n,d,q*q),q*q);
+}
+for (let j=0; j<2; j++) {
+    const diff = witness[j]-baseline[j];
+    check(diff%pin===0n && diff%prod(E)===0n);
+    check(L.slice(1).every(row => diff%row[j]===0n));
+}
+check(residual(p,baseline)===0n);
+check(residual(p,witness)===73849289002309293n);
+for (const w of [baseline,witness])
+    for (const q of P.slice(1)) check(residual(q,w)===q);
+check(P.every(q => residual(q,witness)!==0n &&
+                   residual(q,witness)%q===0n));
+```
