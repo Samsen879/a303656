@@ -112,3 +112,76 @@ assert [(c, d) for c in C for d in D
 m = residual(n, 2, 3)
 assert 2*m >= n and m == 309**2 + 951**2 and m % 9 == 0
 ```
+## Restoring all target classes with the single fixed square multiplier 9
+
+**The factor \(3^2\) restores all four forbidden classes.** In every sufficiently large dyadic interval, a positive fraction of each class modulo \(24\) has the full deletion-robust conclusion of draft PR #82 in the original exponent windows. In the four restored classes \(2,4,8,22\bmod24\), the residual is exactly \(9\) times a squarefree two-square norm coprime to \(3\). The construction can in fact work separately in **every class modulo \(216\)**, with a fixed exponent box chosen for that class. This is a positive-fraction result. [Draft PR #82](https://github.com/Samsen879/a303656/pull/82/files)
+
+### The residue change
+
+Fix a target class \(n\equiv b\bmod216\) above one of the four forbidden classes. An even squarefree two-square norm is \(2\bmod8\), and multiplication by \(9\) preserves that residue. Thus the required exponent parities are still the unique ones satisfying
+\[
+3^c+5^d\equiv b-2\pmod8.
+\]
+In these forbidden classes, that \(d\)-parity satisfies \(5^d\equiv b\bmod3\).
+
+Choose \(c\ge3\) with the required parity, and choose \(d\bmod18\) by
+\[
+5^d\equiv b-18\pmod{27}.
+\]
+The order of \(5\bmod27\) is \(18\): \(25\) has order \(9\) by lifting the exponent, and \(5\equiv-1\bmod3\). Since \(b-18\) is a unit, the exponent class exists uniquely. Reducing modulo \(3\) shows it has the required parity. Every actual label in this box therefore leaves
+\[
+m=n-3^c-5^d\equiv18\pmod{27},\qquad m\equiv2\pmod8.
+\]
+Equivalently, \(m\equiv18\bmod216\). In particular \(v_3(m)=2\), and \(m/9\equiv2\bmod24\).
+
+Take \(m=18u\), where \(u\) is an odd squarefree norm supported on split primes, \(u\equiv1\bmod12\), and \(u\in[X/18,X/12]\). The squarefree product and large-prime construction from the draft gives \(\gg X/\sqrt{\log X}\) such \(u\) in this fixed reduced class. Then \(m/9=2u\) is squarefree, and if \(u=x^2+y^2\) the **ordinary residual** is
+\[
+m=[3(x+y)]^2+[3(x-y)]^2.
+\]
+The exponent windows remain \(X^{1/8}\le3^c\le X^{1/4}\) and \(X^{1/3}\le5^d\le X^{1/2}\). Restricting to the fixed classes of \(c,d\) leaves \(\asymp\log X\) actual exponents on each axis. The target is formed by adding the actual label to \(m\in[X,3X/2]\), so \(n\in[X,2X]\) and \(m\ge n/2\) for sufficiently large \(X\). [Draft squarefree norm construction](https://github.com/Samsen879/a303656/pull/82/files) · [Williams, *Mertens’ Theorem for Arithmetic Progressions*](https://people.math.carleton.ca/~williams/papers/pdf/057.pdf)
+
+For the other 20 mod-\(24\) classes, retain strictly squarefree residuals. In each refinement modulo \(216\), fix a compatible parity box and a \(d\)-class modulo \(18\) that makes the residual a unit modulo \(3\). Since \(c\ge3\), the whole box then has a fixed residual class modulo \(216\). For odd targets use that reduced class directly. For even targets divide the prescribed residual class by \(2\) and use the resulting reduced class modulo \(108\) for the odd squarefree norm. The fixed-progression prime theorem applies in each case.
+
+### Scaling the energy and matching argument
+
+Write \(L=\log X\). In a restored box, the difference \(h\) of two distinct labels is divisible by \(216\), so the odd primitive norm cofactors are separated by the integer gap \(h/18\). Radomskii’s pair estimate at scale \(X/18\) is
+\[
+O\!\left(\frac{X}{L}\frac{|h|/18}{\varphi(|h|/18)}\right)
+\ll \frac{X}{L}\frac{|h|}{\varphi(|h|)}.
+\]
+The fixed target congruence only restricts the count. On the two axes the varying bases are \(9\) and \(5^{18}\). The draft’s reciprocal-order argument applies to both fixed bases, so the full edge second moment remains \(O(XL^3)\), and the summed degree energy remains \(O(XL^2)\). [Radomskii, Example 2 and Lemma 3.1](https://arxiv.org/html/2504.09954v7)
+
+The first moment is \(\gg XL^{3/2}\). Consequently, \(\gg X\) distinct targets in the chosen class have \(\gg L^{3/2}\) edges and degree energy \(O(L^2)\). Deleting at most \(\epsilon L\) exponent vertices costs at most \(\sqrt{\epsilon L\sum_v d_v^2}\). After discarding vertices of degree above \(C\sqrt L\), a fixed fraction of the edges remains. A greedy maximal matching has size \(\gg L\), and each repetition removes only \(O(L)\) edges, so \(\gg\sqrt L\) edge-disjoint matchings can be taken after any permitted deletion. There are only finitely many mod-\(216\) classes, so the constants can be made uniform. [Draft PR #82 matching argument](https://github.com/Samsen879/a303656/pull/82/files)
+
+### New same-target replay
+
+At \(X=10^8\), take \(n=100000370\equiv146\bmod216\), in the restored class \(2\bmod24\). The actual axes are \(c\in\{3,4\}\), \(d\in\{4,5\}\). The only label that could leave an even squarefree norm modulo \(8\) is \((3,5)\), and it gives
+\[
+n-3^3-5^5=99997218
+=9(169^2+3329^2)=507^2+9987^2.
+\]
+The residual divided by \(9\) is squarefree. The residual itself is divisible by \(9\) and fails the strict-squarefree condition. The inline replay checks the restored rule modulo \(216\).
+
+```python
+from math import isqrt
+
+for b in range(216):
+    if b % 24 in {2, 4, 8, 22}:
+        c, d = next((c, d) for c in (0, 1) for d in (0, 1)
+                    if (3**c + 5**d + 2) % 8 == b % 8)
+        choices = [e for e in range(18) if pow(5, e, 27) == (b-18) % 27]
+        assert len(choices) == 1 and choices[0] % 2 == d
+        assert (b - 3**(3 if c else 4) - 5**choices[0]) % 216 == 18
+
+X, n = 10**8, 100000370
+C = [c for c in range(30) if 3**(8*c) >= X >= 3**(4*c)]
+D = [d for d in range(30) if 5**(3*d) >= X >= 5**(2*d)]
+assert (C, D) == ([3, 4], [4, 5])
+assert X <= n <= 2*X and n % 216 == 146
+assert [(c, d) for c in C for d in D
+        if (n - 3**c - 5**d) % 8 == 2] == [(3, 5)]
+m = n - 3**3 - 5**5
+assert 2*m >= n and m % 27 == 18
+assert m == 9*(169**2 + 3329**2) == 507**2 + 9987**2
+assert all((m//9) % (j*j) for j in range(2, isqrt(m//9)+1))
+```
