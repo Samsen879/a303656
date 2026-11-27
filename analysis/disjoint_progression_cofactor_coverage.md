@@ -239,3 +239,70 @@ for s in (21, 63, 147):
     assert pow(5, period, s*s) == 1
     assert len({pow(5, d, s*s) for d in range(period)}) == period
 ```
+## A quantitative obstruction when the allowed support grows slowly
+
+At \(a=1\), allowing the stripping primes to grow with \(X\) still gives **density-zero coverage if their number is \(O((\log\log X)^{2-\varepsilon})\)** for any fixed \(0<\varepsilon<2\). This holds even if all usable \(3,5\) residue classes can be assigned without overlaps. More generally, for \(3/4<a<3/2\), a prime set of size \(O((\log\log X)^\kappa)\) is too sparse whenever
+\[
+\kappa<\frac{2a}{3-2a}.
+\]
+The strict inequality matters. This bound leaves larger growing prime sets open.
+
+### A necessary weight bound for a growing family
+
+Put \(L=(\log X)^a\), and let \(P_X\) be the allowed inert primes for the stripped odd square factor. For an accepted residual \(m=n-3^c-5^d=2^\epsilon s^2u\), with \(\epsilon\in\{0,1\}\), the cofactor \(u\) is a two-square norm, and the prime divisors of \(s\) lie in \(P_X'=P_X\cup\{2\}\). The possible factor 2 accounts for the stripped even part of \(v_2(m)\); on odd targets use \(P'_X=P_X\) directly. The first two unscreened inert primes have product \(O_a(X/L^2)\) uniformly for \(n\in[X,2X]\). Hence \(m\ge X/2\) forces \(s\ge c_aL\) for some \(c_a>0\). [Repository theorem assets, AUX-01 and K2-N1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md) · [Davenport, *Multiplicative Number Theory*, Chapters 20–22](https://link.springer.com/book/9780387950976)
+
+Define the available reciprocal-square weight
+\[
+W_X=\sum_{\substack{s\ge c_a L\\p\mid s\ \Rightarrow\ p\in P'_X}}\frac1{s^2}.
+\]
+For labels \(3^c+5^d\le X/2\), there are \(O((\log X)^2)\) actual exponent pairs. For each label and \(s\le X^{1/4}\), Landau’s bound gives \(O(X/(s^2\sqrt{\log X}))\) possible cofactors. Larger \(s\) cost \(O(X^{3/4})\) per label by summing \(2X/s^2\) over all integers.
+
+The labels above \(X/2\) number only \(O(\log X)\), since at least one power must exceed \(X/4\). Even with unrestricted \(s\), their total contribution is \(O_a(X\sqrt{\log X}/L+X^{3/4}\log X)\). To see this, split at \(s=L\) and \(s=X^{1/4}\). Below \(L\) use the cofactor cutoff and Landau’s bound, in the middle use Landau’s bound at \(2X/s^2\), and above \(X^{1/4}\) sum \(2X/s^2\). This includes labels leaving small positive residuals.
+
+Thus for \(a>1/2\), a positive fraction of **distinct targets** requires
+\[
+W_X\gg_a (\log X)^{-3/2}.
+\]
+In particular, if the family uses only factors \(s\asymp L\), it needs \(\gg_a(\log X)^{2a-3/2}\) distinct factors in that range. This is a necessary count before imposing accessibility or charging collisions.
+
+For any fixed \(0<\theta<1\), the weight satisfies
+\[
+W_X\ll_a L^{-(2-\theta)}
+             \prod_{p\in P'_X}(1-p^{-\theta})^{-1}.
+\]
+Writing \(H=|P'_X|\), the logarithm of the product is \(O_\theta(1+H^{1-\theta})\), by ordering the primes and comparing with \(\sum_{j\le H}(j+1)^{-\theta}\). If \(H=O((\log\log X)^\kappa)\), choose \(\theta\) so that \(\kappa(1-\theta)<1\) and \(a(2-\theta)>3/2\). Such a choice exists in the claimed range. Then \(W_X\le(\log X)^{-a(2-\theta)+o(1)}=o((\log X)^{-3/2})\). The obstruction allows the prime set and the assignment of labels to vary arbitrarily with \(X\).
+
+### Exact CRT cost for an accessible family
+
+Let \(R_s\) be the distinct accessible residues \(3^c+5^d\bmod s^2\) for a factor \(s\). For a second factor \(t\), put \(g=\gcd(s,t)\), and let \(r_s(b)\) count residues in \(R_s\) reducing to \(b\bmod g^2\). The number of compatible residue pairs is exactly
+\[
+A_{s,t}=\sum_{b\bmod g^2}r_s(b)r_t(b).
+\]
+Each compatible pair costs one class modulo \(s^2t^2/g^2\), so the progression intersection in \([X,2X]\) has size
+\[
+\frac{Xg^2}{s^2t^2}A_{s,t}+O(A_{s,t}).
+\]
+For coprime factors, \(A_{s,t}=|R_s||R_t|\). For shared factors, separated reductions can make the intersection empty, while concentration on the same reduction can increase the cost by a factor as large as \(g^2\) over the product-of-densities calculation. This counts progression intersections before the norm test. The weight obstruction holds even if every such intersection can be avoided.
+
+### Independent same-target CRT replay
+
+~~~python
+from decimal import Decimal, localcontext
+from math import gcd, isqrt
+n=118715
+with localcontext() as ctx:
+    ctx.prec=60
+    y=Decimal(n)
+    assert 29<y.sqrt()/y.ln()<30
+P=[p for p in range(3,44,4) if all(p%i for i in range(2,isqrt(p)+1))]
+assert [p for p in P if p>29]==[31,43]
+assert n-3**4-5==21**2*269==210**2+273**2
+assert n-3**2-5==33**2*109==99**2+330**2
+assert all(v%4==1 and v<31*43 and all(v%p for p in P if p<=29) for v in [269,109])
+s,t=21,33
+g=gcd(s,t)
+M=s*s*t*t//(g*g)
+z=11993
+assert M==53361 and z%s**2==86 and z%t**2==14 and n%M==z
+assert (86-14)%(g*g)==0 and (86-34)%(g*g)!=0
+~~~
