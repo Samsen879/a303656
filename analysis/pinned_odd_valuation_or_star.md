@@ -257,3 +257,133 @@ control = target((21,*T[1:]))
 assert control == 740393232502
 assert all(hit(control,p,0,75) for p in P)
 ```
+## Projection-density obstruction and exact translated internal pins at 19
+
+At center **19**, two native unit-target rows give an unrestricted, deletion-minimal obstruction. One row, at 2851, pins \((c,d)\equiv(1,7)\pmod{19}\) by itself. Its multiplicative orbit gives **19 distinct exact pins** at the same center. I also proved a projection-size bound that rules out singleton pins for sufficiently dense independent guards. These results leave open whether suitable guards exist at unboundedly many centers.
+
+## When independent guards are too dense to pin
+
+Consider a guard prime \(q>5\) and a unit target \(t\ne0\bmod q\). Let \(h_3,h_5\) be the actual prime-level orders. Suppose the guard observes exponent residues modulo \(s_3\mid h_3\) and \(s_5\mid h_5\). Write \(r_b=h_b/s_b\) for the private order size, and let \(M_t\) be the number of pairs of power values summing to \(t\bmod q\). If \(B_t\) is the number of occupied projected cells, then for \(M_t>0\),
+\[
+B_t\ \ge\
+\max\!\left\{
+\left\lceil\frac{M_t}{\min(r_3,r_5)}\right\rceil,\ 
+\left\lceil
+\frac{M_t^2}{M_t+(r_3-1)(r_5-1)-(\gcd(r_3,r_5)-1)}
+\right\rceil
+\right\}.
+\]
+If \(M_t=0\), the projected relation is empty.
+
+The first bound counts the maximum number of matches in a cell. For the second, two matches in the same cell have the form \((x,y)\) and \((ux,vy)\), where \(u,v\) belong to the two private subgroups. The identity pair contributes \(M_t\) to the second moment. If exactly one multiplier is 1, or if \(u=v\ne1\), there is no match with nonzero summands and \(t\ne0\). Each remaining multiplier pair determines at most one solution to \(x+y=ux+vy=t\). Counting those pairs and applying Cauchy–Schwarz gives the bound.
+
+For independent guards on a common digit grid of size \(D\), put \(S_i=s_{i,3}s_{i,5}\). Assume their full pairwise order gcds are contained in the common grid, and that each discarded prime-square lift digit is private and adjustable. Then at least
+\[
+D\left(1-\sum_i(1-B_i/S_i)\right)
+\]
+grid points survive, with zero as a lower bound when the expression is negative. Each missing local cell rules out \(D/S_i\) grid points, and CRT joins the remaining local choices. In particular, a singleton pin requires a total missing fraction of at least \(1-1/D\). This gives an impossibility test using the lower bounds for \(B_i\), without computing the joint intersection.
+
+This density test complements the earlier order-divisibility obstruction. If no chain from a unit-target row reaches a valuation-one center, its lift digit can be reset to zero. When a guard does reach the center, sufficient projected density can still rule out a pin. The independence hypothesis matters for the counting bound because additional shared digits can make locally surviving choices incompatible.
+
+## A family of native pins at center 19
+
+There is a simple translation rule. Suppose \(v_p(h_3)=v_p(h_5)=1\) at a guard \(q\), and a unit target \(t\) pins one digit pair modulo \(p\). Choose \(\lambda\) of order \(p\) in the intersection of the two base subgroups, and write \(\lambda=3^u=5^v\bmod q\). Multiplying both summands by \(\lambda^j\) bijects the representations of \(t\) and \(t\lambda^j\). The translated target pins the original pair plus \(j(u,v)\bmod p\). Thus one certified pin yields a line of \(p\) distinct pins. The target translation is modulo \(q\). Exact valuation-one lifts require the separate prime-square check.
+
+At \(q=2851\), the actual orders are \(38=2\cdot19\) and \(95=5\cdot19\). Target \(1151\bmod2851\) has exactly one prime-level exponent pair, \((1,7)\), in those cycles. Since \(9=3^2=5^{75}\bmod2851\) has order 19, the 19 unit targets \(1151\cdot9^j\) pin
+\[
+(c,d)\equiv(1+2j,\ 7+75j)\pmod{19}.
+\]
+The replay supplies an exact prime-square lift for every member of the family.
+
+For an unrestricted inconsistency, add guard 271 and take
+\[
+n\equiv(152,\ 4958,\ 80979)\pmod{(19^2,\ 271^2,\ 2851^2)}.
+\]
+The least CRT representative is \(86{,}044{,}526{,}251{,}904\). The guard at 2851 fixes \(c\bmod38\) and \(d\bmod19\). Guard 271 has two prime-level matches, \((1,7)\) and \((16,4)\) in its cycles, and constrains the remaining shared residues. Together with the center’s divisibility condition, only \((1,7)\) survives modulo the center’s full order pair \((342,171)\). Its shift is \(152\bmod361\), so the center fails the exact hit.
+
+| Row removed | Exact-hit witness for the other two |
+|---:|---:|
+| 19 | \((1,7)\) |
+| 271 | \((39,102)\) |
+| 2851 | \((1,34)\) |
+
+Changing only the center residue to 171 gives the positive control \(52{,}018{,}763{,}302{,}367\), hit at all three rows by \((1,7)\). These are unrestricted exponent relations, with no ordinary-height claim. The public project’s N-009 concerns restricted active-shift families. [Public theorem index](https://github.com/Samsen879/a303656/blob/main/docs/THEOREM_INDEX.md)
+
+## Inline exact replay
+
+The standard-library replay retains the full orders at 19, checks the auxiliary lift conditions, and verifies all deletion witnesses and translated pins.
+
+```python
+from math import gcd, isqrt, prod
+
+P = (19, 271, 2851)
+T = (152, 4958, 80979)
+Q = (3, 5)
+
+def cycle(q, m):
+    a = [1]
+    while a[-1]*q % m != 1:
+        a.append(a[-1]*q % m)
+    return a
+
+def pairs(p, t):
+    a, b = (cycle(q, p) for q in Q)
+    index = {y: d for d, y in enumerate(b)}
+    return [(c, index[(t-x) % p]) for c, x in enumerate(a)
+            if (t-x) % p in index]
+
+assert all(all(p % d for d in range(2, isqrt(p)+1)) for p in P)
+h = {p: tuple(len(cycle(q,p)) for q in Q) for p in P}
+L = {
+    p: tuple(b*(p if pow(q,b,p*p) != 1 else 1)
+             for q,b in zip(Q,h[p]))
+    for p in P
+}
+assert list(h.values()) == [(18,9),(30,27),(38,95)]
+assert list(L.values()) == [(342,171),(8130,7317),(108338,270845)]
+for p in P[1:]:
+    assert all(b % p for r in P if r != p for b in L[r])
+    assert any(a != b for a,b in zip(h[p],L[p]))
+assert tuple(gcd(a,b) for a,b in zip(L[271],L[2851])) == (2,1)
+
+assert pairs(271,T[1]) == [(1,7),(16,4)]
+assert pairs(2851,T[2]) == [(1,7)]
+p = P[0]
+A,B = (cycle(q,p*p) for q in Q)
+survivors = {
+    (c,d) for c,x in enumerate(A) for d,y in enumerate(B)
+    if (x+y) % p == 0 and c % 38 == 1 and d % 19 == 7
+    and (c % 6,d % 9) in {(1,7),(4,4)}
+}
+assert survivors == {(1,7)}
+assert (A[1]+B[7]) % (p*p) == T[0]
+
+def crt(residues):
+    M = prod(p*p for p in P)
+    return sum(t*(M//(p*p))*pow(M//(p*p),-1,p*p)
+               for t,p in zip(residues,P)) % M
+
+def hit(n,p,c,d):
+    z = (n-pow(3,c,p*p)-pow(5,d,p*p)) % (p*p)
+    return z != 0 and z % p == 0
+
+n = crt(T)
+assert n == 86044526251904
+for removed,w in zip(P,[(1,7),(39,102),(1,34)]):
+    assert {p for p in P if hit(n,p,*w)} == set(P)-{removed}
+
+control = crt((171,*T[1:]))
+assert control == 52018763302367
+assert all(hit(control,p,1,7) for p in P)
+
+q = 2851
+targets = set()
+for j in range(19):
+    c,d = 1+2*j, 7+75*j
+    t = 1151*pow(9,j,q) % q
+    targets.add(t)
+    assert {(x % 19,y % 19) for x,y in pairs(q,t)} == {(c % 19,d % 19)}
+    lift = (pow(3,c,q*q)+pow(5,d,q*q)+q) % (q*q)
+    assert lift % q == t and hit(lift,q,c,d)
+assert len(targets) == 19
+```
