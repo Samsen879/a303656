@@ -142,3 +142,144 @@ if (val(later+49n*t-126n,5)>3) t+=7n;
 const pinned=solve(later+49n*t,35n,true);
 check(pinned.s===2 && pinned.best[0]===later && pinned.best[3]===2);
 ```
+
+## Two free lift coordinates: at most \(2p\) slices
+
+The passive-coordinate refinement in draft PR #85 can be removed for a fixed prime-level phase with two free lift coordinates. **At most \(2p\) slices suffice to find the minimum ordinary shift with positive residual of even valuation.** Each slice has an exact one-axis minimum that takes at most two further height checks after its baseline. A native \(7,11\) example also shows that the minimizing lift can require **both** axes. [Draft PR #85](https://github.com/Samsen879/a303656/pull/85/files)
+
+## A bounded search with both coordinates free
+
+Fix the target \(n\), preserve the other rows’ residues, and work in a single prime-level phase
+\[
+c=c_0+H_3i,\qquad d=d_0+H_5j,\qquad i,j\ge0.
+\]
+Write \(X=3^{c_0},\,Y=5^{d_0},\,A=3^{H_3},\,B=5^{H_5}\). Both \(A\) and \(B\) are \(1\bmod p\). The ordinary shift is \(XA^i+YB^j\), and we require it to be strictly below \(n\).
+
+First consider one axis, with the other summand held fixed. Let \(R_0>0\) be the residual at index zero, and let \(s=v_p(A-1)\) for the moving axis.
+
+- If \(v_p(R_0)\) is even, index zero is the minimum. If \(v_p(R_0)<s\) is odd, that valuation is constant along the axis.
+- If \(v_p(R_0)\ge s\) is odd and \(s\) is even, index 1 gives exact valuation \(s\), provided it lies below the height bound.
+- If both \(v_p(R_0)\ge s\) and \(s\) are odd, solve
+  \[
+  X\frac{A-1}{p^s}\,i_0\equiv R_0/p^s\pmod p,\qquad 0\le i_0<p.
+  \]
+  Every index below \(i_0\) has valuation \(s\). If \(i_0\) gives a positive residual of any even valuation, it is the minimum. If it gives a positive residual of odd valuation, the next possible index is \(i_0+p\), which gives exact valuation \(s+1\). The indices strictly between them have valuation \(s\). If \(i_0\) reaches or exceeds \(n\) in shift, the axis has no witness.
+
+For the two-axis search, if the baseline residual has odd valuation below both adjustment depths, the entire phase has that odd valuation. Otherwise choose an axis whose adjustment depth is at most the baseline valuation. On that axis, the same lifting argument supplies a **modular cutoff index** \(J\le2p-1\): use index 1 when its depth \(s\) is even, or the first of \(i_0,i_0+p\) giving exact valuation \(s+1\) when \(s\) is odd. The cutoff may be above the ordinary height bound.
+
+Any point with index greater than \(J\) on the chosen axis has shift greater than the cutoff shift. If the cutoff is below \(n\), that larger point cannot be a minimum. If the cutoff is at or above \(n\), the larger point is outside the ordinary window anyway. Thus it suffices to inspect indices \(0,\ldots,J\) on that axis and solve the other axis exactly on each slice. If both axes supply cutoffs, use the smaller index bound. This argument permits unequal adjustment depths and partially pinned lift digits.
+
+## Native mixed minimum
+
+Use center 7, preserve a unit residual at 11, and take \(c=30i,\ d=30j\). Both bases have order 6 modulo 7 and order 5 modulo 11. At
+\[
+n=867361737988403547205962240695953369142978
+\]
+the residual is a unit at 11 throughout the phase. At 7, divisibility by \(7^2\) is equivalent to \(i+j\equiv2\bmod7\). The three smallest possible shifts under that condition are the two axis points and the mixed point below. All three lie below the **same** target and give exact valuation two.
+
+| Lift | Exponents \((c,d)\) | Shift |
+|---|---:|---:|
+| Mixed minimum | \((30,30)\) | \(931322780506610610274\) |
+| First axis minimum | \((60,0)\) | \(42391158275216203514294433202\) |
+| Second axis minimum | \((0,60)\) | \(867361737988403547205962240695953369140626\) |
+
+Two controls preserve the same target residue modulo \(11\cdot7^3\). At \(931322780506610610470\), the mixed witness fits but neither axis has a witness. At \(275\), the phase has **no ordinary witness**, although the even-valuation modular lifts still exist. These statements concern the fixed phase and the two tested primes. They do not establish a two-square representation or settle a full finite cover.
+
+## Inline independent replay
+
+An independent JavaScript replay follows. It compares the bounded slice search with direct ordinary-height enumeration for all three targets and separately verifies the axis minima.
+
+```javascript
+const p = 7n, A = 3n**30n, B = 5n**30n, M = 11n*p**3n;
+const mod = (x,m) => (x%m+m)%m;
+function check(ok) { if (!ok) throw Error("assertion"); }
+
+function val(x) {
+    check(x !== 0n);
+    let v=0;
+    while (x%p===0n) { x/=p; v++; }
+    return v;
+}
+function pow(x,e,m) {
+    let y=1n;
+    while (e) {
+        if (e%2n) y=y*x%m;
+        x=x*x%m;
+        e/=2n;
+    }
+    return y;
+}
+function root(X,a,s,R) {
+    const D=p**BigInt(s);
+    const slope=mod(X*((a-1n)/D),p);
+    return mod((R/D)*pow(slope,p-2n,p),p);
+}
+
+// Least index with positive residual of even valuation.
+function axis(n,X,a,Y) {
+    const R=n-X-Y;
+    if (R<=0n) return null;
+    const v=val(R), s=val(a-1n);
+    if (v%2===0) return 0n;
+    if (v<s) return null;
+    if (s%2===0) return n-X*a-Y>0n ? 1n : null;
+    const j=root(X,a,s,R), r=n-X*a**j-Y;
+    if (r<=0n) return null;
+    if (val(r)%2===0) return j;
+    return n-X*a**(j+p)-Y>0n ? j+p : null;
+}
+
+function cutoff(n,X,a,Y) {
+    const s=val(a-1n), R=n-X-Y;
+    if (val(R)<s) return null;
+    if (s%2===0) return 1n;
+    const j=root(X,a,s,R);
+    return (n-X*a**j-Y)%p**BigInt(s+2)===0n ? j+p : j;
+}
+
+function solve(n) {
+    if (n<=2n) return null;
+    if (val(n-2n)%2===0) return [2n,0n,0n];
+    const J=cutoff(n,1n,A,1n), K=cutoff(n,1n,B,1n);
+    if (J===null && K===null) return null;
+    const flip=J===null || (K!==null && K<J);
+    const [a,b,last]=flip ? [B,A,K] : [A,B,J];
+    let best=null;
+    for (let i=0n; i<=last; i++) {
+        const X=a**i;
+        if (X+1n>=n || (best && X+1n>=best[0])) break;
+        const j=axis(n,1n,b,X);
+        if (j===null) continue;
+        const S=X+b**j;
+        if (!best || S<best[0]) best=flip ? [S,j,i] : [S,i,j];
+    }
+    return best;
+}
+
+function brute(n) {
+    let best=null;
+    for (let i=0n; A**i+1n<n; i++)
+        for (let j=0n; A**i+B**j<n; j++) {
+            const S=A**i+B**j;
+            if (val(n-S)%2===0 && (!best || S<best[0])) best=[S,i,j];
+        }
+    return best;
+}
+
+const n0=275n, tight=931322780506610610470n;
+const n=867361737988403547205962240695953369142978n;
+for (const t of [n0,tight,n]) {
+    check(mod(t-n0,M)===0n && t%11n===0n);
+    check(String(solve(t))===String(brute(t)));
+}
+check([A,B].every(x => x%7n===1n && x%11n===1n && val(x-1n)===1));
+check(mod((A-1n)/p,p)===2n && mod((B-1n)/p,p)===2n);
+check(solve(n0)===null);
+check(axis(tight,1n,A,1n)===null && axis(tight,1n,B,1n)===null);
+check(String(solve(tight))===String([A+B,1n,1n]));
+check(String(solve(n))===String([A+B,1n,1n]));
+check(axis(n,1n,A,1n)===2n && axis(n,1n,B,1n)===2n);
+for (const S of [A*A+1n,A+B,1n+B*B])
+    check(S<n && val(n-S)===2 && (n-S)%11n!==0n);
+check(A+B<A*A+1n && A+B<1n+B*B);
+```
