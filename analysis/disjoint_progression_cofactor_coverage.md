@@ -172,3 +172,70 @@ for k in (1, 2):
     assert pow(3, r, C) == 1
     assert len({pow(3, c, C) for c in range(2, 2+r, 2)}) == r//2
 ~~~
+
+## Ceiling for every fixed set of inert square-factor primes
+
+For fixed \(P\) of \(h\ge1\) inert primes, restricting the *odd* stripped square part to be supported on \(P\) gives
+\[
+O_{a,P}\!\left(X(\log X)^{3/2-2a}(\log\log X)^h\right)
+\]
+distinct targets in \([X,2X]\). For **odd** targets, the power of \(\log\log X\) improves to \(h-1\). In either case, fixed-support positive-fraction coverage stops at \(a=3/4\). This upper bound includes all positive residual sizes.
+
+### Why splitting the periods cannot help enough
+
+There is an exact obstruction to moving the two exponents independently inside a fixed congruence cell. For \(j,k\ge1\) and \(s=3^j7^k\), lifting the exponent gives
+\[
+\operatorname{ord}_{s^2}(5)
+=\operatorname{lcm}(2\cdot3^{2j-1},\,6\cdot7^{2k-1})
+=\frac{2s^2}{21}.
+\]
+Here \(5\) has order \(6\) modulo \(7\) and \(v_7(5^6-1)=1\). If a cell preserves \(3^c+5^d\bmod s^2\) while holding \(c\) fixed, two different \(d\)'s must be separated by at least \(2s^2/21\). Bulk certificates require \(s\gg_a(\log X)^a\). For \(a>1/2\), that period exceeds the entire available \(d\)-range for sufficiently large \(X\). A coupled change in \(c,d\) could preserve the sum without preserving each term. The counting bound below covers those changes too.
+
+### A ceiling for the distinct-target count
+
+Put \(L=(\log X)^a\). The prime number theorem in \(3\bmod4\) gives a uniform cutoff \(q_1q_2\ll_a X/L^2\) for \(n\in[X,2X]\). Every accepted residual has the form \(m=2^\epsilon s^2u\), with \(\epsilon\in\{0,1\}\), \(u\) a two-square norm, and \(u\ll_a X/L^2\). These are necessary conditions, so counting all such triples gives an upper bound. [Davenport, *Multiplicative Number Theory*, Chapters 20–22](https://link.springer.com/book/9780387950976) · [Repository theorem assets, AUX-01 and K2-N1](https://github.com/Samsen879/a303656/blob/main/analysis/direct_original_problem_phase_i_k2/THEOREM_ASSETS.md)
+
+Here \(s\) may also contain the prime 2, from half of the even part of the stripped valuation of 2. For odd targets \(m\) is odd since both powers are odd. Write \(P'\) for the square-factor support actually used: \(P\cup\{2\}\) for general targets, \(P\) for odd targets. In the counting estimates below let \(h'=|P'|\) be its size. The number of \(P'\)-supported integers in \([t,2t]\) is \(O_P((1+\log t)^{h'-1})\). Fix the exponents at \(h-1\) primes and the last exponent has only a bounded number of choices in a factor-two interval. Dyadic summation gives
+\[
+\sum_{\substack{s\ge t\\s\text{ supported on }P'}}\frac1{s^2}
+\ll_P \frac{(1+\log t)^{h'-1}}{t^2}.
+\]
+
+- **Labels \(3^c+5^d\le X/2\).** There are \(O((\log X)^2)\) pairs, and every residual is at least \(X/2\). Thus \(s\gg_a L\). For \(s\le X^{1/4}\), the Landau bound counts the possible norms \(u\) by \(O(X/(s^2\sqrt{\log X}))\). The weighted sum above gives \(O_{a,P}(X(\log\log X)^{h'-1}/(L^2\sqrt{\log X}))\) residuals per label. The larger \(s\) contribute at most \(O(X^{3/4})\) per label by summing \(2X/s^2\) over all integers.
+- **Labels \(X/2<3^c+5^d<2X\).** One of the two powers exceeds \(X/4\), so its exponent has only \(O(1)\) choices. This leaves \(O(\log X)\) pairs, including every label that could give a small residual. For \(s\ll_a L\), there are \(O_{a,P}((\log\log X)^{h'})\) possible \(s\), and the cutoff and Landau bound give \(O_a(X/(L^2\sqrt{\log X}))\) cofactors per \(s\). For larger \(s\), the preceding weighted-tail estimate applies. This contribution is smaller than the first by \(O_{a,P}(\log\log X/\log X)\).
+
+Each actual label and residual determine one target. The resulting ceiling holds even if every cell is disjoint and every retained incidence gives a different \(n\). At \(a=1\) and \(P=\{3,7\}\), it gives \(O(X(\log\log X)^2/\sqrt{\log X})\) targets. A bounded-mean collision estimate for two moving bases therefore cannot deliver positive-fraction coverage in this fixed-support framework. Families whose allowed prime support grows with \(X\) remain open in this audit.
+
+### Sharp small replay
+
+For \(a=3/4\) and \(n=27631\), the screen is \(29\), and the first two unscreened inert primes are \(31,43\). Both labels strip exactly \(9\).
+
+| Actual label \((c,d)\) | Residual | Cofactor | Result |
+|---|---:|---:|---|
+| \((4,6)\) | \(11925=30^2+105^2\) | \(1325\) | Accepted |
+| \((2,6)\) | \(11997=9\cdot31\cdot43\) | \(1333\) | Rejected at equality |
+
+I replayed the controls with trial division and independently checked the two-square outcomes with integer square roots. I also checked the period formula by enumerating the modular orbits for \(s=21,63,147\).
+
+```python
+from math import isqrt, log
+
+n = 27631
+assert 29 < n**0.5 / log(n)**0.75 < 30
+inert = [p for p in range(3, 60, 4)
+         if all(p % t for t in range(2, isqrt(p) + 1))]
+assert [p for p in inert if p > 29][:2] == [31, 43]
+
+for c, u, good in ((4, 1325, True), (2, 1333, False)):
+    m = n - 3**c - 5**6
+    assert m == 9*u and u % 4 == 1
+    assert all(u % p for p in inert if p <= 29)
+    assert (u < 31*43) == good
+    assert any(m-x*x == isqrt(m-x*x)**2
+               for x in range(isqrt(m//2) + 1)) == good
+
+for s in (21, 63, 147):
+    period = 2*s*s//21
+    assert pow(5, period, s*s) == 1
+    assert len({pow(5, d, s*s) for d in range(period)}) == period
+```
