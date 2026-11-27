@@ -36,7 +36,7 @@ For the full obstruction mass \(\beta_{\mathcal C}\) in an earlier class \(\math
 
 ## Independent exact control
 
-At a genuine cell, the old exponent cylinder modulo 90 fixes the phase coordinates relevant to the 2, 3, 7, 11 and 19 support tests (with the nonunit \(3\)-power set to zero at 3 in the profinite phase). At \(q=47\), the \(5\)-order is 46; with fixed first axis, one old residue class gives exactly one collision in the free 23-point orbit while the opposite-parity class gives none. The test illustrates the order mechanism, not the asymptotic tail bound.
+At a genuine cell, the old exponent cylinder modulo 90 fixes the prime-to-local-prime order residues at the inert primes 3, 7, 11 and 19, but need not fix their full support tests. At \(q=47\), the \(5\)-order is 46; with fixed first axis, one old residue class gives exactly one collision in the free 23-point orbit while the opposite-parity class gives none. The test illustrates the order mechanism, not the asymptotic tail bound.
 
 ~~~javascript
 const n = 10000804849n;
