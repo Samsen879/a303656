@@ -133,3 +133,103 @@ ok(first(T,25n,Q)===4n);
 for(let j=0n;j<4n;j++)ok(Q.some(p=>v(T-1n-25n**j,p)%2===1));
 ok(Q.every(p=>(T-1n-25n**4n)%p!==0n));
 ```
+
+
+## 三、跨相位反控：两两有普通见证，三行合并无解
+
+### 反控与同余正控
+
+取中心 \(7,19,23\)，外部矩形类为 \(c\equiv d\equiv0\pmod{55}\)。由于 \(3^{55}\equiv5^{55}\equiv1\pmod{121}\)，这个类保留第 11 行的完整模 \(121\) 余数。设
+\[
+n=5^{55}+1+2089266102122,\qquad
+M=7^3\,19^3\,23^3\,11^2.
+\]
+这里 \(n\equiv3\pmod{121}\)，所以第 11 行始终是单位余数。由移位的单调性，严格低于 \(n\) 的指数对恰有以下三个：
+
+| \((c,d)\) | \(v_7,v_{19},v_{23}\) | 同一中心相位的模修复 |
+|---|---|---|
+| \((0,0)\) | \((1,0,0)\) | \((990,0)\) |
+| \((55,0)\) | \((0,1,0)\) | \((15895,0)\) |
+| \((0,55)\) | \((0,0,1)\) | \((3960,55)\) |
+
+右列各点保留相应行的指数模 \(990\) 数据，且在三个中心的余数赋值均为 0 或 2。三点的移位都大于 \(n\)。因此删去任一中心后恰有一个普通见证，三行合并则为零。这个结论直接检查整个外部矩形类的普通窗口，无需预设小截断点。
+
+作同余正控，取
+\[
+n_+=3^{990}+1+3092451464759944.
+\]
+它与 \(n\) 同余模 \(M\)。在 \(n_+\) 下，穷举与带符号 CRT 均数得 **112 个面板见证**。其中 \((990,0)\) 的中心赋值为 \((2,0,0)\)，但其余数在遗漏的素数 31 处赋值恰为 1，所以这个见证的余数不能写成两平方。
+
+同一目标与同一外部矩形类中，两两筛查有普通见证不能推出三行共同见证。仍只涉及有限局部面板。
+
+### 最短独立复验
+
+以下 JavaScript 独立运行， 已用 `BigInt` 运行通过，核对三行与全部删行计数、三个相位外的模修复，以及同余正控。
+
+```javascript
+const P=[7n,19n,23n], A=3n**55n, B=5n**55n;
+const n=1n+B+2089266102122n, up=3n**990n+1n+3092451464759944n;
+const M=121n*P.reduce((m,p)=>m*p**3n,1n);
+const mod=(a,m)=>(a%m+m)%m;
+function ok(x){if(!x)throw Error("assertion")}
+function pow(a,k,m){let x=1n;while(k){if(k%2n)x=x*a%m;a=a*a%m;k/=2n}return x}
+function v(x,p){ok(x>0n);let e=0;while(x%p===0n){x/=p;e++}return e}
+function merge([a,m],[b,k]){
+    let g=m,d=k,u=1n,w=0n;
+    while(d){const q=g/d;[g,d]=[d,g%d];[u,w]=[w,u-q*w]}
+    return (b-a)%g?null:[a+m*mod(u*((b-a)/g),k/g),m*k/g];
+}
+function slice(N,x,J,primes){
+    let out=[[0n,1n,1n]];
+    for(const p of primes){
+        let h=1n,z=B%p;
+        while(z!==1n){z=z*B%p;h++}
+        let a=0n,m=1n,w=1n,local=[[a,m,w]];
+        for(let q=p;q<N;q*=p){
+            const f=q===p?h:pow(B,m,q)===1n?1n:p;
+            let j=0n;
+            while(j<f && a+m*j<=J && (N-x-pow(B,a+m*j,q))%q)j++;
+            if(j===f||a+m*j>J)break;
+            a+=m*j;m*=f;w=-w;
+            local.push([a,m,w]);
+        }
+        out=out.flatMap(([a,m,w])=>local.flatMap(([b,k,z])=>{
+            const g=merge([a,m],[b,k]);
+            return g&&g[0]<=J?[[...g,w*z]]:[];
+        }));
+    }
+    return out.reduce((s,[a,m,w])=>s+w*(1n+(J-a)/m),0n);
+}
+function counts(N,primes){
+    let brute=0n,crt=0n;
+    for(let x=1n;x+1n<N;x*=A){
+        let J=-1n;
+        for(let y=1n;x+y<N;y*=B){
+            J++;
+            if(primes.every(p=>v(N-x-y,p)%2===0))brute++;
+        }
+        crt+=slice(N,x,J,primes);
+    }
+    ok(brute===crt);
+    return crt;
+}
+
+ok(A%121n===1n&&B%121n===1n&&n%121n===3n&&(up-n)%M===0n);
+ok(1n+B<n&&n<A+B&&n<A*A+1n&&n<1n+B*B);
+const s=(c,d)=>3n**c+5n**d;
+const points=[[0n,0n],[55n,0n],[0n,55n]];
+const repairs=[[990n,0n],[15895n,0n],[3960n,55n]];
+for(let i=0;i<3;i++){
+    ok(P.every((p,j)=>v(n-s(...points[i]),p)===Number(i===j)));
+    ok(repairs[i].every((e,j)=>(e-points[i][j])%990n===0n));
+    ok(s(...repairs[i])>n);
+    ok(P.every(p=>{
+        const r=mod(n-s(...repairs[i]),p**3n);
+        return r%p!==0n||(r!==0n&&r%p**2n===0n);
+    }));
+    ok(counts(n,P.filter((_,j)=>j!==i))===1n);
+}
+ok(counts(n,P)===0n && counts(up,P)===112n);
+const residual=up-s(...repairs[0]);
+ok(P.every(p=>v(residual,p)%2===0)&&v(residual,31n)===1);
+``` 
